@@ -1,18 +1,107 @@
 import React from 'react'
+import footerImg from '../assets/images/footer_bg.png'
+import swasthLogo from '../assets/images/swasth-logo-dark.png'
+import unitedStates from '../assets/images/united-states.png'
 
-const Footer = (props) => (
+ const Footer = (props) => (
     <footer id="footer">
         <div className="inner">
-            <ul className="icons">
-                <li><a href="#" className="icon alt fa-twitter"><span className="label">Twitter</span></a></li>
-                <li><a href="#" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
-                <li><a href="#" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
-                <li><a href="#" className="icon alt fa-github"><span className="label">GitHub</span></a></li>
-                <li><a href="#" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
-            </ul>
-            <ul className="copyright">
-                <li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-            </ul>
+          <img className='footer-bg' src={footerImg}/>
+      <div>
+        <div className="footer-widgets-wrap pb-4 clearfix">
+          <div className="footer-row">
+            <div className="col-md-8">
+
+              <div className="widget clearfix">
+
+               <img style={{left:'20%'}} src={swasthLogo}/>
+
+              </div>
+
+            </div>
+
+            <div className="col-md-4">
+
+              <div className="widget clearfix">
+
+                <h4>Swasth</h4>
+
+                <ul className="list-unstyled iconlist ml-0">
+                  <li><a href="https://provider.swasth.co">Clinicians</a></li>
+                  <li><a href="#">Members</a></li>
+                </ul>
+
+              </div>
+
+            </div>
+            <div className="col-md-4">
+
+              <div className="widget clearfix">
+
+                <h4>Products</h4>
+
+                <ul className="list-unstyled iconlist ml-0">
+                  <li><a href="/dbt-coach">DBT Coach</a></li>
+                  <li><a href="/">DBT Daily</a></li>
+                  <li><a href="/">CBT Companion</a></li>
+                  <li><a href="/">ACT Coach</a></li>
+                  <li></li>
+                  <li><a href="https://findprovider.swasth.co">Find Provider</a></li>
+
+                </ul>
+
+              </div>
+
+            </div>
+
+            <div className="col-md-4">
+
+              <div className="widget clearfix">
+
+                <h4>Social</h4>
+
+                <ul className="list-unstyled iconlist">
+                  <li><i className="icon-facebook"></i><a href="https://www.facebook.com/swasthapps/"
+                                                          target="_blank"> Facebook</a></li>
+                  <li><i className="icon-twitter"></i><a href="https://www.twitter.com/swasthapps/"
+                                                         target="_blank"> Twitter</a></li>
+                  <li><i className="icon-instagram"></i><a href="https://www.instagram.com/swasthapps/"
+                                                           target="_blank"> Instagram</a></li>
+                  <li><i className="icon-youtube"></i><a href="https://www.youtube.com/channel/UCtM20mp-kA1xkKdWA5Q-9KA"
+                                                         target="_blank"> YouTube</a></li>
+                </ul>
+
+              </div>
+
+            </div>
+            <div className='col-md-4' />
+
+          </div>
+
+        </div>
+
+        <div className="line line-sm m-0"></div>
+
+      </div>
+      <div id="copyrights" className="nobg">
+
+        <div className="container clearfix">
+
+          <div className="col_half">
+            <div className="copyright-links -highlighted-secondary-text"><a>Terms of Use</a> {'   '} <a>Privacy
+              Policy</a></div>
+            <div style={{  color: 'rgba(0,0,0,0.2)'}}>
+            Copyrights &copy; 2019 All Rights Reserved by Swasth Inc.<br />
+            </div>
+            <div className='-highlighted-secondary-text' style={{display:'flex',alignItems:'center'}}>
+              <img style={{position:'initial',width:'24px',marginRight:'10px'}} src={unitedStates}/>
+              {' '}English
+            </div>
+          </div>
+
+        </div>
+
+      </div>
         </div>
     </footer>
 )

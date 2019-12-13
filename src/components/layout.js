@@ -1,11 +1,10 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 import '../assets/scss/main.scss'
 import Header from './Header'
-import Menu from './Menu'
-import Contact from './Contact'
 import Footer from './Footer'
+import BG from '../assets/images/BG.png'
+// import footerImg from '../assets/images/footer_bg.png'
 
 class Layout extends React.Component {
     constructor(props) {
@@ -14,7 +13,6 @@ class Layout extends React.Component {
             isMenuVisible: false,
             loading: 'is-loading'
         }
-        this.handleToggleMenu = this.handleToggleMenu.bind(this)
     }
 
     componentDidMount () {
@@ -29,24 +27,19 @@ class Layout extends React.Component {
         }
     }
 
-    handleToggleMenu() {
-        this.setState({
-            isMenuVisible: !this.state.isMenuVisible
-        })
-    }
-
     render() {
         const { children } = this.props
-
         return (
-            <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
+            <div className={`body ${this.state.loading}`}>
+                {/*<img className='absoluted-header-image' src={BG}/>*/}
+                <img src={BG} className='home-bg-img'/>
                 <div id="wrapper">
-                    <Header onToggleMenu={this.handleToggleMenu} />
+                    <Header />
                     {children}
-                    <Contact />
-                    <Footer />
                 </div>
-                <Menu onToggleMenu={this.handleToggleMenu} />
+                <Footer />
+
+                {/*<img src={footerImg}/>*/}
             </div>
         )
     }

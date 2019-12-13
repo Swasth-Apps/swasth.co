@@ -130,3 +130,21 @@
 			opacity: 0.25;
 		}
 	}
+
+.-btn-primary{
+	border: 1px solid transparent;
+	height: 45px;
+	width: 180px;
+	border-radius: 60px;
+	background-color: _palette(secondary-color);
+	box-shadow: 0 2px 34px 0 rgba(0,0,0,0.09);
+	font-size: 12px;
+	color: _palette(bg);
+	&:hover{
+		box-shadow: none;
+		color: _palette(bg);
+	}
+	&:active{
+		box-shadow: none;
+	}
+}

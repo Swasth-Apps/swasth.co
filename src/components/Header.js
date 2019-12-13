@@ -1,12 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import swasthLogo from '../assets/images/swasth-logo-dark.png'
+import bannerGraphic from '../assets/images/Banner_graphic.png'
+import { Col, Row } from 'antd'
 
 const Header = (props) => (
     <header id="header" className="alt">
-        <Link to="/" className="logo"><strong>Forty</strong> <span>by HTML5 UP</span></Link>
-        <nav>
-            <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;">Menu</a>
+        <nav className='header-nav'>
+            <img className='logo-resize' src={swasthLogo} alt='Swasth'/>
+            <div className="menu-content" href="javascript:;">Clinician</div>
         </nav>
     </header>
 )
