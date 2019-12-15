@@ -189,3 +189,34 @@
     }
   }
 }
+
+@media (max-width: 768.5px) {
+  #copyrights{
+    border-top: 2px dashed _palette(primary-color);
+    padding-top: 10px;
+    .col_half{
+      display: block;
+      text-align: center;
+    }
+  }
+  .footer-bg{
+    display: none;
+  }
+  .footer-widgets-wrap {
+    background-color: #DDD;
+    .footer-row {
+      display: flex;
+      flex: 1 1 100%;
+      flex-wrap: wrap;
+      align-items: baseline;
+
+      .col-md-8 {
+        display: none;
+      }
+
+      .col-md-4 {
+        flex: 1 1 50%;
+      }
+    }
+  }
+}

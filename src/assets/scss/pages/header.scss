@@ -1,17 +1,20 @@
 .header-nav {
-  .menu-content{
+  .menu-content {
     color: _palette(bg);
     cursor: pointer;
   }
+
   .logo-resize {
     width: 150px;
     height: 50px;
     cursor: pointer;
   }
 }
+
 .body {
   position: relative;
   overflow-x: hidden;
+
   .home-bg-img {
     transform: translateY(-50%) rotate(-2deg);
     max-width: 133%;
@@ -19,87 +22,105 @@
     left: 0%;
     z-index: 0;
   }
- .home-section-group{
-   transform: translateY(4%);
- }
-  .border-section-group{
+
+  .home-section-group {
+    transform: translateY(4%);
+  }
+
+  .border-section-group {
     background: _palette(bg-color);
     transform: translateY(8%);
     margin: 0 -17.5em;
-    .card-row{
+
+    .card-row {
       margin: 0 auto;
       max-width: 65em;
     }
   }
 }
-.card-row{
+
+.card-row {
   display: flex;
   align-items: center;
   padding: 32px;
 
-  .blog-container{
+  .blog-container {
     width: 100%;
     margin-right: 10px;
-    box-shadow: 0 6px 8px 0 rgba(164,164,164,0.21);
+    box-shadow: 0 6px 8px 0 rgba(164, 164, 164, 0.21);
     position: relative;
-    h5{
+
+    h5 {
       padding: 10px;
       margin: 0;
       font-size: 18px;
       font-weight: 500;
     }
-    .blog-user{
-      padding: 10px;
+
+    .blog-user {
+      padding: 10px 20px;
       font-size: 16px;
       color: _palette(blog-user);
     }
   }
-  .question-container{
+
+  .question-container {
     box-sizing: border-box;
     border-radius: 6px;
     background-color: _palette(bg);
     border: 1px solid #F2F2F2;
-    box-shadow: 0 2px 22px 0 rgba(51,51,51,0.06);
+    box-shadow: 0 2px 22px 0 rgba(51, 51, 51, 0.06);
   }
+
   //margin: 30px 0;
-  .card-col{
+  .card-col {
     white-space: initial;
     cursor: pointer;
-    h2{
+
+    h2 {
       font-size: 50px;
       line-height: 1.2;
     }
   }
-.provider-card-btn{
-background: _palette(bg);
-  box-shadow: 0 2px 34px 0 rgba(0,0,0,0.09);
+
+  .provider-card-btn {
+    background: _palette(bg);
+    box-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+  }
 }
-}
-.-row-flex-space-evenly{
+
+.-row-flex-space-evenly {
   justify-content: space-evenly;
 }
-.-row-flex-center{
+
+.-row-flex-center {
   justify-content: center;
 }
-.-row-flex-space-between{
+
+.-row-flex-space-between {
   justify-content: space-between;
 }
-.-highlighted-text{
+
+.-highlighted-text {
   color: _palette(primary-color);
   font-weight: 600;
 }
-.-highlighted-secondary-text{
+
+.-highlighted-secondary-text {
   color: _palette(secondary-color);
   font-weight: 600;
 }
 
-.-justified-text{
+.-justified-text {
   text-align: justify;
 }
-.bottom-space{
+
+.bottom-space {
   margin: 0 0 0.3em 0;
 }
-.-margin-right{
+
+.-margin-right {
   margin-right: 2rem;
 }
 
@@ -107,15 +128,17 @@ background: _palette(bg);
 .custom-image{
   max-width: 100%;
 }*/
-.btn-class{
+.btn-class {
   position: absolute;
   width: 100%;
   margin-top: 20px;
 }
-.-font-bold{
+
+.-font-bold {
   font-weight: bold;
 }
-.img-tag{
+
+.img-tag {
   background: _palette(secondary-color);
   color: _palette(bg);
   position: absolute;
@@ -127,16 +150,165 @@ background: _palette(bg);
 }
 
 //DBTCoach
-.semi-title{
+.semi-title {
   font-size: 14px;
 }
-.dbt-box-container{
+
+.dbt-box-container {
   border-radius: 15px;
   background-color: #FFF;
-  box-shadow: 10px 20px 60px 0 rgba(0,0,0,0.06);
-  .dbt-box-border{
+  box-shadow: 10px 20px 60px 0 rgba(0, 0, 0, 0.06);
+
+  .dbt-box-border {
     border-top: 3px solid _palette(primary-color);
-    box-shadow: 12px 47px 69px 0 rgba(0,0,0,0.05);
+    box-shadow: 12px 47px 69px 0 rgba(0, 0, 0, 0.05);
     border-radius: 14px;
+  }
+}
+
+.react-multiple-carousel__arrow {
+  padding: 0 20px;
+  &:hover{
+    box-shadow: inset 0 0 0 2px #000000;
+  }
+}
+
+.testimonials-blogs {
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: _palette(bg);
+  border: 1px solid #F2F2F2;
+  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin: 25px 0;
+  .testimonial-user-name{
+    color: _palette(primary-color);
+  }
+  .blog-user{
+    display: flex;
+    align-items: center;
+  }
+.testimonial-user-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+  h6 {
+    color: #7E8085;
+    //font-family: "Noto Serif";
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px;
+  }
+}
+
+.react-multi-carousel-item {
+  opacity: 0.4;
+}
+
+.react-multi-carousel-item--active {
+  opacity: 1;
+  transform: scale(1.1);
+  z-index: 5;
+  transition: all .5s linear;
+}
+
+.react-multi-carousel-track {
+  padding: 25px;
+}
+
+.custom-carousel-icon{
+  font-size: 38px;
+  position: absolute;
+  color: _palette(primary-color);
+  cursor: pointer;
+  &:hover{
+    color: _palette(secondary-color);
+  }
+  &:focus{
+    outline: none;
+  }
+}
+.-right-icon{
+  right: 0;
+}
+
+@media (max-width: 768.5px) {
+  #wrapper{
+    margin: 0;
+    width: 100%;
+    #header{
+      padding: 0 15px;
+    }
+    .home-section-group{
+      transform: translateY(2%);
+    }
+  }
+
+  .card-row {
+    display: block;
+    text-align: justify;
+    .ant-col {
+      width: fit-content;
+      margin: auto;
+
+      h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .border-section-group {
+    margin: auto !important;
+
+    .card-row {
+      margin: 0 auto;
+      text-align: justify;
+      max-width: 100%;
+      .-btn-primary{
+        margin-top: 15px;
+      }
+    }
+  }
+
+  .divider{
+    border-bottom: 2px dashed _palette(primary-color);
+    margin: 0 20px;
+  }
+  .blog-container{
+    margin-right: 15px !important;
+    min-width: 250px;
+  }
+  .blog-container-card-row {
+    width: 100%;
+    .ant-col{
+      width: 100%;
+    }
+    .blog-container-row {
+      padding: 10px;
+      overflow-x: auto;
+      width: 100%;
+    }
+  }
+  .all-testimonials{
+    padding-bottom: 20px !important;
+  }
+  .-asked-question-card{
+    padding: 0 20px;
+    .question-container{
+      margin-bottom: 10px;
+    }
+  }
+  .dbt-box-border{
+    margin-bottom: 75px;
+  }
+  .-padding-zero{
+    padding: 0;
   }
 }

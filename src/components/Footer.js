@@ -42,9 +42,9 @@ import unitedStates from '../assets/images/united-states.png'
 
                 <ul className="list-unstyled iconlist ml-0">
                   <li><a href="/dbt-coach">DBT Coach</a></li>
-                  <li><a href="/">DBT Daily</a></li>
-                  <li><a href="/">CBT Companion</a></li>
-                  <li><a href="/">ACT Coach</a></li>
+                  <li><a href="/dbt-daily">DBT Daily</a></li>
+                  <li><a href="/cbt-companion">CBT Companion</a></li>
+                  <li><a href="/act-coach">ACT Coach</a></li>
                   <li></li>
                   <li><a href="https://findprovider.swasth.co">Find Provider</a></li>
 
@@ -93,7 +93,7 @@ import unitedStates from '../assets/images/united-states.png'
             <div style={{  color: 'rgba(0,0,0,0.2)'}}>
             Copyrights &copy; 2019 All Rights Reserved by Swasth Inc.<br />
             </div>
-            <div className='-highlighted-secondary-text' style={{display:'flex',alignItems:'center'}}>
+            <div className='-highlighted-secondary-text' style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
               <img style={{position:'initial',width:'24px',marginRight:'10px'}} src={unitedStates}/>
               {' '}English
             </div>

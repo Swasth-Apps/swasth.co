@@ -2,11 +2,6 @@ import React, { Fragment, useState } from 'react'
 import { Col, Row } from 'antd'
 import bannerGraphic from '../assets/images/Banner_graphic.png'
 import therapyGraphic from '../assets/images/Therapy_graphic.png'
-import logo1 from '../assets/images/logo - 1.png'
-import logo2 from '../assets/images/logo - 2.png'
-import logo3 from '../assets/images/logo - 3.png'
-import logo4 from '../assets/images/logo - 4.png'
-import logo5 from '../assets/images/logo - 5.png'
 import appStore from '../assets/images/app-store.png'
 import googlePay from '../assets/images/google-play.png'
 import Carousel from '../shared/carousel'
@@ -15,7 +10,7 @@ import { dbtcoach } from '../helper/helper'
 const Banner = (props) => {
   const [app, setApp] = useState('dbt')
   const store = (
-    <Row className='card-row -row-flex-center store-icons' style={{padding:'32px 32px 0px',display:'flex'}}>
+    <Row className='card-row -row-flex-center' style={{padding:'32px 32px 0px',display:'flex'}}>
       <Col md={8}>
         <img src={appStore} alt='Therapy'/>
       </Col>
@@ -27,7 +22,7 @@ const Banner = (props) => {
   return (
     <Fragment>
       <section className='home-section-group'>
-        <Row className='card-row divider'>
+        <Row className='card-row'>
           <Col md={8} className='card-col -margin-right'>
             <h2 className='bottom-space'>Driving towards better
               <span className='-highlighted-text'>{' '}Behavioral</span> Health.</h2>
@@ -42,7 +37,7 @@ const Banner = (props) => {
             <img src={bannerGraphic}/>
           </Col>
         </Row>
-       {/* <Row className='card-row -row-flex-space-evenly'>
+      {/*  <Row className='card-row -row-flex-space-evenly'>
           <Col md={4}>
             <img src={logo1}/>
           </Col>
@@ -59,7 +54,7 @@ const Banner = (props) => {
             <img src={logo5}/>
           </Col>
         </Row>*/}
-        <Row className='card-row divider'>
+        <Row className='card-row'>
           <Col md={12} className='-margin-right'>
             <img className='custom-image' src={therapyGraphic} alt='Therapy'/>
           </Col>
@@ -67,20 +62,20 @@ const Banner = (props) => {
             <div className='-highlighted-secondary-text semi-title'>EASY TO FOLLOW</div>
             <h2 className='bottom-space'>
                     <span className='-highlighted-text'>
-                        DBT
+                        ACT
                     </span>{' '}
               Lessons
             </h2>
             <div className='-justified-text'>
-              Learn DBT skills with user-friendly videos and animations. There are over 100+ video lessons and 200+ animations.
+              Learn ACT skills with user-friendly videos and animations. There are over 50+ video lessons 200+ images and rich formatted content.
             </div>
           </Col>
         </Row>
-        <Row className='card-row divider'>
+        <Row className='card-row'>
           <Col md={12} className='-margin-right'>
             <div className='-highlighted-secondary-text semi-title'>USE IT TO</div>
             <h2 className='bottom-space'>
-              <span className='-highlighted-text'>{' '}Record Diary</span>{' '}Entries</h2>
+              <span className='-highlighted-text'>{' '}Record Diary</span>{' '} Entries</h2>
             <div className='-justified-text'>
               Record your mood, skills, emotions, urges, behaviors, activities and journal multiple times a day.
             </div>
@@ -89,7 +84,7 @@ const Banner = (props) => {
             <img className='custom-image' src={therapyGraphic}/>
           </Col>
         </Row>
-        <Row className='card-row divider'>
+        <Row className='card-row'>
           <Col md={12} className='-margin-right'>
             <img className='custom-image' src={therapyGraphic} alt='Therapy'/>
           </Col>
@@ -97,60 +92,59 @@ const Banner = (props) => {
             <div className='-highlighted-secondary-text semi-title'>EASY TO FOLLOW</div>
             <h2 className='bottom-space'>
                     <span className='-highlighted-text'>
-                        Practice
+                       Practice Exercises
                     </span>{' '}
-              Exercises
             </h2>
             <div className='-justified-text'>
-              Practice DBT using well-designed exercises that replaces worksheets. Leave your manual at home and do your exercises from anywhere.
+              Practice ACT using well-designed exercises that replaces worksheets. Leave your manual at home and do your exercises from anywhere.
             </div>
           </Col>
         </Row>
 
-        <Row className='card-row divider'>
+        <Row className='card-row'>
           <Col md={12} className='-margin-right'>
-            <div className='-highlighted-secondary-text semi-title'>TRACK & MANAGE WITH</div>
+            <div className='-highlighted-secondary-text semi-title'>TRACK ACT MEASURES</div>
             <h2 className='bottom-space'>
-              <span className='-highlighted-text'>Entries</span>{' '}Timeline</h2>
+              <span className='-highlighted-text'>ACT </span>{' '}Measures</h2>
             <div className='-justified-text'>
-              User-friendly timeline for entries, exercises, meditations etc. Manage your crisis survival skills and track how you use them.
+              Track your weekly and daily ACT measures to better gauge your progress.
             </div>
           </Col>
           <Col md={12} className='card-col'>
             <img className='custom-image' src={therapyGraphic}/>
           </Col>
         </Row>
-        <Row className='card-row divider'>
+        <Row className='card-row'>
           <Col md={12} className='-margin-right'>
             <img className='custom-image' src={therapyGraphic} alt='Therapy'/>
           </Col>
           <Col md={12}>
-            <div className='-highlighted-secondary-text semi-title'>STAY ON TOP OF EVERYTHING WITH</div>
+            <div className='-highlighted-secondary-text semi-title'>EASY TO</div>
             <h2 className='bottom-space'>
                     <span className='-highlighted-text'>
-                        Reminders & Affirmation
+                       Share your data
                     </span>
             </h2>
             <div className='-justified-text'>
-              We provide a range of options to set multiple daily or weekly reminders for diary card entry, meditations, affirmations or anything else to help you stay on top of DBT Skills.
+              Share what you want to share with your provider and care team. Providers in our clinician app can see it in real-time. You can also share via email with who you choose.
             </div>
           </Col>
         </Row>
-        <Row className='card-row divider'>
+        <Row className='card-row'>
           <Col md={12} className='-margin-right'>
-            <div className='-highlighted-secondary-text semi-title'>EASY TO</div>
+            <div className='-highlighted-secondary-text semi-title'>STAY ON TOP OF EVERYTHING WITH</div>
             <h2 className='bottom-space'>
-              Share Your
-              <span className='-highlighted-text'>{' '}Data</span></h2>
+              Reminders &
+              <span className='-highlighted-text'>{' '}Affirmations</span></h2>
             <div className='-justified-text'>
-              Share what you want to share with your provider and care team. Providers in our clinician app can see it in real-time. You can also share via email with who you choose.
+              We provide a range of options to set multiple daily or weekly reminders for diary card entry, meditations, affirmations or anything else to help you stay on top of ACT Skills.
             </div>
           </Col>
           <Col md={12} className='card-col'>
             <img className='custom-image' src={therapyGraphic}/>
           </Col>
         </Row>
-        <Row className='card-row divider'>
+        <Row className='card-row'>
           <Col md={12} className='-margin-right'>
             <img className='custom-image' src={therapyGraphic} alt='Therapy'/>
           </Col>
@@ -162,15 +156,14 @@ const Banner = (props) => {
                     </span>
               {' and '}
               <span className='-highlighted-text'>
-                        Stay-Upto-Date
+                        stay up-to-date
                     </span>
             </h2>
             <div className='-justified-text'>
-              Engage better with your provider by taking assessments, doing homeworks all in the app. Additional tools such as summary, quiz and meditations keep you up to date with your DBT practice.
+              Engage better with your provider by taking assessments, doing homeworks all in the app. Additional tools such as summary, quiz and meditations keep you up to date with your ACT practice.
             </div>
           </Col>
-        </Row>
-        <Row className='card-row divider'>
+        </Row>        {/*<Row className='card-row'>
           <Col md={8} className='card-col -margin-right'>
             <h2 className='bottom-space'>Driving towards better
               <span className='-highlighted-text'>{' '}Behavioral</span> Health.</h2>
@@ -184,10 +177,10 @@ const Banner = (props) => {
           <Col md={8} className='card-col'>
             <img src={bannerGraphic}/>
           </Col>
-        </Row>
+        </Row>*/}
 
         <Row className='card-row' />
-        <Row className='card-row -row-flex-center divider'>
+        <Row className='card-row -row-flex-center'>
           <Col md={24}>
             <Row className='card-row -row-flex-center'>
               <div style={{textAlign:'center'}}>
@@ -202,7 +195,7 @@ const Banner = (props) => {
         <div style={{textAlign:'center'}} className='all-testimonials divider'>
           <a className='-highlighted-secondary-text'>Check all testimonials</a>
         </div>
-        <Row className='card-row -row-flex-center divider -padding-zero'>
+        <Row className='card-row -row-flex-center -padding-zero'>
           <Col md={24}>
             <Row className='card-row -row-flex-center'>
               <h5 className='bottom-space' style={{fontWeight:'600'}}>Frequently Asked Questions</h5>
@@ -228,7 +221,7 @@ const Banner = (props) => {
             <Row className='card-row -row-flex-space-between -asked-question-card'>
               <Col md={12} className='blog-container question-container'>
                 <div className='blog-user -font-bold' style={{color:'black'}}>
-                 Do you have lessons for each skills?
+                  Do you have lessons for each skills?
                 </div>
                 <div className='blog-user'>
                   Yes and even more. There are over 100+ video lessons and 200+ animations.
@@ -281,7 +274,7 @@ const Banner = (props) => {
             </Row>
           </Col>
         </Row>
-        <Row className='card-row divider mobile-app-container'>
+        <Row className='card-row'>
           <Col md={24} className='dbt-box-container'>
             <Row className='card-row -row-flex-center dbt-box-border'>
               <div style={{textAlign:'center'}}>

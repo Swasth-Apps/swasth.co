@@ -1,12 +1,8 @@
-import React, { useState, Fragment } from 'react'
-import { Button, Card, Col, Row } from 'antd'
+import React, { Fragment, useState } from 'react'
+import { Col, Row } from 'antd'
 import bannerGraphic from '../assets/images/Banner_graphic.png'
 import therapyGraphic from '../assets/images/Therapy_graphic.png'
-import logo1 from '../assets/images/logo - 1.png'
-import logo2 from '../assets/images/logo - 2.png'
-import logo3 from '../assets/images/logo - 3.png'
-import logo4 from '../assets/images/logo - 4.png'
-import logo5 from '../assets/images/logo - 5.png'
+import Carousel from '../shared/carousel'
 import appStore from '../assets/images/app-store.png'
 import googlePay from '../assets/images/google-play.png'
 import DBTCoach from '../assets/images/DBT_coach.png'
@@ -17,16 +13,17 @@ import ACTCoachScreen from '../assets/images/ACT_coach_screen.png'
 import CBTCompanionScreen from '../assets/images/CBT_companion_screen.png'
 import engagementTools from '../assets/images/Engagement_tools_img.png'
 import rightProvider from '../assets/images/Right_provider_graphic.png'
-import findProvider from '../assets/images/Find_provider_bg.png'
-import signupBtn from '../assets/images/signup_btn.png'
 import blogImg from '../assets/images/Blog_img01.png'
+import blogImg2 from '../assets/images/Blog_img02.png'
+import blogImg3 from '../assets/images/Blog_img03.png'
 import evidenceGraphic from '../assets/images/Evidence_based_graphic.png'
+import { home } from '../helper/helper'
 
 const Banner = (props) => {
   const [app, setApp] = useState('dbt')
   const store = (
-    <Row className='card-row'>
-      <Col md={8}>
+    <Row className='card-row' style={{display:'flex'}}>
+      <Col md={8} style={{marginRight:'10px'}}>
         <img src={appStore} alt='Therapy'/>
       </Col>
       <Col md={8}>
@@ -37,7 +34,7 @@ const Banner = (props) => {
   return (
     <Fragment>
       <section className='home-section-group'>
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={8} className='card-col -margin-right'>
             <h2 className='bottom-space'>Driving towards better
               <span className='-highlighted-text'>{' '}Behavioral</span> Health.</h2>
@@ -52,7 +49,7 @@ const Banner = (props) => {
             <img src={bannerGraphic}/>
           </Col>
         </Row>
-        <Row className='card-row -row-flex-space-evenly'>
+       {/* <Row className='card-row -row-flex-space-evenly'>
           <Col md={4}>
             <img src={logo1}/>
           </Col>
@@ -68,8 +65,8 @@ const Banner = (props) => {
           <Col md={4}>
             <img src={logo5}/>
           </Col>
-        </Row>
-        <Row className='card-row'>
+        </Row>*/}
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <img className='custom-image' src={therapyGraphic} alt='Therapy'/>
           </Col>
@@ -87,19 +84,19 @@ const Banner = (props) => {
             </div>
           </Col>
         </Row>
-        <Row className='card-row -row-flex-center'>
-          <Col md={24}>
+        <Row className='card-row -row-flex-center divider'>
+          <Col md={24} style={{width:'100%'}}>
             <Row>
               <h2 style={{ textAlign: 'center' }}>An app for each <br/><span className='-highlighted-text'>Evidence Based Treatment</span>{' '} modality
               </h2>
             </Row>
-            <Row className='card-row -row-flex-space-between'>
-              <Col md={4} style={{ textAlign: 'center' }} onClick={() => setApp('dbt')}>
+            <Row className='card-row -row-flex-space-between' style={{display:'flex'}}>
+              <Col md={4} style={{ textAlign: 'center',marginRight:'10px' }} onClick={() => setApp('dbt')}>
                 <img className='custom-image' src={DBTCoach}/>
                 <div className={`${app === 'dbt' ? '-highlighted-text' : '-highlighted-secondary-text'}`}>DBT Coach
                 </div>
               </Col>
-              <Col md={4} style={{ textAlign: 'center' }} onClick={() => setApp('cbt')}>
+              <Col md={4} style={{ textAlign: 'center' ,marginRight:'10px' }} onClick={() => setApp('cbt')}>
                 <img className='custom-image' src={CBTCompanion}/>
                 <div className={`${app === 'cbt' ? '-highlighted-text' : '-highlighted-secondary-text'}`}>CBT
                   Companion
@@ -114,7 +111,7 @@ const Banner = (props) => {
           </Col>
         </Row>
         {app === 'dbt' ?
-          <Row className='card-row'>
+          <Row className='card-row divider'>
             <Col md={8} className='-margin-right'>
               <img className='custom-image' src={DBTCoachScreen} alt='Therapy'/>
             </Col>
@@ -134,7 +131,7 @@ const Banner = (props) => {
           ''
         }
         {app === 'cbt' ?
-          <Row className='card-row'>
+          <Row className='card-row divider'>
             <Col md={8} className='-margin-right'>
               <img className='custom-image' src={CBTCompanionScreen} alt='Therapy'/>
             </Col>
@@ -154,7 +151,7 @@ const Banner = (props) => {
           ''
         }
         {app === 'act' ?
-          <Row className='card-row'>
+          <Row className='card-row divider'>
             <Col md={8} className='-margin-right'>
               <img className='custom-image' src={ACTCoachScreen} alt='Therapy'/>
             </Col>
@@ -173,7 +170,7 @@ const Banner = (props) => {
           </Row> :
           ''
         }
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <h2 className='bottom-space'>
               <span className='-highlighted-text'>{' '}Engagement</span>{' '}tools</h2>
@@ -249,28 +246,30 @@ const Banner = (props) => {
     </Row>
       </section>
       <section className='home-section-group'>
-        <Row className='card-row'>
-          <Col md={8} className='card-col -margin-right'>
-            <h2 className='bottom-space'>Driving towards better
-              <span className='-highlighted-text'>{' '}Behavioral</span> Health.</h2>
-            <div className='-justified-text'>
-              Swasth is transforming behavioral health care by creating a seamless experience for clients,
-              providers and employers. Using technology within the context of evidence based treatments, we
-              connect clients to behavioral health providers and treatments that work, making the experience
-              personalized and effective.
-            </div>
-          </Col>
-          <Col md={8} className='card-col'>
-            <img src={bannerGraphic}/>
+        <Row className='card-row' />
+        <Row className='card-row -row-flex-center'>
+          <Col md={24}>
+            <Row className='card-row -row-flex-center'>
+              <div style={{textAlign:'center'}}>
+              <h2 className='bottom-space'>Check out what our
+                <span className='-highlighted-secondary-text'>{' '}User are saying</span>{' '}about<span className='-highlighted-text'>{' '}Swasth</span> </h2>
+                Millions of people around the world have already made swasth the place where their dream happens.
+              </div>
+            </Row>
           </Col>
         </Row>
-        <Row className='card-row -row-flex-center'>
+        <Carousel reviews={home} />
+        <div style={{textAlign:'center'}} className='all-testimonials divider'>
+          <a className='-highlighted-secondary-text'>Check all testimonials</a>
+        </div>
+
+        <Row className='card-row -row-flex-center blog-container-card-row'>
           <Col md={24}>
             <Row className='card-row -row-flex-center'>
               <h2 className='bottom-space'>Read the latest from
                 <span className='-highlighted-secondary-text'>{' '}Swasth</span></h2>
             </Row>
-            <Row className='card-row -row-flex-space-between'>
+            <Row className='card-row -row-flex-space-between blog-container-row' style={{ display: 'flex'}}>
               <Col md={6} className='blog-container'>
                 <img src={blogImg} style={{width:'100%'}}/>
                 <div className='img-tag'>THERAPY</div>
@@ -282,7 +281,7 @@ const Banner = (props) => {
                 </div>
               </Col>
               <Col md={6} className='blog-container'>
-                <img src={blogImg} style={{width:'100%'}}/>
+                <img src={blogImg2} style={{width:'100%'}}/>
                 <div className='img-tag'>THERAPY</div>
                 <h5>
                   Exposing our blind spots: How to Tackle Unconscious Bias as Therapist
@@ -292,7 +291,7 @@ const Banner = (props) => {
                 </div>
               </Col>
               <Col md={6} className='blog-container'>
-                <img src={blogImg} style={{width:'100%'}}/>
+                <img src={blogImg3} style={{width:'100%'}}/>
                 <div className='img-tag'>THERAPY</div>
                 <h5>
                   Exposing our blind spots: How to Tackle Unconscious Bias as Therapist
@@ -304,22 +303,6 @@ const Banner = (props) => {
             </Row>
           </Col>
         </Row>
-        <div className='btn-class'>
-        <Row className='card-row -row-flex-space-between'>
-          <Col md={8} className='card-col -margin-right'>
-            <h2 className='bottom-space'>
-              <span className='-highlighted-secondary-text'>Learn more about Swasth</span> {' '} <br />
-
-              </h2>
-            <div className='-justified-text'>
-              Get in touch or create an account.
-            </div>
-          </Col>
-          <Col md={8} className='card-col'>
-            <img src={signupBtn}/>
-          </Col>
-        </Row>
-        </div>
 
       </section>
 </Fragment>
