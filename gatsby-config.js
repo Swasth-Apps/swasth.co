@@ -15,7 +15,13 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/swasth-logo-dark.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/favico.png', // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+          bucketName: 'swasth-website'
       },
     },
     'gatsby-plugin-sass',

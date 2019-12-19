@@ -2,6 +2,7 @@ import React from 'react'
 import footerImg from '../assets/images/footer_bg.png'
 import swasthLogo from '../assets/images/swasth-logo-dark.png'
 import unitedStates from '../assets/images/united-states.png'
+import { Link } from 'gatsby'
 
  const Footer = (props) => (
     <footer id="footer">
@@ -42,9 +43,9 @@ import unitedStates from '../assets/images/united-states.png'
 
                 <ul className="list-unstyled iconlist ml-0">
                   <li><a href="/dbt-coach">DBT Coach</a></li>
-                  <li><a href="/dbt-daily">DBT Daily</a></li>
                   <li><a href="/cbt-companion">CBT Companion</a></li>
                   <li><a href="/act-coach">ACT Coach</a></li>
+                  <li><a href="/dbt-daily">DBT Daily</a></li>
                   <li></li>
                   <li><a href="https://findprovider.swasth.co">Find Provider</a></li>
 
@@ -88,8 +89,10 @@ import unitedStates from '../assets/images/united-states.png'
         <div className="container clearfix">
 
           <div className="col_half">
-            <div className="copyright-links -highlighted-secondary-text"><a>Terms of Use</a> {'   '} <a>Privacy
-              Policy</a></div>
+            <div className="copyright-links -highlighted-secondary-text">
+            <Link to='/terms'>Terms of Use</Link> {'    |    '} 
+            <Link to ='privacy'>Privacy
+              Policy</Link></div>
             <div style={{  color: 'rgba(0,0,0,0.2)'}}>
             Copyrights &copy; 2019 All Rights Reserved by Swasth Inc.<br />
             </div>

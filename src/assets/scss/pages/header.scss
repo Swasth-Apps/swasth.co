@@ -2,6 +2,8 @@
   .menu-content {
     color: _palette(bg);
     cursor: pointer;
+    font-weight: 600px;
+    font-size: 1.3em;
   }
 
   .logo-resize {
@@ -78,7 +80,7 @@
     cursor: pointer;
 
     h2 {
-      font-size: 50px;
+      font-size: 40px;
       line-height: 1.2;
     }
   }
@@ -111,6 +113,27 @@
   color: _palette(secondary-color);
   font-weight: 600;
 }
+
+.-highlighted-cbt-text {
+  color: _palette(cbt-primary-color);
+  font-weight: 600;
+}
+
+.-highlighted-cbt-secondary-text {
+  color: _palette(cbt-secondary-color);
+  font-weight: 600;
+}
+
+.-highlighted-act-text {
+  color: _palette(act-primary-color);
+  font-weight: 600;
+}
+
+.-highlighted-act-secondary-text {
+  color: _palette(act-secondary-color);
+  font-weight: 600;
+}
+
 
 .-justified-text {
   text-align: justify;
@@ -248,7 +271,7 @@
 
   .card-row {
     display: block;
-    text-align: justify;
+    //text-align: justify;
     .ant-col {
       width: fit-content;
       margin: auto;
@@ -278,7 +301,7 @@
   }
 
   .divider{
-    border-bottom: 2px dashed _palette(primary-color);
+    border-bottom: 1px _palette(primary-color);
     margin: 0 20px;
   }
   .blog-container{
@@ -297,7 +320,7 @@
     }
   }
   .all-testimonials{
-    padding-bottom: 20px !important;
+    padding: 20px !important;
   }
   .-asked-question-card{
     padding: 0 20px;

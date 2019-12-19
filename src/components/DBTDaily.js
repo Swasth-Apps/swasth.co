@@ -26,7 +26,7 @@ const Banner = (props) => {
           <Col md={8} className='card-col -margin-right'>
             <h2 className='bottom-space'>Driving towards better
               <span className='-highlighted-text'>{' '}Behavioral</span> Health.</h2>
-            <div className='-justified-text'>
+            <div >
               Swasth is transforming behavioral health care by creating a seamless experience for clients,
               providers and employers. Using technology within the context of evidence based treatments, we
               connect clients to behavioral health providers and treatments that work, making the experience
@@ -66,7 +66,7 @@ const Banner = (props) => {
                     </span>{' '}
               Platform
             </h2>
-            <div className='-justified-text'>
+            <div >
               Works seamlessly across multiple devices and platforms - iPhones, iPads, Android Phones and tablets.
               You can can even checkin diary card items and learn about DBT skills using your Alexa device.
             </div>
@@ -77,7 +77,7 @@ const Banner = (props) => {
             <div className='-highlighted-secondary-text semi-title'>EASY TO FOLLOW</div>
             <h2 className='bottom-space'>
               <span className='-highlighted-text'>{' '}Entries & Skill</span>{' '}details</h2>
-            <div className='-justified-text'>
+            <div >
               Learn and practice DBT skills with detailed explanations with great examples helping you better understand and practice the skills.
             </div>
           </Col>
@@ -96,7 +96,7 @@ const Banner = (props) => {
                         Record
                     </span>{' '}
             </h2>
-            <div className='-justified-text'>
+            <div >
               Record your mood, skills, emotions, urges, behaviors, activities and journal multiple times a day.
             </div>
           </Col>
@@ -107,7 +107,7 @@ const Banner = (props) => {
             <div className='-highlighted-secondary-text semi-title'>GET INSIGHTS</div>
             <h2 className='bottom-space'>
               <span className='-highlighted-text'>Track </span>{' '}Progress</h2>
-            <div className='-justified-text'>
+            <div >
               Track your progress with intuitive mood charts, different counts, check-in summary and gain insight from correlations.
             </div>
           </Col>
@@ -126,7 +126,7 @@ const Banner = (props) => {
                         Meditations
                     </span>
             </h2>
-            <div className='-justified-text'>
+            <div >
               Over 1000 meditations ranging across multiple themes from some of the best teachers in the world.
             </div>
           </Col>
@@ -137,7 +137,7 @@ const Banner = (props) => {
             <h2 className='bottom-space'>
               Crisis
               <span className='-highlighted-text'>{' '}Survival</span>{' '} list</h2>
-            <div className='-justified-text'>
+            <div >
               User friendly Crisis survival list, which you can tap into when you are undergoing a crisis. Lets you add skills or add your own items
             </div>
           </Col>
@@ -156,7 +156,7 @@ const Banner = (props) => {
                         Reminders
                     </span>
             </h2>
-            <div className='-justified-text'>
+            <div >
               We provide a range of options to set multiple daily or weekly reminders for diary card entry, meditations or anything else to help you stay on top of DBT Skills.
             </div>
           </Col>
@@ -166,7 +166,7 @@ const Banner = (props) => {
             <div className='-highlighted-secondary-text semi-title'>GET MOTIVATED WITH</div>
             <h2 className='bottom-space'>
               <span className='-highlighted-text'>{' '}Affirmations</span></h2>
-            <div className='-justified-text'>
+            <div >
               Affirmations are simple, positive statements that have profound effects on the mind. Easily manage the schedule for these affirmations.
             </div>
           </Col>
@@ -186,7 +186,7 @@ const Banner = (props) => {
                     </span>
               Card Summary
             </h2>
-            <div className='-justified-text'>
+            <div >
               Share progress with your care team either via email or therapist portal. Intuitive design that helps your therapist gain insights quickly.
             </div>
           </Col>
@@ -195,7 +195,7 @@ const Banner = (props) => {
           <Col md={8} className='card-col -margin-right'>
             <h2 className='bottom-space'>Driving towards better
               <span className='-highlighted-text'>{' '}Behavioral</span> Health.</h2>
-            <div className='-justified-text'>
+            <div >
               Swasth is transforming behavioral health care by creating a seamless experience for clients,
               providers and employers. Using technology within the context of evidence based treatments, we
               connect clients to behavioral health providers and treatments that work, making the experience

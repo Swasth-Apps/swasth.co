@@ -1,14 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import swasthLogo from '../assets/images/swasth-logo-dark.png'
-import bannerGraphic from '../assets/images/Banner_graphic.png'
-import { Col, Row } from 'antd'
+import { Link } from 'gatsby'
 
 const Header = (props) => (
     <header id="header" className="alt">
         <nav className='header-nav'>
-            <img className='logo-resize' src={swasthLogo} alt='Swasth'/>
-            <div className="menu-content" href="javascript:;">Clinician</div>
+        <Link to="/">
+            <img  src={swasthLogo} alt='Home'/>
+            </Link>
+        <a href="https://provider.swasth.co">
+            <div className="menu-content" href="javascript:;">Clinicians</div>
+        </a>
         </nav>
     </header>
 )

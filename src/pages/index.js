@@ -1,13 +1,14 @@
 import React from 'react'
 import Layout from '../components/layout'
-import Banner from '../components/Banner'
+import Home from './Home'
 
 
 class HomeIndex extends React.Component {
+    
     render() {
         return (
             <Layout>
-                <Banner />
+                <Home />
             </Layout>
         )
     }
