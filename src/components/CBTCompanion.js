@@ -2,9 +2,9 @@ import React, { Fragment, useState } from 'react'
 import { Col, Row } from 'antd'
 import bannerGraphic from '../assets/images/CBT-splash.png'
 import lessons from '../assets/images/CBT-lessons.png'
-import recordEntries from '../assets/images/DBT-record-diary.png'
-import practiceExercises from '../assets/images/DBT-practice_exercises.png'
-import entriesTimeline from '../assets/images/CBT-entries-timeline.png'
+import recordEntries from '../assets/images/CBT-record-diary.png'
+import practiceExercises from '../assets/images/CBT-Practice-exercises.png'
+import entriesTimeline from '../assets/images/CBT-entriestimeline.png'
 import reminders from '../assets/images/DBT-reminder-affirmation.png'
 import shareData from '../assets/images/CBT-sharesetting_iphone.png'
 import engage from '../assets/images/CBT-engage-and-stayuptodate.png'
@@ -209,7 +209,6 @@ const CBTCompanion = (props) => {
             <div style={{ textAlign: 'center' }}>
               <h2 className='bottom-space'>
                 <span className='-highlighted-cbt-secondary-text'>{' '}Testimonials</span>{' '}about<span className='-highlighted-cbt-text'>{' '}CBT Companion</span> </h2>
-              Over 50,000 users have already benefited from CBT Companion.
             </div>
           </Row>
         </Col>

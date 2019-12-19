@@ -1,8 +1,15 @@
 import React, { Fragment, useState } from 'react'
 import { Col, Row } from 'antd'
-import bannerGraphic from '../assets/images/Banner_graphic.png'
-import therapyGraphic from '../assets/images/Therapy_graphic.png'
-import community from '../assets/images/act-community.png'
+import bannerGraphic from '../assets/images/ACT-splash.png'
+import lessons from '../assets/images/ACT-lessons.png'
+import recordEntries from '../assets/images/ACT-record-diary.png'
+import practiceExercises from '../assets/images/ACT-practicelessons.png'
+import entriesTimeline from '../assets/images/ACT-entriestimeline.png'
+import actMeasures from '../assets/images/ACT-Measures.png'
+import reminders from '../assets/images/DBT-reminder-affirmation.png'
+import shareData from '../assets/images/CBT-sharesetting_iphone.png'
+import engage from '../assets/images/CBT-engage-and-stayuptodate.png'
+import community from '../assets/images/ACT-community.png'
 import appStore from '../assets/images/app-store.png'
 import googlePay from '../assets/images/google-play.png'
 import Carousel from '../shared/carousel'
@@ -33,7 +40,7 @@ const ACTCoach = (props) => {
           <h2 className='bottom-space'><span className='-highlighted-act-secondary-text'>{' '}Optimize</span> your <span className='-highlighted-act-text'>{' '}Inner Potential</span> by <span className='-highlighted-act-secondary-text'>{' '}Acceptance</span> and
           <span className='-highlighted-act-secondary-text'>{' '}Commitment</span>.</h2>
             <div >
-              Learn about Acceptance & Therapy (ACT), Challenge Negative Thoughts, Track moods, emotions, activities etc. Engage better with your Therapist using
+              Learn about Acceptance & Commitment Therapy (ACT) and develop your psychological flexibility. Track your Moods, Emotions, Activities and ACT Measures. Engage better with your Therapist using
               our comprehensive Behavioral Health Platform.
           </div>
           </Col>
@@ -59,8 +66,21 @@ const ACTCoach = (props) => {
           </Col>
         </Row>*/}
         <Row className='card-row'>
+        <Col md={12} className='-margin-right'>
+          <div className='-highlighted-cbt-secondary-text semi-title'>TRACK AND MANAGE WITH</div>
+          <h2 className='bottom-space'>
+            <span className='-highlighted-cbt-text'>Entries </span>{' '}Timeline</h2>
+          <div >
+            Track your progress with intuitive mood charts, different counts, check-in summary and gain insight from correlations.
+          </div>
+        </Col>
+        <Col md={12} className='card-col'>
+          <img className='custom-image' src={entriesTimeline}/>
+        </Col>
+      </Row>
+        <Row className='card-row'>
           <Col md={12} className='-margin-right'>
-            <img className='custom-image' src={therapyGraphic} alt='Therapy' />
+            <img className='custom-image' src={lessons} alt='Therapy' />
           </Col>
           <Col md={12}>
             <div className='-highlighted-act-secondary-text semi-title'>EASY TO FOLLOW</div>
@@ -85,12 +105,12 @@ const ACTCoach = (props) => {
             </div>
           </Col>
           <Col md={12} className='card-col'>
-            <img className='custom-image' src={therapyGraphic} />
+            <img className='custom-image' src={recordEntries} />
           </Col>
         </Row>
         <Row className='card-row'>
           <Col md={12} className='-margin-right'>
-            <img className='custom-image' src={therapyGraphic} alt='Therapy' />
+            <img className='custom-image' src={practiceExercises} alt='Therapy' />
           </Col>
           <Col md={12}>
             <div className='-highlighted-act-secondary-text semi-title'>EASY TO FOLLOW</div>
@@ -115,12 +135,12 @@ const ACTCoach = (props) => {
             </div>
           </Col>
           <Col md={12} className='card-col'>
-            <img className='custom-image' src={therapyGraphic} />
+            <img className='custom-image' src={actMeasures} />
           </Col>
         </Row>
         <Row className='card-row'>
           <Col md={12} className='-margin-right'>
-            <img className='custom-image' src={therapyGraphic} alt='Therapy' />
+            <img className='custom-image' src={shareData} alt='Therapy' />
           </Col>
           <Col md={12}>
             <div className='-highlighted-act-secondary-text semi-title'>EASY TO</div>
@@ -145,12 +165,12 @@ const ACTCoach = (props) => {
             </div>
           </Col>
           <Col md={12} className='card-col'>
-            <img className='custom-image' src={therapyGraphic} />
+            <img className='custom-image' src={reminders} />
           </Col>
         </Row>
         <Row className='card-row'>
           <Col md={12} className='-margin-right'>
-            <img className='custom-image' src={therapyGraphic} alt='Therapy' />
+            <img className='custom-image' src={engage} alt='Therapy' />
           </Col>
           <Col md={12}>
             <div className='-highlighted-act-secondary-text semi-title'>EVEN MORE FEATURES</div>
@@ -204,7 +224,7 @@ const ACTCoach = (props) => {
             <div style={{ textAlign: 'center' }}>
               <h2 className='bottom-space'>
                 <span className='-highlighted-act-secondary-text'>{' '}Testimonials</span>{' '}about<span className='-highlighted-act-text'>{' '}ACT Coach</span> </h2>
-              Over 40,000 users have already benefited from ACT Coach.
+
             </div>
           </Row>
         </Col>

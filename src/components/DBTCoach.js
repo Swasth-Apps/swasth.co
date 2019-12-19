@@ -41,7 +41,8 @@ const Banner = (props) => {
               <span className='-highlighted-text'>{' '}Dialectical Behavior Therapy</span> (DBT).</h2>
             <div >
               Learn, practice and track your DBT skills
-              with the best DBT app.
+              with DBT Coach App. Engage better with your Therapist using
+              our comprehensive Behavioral Health Platform.
             </div>
           </Col>
           <Col md={8} className='card-col'>
