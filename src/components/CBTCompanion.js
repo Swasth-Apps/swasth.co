@@ -12,12 +12,12 @@ import community from '../assets/images/CBT-community.png'
 import appStore from '../assets/images/app-store.png'
 import googlePay from '../assets/images/google-play.png'
 import Carousel from '../shared/carousel'
-import { cbtcompanion } from '../helper/helper'
+import { dbtdaily } from '../helper/helper'
 
 const CBTCompanion = (props) => {
   const [app, setApp] = useState('cbt')
   const store = (
-    <Row className='card-row -row-flex-center store-icons' style={{ padding: '32px 32px 0px', display: 'flex' }}>
+    <Row className='card-row -row-flex-center store-icons' style={{ padding: '32px 32px 0px', display: 'flex',flexDirection:'row' }}>
       <Col md={8}>
         <a href="https://apps.apple.com/us/app/cbt-companion/id1445499245" >
           <img src={appStore} alt='CBT Companion on App Store' />
@@ -33,9 +33,10 @@ const CBTCompanion = (props) => {
   )
   return (
     <Fragment>
-      <section className='home-section-group'>
-        <Row className='card-row'>
-          <Col md={8} className='card-col -margin-right'>
+      <section className='app-section-group'>
+        <Row className='card-row divider'>
+          <Col md={12} className='card-col -margin-right'>
+            <h1 className='-highlighted-secondary-text apps-title'>CBT Companion</h1>
             <h2 className='bottom-space'><span className='-highlighted-cbt-secondary-text'>{' '}Change</span> your <span className='-highlighted-cbt-text'>{' '}Feelings</span> and <span className='-highlighted-cbt-text'>{' '}Behavior</span> by <span className='-highlighted-cbt-secondary-text'>{' '}Changing</span> your
               <span className='-highlighted-cbt-text'>{' '}Thoughts</span>.</h2>
             <div >
@@ -43,8 +44,8 @@ const CBTCompanion = (props) => {
             our comprehensive Behavioral Health Platform.
             </div>
           </Col>
-          <Col md={8} className='card-col'>
-            <img src={bannerGraphic}/>
+          <Col md={12} className='card-col'>
+            <img src={bannerGraphic} className='custom-image'/>
           </Col>
         </Row>
       {/*  <Row className='card-row -row-flex-space-evenly'>
@@ -64,7 +65,7 @@ const CBTCompanion = (props) => {
             <img src={logo5}/>
           </Col>
         </Row>*/}
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <img className='custom-image' src={lessons} alt='Therapy'/>
           </Col>
@@ -81,7 +82,7 @@ const CBTCompanion = (props) => {
             </div>
           </Col>
         </Row>
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <div className='-highlighted-cbt-secondary-text semi-title'>USE IT TO</div>
             <h2 className='bottom-space'>
@@ -94,7 +95,7 @@ const CBTCompanion = (props) => {
             <img className='custom-image' src={recordEntries}/>
           </Col>
         </Row>
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <img className='custom-image' src={practiceExercises} alt='Therapy'/>
           </Col>
@@ -111,7 +112,7 @@ const CBTCompanion = (props) => {
           </Col>
         </Row>
 
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <div className='-highlighted-cbt-secondary-text semi-title'>TRACK AND MANAGE WITH</div>
             <h2 className='bottom-space'>
@@ -124,7 +125,7 @@ const CBTCompanion = (props) => {
             <img className='custom-image' src={entriesTimeline}/>
           </Col>
         </Row>
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <img className='custom-image' src={shareData} alt='Therapy'/>
           </Col>
@@ -140,7 +141,7 @@ const CBTCompanion = (props) => {
             </div>
           </Col>
         </Row>
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <div className='-highlighted-cbt-secondary-text semi-title'>STAY ON TOP OF EVERYTHING WITH</div>
             <h2 className='bottom-space'>
@@ -154,7 +155,7 @@ const CBTCompanion = (props) => {
             <img className='custom-image' src={reminders}/>
           </Col>
         </Row>
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <img className='custom-image' src={engage} alt='Therapy'/>
           </Col>
@@ -203,7 +204,7 @@ const CBTCompanion = (props) => {
         </Col>
       </Row>
       <Row className='card-row' />
-      <Row className='card-row -row-flex-center divider'>
+      <Row className='card-row -row-flex-center'>
         <Col md={24}>
           <Row className='card-row -row-flex-center'>
             <div style={{ textAlign: 'center' }}>
@@ -213,10 +214,11 @@ const CBTCompanion = (props) => {
           </Row>
         </Col>
       </Row>
-      <Carousel reviews={cbtcompanion} />
+      <Carousel reviews={dbtdaily} />
       {/*<div style={{textAlign:'center'}} className='all-testimonials divider'>
         <a className='-highlighted-cbt-secondary-text'>Check all testimonials</a>
     </div> */}
+    <div className='divider' />
       <Row className='card-row -row-flex-center divider -padding-zero'>
         <Col md={24}>
           <Row className='card-row -row-flex-center'>
@@ -298,7 +300,7 @@ const CBTCompanion = (props) => {
         </Col>
       </Row>
 
-      <Row className='card-row divider mobile-app-container -row-flex-center'>
+      <Row className='card-row mobile-app-container -row-flex-center'>
         <Col md={24} className='dbt-box-container'>
           <Row className='card-row -row-flex-center dbt-box-border'>
             <div style={{ textAlign: 'center' }}>

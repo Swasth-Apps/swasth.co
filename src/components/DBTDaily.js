@@ -10,20 +10,25 @@ import { dbtdaily } from '../helper/helper'
 const Banner = (props) => {
   const [app, setApp] = useState('dbt')
   const store = (
-    <Row className='card-row -row-flex-center' style={{padding:'32px 32px 0px',display:'flex'}}>
+    <Row className='card-row -row-flex-center' style={{padding:'32px 32px 0px',display:'flex',flexDirection:'row'}}>
       <Col md={8}>
+        <a href='https://apps.apple.com/us/app/dbt-daily/id1398462276'>
         <img src={appStore} alt='Therapy'/>
+        </a>
       </Col>
       <Col md={8}>
+        <a href={'https://play.google.com/store/apps/details?id=co.swasth.dbtdaily'}>
         <img src={googlePay} alt='Therapy'/>
+        </a>
       </Col>
     </Row>
   )
   return (
     <Fragment>
-      <section className='home-section-group'>
-        <Row className='card-row'>
-          <Col md={8} className='card-col -margin-right'>
+      <section className='app-section-group'>
+        <Row className='card-row divider'>
+          <Col md={12} className='card-col -margin-right'>
+            <h1 className='-highlighted-secondary-text apps-title'>DBT Daily</h1>
             <h2 className='bottom-space'>Driving towards better
               <span className='-highlighted-text'>{' '}Behavioral</span> Health.</h2>
             <div >
@@ -33,8 +38,8 @@ const Banner = (props) => {
               personalized and effective.
             </div>
           </Col>
-          <Col md={8} className='card-col'>
-            <img src={bannerGraphic}/>
+          <Col md={12} className='card-col'>
+            <img src={bannerGraphic} className='custom-image'/>
           </Col>
         </Row>
       {/*  <Row className='card-row -row-flex-space-evenly'>
@@ -54,7 +59,7 @@ const Banner = (props) => {
             <img src={logo5}/>
           </Col>
         </Row>*/}
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <img className='custom-image' src={therapyGraphic} alt='Therapy'/>
           </Col>
@@ -72,7 +77,7 @@ const Banner = (props) => {
             </div>
           </Col>
         </Row>
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <div className='-highlighted-secondary-text semi-title'>EASY TO FOLLOW</div>
             <h2 className='bottom-space'>
@@ -85,7 +90,7 @@ const Banner = (props) => {
             <img className='custom-image' src={therapyGraphic}/>
           </Col>
         </Row>
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <img className='custom-image' src={therapyGraphic} alt='Therapy'/>
           </Col>
@@ -102,7 +107,7 @@ const Banner = (props) => {
           </Col>
         </Row>
 
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <div className='-highlighted-secondary-text semi-title'>GET INSIGHTS</div>
             <h2 className='bottom-space'>
@@ -115,7 +120,7 @@ const Banner = (props) => {
             <img className='custom-image' src={therapyGraphic}/>
           </Col>
         </Row>
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <img className='custom-image' src={therapyGraphic} alt='Therapy'/>
           </Col>
@@ -131,7 +136,7 @@ const Banner = (props) => {
             </div>
           </Col>
         </Row>
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <div className='-highlighted-secondary-text semi-title'>MANAGE CRISIS WITH</div>
             <h2 className='bottom-space'>
@@ -145,7 +150,7 @@ const Banner = (props) => {
             <img className='custom-image' src={therapyGraphic}/>
           </Col>
         </Row>
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <img className='custom-image' src={therapyGraphic} alt='Therapy'/>
           </Col>
@@ -161,7 +166,7 @@ const Banner = (props) => {
             </div>
           </Col>
         </Row>
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <div className='-highlighted-secondary-text semi-title'>GET MOTIVATED WITH</div>
             <h2 className='bottom-space'>
@@ -174,7 +179,7 @@ const Banner = (props) => {
             <img className='custom-image' src={therapyGraphic}/>
           </Col>
         </Row>
-        <Row className='card-row'>
+        <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <img className='custom-image' src={therapyGraphic} alt='Therapy'/>
           </Col>
@@ -223,7 +228,7 @@ const Banner = (props) => {
         <div style={{textAlign:'center'}} className='all-testimonials divider'>
           <a className='-highlighted-secondary-text'>Check all testimonials</a>
         </div>
-        <Row className='card-row -row-flex-center -padding-zero'>
+        <Row className='card-row -row-flex-center -padding-zero divider'>
           <Col md={24}>
             <Row className='card-row -row-flex-center'>
               <h5 className='bottom-space' style={{fontWeight:'600'}}>Frequently Asked Questions</h5>

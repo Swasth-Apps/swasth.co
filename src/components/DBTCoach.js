@@ -18,9 +18,9 @@ import { dbtcoach } from '../helper/helper'
 const Banner = (props) => {
   const [app, setApp] = useState('dbt')
   const store = (
-    <Row className='card-row -row-flex-center store-icons' style={{ padding: '32px 32px 0px', display: 'flex' }}>
+    <Row className='card-row -row-flex-center store-icons' style={{ padding: '32px 32px 0px', display: 'flex',flexDirection:'row' }}>
       <Col md={8}>
-        <a href="https://apps.apple.com/us/app/dbt-coach/id1452264969" >
+        <a href="https://apps.apple.com/us/app/dbt-coach/id1452264969">
           <img src={appStore} alt='DBT Coach on App Store' />
         </a>
 
@@ -34,19 +34,20 @@ const Banner = (props) => {
   )
   return (
     <Fragment>
-      <section className='home-section-group'>
+      <section className='app-section-group'>
         <Row className='card-row divider'>
-          <Col md={8} className='card-col -margin-right'>
+          <Col md={12} className='card-col -margin-right'>
+            <h1 className='-highlighted-secondary-text apps-title'>DBT Coach</h1>
             <h2 className='bottom-space'>A comprehensive app for
-              <span className='-highlighted-text'>{' '}Dialectical Behavior Therapy</span> (DBT).</h2>
+              <span className='-highlighted-text' style={{marginTop:'5px'}}>{' '}Dialectical Behavior Therapy</span> (DBT).</h2>
             <div >
               Learn, practice and track your DBT skills
               with DBT Coach App. Engage better with your Therapist using
               our comprehensive Behavioral Health Platform.
             </div>
           </Col>
-          <Col md={8} className='card-col'>
-            <img src={bannerGraphic} />
+          <Col md={12} className='card-col'>
+            <img src={bannerGraphic} className='custom-imagesk' />
           </Col>
         </Row>
         {/* <Row className='card-row -row-flex-space-evenly'>
@@ -203,6 +204,7 @@ const Banner = (props) => {
           </Col>
         </Row>
         <Carousel reviews={dbtcoach} />
+        <div className='divider' />
         {/*<div style={{textAlign:'center'}} className='all-testimonials divider'>
           <a className='-highlighted-secondary-text'>Check all testimonials</a>
       </div> */}

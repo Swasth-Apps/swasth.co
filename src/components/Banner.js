@@ -1,13 +1,21 @@
-import React, { Fragment, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Col, Row } from 'antd'
 import bannerGraphic from '../assets/images/Banner_graphic.png'
 
 const Banner = (props) => {
+  const changingText=['Behavioral','Mental','Emotional'];
+  useEffect(() => {
+    let count = 0;
+    const timer = setInterval(()=>{
+      document.getElementById('change-text').innerHTML=`${changingText[count % 3]}`
+      count =count + 1;
+    },3000);
+  }, [])
   return (
-    <Row className='card-row divider'>
-    <Col md={8} className='card-col -margin-right'>
-      <h2 className='bottom-space'>Driving towards better
-        <span className='-highlighted-text'>{' '}Behavioral</span> Health.</h2>
+    <Row className='card-row divider -margin-bottom'>
+    <Col md={12} className='card-col -margin-right -margin-bottom'>
+      <h2 className='bottom-space'>Driving towards better{' '}
+        <span className='-highlighted-text' id='change-text' />{' '}Health.</h2>
       <div >
         Swasth is transforming behavioral health care by creating a seamless experience for clients,
         providers and employers. Using technology within the context of evidence based treatments, we
@@ -15,8 +23,8 @@ const Banner = (props) => {
         personalized and effective.
       </div>
     </Col>
-    <Col md={8} className='card-col'>
-      <img src={bannerGraphic}/>
+    <Col md={12} className='card-col'>
+      <img src={bannerGraphic} className='custom-image'/>
     </Col>
   </Row>
 )

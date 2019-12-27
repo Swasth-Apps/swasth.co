@@ -1,5 +1,5 @@
-import React, { Fragment, useState } from 'react'
-import { Col, Row } from 'antd'
+import React, { Fragment, useEffect, useState } from 'react'
+import { Col, Row, Tabs,Icon } from 'antd'
 import therapyGraphic from '../assets/images/Therapy_graphic.png'
 import Carousel from '../shared/carousel'
 import appStore from '../assets/images/app-store.png'
@@ -12,22 +12,24 @@ import ACTCoachScreen from '../assets/images/ACT_coach_screen.png'
 import CBTCompanionScreen from '../assets/images/CBT_companion_screen.png'
 import engagementTools from '../assets/images/Engagement_tools_img.png'
 import rightProvider from '../assets/images/Right_provider_graphic.png'
-import blogImg from '../assets/images/Blog_img01.png'
-import blogImg2 from '../assets/images/Blog_img02.png'
-import blogImg3 from '../assets/images/Blog_img03.png'
 import evidenceGraphic from '../assets/images/Evidence_based_graphic.png'
 import { home } from '../helper/helper'
 import Banner from '../components/Banner'
 
+const { TabPane } = Tabs;
 const Home = (props) => {
-  const [app, setApp] = useState('dbt')
+
   const store = (
-    <Row className='card-row' style={{display:'flex'}}>
+    <Row className='card-row' style={{display:'flex',flexDirection:'row'}}>
       <Col md={8} style={{marginRight:'10px'}}>
+        <a href="https://itunes.apple.com/us/developer/swasth-inc/id1295868545">
         <img src={appStore} alt='{app} Therapy App'/>
+        </a>
       </Col>
       <Col md={8}>
+        <a href="https://play.google.com/store/apps/developer?id=Swasth+Inc.">
         <img src={googlePay} alt='{app} Therapy App'/>
+        </a>
       </Col>
     </Row>
   )
@@ -70,94 +72,106 @@ const Home = (props) => {
             </div>
           </Col>
         </Row>
-        <Row className='card-row -row-flex-center divider'>
+        <Row className='card-row -row-flex-center'>
           <Col md={24} style={{width:'100%'}}>
             <Row>
               <h2 style={{ textAlign: 'center' }}>An app for each <br/><span className='-highlighted-text'>Evidence Based Treatment</span>{' '} modality
               </h2>
             </Row>
-            <Row className='card-row -row-flex-space-between' style={{display:'flex'}}>
-              <Col md={4} style={{ textAlign: 'center',marginRight:'10px' }} onClick={() => setApp('dbt')}>
-                <img className='custom-image' src={DBTCoach}/>
-                <div className={`${app === 'dbt' ? '-highlighted-text' : '-highlighted-secondary-text'}`}>DBT Coach
-                </div>
-              </Col>
-              <Col md={4} style={{ textAlign: 'center' ,marginRight:'10px' }} onClick={() => setApp('cbt')}>
-                <img className='custom-image' src={CBTCompanion}/>
-                <div className={`${app === 'cbt' ? '-highlighted-text' : '-highlighted-secondary-text'}`}>CBT
-                  Companion
-                </div>
-              </Col>
-              <Col md={4} style={{ textAlign: 'center' }} onClick={() => setApp('act')}>
-                <img className='custom-image' src={ACTCoach}/>
-                <div className={`${app === 'act' ? '-highlighted-text' : '-highlighted-secondary-text'}`}>ACT Coach
-                </div>
-              </Col>
-            </Row>
-          </Col>
-        </Row>
-        {app === 'dbt' ?
-          <Row className='card-row divider'>
-            <Col md={8} className='-margin-right'>
-              <img className='custom-image' src={DBTCoachScreen} alt='Therapy'/>
-            </Col>
-            <Col md={6}>
-              <h2 className='bottom-space'>
-                    <span className='-highlighted-secondary-text'>
-                        DBT Coach
-                    </span>{' '}
-              </h2>
-              <div >
-                A comprehensive app based on Dialetical Behavior Therapy (DBT), with over 100+ video lessons, exercises,
-                practice ideas and diary card tool for tracking DBT skills, targets and activites.
-                {store}
-              </div>
-            </Col>
-          </Row> :
-          ''
-        }
-        {app === 'cbt' ?
-          <Row className='card-row divider'>
-            <Col md={8} className='-margin-right'>
-              <img className='custom-image' src={CBTCompanionScreen} alt='Therapy'/>
-            </Col>
-            <Col md={6}>
-              <h2 className='bottom-space'>
+            <Tabs
+              // className="over-custom-border bt_portal-tabs"
+              className='bt_portal-tabs with_underline'
+              defaultActiveKey="1"
+              animated={false}
+              size="large"
+              tabBarGutter={5}
+            >
+              <TabPane
+                tab={
+                  <div className='-flex-align-item'>
+                    <img className='custom-image tab-image' width={24} height={24} src={CBTCompanion}/>
+                    <span className='-highlighted-secondary-text' style={{fontSize:'16px',marginLeft:'10px'}}>CBT Companion</span>
+                  </div>
+                }
+                key="1"
+              >
+                <Row className='card-row'>
+                  <Col md={12} className='-margin-right'>
+                    <img className='custom-image' width='100%' src={CBTCompanionScreen} alt='Therapy'/>
+                  </Col>
+                  <Col md={12}>
+                    <h2 className='bottom-space'>
                     <span className='-highlighted-secondary-text'>
                         CBT Companion
                     </span>{' '}
-              </h2>
-              <div >
-                Based on Cognitive Behavior Therapy, this enables you to track mood, emotions, activities journal etc.
-                Video lessons, exercises, ability to share with care team and more..
-                {store}
-              </div>
-            </Col>
-          </Row> :
-          ''
-        }
-        {app === 'act' ?
-          <Row className='card-row divider'>
-            <Col md={8} className='-margin-right'>
-              <img className='custom-image' src={ACTCoachScreen} alt='Therapy'/>
-            </Col>
-            <Col md={6}>
-              <h2 className='bottom-space'>
+                    </h2>
+                    <div >
+                      Based on Cognitive Behavior Therapy, this enables you to track mood, emotions, activities journal etc.
+                      Video lessons, exercises, ability to share with care team and more..
+                      {store}
+                    </div>
+                  </Col>
+                </Row>
+              </TabPane>
+              <TabPane
+                tab={
+                  <div className='-flex-align-item'>
+                    <img className='custom-image tab-image' width={24} height={24} src={DBTCoach}/>
+                   <span className='-highlighted-secondary-text' style={{fontSize:'16px',marginLeft:'10px'}}>DBT Coach</span>
+                  </div>
+                }
+                key="2"
+              >
+                <Row className='card-row divider'>
+                  <Col md={12} className='-margin-right'>
+                    <img className='custom-image' width='100%'  src={DBTCoachScreen} alt='Therapy'/>
+                  </Col>
+                  <Col md={12}>
+                    <h2 className='bottom-space'>
+                    <span className='-highlighted-secondary-text'>
+                        DBT Coach
+                    </span>{' '}
+                    </h2>
+                    <div >
+                      A comprehensive app based on Dialetical Behavior Therapy (DBT), with over 100+ video lessons, exercises,
+                      practice ideas and diary card tool for tracking DBT skills, targets and activites.
+                      {store}
+                    </div>
+                  </Col>
+                </Row>
+              </TabPane>
+              <TabPane
+                tab={
+                  <div className='-flex-align-item'>
+                    <img className='custom-image tab-image' width={24} height={24} src={ACTCoach}/>
+                    <span className='-highlighted-secondary-text' style={{fontSize:'16px',marginLeft:'10px'}}>ACT Coach</span>
+                  </div>
+                }
+                key="3"
+              >
+                <Row className='card-row divider'>
+                  <Col md={12} className='-margin-right '>
+                    <img className='custom-image' width='100%' src={ACTCoachScreen} alt='Therapy'/>
+                  </Col>
+                  <Col md={12}>
+                    <h2 className='bottom-space'>
                     <span className='-highlighted-secondary-text'>
                         ACT Coach
                     </span>{' '}
-              </h2>
-              <div >
-                Use Acceptance Commitment Therapy tools to record daily and weekly ACT Measures, stay mindful with ACT
-                Exercises, track mood, emotions, activities etc.
-                {store}
-              </div>
-            </Col>
-          </Row> :
-          ''
-        }
+                    </h2>
+                    <div >
+                      Use Acceptance Commitment Therapy tools to record daily and weekly ACT Measures, stay mindful with ACT
+                      Exercises, track mood, emotions, activities etc.
+                      {store}
+                    </div>
+                  </Col>
+                </Row>
+              </TabPane>
+            </Tabs>
+          </Col>
+        </Row>
         <Row className='card-row divider'>
-          <Col md={12} className='-margin-right'>
+          <Col md={12} className='-margin-right '>
             <h2 className='bottom-space'>
               <span className='-highlighted-text'>{' '}Engagement</span>{' '}tools</h2>
             <div >
@@ -178,7 +192,7 @@ const Home = (props) => {
               </h2>
             </Row>
            
-            <Row className='card-row'>
+            <Row className='card-row '>
               <Col md={12} className='-margin-right'>
                 <img className='custom-image' src={rightProvider} alt='Therapy'/>
               </Col>
@@ -189,7 +203,7 @@ const Home = (props) => {
                         {' '} Right Provider
                     </span>
                 </h2>
-                <div >
+                <div>
                   With Swasth's unique matching process, individuals get connected to the right clinician / provider at
                   no cost. Our evidence based platform enables individuals to obtain care in-person, live video call or
                   self guided digital care.
@@ -226,7 +240,7 @@ const Home = (props) => {
       </Col>
     </Row>
       </section>
-      <section className='home-section-group'>
+      <section className='home-section-group after-border-section'>
         <Row className='card-row' />
         <Row className='card-row -row-flex-center'>
           <Col md={24}>

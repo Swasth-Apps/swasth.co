@@ -1,7 +1,9 @@
 import React from 'react'
-import Carousel from 'react-multi-carousel'
+import Slider from 'react-slick'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import 'react-multi-carousel/lib/styles.css'
-import { Col, Row,Icon } from 'antd'
+import { Col, Icon } from 'antd'
 import blogImg from '../assets/images/Blog_img01.png'
 
 const CustomLeftArrow = ({ onClick }) => (
@@ -10,7 +12,47 @@ const CustomLeftArrow = ({ onClick }) => (
 const CustomRightArrow = ({ onClick }) => (
   <Icon onClick={() => onClick()} className='custom-carousel-icon -right-icon' type='right-circle' />
 );
-
+const settings = {
+  dots: true,
+  infinite: true,
+  autoplay: true,
+  speed: 500,
+  className: "center",
+  centerMode: true,
+  autoplaySpeed: 2000,
+  cssEase: "linear",
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  initialSlide: 0,
+  swipeToSlide: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        initialSlide: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+};
+/*
 const CarouselContainer = ({reviews}) => (
     <Carousel
       additionalTransfrom={0}
@@ -74,6 +116,26 @@ const CarouselContainer = ({reviews}) => (
         )) :''}
 
     </Carousel>
+)
+*/
+
+const CarouselContainer = ({reviews}) => (
+  <Slider {...settings}>
+    {reviews && reviews.length ? reviews.map(({comment,name})=>(
+      <Col md={6} className='blog-container'>
+        <div className='testimonials-blogs'>
+          <div style={{textAlign:'center',marginBottom:'15px'}}>
+            <img src={blogImg} className='testimonial-user-img'/>
+            <div className='testimonial-user-name'>{name ?`- ${name}` : ''}</div>
+          </div>
+          <h6>
+            {comment}
+          </h6>
+        </div>
+      </Col>
+    )) :''}
+
+  </Slider>
 )
 
 export default CarouselContainer

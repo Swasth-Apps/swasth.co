@@ -17,8 +17,8 @@
     "react-helmet": "^5.2.0",
     "react-multi-carousel": "^2.4.2",
     "react-slick": "^0.25.2",
-    "slick-carousel": "^1.8.1",
-    "s3-deploy": "^1.4.0"
+    "s3-deploy": "^1.4.0",
+    "slick-carousel": "^1.8.1"
   },
   "keywords": [
     "gatsby"
