@@ -86,6 +86,33 @@ const Home = (props) => {
               size="large"
               tabBarGutter={5}
             >
+            <TabPane
+            tab={
+              <div className='-flex-align-item'>
+                <img className='custom-image tab-image' width={24} height={24} src={DBTCoach}/>
+               <span className='-highlighted-secondary-text' style={{fontSize:'16px',marginLeft:'10px'}}>DBT Coach</span>
+              </div>
+            }
+            key="1"
+          >
+            <Row className='card-row divider'>
+              <Col md={12} className='-margin-right'>
+                <img className='custom-image' width='100%'  src={DBTCoachScreen} alt='Therapy'/>
+              </Col>
+              <Col md={12}>
+                <h2 className='bottom-space'>
+                <span className='-highlighted-secondary-text'>
+                    DBT Coach
+                </span>{' '}
+                </h2>
+                <div >
+                  A comprehensive app based on Dialetical Behavior Therapy (DBT), with over 100+ video lessons, exercises,
+                  practice ideas and diary card tool for tracking DBT skills, targets and activites.
+                  {store}
+                </div>
+              </Col>
+            </Row>
+          </TabPane>
               <TabPane
                 tab={
                   <div className='-flex-align-item'>
@@ -93,7 +120,7 @@ const Home = (props) => {
                     <span className='-highlighted-secondary-text' style={{fontSize:'16px',marginLeft:'10px'}}>CBT Companion</span>
                   </div>
                 }
-                key="1"
+                key="2"
               >
                 <Row className='card-row'>
                   <Col md={12} className='-margin-right'>
@@ -108,33 +135,6 @@ const Home = (props) => {
                     <div >
                       Based on Cognitive Behavior Therapy, this enables you to track mood, emotions, activities journal etc.
                       Video lessons, exercises, ability to share with care team and more..
-                      {store}
-                    </div>
-                  </Col>
-                </Row>
-              </TabPane>
-              <TabPane
-                tab={
-                  <div className='-flex-align-item'>
-                    <img className='custom-image tab-image' width={24} height={24} src={DBTCoach}/>
-                   <span className='-highlighted-secondary-text' style={{fontSize:'16px',marginLeft:'10px'}}>DBT Coach</span>
-                  </div>
-                }
-                key="2"
-              >
-                <Row className='card-row divider'>
-                  <Col md={12} className='-margin-right'>
-                    <img className='custom-image' width='100%'  src={DBTCoachScreen} alt='Therapy'/>
-                  </Col>
-                  <Col md={12}>
-                    <h2 className='bottom-space'>
-                    <span className='-highlighted-secondary-text'>
-                        DBT Coach
-                    </span>{' '}
-                    </h2>
-                    <div >
-                      A comprehensive app based on Dialetical Behavior Therapy (DBT), with over 100+ video lessons, exercises,
-                      practice ideas and diary card tool for tracking DBT skills, targets and activites.
                       {store}
                     </div>
                   </Col>
