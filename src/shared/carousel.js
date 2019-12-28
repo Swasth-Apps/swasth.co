@@ -4,7 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import 'react-multi-carousel/lib/styles.css'
 import { Col, Icon } from 'antd'
-import blogImg from '../assets/images/Blog_img01.png'
+//import blogImg from '../assets/images/Blog_img01.png'
+import blogImg from '../assets/images/testimonial-user.jpg'
 
 const CustomLeftArrow = ({ onClick }) => (
   <Icon onClick={() => onClick()} className='custom-carousel-icon' type='left-circle' />
@@ -125,7 +126,7 @@ const CarouselContainer = ({reviews}) => (
       <Col md={6} className='blog-container'>
         <div className='testimonials-blogs'>
           <div style={{textAlign:'center',marginBottom:'15px'}}>
-            <img src={blogImg} className='testimonial-user-img'/>
+            { <img src={blogImg} className='testimonial-user-img'/> }
             <div className='testimonial-user-name'>{name ?`- ${name}` : ''}</div>
           </div>
           <h6>
