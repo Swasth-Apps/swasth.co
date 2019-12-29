@@ -62,13 +62,13 @@ import { Link } from 'gatsby'
                 <h4>Social</h4>
 
                 <ul className="list-unstyled iconlist">
-                  <li><i className="icon-facebook"></i><a href="https://www.facebook.com/swasthapps/"
+                  <li><i className="icon-facebook"/><a href="https://www.facebook.com/swasthapps/"
                                                           target="_blank"> Facebook</a></li>
-                  <li><i className="icon-twitter"></i><a href="https://www.twitter.com/swasthapps/"
+                  <li><i className="icon-twitter"/><a href="https://www.twitter.com/swasthapps/"
                                                          target="_blank"> Twitter</a></li>
-                  <li><i className="icon-instagram"></i><a href="https://www.instagram.com/swasthapps/"
+                  <li><i className="icon-instagram"/><a href="https://www.instagram.com/swasthapps/"
                                                            target="_blank"> Instagram</a></li>
-                  <li><i className="icon-youtube"></i><a href="https://www.youtube.com/channel/UCtM20mp-kA1xkKdWA5Q-9KA"
+                  <li><i className="icon-youtube"/><a href="https://www.youtube.com/channel/UCtM20mp-kA1xkKdWA5Q-9KA"
                                                          target="_blank"> YouTube</a></li>
                 </ul>
 
@@ -81,7 +81,7 @@ import { Link } from 'gatsby'
 
         </div>
 
-        <div className="line line-sm m-0"></div>
+        <div className="line line-sm m-0" />
 
       </div>
       <div id="copyrights" className="nobg">
@@ -91,7 +91,7 @@ import { Link } from 'gatsby'
           <div className="col_half">
             <div className="copyright-links -highlighted-secondary-text">
             <Link to='/terms'>Terms of Use</Link> {'    |    '} 
-            <Link to ='privacy'>Privacy
+            <Link to ='/HIPAA-Business-Associate-Addendum'>Privacy
               Policy</Link></div>
             <div style={{  color: 'rgba(0,0,0,0.2)'}}>
             Copyrights &copy; 2019 All Rights Reserved by Swasth Inc.<br />
