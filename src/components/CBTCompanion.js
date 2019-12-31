@@ -39,9 +39,24 @@ const CBTCompanion = (props) => {
             <h1 className='-highlighted-secondary-text apps-title'>CBT Companion</h1>
             <h2 className='bottom-space'><span className='-highlighted-cbt-secondary-text'>{' '}Change</span> your <span className='-highlighted-cbt-text'>{' '}Feelings</span> and <span className='-highlighted-cbt-text'>{' '}Behavior</span> by <span className='-highlighted-cbt-secondary-text'>{' '}Changing</span> your
               <span className='-highlighted-cbt-text'>{' '}Thoughts</span>.</h2>
-            <div >
+            <div>
             Learn about Cognitive Behavioral Therapy (CBT), Challenge Negative Thoughts, Track moods, emotions, activities etc. Engage better with your Therapist using
             our comprehensive Behavioral Health Platform.
+            </div>
+            <div>
+              <Row className='card-row store-icons' style={{ padding: '32px 32px 0px', display: 'flex',flexDirection:'row' }}>
+                <Col md={8}>
+                  <a href="https://apps.apple.com/us/app/cbt-companion/id1445499245" >
+                    <img src={appStore} alt='CBT Companion on App Store' />
+                  </a>
+
+                </Col>
+                <Col md={8}>
+                  <a href="https://play.google.com/store/apps/details?id=co.swasth.cbtcompanion">
+                    <img src={googlePay} alt='CBT Companion on Play Store' />
+                  </a>
+                </Col>
+              </Row>
             </div>
           </Col>
           <Col md={12} className='card-col'>

@@ -45,6 +45,19 @@ const Banner = (props) => {
               with DBT Coach App. Engage better with your Therapist using
               our comprehensive Behavioral Health Platform.
             </div>
+            <Row className='card-row store-icons' style={{ padding: '32px 32px 0px', display: 'flex',flexDirection:'row' }}>
+              <Col md={8}>
+                <a href="https://apps.apple.com/us/app/dbt-coach/id1452264969">
+                  <img src={appStore} alt='DBT Coach on App Store' />
+                </a>
+
+              </Col>
+              <Col md={8}>
+                <a href="https://play.google.com/store/apps/details?id=co.swasth.dbtcoach">
+                  <img src={googlePay} alt='DBT Coach on Play Store' />
+                </a>
+              </Col>
+            </Row>
           </Col>
           <Col md={12} className='card-col'>
             <img src={bannerGraphic} className='custom-imagesk' />

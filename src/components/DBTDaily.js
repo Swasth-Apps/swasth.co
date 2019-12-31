@@ -37,6 +37,18 @@ const Banner = (props) => {
               connect clients to behavioral health providers and treatments that work, making the experience
               personalized and effective.
             </div>
+            <Row className='card-row' style={{padding:'32px 32px 0px',display:'flex',flexDirection:'row'}}>
+              <Col md={8}>
+                <a href='https://apps.apple.com/us/app/dbt-daily/id1398462276'>
+                  <img src={appStore} alt='Therapy'/>
+                </a>
+              </Col>
+              <Col md={8}>
+                <a href={'https://play.google.com/store/apps/details?id=co.swasth.dbtdaily'}>
+                  <img src={googlePay} alt='Therapy'/>
+                </a>
+              </Col>
+            </Row>
           </Col>
           <Col md={12} className='card-col'>
             <img src={bannerGraphic} className='custom-image'/>
