@@ -477,3 +477,35 @@
 .apps-title{
   font-size: 36px;
 }
+
+.mfp-hide{
+  display: none;
+}
+.center { text-align: center !important; }
+
+.divcenter {
+  position: relative !important;
+  float: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.ant-modal-close{
+  top: -8%;
+  right: -4%;
+  position: absolute;
+  box-shadow: none !important;
+  i{
+    font-size: 24px;
+  }
+}
+.ant-modal-body{
+  padding: 0 !important;
+}
+.ant-modal-footer{
+  display: none !important;
+}

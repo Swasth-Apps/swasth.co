@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react'
-import { Col, Row } from 'antd'
+import { Col, Icon, Modal, Row } from 'antd'
 import bannerGraphic from '../assets/images/ACT-splash.png'
 import lessons from '../assets/images/ACT-lessons.png'
 import recordEntries from '../assets/images/ACT-record-diary.png'
@@ -16,7 +16,7 @@ import Carousel from '../shared/carousel'
 import { dbtcoach } from '../helper/helper'
 
 const ACTCoach = (props) => {
-  const [app, setApp] = useState('dbt')
+  const [visible, setVisible] = useState(false)
   const store = (
     <Row className='card-row -row-flex-center store-icons' style={{ padding: '32px 32px 0px', display: 'flex',flexDirection:'row' }}>
       <Col md={8}>
@@ -56,6 +56,27 @@ const ACTCoach = (props) => {
                   <img src={googlePay} alt='ACT Coach on Play Store' />
                 </a>
               </Col>
+            </Row>
+
+            <Row>
+              <a style={{fontSize:'24px'}} onClick={()=>setVisible(true)}><Icon type="video-camera"/> {' '}Watch a Video</a>
+              <Modal
+                visible={visible}
+                onCancel={()=>setVisible(false)}
+                width={1280}
+              >
+                {visible ?
+                  <iframe
+                    width='100%'
+                    height={720}
+                    src="https://www.youtube.com/embed/HGXsmLdhiQw"
+                    frameBorder="0"
+                    allow="autoplay; encrypted-media"
+                    allowFullScreen
+                  >
+                  </iframe>
+                  :''}
+              </Modal>
             </Row>
 
           </Col>
