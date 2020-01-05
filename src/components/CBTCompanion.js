@@ -37,7 +37,7 @@ const CBTCompanion = (props) => {
       <section className='app-section-group'>
         <Row className='card-row divider'>
           <Col md={12} className='card-col -margin-right'>
-            <h1 className='-highlighted-secondary-text apps-title'>CBT Companion</h1>
+            <h1 className='-highlighted-cbt-text apps-title'>CBT Companion</h1>
             <h2 className='bottom-space'><span className='-highlighted-cbt-secondary-text'>{' '}Change</span> your <span
               className='-highlighted-cbt-text'>{' '}Feelings</span> and <span
               className='-highlighted-cbt-text'>{' '}Behavior</span> by <span
@@ -64,7 +64,7 @@ const CBTCompanion = (props) => {
                 </Col>
               </Row>
               <Row>
-                <a style={{fontSize:'24px'}} onClick={()=>setVisible(true)}><Icon type="video-camera"/> {' '}Watch a Video</a>
+                <a style={{fontSize:'24px'}} onClick={()=>setVisible(true)}><Icon type="video-camera"/> {' '}Watch the Video</a>
                 <Modal
                   visible={visible}
                   onCancel={()=>setVisible(false)}
@@ -86,7 +86,7 @@ const CBTCompanion = (props) => {
             </div>
           </Col>
           <Col md={12} className='card-col'>
-            <img src={bannerGraphic}/>
+            <img src={bannerGraphic} className='custom-imagesk'/>
           </Col>
         </Row>
         {/*  <Row className='card-row -row-flex-space-evenly'>

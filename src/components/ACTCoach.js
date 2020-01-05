@@ -37,7 +37,7 @@ const ACTCoach = (props) => {
       <section className='app-section-group'>
         <Row className='card-row divider'>
           <Col md={12} className='card-col -margin-right'>
-            <h1 className='-highlighted-secondary-text apps-title'>ACT Coach</h1>
+            <h1 className='-highlighted-act-text apps-title'>ACT Coach</h1>
             <h2 className='bottom-space'><span className='-highlighted-act-secondary-text'>{' '}Optimize</span> your <span className='-highlighted-act-text'>{' '}Inner Potential</span> by <span className='-highlighted-act-secondary-text'>{' '}Acceptance</span> and
           <span className='-highlighted-act-secondary-text'>{' '}Commitment</span>.</h2>
             <div >
@@ -59,7 +59,7 @@ const ACTCoach = (props) => {
             </Row>
 
             <Row>
-              <a style={{fontSize:'24px'}} onClick={()=>setVisible(true)}><Icon type="video-camera"/> {' '}Watch a Video</a>
+              <a style={{fontSize:'24px'}} onClick={()=>setVisible(true)}><Icon type="video-camera"/> {' '}Watch the Video</a>
               <Modal
                 visible={visible}
                 onCancel={()=>setVisible(false)}
@@ -81,7 +81,7 @@ const ACTCoach = (props) => {
 
           </Col>
           <Col md={12} className='card-col'>
-            <img src={bannerGraphic} className='custom-image' />
+            <img src={bannerGraphic} className='custom-imagesk' />
           </Col>
         </Row>
         {/*  <Row className='card-row -row-flex-space-evenly'>

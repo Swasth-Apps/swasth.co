@@ -4,7 +4,9 @@ import PDF from '../shared/HIPAA-Business-Associate-Addendum.pdf'
 
 class HomeIndex extends React.Component {
     render() {
-        window.open(PDF, "_self")
+        if (typeof window !== `undefined`) {
+            window.open(PDF, "_self")
+        }
         return (
             <span />
         )

@@ -9,12 +9,12 @@ const Banner = (props) => {
     const timer = setInterval(()=>{
       document.getElementById('change-text').innerHTML=`${changingText[count % 3]}`
       count =count + 1;
-    },3000);
+    },2000);
   }, [])
   return (
     <Row className='card-row divider -margin-bottom'>
     <Col md={12} className='card-col -margin-right -margin-bottom'>
-      <h2 className='bottom-space'>Driving towards better{' '}
+      <h2 className='bottom-space'>Driving towards better{' '}<br/>
         <span className='-highlighted-text' id='change-text' />{' '}Health.</h2>
       <div >
         Swasth is transforming behavioral health care by creating a seamless experience for clients,
