@@ -62,13 +62,14 @@ const ACTCoach = (props) => {
               <a style={{fontSize:'24px'}} onClick={()=>setVisible(true)}><Icon type="video-camera"/> {' '}Watch a Video</a>
               <Modal
                 visible={visible}
+                className='video-modal-class'
                 onCancel={()=>setVisible(false)}
-                width={1280}
               >
                 {visible ?
                   <iframe
                     width='100%'
                     height={720}
+                    className='iframe-video'
                     src="https://www.youtube.com/embed/HGXsmLdhiQw"
                     frameBorder="0"
                     allow="autoplay; encrypted-media"

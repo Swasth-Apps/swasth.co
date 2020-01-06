@@ -63,12 +63,13 @@ const Banner = (props) => {
               <Modal
                 visible={visible}
                 onCancel={()=>setVisible(false)}
-                width={1280}
+                className='video-modal-class'
               >
                 {visible ?
                   <iframe
                     width='100%'
                     height={720}
+                    className='iframe-video'
                     src="https://www.youtube.com/embed/MAvMYcq_E7c?rel=0"
                     frameBorder="0"
                     allow="autoplay; encrypted-media"

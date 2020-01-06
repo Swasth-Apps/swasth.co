@@ -374,6 +374,17 @@
   .-highlighted-secondary-text{
     font-size: 25px;
   }
+  .iframe-video{
+    height: 100% !important;
+  }
+  .ant-modal-close{
+    top: -30% !important;
+    right: -12% !important;
+  }
+}
+
+.video-modal-class{
+  width: 100% !important;
 }
 
 .with_underline {
@@ -496,7 +507,7 @@
 }
 .ant-modal-close{
   top: -8%;
-  right: -4%;
+  right: -3%;
   position: absolute;
   box-shadow: none !important;
   i{
