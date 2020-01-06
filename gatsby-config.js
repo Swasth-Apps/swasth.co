@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
+    title: "Swasth Website",
+    author: "Gana Pemmanda",
+    description: "Home of of Swasth Inc."
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -21,7 +21,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-          bucketName: 'swasth-website'
+          bucketName: 'swasth.co'
       },
     },
     'gatsby-plugin-sass',

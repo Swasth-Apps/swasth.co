@@ -91,7 +91,7 @@ import { Link } from 'gatsby'
           <div className="col_half">
             <div className="copyright-links -highlighted-secondary-text">
             <Link to='/terms'>Terms of Use</Link> {'    |    '} 
-            <Link to ='/HIPAA-Business-Associate-Addendum'>Privacy
+            <Link to ='/privacy'>Privacy
               Policy</Link></div>
             <div style={{  color: 'rgba(0,0,0,0.2)'}}>
             Copyrights &copy; 2019 All Rights Reserved by Swasth Inc.<br />

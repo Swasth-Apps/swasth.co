@@ -303,7 +303,7 @@ const Terms = () =>(
 						through the Swasth Service. Such information is Health-Related Information and treated as discussed in these Terms
 						and our&nbsp;</span></font>
             </font>
-          </font><a href="https://www.recoveryrecord.com/privacy_policy?is_ipad=1">Privacy Policy
+          </font><a href="/privacy">Privacy Policy
         </a><font color="#000000">
           <font face="HelveticaNeue">
             <font size="3" style={{fontSize: '12pt'}}>. You agree that Swasth is not responsible for what a clinician or

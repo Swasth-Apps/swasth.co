@@ -59,7 +59,7 @@ const Banner = (props) => {
               </Col>
             </Row>
             <Row>
-              <a style={{fontSize:'24px'}} onClick={()=>setVisible(true)}><Icon type="video-camera"/> {' '}Watch a Video</a>
+              <a style={{fontSize:'24px'}} onClick={()=>setVisible(true)}><Icon type="video-camera"/> {' '}Watch the Video</a>
               <Modal
                 visible={visible}
                 onCancel={()=>setVisible(false)}
@@ -70,7 +70,7 @@ const Banner = (props) => {
                     width='100%'
                     height={720}
                     className='iframe-video'
-                    src="https://www.youtube.com/embed/MAvMYcq_E7c?rel=0"
+                    src="https://www.youtube.com/embed/rzqiPaAxbgo?rel=0"
                     frameBorder="0"
                     allow="autoplay; encrypted-media"
                     allowFullScreen
