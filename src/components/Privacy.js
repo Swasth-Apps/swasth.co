@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Privacy = () =>(
-  <section id="content" className='app-section-group'>
+  <section id="content" className='terms-section-group'>
 
     <div className="content-wrap nopadding">
 
