@@ -1,0 +1,47 @@
+
+.menu-fold-icon{
+  display: none !important;
+}
+
+@media screen and (max-width: 1023px) {
+  #header {
+    .hide-content {
+      display: none !important;
+    }
+  }
+  .menu-fold-icon{
+    display: block !important;
+    z-index: 12;
+    cursor: pointer;
+    .icon{
+      font-size: 24px;
+      color: white;
+      padding-right: 15px;
+    }
+  }
+  .menu-fold-content{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(46,55,70,.99);
+    width: calc(100% + 0em);
+    justify-content: center;
+    text-align: center;
+    a{
+      border-bottom: 1px solid rgba(255,255,255,.125);
+      color: #fff;
+      padding: 20px;
+      font-size: 19px;
+      width: 230px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #coach-wrapper{
+    padding-top: 0;
+  }
+}

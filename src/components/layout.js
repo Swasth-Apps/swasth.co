@@ -33,8 +33,8 @@ class Layout extends React.Component {
             <div className={`body ${this.state.loading}`}>
                 {/*<img className='absoluted-header-image' src={BG}/>*/}
                 <img src={BG} className='home-bg-img'/>
-                <div id="wrapper">
-                    <Header />
+                <div id={`wrapper ${this.props.show ? 'coach-wrapper' :''}`}>
+                    <Header show={this.props.show} />
                     {children}
                 </div>
                 <Footer />
