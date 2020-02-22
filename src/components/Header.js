@@ -1,74 +1,84 @@
-import React,{useState} from 'react';
-import { Icon } from 'antd';
-import PropTypes from 'prop-types';
-import swasthLogo from '../assets/images/swasth-logo-dark.png';
-import { Link } from 'gatsby';
+import React, { useState } from 'react'
+import { Icon } from 'antd'
+import PropTypes from 'prop-types'
+import swasthLogo from '../assets/images/swasth-logo-dark.png'
+import { Link } from 'gatsby'
 
 const Header = (props) => {
   const [state, setState] = useState(false)
-  console.log('prrrr',props.show)
   return (
     <>
-    <header id="header" className="alt">
-      <nav className='header-nav'>
-        <Link to="/">
-          <img src={swasthLogo} alt='Home'/>
-        </Link>
-        {props.show && !state ?
-          <>
-            <a href="https://provider.swasth.co">
-              <div className="menu-content hide-content" href="javascript:;">Features</div>
-            </a>
-            <a href="https://provider.swasth.co">
-              <div className="menu-content hide-content" href="javascript:;">Pricing</div>
-            </a>
-            <a href="https://provider.swasth.co">
-              <div className="menu-content hide-content" href="javascript:;">Case Studies</div>
-            </a>
-            <a href="https://provider.swasth.co">
-              <div className="menu-content hide-content" href="javascript:;">About</div>
-            </a>
-            <a href="https://provider.swasth.co">
-              <div className="menu-content hide-content" href="javascript:;">Blog</div>
-            </a>
-          </> : ''}
-        <a href="https://provider.swasth.co">
-          <div className="menu-content" href="javascript:;">Clinicians</div>
-        </a>
-        <a className='menu-fold-icon'
-           hidden={!props.show}
-           href='javascript:void(0)'
-           onClick={() => setState(!state)}>
-          {state?<Icon className='icon' type="close" />
-             :<Icon className='icon' type="menu" /> }
-        </a>
-      </nav>
-    </header>
+      <header id="header" className="alt">
+        <nav className='header-nav'>
+          <Link to="/" hidden={props.show && state} style={{display: 'flex', alignItems: 'center'}}>
+            <img style={{marginBottom:-5}} src={swasthLogo} alt='Home'/>
+          </Link>
+          {props.show && !state ?
+            <>
+              <Link to="/live-coach/features">
+                <div className="menu-content hide-content" href="javascript:;">Features</div>
+              </Link>
+              <a href="https://clinician.swasth.co/pricing">
+                <div className="menu-content hide-content" href="javascript:;">Pricing</div>
+              </a>
+              <Link to="/live-coach/case-studies">
+                <div className="menu-content hide-content" href="javascript:;">Case Studies</div>
+              </Link>
+              <a href="https://provider.swasth.co">
+                <div className="menu-content hide-content" href="javascript:;">About</div>
+              </a>
+              <a href="https://provider.swasth.co">
+                <div className="menu-content hide-content" href="javascript:;">Blog</div>
+              </a>
+              <a href="https://provider.swasth.co">
+                <div className="menu-content hide-content">Clinicians</div>
+              </a>
+            </> : ''}
+          <a
+            href="https://provider.swasth.co"
+            hidden={props.show}
+          >
+            <div className="menu-content">Clinicians</div>
+          </a>
+          {props.show ?
+            <a
+              className='menu-fold-icon'
+              href='javascript:void(0)'
+              onClick={() => setState(!state)}>
+              {state ? <Icon className='icon' type="close"/>
+                : <Icon className='icon' type="menu"/>}
+            </a> : ''
+          }
+        </nav>
+      </header>
       {
         props.show && state ?
           <div className='menu-fold-content'>
+            <Link to="/live-coach/features">
+              <div className="menu-content">Features</div>
+            </Link>
+            <a href="https://clinician.swasth.co/pricing">
+              <div className="menu-content">Pricing</div>
+            </a>
+            <Link to="/live-coach/case-studies">
+              <div className="menu-content">Case Studies</div>
+            </Link>
             <a href="https://provider.swasth.co">
-              <div className="menu-content" href="javascript:;">Features</div>
+              <div className="menu-content">About</div>
             </a>
             <a href="https://provider.swasth.co">
-              <div className="menu-content" href="javascript:;">Pricing</div>
+              <div className="menu-content">Blog</div>
             </a>
             <a href="https://provider.swasth.co">
-              <div className="menu-content" href="javascript:;">Case Studies</div>
+              <div className="menu-content">Clinicians</div>
             </a>
-            <a href="https://provider.swasth.co">
-              <div className="menu-content" href="javascript:;">About</div>
-            </a>
-            <a href="https://provider.swasth.co">
-              <div className="menu-content" href="javascript:;">Blog</div>
-            </a>
-        </div>:''
+          </div> : ''
       }
-      </>
+    </>
   )
 }
 Header.propTypes = {
-    onToggleMenu: PropTypes.func
+  onToggleMenu: PropTypes.func,
 }
 
 export default Header

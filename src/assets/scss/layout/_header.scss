@@ -63,6 +63,7 @@
 		nav {
 			@include vendor('display', 'flex');
 			@include vendor('justify-content', 'space-between');
+			@include vendor('align-items', 'center');
 			@include vendor('flex-grow', '1');
 			height: inherit;
 			line-height: inherit;
