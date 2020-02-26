@@ -19,11 +19,27 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: 'pages',
+      },
+    },
+    {
       resolve: `gatsby-plugin-s3`,
       options: {
           bucketName: 'swasth.co'
       },
     },
+    'gatsby-transformer-sharp',
+    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-plugin-netlify-cms',
+      options: {
+        modulePath: `${__dirname}/src/cms/cms.js`,
+      },
+    },
+    'gatsby-plugin-netlify',
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
   ],

@@ -1,10 +1,9 @@
 import React from 'react'
-
-import '../assets/scss/main.scss'
 import Header from './Header'
 import Footer from './Footer'
 import BG from '../assets/images/BG.png'
-// import footerImg from '../assets/images/footer_bg.png'
+import '../assets/scss/main.scss';
+
 
 class Layout extends React.Component {
     constructor(props) {

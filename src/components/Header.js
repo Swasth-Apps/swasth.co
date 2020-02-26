@@ -18,7 +18,7 @@ const Header = (props) => {
               <Link to="/live-coach/features">
                 <div className="menu-content hide-content" href="javascript:;">Features</div>
               </Link>
-              <a href="https://clinician.swasth.co/pricing">
+              <a href="/live-coach/pricing">
                 <div className="menu-content hide-content" href="javascript:;">Pricing</div>
               </a>
               <Link to="/live-coach/case-studies">
@@ -27,7 +27,7 @@ const Header = (props) => {
               <a href="https://provider.swasth.co">
                 <div className="menu-content hide-content" href="javascript:;">About</div>
               </a>
-              <a href="https://provider.swasth.co">
+              <a href="/live-coach/blog">
                 <div className="menu-content hide-content" href="javascript:;">Blog</div>
               </a>
               <a href="https://provider.swasth.co">
@@ -57,7 +57,7 @@ const Header = (props) => {
             <Link to="/live-coach/features">
               <div className="menu-content">Features</div>
             </Link>
-            <a href="https://clinician.swasth.co/pricing">
+            <a href="/live-coach/pricing">
               <div className="menu-content">Pricing</div>
             </a>
             <Link to="/live-coach/case-studies">
@@ -66,7 +66,7 @@ const Header = (props) => {
             <a href="https://provider.swasth.co">
               <div className="menu-content">About</div>
             </a>
-            <a href="https://provider.swasth.co">
+            <a href="/live-coach/blog">
               <div className="menu-content">Blog</div>
             </a>
             <a href="https://provider.swasth.co">
