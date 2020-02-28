@@ -11,10 +11,9 @@ class HomeIndex extends React.Component {
   }
   render() {
     const { data } = this.props
-    console.log('daaaaa',data)
     return (
       <Layout show>
-        <Blogs />
+        <Blogs data={data} />
       </Layout>
     )
   }
@@ -32,6 +31,7 @@ export default () => (
             node {
               excerpt(pruneLength: 400)
               id
+              html
               fields {
                 slug
               }

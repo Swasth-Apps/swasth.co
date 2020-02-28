@@ -24,7 +24,7 @@ const Header = (props) => {
               <Link to="/live-coach/case-studies">
                 <div className="menu-content hide-content" href="javascript:;">Case Studies</div>
               </Link>
-              <a href="https://provider.swasth.co">
+              <a href="/live-coach/about">
                 <div className="menu-content hide-content" href="javascript:;">About</div>
               </a>
               <a href="/live-coach/blog">
@@ -63,7 +63,7 @@ const Header = (props) => {
             <Link to="/live-coach/case-studies">
               <div className="menu-content">Case Studies</div>
             </Link>
-            <a href="https://provider.swasth.co">
+            <a href="/live-coach/about">
               <div className="menu-content">About</div>
             </a>
             <a href="/live-coach/blog">
