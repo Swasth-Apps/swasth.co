@@ -15,19 +15,19 @@ const Header = (props) => {
           </Link>
           {props.show && !state ?
             <>
-              <Link to="/live-coach/features">
+              <Link to="/coaching/features">
                 <div className="menu-content hide-content" href="javascript:;">Features</div>
               </Link>
-              <a href="/live-coach/pricing">
+              <a href="/coaching/pricing">
                 <div className="menu-content hide-content" href="javascript:;">Pricing</div>
               </a>
-              <Link to="/live-coach/case-studies">
+              <Link to="/coaching/case-studies">
                 <div className="menu-content hide-content" href="javascript:;">Case Studies</div>
               </Link>
-              <a href="/live-coach/about">
+              <a href="/coaching/about">
                 <div className="menu-content hide-content" href="javascript:;">About</div>
               </a>
-              <a href="/live-coach/blog">
+              <a href="/coaching/blog">
                 <div className="menu-content hide-content" href="javascript:;">Blog</div>
               </a>
               <a href="https://provider.swasth.co">
@@ -54,19 +54,19 @@ const Header = (props) => {
       {
         props.show && state ?
           <div className='menu-fold-content'>
-            <Link to="/live-coach/features">
+            <Link to="/coaching/features">
               <div className="menu-content">Features</div>
             </Link>
-            <a href="/live-coach/pricing">
+            <a href="/coaching/pricing">
               <div className="menu-content">Pricing</div>
             </a>
-            <Link to="/live-coach/case-studies">
+            <Link to="/coaching/case-studies">
               <div className="menu-content">Case Studies</div>
             </Link>
-            <a href="/live-coach/about">
+            <a href="/coaching/about">
               <div className="menu-content">About</div>
             </a>
-            <a href="/live-coach/blog">
+            <a href="/coaching/blog">
               <div className="menu-content">Blog</div>
             </a>
             <a href="https://provider.swasth.co">

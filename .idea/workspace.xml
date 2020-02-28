@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc70eb03-a129-4ee1-9e11-a0c375fba21f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/LiveCoachAbout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/live-coach/about/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/flavor_wheel.jpg" afterDir="false" />
+    <list default="true" id="cc70eb03-a129-4ee1-9e11-a0c375fba21f" name="Default Changelist" comment="-- About page design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blogs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/live-coach/blog/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/live-coach/blog/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/live-coach/about/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/coaching/about/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/live-coach/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/coaching/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/live-coach/blog/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/coaching/blog/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/live-coach/case-studies/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/coaching/case-studies/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/live-coach/features/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/coaching/features/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/live-coach/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/coaching/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/live-coach/pricing/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/coaching/pricing/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
     </list>
     <list id="c9136efa-379e-425e-8e32-46b67092561a" name="-- Design of Swasth Website" comment="-- Design of Swasth Website" />
@@ -23,7 +24,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/live-coach/about/index.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/coaching/about/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
               <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
@@ -34,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/LiveCoachAbout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="194">
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -46,14 +47,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state relative-caret-position="110">
+              <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+              <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+              <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+              <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -79,7 +98,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.question-container</find>
       <find>.divider</find>
       <find>prima</find>
       <find>margin-bo</find>
@@ -109,6 +127,7 @@
       <find>content-sidebar-wrap</find>
       <find>card--hori</find>
       <find>grid--3</find>
+      <find>live-coach</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,12 +182,12 @@
         <option value="$PROJECT_DIR$/gatsby-config.js" />
         <option value="$PROJECT_DIR$/gatsby-node.js" />
         <option value="$PROJECT_DIR$/src/pages/live-coach/blog/index.js" />
-        <option value="$PROJECT_DIR$/static/admin/config.yml" />
         <option value="$PROJECT_DIR$/src/components/Blogs.js" />
         <option value="$PROJECT_DIR$/src/pages/live-coach/about/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Header.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss" />
         <option value="$PROJECT_DIR$/src/components/LiveCoachAbout.js" />
+        <option value="$PROJECT_DIR$/static/admin/config.yml" />
+        <option value="$PROJECT_DIR$/src/components/Header.js" />
       </list>
     </option>
   </component>
@@ -183,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,21 +225,6 @@
               <item name="swasth-invision" type="b2602c69:ProjectViewProjectNode" />
               <item name="swasth-invision" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="swasth-invision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="swasth-invision" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="swasth-invision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="swasth-invision" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -233,14 +238,14 @@
               <item name="swasth-invision" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="live-coach" type="462c0819:PsiDirectoryNode" />
+              <item name="coaching" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="swasth-invision" type="b2602c69:ProjectViewProjectNode" />
               <item name="swasth-invision" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="live-coach" type="462c0819:PsiDirectoryNode" />
+              <item name="coaching" type="462c0819:PsiDirectoryNode" />
               <item name="about" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -248,14 +253,24 @@
               <item name="swasth-invision" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="live-coach" type="462c0819:PsiDirectoryNode" />
+              <item name="coaching" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swasth-invision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swasth-invision" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swasth-invision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swasth-invision" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,6 +362,7 @@
       <workItem from="1582731133252" duration="12106000" />
       <workItem from="1582815798266" duration="8463000" />
       <workItem from="1582911264378" duration="1323000" />
+      <workItem from="1582914678948" duration="504000" />
     </task>
     <task id="LOCAL-00001" summary="--design of Home page and DBT Coach">
       <created>1576213422150</created>
@@ -439,17 +455,23 @@
       <option name="project" value="LOCAL" />
       <updated>1582747863475</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="-- About page design">
+      <created>1582914740791</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1582914740791</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177849000" />
+    <option name="totallyTimeSpent" value="178353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15231362" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15424165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -552,7 +574,8 @@
     <MESSAGE value="-- add new page ' Live coach '  with responsive menu bar" />
     <MESSAGE value="-- Live coach page design&#10;-- index&#10;-- features&#10;-- case studies" />
     <MESSAGE value="-- Netlify cms configuration completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- Netlify cms configuration completed" />
+    <MESSAGE value="-- About page design" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- About page design" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pages/404.js">
@@ -660,7 +683,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/live-coach/features/index.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/coaching/features/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="9" column="19" selection-end-line="16" selection-end-column="24" />
@@ -670,7 +693,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/live-coach/case-studies/index.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/coaching/case-studies/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
@@ -697,7 +720,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/live-coach/pricing/index.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/coaching/pricing/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
@@ -707,7 +730,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/live-coach/index.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/coaching/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
@@ -756,7 +779,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/live-coach/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel.md">
+    <entry file="file://$PROJECT_DIR$/src/pages/coaching/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor />
@@ -822,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cms/preview-templates/BlogPostPreview.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -849,7 +865,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/live-coach/blog/index.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/coaching/blog/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="25" column="25" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="25" />
@@ -869,22 +885,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/live-coach/about/index.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/coaching/about/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -898,10 +904,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LiveCoachAbout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="194">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
