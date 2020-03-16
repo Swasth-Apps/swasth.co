@@ -7,8 +7,11 @@ const Banner = (props) => {
   useEffect(() => {
     let count = 0;
     const timer = setInterval(()=>{
-      document.getElementById('change-text').innerHTML=`${changingText[count % 3]}`
-      count =count + 1;
+      const changeText = document.getElementById('change-text');
+      if(changeText) {
+        changeText.innerHTML = `${changingText[count % 3]}`
+        count = count + 1;
+      }
     },2000);
   }, [])
   return (
