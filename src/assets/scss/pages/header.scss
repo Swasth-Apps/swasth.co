@@ -3,7 +3,8 @@
 }
 .header-nav {
   .menu-content {
-    color: _palette(bg);
+    //color: _palette(bg);
+    color: black;
     cursor: pointer;
     font-weight: 600px;
     font-size: 1.3em;
@@ -30,6 +31,9 @@
 
   .home-section-group {
     transform: translateY(4%);
+  }
+  .coaching-home-section-group {
+    transform: translateY(35%);
   }
 
   .app-section-group{

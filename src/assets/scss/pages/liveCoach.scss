@@ -71,15 +71,12 @@
   .cell {
     text-align: center;
 
-    h1 {
+    h2 {
       //color: _palette(bg);
-      font-weight: 600;
+      font-weight: 500;
       margin-bottom: 0px;
     }
 
-    h2 {
-      font-weight: 600;
-    }
   }
 
   .well {
@@ -99,7 +96,26 @@
       grid-gap: 30px;
     }
   }
+  .two-grid{
+    @media screen and (min-width: 1025px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
 
+  .card--feature-shadow{
+    box-shadow: rgba(0, 0, 0, 0.07) 0 8px 25px 0;
+    .card-content {
+      h3 {
+        a {
+          font-size: 24px;
+          font-weight: 500;
+        }
+      }
+    }
+    @media screen and (max-width: 430px) {
+      padding: 0 !important;
+    }
+  }
   .card--feature {
     font-size: 15px;
     padding: 20px 30px;
@@ -125,14 +141,20 @@
     padding: 20px 25px;
     width: 100%;
 
-    .card-content {
-      h3 {
-      }
-    }
-
     @media screen and (min-width: 1025px) {
       //max-width: none;
       padding: 30px 50px;
+    }
+  }
+  .remove-width{
+    max-width: none;
+    margin: 0;
+    .card-content{
+      display: flex;
+      flex-direction: row-reverse;
+      @media screen and (max-width: 767px) {
+        display: block;
+      }
     }
   }
 
@@ -413,8 +435,12 @@
 
 // Pricing
 
+.common-pricing-text{
+  color: #a7a7a7;
+  margin-top: 15px;
+}
 .mt4 {
-  margin-top: 40px !important;
+  //margin-top: 40px !important;
 
   .card-text {
     background: #62bd7a;
@@ -621,5 +647,21 @@ strong{
   }
   .grid--6{
     grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.form-fields{
+  display: flex;
+  margin-top: 15px;
+  input{
+    box-shadow: rgba(0, 0, 0, 0.07) 0 8px 25px 0;
+    border: 1px solid #dedede !important;
+    background: white;
+    width: 50%;
+    margin-right: 20px;
+    height: 40px;
+  }
+  button{
+    height: 40px;
   }
 }

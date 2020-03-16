@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../../components/layout'
-import Home from '../Home'
+import LifeCoach from '../../components/LifeCoach'
 
 
 class HomeIndex extends React.Component {
@@ -8,7 +8,7 @@ class HomeIndex extends React.Component {
     render() {
         return (
             <Layout show>
-                <Home />
+                <LifeCoach />
             </Layout>
         )
     }
