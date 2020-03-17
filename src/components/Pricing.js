@@ -13,8 +13,9 @@ class LiveCoachFeature extends React.Component {
         <Row className='card-row'>
           <div className='cell'>
             <div className='well tac'>
-              <h2>Invest In Your Personal Training Business</h2>
-              <div>If TrueCoach helps you train just one additional client or saves you 15 minutes each week, it will more than pay for itself.</div>
+              <h2>Invest in the best Behavioral Health Coaching Platform</h2>
+              <div><br></br></div>
+              <div>By using Swasth's Coaching Platform you can run bring your coaching to clients all over the world. Focus on developing the best coaching program and we take care of the rest.</div>
             </div>
           </div>
         </Row>
@@ -22,23 +23,34 @@ class LiveCoachFeature extends React.Component {
           <div className='grid grid--3row well--m mt4'>
             <div className='card card--vertical card--starter'>
               <div className='card-text'>
-                <p>The Starter Plan</p>
-                <h4>$19/month</h4>
-                <p>15% off for 5 clients</p>
+                <h2>Free</h2>
+                <h4>$0</h4>
+                <h6>Platform Fee</h6>
+                <p>For Free Programs</p>
+              </div>
+            </div>
+            <div className='card card--vertical card--starter'>
+              <div className='card-text'>
+              <h2>Starter</h2>
+              <h4>15%</h4>
+                <h6>Of Program Fees Collected</h6>
+                <p>upto 10 Clients</p>
               </div>
             </div>
             <div className='card card--vertical card--standard'>
               <div className='card-text'>
-                <p>The Starter Plan</p>
-                <h4>$19/month</h4>
-                <p>15% off for 5 clients</p>
+              <h2>Par</h2>
+              <h4>12%</h4>
+                <h6>Of Program Fees Collected</h6>
+                <p>11-20 Clients</p>
               </div>
             </div>
             <div className='card card--vertical card--pro'>
               <div className='card-text'>
-                <p>The Starter Plan</p>
-                <h4>$19/month</h4>
-                <p>15% off for 5 clients</p>
+              <h2>Jumbo</h2>
+              <h4>10%</h4>
+                <h6>Of Program Fees Collected</h6>
+                <p>21-50 Clients</p>
               </div>
             </div>
           </div>
