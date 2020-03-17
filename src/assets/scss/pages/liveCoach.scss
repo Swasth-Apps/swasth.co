@@ -63,7 +63,38 @@
 
 
 // Features and Case Studies
-
+.app-icons-title{
+  &:first-child {
+    margin-top: 15px;
+  }
+  font-size: 16px;
+  font-weight: 600;
+  color: lighten(_palette(secondary-color),10%);
+}
+.app-icons{
+  margin-top: 15px;
+  display: flex;
+  a{
+    font-weight: 600;
+    margin-right: 25px;
+    display: flex;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.25);
+    &:hover{
+      color: rgba(0, 0, 0, 0.35) !important;
+    }
+    img{
+      margin: 0 10px 0 0 !important;
+      width: 24px !important;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    display: block;
+    a{
+      margin-top: 10px;
+    }
+  }
+}
 .feature-section-group {
   transform: translateY(2%);
   padding: 20px;

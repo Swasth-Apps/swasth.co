@@ -1,19 +1,7 @@
 import React, { Fragment } from 'react'
 import { Button, Col, Input, Row, Tabs } from 'antd'
-import therapyGraphic from '../assets/images/Therapy_graphic.png'
-import Carousel from '../shared/carousel'
 import appStore from '../assets/images/app-store.png'
 import googlePay from '../assets/images/google-play.png'
-import DBTCoach from '../assets/images/DBT-app-icon.png'
-import ACTCoach from '../assets/images/ACT-app-icon.png'
-import CBTCompanion from '../assets/images/CBT_app_icon.png'
-import DBTCoachScreen from '../assets/images/DBT_coach_screen.png'
-import ACTCoachScreen from '../assets/images/ACT_coach_screen.png'
-import CBTCompanionScreen from '../assets/images/CBT_companion_screen.png'
-import engagementTools from '../assets/images/Engagement_tools_img.png'
-import rightProvider from '../assets/images/Right_provider_graphic.png'
-import evidenceGraphic from '../assets/images/Evidence_based_graphic.png'
-import { home } from '../helper/helper'
 
 const { TabPane } = Tabs;
 const LifeCoach = (props) => {

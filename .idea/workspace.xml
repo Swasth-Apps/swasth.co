@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc70eb03-a129-4ee1-9e11-a0c375fba21f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/LifeCoach.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/messaging.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/video-conference.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/video-session.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LiveCoachAbout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LifeCoachAbout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LiveCoachFeature.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LifeCoachFeature.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pricing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pricing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/coaching/about/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/coaching/about/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/coaching/features/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/coaching/features/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/coaching/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/coaching/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LifeCoach.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LifeCoach.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LifeCoachFeature.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LifeCoachFeature.js" afterDir="false" />
     </list>
     <list id="c9136efa-379e-425e-8e32-46b67092561a" name="-- Design of Swasth Website" comment="-- Design of Swasth Website" />
     <ignored path="D:\vikas-vaghasiya\swasth-invision\.idea\shelf/" />
@@ -25,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/LifeCoach.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="36" column="72" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+            <state relative-caret-position="532">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -37,46 +32,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/LifeCoachFeature.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+            <state relative-caret-position="544">
+              <caret line="145" column="189" selection-start-line="145" selection-start-column="189" selection-end-line="145" selection-end-column="189" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#2628#3207#0" />
-                <element signature="e#3220#3799#0" />
+                <element signature="e#2387#3012#0" />
+                <element signature="e#4417#5042#0" />
+                <element signature="e#5000#5568#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="442">
+              <caret line="29" column="76" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="76" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#60#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/scss/layout/_header.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="211" column="20" selection-start-line="211" selection-start-column="5" selection-end-line="211" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Pricing.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-733">
-              <caret line="22" column="56" lean-forward="true" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -84,8 +62,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="657" column="29" selection-start-line="657" selection-start-column="29" selection-end-line="657" selection-end-column="29" />
+            <state relative-caret-position="247">
+              <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/scss/libs/_vars.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="35" column="15" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -102,8 +89,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;wrapper</find>
-      <find>Interested</find>
       <find>ant</find>
       <find>coach-wrapper</find>
       <find>#header</find>
@@ -132,6 +117,8 @@
       <find>1fr</find>
       <find>Pric</find>
       <find>home-section-group</find>
+      <find>app-icon</find>
+      <find>DBTCoach</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -188,10 +175,10 @@
         <option value="$PROJECT_DIR$/src/components/Pricing.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" />
         <option value="$PROJECT_DIR$/src/components/Header.js" />
-        <option value="$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss" />
-        <option value="$PROJECT_DIR$/src/components/LifeCoachFeature.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/pages/header.scss" />
         <option value="$PROJECT_DIR$/src/components/LifeCoach.js" />
+        <option value="$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss" />
+        <option value="$PROJECT_DIR$/src/components/LifeCoachFeature.js" />
       </list>
     </option>
   </component>
@@ -287,7 +274,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bt-portal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -296,17 +283,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\vikas-vaghasiya\swasth-invision\src\pages\live-coach" />
-      <recent name="D:\vikas-vaghasiya\swasth-invision\src\pages" />
-      <recent name="D:\vikas-vaghasiya\swasth-invision\src\assets\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\vikas-vaghasiya\swasth-invision\src\components" />
       <recent name="D:\vikas-vaghasiya\swasth-invision\src\pages\live-coach" />
       <recent name="D:\vikas-vaghasiya\swasth-invision\static\img" />
       <recent name="D:\vikas-vaghasiya\swasth-invision" />
       <recent name="D:\vikas-vaghasiya\swasth-invision\src\pages\live-coach\blog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\vikas-vaghasiya\swasth-invision\src\assets\images" />
+      <recent name="D:\vikas-vaghasiya\swasth-invision\src\pages\live-coach" />
+      <recent name="D:\vikas-vaghasiya\swasth-invision\src\pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -378,7 +365,8 @@
       <workItem from="1582987408351" duration="27000" />
       <workItem from="1584111784621" duration="1352000" />
       <workItem from="1584370805658" duration="1686000" />
-      <workItem from="1584378793161" duration="9296000" />
+      <workItem from="1584378793161" duration="9399000" />
+      <workItem from="1584460137592" duration="2972000" />
     </task>
     <task id="LOCAL-00001" summary="--design of Home page and DBT Coach">
       <created>1576213422150</created>
@@ -492,17 +480,24 @@
       <option name="project" value="LOCAL" />
       <updated>1584371865633</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="-- design updation">
+      <created>1584388772986</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1584388772986</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190854000" />
+    <option name="totallyTimeSpent" value="193929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16195373" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16388175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -519,7 +514,7 @@
       <window_info anchor="bottom" id="GraphQL" order="10" weight="0.32914925" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50064266" side_tool="true" weight="0.43096235" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4993573" visible="true" weight="0.45327756" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4993573" weight="0.45327756" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -607,67 +602,10 @@
     <MESSAGE value="-- Netlify cms configuration completed" />
     <MESSAGE value="-- About page design" />
     <MESSAGE value="-- initial blocking issue resolve" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- initial blocking issue resolve" />
+    <MESSAGE value="-- design updation" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- design updation" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Terms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CBTCompanion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1568">
-          <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/ie8.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/_css-grid.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/libs/_vars.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/ACT-engage-and-stayuptodate.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/ACT-entriestimeline.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/ACT-Play.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/ACT-practice-exercises.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/images/ACT-Record-diary.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -842,16 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="50" column="30" lean-forward="true" selection-end-line="306" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/layout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-453">
@@ -912,55 +840,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/layout/_header.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/LifeCoach.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="211" column="20" selection-start-line="211" selection-start-column="5" selection-end-line="211" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="532">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss">
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="211" column="20" selection-start-line="211" selection-start-column="5" selection-end-line="211" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/act-coach.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/app-store.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/google-play.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
-          <caret line="657" column="29" selection-start-line="657" selection-start-column="29" selection-end-line="657" selection-end-column="29" />
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Pricing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-733">
-          <caret line="22" column="56" lean-forward="true" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        <state relative-caret-position="28">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/libs/_vars.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/logo - 1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/DBT-practice_exercises.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/DBT-play.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/DBT-app-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/DBT-app-icon@2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="76" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/video-session.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LifeCoachFeature.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+        <state relative-caret-position="544">
+          <caret line="145" column="189" selection-start-line="145" selection-start-column="189" selection-end-line="145" selection-end-column="189" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#2628#3207#0" />
-            <element signature="e#3220#3799#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LifeCoach.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="36" column="72" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#2387#3012#0" />
+            <element signature="e#4417#5042#0" />
+            <element signature="e#5000#5568#0" />
           </folding>
         </state>
       </provider>
