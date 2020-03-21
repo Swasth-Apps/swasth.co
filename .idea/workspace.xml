@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc70eb03-a129-4ee1-9e11-a0c375fba21f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/Graphic@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/Life-coach-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/bg@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/main-banner-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CoachingFooter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/libs/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/libs/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LifeCoach.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LifeCoach.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LifeCoachFeature.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LifeCoachFeature.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pricing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pricing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/coaching/coach/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/coaching/coach/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/coaching/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/coaching/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="cc70eb03-a129-4ee1-9e11-a0c375fba21f" name="Default Changelist" comment="" />
     <list id="c9136efa-379e-425e-8e32-46b67092561a" name="-- Design of Swasth Website" comment="-- Design of Swasth Website" />
     <ignored path="D:\vikas-vaghasiya\swasth-invision\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="993" column="41" lean-forward="true" selection-start-line="993" selection-start-column="41" selection-end-line="993" selection-end-column="41" />
+            <state relative-caret-position="432">
+              <caret line="995" column="16" lean-forward="true" selection-start-line="995" selection-start-column="16" selection-end-line="995" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -479,7 +459,7 @@
       <workItem from="1584466976918" duration="843000" />
       <workItem from="1584545022286" duration="15125000" />
       <workItem from="1584629787665" duration="1140000" />
-      <workItem from="1584762407330" duration="31337000" />
+      <workItem from="1584762407330" duration="31457000" />
     </task>
     <task id="LOCAL-00001" summary="--design of Home page and DBT Coach">
       <created>1576213422150</created>
@@ -614,11 +594,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584769648388</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="-- Coaching page, Pricing page and coach page">
+      <created>1584802092584</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1584802092584</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242459000" />
+    <option name="totallyTimeSpent" value="242579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -637,11 +624,11 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.18967922" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.18967922" />
       <window_info anchor="bottom" id="GraphQL" order="10" weight="0.32914925" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50064266" side_tool="true" weight="0.43096235" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.4993573" visible="true" weight="0.24128312" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4993573" weight="0.24128312" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -731,7 +718,8 @@
     <MESSAGE value="-- initial blocking issue resolve" />
     <MESSAGE value="-- design updation" />
     <MESSAGE value="-- desing changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- desing changes" />
+    <MESSAGE value="-- Coaching page, Pricing page and coach page" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Coaching page, Pricing page and coach page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gatsby-config.js">
@@ -1082,8 +1070,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="993" column="41" lean-forward="true" selection-start-line="993" selection-start-column="41" selection-end-line="993" selection-end-column="41" />
+        <state relative-caret-position="432">
+          <caret line="995" column="16" lean-forward="true" selection-start-line="995" selection-start-column="16" selection-end-line="995" selection-end-column="16" />
         </state>
       </provider>
     </entry>
