@@ -19,24 +19,31 @@ class LiveCoachFeature extends React.Component {
           </div>
         </Row>
         <div className='cell well'>
-          <div className='grid grid--3row well--m mt4'>
-            <div className='card card--vertical card--starter'>
+          <div className='grid grid--4col well--m mt4 pricing-relative'>
+            <div className='card card--vertical card--starter pricing-relative'>
+              <div className='ribbon ribbon-top-right ribbon-blue'><span>Starter Plan</span></div>
               <div className='card-text'>
-                <p>The Starter Plan</p>
                 <h4>$19/month</h4>
                 <p>15% off for 5 clients</p>
               </div>
             </div>
-            <div className='card card--vertical card--standard'>
+            <div className='card card--vertical card--starter pricing-relative'>
+              <div className='ribbon ribbon-top-right ribbon-blue'><span>Starter Plan</span></div>
               <div className='card-text'>
-                <p>The Starter Plan</p>
                 <h4>$19/month</h4>
                 <p>15% off for 5 clients</p>
               </div>
             </div>
-            <div className='card card--vertical card--pro'>
+            <div className='card card--vertical card--standard pricing-relative'>
+              <div className='ribbon ribbon-top-right ribbon-blue'><span>Standard Plan</span></div>
               <div className='card-text'>
-                <p>The Starter Plan</p>
+                <h4>$19/month</h4>
+                <p>15% off for 5 clients</p>
+              </div>
+            </div>
+            <div className='card card--vertical card--pro pricing-relative'>
+              <div className='ribbon ribbon-top-right ribbon-blue'><span>Starter Plan</span></div>
+              <div className='card-text'>
                 <h4>$19/month</h4>
                 <p>15% off for 5 clients</p>
               </div>

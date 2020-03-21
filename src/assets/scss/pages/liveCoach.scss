@@ -1,4 +1,6 @@
-
+.light-body-bg{
+  background: #f9f9f9;
+}
 .menu-fold-icon {
   display: none !important;
 }
@@ -7,7 +9,20 @@
   color: black !important;
 }
 
+/*.coach-wrapper{
+  position: absolute !important;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+}*/
 @media screen and (max-width: 1023px) {
+  .coach-wrapper{
+    #header{
+      nav{
+        align-items: end;
+      }
+    }
+  }
   #header {
     .hide-content {
       display: none !important;
@@ -464,7 +479,87 @@
   }
 }
 
-// Pricing
+/******* Pricing ************/
+//Ribbons
+
+.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+}
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: 2;
+  content: '';
+  display: block;
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 240px;
+  padding: 15px 0;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 800;
+}
+
+.ribbon-purple{
+  &::before,&::after{
+    border: 5px solid black;
+  }
+  span {
+    background-color: black;
+  }
+}
+.ribbon-blue{
+  &::before,&::after{
+    border: 5px solid black;
+  }
+  span {
+    background-color: black;
+  }
+}
+.ribbon-green{
+  &::before,&::after{
+    border: 5px solid black;
+  }
+  span {
+    background-color: black;
+  }
+}
+
+.ribbon-top-right {
+  top: -10px;
+  right: -10px;
+}
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon-top-right::before {
+  top: 0;
+  left: 0;
+}
+.ribbon-top-right::after {
+  bottom: 0;
+  right: 0;
+}
+.ribbon-top-right span {
+  left: -25px;
+  top: 30px;
+  transform: rotate(45deg);
+}
+
+.pricing-relative{
+  position: relative;
+  overflow: visible !important;
+}
+
 
 .common-pricing-text{
   color: #a7a7a7;
@@ -479,6 +574,7 @@
     align-items: center;
     display: -webkit-box;
     display: flex;
+    border-radius: 5px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-flow: column nowrap;
@@ -536,6 +632,15 @@
     .card-text {
       background: #ff003c;
     }
+  }
+}
+
+.grid--4col{
+  @media screen and (min-width: 1025px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  }
+  @media screen and (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr !important;
   }
 }
 
@@ -687,12 +792,101 @@ strong{
   input{
     box-shadow: rgba(0, 0, 0, 0.07) 0 8px 25px 0;
     border: 1px solid #dedede !important;
-    background: white;
-    width: 50%;
-    margin-right: 20px;
-    height: 40px;
+    max-width: 320px;
+    border-radius: 5px 0 0 5px !important;
   }
-  button{
-    height: 40px;
+}
+
+
+.coaching-primary-btn{
+  background: darken(rgb(161, 82, 246),10%);
+  height: 50px;
+  border: 1px solid;
+  border-radius: 5px;
+  color: _palette(bg);
+  font-weight: 600;
+  padding: 15px;
+  a{
+    &:hover,&:focus{
+      color: _palette(bg) !important;
+    }
+  }
+  &:hover{
+    background: darken(rgb(161, 82, 246),20%);
+    border: 1px solid _palette(bg);
+    color: _palette(bg);
+    box-shadow: none;
+  }
+  &:focus{
+    background: darken(rgb(161, 82, 246),10%);
+    color: _palette(bg);
+    border-color: _palette(bg);
+  }
+}
+.coaching-primary-outline-btn{
+  background: _palette(bg);
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  color: darken(rgb(161, 82, 246),10%);
+  font-weight: bold;
+  padding: 15px;
+  a{
+    font-weight: bold;
+    &:hover,&:focus{
+      color: _palette(bg) !important;
+    }
+  }
+  &:hover{
+    background: darken(rgb(161, 82, 246),10%);
+    border: none;
+    color: _palette(bg);
+    box-shadow: none;
+  }
+  &:focus{
+    background: darken(rgb(161, 82, 246),10%);
+    color: _palette(bg);
+    border-color: unset;
+  }
+}
+.coaching-secondary-outline-btn{
+  background: _palette(bg);
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  color: _palette(secondary-color);
+  font-weight: bold;
+  padding: 15px;
+  a{
+    font-weight: bold;
+    &:hover,&:focus{
+      color: _palette(bg) !important;
+    }
+  }
+  &:hover{
+    background: _palette(secondary-color);
+    border: none;
+    color: _palette(bg);
+    box-shadow: none;
+  }
+  &:focus{
+    background: darken(rgb(161, 82, 246),10%);
+    color: _palette(bg);
+    border-color: unset;
+  }
+}
+.border-radius-20{
+  border-radius: 50px;
+}
+
+.white-text{
+  color: _palette(bg) !important;
+}
+
+.coaching-submit-icon{
+  border-radius: 0 5px 5px 0;
+  border: 3px solid _palette(bg);
+  &:hover,&:focus{
+    border: 3px solid _palette(bg);
   }
 }

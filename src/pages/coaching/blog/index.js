@@ -12,7 +12,10 @@ class HomeIndex extends React.Component {
   render() {
     const { data } = this.props
     return (
-      <Layout show>
+      <Layout
+        show
+        coachingFooter
+      >
         <Blogs data={data} />
       </Layout>
     )

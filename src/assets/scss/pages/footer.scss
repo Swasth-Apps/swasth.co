@@ -24,7 +24,11 @@
     z-index: -1;
   }
 }
-
+.coaching-footer{
+  margin-top: -10px !important;
+  height: auto !important;
+  background-color: _palette(bg) !important;
+}
 .device-xl,
 .device-lg {
   &.sticky-footer {

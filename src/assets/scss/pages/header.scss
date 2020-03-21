@@ -28,12 +28,52 @@
     left: 0%;
     z-index: 0;
   }
+  .coaching-bg-img{
+    transform: translateY(0%);
+    position: absolute;
+    @media only screen and (max-width: 480px) {
+        min-height: 600px;
+    }
+    @media only screen and (min-width: 1600px) {
+        max-width: unset;
+      width: -webkit-fill-available;
+    }
+  }
 
   .home-section-group {
     transform: translateY(4%);
   }
   .coaching-home-section-group {
-    transform: translateY(35%);
+    transform: translateY(24%);
+    .card-row{
+      @media only screen and (max-width: 768px) {
+        padding: 36px 32px;
+      }
+    }
+    input{
+      height: 50px;
+      border-radius: 5px;
+      background: _palette(bg);
+    }
+    input::placeholder{
+      color: _palette(fg-bold);
+    }
+    .join-buttons{
+      margin:15px 0 45px;
+      display: flex;
+      align-items: center;
+      span{
+        margin: 0 10px;
+      }
+      @media only screen and (max-width: 430px) {
+        width: fit-content;
+        text-align: center;
+        button{
+          height: 40px;
+          padding: 10px;
+        }
+      }
+    }
   }
 
   .app-section-group{
@@ -382,6 +422,9 @@
   .body{
     .home-bg-img{
       transform: translateY(-45%) rotate(-2deg);
+    }
+    .coaching-bg-img{
+      transform: translateY(0%);
     }
   }
   .header-nav{

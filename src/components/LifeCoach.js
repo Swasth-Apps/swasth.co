@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react'
-import { Button, Col, Input, Row, Tabs } from 'antd'
+import { Button, Col, Input, Row, Tabs,Icon } from 'antd'
 import appStore from '../assets/images/app-store.png'
 import googlePay from '../assets/images/google-play.png'
+import { Link } from '@reach/router'
 
 const { TabPane } = Tabs;
 const LifeCoach = (props) => {
@@ -23,15 +24,22 @@ const LifeCoach = (props) => {
   return (
     <Fragment>
       <section className='home-section-group coaching-home-section-group'>
-        <Row className='card-row -margin-bottom'>
+        <Row className='card-row -margin-bottom -margin-right'>
           <Col md={12} className='card-col -margin-right -margin-bottom'>
-            <h2 className='bottom-space'>Behavioral Health Coaching Simplified.</h2>
-            <div >
+            <h2 className='white-text -font-bold margin-bottom-25'>Behavioral Health Coaching Simplified.</h2>
+            <div className='join-buttons'>
+              <span className='white-text'>I AM </span>
+              <Button className='coaching-primary-outline-btn'>
+                <Link to={'/coaching/features'}>Coach</Link></Button>
+              <span className='white-text'>OR</span>
+              <Button className='coaching-secondary-outline-btn'>Client</Button>
+            </div>
+            <div className='white-text'>
               Empowering Coaches and Therapists to bring Evidence-Based Therapies to clients, helping them reach their full potential.
             </div>
             <div className='form-fields'>
             <Input placeholder='Enter Email'/>
-            <Button>Submit</Button>
+            <Icon className='coaching-primary-btn coaching-submit-icon' type='arrow-right' />
             </div>
           </Col>
         </Row>

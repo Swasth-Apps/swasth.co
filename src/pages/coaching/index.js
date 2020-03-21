@@ -7,7 +7,11 @@ class HomeIndex extends React.Component {
     
     render() {
         return (
-            <Layout show>
+            <Layout
+              show
+              isLogoWhite
+              coachingFooter
+            >
                 <LifeCoach />
             </Layout>
         )

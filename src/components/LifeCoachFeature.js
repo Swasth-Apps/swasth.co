@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'antd'
+import BannerLogo from '../assets/images/banner-image.png'
 import ACT from '../assets/images/ACT-Record-diary.png'
 import ACTCoach from '../assets/images/ACT-app-icon.png'
 import CBTCompanion from '../assets/images/CBT_app_icon.png'
@@ -19,6 +20,7 @@ class LifeCoachFeature extends React.Component {
           <div className='cell'>
             <div className='well tac'>
               <h2>The only coaching Platform for Evidence-Based Behavioral Health</h2>
+              <div>Health Journey. Simplified. Empowering coaches to lead their clients, connecting mind body and soul.</div>
             </div>
           </div>
         </Row>
@@ -27,7 +29,7 @@ class LifeCoachFeature extends React.Component {
             <div className='card card--feature remove-width'>
               <div className='card-content'>
                 <a href='#'>
-                  <img src={ACT}/>
+                  <img src={BannerLogo}/>
                 </a>
                 <div style={{width:'100%'}}>
                   <h2 style={{marginBottom:10}}>

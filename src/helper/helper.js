@@ -39,7 +39,7 @@ export const dbtcoach=[
     comment:'I  love this app. Just started exploring and cant believe how pleased I am. I have been looking for an app like this for a while. Thanks developer! If there was an option to give more than 5 stars, I would give 10.'
   }, {
     name:' JACKSEAGER224221',
-    comment:'Thank you for building a beautiful and complete app that covers everything in DBT. Love the design. A lot of thought has been put into this app. I love that I can customize my Diary Card skills and targets. Further, statistics, graphs and streak keeps me grounded with DBT Skills. There are so many features, anyone serious about keeping on track with DBT skills should use this app.'
+    comment:'Thank you for building a beautiful and complete app that covers everything in DBT. Love the design. A lot of thought has been put into this app. I love that I can customize my Diary Card skills and targets. Further, statistics, graphs and streak keeps me grounded with DBT Skills. There are so many coach, anyone serious about keeping on track with DBT skills should use this app.'
   }, {
     name:' STEVEN BLANK507',
     comment:'Very professional looking app. Covers everything about DBT. I am going to use meditations from here I think. I am already paying 10$ for a meditation app. This has it all.. Havent spent much time exploring the details of DBT but so far really like it.'
@@ -51,7 +51,7 @@ export const dbtcoach=[
     comment:'Excellent! This will be my go to app for DBT from now on. Have been frustrated with low usability of existing apps on playstore. There is so much detail in this. A skills group member told me today that I can do my worksheets on this app. Wow! I didn’t even realize that and I was still amazed by the ap'
   }, {
     name:'KENDRA JACKSON57',
-    comment:'WOW! Excellent app! I had been struggling to practice DBT because I didn\'t always have a pen & paper on hand... Since I DO always have my device handy, this will improve tremendously my use of daily Diary cards. Further the content is so rich. I am a visual person - so the videos are perfect. There are so many features, I am just in love with it.'
+    comment:'WOW! Excellent app! I had been struggling to practice DBT because I didn\'t always have a pen & paper on hand... Since I DO always have my device handy, this will improve tremendously my use of daily Diary cards. Further the content is so rich. I am a visual person - so the videos are perfect. There are so many coach, I am just in love with it.'
   },
 ]
 export const dbtdaily=[

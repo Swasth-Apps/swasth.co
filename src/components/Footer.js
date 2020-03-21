@@ -3,15 +3,16 @@ import footerImg from '../assets/images/footer_bg.png'
 import swasthLogo from '../assets/images/swasth-logo-dark.png'
 import unitedStates from '../assets/images/united-states.png'
 import { Link } from 'gatsby'
+import { Col, Row } from 'antd'
 
  const Footer = (props) => (
-    <footer id="footer">
+    <footer id="footer" className='coaching-footer'>
         <div className="inner">
           <img className='footer-bg' src={footerImg}/>
       <div>
         <div className="footer-widgets-wrap pb-4 clearfix">
-          <div className="footer-row">
-            <div className="col-md-8">
+          <Row className="footer-row" gutter={16}>
+            <Col className="col-md-8" md={8}>
 
               <div className="widget clearfix">
 
@@ -19,9 +20,9 @@ import { Link } from 'gatsby'
 
               </div>
 
-            </div>
+            </Col>
 
-            <div className="col-md-4">
+            <Col className="col-md-4" md={4}>
 
               <div className="widget clearfix">
 
@@ -34,8 +35,8 @@ import { Link } from 'gatsby'
 
               </div>
 
-            </div>
-            <div className="col-md-4">
+            </Col>
+            <Col className="col-md-4" md={4}>
 
               <div className="widget clearfix">
 
@@ -53,9 +54,9 @@ import { Link } from 'gatsby'
 
               </div>
 
-            </div>
+            </Col>
 
-            <div className="col-md-4">
+            <Col className="col-md-4" md={4}>
 
               <div className="widget clearfix">
 
@@ -74,10 +75,10 @@ import { Link } from 'gatsby'
 
               </div>
 
-            </div>
-            <div className='col-md-4' />
+            </Col>
+            <Col className='col-md-4' md={4} />
 
-          </div>
+          </Row>
 
         </div>
 

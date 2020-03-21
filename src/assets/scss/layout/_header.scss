@@ -155,7 +155,7 @@
 					padding: 0 0.5em;
 
 					&:last-child {
-						padding-right: 0em;
+						padding-right: 1em;
 					}
 
 					&.menu-link {
@@ -211,4 +211,7 @@
 	}
 	.margin-right-25{
 		margin-right: 25px;
+	}
+.margin-bottom-25{
+	margin-bottom: 25px;
 	}
