@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { Icon } from 'antd'
+import { Button, Icon } from 'antd'
 import PropTypes from 'prop-types'
-import swasthLogo from '../assets/images/swasth-logo-white.png'
+import coachingLogo from '../assets/images/Life-coach-logo.png'
 import swasthDarkLogo from '../assets/images/swasth-logo-dark.png'
 import { Link } from 'gatsby'
 
@@ -11,21 +11,31 @@ const Header = (props) => {
     <>
       <header id="header" className="alt">
         <nav className='header-nav'>
-          <Link to="/" hidden={props.show && state} style={{ display: 'flex', alignItems: 'center',width:150 }}>
-            <img style={{ marginBottom: -5 }} src={props.isLogoWhite ? swasthLogo : swasthDarkLogo} alt='Home'/>
-          </Link>
-          <div style={{display:'flex'}}>
+          {props.show ?
+            <Link to="/coaching" hidden={props.show && state}
+                  style={{ display: 'flex', alignItems: 'center', width: 150 }}>
+              <img style={{ marginBottom: -5 }} src={coachingLogo} alt='Home'/>
+            </Link> :
+            <Link to="/" style={{ display: 'flex', alignItems: 'center', width: 150 }}>
+              <img style={{ marginBottom: -5 }} src={swasthDarkLogo} alt='Home'/>
+            </Link>}
+          <div style={{ display: 'flex',alignItems:'center' }}>
             {props.show && !state ?
               <>
                 {/*<Link to="/coaching/features" className='margin-right-25'>*/}
-                  {/*<div className={`menu-content hide-content ${props.isLogoWhite ? 'white-text':''}`} href="javascript:;">Features</div>*/}
+                {/*<div className={`menu-content hide-content ${props.isLogoWhite ? 'white-text':''}`} href="javascript:;">Features</div>*/}
                 {/*</Link>*/}
                 <a href="/coaching/pricing" className='margin-right-25'>
-                  <div className={`menu-content hide-content ${props.isLogoWhite ? 'white-text':''}`} href="javascript:;">Pricing</div>
+                  <div className={`menu-content hide-content`}
+                       href="javascript:;">Pricing
+                  </div>
                 </a>
                 <Link to="/coaching/case-studies" className='margin-right-25'>
-                  <div className={`menu-content hide-content ${props.isLogoWhite ? 'white-text':''}`} href="javascript:;">Case Studies</div>
+                  <div className={`menu-content hide-content`}
+                       href="javascript:;">Case Studies
+                  </div>
                 </Link>
+                <Button className='download-btn menu-content hide-content'>Download App</Button>
               </> : ''}
             {!props.show ?
               <>
@@ -61,7 +71,7 @@ const Header = (props) => {
         props.show && state ?
           <div className='menu-fold-content'>
             {/*<Link to="/coaching/features">*/}
-              {/*<div className="menu-content">Features</div>*/}
+            {/*<div className="menu-content">Features</div>*/}
             {/*</Link>*/}
             <a href="/coaching/pricing">
               <div className="menu-content">Pricing</div>
@@ -69,6 +79,9 @@ const Header = (props) => {
             <Link to="/coaching/case-studies">
               <div className="menu-content">Case Studies</div>
             </Link>
+            <a href="/coaching">
+              <div className="menu-content">Download App</div>
+            </a>
           </div> : ''
       }
     </>

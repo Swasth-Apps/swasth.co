@@ -1,3 +1,9 @@
+.margin-80{
+  margin-top: 0 !important;
+  @media (max-width: 768px) {
+    margin-top: 80px !important;
+  }
+  }
 #footer {
   position: relative;
   background-color: transparent;
@@ -25,9 +31,12 @@
   }
 }
 .coaching-footer{
-  margin-top: -10px !important;
+  //margin-top: -10px !important;
   height: auto !important;
   background-color: _palette(bg) !important;
+  img{
+    position: relative;
+  }
 }
 .device-xl,
 .device-lg {
@@ -220,7 +229,43 @@
       }
 
       .col-md-4 {
-        flex: 1 1 50%;
+        flex: 0 0 33%;
+        &:nth-child(3){
+          h4 {
+            margin-left: -30px;
+          }
+        }
+      &:nth-child(4){
+        h4{
+          margin-left: -20px;
+        }
+      }
+      }
+      .clearfix{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h4{
+          padding-left: 0px;
+        }
+        ul{
+          padding-left: 0;
+        }
+      }
+    }
+  }
+  .coaching-footer{
+    .footer-widgets-wrap{
+      background: inherit;
+    }
+  }
+}
+@media (max-width: 425px) {
+  .footer-widgets-wrap {
+    .footer-row {
+      .col-md-4 {
+        flex: 0 0 48%;
       }
     }
   }

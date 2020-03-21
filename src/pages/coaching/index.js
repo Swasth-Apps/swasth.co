@@ -11,6 +11,7 @@ class HomeIndex extends React.Component {
               show
               isLogoWhite
               coachingFooter
+              increaseFooterMargin
             >
                 <LifeCoach />
             </Layout>

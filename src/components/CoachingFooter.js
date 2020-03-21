@@ -1,14 +1,12 @@
 import React from 'react'
-import footerImg from '../assets/images/footer_bg.png'
-import swasthLogo from '../assets/images/swasth-logo-dark.png'
+import coachingFooterLogo from '../assets/images/Life-coach-logo.png'
 import unitedStates from '../assets/images/united-states.png'
 import { Link } from 'gatsby'
 import { Col, Row } from 'antd'
 
- const Footer = (props) => (
-    <footer id="footer">
-        <div className="inner">
-          <img className='footer-bg' src={footerImg}/>
+const CoachingFooter = (props) => (
+  <footer id="footer" className={`coaching-footer ${props.increaseFooterMargin? 'margin-80':''}`}>
+    <div className="inner">
       <div>
         <div className="footer-widgets-wrap pb-4 clearfix">
           <Row className="footer-row" gutter={16}>
@@ -16,7 +14,7 @@ import { Col, Row } from 'antd'
 
               <div className="widget clearfix">
 
-               <img style={{left:'20%'}} src={swasthLogo}/>
+                <img style={{ left: '20%' }} src={coachingFooterLogo}/>
 
               </div>
 
@@ -64,25 +62,25 @@ import { Col, Row } from 'antd'
 
                 <ul className="list-unstyled iconlist">
                   <li><i className="icon-facebook"/><a href="https://www.facebook.com/swasthapps/"
-                                                          target="_blank"> Facebook</a></li>
+                                                       target="_blank"> Facebook</a></li>
                   <li><i className="icon-twitter"/><a href="https://www.twitter.com/swasthapps/"
-                                                         target="_blank"> Twitter</a></li>
+                                                      target="_blank"> Twitter</a></li>
                   <li><i className="icon-instagram"/><a href="https://www.instagram.com/swasthapps/"
-                                                           target="_blank"> Instagram</a></li>
+                                                        target="_blank"> Instagram</a></li>
                   <li><i className="icon-youtube"/><a href="https://www.youtube.com/channel/UCtM20mp-kA1xkKdWA5Q-9KA"
-                                                         target="_blank"> YouTube</a></li>
+                                                      target="_blank"> YouTube</a></li>
                 </ul>
 
               </div>
 
             </Col>
-            <Col className='col-md-4' md={4} />
+            <Col className='col-md-4' md={4}/>
 
           </Row>
 
         </div>
 
-        <div className="line line-sm m-0" />
+        <div className="line line-sm m-0"/>
 
       </div>
       <div id="copyrights" className="nobg">
@@ -91,14 +89,15 @@ import { Col, Row } from 'antd'
 
           <div className="col_half">
             <div className="copyright-links -highlighted-secondary-text">
-            <Link to='/terms'>Terms of Use</Link> {'    |    '} 
-            <Link to ='/privacy'>Privacy
-              Policy</Link></div>
-            <div style={{  color: 'rgba(0,0,0,0.2)'}}>
-            Copyrights &copy; 2019 All Rights Reserved by Swasth Inc.<br />
+              <Link to='/terms'>Terms of Use</Link> {'    |    '}
+              <Link to='/privacy'>Privacy
+                Policy</Link></div>
+            <div style={{ color: 'rgba(0,0,0,0.2)' }}>
+              Copyrights &copy; 2019 All Rights Reserved by Swasth Inc.<br/>
             </div>
-            <div className='-highlighted-secondary-text' style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
-              <img style={{position:'initial',width:'24px',marginRight:'10px'}} src={unitedStates}/>
+            <div className='-highlighted-secondary-text'
+                 style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <img style={{ position: 'initial', width: '24px', marginRight: '10px' }} src={unitedStates}/>
               {' '}English
             </div>
           </div>
@@ -106,8 +105,8 @@ import { Col, Row } from 'antd'
         </div>
 
       </div>
-        </div>
-    </footer>
+    </div>
+  </footer>
 )
 
-export default Footer
+export default CoachingFooter

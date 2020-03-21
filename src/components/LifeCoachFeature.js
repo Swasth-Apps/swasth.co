@@ -1,7 +1,12 @@
 import React from 'react'
-import { Col, Row } from 'antd'
+import { Row } from 'antd'
 import BannerLogo from '../assets/images/banner-image.png'
-import ACT from '../assets/images/ACT-Record-diary.png'
+import CreateProgram from '../assets/images/create-programs-and-sessions@3x.png'
+import SetupLibrary from '../assets/images/setup-library@3x.png'
+import PaymentLogo from '../assets/images/payment@3x.png'
+import WorkWithCoach from '../assets/images/work-with-coach@3x.png'
+import EvidenceBased from '../assets/images/evidence-based-apps@3x.png'
+import NeverMissedDetails from '../assets/images/never-miss-deadline@3x.png'
 import ACTCoach from '../assets/images/ACT-app-icon.png'
 import CBTCompanion from '../assets/images/CBT_app_icon.png'
 import DBTCoachScreen from '../assets/images/DBT-app-icon.png'
@@ -18,13 +23,12 @@ class LifeCoachFeature extends React.Component {
       <section className='feature-section-group'>
         <Row className='card-row' style={{justifyContent:'center'}}>
           <div className='cell'>
-            <div className='well tac'>
+            <div className='well tac coach-heading'>
               <h2>The only coaching Platform for Evidence-Based Behavioral Health</h2>
-              <div>Health Journey. Simplified. Empowering coaches to lead their clients, connecting mind body and soul.</div>
             </div>
           </div>
         </Row>
-        <div className='cell well'>
+        <div className='cell well' style={{marginBottom: 0}}>
           <div>
             <div className='card card--feature remove-width'>
               <div className='card-content'>
@@ -65,15 +69,12 @@ class LifeCoachFeature extends React.Component {
             </div>
           </div>
         </div>
-        <div className='cell well updivider'>
-          <h2>
-            A comprehensive set of features to make your coaching experience engaging, effective and fulfilling.
-          </h2>
+        <div className='cell well'>
           <div className='grid two-grid'>
-            <div className='card--feature card--feature-shadow'>
+            <div className='card--feature card--feature-shadow coaching-box-shadow'>
               <div className='card-content'>
                 <a href='#'>
-                  <img src={ACT}/>
+                  <img src={CreateProgram}/>
                 </a>
                 <h3>
                   <a>Create Programs and Add Sessions</a>
@@ -83,10 +84,10 @@ class LifeCoachFeature extends React.Component {
                 </p>
               </div>
             </div>
-            <div className='card--feature card--feature-shadow'>
+            <div className='card--feature card--feature-shadow coaching-box-shadow'>
               <div className='card-content'>
                 <a href='#'>
-                  <img src={ACT}/>
+                  <img src={EvidenceBased}/>
                 </a>
                 <h3>
                   <a>Seamlessly integrates with our Evidence-based Apps</a>
@@ -97,10 +98,10 @@ class LifeCoachFeature extends React.Component {
                 </p>
               </div>
             </div>
-            <div className='card--feature card--feature-shadow'>
+            <div className='card--feature card--feature-shadow coaching-box-shadow'>
               <div className='card-content'>
                 <a href='#'>
-                  <img src={ACT}/>
+                  <img src={SetupLibrary}/>
                 </a>
                 <h3>
                   <a>Set up your library and reuse with multiple programs</a>
@@ -110,10 +111,10 @@ class LifeCoachFeature extends React.Component {
                 </p>
               </div>
             </div>
-            <div className='card--feature card--feature-shadow'>
+            <div className='card--feature card--feature-shadow coaching-box-shadow'>
               <div className='card-content'>
                 <a href='#'>
-                  <img src={ACT}/>
+                  <img src={NeverMissedDetails}/>
                 </a>
                 <h3>
                   <a>Never miss a deadline for you or your client.</a>
@@ -123,10 +124,10 @@ class LifeCoachFeature extends React.Component {
                 </p>
               </div>
             </div>
-            <div className='card--feature card--feature-shadow'>
+            <div className='card--feature card--feature-shadow coaching-box-shadow'>
               <div className='card-content'>
                 <a href='#'>
-                  <img src={ACT}/>
+                  <img src={PaymentLogo}/>
                 </a>
                 <h3>
                   <a>Accept payments for your sessions.</a>
@@ -136,10 +137,10 @@ class LifeCoachFeature extends React.Component {
                 </p>
               </div>
             </div>
-            <div className='card--feature card--feature-shadow'>
+            <div className='card--feature card--feature-shadow coaching-box-shadow'>
               <div className='card-content'>
                 <a href='#'>
-                  <img src={ACT}/>
+                  <img src={WorkWithCoach}/>
                 </a>
                 <h3>
                   <a>Work with other coaches</a>
