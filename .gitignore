@@ -7,4 +7,5 @@ yarn.lock
 
 # Build directory
 /public
+/.idea
 .DS_Store
