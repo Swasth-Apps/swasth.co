@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Button, Icon } from 'antd'
 import PropTypes from 'prop-types'
-import coachingLogo from '../assets/images/Life-coach-logo.png'
+import coachingLogo from '../assets/images/swasth-coach-logo.png'
 import swasthDarkLogo from '../assets/images/swasth-logo-dark.png'
 import { Link } from 'gatsby'
 
@@ -13,8 +13,8 @@ const Header = (props) => {
         <nav className='header-nav'>
           {props.show ?
             <Link to="/coaching" hidden={props.show && state}
-                  style={{ display: 'flex', alignItems: 'center', width: 150 }}>
-              <img style={{ marginBottom: -5 }} src={coachingLogo} alt='Home'/>
+                  style={{ display: 'flex', alignItems: 'center', width: 200 }}>
+              <img style={{ marginBottom: -5, width: '100%' }} src={coachingLogo} alt='Home'/>
             </Link> :
             <Link to="/" style={{ display: 'flex', alignItems: 'center', width: 150 }}>
               <img style={{ marginBottom: -5 }} src={swasthDarkLogo} alt='Home'/>
