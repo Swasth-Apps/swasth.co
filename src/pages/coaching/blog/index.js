@@ -14,7 +14,6 @@ class HomeIndex extends React.Component {
     return (
       <Layout
         show
-        coachingFooter
       >
         <Blogs data={data} />
       </Layout>

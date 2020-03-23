@@ -12,15 +12,15 @@ class LiveCoachFeature extends React.Component {
         <Row className='card-row'>
           <div className='cell'>
             <div className='well tac'>
-              <h1>Swasth Case Studies</h1>
-              <div>
+              <h1>Coming Soon</h1>
+              {/*<div>
                 Learn how the worlds's top fitness professionals are using TrueCoach to save time and grow their
                 businesses.
-              </div>
+              </div>*/}
             </div>
           </div>
         </Row>
-        <div className='cell well'>
+        {/*<div className='cell well'>
 
           <div className='has-studies well'>
             <div className='card card--callout study'>
@@ -151,7 +151,7 @@ class LiveCoachFeature extends React.Component {
               </div>
             </div>
           </div>
-        </div>
+        </div>*/}
       </section>
     )
   }

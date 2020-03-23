@@ -1,3 +1,8 @@
+// Proxima Nova Font
+.font-proxima-nova{
+  font-family: 'proxima_nova_rgregular', Helvetica;
+}
+
 
 // Borders with primary colors
 .coaching-box-shadow{
@@ -107,11 +112,6 @@
 
 .coach-heading{
   margin-bottom: 0px !important;
-  h2 {
-    width: 75%;
-    margin: 0 auto;
-    white-space: initial;
-  }
   @media screen and (max-width: 768px) {
     margin-bottom: 20px !important;
     h2{
@@ -124,7 +124,7 @@
     margin-top: 15px;
   }
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   color: lighten(_palette(secondary-color),10%);
 }
 .app-icons{
@@ -135,9 +135,13 @@
     margin-right: 25px;
     display: flex;
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.25);
+    padding: 10px 12px;
+    border-radius: 5px;
+    color: _palette(fg-bold);
+    border: 1px solid #3333331a;
     &:hover{
       color: rgba(0, 0, 0, 0.35) !important;
+      border-bottom-color: inherit;
     }
     img{
       margin: 0 10px 0 0 !important;
@@ -641,8 +645,9 @@
     padding: 0 24px;
 
     p {
-      color: black;
+      color: _palette(fg-bold);
       font-size: 16px;
+      margin-top: 6px;
     }
     h6 {
       color: _palette(primary-blue);
@@ -741,6 +746,9 @@
       margin-bottom: 20px;
       p {
         margin: 0;
+      }
+      h3{
+        margin-bottom: 10px;
       }
     }
   }

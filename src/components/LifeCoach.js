@@ -28,17 +28,17 @@ const LifeCoach = (props) => {
         <Row className='card-row -margin-bottom -row-flex'>
           <Col md={12} className='card-col -margin-right -margin-bottom'>
             <h2 className='-font-bold margin-bottom-25'>Behavioral Health Coaching Simplified.</h2>
-            <div className='subtitle'>
+            <div className='subtitle font-proxima-nova'>
               Empowering Coaches and Therapists to bring Evidence-Based Therapies to clients, helping them reach their full potential.
             </div>
             <div className='join-buttons'>
-              <span className=''>I AM A </span>
+              <span className=''>I am a </span>
               <Button className='coaching-primary-orange-btn'>
                 <Link to={'/coaching/coach'}>Coach</Link></Button>
               <Button className='coaching-primary-purple-btn'>Client</Button>
             </div>
             <div className='form-fields'>
-              <p>Please enter your email to be the first to know about upcoming features , news and updates</p>
+              <p className='font-proxima-nova'>Please enter your email to be the first to know about upcoming features , news and updates</p>
               <div>
             <Input placeholder='Enter Email'/>
             <Icon className='coaching-primary-orange-btn coaching-submit-icon' type='arrow-right' />

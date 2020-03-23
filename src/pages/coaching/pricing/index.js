@@ -9,7 +9,6 @@ class HomeIndex extends React.Component {
     return (
       <Layout
         show
-        coachingFooter
       >
         <Pricing />
       </Layout>

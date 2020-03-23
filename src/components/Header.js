@@ -26,12 +26,12 @@ const Header = (props) => {
                 {/*<div className={`menu-content hide-content ${props.isLogoWhite ? 'white-text':''}`} href="javascript:;">Features</div>*/}
                 {/*</Link>*/}
                 <a href="/coaching/pricing" className='margin-right-25'>
-                  <div className={`menu-content hide-content`}
+                  <div className={`menu-content hide-content white-text`}
                        href="javascript:;">Pricing
                   </div>
                 </a>
                 <Link to="/coaching/case-studies" className='margin-right-25'>
-                  <div className={`menu-content hide-content`}
+                  <div className={`menu-content hide-content white-text`}
                        href="javascript:;">Case Studies
                   </div>
                 </Link>

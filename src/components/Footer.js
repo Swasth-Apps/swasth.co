@@ -22,7 +22,7 @@ import { Col, Row } from 'antd'
 
             </Col>
 
-            <Col className="col-md-4" md={4}>
+            <Col className="col-md-6" md={6}>
 
               <div className="widget clearfix">
 
@@ -36,13 +36,14 @@ import { Col, Row } from 'antd'
               </div>
 
             </Col>
-            <Col className="col-md-4" md={4}>
+            <Col className="col-md-6" md={6}>
 
               <div className="widget clearfix">
 
                 <h4>Products</h4>
 
                 <ul className="list-unstyled iconlist ml-0">
+                  <li><a href="/coaching">Life Coach</a></li>
                   <li><a href="/dbt-coach">DBT Coach</a></li>
                   <li><a href="/cbt-companion">CBT Companion</a></li>
                   <li><a href="/act-coach">ACT Coach</a></li>
@@ -56,7 +57,7 @@ import { Col, Row } from 'antd'
 
             </Col>
 
-            <Col className="col-md-4" md={4}>
+            <Col className="col-md-6" md={6}>
 
               <div className="widget clearfix">
 
@@ -76,7 +77,7 @@ import { Col, Row } from 'antd'
               </div>
 
             </Col>
-            <Col className='col-md-4' md={4} />
+            <Col className='col-md-6' md={6} />
 
           </Row>
 

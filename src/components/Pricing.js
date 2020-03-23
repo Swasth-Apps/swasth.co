@@ -14,7 +14,7 @@ class LiveCoachFeature extends React.Component {
           <div className='cell'>
             <div className='well tac' style={{marginBottom: 30}}>
               <h2>Invest in the best Behavioral Health Coaching Platform</h2>
-              <div style={{color: 'black'}}>By using Swasth's Coaching Platform you can run bring your coaching to clients all over the world. Focus on developing the best coaching program and we take care of the rest.</div>
+              <div style={{color: 'black'}} className='font-proxima-nova'>By using Swasth's Coaching Platform you can run bring your coaching to clients all over the world. Focus on developing the best coaching program and we take care of the rest.</div>
             </div>
           </div>
         </Row>
@@ -53,7 +53,7 @@ class LiveCoachFeature extends React.Component {
               </div>
             </div>
           </div>
-          <div className='card-content well--s card--feature-shadow coaching-box-shadow common-pricing-text'>
+          <div className='card-content well--s card--feature-shadow coaching-box-shadow common-pricing-text font-proxima-nova'>
               On-boarding, payments, video conferences and text chats, tasks and accountability, program creation and management, document and video uploads, ability to co-coach with others – all the features are included in any package you choose!
           </div>
         </div>
@@ -67,7 +67,7 @@ class LiveCoachFeature extends React.Component {
                 <h3>
                   <b>  What if I have more than 200 clients?</b>
                 </h3>
-                <p style={{textAlign:'start'}}>
+                <p style={{textAlign:'start'}} className='font-proxima-nova'>
                   That's awesome! Contact us to discuss custom pricing options.
                 </p>
               </div>
@@ -77,7 +77,7 @@ class LiveCoachFeature extends React.Component {
                 <h3>
                   <b>  What happens if I want to upgrade/downgrade after purchasing?</b>
                 </h3>
-                <p style={{textAlign:'start'}}>
+                <p style={{textAlign:'start'}} className='font-proxima-nova'>
                   Any plan can be upgraded/downgraded at any time and we'll automatically pro-rate the difference so you only pay for the actual time spent on any plan.
                 </p>
               </div>
@@ -87,7 +87,7 @@ class LiveCoachFeature extends React.Component {
                 <h3>
                   <b>  What does this cost for my clients?</b>
                 </h3>
-                <p style={{textAlign:'start'}}>
+                <p style={{textAlign:'start'}} className='font-proxima-nova'>
                   Nothing! TrueCoach is 100% free for your clients. Anything else is just insanity.
                 </p>
               </div>
@@ -97,7 +97,7 @@ class LiveCoachFeature extends React.Component {
                 <h3>
                   <b>  Are there any extra fees?</b>
                 </h3>
-                <p style={{textAlign:'start'}}>
+                <p style={{textAlign:'start'}} className='font-proxima-nova'>
                   Nope, what you see is what you get.
                 </p>
               </div>
@@ -107,7 +107,7 @@ class LiveCoachFeature extends React.Component {
                 <h3>
                   <b>  Is there a yearly contract?</b>
                 </h3>
-                <p style={{textAlign:'start'}}>
+                <p style={{textAlign:'start'}} className='font-proxima-nova'>
                   No, everything is defaulted at month to month. We do offer an annual billing option though if you want to get 2 months free! Prices above reflect the month to month option.
                 </p>
               </div>
@@ -117,7 +117,7 @@ class LiveCoachFeature extends React.Component {
                 <h3>
                   <b>  How do I get signed up?</b>
                 </h3>
-                <p style={{textAlign:'start'}}>
+                <p style={{textAlign:'start'}} className='font-proxima-nova'>
                   Easy! Enter your email and click "Get Started" below. We'll see you on the other side!
                 </p>
               </div>

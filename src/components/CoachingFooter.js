@@ -20,7 +20,7 @@ const CoachingFooter = (props) => (
 
             </Col>
 
-            <Col className="col-md-4" md={4}>
+            <Col className="col-md-6" md={6}>
 
               <div className="widget clearfix">
 
@@ -34,18 +34,19 @@ const CoachingFooter = (props) => (
               </div>
 
             </Col>
-            <Col className="col-md-4" md={4}>
+            <Col className="col-md-6" md={6}>
 
               <div className="widget clearfix">
 
                 <h4>Products</h4>
 
                 <ul className="list-unstyled iconlist ml-0">
+                  <li><a href="/coaching">Life Coach</a></li>
                   <li><a href="/dbt-coach">DBT Coach</a></li>
                   <li><a href="/cbt-companion">CBT Companion</a></li>
                   <li><a href="/act-coach">ACT Coach</a></li>
                   <li><a href="/dbt-daily">DBT Daily</a></li>
-                  <li></li>
+                  <li />
                   <li><a href="https://findprovider.swasth.co">Find Provider</a></li>
 
                 </ul>
@@ -54,7 +55,7 @@ const CoachingFooter = (props) => (
 
             </Col>
 
-            <Col className="col-md-4" md={4}>
+            <Col className="col-md-6" md={6}>
 
               <div className="widget clearfix">
 
@@ -74,7 +75,6 @@ const CoachingFooter = (props) => (
               </div>
 
             </Col>
-            <Col className='col-md-4' md={4}/>
 
           </Row>
 

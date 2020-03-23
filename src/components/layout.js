@@ -4,7 +4,6 @@ import Footer from './Footer'
 import BG from '../assets/images/BG.png'
 import CoachingBG from '../assets/images/bg@3x.png'
 import '../assets/scss/main.scss'
-import CoachingFooter from './CoachingFooter'
 
 
 class Layout extends React.Component {
@@ -47,11 +46,11 @@ class Layout extends React.Component {
           <Header show={this.props.show} isLogoWhite={this.props.isLogoWhite}/>
           {children}
         </div>
-        {this.props.coachingFooter ?
-          <CoachingFooter increaseFooterMargin={this.props.increaseFooterMargin}/>
-          :
+        {/*{this.props.coachingFooter ?*/}
+          {/*<CoachingFooter increaseFooterMargin={this.props.increaseFooterMargin}/>*/}
+          {/*:*/}
           <Footer show={this.props.show}/>
-        }
+        {/*}*/}
 
         {/*<img src={footerImg}/>*/}
       </div>

@@ -25,6 +25,7 @@ class LifeCoachFeature extends React.Component {
           <div className='cell'>
             <div className='well tac coach-heading'>
               <h2>The only coaching Platform for Evidence-Based Behavioral Health</h2>
+              <p className='font-proxima-nova'>Health and Wellness coach practice management solution that enables coaches to holistically lead their clients, connecting mind, body and soul through behavior modification and accountability tools towards outcomes.</p>
             </div>
           </div>
         </Row>
@@ -39,9 +40,9 @@ class LifeCoachFeature extends React.Component {
                   <h2 style={{marginBottom:10}}>
                     <a><b>The easiest way to bring evidence-based therapies to your clients.</b></a>
                   </h2>
-                  <p style={{ textAlign: 'start' }}>
+                  <p style={{ textAlign: 'start' }} className='font-proxima-nova'>
                     Set up group and individual programs, accept payments, sign contracts - everything needed to run a successful practice.
-                    <div className='app-icons-title'>Integrates seamlessly with our popular apps:</div>
+                    <div className='app-icons-title font-proxima-nova'>Integrates seamlessly with our popular apps:</div>
                     <div className='app-icons'>
                     <a href='https://play.google.com/store/apps/details?id=co.swasth.dbtcoach'>
                       <img className='custom-image'  src={DBTCoachScreen} alt='Therapy'/>
@@ -54,7 +55,7 @@ class LifeCoachFeature extends React.Component {
                       ACT Coach</a>
                     </div>
                     <br/>
-                    <div className='app-icons-title'>Enables Telehealth:</div>
+                    <div className='app-icons-title font-proxima-nova'>Enables Telehealth:</div>
                     <div className='app-icons'>
                       <a>
                         <img className='custom-image'  src={Message} alt='Therapy'/>
@@ -79,7 +80,7 @@ class LifeCoachFeature extends React.Component {
                 <h3>
                   <a>Create Programs and Add Sessions</a>
                 </h3>
-                <p style={{ textAlign: 'start' }}>
+                <p style={{ textAlign: 'start' }} className='font-proxima-nova'>
                   Get started by adding your Program and schedule sessions for individuals and groups. Add content from your library or from our apps
                 </p>
               </div>
@@ -92,7 +93,7 @@ class LifeCoachFeature extends React.Component {
                 <h3>
                   <a>Seamlessly integrates with our Evidence-based Apps</a>
                 </h3>
-                <p style={{ textAlign: 'start' }}>
+                <p style={{ textAlign: 'start' }} className='font-proxima-nova'>
                   You can add content from our apps such as DBT Coach, CBT Companion, ACT Coach and assign lessons, exercises etc. as homework for the session.
                   Also view your clients' progress.
                 </p>
@@ -106,7 +107,7 @@ class LifeCoachFeature extends React.Component {
                 <h3>
                   <a>Set up your library and reuse with multiple programs</a>
                 </h3>
-                <p style={{ textAlign: 'start' }}>
+                <p style={{ textAlign: 'start' }} className='font-proxima-nova'>
                   Get started by creating your workspace and adding documents, links etc. and then sharing them with different programs that you create.
                 </p>
               </div>
@@ -119,7 +120,7 @@ class LifeCoachFeature extends React.Component {
                 <h3>
                   <a>Never miss a deadline for you or your client.</a>
                 </h3>
-                <p style={{ textAlign: 'start' }}>
+                <p style={{ textAlign: 'start' }} className='font-proxima-nova'>
                   Set up one-time or recurring tasks for your clients as well as schedule teleconferences and webinars. Motivate your client to stay accountable and reach their goals!
                 </p>
               </div>
@@ -132,7 +133,7 @@ class LifeCoachFeature extends React.Component {
                 <h3>
                   <a>Accept payments for your sessions.</a>
                 </h3>
-                <p style={{ textAlign: 'start' }}>
+                <p style={{ textAlign: 'start' }} className='font-proxima-nova'>
                   Once you set up, you receive payments for your programs seamlessly. There is no need to set up a payment service for your program.
                 </p>
               </div>
@@ -145,7 +146,7 @@ class LifeCoachFeature extends React.Component {
                 <h3>
                   <a>Work with other coaches</a>
                 </h3>
-                <p style={{ textAlign: 'start' }}>
+                <p style={{ textAlign: 'start' }} className='font-proxima-nova'>
                   You can set up programs such that you can share your workload by appointing a co-coach so that when you are taking time off your clients have uninterrupted access to help.
                 </p>
               </div>
