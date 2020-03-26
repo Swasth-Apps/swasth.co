@@ -35,7 +35,7 @@ const LifeCoach = (props) => {
               <span className=''>I am a </span>
               <Button className='coaching-primary-orange-btn'>
                 <Link to={'/coaching/coach'}>Coach</Link></Button>
-              <Button className='coaching-primary-purple-btn'>Client</Button>
+              <Button className='coaching-primary-purple-btn'><Link to={'/coaching/client'}>Client</Link></Button>
             </div>
             <div className='form-fields'>
               <p className='font-proxima-nova'>Please enter your email to be the first to know about upcoming features , news and updates</p>

@@ -36,6 +36,7 @@
     width: 100%;
     @media only screen and (max-width: 769px) {
       transform: translateY(0%);
+      width: inherit;
     }
     @media only screen and (min-width: 1600px) {
       max-width: unset;

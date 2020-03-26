@@ -7,12 +7,6 @@ import { Col, Icon } from 'antd'
 //import blogImg from '../assets/images/Blog_img01.png'
 import blogImg from '../assets/images/testimonial-user.jpg'
 
-const CustomLeftArrow = ({ onClick }) => (
-  <Icon onClick={() => onClick()} className='custom-carousel-icon' type='left-circle' />
-);
-const CustomRightArrow = ({ onClick }) => (
-  <Icon onClick={() => onClick()} className='custom-carousel-icon -right-icon' type='right-circle' />
-);
 const settings = {
   dots: true,
   infinite: true,

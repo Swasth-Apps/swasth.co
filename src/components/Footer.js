@@ -5,7 +5,7 @@ import unitedStates from '../assets/images/united-states.png'
 import { Link } from 'gatsby'
 import { Col, Row } from 'antd'
 
- const Footer = (props) => (
+const Footer = (props) => (
     <footer id="footer">
         <div className="inner">
           <img className='footer-bg' src={footerImg}/>
