@@ -31,6 +31,7 @@ const Footer = (props) => (
                 <ul className="list-unstyled iconlist ml-0">
                   <li><a href="https://clinician.swasth.co">Clinicians</a></li>
                   <li><a href="#">Members</a></li>
+                  <li><a href="/coaching">Coaching</a></li>
                 </ul>
 
               </div>

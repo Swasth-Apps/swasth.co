@@ -29,7 +29,7 @@ const LifeCoach = (props) => {
           <Col md={12} className='card-col -margin-right -margin-bottom'>
             <h2 className='-font-bold margin-bottom-25'>Behavioral Health Coaching Simplified.</h2>
             <div className='subtitle font-proxima-nova'>
-              Empowering Coaches and Therapists to bring Evidence-Based Therapies to clients, helping them reach their full potential.
+              Empowering Coaches and Therapists to bring Evidence-Based therapies to Clients, helping them reach their full potential.
             </div>
             <div className='join-buttons'>
               <span className=''>I am a </span>
