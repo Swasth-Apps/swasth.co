@@ -29,7 +29,7 @@ const Footer = (props) => (
                 <h4>Swasth</h4>
 
                 <ul className="list-unstyled iconlist ml-0">
-                  <li><a href="https://provider.swasth.co">Clinicians</a></li>
+                  <li><a href="https://clinician.swasth.co">Clinicians</a></li>
                   <li><a href="#">Members</a></li>
                 </ul>
 
@@ -49,7 +49,7 @@ const Footer = (props) => (
                   <li><a href="/act-coach">ACT Coach</a></li>
                   <li><a href="/dbt-daily">DBT Daily</a></li>
                   <li></li>
-                  <li><a href="https://findprovider.swasth.co">Find Provider</a></li>
+                  <li><a href="https://findclinician.swasth.co">Find Provider</a></li>
 
                 </ul>
 
