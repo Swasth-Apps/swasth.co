@@ -65,11 +65,15 @@
     position: absolute !important;
     right: 15px;
     top: 50%;
+    margin-top: -5px;
 
     .icon {
       font-size: 24px;
       color: white;
       padding: 5px 0 15px 0;
+    }
+    .not-white{
+      color: _palette(fg-bold) !important;
     }
   }
   .menu-fold-content {
@@ -1093,4 +1097,12 @@ strong{
 }
 .custom-footer-carousel{
   margin-top: -120px;
+}
+
+.coaching-download{
+  transform: translateY(50%);
+  h1{
+    margin-bottom: 0;
+    text-align: center;
+  }
 }

@@ -95,7 +95,7 @@ class Layout extends React.Component {
           className={this.props.show && !this.props.hideHomeImg ? 'coach-wrapper' : ''}
           style={{ paddingBottom: this.props.hideHomeImg ? 15 : 0 }}
         >
-          <Header show={this.props.show} isLogoWhite={this.props.isLogoWhite}/>
+          <Header isContentWhite={this.props.isContentWhite} show={this.props.show} isLogoWhite={this.props.isLogoWhite}/>
           {children}
         </div>
         {/*{this.props.coachingFooter ?*/}

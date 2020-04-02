@@ -7,6 +7,7 @@ import { Link } from 'gatsby'
 
 const Header = (props) => {
   const [state, setState] = useState(false)
+  const { isContentWhite } = props;
   return (
     <>
       <header id="header" className="alt">
@@ -25,17 +26,25 @@ const Header = (props) => {
                 {/*<Link to="/coaching/features" className='margin-right-25'>*/}
                 {/*<div className={`menu-content hide-content ${props.isLogoWhite ? 'white-text':''}`} href="javascript:;">Features</div>*/}
                 {/*</Link>*/}
+                <a href="/" className='margin-right-25'>
+                  <div className={`menu-content hide-content ${isContentWhite ?'' :'white-text'}`} href="javascript:;">Home</div>
+                </a>
+                <a href="/coaching/about" className='margin-right-25'>
+                  <div className={`menu-content hide-content ${isContentWhite ?'' :'white-text'}`} href="javascript:;">About</div>
+                </a>
                 <a href="/coaching/pricing" className='margin-right-25'>
-                  <div className={`menu-content hide-content white-text`}
+                  <div className={`menu-content hide-content ${isContentWhite ?'' :'white-text'}`}
                        href="javascript:;">Pricing
                   </div>
                 </a>
                 <Link to="/coaching/case-studies" className='margin-right-25'>
-                  <div className={`menu-content hide-content white-text`}
+                  <div className={`menu-content hide-content ${isContentWhite ?'' :'white-text'}`}
                        href="javascript:;">Case Studies
                   </div>
                 </Link>
+                <Link to="/coaching/download">
                 <Button className='download-btn menu-content hide-content'>Download App</Button>
+                </Link>
               </> : ''}
             {!props.show ?
               <>
@@ -61,7 +70,7 @@ const Header = (props) => {
                 href='javascript:void(0)'
                 onClick={() => setState(!state)}>
                 {state ? <Icon className='icon' type="close"/>
-                  : <Icon className='icon' type="menu"/>}
+                  : <Icon className={`icon ${isContentWhite ? 'not-white' :''}`} type="menu"/>}
               </a> : ''
             }
           </div>
@@ -73,13 +82,19 @@ const Header = (props) => {
             {/*<Link to="/coaching/features">*/}
             {/*<div className="menu-content">Features</div>*/}
             {/*</Link>*/}
+            <a href="/">
+              <div className="menu-content" href="javascript:;">Home</div>
+            </a>
+            <a href="/coaching/about">
+              <div className="menu-content" href="javascript:;">About</div>
+            </a>
             <a href="/coaching/pricing">
               <div className="menu-content">Pricing</div>
             </a>
             <Link to="/coaching/case-studies">
               <div className="menu-content">Case Studies</div>
             </Link>
-            <a href="/coaching">
+            <a href="/coaching/download">
               <div className="menu-content">Download App</div>
             </a>
           </div> : ''
