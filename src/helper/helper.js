@@ -93,3 +93,27 @@ export const dbtdaily=[
     comment:'Excellent I\'ve studied DBT for years and this is a great little tool to have with you to help you when you are going through though times.'
   },
 ]
+export const lifeCoach=[
+  {
+    name:'Sophia',
+    comment:'I was expecting a session with Sarah where she would advise me directions to take to make my life happy. She instead taught me how to choose my own directions and grow as a person for unlimited happiness. I discovered the need to set goals, achieve them and celebrate. Since taking coaching sessions, I have gone back to music playing, studying, meeting new people, contacting old friends. It has also helped me strengthen relationships with my family.'
+  }, {
+    name:'Emma',
+    comment: 'Thanks for your email summary of our session. I must admit, I was quite exhausted after our meeting. I thought it would be very rational, focused on sharing information, but it was quite the contrary. I was still shaken the whole day. I noticed that something was happening to me inside. My head was spinning. I didn’t expect it to happen so fast. I realize I am in a very fortunate situation and I will try to make the best out of it. Thanks again for your time, knowledge, insights and inspiration! It has really added value to my life.'
+  }, {
+    name:' Jacob',
+    comment:'Doing life coaching has allowed me to take control of my life – I decide what I want and when. When I focus on something I want, I program myself to choose what happens. When you leave what happens in life to chance, you give away your power to have what you want in life. I’ve realised that I am blessed with abundant resources for achieving my goals. I need to reward myself for working hard towards my goals. The skills I’ve gained from coaching have allowed me to take control of my life and develop a leadership mentality and be able to guide other people to realise their goals.'
+  }, {
+    name:'Daniel',
+    comment:'From our first meeting Sarah really made me think about what it was I wanted to do, structuring my goals in a way that I’d never thought of before, helping me focus on the things that really mattered to me and how I could achieve them, ultimately finding the right job for me. The weekly sessions reignited a dwindling self-belief and hunger that inspired me to get back on track and find the job I wanted. I had decided to change career path completely, which in itself was totally overwhelming in the fact that I simply didn’t know what to do or how to go about it. Sarah’s pragmatic take on things was a massive help.'
+  }, {
+    name:'Lisa',
+    comment: 'As a result of the coaching with Sarah I have been able to become more organised, with a positive outlook, seriously cut down my alcohol intake and exercise more. These changes have had a major impact on my life and the people around me. When I launch into the next project in my life I will definitely be giving Sarah a call. It was cheaper than gym membership and with much more benefit.'
+  }, {
+    name:'Esther',
+    comment:'When I started with Coach Michele, I did not know anything about coaching.  I called her because she helped a friend of mine make a career transition that was perfect for her and I had the opportunity to make a change and did not know where to start.    '
+  }, {
+    name:' Jack',
+    comment:'Life Coaching with Michele changed my life. I was at a standstill for over 10 years working a Corporate job I didnt like. After 1 month of working with her I found a school to attend, my confidence increased in making a decision and I was able to move forward. I ended taking the package from Corporate and now I have the job of my dreams. I am a Holistic Health Counselor. I see clients privately and I do cooking classes and seminars. I never imagined what working with Michele would have done. A great experience but also a necessary one to make things happen in my life. I cannot thank her enough.    '
+  }
+]

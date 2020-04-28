@@ -9,7 +9,7 @@ import '../assets/scss/main.scss'
 import BottomBg from '../assets/images/bottom-bg.png'
 import { Col } from 'antd'
 import blogImg from '../assets/images/testimonial-user.jpg'
-import { dbtcoach } from '../helper/helper'
+import { lifeCoach } from '../helper/helper'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -105,7 +105,7 @@ class Layout extends React.Component {
           <img src={BottomBg} className='custom-footer-bg'/>
             <div className='custom-footer-carousel'>
               <Slider {...settings}>
-                {dbtcoach && dbtcoach.length ? dbtcoach.map(({comment,name})=>(
+                {lifeCoach && lifeCoach.length ? lifeCoach.map(({comment,name})=>(
                   <Col md={6} className='blog-container'>
                     <div className='testimonials-blogs'>
                       <div style={{textAlign:'center',marginBottom:'15px'}}>

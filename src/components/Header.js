@@ -52,7 +52,7 @@ const Header = (props) => {
                 </a>
               </> : null}
             <a
-              href="https://provider.swasth.co"
+              href="https://clinician.swasth.co"
               hidden={props.show}
             >
               <div className="menu-content">Clinicians</div>

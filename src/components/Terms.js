@@ -645,7 +645,7 @@ const Terms = () =>(
             <font face="HelveticaNeue">
               <font size="3" style={{fontSize: '12pt'}}><span style={{background: "#ffffff"}}>You agree to notify us immediately of any breach in secrecy of your log-in information.
 						If you have any reason to believe that your account information has been compromised or that your account has been
-						accessed by a third party, you agree to immediately notify the Swasth by e-mail to legal@recoveryrecord.com. You will
+						accessed by a third party, you agree to immediately notify the Swasth by e-mail to info@swasth.co. You will
 						be solely responsible for the losses incurred by the Swasth and others due to any unauthorized use of your account.</span></font>
             </font>
           </font>
@@ -1043,7 +1043,7 @@ const Terms = () =>(
             <font face="HelveticaNeue">
               <font size="3" style={{fontSize: '12pt'}}><span style={{background: "#ffffff"}}>Notices and counter-notices must meet the then-current statutory requirements imposed
 						by the DMCA; see http://www.loc.gov/copyright/ for details. Notices and counter-notices with respect to the Swasth
-						Service should be sent to 1121 Clark Way, Palo Alto, CA 94304(legal@recoveryrecord.com). Consult your legal advisor
+						Service should be sent to 3724 Redwood Cir, Palo Alto, CA 94306(info@swasth.co). Consult your legal advisor
 						and see 17 U.S.C. " 512 before filing a notice or counter-notice as there are penalties for false claims under the
 						DMCA.</span></font>
             </font>

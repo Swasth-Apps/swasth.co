@@ -259,7 +259,11 @@
 }
 
 .-font-bold {
-  font-weight: bold;
+  font-weight: 900;
+}
+
+.text--uppercase {
+  text-transform: uppercase;
 }
 
 .img-tag {
