@@ -6,9 +6,10 @@ import { Link } from 'gatsby'
 import { Col, Row } from 'antd'
 
 const Footer = (props) => (
-    <footer id="footer">
+    <footer id="footer" style={props.hideFooter ? { height:'530px' } : null}>
         <div className="inner">
-          <img className='footer-bg' src={footerImg}/>
+          {!props.hideFooter ?
+          <img className='footer-bg' src={footerImg}/> : null}
       <div>
         <div className="footer-widgets-wrap pb-4 clearfix">
           <Row className="footer-row" gutter={16}>

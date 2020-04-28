@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import BG from '../assets/images/BG.png'
-import CoachingBG from '../assets/images/bg@3x.png'
+import CoachingBG from '../assets/images/top-bg@3x.png'
 import TopBG from '../assets/images/top-bg@3x.png'
 import '../assets/scss/main.scss'
 
@@ -122,7 +122,7 @@ class Layout extends React.Component {
               </Slider>
             </div>
           </div> : null}
-          <Footer show={this.props.show} showCustomBottom={this.props.topBg || false}/>
+          <Footer show={this.props.show} hideFooter={this.props.hideFooter} showCustomBottom={this.props.topBg || false}/>
         {/*}*/}
 
         {/*<img src={footerImg}/>*/}

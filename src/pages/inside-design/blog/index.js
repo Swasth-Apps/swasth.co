@@ -1,10 +1,10 @@
 import React from 'react'
 import {  graphql, StaticQuery } from 'gatsby'
 import Layout from '../../../components/layout'
-import Blogs from '../../../components/Blogs'
+import Blogs from '../../../components/BlogComponent'
 
 
-class HomeIndex extends React.Component {
+export default class HomeIndex extends React.Component {
 
   constructor(props) {
     super(props);
@@ -14,6 +14,7 @@ class HomeIndex extends React.Component {
     return (
       <Layout
         show
+        hideFooter
       >
         <Blogs data={data} />
       </Layout>
@@ -21,13 +22,13 @@ class HomeIndex extends React.Component {
   }
 }
 
-export default () => (
+/*export default () => (
   <StaticQuery
     query={graphql`
       query BlogRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "inside-design-post" } } }
         ) {
           edges {
             node {
@@ -51,4 +52,4 @@ export default () => (
     `}
     render={(data, count) => <HomeIndex data={data} count={count} />}
   />
-)
+)*/

@@ -1,22 +1,44 @@
 backend:
   name: git-gateway
-  branch: feature-setup_cms
+  branch: master
 
 media_folder: static/img
 public_folder: /img
+publish_mode: editorial_workflow
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "src/pages/coaching/blog"
+  - name: "inside-design"
+    label: "blog"
+    folder: "src/pages/inside-design"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "inside-design-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "User name", name: "username", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Featured Post", name: "featuredpost", widget: "boolean", required: false}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Category Name", name: "categoryname", widget: "string"}
+      - {label: "Category Slug", name: "categoryslug", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Related Post", name: relatedpost, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: "inside-design", name: "inside-design", widget: list, fields: [{label: Title, name: title, widget: string},{label: By User, name: username, widget: string}, {label: Slug, name: slug, widget: string}, {label: Image, name: image, widget: image}]}]}
+      - {label: "Tags", name: "tags", widget: "list"}
+  - name: "category"
+    label: "Category"
+    folder: "src/pages/category"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "category-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
-      - {label: "Featured Image", name: "featuredimage", widget: "image"}
+      - {label: "Featured Post", name: "featuredpost", widget: "boolean", required: false}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Category Name", name: "categoryname", widget: "string"}
+      - {label: "Category Slug", name: "categoryslug", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Related Post", name: relatedpost, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: "inside-design", name: "inside-design", widget: list, fields: [{label: Title, name: title, widget: string},{label: By User, name: username, widget: string}, {label: Slug, name: slug, widget: string}, {label: Image, name: image, widget: image}]}]}
       - {label: "Tags", name: "tags", widget: "list"}

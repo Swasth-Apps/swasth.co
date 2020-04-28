@@ -57,3 +57,18 @@
     font-weight: normal;
     src: local('Airbnb Cereal App Black'), url('AirbnbCerealBlack.woff') format('woff');
 }
+
+
+@font-face {
+    font-family: 'Apercu Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apercu Regular'), url('ApercuRegular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Publico Text Web Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Publico Text Web Regular'), url('PublicoTextWebRegular.ttf') format('truetype');
+}
