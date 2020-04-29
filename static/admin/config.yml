@@ -9,7 +9,7 @@ publish_mode: editorial_workflow
 collections:
   - name: "blog"
     label: "blog"
-    folder: "src/pages/inside-design/blog"
+    folder: "src/pages/blog"
     create: true
     slug: "{{slug}}"
     fields:
@@ -23,7 +23,7 @@ collections:
       - {label: "Category Name", name: "categoryname", widget: "string"}
       - {label: "Category Slug", name: "categoryslug", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Related Post", name: relatedpost, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: "blog", name: "blog", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
+      - {label: "Related Posts", name: relatedpost, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: "blog", name: "blog", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
       - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "category"

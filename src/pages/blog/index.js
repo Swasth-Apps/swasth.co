@@ -28,7 +28,7 @@ export default class HomeIndex extends React.Component {
       query BlogRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "inside-design-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
         ) {
           edges {
             node {

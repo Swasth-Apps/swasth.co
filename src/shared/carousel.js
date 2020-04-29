@@ -97,7 +97,7 @@ const CarouselContainer = ({reviews}) => (
       swipeable
     >
       {reviews && reviews.length ? reviews.map(({comment,name})=>(
-        <Col md={6} className='inside-design-container'>
+        <Col md={6} className='blog-container'>
           <div className='testimonials-blogs'>
             <div style={{textAlign:'center',marginBottom:'15px'}}>
               <img src={blogImg} className='testimonial-user-img'/>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Row } from 'antd'
+import { Col, Row,Icon } from 'antd'
 import img from '../assets/images/blogImg.png'
 import socialIcons from '../assets/images/socialIcons.png'
 
@@ -32,10 +32,7 @@ class LiveCoachBlog extends React.Component {
         <Row className='card-row -margin-bottom -row-flex divider col-reverse'
              style={{ alignItems:'flex-start', }}
              gutter={16}>
-          <Col md={2} className='card-col -margin-right -margin-bottom'>
-            <img src={socialIcons}/>
-          </Col>
-          <Col md={10} className='card-col -margin-right -margin-bottom'>
+          <Col md={12} className='card-col -margin-right -margin-bottom'>
             <div className='subtitle base-text navy-blue para-text'>
               Historically, we’ve gained nuance and perspective into our coworkers and clients’ thoughts, feelings, and actions through working with them shoulder-to-shoulder in specially-designed studios, conference rooms, and even the occasional makeshift office corner. And when we’ve had design thinking workshops, we see these intangible connections become amplified. Through whiteboard, presentations, and dot voting, cross-functional teams bond while co-creating new ideas, making decisions, and aligning on future goals.
               <br />
@@ -51,8 +48,33 @@ class LiveCoachBlog extends React.Component {
               <br />
               This article assumes that you have previous experience in facilitating design thinking-based workshops (or sprints). If you’re new to the process, I suggest reading Enterprise Design Sprints by Richard Banfield, even if you’re not working at an enterprise-level company. Also, consider Design Sprint: A Practical Guidebook for Building Great Digital Products co-authored by Richard, C. Todd Lombardo, and Trace Wax.
             </div>
+            <div className='blog-tags'>
+              <p className='para-text'>
+                MindFulness
+              </p>
+              <p className='para-text'>
+                MindFulness
+              </p>
+              <p className='para-text'>
+                MindFulness
+              </p>
+              <p className='para-text'>
+                MindFulness
+              </p>
+            </div>
+            <div className='blog-user'>
+              <div className='user-info para-text'>
+              <img src={img}/>
+                Gana Pemmanda
+              </div>
+              <div className='social-icons'>
+                <Icon type='facebook' />
+                <Icon type='twitter' />
+                <Icon type='instagram' />
+              </div>
+            </div>
           </Col>
-          <Col md={10} className='card-col image-col recent-story-container'>
+          <Col md={12} className='card-col image-col recent-story-container'>
             <h3 className='base-text navy-blue'>Recent Stories</h3>
             <div className='recent-story'>
               <div className='story'>
