@@ -12,14 +12,17 @@
   font-family: 'proxima_nova_rgregular', Helvetica;
   font-size: 18px;
 }
+
 .purpleHighlight {
   font-weight: bold;
   color: purple;
 }
+
 .programs-text {
   font-family: 'proxima_nova_rgregular', Helvetica;
   font-size: 14px;
 }
+
 // Borders with primary colors
 .coaching-box-shadow {
   box-shadow: rgba(0, 0, 0, 0.07) 0 8px 25px 0;
@@ -223,7 +226,7 @@
   }
 
   .category-text {
-    color: #F36;
+    color: _palette(primary-purple);
     margin-bottom: 0;
     font-size: 14px;
     font-weight: 600;
@@ -249,11 +252,13 @@
       font-size: 22px;
       font-weight: 600;
     }
+
     .recent-story {
       img {
         width: 100%;
         border-radius: 6px;
       }
+
       .story {
         display: flex;
         margin-bottom: 10px;
@@ -1373,39 +1378,66 @@ strong {
 
 // Blogs
 .blog-section-container {
-  .card-row{
+  .card-row {
     padding: 36px 32px 0;
+    @media screen and (max-width: 1023px) {
+      padding: 0;
+      .featured-blog-content{
+        h2{
+          font-size: 24px !important;
+        }
+      }
+    }
+    @media screen and (max-width: 769px) {
+      .featured-blog-content{
+        margin: 0 10px;
+      }
+    }
   }
-  .category-text{
-    color: #75DBBB;
+
+  .category-text {
+    color: _palette(primary-purple);
   }
+
   .blog-section {
     align-items: flex-start;
     background: transparent;
-    .top-blog-section{
+    @media screen and (max-width: 769px) {
+      img{
+        margin-bottom: 0;
+      }
+    }
+    .top-blog-section {
       padding-right: 0 !important;
     }
+
     .featured-blog-content {
       padding: 32px !important;
       background: #F3FFFB;
-      h2{
+
+      h2 {
         font-size: 36px;
+        margin-top: 10px;
       }
     }
   }
-  .col-reverse{
+
+  .col-reverse {
     background: transparent;
-    .ant-col-md-2{
-      img{
+
+    .ant-col-md-2 {
+      img {
         height: 150px;
       }
     }
-    .blog-tags{
+
+    .blog-tags {
       display: flex;
       flex: 0 0 100%;
       flex-wrap: wrap;
       margin-top: 20px;
-      p{
+
+      p {
         border: 1px solid _palette(primary-purple);
         padding: 5px 10px;
         font-size: 12px;
@@ -1414,25 +1446,29 @@ strong {
         color: _palette(primary-purple);
       }
     }
-    .blog-user{
+
+    .blog-user {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      .user-info{
+
+      .user-info {
         display: flex;
         align-items: center;
         font-size: 18px;
         font-weight: bold;
         color: #808080;
-        img{
+
+        img {
           width: 50px;
           height: 50px;
           border-radius: 50px;
           margin-right: 10px;
         }
       }
-      .social-icons{
-        i{
+
+      .social-icons {
+        i {
           border-radius: 50px;
           color: _palette(bg);
           font-size: 16px;
@@ -1442,17 +1478,87 @@ strong {
         }
       }
     }
-    .subtitle{
+
+    .subtitle {
       font-size: 16px;
     }
-    .recent-story-container{
+
+    .recent-story-container {
       padding: 15px !important;
       background: #E9F3FF;
-      .story{
-        h3{
-          font-size: 16px !important;
+
+      .recent-story {
+        .story {
+          h3 {
+            font-size: 16px !important;
+          }
         }
       }
     }
+  }
+
+  .feeds-container {
+    .recent-story {
+      max-height: unset;
+
+      .story {
+        flex: 0 0 25%;
+        display: block;
+        @media screen and (max-width: 600px) {
+          flex: 0 0 50%;
+        }
+        img {
+          width: 100%;
+          height: unset;
+          border-radius: 6px;
+        }
+        h3 {
+          font-size: 22px !important;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .category-container{
+    .-centered{
+     text-align: center;
+      font-size: 46px !important;
+      color: _palette(fg-bold);
+    }
+    .card-row{
+      padding: 0;
+    }
+  }
+  .category-section{
+      padding: 36px 0 !important;
+  }
+  @media screen and (max-width: 1023px) {
+    .category-section,.category-container{
+      transform: unset !important;
+    }
+  }
+}
+
+.category-tabs{
+  transform: translateY(10%);
+  margin-top: 20px;
+  .ant-tabs-bar{
+    border-bottom: none;
+  }
+  .ant-tabs-tab{
+    font-family: 'Publico Text Web Regular', Helvetica;
+    color: #828282;
+    font-weight: bold;
+  }
+  .ant-tabs-ink-bar{
+    display: none !important;
+  }
+  .ant-tabs-tab-active{
+    color: _palette(primary-purple) !important;
+  }
+}
+.no-top-space-tabs{
+  @media screen and (max-width: 769px) {
+    margin-top: 0;
   }
 }
