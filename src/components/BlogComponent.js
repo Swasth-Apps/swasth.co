@@ -73,6 +73,7 @@ class LiveCoachBlog extends React.Component {
                 <Icon type='instagram' />
               </div>
             </div>
+            <div />
           </Col>
           <Col md={12} className='card-col image-col recent-story-container'>
             <h3 className='base-text navy-blue'>Recent Stories</h3>
