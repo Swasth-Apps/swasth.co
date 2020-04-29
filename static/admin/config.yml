@@ -8,7 +8,7 @@ publish_mode: editorial_workflow
 
 collections:
   - name: "blog"
-    label: "blog"
+    label: "Blog"
     folder: "src/pages/blog"
     create: true
     slug: "{{slug}}"
