@@ -7,13 +7,13 @@ public_folder: /img
 publish_mode: editorial_workflow
 
 collections:
-  - name: "inside-design"
+  - name: "blog"
     label: "blog"
-    folder: "src/pages/inside-design"
+    folder: "src/pages/inside-design/blog"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "inside-design-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "User name", name: "username", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -23,8 +23,9 @@ collections:
       - {label: "Category Name", name: "categoryname", widget: "string"}
       - {label: "Category Slug", name: "categoryslug", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Related Post", name: relatedpost, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: "inside-design", name: "inside-design", widget: list, fields: [{label: Title, name: title, widget: string},{label: By User, name: username, widget: string}, {label: Slug, name: slug, widget: string}, {label: Image, name: image, widget: image}]}]}
+      - {label: "Related Post", name: relatedpost, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: "blog", name: "blog", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
       - {label: "Tags", name: "tags", widget: "list"}
+
   - name: "category"
     label: "Category"
     folder: "src/pages/category"
@@ -35,10 +36,4 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean", required: false}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Category Name", name: "categoryname", widget: "string"}
-      - {label: "Category Slug", name: "categoryslug", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Related Post", name: relatedpost, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: "inside-design", name: "inside-design", widget: list, fields: [{label: Title, name: title, widget: string},{label: By User, name: username, widget: string}, {label: Slug, name: slug, widget: string}, {label: Image, name: image, widget: image}]}]}
-      - {label: "Tags", name: "tags", widget: "list"}
