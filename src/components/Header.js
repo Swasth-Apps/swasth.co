@@ -57,11 +57,9 @@ const Header = (props) => {
             >
               <div className="menu-content">Clinicians</div>
             </a>
-            <Dropdown overlay={menu}>
-              <a className='margin-right-25'>
+              <a href={'/blog'} className='margin-right-25'>
                 <div className="menu-content hide-content" href="javascript:;">Blog</div>
               </a>
-            </Dropdown>
 
             {props.show ?
               <a

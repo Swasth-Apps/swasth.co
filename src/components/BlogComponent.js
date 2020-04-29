@@ -1,7 +1,7 @@
 import React from 'react'
-import { Col, Row,Icon } from 'antd'
+import { Col, Icon, Row } from 'antd'
 import img from '../assets/images/blogImg.png'
-import socialIcons from '../assets/images/socialIcons.png'
+import CategoryTabs from './BreadCrum'
 
 class LiveCoachBlog extends React.Component {
   constructor(props) {
@@ -11,10 +11,12 @@ class LiveCoachBlog extends React.Component {
   render() {
     return (
       <section className='feature-section-group blog-section-container'>
-        <Row className='card-row -margin-bottom -row-flex divider col-reverse blog-section'
-             style={{ transform: 'translateY(10%)' }}
+        <CategoryTabs noTop/>
+
+        <Row className='card-row -margin-bottom -row-flex col-reverse blog-section'
+             style={{ transform: 'translateY(10%)',paddingRight:0 }}
              gutter={16}>
-          <Col md={12} className='card-col -margin-bottom top-blog-section'>
+          <Col md={12} className='card-col top-blog-section'>
             <img
               alt
               src={img}
@@ -192,74 +194,11 @@ class LiveCoachBlog extends React.Component {
           </Col>
         </Row>
 
-        <Row md={12} className='card-col image-col recent-story-container all-category-section' style={{ transform: 'translateY(20%)' }}>
+        <Row md={12}
+             className='card-col image-col recent-story-container feeds-container all-category-section'
+             style={{ transform: 'translateY(20%)' }}>
+          <h3 className='base-text navy-blue'>FEEDS</h3>
           <div className='recent-story'>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
             <div className='story'>
               <img
                 alt

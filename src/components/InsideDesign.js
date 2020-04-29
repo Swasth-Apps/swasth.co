@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Row } from 'antd'
 import img from '../assets/images/Image(2).png'
+import CategoryTabs from './BreadCrum'
 
 class LiveCoachBlog extends React.Component {
   constructor(props) {
@@ -10,6 +11,7 @@ class LiveCoachBlog extends React.Component {
   render() {
     return (
       <section className='feature-section-group'>
+        <CategoryTabs/>
         {/* <Row className='card-row blog-padding-0 '>
           <div
             id="featured-section"
