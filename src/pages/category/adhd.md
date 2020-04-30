@@ -1,0 +1,13 @@
+---
+templateKey: category-post
+title: ADHD
+date: 2017-04-30T13:25:00.000Z
+description: Attention-deficit/hyperactivity disorder (previously known as
+  attention deficit disorder or ADD) is a neurobehavioral disorder characterized
+  by core symptoms of inattentiveness, distractibility, hyperactivity, and
+  impulsivity. ADHD is thought to be the most common childhood mental health
+  disorder, with estimates of its prevalence in children ranging from 5 to 11
+  percent. This covers topics about ADHD, what it affects and helpful resources
+  to cope with it.
+image: /img/adhd.jpg
+---
