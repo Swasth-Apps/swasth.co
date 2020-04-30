@@ -19,6 +19,11 @@ categories:
 relatedpost:
   heading: T
   description: T
+  blog:
+    - slug: what-is-acceptance-and-commitment-therapy
+      title: What is Acceptance and Commitment Therapy?
+    - slug: what-is-dialectical-behavior-therapy
+      title: What is Dialectical Behavior Therapy?
 tags:
   - CBT
   - Evidence Based Therapy
