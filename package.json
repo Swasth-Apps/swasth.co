@@ -4,7 +4,6 @@
   "version": "2.0.0",
   "author": "Gana",
   "dependencies": {
-    "swasth.co": "git+https://761975b53133b4181461f8195c7739820547591e:x-oauth-basic@github.com/Swasth-Apps/swasth.co.git",
     "@babel/plugin-proposal-optional-chaining": "^7.8.3",
     "antd": "^3.26.2",
     "babel-preset-gatsby": "^0.2.29",
