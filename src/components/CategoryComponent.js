@@ -116,7 +116,7 @@ class CategoryComponent extends React.Component {
     )
   }
 }
-export default () => (
+export default (props) => (
   <StaticQuery
     query={graphql`
       query BlogRollQuery {
@@ -139,13 +139,37 @@ export default () => (
                 featuredpost
                 image
                 username
-                categoryslug
+
+              }
+            }
+          }
+        }
+
+        categories: allMarkdownRemark(
+          filter: { frontmatter: { templateKey: { eq: "category-post" } } }
+        ) {
+          edges {
+            node {
+              excerpt(pruneLength: 400)
+              id
+              html
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                templateKey
+                date(formatString: "MMMM DD, YYYY")
+                featuredpost
+                image
+                username
+
               }
             }
           }
         }
       }
     `}
-    render={(data, count) => <CategoryComponent data={data} count={count} />}
+    render={(data, count) => <CategoryComponent {...props} data={data} count={count} />}
   />
 )

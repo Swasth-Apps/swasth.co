@@ -20,8 +20,7 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean", required: false}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Category Name", name: "categoryname", widget: "string"}
-      - {label: "Category Slug", name: "categoryslug", widget: "string"}
+      - {label: "Categories", name: relatedpost, widget: object, fields: [{label: "category", name: "category", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Related Posts", name: relatedpost, widget: object, fields: [{label: "blog", name: "blog", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
       - {label: "Tags", name: "tags", widget: "list"}

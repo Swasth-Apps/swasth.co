@@ -11,14 +11,17 @@ export const CategoryTemplate = ({
                                    feature,
                                    helmet,
                                    content,
-                                   contentComponent
+                                   contentComponent,
+                                   slug
                                  }) => {
+
   const {  title, image } = feature;
   const PostContent = contentComponent || Content;
   return (
     <CategoryComponent
       hemet={helmet}
       title={title}
+      slug={slug}
       content={content}
       featuredimage={image}
     />
@@ -34,7 +37,7 @@ CategoryTemplate.propTypes = {
 
 const Feature = ({ data }) => {
   const { markdownRemark: post } = data
-
+  console.log(data)
   return (
     <Layout
       show
@@ -43,6 +46,7 @@ const Feature = ({ data }) => {
       <CategoryTemplate
         feature={post.frontmatter}
         content={post.html}
+        slug={post.fields?.slug}
         contentComponent={HTMLContent}
         helmet={
           <Helmet titleTemplate="%s | Feature">
@@ -71,6 +75,9 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+      fields{
+        slug
+      }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
