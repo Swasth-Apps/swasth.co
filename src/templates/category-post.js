@@ -16,7 +16,6 @@ export const CategoryTemplate = ({
                                  }) => {
 
   const {  title, image } = feature;
-  const PostContent = contentComponent || Content;
   return (
     <CategoryComponent
       hemet={helmet}
@@ -37,7 +36,6 @@ CategoryTemplate.propTypes = {
 
 const Feature = ({ data }) => {
   const { markdownRemark: post } = data
-  console.log(data)
   return (
     <Layout
       show

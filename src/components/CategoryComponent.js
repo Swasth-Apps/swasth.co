@@ -30,7 +30,9 @@ class CategoryComponent extends React.Component {
               />
               <div className='story-content'>
                 <p className='para-text category-text'>{this.props.title}</p>
+                <Link to={fields?.slug}>
                 <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
+                </Link>
                 <p className='para-text'>{frontmatter?.username}</p>
               </div>
             </div>
@@ -117,7 +119,7 @@ class CategoryComponent extends React.Component {
 export default (props) => (
   <StaticQuery
     query={graphql`
-      query BlogRollQuery {
+      query BlogQuery {
         blogs:allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "blog-post" } } }

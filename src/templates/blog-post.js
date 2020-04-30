@@ -1,48 +1,27 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
+import BlogComponent from '../components/BlogComponent'
 import Content, { HTMLContent } from '../components/Content'
+import { graphql } from 'gatsby'
+import Layout from '../components/layout'
 
 
 export const BlogPostTemplate = ({
+  feature,
   content,
   contentComponent,
-  description,
-  tags,
   title,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
-      {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-          </div>
-        </div>
-      </div>
-    </section>
+    <BlogComponent
+      hemet={helmet}
+      content={content}
+      feature={feature}
+    />
   )
 }
 
@@ -58,10 +37,14 @@ const BlogPost = ({ data = {} }) => {
   const { markdownRemark: post } = data
 
   return (
+    <Layout
+      show
+      hideFooter
+    >
       <BlogPostTemplate
         content={post?.html}
+        feature={post.frontmatter}
         contentComponent={HTMLContent}
-        description={post?.frontmatter?.description}
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post?.frontmatter?.title}`}</title>
@@ -71,9 +54,8 @@ const BlogPost = ({ data = {} }) => {
             />
           </Helmet>
         }
-        tags={post?.frontmatter?.tags}
-        title={post?.frontmatter?.title}
       />
+    </Layout>
   )
 }
 
@@ -84,4 +66,24 @@ BlogPost.propTypes = {
 }
 
 export default BlogPost
+
+export const pageQuery = graphql`
+  query BlogByID($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      id
+      html
+      fields{
+        slug
+      }
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        title
+        image
+        username
+        tags
+      }
+    }
+  }
+`
+
 
