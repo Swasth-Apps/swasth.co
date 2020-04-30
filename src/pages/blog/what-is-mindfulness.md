@@ -37,11 +37,11 @@ Mindfulness meditation asks us to suspend judgment and unleash our natural curio
 
 Mindfulness is available to us in every moment, whether through meditations and body scans, or mindful moment practices like taking time to pause and breathe when the phone rings instead of rushing to answer it.
 
-
-
 ## The Basics of Mindfulness Practice
 
 Mindfulness helps us put some space between ourselves and our reactions, breaking down our conditioned responses. Here’s how to tune into mindfulness throughout the day:
+
+![](/img/mindfulness-4.jpeg)
 
 1. **Set aside some time.**You don’t need a meditation cushion or bench, or any sort of special equipment to access your mindfulness skills—but you do need to set aside some time and space.
 2. **Observe the present moment as it is.**The aim of mindfulness is not quieting the mind, or attempting to achieve a state of eternal calm. The goal is simple: we’re aiming to pay attention to the present moment, without judgment. Easier said than done, we know.
@@ -56,6 +56,8 @@ That’s the practice. It’s often been said that it’s very simple, but it’
 This meditation focuses on the breath, not because there is anything special about it, but because the physical sensation of breathing is always there and you can use it as an anchor to the present moment. Throughout the practice you may find yourself caught up in thoughts, emotions, sounds—wherever your mind goes, simply come back again to the next breath. Even if you only come back once, that’s okay.
 
 ## A Simple Meditation Practice
+
+![](/img/mindfulness-5.jpeg)
 
 1. **Sit comfortably.** Find a spot that gives you a stable, solid, comfortable seat.
 2. **Notice what your legs are doing.** If on a cushion, cross your legs comfortably in front of you. If on a chair, rest the bottoms of your feet on the floor.
