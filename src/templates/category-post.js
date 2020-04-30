@@ -13,14 +13,14 @@ export const CategoryTemplate = ({
                                    content,
                                    contentComponent
                                  }) => {
-  const {  title, featuredimage } = feature;
+  const {  title, image } = feature;
   const PostContent = contentComponent || Content;
   return (
     <CategoryComponent
       hemet={helmet}
       title={title}
       content={content}
-      featuredimage={featuredimage}
+      featuredimage={image}
     />
   )
 }
