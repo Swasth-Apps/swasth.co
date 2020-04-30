@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'antd'
+import {  graphql, StaticQuery } from 'gatsby'
 import img from '../assets/images/blogImg.png'
 import CategoryTabs from '../components/BreadCrum'
 
@@ -9,6 +10,8 @@ class CategoryComponent extends React.Component {
   }
 
   render() {
+    const edges = this.props?.data?.allMarkdownRemark?.edges;
+    console.log(edges)
     return (
       <section className='feature-section-group blog-section-container'>
         <CategoryTabs/>
@@ -17,96 +20,21 @@ class CategoryComponent extends React.Component {
               image-col recent-story-container feeds-container
              all-category-section category-container'
              style={{ marginTop: 30 }}>
-          <h3 className='base-text navy-blue -centered'>Mindfulness</h3>
+          <h3 className='base-text navy-blue -centered'>{this.props.title}</h3>
           <div className='recent-story'>
+            {edges?.map(item =>
             <div className='story'>
               <img
                 alt
                 src={img}
               />
               <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
+                <p className='para-text category-text'>{this.props.title}</p>
+                <h3 className='base-text navy-blue'>{item?.node?.frontmatter?.title}</h3>
                 <p className='para-text'>By Greg Storey</p>
               </div>
             </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
+            )}
           </div>
         </Row>
         <Row
@@ -186,5 +114,34 @@ class CategoryComponent extends React.Component {
     )
   }
 }
-
-export default CategoryComponent
+export default () => (
+  <StaticQuery
+    query={graphql`
+      query BlogRollQuery {
+        allMarkdownRemark(
+          sort: { order: DESC, fields: [frontmatter___date] }
+          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+        ) {
+          edges {
+            node {
+              excerpt(pruneLength: 400)
+              id
+              html
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                templateKey
+                date(formatString: "MMMM DD, YYYY")
+                featuredpost
+                featuredimage
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={(data, count) => <CategoryComponent data={data} count={count} />}
+  />
+)
