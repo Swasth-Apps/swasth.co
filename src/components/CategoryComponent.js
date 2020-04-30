@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'antd'
-import {  graphql, StaticQuery } from 'gatsby'
+import { graphql, Link, StaticQuery } from 'gatsby'
 import img from '../assets/images/blogImg.png'
 import CategoryTabs from '../components/BreadCrum'
 
@@ -11,9 +11,9 @@ class CategoryComponent extends React.Component {
 
   render() {
     const edges = this.props?.data?.allMarkdownRemark?.edges;
-    console.log(edges)
     return (
       <section className='feature-section-group blog-section-container'>
+        {this.props.helmet || ''}
         <CategoryTabs/>
         <Row md={12}
              className='card-col
@@ -22,18 +22,20 @@ class CategoryComponent extends React.Component {
              style={{ marginTop: 30 }}>
           <h3 className='base-text navy-blue -centered'>{this.props.title}</h3>
           <div className='recent-story'>
-            {edges?.map(item =>
+            {edges?.map(({node : {frontmatter,fields}}) =>
+              <Link to={fields?.slug}>
             <div className='story'>
               <img
                 alt
-                src={img}
+                src={frontmatter?.image}
               />
               <div className='story-content'>
                 <p className='para-text category-text'>{this.props.title}</p>
-                <h3 className='base-text navy-blue'>{item?.node?.frontmatter?.title}</h3>
-                <p className='para-text'>By Greg Storey</p>
+                <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
+                <p className='para-text'>{frontmatter?.username}</p>
               </div>
             </div>
+              </Link>
             )}
           </div>
         </Row>
@@ -136,6 +138,8 @@ export default () => (
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
                 image
+                username
+                categoryslug
               }
             }
           }
