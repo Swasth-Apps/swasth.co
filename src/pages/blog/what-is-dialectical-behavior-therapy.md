@@ -1,5 +1,7 @@
 ---
 templateKey: blog-post
+categoryname: Dialectical Behavior Therapy(DBT)
+categoryslug: dialectical-behavior-therapy-dbt
 title: What is Dialectical Behavior Therapy?
 username: Sara Ferguson
 date: 2017-01-06T15:04:00.000Z
@@ -16,8 +18,12 @@ description: Dialectical behavior therapy (DBT) provides clients with new skills
   and strengthens relationships.
 featuredpost: true
 image: /img/yinyang.jpg
-categoryname: Dialectical Behavior Therapy(DBT)
-categoryslug: dialectical-behavior-therapy-dbt
+categories:
+  category:
+    - slug: evidence-based-therapy
+      title: Evidence Based Therapy
+    - title: Dialectical Behavior Therapy
+      slug: dialectical-behavior-therapy-dbt
 relatedpost:
   heading: What is CBT?
   blog: []
