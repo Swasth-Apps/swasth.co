@@ -87,6 +87,12 @@ export const pageQuery = graphql`
             slug
           }
         }
+        relatedpost{
+          blog{
+            title
+            slug
+          }
+        }
         tags
       }
     }

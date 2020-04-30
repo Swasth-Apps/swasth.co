@@ -15,7 +15,6 @@ class CategoryComponent extends React.Component {
       frontmatter?.categories?.category?.some(el => `/category/${el.slug}/` === this.props.slug));
 
     const featuredPost = edges?.find(({node : {frontmatter}}) => frontmatter?.featuredpost);
-    const { slug } = this.props
     return (
       <section className='feature-section-group blog-section-container'>
         {this.props.helmet || ''}

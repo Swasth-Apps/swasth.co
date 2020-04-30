@@ -12,7 +12,13 @@ class LiveCoachBlog extends React.Component {
   }
 
   render() {
-    const { image,title,tags,username,featuredpost,categories } = this.props.feature;
+    const { image,title,tags,username,featuredpost,categories,relatedpost } = this.props.feature;
+    let edges = this.props?.data?.blogs?.edges;
+    console.log(relatedpost?.blog,edges)
+    const relatedPosts = [];
+    for(var i=0;i< relatedpost?.blog?.length ; i++){
+      relatedPosts.push(edges?.find(({node:{fields}}) =>fields.slug === `/blog/${relatedpost?.blog?.[i]?.slug}/` ))
+    }
     return (
       <section className='feature-section-group blog-section-container'>
         {this.props.helmet || ''}
@@ -48,7 +54,7 @@ class LiveCoachBlog extends React.Component {
         <Row className='card-row -margin-bottom -row-flex divider col-reverse'
              style={{ alignItems:'flex-start', }}
              gutter={16}>
-          <Col md={12} className='card-col -margin-right -margin-bottom'>
+          <Col md={relatedPosts?.length ? 12 : 24} className='card-col -margin-right -margin-bottom'>
             <div className='subtitle base-text navy-blue para-text'>
               <HTMLContent className='blog-content' content={this.props.content} />
             </div>
@@ -72,121 +78,35 @@ class LiveCoachBlog extends React.Component {
             </div>
             <div />
           </Col>
+          {relatedPosts?.length ?
           <Col md={12} className='card-col image-col recent-story-container'>
             <h3 className='base-text navy-blue'>Recent Stories</h3>
             <div className='recent-story'>
+              {relatedPosts?.map(({node:{frontmatter,fields}}) =>
               <div className='story'>
                 <img
                   alt
-                  src={img}
+                  src={frontmatter?.image}
                 />
                 <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
+                  <div className='blog-tags'>
+                    {frontmatter?.categories?.category?.map(({title,slug}) =>
+                      <Link to={`/category/${slug}`}>
+                        <p className='para-text'>
+                          {title}
+                        </p>
+                      </Link>
+                    )}
+                  </div>
+                  <Link to={fields?.slug}>
+                  <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
+                  </Link>
+                  <p className='para-text'>{frontmatter?.username}</p>
                 </div>
               </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
+              )}
             </div>
-          </Col>
+          </Col> : null}
         </Row>
 
         <Row md={12}
