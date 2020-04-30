@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Row } from 'antd'
 import img from '../assets/images/Image(2).png'
 import CategoryTabs from './BreadCrum'
+import { graphql, Link, StaticQuery } from 'gatsby'
 
 class LiveCoachBlog extends React.Component {
   constructor(props) {
@@ -9,9 +10,12 @@ class LiveCoachBlog extends React.Component {
   }
 
   render() {
+    let edges = this.props?.data?.blogs?.edges
+    const latestBlog = edges[0];
+    const featuredPost = edges?.find(({node : {frontmatter}}) => frontmatter?.featuredpost);
     return (
       <section className='feature-section-group'>
-        <CategoryTabs/>
+        <CategoryTabs edges={this.props?.data?.categories?.edges}/>
         {/* <Row className='card-row blog-padding-0 '>
           <div
             id="featured-section"
@@ -580,274 +584,116 @@ class LiveCoachBlog extends React.Component {
 
         </Row>*/}
         <Row className='card-row -margin-bottom -row-flex divider col-reverse'
-             style={{ transform: 'translateY(10%)',alignItems:'flex-start', }}
+             style={{ alignItems: 'flex-start' }}
              gutter={16}>
-          <Col md={12} style={{maxHeight:500}} className='card-col -margin-right -margin-bottom top-blog-section'>
+          <Col
+            md={12}
+            style={{ maxHeight: 600 }}
+            className='card-col -margin-right -margin-bottom top-blog-section'
+          >
             <img
               alt
-              src={img}
+              src={latestBlog?.node?.frontmatter?.image}
               className='section-img'
             />
-            <p className='category-text'>CATEGORY 2</p>
-            <h3 className='-font-bold margin-bottom-25 base-text navy-blue base-text'>
-              Start Building a Life Worth
-              Living.</h3>
+            <div className='blog-tags'>
+              {latestBlog?.node?.frontmatter?.categories?.category?.map(({ title, slug }) =>
+                <Link to={`/category/${slug}`}>
+                  <p className='para-text'>
+                    {title}
+                  </p>
+                </Link>,
+              )}
+            </div>
+            <Link to={latestBlog?.node?.fields?.slug}>
+              <h3 className='-font-bold margin-bottom-25 base-text navy-blue base-text'>
+                {latestBlog?.node?.frontmatter?.title}</h3>
+            </Link>
             <div className='subtitle base-text navy-blue para-text'>
-              Whenever you happen to be in life, Whatever challanges you face, We have life changing Coaches, Programs
-              and other resources to help you tap into your full potential
-              so you can start building a life worth living.
+              {latestBlog?.node?.excerpt}
             </div>
           </Col>
           <Col md={12} className='card-col image-col recent-story-container'>
             <h3 className='base-text navy-blue'>Recent Stories</h3>
             <div className='recent-story'>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
-              <div className='story'>
-                <img
-                  alt
-                  src={img}
-                />
-                <div className='story-content'>
-                  <p className='para-text category-text'>category 2</p>
-                  <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                  <p className='para-text'>By Greg Storey</p>
-                </div>
-              </div>
+              {edges?.slice(0, 5)?.map(({ node: { frontmatter, fields } }) =>
+                <div className='story'>
+                  <img
+                    alt
+                    src={frontmatter?.image}
+                  />
+                  <div className='story-content'>
+                    <div className='blog-tags'>
+                      {frontmatter?.categories?.category?.map(({ title, slug }) =>
+                        <Link to={`/category/${slug}`}>
+                          <p className='para-text'>
+                            {title}
+                          </p>
+                        </Link>,
+                      )}
+                    </div>
+                    <Link to={fields?.slug}>
+                      <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
+                    </Link>
+                    <p className='para-text'>{frontmatter.username}</p>
+                  </div>
+                </div>,
+              )}
             </div>
           </Col>
         </Row>
-        <Row className='card-row -margin-bottom -row-flex divider col-reverse featured-section' style={{ transform: 'translateY(15%)' }}
+        {featuredPost?
+        <Row className='card-row -margin-bottom -row-flex divider col-reverse featured-section'
              gutter={16}>
           <Col md={12} className='card-col -margin-right -margin-bottom top-blog-section'>
             <img
               alt
-              src={img}
+              src={featuredPost?.node?.frontmatter?.image}
               className='section-img'
             />
 
           </Col>
           <Col md={12} className='card-col image-col featured-blog-content'>
-            <p className='category-text'>CATEGORY 2</p>
+            {featuredPost?.node?.frontmatter?.categories?.category?.map(({title,slug}) =>
+              <Link to={`/category/${slug}`}>
+                <p className='para-text'>
+                  {title}
+                </p>
+              </Link>
+            )}
             <h3 className='-font-bold margin-bottom-25 base-text navy-blue base-text'>
-              Start Building a Life Worth
-              Living.</h3>
+              {featuredPost?.node?.frontmatter?.title}</h3>
             <div className='subtitle base-text navy-blue para-text'>
-              Whenever you happen to be in life, Whatever challanges you face, We have life changing Coaches, Programs
-              and other resources to help you tap into your full potential
-              so you can start building a life worth living.
+              {featuredPost?.node?.excerpt}
             </div>
           </Col>
-        </Row>
-        <Row md={12} className='card-col image-col recent-story-container all-category-section' style={{ transform: 'translateY(20%)' }}>
-          <div className='recent-story'>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
+        </Row> : null}
+        <Row md={12} className='card-col image-col recent-story-container all-category-section'
+             style={{ marginTop: 50 }}>
+          <div className='recent-story' style={{ maxHeight: 'unset' }}>
+            {edges?.map(({node : {frontmatter,fields}}) =>
+              <div className='story'>
+                <img
+                  alt
+                  src={frontmatter?.image}
+                />
+                <div className='story-content'>
+                  <div className='blog-tags'>
+                    {frontmatter?.categories?.category?.map(({ title, slug }) =>
+                      <Link to={`/category/${slug}`}>
+                        <p className='para-text'>
+                          {title}
+                        </p>
+                      </Link>,
+                    )}
+                  </div>
+                  <Link to={fields?.slug}>
+                    <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
+                  </Link>
+                  <p className='para-text'>{frontmatter.username}</p>
+                </div>
               </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
-            <div className='story'>
-              <img
-                alt
-                src={img}
-              />
-              <div className='story-content'>
-                <p className='para-text category-text'>category 2</p>
-                <h3 className='base-text navy-blue'>Key Learning Concepts Visualized</h3>
-                <p className='para-text'>By Greg Storey</p>
-              </div>
-            </div>
+            )}
           </div>
         </Row>
       </section>
@@ -855,4 +701,56 @@ class LiveCoachBlog extends React.Component {
   }
 }
 
-export default LiveCoachBlog
+export default (props) => (
+  <StaticQuery
+    query={graphql`
+      query AllBlogs {
+        blogs:allMarkdownRemark(
+          sort: { order: DESC, fields: [frontmatter___date] }
+          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+        ) {
+          edges {
+            node {
+              excerpt(pruneLength: 400)
+              id
+              html
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                templateKey
+                date(formatString: "MMMM DD, YYYY")
+                featuredpost
+                image
+                username
+                categories {
+                    category {
+                      title
+                      slug
+                    }
+                 }
+              }
+            }
+          }
+        }
+
+        categories: allMarkdownRemark(
+          filter: { frontmatter: { templateKey: { eq: "category-post" } } }
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={(data, count) => <LiveCoachBlog {...props} data={data} count={count}/>}
+  />
+)

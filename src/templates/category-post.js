@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import Content, { HTMLContent } from '../components/Content'
+import { HTMLContent } from '../components/Content'
 import CategoryComponent from '../components/CategoryComponent'
 
 
@@ -22,6 +22,7 @@ export const CategoryTemplate = ({
       title={title}
       slug={slug}
       content={content}
+
       featuredimage={image}
     />
   )

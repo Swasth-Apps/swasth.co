@@ -1,7 +1,7 @@
 import React from 'react'
 import {  graphql, StaticQuery } from 'gatsby'
 import Layout from '../../../components/layout'
-import Blogs from '../../../components/BlogComponent'
+import Blogs from '../../../components/InsideDesign'
 
 
 export default class HomeIndex extends React.Component {

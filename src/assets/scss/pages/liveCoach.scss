@@ -216,7 +216,7 @@
 
   .recent-story-container {
     .recent-story {
-      max-height: 500px;
+      max-height: 600px;
       overflow-y: auto;
 
       &::-webkit-scrollbar {
@@ -235,6 +235,12 @@
   .top-blog-section {
     img {
       border-radius: 6px;
+    }
+    .subtitle{
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
 
     h3 {
@@ -273,13 +279,27 @@
           margin-left: 10px;
           width: 100%;
 
-          p {
+          .blog-tags{
+           margin-top: 0;
+            margin-bottom: 10px;
+            p{
+              font-size: 10px;
+            }
+          }
+          span {
+            line-height: 1.2;
             font-size: 14px;
+            margin-bottom: 5px;
           }
 
           h3 {
             margin-bottom: 0;
-            font-size: 24px;
+            font-size: 20px;
+            line-height: 1.3;
+          }
+          p{
+            font-size: 14px;
+            margin-bottom: 0;
           }
 
           p:first-child {
@@ -312,6 +332,7 @@
     .section-img {
       width: 100%;
       margin-bottom: 15px;
+      max-height: 400px;
     }
 
     .featured-blog-content {
@@ -1396,7 +1417,7 @@ strong {
   }
 
   .category-text {
-    color: _palette(primary-purple);
+    color: _palette(primary-purple) !important;
   }
 
   .blog-section {
@@ -1430,23 +1451,6 @@ strong {
         height: 150px;
       }
     }
-
-    .blog-tags {
-      display: flex;
-      flex: 0 0 100%;
-      flex-wrap: wrap;
-      margin-top: 20px;
-
-      p {
-        border: 1px solid _palette(primary-purple);
-        padding: 5px 10px;
-        font-size: 12px;
-        border-radius: 20px;
-        margin-right: 10px;
-        color: _palette(primary-purple);
-      }
-    }
-
     .blog-user {
       display: flex;
       align-items: center;
@@ -1568,5 +1572,22 @@ strong {
 .blog-content{
   img{
     width: 100%;
+  }
+}
+
+.blog-tags {
+  display: flex;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+  p {
+    border: 1px solid _palette(primary-purple);
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 5px !important;
+    color: _palette(primary-purple) !important;
   }
 }

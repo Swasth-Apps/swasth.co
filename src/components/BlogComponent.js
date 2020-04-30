@@ -3,7 +3,7 @@ import { Col, Icon, Row } from 'antd'
 import img from '../assets/images/blogImg.png'
 import CategoryTabs from './BreadCrum'
 import { HTMLContent }  from '../components/Content'
-import { graphql, StaticQuery } from 'gatsby'
+import { graphql, Link, StaticQuery } from 'gatsby'
 
 
 class LiveCoachBlog extends React.Component {
@@ -12,15 +12,14 @@ class LiveCoachBlog extends React.Component {
   }
 
   render() {
-    const { image,title,tags,username } = this.props.feature;
-    const edges = this.props?.data?.blogs?.edges;
+    const { image,title,tags,username,featuredpost,categories } = this.props.feature;
     return (
       <section className='feature-section-group blog-section-container'>
         {this.props.helmet || ''}
         <CategoryTabs noTop edges={this.props?.data?.categories?.edges}/>
 
         <Row className='card-row -margin-bottom -row-flex col-reverse blog-section'
-             style={{ transform: 'translateY(10%)',paddingRight:0 }}
+             style={{paddingRight:0 }}
              gutter={16}>
           <Col md={12} className='card-col top-blog-section'>
             <img
@@ -31,8 +30,17 @@ class LiveCoachBlog extends React.Component {
 
           </Col>
           <Col md={12} className='card-col image-col featured-blog-content'>
-            <div className='ribbon ribbon-top-right ribbon-purple'><span>Featured</span></div>
-            <p className='category-text'>CATEGORY 2</p>
+            {featuredpost ? <div className='ribbon ribbon-top-right ribbon-purple'><span>Featured</span></div> : null}
+            <div className='blog-tags'>
+              {categories?.category?.map(({title,slug}) =>
+                <Link to={`/category/${slug}`}>
+                <p className='para-text'>
+                  {title}
+                </p>
+                </Link>
+              )}
+            </div>
+            {/*{categories?.category?.map(({title,slug}) =><span className='category-text'>{title}</span>)}*/}
             <h2 className='-font-bold margin-bottom-25 base-text base-text'>
               {title}</h2>
           </Col>

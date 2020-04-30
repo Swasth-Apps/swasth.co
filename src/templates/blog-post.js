@@ -80,6 +80,13 @@ export const pageQuery = graphql`
         title
         image
         username
+        featuredpost
+        categories {
+          category {
+            title
+            slug
+          }
+        }
         tags
       }
     }

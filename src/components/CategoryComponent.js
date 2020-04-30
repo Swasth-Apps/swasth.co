@@ -10,7 +10,12 @@ class CategoryComponent extends React.Component {
   }
 
   render() {
-    const edges = this.props?.data?.blogs?.edges;
+    let edges = this.props?.data?.blogs?.edges;
+    edges = edges?.filter(({node : {frontmatter}}) =>
+      frontmatter?.categories?.category?.some(el => `/category/${el.slug}/` === this.props.slug));
+
+    const featuredPost = edges?.find(({node : {frontmatter}}) => frontmatter?.featuredpost);
+    const { slug } = this.props
     return (
       <section className='feature-section-group blog-section-container'>
         {this.props.helmet || ''}
@@ -35,28 +40,36 @@ class CategoryComponent extends React.Component {
                 </Link>
                 <p className='para-text'>{frontmatter?.username}</p>
               </div>
-            </div>
-            )}
+            </div>)}
           </div>
         </Row>
+        {featuredPost?
         <Row
           className='card-row -margin-bottom -row-flex col-reverse category-section blog-section'
              gutter={16}>
           <Col md={12} className='card-col top-blog-section'>
             <img
               alt
-              src={img}
+              src={featuredPost?.node?.frontmatter?.image}
               className='section-img'
             />
 
           </Col>
           <Col md={12} className='card-col image-col featured-blog-content'>
             <div className='ribbon ribbon-top-right ribbon-purple'><span>Featured</span></div>
-            <p className='category-text'>CATEGORY 2</p>
+            <div className='blog-tags'>
+              {featuredPost?.node?.frontmatter?.categories?.category?.map(({title,slug}) =>
+                <Link to={`/category/${slug}`}>
+                  <p className='para-text'>
+                    {title}
+                  </p>
+                </Link>
+              )}
+            </div>
             <h2 className='-font-bold margin-bottom-25 base-text base-text'>
-              How Tia, one of the country’s hottest startups, launched with an InVision prototype.</h2>
+              {featuredPost?.node?.frontmatter?.title}</h2>
           </Col>
-        </Row>
+        </Row> : null}
         <Row md={12}
              className='card-col
              image-col recent-story-container feeds-container
@@ -139,6 +152,12 @@ export default (props) => (
                 featuredpost
                 image
                 username
+                categories {
+                    category {
+                      title
+                      slug
+                    }
+                 }
               }
             }
           }
