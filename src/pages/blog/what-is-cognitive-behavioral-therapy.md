@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: What is Cognitive Behavioral Therapy
+title: What is Cognitive Behavioral Therapy?
 username: Sara Ferguson
 date: 2020-04-30T14:22:22.259Z
 description: Cognitive behavioral therapy (CBT) is a form of psychological
