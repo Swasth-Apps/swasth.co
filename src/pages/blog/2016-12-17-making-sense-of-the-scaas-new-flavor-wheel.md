@@ -34,9 +34,7 @@ DBT was originally developed to treat borderline personality disorder. However, 
 
 ![what is DBT](/img/what-is-dbt.jpg "what is DBT")
 
-
-
-## How DBT Works
+## How DBT Works?
 
 \
 DBT has now evolved into an evidence based psychotherapy approach for a variety of conditions. When a person is undergoing DBT, they can expect to participate in three therapeutic settings: ³
@@ -115,8 +113,6 @@ While the majority of research to date has focused on the effectiveness of DBT f
 * Major depressive disorder (including treatment-resistant major depression and chronic depression)
 * Post-traumatic stress disorder
 * Substance use disorder
-
-
 
 Researchers have also found that DBT is effective regardless of age, sex, sexual orientation, and race/ethnicity.3 The best way to figure out if DBT is right for you is to talk with a mental health professional, who will evaluate your symptoms, treatment history, and therapy goals to determine the best next step.
 
