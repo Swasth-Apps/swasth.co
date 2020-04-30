@@ -10,11 +10,11 @@ class CategoryComponent extends React.Component {
   }
 
   render() {
-    const edges = this.props?.data?.allMarkdownRemark?.edges;
+    const edges = this.props?.data?.blogs?.edges;
     return (
       <section className='feature-section-group blog-section-container'>
         {this.props.helmet || ''}
-        <CategoryTabs/>
+        <CategoryTabs edges={this.props?.data?.categories?.edges}/>
         <Row md={12}
              className='card-col
               image-col recent-story-container feeds-container
@@ -23,7 +23,6 @@ class CategoryComponent extends React.Component {
           <h3 className='base-text navy-blue -centered'>{this.props.title}</h3>
           <div className='recent-story'>
             {edges?.map(({node : {frontmatter,fields}}) =>
-              <Link to={fields?.slug}>
             <div className='story'>
               <img
                 alt
@@ -35,7 +34,6 @@ class CategoryComponent extends React.Component {
                 <p className='para-text'>{frontmatter?.username}</p>
               </div>
             </div>
-              </Link>
             )}
           </div>
         </Row>
@@ -120,7 +118,7 @@ export default (props) => (
   <StaticQuery
     query={graphql`
       query BlogRollQuery {
-        allMarkdownRemark(
+        blogs:allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
         ) {
@@ -139,7 +137,6 @@ export default (props) => (
                 featuredpost
                 image
                 username
-
               }
             }
           }
@@ -150,20 +147,11 @@ export default (props) => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
-              id
-              html
               fields {
                 slug
               }
               frontmatter {
                 title
-                templateKey
-                date(formatString: "MMMM DD, YYYY")
-                featuredpost
-                image
-                username
-
               }
             }
           }

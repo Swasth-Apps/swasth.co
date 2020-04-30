@@ -1504,17 +1504,15 @@ strong {
       .story {
         flex: 0 0 25%;
         display: block;
+        padding: 0 10px;
         @media screen and (max-width: 600px) {
           flex: 0 0 50%;
-        }
-        .story-content{
-          max-width: 300px;
         }
         img {
           width: 100%;
           height: unset;
           border-radius: 6px;
-          max-width: 300px;
+         max-height: 200px;
         }
         h3 {
           font-size: 22px !important;
