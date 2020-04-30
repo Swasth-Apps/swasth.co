@@ -1,5 +1,7 @@
 ---
 templateKey: blog-post
+categoryname: Acceptance and Commitment Therapy (ACT)
+categoryslug: acceptance-and-commitment-therapy-act
 title: What is Acceptance and Commitment Therapy?
 username: Sara Ferguson
 date: 2017-05-18T14:40:00.000Z
@@ -15,8 +17,12 @@ description: >+
   feel about it.
 
 image: /img/act-intro.jpg
-categoryname: Acceptance and Commitment Therapy (ACT)
-categoryslug: acceptance-and-commitment-therapy-act
+categories:
+  category:
+    - slug: evidence-based-therapy
+      title: Evidence Based Therapy
+    - slug: acceptance-and-commitment-therapy-act
+      title: Acceptance and Commitment Therapy (ACT)
 tags:
   - ACT
   - Mindfulness
