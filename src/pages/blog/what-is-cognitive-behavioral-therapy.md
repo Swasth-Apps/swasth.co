@@ -1,6 +1,8 @@
 ---
 templateKey: blog-post
-title: What is Cognitive Behavioral Therapy
+categoryname: Cognitive Behavioral Therapy
+categoryslug: cognitive-behavioral-therapy
+title: What is Cognitive Behavioral Therapy?
 username: Sara Ferguson
 date: 2020-04-30T14:22:22.259Z
 description: Cognitive behavioral therapy (CBT) is a form of psychological
@@ -8,8 +10,12 @@ description: Cognitive behavioral therapy (CBT) is a form of psychological
   including depression, anxiety disorders, alcohol and drug use problems,
   marital problems, eating disorders and severe mental illness.
 image: /img/cbt-3.png
-categoryname: Cognitive Behavioral Therapy
-categoryslug: cognitive-behavioral-therapy
+categories:
+  category:
+    - slug: cognitive-behavioral-therapy
+      title: Cognitive Behavioral Therapy
+    - title: Evidence Based Therapy
+      slug: evidence-based-therapy
 relatedpost:
   heading: T
   description: T
