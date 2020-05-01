@@ -16,14 +16,14 @@ class CategoryComponent extends React.Component {
 
     const featuredPost = edges?.find(({node : {frontmatter}}) => frontmatter?.featuredpost);
     return (
-      <section className='feature-section-group blog-section-container'>
+      <section className='feature-section-group blog-section-container' style={{transform:'translateY(3%)'}}>
         {this.props.helmet || ''}
         <CategoryTabs edges={this.props?.data?.categories?.edges}/>
         <Row md={12}
              className='card-col
               image-col recent-story-container feeds-container
-             all-category-section category-container'
-             style={{ marginTop: 30 }}>
+             all-category-section category-container initial-section'
+             >
           <h3 className='base-text navy-blue -centered'>{this.props.title}</h3>
           <div className='recent-story'>
             {edges?.map(({node : {frontmatter,fields}}) =>
@@ -66,10 +66,15 @@ class CategoryComponent extends React.Component {
               )}
             </div>
             <h2 className='-font-bold margin-bottom-25 base-text base-text'>
-              {featuredPost?.node?.frontmatter?.title}</h2>
+              {featuredPost?.node?.frontmatter?.title}
+            </h2>
+            <div className='subtitle base-text navy-blue para-text line-clamp-3'>
+              {featuredPost?.node?.excerpt}
+            </div>
           </Col>
         </Row> : null}
-        <Row md={12}
+
+        {/*<Row md={12}
              className='card-col
              image-col recent-story-container feeds-container
              all-category-section category-feed-section'
@@ -121,9 +126,7 @@ class CategoryComponent extends React.Component {
               </div>
             </div>
           </div>
-        </Row>
-
-
+        </Row>*/}
       </section>
     )
   }

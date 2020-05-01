@@ -19,11 +19,11 @@ class LiveCoachBlog extends React.Component {
       relatedPosts.push(edges?.find(({node:{fields}}) =>fields.slug === `/blog/${relatedpost?.blog?.[i]?.slug}/` ))
     }
     return (
-      <section className='feature-section-group blog-section-container'>
+      <section className='feature-section-group blog-section-container' style={{transform:'translateY(1%)'}}>
         {this.props.helmet || ''}
         <CategoryTabs noTop edges={this.props?.data?.categories?.edges}/>
 
-        <Row className='card-row -margin-bottom -row-flex col-reverse blog-section'
+        <Row className='initial-section card-row -margin-bottom -row-flex col-reverse blog-section'
              style={{paddingRight:0 }}
              gutter={16}>
           <Col md={12} className='card-col top-blog-section'>
@@ -108,7 +108,7 @@ class LiveCoachBlog extends React.Component {
           </Col> : null}
         </Row>
 
-        <Row md={12}
+        {/*<Row md={12}
              className='card-col image-col recent-story-container feeds-container all-category-section'
              style={{ transform: 'translateY(20%)' }}>
           <h3 className='base-text navy-blue'>FEEDS</h3>
@@ -158,7 +158,7 @@ class LiveCoachBlog extends React.Component {
               </div>
             </div>
           </div>
-        </Row>
+        </Row>*/}
       </section>
     )
   }
@@ -187,6 +187,12 @@ export default (props) => (
                 featuredpost
                 image
                 username
+                categories{
+                category{
+                slug
+                title
+                }
+                }
               }
             }
           }
