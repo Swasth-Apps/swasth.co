@@ -19,7 +19,7 @@ class LiveCoachBlog extends React.Component {
       relatedPosts.push(edges?.find(({node:{fields}}) =>fields.slug === `/blog/${relatedpost?.blog?.[i]?.slug}/` ))
     }
     return (
-      <section className='feature-section-group blog-section-container' style={{transform:'translateY(1%)'}}>
+      <section className='feature-section-group blog-section-container' style={{transform:'translateY(2%)'}}>
         {this.props.helmet || ''}
         <CategoryTabs noTop edges={this.props?.data?.categories?.edges}/>
 

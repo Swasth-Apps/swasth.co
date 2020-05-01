@@ -40,6 +40,7 @@ const BlogPost = ({ data = {} }) => {
     <Layout
       show
       hideFooter
+      isContentWhite
     >
       <BlogPostTemplate
         content={post?.html}

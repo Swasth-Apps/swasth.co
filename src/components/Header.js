@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
-import { Button, Icon,Dropdown,Menu  } from 'antd'
+import { Icon, Menu } from 'antd'
 import PropTypes from 'prop-types'
-import coachingLogo from '../assets/images/swasth-coach-logo.png'
 import swasthDarkLogo from '../assets/images/swasth-logo-dark.png'
 import { Link } from 'gatsby'
 
@@ -41,19 +40,15 @@ const Header = (props) => {
             </Link>
           {/*}*/}
           <div style={{ display: 'flex',alignItems:'center' }}>
-            {!props.show ?
-              <>
-                <a href="/coaching/about" className='margin-right-25'>
+                <a href="/" className='margin-right-25'>
                   <div className="menu-content hide-content" href="javascript:;">About</div>
                 </a>
 
-                <a href="/coaching" className='margin-right-25'>
+                <a href="/" className='margin-right-25'>
                   <div className="menu-content hide-content" href="javascript:;">Coaching</div>
                 </a>
-              </> : null}
             <a
               href="https://clinician.swasth.co"
-              hidden={props.show}
             >
               <div className="menu-content">Clinicians</div>
             </a>

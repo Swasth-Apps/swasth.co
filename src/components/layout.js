@@ -39,46 +39,6 @@ class Layout extends React.Component {
 
   render() {
     const { children } = this.props;
-    const settings = {
-      dots: true,
-      infinite: true,
-      autoplay: true,
-      speed: 500,
-      className: "center",
-      centerMode: true,
-      autoplaySpeed: 2000,
-      cssEase: "linear",
-      slidesToShow: 2,
-      slidesToScroll: 1,
-      initialSlide: 0,
-      swipeToSlide: true,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            initialSlide: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]
-    };
     return (
       <div className={`body ${this.state.loading} ${this.props.hideHomeImg ? 'light-body-bg' : ''}`}>
         {/*<img className='absoluted-header-image' src={BG}/>*/}
@@ -101,27 +61,6 @@ class Layout extends React.Component {
         {/*{this.props.coachingFooter ?*/}
           {/*<CoachingFooter increaseFooterMargin={this.props.increaseFooterMargin}/>*/}
           {/*:*/}
-        {this.props.topBg ?<div>
-          <img src={BottomBg} className='custom-footer-bg'/>
-            <div className='custom-footer-carousel'>
-              <Slider {...settings}>
-                {lifeCoach && lifeCoach.length ? lifeCoach.map(({comment,name})=>(
-                  <Col md={6} className='blog-container'>
-                    <div className='testimonials-blogs'>
-                      <div style={{textAlign:'center',marginBottom:'15px'}}>
-                        { <img src={blogImg} className='testimonial-user-img'/> }
-                        <div className='testimonial-user-name'>{name ?`- ${name}` : ''}</div>
-                      </div>
-                      <h6>
-                        {comment}
-                      </h6>
-                    </div>
-                  </Col>
-                )) :''}
-
-              </Slider>
-            </div>
-          </div> : null}
           <Footer show={this.props.show} hideFooter={this.props.hideFooter} showCustomBottom={this.props.topBg || false}/>
         {/*}*/}
 

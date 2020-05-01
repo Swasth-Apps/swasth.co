@@ -1508,7 +1508,6 @@ strong {
   .feeds-container {
     .recent-story {
       max-height: unset;
-
       .story {
         flex: 0 0 25%;
         display: block;
@@ -1521,19 +1520,29 @@ strong {
             }
           }
         }
-        @media screen and (max-width: 400px) {
+
+        @media screen and (max-width: 430px) {
           flex: 0 0 100%;
         }
 
         // Category images
         img {
           width: 100%;
-          height: unset;
+          height: 250px;
           border-radius: 6px;
-          max-height: 200px;
+          //max-height: 200px;
           background: lighten(_palette(primary-purple), 15%); // Background of top of the images of category
           border: 2px solid _palette(primary-purple);
           padding: 10px;
+          @media screen and (max-width: 600px){
+              height: 220px;
+          }
+          @media screen and (max-width: 500px){
+              height: 200px;
+          }
+          @media screen and (max-width: 430px){
+              height: 175px;
+          }
         }
 
         h3 {

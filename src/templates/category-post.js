@@ -41,6 +41,7 @@ const Feature = ({ data }) => {
     <Layout
       show
       hideFooter
+      isContentWhite
     >
       <CategoryTemplate
         feature={post.frontmatter}
