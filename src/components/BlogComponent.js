@@ -14,7 +14,6 @@ class LiveCoachBlog extends React.Component {
   render() {
     const { image,title,tags,username,featuredpost,categories,relatedpost } = this.props.feature;
     let edges = this.props?.data?.blogs?.edges;
-    console.log(relatedpost?.blog,edges)
     const relatedPosts = [];
     for(var i=0;i< relatedpost?.blog?.length ; i++){
       relatedPosts.push(edges?.find(({node:{fields}}) =>fields.slug === `/blog/${relatedpost?.blog?.[i]?.slug}/` ))
