@@ -14,7 +14,7 @@ class LiveCoachBlog extends React.Component {
     const latestBlog = edges[0];
     const featuredPost = edges?.find(({node : {frontmatter}}) => frontmatter?.featuredpost);
     return (
-      <section className='feature-section-group' style={{transform:'translateY(3%)'}}>
+      <section className='feature-section-group' style={{transform:'translateY(2%)'}}>
         <CategoryTabs edges={this.props?.data?.categories?.edges}/>
         <Row className='initial-section card-row -margin-bottom -row-flex divider col-reverse'
              style={{ alignItems: 'flex-start' }}

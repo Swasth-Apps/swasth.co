@@ -1508,6 +1508,7 @@ strong {
   .feeds-container {
     .recent-story {
       max-height: unset;
+
       .story {
         flex: 0 0 25%;
         display: block;
@@ -1534,14 +1535,8 @@ strong {
           background: lighten(_palette(primary-purple), 15%); // Background of top of the images of category
           border: 2px solid _palette(primary-purple);
           padding: 10px;
-          @media screen and (max-width: 600px){
-              height: 220px;
-          }
-          @media screen and (max-width: 500px){
-              height: 200px;
-          }
-          @media screen and (max-width: 430px){
-              height: 175px;
+          @media screen and (max-width: 600px) {
+            max-height: 250px;
           }
         }
 
@@ -1558,21 +1553,27 @@ strong {
       text-align: center;
       font-size: 46px !important;
       color: _palette(fg-bold);
+      @media (max-width: 600px) {
+        font-size: 30px !important;
+      }
     }
 
     .card-row {
       padding: 0;
     }
   }
+
   .category-section {
     padding: 36px 0 !important;
   }
+
   @media screen and (max-width: 1023px) {
     .category-section, .category-container {
       transform: unset !important;
     }
   }
 }
+
 // ....... Blogs section ends......
 
 // ..... Feed container ends ....

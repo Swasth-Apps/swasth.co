@@ -16,7 +16,7 @@ class CategoryComponent extends React.Component {
 
     const featuredPost = edges?.find(({node : {frontmatter}}) => frontmatter?.featuredpost);
     return (
-      <section className='feature-section-group blog-section-container' style={{transform:'translateY(10%)'}}>
+      <section className='feature-section-group blog-section-container' style={{transform:'translateY(8%)'}}>
         {this.props.helmet || ''}
         <CategoryTabs edges={this.props?.data?.categories?.edges}/>
         <Row md={12}
