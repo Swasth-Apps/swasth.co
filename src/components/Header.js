@@ -23,7 +23,7 @@ const Header = (props) => {
                   {/*<Link to="/coaching/features" className='margin-right-25'>*/}
                   {/*<div className={`menu-content hide-content ${props.isLogoWhite ? 'white-text':''}`} href="javascript:;">Features</div>*/}
                   {/*</Link>*/}
-                  <a href="https://provider.swasth.co"
+                  <a href="https://clinician.swasth.co"
                      activeClassName='header-nav-active'
                         className='margin-right-25 header-content'>
                     <div className={`menu-content`}>
