@@ -6,7 +6,7 @@ import { HTMLContent }  from '../components/Content'
 import { graphql, Link, StaticQuery } from 'gatsby'
 
 
-class LiveCoachBlog extends React.Component {
+class BlogComponent extends React.Component {
   constructor(props) {
     super(props)
   }
@@ -214,6 +214,6 @@ export default (props) => (
         }
       }
     `}
-    render={(data, count) => <LiveCoachBlog {...props} data={data} count={count} />}
+    render={(data, count) => <BlogComponent {...props} data={data} count={count} />}
   />
 )

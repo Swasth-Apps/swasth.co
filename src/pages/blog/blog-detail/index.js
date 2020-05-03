@@ -1,10 +1,9 @@
 import React from 'react'
-import Layout from '../../components/layout'
-import Category from '../../components/CategoryComponent'
-import CategoryTabs from '../../components/BreadCrum'
+import Layout from '../../../components/layout'
+import Blogs from '../../../components/BlogLanding'
 
 
-export default class HomeIndex extends React.Component {
+export default class BlogIndex extends React.Component {
 
   constructor(props) {
     super(props);
@@ -16,7 +15,7 @@ export default class HomeIndex extends React.Component {
         show
         hideFooter
       >
-        <Category data={data} />
+        <Blogs data={data} />
       </Layout>
     )
   }

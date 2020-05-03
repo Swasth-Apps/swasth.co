@@ -38,9 +38,9 @@ class Layout extends React.Component {
         <img
           src={CoachingBG}
           className='home-bg-img coaching-bg-img'/>
-        <div className="base-text extra-header">
-          Swasth is offering free premium access to the Clinician Platform during the COVID-19 crisis.
-          <Button className='para-text'>Get Started</Button>
+        <div className="para-text extra-header">
+          We are offering free premium access to our Clinician Platform during the COVID-19 crisis.
+          <a href="https://clinician.swasth.co" target="_blank"><Button className='para-text'>Get Started</Button></a>
         </div>
         <div
           id='wrapper'

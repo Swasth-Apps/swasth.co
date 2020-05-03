@@ -23,19 +23,18 @@ const Header = (props) => {
                   {/*<Link to="/coaching/features" className='margin-right-25'>*/}
                   {/*<div className={`menu-content hide-content ${props.isLogoWhite ? 'white-text':''}`} href="javascript:;">Features</div>*/}
                   {/*</Link>*/}
-                  <a href="https://clinician.swasth.co"
+                  <a target="_blank" href="https://clinician.swasth.co"
                      activeClassName='header-nav-active'
                         className='margin-right-25 header-content'>
                     <div className={`menu-content`}>
                       Clinicians
                     </div>
                   </a>
-                  <Link activeClassName='header-nav-active' to="/case-studies" className='margin-right-25 header-content'>
-                    <div className={`menu-content`}
-                         href="javascript:;">
+                  <a activeClassName='header-nav-active' href="https://lifecoach.swasth.co" target="_blank" className='margin-right-25 header-content'>
+                    <div className={`menu-content`}>
                       Coaching
                     </div>
-                  </Link>
+                  </a>
                   <a href="/blog" activeClassName='header-nav-active' className='margin-right-25 header-content'>
                     <div className={`menu-content`}
                          href="javascript:;">
@@ -51,10 +50,10 @@ const Header = (props) => {
                     : <Icon className={`icon ${isContentWhite ? 'not-white' :''}`} type="menu"/>}
                 </a>
             </div>
-            {!state ?
+            {/*!state ?
               <a to="/download">
                 <Button className='download-btn menu-content hide-content'>Download App</Button>
-              </a> : null}
+            </a> : null*/}
           </nav>
         </header>
         {

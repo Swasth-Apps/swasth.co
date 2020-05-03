@@ -1,10 +1,9 @@
 import React from 'react'
-import {  graphql, StaticQuery } from 'gatsby'
 import Layout from '../../../components/layout'
-import Blogs from '../../../components/InsideDesign'
+import Category from '../../../components/CategoryComponent'
 
 
-export default class HomeIndex extends React.Component {
+export default class CategoryIndex extends React.Component {
 
   constructor(props) {
     super(props);
@@ -16,7 +15,7 @@ export default class HomeIndex extends React.Component {
         show
         hideFooter
       >
-        <Blogs data={data} />
+        <Category data={data} />
       </Layout>
     )
   }

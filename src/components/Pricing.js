@@ -1,8 +1,6 @@
 import React from 'react'
 import { Row } from 'antd'
-import ACT from '../assets/images/ACT-Record-diary.png'
-
-class LiveCoachFeature extends React.Component {
+class Pricing extends React.Component {
   constructor(props) {
     super(props)
   }
@@ -129,4 +127,4 @@ class LiveCoachFeature extends React.Component {
   }
 }
 
-export default LiveCoachFeature
+export default Pricing

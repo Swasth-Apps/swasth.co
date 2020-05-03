@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row } from 'antd'
 
-class LiveCoachBlog extends React.Component {
+class Blogs extends React.Component {
   constructor(props) {
     super(props)
   }
@@ -89,4 +89,4 @@ class LiveCoachBlog extends React.Component {
   }
 }
 
-export default LiveCoachBlog
+export default Blogs

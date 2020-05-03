@@ -1750,7 +1750,7 @@ strong {
     .card-text {
       height: auto !important;
       padding: 10px 20px 20px;
-
+      min-height: 250px;
       a {
         color: darken(_palette(primary-blue), 10%);
         font-size: 16px;
@@ -1764,7 +1764,8 @@ strong {
 
       p {
         color: #032230;
-        font-size: 1rem;
+        font-size: 0.8rem;
+        font-style: italic;
         text-align: left;
         -webkit-box-orient: vertical;
         display: block;
@@ -1773,6 +1774,9 @@ strong {
         -webkit-line-clamp: 4;
         overflow: hidden;
         text-overflow: ellipsis;
+      }
+      span {
+        font-size: 0.9rem;
       }
 
       h5 {
@@ -1809,7 +1813,8 @@ strong {
     background: #E9F3FF;
     text-align: left;
     min-height: 350px;
-
+    //margin-left: 20px;
+    //margin-right: 20px;
     img {
       width: 24px;
       height: 24px;

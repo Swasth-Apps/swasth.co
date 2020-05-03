@@ -4,7 +4,7 @@ import img from '../assets/images/Image(2).png'
 import CategoryTabs from './BreadCrum'
 import { graphql, Link, StaticQuery } from 'gatsby'
 
-class LiveCoachBlog extends React.Component {
+class BlogLanding extends React.Component {
   constructor(props) {
     super(props)
   }
@@ -188,6 +188,6 @@ export default (props) => (
         }
       }
     `}
-    render={(data, count) => <LiveCoachBlog {...props} data={data} count={count}/>}
+    render={(data, count) => <BlogLanding {...props} data={data} count={count}/>}
   />
 )

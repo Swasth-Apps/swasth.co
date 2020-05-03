@@ -9,7 +9,7 @@
 }
 .extra-header{
   width: 100%;
-  padding: 5px 10px;
+  padding: 1px;
   text-align: center;
   font-size: 14px;
   color: _palette(bg);
@@ -18,11 +18,11 @@
     margin-left: 10px;
     background: lighten(_palette(dark-blue),10%);
     color: _palette(bg);
-    font-size: 14px;
+    font-size: 12px;
+    border-color: transparent;
     &:hover{
       background: _palette(dark-blue);
       color: _palette(bg);
-      border-color: transparent;
       box-shadow: none;
     }
   }
@@ -36,10 +36,15 @@
   }
   .menu-content {
     //color: _palette(bg);
-    color: _palette(primary-blue);
+    color: _palette(secondary-color);
     cursor: pointer;
     font-weight: 600px;
     font-size: 1.3em;
+
+    &:hover, &:active {
+			//box-shadow: inset 0 0 0 2px _palette(highlight);
+			color: #3b97ff;
+		}
   }
 
   .logo-resize {
@@ -303,7 +308,7 @@
 }
 
 .custom-image {
-  width: 100%;
+  width: 70%;
 }
 
 .btn-class {

@@ -1,10 +1,10 @@
 import React from 'react'
 import {  graphql, StaticQuery } from 'gatsby'
 import Layout from '../../components/layout'
-import Blogs from '../../components/InsideDesign'
+import Blogs from '../../components/BlogLanding'
 
 
-export default class HomeIndex extends React.Component {
+export default class BlogIndex extends React.Component {
 
   constructor(props) {
     super(props);
