@@ -301,3 +301,10 @@
       }
     }
   }
+
+.padd-sec{
+  padding-left: 20px !important;
+  @media (max-width: 768.5px) {
+  padding-left: 0 !important;
+  }
+}

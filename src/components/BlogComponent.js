@@ -36,7 +36,7 @@ class LiveCoachBlog extends React.Component {
           </Col>
           <Col md={12} className='card-col image-col featured-blog-content'>
             {featuredpost ? <div className='ribbon ribbon-top-right ribbon-purple'><span>Featured</span></div> : null}
-            <div className='blog-tags'>
+            <div className='category-tags'>
               {categories?.category?.map(({title,slug}) =>
                 <Link to={`/category/${slug}`}>
                 <p className='para-text'>
@@ -80,7 +80,7 @@ class LiveCoachBlog extends React.Component {
           {relatedPosts?.length ?
           <Col md={12} className='card-col image-col recent-story-container'>
             <h3 className='base-text navy-blue'>Recent Stories</h3>
-            <div className='recent-story'>
+            <div className='recent-story recent-stories-section'>
               {relatedPosts?.map(({node:{frontmatter,fields}}) =>
               <div className='story'>
                 <img
@@ -88,7 +88,7 @@ class LiveCoachBlog extends React.Component {
                   src={frontmatter?.image}
                 />
                 <div className='story-content'>
-                  <div className='blog-tags'>
+                  <div className='category-tags'>
                     {frontmatter?.categories?.category?.map(({title,slug}) =>
                       <Link to={`/category/${slug}`}>
                         <p className='para-text'>

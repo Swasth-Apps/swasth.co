@@ -1,19 +1,12 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
-import BG from '../assets/images/BG.png'
 import CoachingBG from '../assets/images/top-bg@3x.png'
-import TopBG from '../assets/images/top-bg@3x.png'
 import '../assets/scss/main.scss'
-
-import BottomBg from '../assets/images/bottom-bg.png'
-import { Col } from 'antd'
-import blogImg from '../assets/images/testimonial-user.jpg'
-import { lifeCoach } from '../helper/helper'
-import Slider from 'react-slick'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 import 'react-multi-carousel/lib/styles.css'
+import { Button } from 'antd'
 
 
 class Layout extends React.Component {
@@ -42,20 +35,20 @@ class Layout extends React.Component {
     return (
       <div className={`body ${this.state.loading} ${this.props.hideHomeImg ? 'light-body-bg' : ''}`}>
         {/*<img className='absoluted-header-image' src={BG}/>*/}
-        {this.props.show ? this.props.topBg ? <img
-            src={TopBG}
-            className='home-bg-img coaching-bg-img client-bg-img'/>: <img
-            src={CoachingBG}
-            hidden={this.props.hideHomeImg}
-            className='home-bg-img coaching-bg-img'/>
-          : <img src={BG} className='home-bg-img'/>
-        }
+        <img
+          src={CoachingBG}
+          className='home-bg-img coaching-bg-img'/>
+        <div className="base-text extra-header">
+          Swasth is offering free premium access to the Clinician Platform during the COVID-19 crisis.
+          <Button className='para-text'>Get Started</Button>
+        </div>
         <div
           id='wrapper'
-          className={this.props.show && !this.props.hideHomeImg ? 'coach-wrapper' : ''}
-          style={{ paddingBottom: this.props.hideHomeImg ? 15 : 0 }}
+          className={'coach-wrapper'}
+          style={{ paddingBottom: 0 }}
         >
-          <Header isContentWhite={this.props.isContentWhite} show={this.props.show} isLogoWhite={this.props.isLogoWhite}/>
+          <Header
+            show={this.props.show} isLogoWhite={this.props.isLogoWhite}/>
           {children}
         </div>
         {/*{this.props.coachingFooter ?*/}

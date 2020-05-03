@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc70eb03-a129-4ee1-9e11-a0c375fba21f" name="Default Changelist" comment="">
+    <list default="true" id="cc70eb03-a129-4ee1-9e11-a0c375fba21f" name="Default Changelist" comment="--">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/360-degree-view-graphic@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/5@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/Evidence_based_graphic@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/Main-graphic@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/Right_provider_graphic@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/Therapy-section@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/quote-icon@3x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/libs/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/libs/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BlogComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CategoryComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CategoryComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/InsideDesign.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InsideDesign.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
     </list>
     <list id="c9136efa-379e-425e-8e32-46b67092561a" name="-- Design of Swasth Website" comment="-- Design of Swasth Website" />
     <ignored path="D:\vikas-vaghasiya\swasth-invision\.idea\shelf/" />
@@ -18,38 +32,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="1556" column="34" selection-start-line="1556" selection-start-column="34" selection-end-line="1556" selection-end-column="34" />
+            <state relative-caret-position="348">
+              <caret line="296" column="28" selection-start-line="296" selection-start-column="28" selection-end-line="296" selection-end-column="28" />
               <folding>
                 <element signature="e#1202#1273#0" />
                 <element signature="e#1284#1347#0" />
-                <element signature="e#1366#1686#0" />
-                <element signature="e#1708#2127#0" />
+                <element signature="e#4525#4660#0" />
+                <element signature="e#28029#28251#0" />
+                <element signature="e#28417#29689#0" />
+                <element signature="e#29386#29687#0" />
+                <element signature="e#28447#29075#0" />
+                <element signature="e#29104#29145#0" />
+                <element signature="e#29168#29253#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shared/carousel.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="112">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/blog-post.js">
+        <entry file="file://$PROJECT_DIR$/src/components/layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="1176">
+              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -60,23 +79,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/BlogComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="328">
+              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#4274#6275#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/blog/index.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state relative-caret-position="374">
+              <caret line="291" column="41" selection-start-line="291" selection-start-column="41" selection-end-line="291" selection-end-column="41" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#1070#5063#0" />
               </folding>
             </state>
           </provider>
@@ -85,20 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/InsideDesign.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/category-post.js">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="63" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -107,13 +114,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/CategoryComponent.js">
+        <entry file="file://$PROJECT_DIR$/src/assets/scss/libs/_vars.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+            <state relative-caret-position="289">
+              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Banner.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#205#248#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/blog.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="307" column="29" selection-start-line="307" selection-start-column="29" selection-end-line="307" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -130,36 +164,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.blog-</find>
-      <find>section-img</find>
-      <find>blog-section-container</find>
-      <find>top-blog-section</find>
-      <find>webkit</find>
-      <find>blog-ta</find>
-      <find>500px</find>
-      <find>line-cl</find>
-      <find>category-text</find>
-      <find>category-te</find>
-      <find>.story-</find>
-      <find>story-content</find>
-      <find>@impo</find>
-      <find>100px</find>
-      <find>blog-tags</find>
-      <find>line-clam</find>
-      <find>@</find>
-      <find>.blog-user</find>
-      <find>fit-content</find>
-      <find>initial-section</find>
-      <find>25%</find>
-      <find>200px</find>
-      <find>.top-</find>
-      <find>6px</find>
-      <find>&lt;foo</find>
       <find>450px</find>
       <find>220</find>
       <find>220px</find>
       <find>.-center</find>
       <find>@me</find>
+      <find>coaching-bg-img</find>
+      <find>.terms</find>
+      <find>.menu-fol</find>
+      <find>.para</find>
+      <find>engagementTools</find>
+      <find>para-text</find>
+      <find>.menu-conte</find>
+      <find>.grid--3</find>
+      <find>.grid</find>
+      <find>life-coach-grid-section</find>
+      <find>1fr 1fr</find>
+      <find>#wrapp</find>
+      <find>category-tags</find>
+      <find>.recent-story</find>
+      <find>category-blo</find>
+      <find>.category</find>
+      <find>category-ta</find>
+      <find>.category-tag</find>
+      <find>120px</find>
+      <find>768.5</find>
+      <find>block !</find>
+      <find>18px !</find>
+      <find>18px !important;</find>
+      <find>blog-tags</find>
+      <find>.recent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,9 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/LiveCoachAbout.js" />
-        <option value="$PROJECT_DIR$/src/components/Banner.js" />
-        <option value="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" />
         <option value="$PROJECT_DIR$/src/pages/coaching/features/index.js" />
         <option value="$PROJECT_DIR$/src/components/Pricing.js" />
         <option value="$PROJECT_DIR$/src/components/CaseStudies.js" />
@@ -184,7 +215,6 @@
         <option value="$PROJECT_DIR$/src/assets/scss/pages/footer.scss" />
         <option value="$PROJECT_DIR$/src/components/LifeCoachFeature.js" />
         <option value="$PROJECT_DIR$/src/pages/coaching/client/index.js" />
-        <option value="$PROJECT_DIR$/src/assets/scss/pages/header.scss" />
         <option value="$PROJECT_DIR$/src/components/LifeCoach.js" />
         <option value="$PROJECT_DIR$/src/components/LifeCoachClient.js" />
         <option value="$PROJECT_DIR$/src/components/CoachDownload.js" />
@@ -193,15 +223,12 @@
         <option value="$PROJECT_DIR$/src/assets/scss/components/_button.scss" />
         <option value="$PROJECT_DIR$/src/pages/coaching/blog/index.js" />
         <option value="$PROJECT_DIR$/src/assets/fonts/style.css" />
-        <option value="$PROJECT_DIR$/src/assets/scss/pages/blog.scss" />
         <option value="$PROJECT_DIR$/src/pages/inside-design/blog/index.js" />
         <option value="$PROJECT_DIR$/src/pages/inside-design/index.js" />
-        <option value="$PROJECT_DIR$/src/assets/scss/libs/_vars.scss" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/components/ACTCoach.js" />
         <option value="$PROJECT_DIR$/src/components/CBTCompanion.js" />
         <option value="$PROJECT_DIR$/src/pages/category/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Header.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/cms/preview-templates/CategoryPagePreview.js" />
         <option value="$PROJECT_DIR$/src/components/PreviewCompatibleImage.js" />
@@ -209,17 +236,24 @@
         <option value="$PROJECT_DIR$/src/templates/category-post.js" />
         <option value="$PROJECT_DIR$/src/pages/blog/blog/index.js" />
         <option value="$PROJECT_DIR$/src/templates/blog-post.js" />
-        <option value="$PROJECT_DIR$/src/components/layout.js" />
         <option value="$PROJECT_DIR$/gatsby-config.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/main.scss" />
         <option value="$PROJECT_DIR$/src/components/BreadCrum.js" />
         <option value="$PROJECT_DIR$/static/admin/config.yml" />
         <option value="$PROJECT_DIR$/src/components/Footer.js" />
         <option value="$PROJECT_DIR$/src/shared/carousel.js" />
-        <option value="$PROJECT_DIR$/src/components/BlogComponent.js" />
-        <option value="$PROJECT_DIR$/src/components/InsideDesign.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Banner.js" />
+        <option value="$PROJECT_DIR$/src/assets/scss/libs/_vars.scss" />
+        <option value="$PROJECT_DIR$/src/pages/Home.js" />
         <option value="$PROJECT_DIR$/src/components/CategoryComponent.js" />
+        <option value="$PROJECT_DIR$/src/assets/scss/pages/blog.scss" />
+        <option value="$PROJECT_DIR$/src/components/InsideDesign.js" />
+        <option value="$PROJECT_DIR$/src/components/BlogComponent.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss" />
+        <option value="$PROJECT_DIR$/src/components/Header.js" />
+        <option value="$PROJECT_DIR$/src/components/layout.js" />
+        <option value="$PROJECT_DIR$/src/assets/scss/pages/header.scss" />
       </list>
     </option>
   </component>
@@ -234,6 +268,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,6 +285,19 @@
               <item name="swasth-invision" type="b2602c69:ProjectViewProjectNode" />
               <item name="swasth-invision" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swasth-invision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swasth-invision" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swasth-invision" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swasth-invision" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -257,13 +305,6 @@
               <item name="swasth-invision" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="swasth-invision" type="b2602c69:ProjectViewProjectNode" />
-              <item name="swasth-invision" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="swasth-invision" type="b2602c69:ProjectViewProjectNode" />
@@ -290,12 +331,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../swasth-clinicans-helpApp" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -312,18 +352,18 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2018.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\vikas-vaghasiya\swasth-invision\src\pages" />
-      <recent name="D:\vikas-vaghasiya\swasth-invision\src\assets\images" />
-      <recent name="D:\vikas-vaghasiya\swasth-invision\src\assets\fonts" />
-      <recent name="D:\vikas-vaghasiya\swasth-invision\src\pages\live-coach" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\vikas-vaghasiya\swasth-invision\src\assets\images" />
       <recent name="D:\vikas-vaghasiya\swasth-invision\src\cms\preview-templates" />
       <recent name="D:\vikas-vaghasiya\swasth-invision\src\components" />
       <recent name="D:\vikas-vaghasiya\swasth-invision\src\templates" />
-      <recent name="D:\vikas-vaghasiya\swasth-invision\src\assets\images" />
       <recent name="D:\vikas-vaghasiya\swasth-invision\src\pages\blog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\vikas-vaghasiya\swasth-invision\src\assets\images" />
+      <recent name="D:\vikas-vaghasiya\swasth-invision\src\pages" />
+      <recent name="D:\vikas-vaghasiya\swasth-invision\src\assets\fonts" />
+      <recent name="D:\vikas-vaghasiya\swasth-invision\src\pages\live-coach" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -423,14 +463,10 @@
       <workItem from="1588253288291" duration="23263000" />
       <workItem from="1588311650606" duration="3116000" />
       <workItem from="1588341327064" duration="6044000" />
-      <workItem from="1588446875542" duration="1372000" />
-    </task>
-    <task id="LOCAL-00001" summary="--design of Home page and DBT Coach">
-      <created>1576213422150</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1576213422151</updated>
+      <workItem from="1588446875542" duration="1505000" />
+      <workItem from="1588449228580" duration="887000" />
+      <workItem from="1588450726419" duration="22000" />
+      <workItem from="1588484228723" duration="9780000" />
     </task>
     <task id="LOCAL-00002" summary="-- responsive design">
       <created>1576421975694</created>
@@ -768,17 +804,24 @@
       <option name="project" value="LOCAL" />
       <updated>1588351679176</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="-- changes">
+      <created>1588448318559</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1588448318560</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="359070000" />
+    <option name="totallyTimeSpent" value="369892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23264782" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24228792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -903,31 +946,11 @@
     <MESSAGE value="-- Content management integrated" />
     <MESSAGE value="-- styling issue" />
     <MESSAGE value="-- integrate all content from netlify" />
-    <MESSAGE value="-- changes" />
     <MESSAGE value="-- Delete files" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- Delete files" />
+    <MESSAGE value="-- changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- changes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/libs/_vars.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="59" column="20" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/ACT-lessons@3x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/course-img@2x.png" />
-    <entry file="file://$PROJECT_DIR$/src/assets/images/Evidence_based_graphic@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/Evidence_based_graphic.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/favico.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/images/Find_provider_bg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -941,25 +964,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/blog.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/images/bg@3x.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/inside-design/blog/index.js" />
     <entry file="file://$PROJECT_DIR$/src/pages/inside-design/index.js" />
@@ -999,16 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1624">
-          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1128,13 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Blogs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1484">
@@ -1172,19 +1161,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5032">
-          <caret line="385" column="29" selection-start-line="385" selection-start-column="29" selection-end-line="385" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/images/blogImg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/shared/carousel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="224">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -1194,7 +1183,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/blog-post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="364">
           <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -1202,31 +1191,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/BlogComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#4274#6275#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/blog/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="420">
           <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/InsideDesign.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -1235,7 +1203,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/category-post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="364">
           <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -1245,8 +1213,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CategoryComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="336">
           <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/top-bg@3x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="291" column="41" selection-start-line="291" selection-start-column="41" selection-end-line="291" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#1070#5063#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/blog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="307" column="29" selection-start-line="307" selection-start-column="29" selection-end-line="307" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/InsideDesign.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BlogComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -1255,13 +1284,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/liveCoach.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="1556" column="34" selection-start-line="1556" selection-start-column="34" selection-end-line="1556" selection-end-column="34" />
+        <state relative-caret-position="348">
+          <caret line="296" column="28" selection-start-line="296" selection-start-column="28" selection-end-line="296" selection-end-column="28" />
           <folding>
             <element signature="e#1202#1273#0" />
             <element signature="e#1284#1347#0" />
-            <element signature="e#1366#1686#0" />
-            <element signature="e#1708#2127#0" />
+            <element signature="e#4525#4660#0" />
+            <element signature="e#28029#28251#0" />
+            <element signature="e#28417#29689#0" />
+            <element signature="e#29386#29687#0" />
+            <element signature="e#28447#29075#0" />
+            <element signature="e#29104#29145#0" />
+            <element signature="e#29168#29253#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/libs/_vars.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Banner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/pages/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <element signature="e#205#248#0" />
           </folding>
         </state>
       </provider>

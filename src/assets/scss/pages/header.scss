@@ -2,10 +2,41 @@
   transform: translateY(2%) !important;
 }
 
+.header-content {
+  @media only screen and (max-width: 1023px) {
+    display: none !important;
+  }
+}
+.extra-header{
+  width: 100%;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 14px;
+  color: _palette(bg);
+  background: _palette(primary-purple);
+  button{
+    margin-left: 10px;
+    background: lighten(_palette(dark-blue),10%);
+    color: _palette(bg);
+    font-size: 14px;
+    &:hover{
+      background: _palette(dark-blue);
+      color: _palette(bg);
+      border-color: transparent;
+      box-shadow: none;
+    }
+  }
+}
+
 .header-nav {
+  .header-nav-active {
+    div {
+      color: #3b97ff;
+    }
+  }
   .menu-content {
     //color: _palette(bg);
-    color: black;
+    color: _palette(primary-blue);
     cursor: pointer;
     font-weight: 600px;
     font-size: 1.3em;
@@ -49,19 +80,33 @@
   }
 
   .coaching-home-section-group {
-    transform: translateY(0%);
-    height: 100vh;
-
+    transform: translateY(25%);
+    //height: 100vh;
     .card-row {
       height: inherit;
-      @media only screen and (max-width: 768px) {
-        padding: 36px 32px;
+    }
+
+    @media only screen and (max-width: 1024px) {
+      transform: translateY(15%);
+
+    }
+    @media only screen and (max-width: 768px) {
+      transform: translateY(15%);
+      .card-row {
+        height: inherit;
+        padding: 36px 32px 0;
         flex-direction: column-reverse;
-        .card-col:first-child{
+
+        .card-col:first-child {
           margin-top: 50px;
         }
+
         img {
           margin-bottom: 15px;
+        }
+
+        .form-group {
+          padding: 0;
         }
       }
     }
@@ -70,11 +115,14 @@
       img {
         width: 100%;
       }
-      .subtitle{
+
+      .subtitle {
         font-size: 16px;
-        color: _palette(primary-grey);
+        //color: _palette(primary-grey);
+        line-height: 28px;
         margin-bottom: 30px;
       }
+
     }
 
     input {
@@ -84,10 +132,15 @@
     }
 
     .join-buttons {
-      margin: 15px 0 100px;
+      margin: 15px 0 0px;
       display: flex;
       align-items: center;
-      width: max-content;
+      //width: max-content;
+      box-shadow: rgba(0, 0, 0, 0.07) 0 8px 25px 0;
+      border-radius: 15px;
+      padding: 20px 0px;
+      justify-content: center;
+
       button {
         margin-right: 10px;
       }
@@ -95,6 +148,7 @@
       span {
         margin: 0 10px;
         font-weight: 600;
+        font-size: 14px;
       }
 
       @media only screen and (max-width: 430px) {
@@ -109,8 +163,8 @@
 
     .image-col {
       position: absolute;
-      top: 10%;
-      right: -10%;
+      //top: -30%;
+      right: -5%;
       @media only screen and (max-width: 768px) {
         top: 0;
         left: 0;
@@ -140,7 +194,7 @@
 .card-row {
   display: flex;
   align-items: center;
-  padding: 36px 32px;
+  padding: 36px 0px;
 
   .blog-container {
     width: 100%;
@@ -383,11 +437,14 @@
   }
 }
 
+@media (max-width: 780px) {
+  #wrapper {
+    width: 100%;
+  }
+}
+
 @media (max-width: 768.5px) {
   #wrapper {
-    margin: 0;
-    width: 100%;
-
     #header {
       padding: 0 15px;
     }

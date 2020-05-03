@@ -22,14 +22,14 @@ class LiveCoachBlog extends React.Component {
           <Col
             md={12}
             style={{ maxHeight: 600 }}
-            className='card-col -margin-right -margin-bottom top-blog-section'
+            className='card-col -margin-bottom top-blog-section padd-sec'
           >
             <img
               alt
               src={latestBlog?.node?.frontmatter?.image}
               className='section-img'
             />
-            <div className='blog-tags'>
+            <div className='category-tags'>
               {latestBlog?.node?.frontmatter?.categories?.category?.map(({ title, slug }) =>
                 <Link to={`/category/${slug}`}>
                   <p className='para-text'>
@@ -48,7 +48,7 @@ class LiveCoachBlog extends React.Component {
           </Col>
           <Col md={12} className='card-col image-col recent-story-container'>
             <h3 className='base-text navy-blue'>Recent Stories</h3>
-            <div className='recent-story'>
+            <div className='recent-story recent-stories-section'>
               {edges?.slice(0, 5)?.map(({ node: { frontmatter, fields } }) =>
                 <div className='story'>
                   <img
@@ -56,7 +56,7 @@ class LiveCoachBlog extends React.Component {
                     src={frontmatter?.image}
                   />
                   <div className='story-content'>
-                    <div className='blog-tags'>
+                    <div className='category-tags'>
                       {frontmatter?.categories?.category?.map(({ title, slug }) =>
                         <Link to={`/category/${slug}`}>
                           <p className='para-text'>
@@ -87,7 +87,7 @@ class LiveCoachBlog extends React.Component {
 
           </Col>
           <Col md={12} className='card-col image-col featured-blog-content'>
-            <div className='blog-tags'>
+            <div className='category-tags'>
             {featuredPost?.node?.frontmatter?.categories?.category?.map(({title,slug}) =>
               <Link to={`/category/${slug}`}>
                 <p className='para-text'>
@@ -115,7 +115,7 @@ class LiveCoachBlog extends React.Component {
                   src={frontmatter?.image}
                 />
                 <div className='story-content'>
-                  <div className='blog-tags'>
+                  <div className='category-tags'>
                     {frontmatter?.categories?.category?.map(({ title, slug }) =>
                       <Link to={`/category/${slug}`}>
                         <p className='para-text'>
