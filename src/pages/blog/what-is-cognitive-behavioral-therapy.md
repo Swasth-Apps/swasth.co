@@ -10,6 +10,7 @@ description: Cognitive behavioral therapy (CBT) is a form of psychological
   including depression, anxiety disorders, alcohol and drug use problems,
   marital problems, eating disorders and severe mental illness.
 image: /img/cbt-3.png
+squareimage: /img/cbt-3.png
 categories:
   category:
     - slug: cognitive-behavioral-therapy
