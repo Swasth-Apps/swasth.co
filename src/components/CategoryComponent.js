@@ -32,7 +32,7 @@ class CategoryComponent extends React.Component {
 
               <img
                 alt
-                src={frontmatter?.image}
+                src={frontmatter?.squareimage}
               />
               <div className='story-content'>
                 <p className='para-text category-text'>{this.props.title}</p>
@@ -156,6 +156,7 @@ export default (props) => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
+                squareimage
                 image
                 username
                 categories {

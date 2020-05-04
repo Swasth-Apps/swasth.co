@@ -59,7 +59,7 @@ class BlogLanding extends React.Component {
 
                   <img
                     alt
-                    src={frontmatter?.image}
+                    src={frontmatter?.squareimage}
                   />
                   <div className='story-content'>
                     <div className='category-tags'>
@@ -83,7 +83,7 @@ class BlogLanding extends React.Component {
         {featuredPost?
         <Row className='card-row -margin-bottom -row-flex divider col-reverse featured-section'
              gutter={16}>
-          <Col md={12} className='card-col -margin-right -margin-bottom top-blog-section'>
+          <Col md={12} className='card-col -margin-bottom top-blog-section'>
           <Link to={featuredPost?.node?.fields?.slug}>
             <img
               alt
@@ -119,7 +119,7 @@ class BlogLanding extends React.Component {
                 <Link to={fields?.slug}>
                 <img
                   alt
-                  src={frontmatter?.image}
+                  src={frontmatter?.squareimage}
                 />
                 </Link>
                 <Link to={fields?.slug}>
@@ -167,6 +167,7 @@ export default (props) => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
+                squareimage
                 image
                 username
                 categories {

@@ -193,6 +193,7 @@ export default (props) => (
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
                 image
+                squareimage
                 username
                 categories{
                 category{

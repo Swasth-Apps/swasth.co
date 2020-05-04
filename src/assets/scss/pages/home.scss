@@ -198,6 +198,7 @@
   padding: 20px;
 
   .all-category-section {
+    margin-bottom: 20px;
     .recent-story {
       display: flex;
       flex: 0 0 100%;
@@ -205,6 +206,20 @@
 
       .story {
         flex: 0 0 50%;
+        .story-content{
+          margin-top: 0 !important;
+        }
+        &:not(:nth-child(2n)){
+          .story-content {
+            padding-right: 15px;
+          }
+        }
+        @media screen and (max-width: 430px) {
+          display: flex !important;
+        }
+      }
+      @media screen and (max-width: 700px) {
+        display: block;
       }
     }
 
@@ -268,8 +283,8 @@
         img {
           width: 120px;
           height: 120px;
-          //min-width: 120px;
-          //min-height: 120px;
+          min-width: 120px;
+          min-height: 120px;
           border-radius: 4px;
           //margin-right: 10px;
         }
@@ -352,6 +367,9 @@
     @media screen and (max-width: 769px) {
       .recent-story-container {
         width: 100%;
+        .recent-story{
+          max-height: unset;
+        }
       }
     }
   }
@@ -1759,12 +1777,12 @@ strong {
   .life-coach-grid-section {
     cursor: pointer;
     transition: all 0.5s;
-    border-radius: 15px !important;
-    box-shadow: rgba(103, 183, 222, 0.15) 16px 0 0 0.10px;
+    //box-shadow: rgba(103, 183, 222, 0.15) 16px 0 0 0.10px;
     .card-text {
       height: auto !important;
       padding: 10px 20px 20px;
       min-height: 250px;
+      border-radius: 15px;
       a {
         color: darken(_palette(primary-blue), 10%);
         font-size: 16px;
@@ -1857,13 +1875,11 @@ strong {
 
     &:hover {
       background: _palette(primary-purple);
-      margin-right: -16px;
     }
   }
 
-  @media screen and (min-width: 426px) {
-    padding-right: 26px;
-    padding-left: 8px;
+  @media screen and (max-width: 800px) {
+    padding: 0 24px 0 24px !important;
   }
     .grid {
     display: grid;
