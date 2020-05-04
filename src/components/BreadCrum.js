@@ -23,7 +23,7 @@ class CategoryTabs extends React.Component {
             onChange={this.handleChange}
             activeKey={location?.location.pathname.slice(-1) === '/' ? location?.location.pathname : `${location?.location.pathname}/`}
           >
-            <TabPane tab="All Category" key="/blog/"/>
+            <TabPane tab="All Categories" key="/blog/"/>
             {edges?.map(({ node: { fields, frontmatter } }) =>
               <TabPane tab={frontmatter?.title} key={fields?.slug}/>)}
           </Tabs>

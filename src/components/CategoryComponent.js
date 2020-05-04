@@ -24,21 +24,22 @@ class CategoryComponent extends React.Component {
               image-col recent-story-container feeds-container
              all-category-section category-container initial-section'
              >
-          <h3 className='base-text navy-blue -centered'>{this.props.title}</h3>
+          <h2 className='base-text navy-blue -centered'>{this.props.title}</h2>
           <div className='recent-story'>
             {edges?.map(({node : {frontmatter,fields}}) =>
             <div className='story'>
+                              <Link to={fields?.slug}>
+
               <img
                 alt
                 src={frontmatter?.image}
               />
               <div className='story-content'>
                 <p className='para-text category-text'>{this.props.title}</p>
-                <Link to={fields?.slug}>
                 <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
-                </Link>
                 <p className='para-text'>{frontmatter?.username}</p>
               </div>
+              </Link>
             </div>)}
           </div>
         </Row>
@@ -46,6 +47,8 @@ class CategoryComponent extends React.Component {
         <Row
           className='card-row -margin-bottom -row-flex col-reverse category-section blog-section'
              gutter={16}>
+          <Link to={featuredPost?.node?.fields?.slug}>
+
           <Col md={12} className='card-col top-blog-section'>
             <img
               alt
@@ -65,13 +68,14 @@ class CategoryComponent extends React.Component {
                 </Link>
               )}
             </div>
-            <h2 className='-font-bold margin-bottom-25 base-text base-text'>
+            <h3 className='-font-bold margin-bottom-25 base-text base-text'>
               {featuredPost?.node?.frontmatter?.title}
-            </h2>
+            </h3>
             <div className='subtitle base-text navy-blue para-text line-clamp-3'>
               {featuredPost?.node?.excerpt}
             </div>
           </Col>
+          </Link>
         </Row> : null}
 
         {/*<Row md={12}

@@ -63,7 +63,28 @@
     font-family: 'Apercu Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Apercu Regular'), url('ApercuRegular.otf') format('opentype');
+    src: local('Apercu Regular'), url('Apercu-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Apercu Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apercu Bold'), url('Apercu-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Apercu Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apercu Light'), url('Apercu-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Apercu Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apercu Italic'), url('Apercu-Italic.otf') format('opentype');
 }
 
 @font-face {

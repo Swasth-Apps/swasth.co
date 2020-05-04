@@ -595,7 +595,7 @@
     .ant-tabs-tab {
       line-height: 1;
       min-width: 120px;
-      padding: 5px 10px !important;
+      padding: 5px 2px !important;
       border: 2px solid _palette(primary-color) !important;
       border-right: 0 !important;
       font-weight: 600;
@@ -637,7 +637,7 @@
 
     .ant-tabs-tab-active {
       background: _palette(primary-color) !important;
-      color: _palette(bg) !important;
+      color: _palette(secondary-color) !important;
 
       &::after {
         display: none;

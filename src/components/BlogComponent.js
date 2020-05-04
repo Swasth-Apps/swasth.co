@@ -12,7 +12,7 @@ class BlogComponent extends React.Component {
   }
 
   render() {
-    const { image,title,tags,username,featuredpost,categories,relatedpost } = this.props.feature;
+    const { image,title, description, tags,username,featuredpost,categories,relatedpost } = this.props.feature;
     let edges = this.props?.data?.blogs?.edges;
     const relatedPosts = [];
     for(var i=0;i< relatedpost?.blog?.length ; i++){
@@ -48,6 +48,7 @@ class BlogComponent extends React.Component {
             {/*{categories?.category?.map(({title,slug}) =><span className='category-text'>{title}</span>)}*/}
             <h2 className='-font-bold margin-bottom-25 base-text base-text'>
               {title}</h2>
+            <p className='para-text'>{description}</p>
           </Col>
         </Row>
         <Row className='card-row -margin-bottom -row-flex divider col-reverse'
@@ -79,7 +80,7 @@ class BlogComponent extends React.Component {
           </Col>
           {relatedPosts?.length ?
           <Col md={12} className='card-col image-col recent-story-container'>
-            <h3 className='base-text navy-blue'>Recent Stories</h3>
+            <h3 className='base-text navy-blue'>Related Stories</h3>
             <div className='recent-story recent-stories-section'>
               {relatedPosts?.map(({node:{frontmatter,fields}}) =>
               <div className='story'>
@@ -89,7 +90,7 @@ class BlogComponent extends React.Component {
                 />
                 <div className='story-content'>
                   <div className='category-tags'>
-                    {frontmatter?.categories?.category?.map(({title,slug}) =>
+                    {frontmatter?.categories?.category?.slice(0,1).map(({title,slug}) =>
                       <Link to={`/category/${slug}`}>
                         <p className='para-text'>
                           {title}

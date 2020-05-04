@@ -1,6 +1,6 @@
 import React from 'react'
-import Layout from '../../../components/layout'
-import Category from '../../../components/CategoryComponent'
+import Layout from '../../components/layout'
+import Category from '../../components/CategoryComponent'
 
 
 export default class CategoryIndex extends React.Component {

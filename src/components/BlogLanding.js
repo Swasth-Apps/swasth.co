@@ -24,6 +24,8 @@ class BlogLanding extends React.Component {
             style={{ maxHeight: 600 }}
             className='card-col -margin-bottom top-blog-section padd-sec'
           >
+          <Link to={latestBlog?.node?.fields?.slug}>
+
             <img
               alt
               src={latestBlog?.node?.frontmatter?.image}
@@ -38,26 +40,30 @@ class BlogLanding extends React.Component {
                 </Link>,
               )}
             </div>
-            <Link to={latestBlog?.node?.fields?.slug}>
               <h3 className='-font-bold margin-bottom-25 base-text navy-blue base-text'>
                 {latestBlog?.node?.frontmatter?.title}</h3>
-            </Link>
             <div className='subtitle base-text navy-blue para-text'>
               {latestBlog?.node?.excerpt}
             </div>
+            </Link>
+
           </Col>
+          
           <Col md={12} className='card-col image-col recent-story-container'>
             <h3 className='base-text navy-blue'>Recent Stories</h3>
             <div className='recent-story recent-stories-section'>
               {edges?.slice(0, 5)?.map(({ node: { frontmatter, fields } }) =>
+                                                    <Link to={fields?.slug}>
+
                 <div className='story'>
+
                   <img
                     alt
                     src={frontmatter?.image}
                   />
                   <div className='story-content'>
                     <div className='category-tags'>
-                      {frontmatter?.categories?.category?.map(({ title, slug }) =>
+                      {frontmatter?.categories?.category?.slice(0,1).map(({ title, slug }) =>
                         <Link to={`/category/${slug}`}>
                           <p className='para-text'>
                             {title}
@@ -65,12 +71,11 @@ class BlogLanding extends React.Component {
                         </Link>,
                       )}
                     </div>
-                    <Link to={fields?.slug}>
                       <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
-                    </Link>
                     <p className='para-text'>{frontmatter.username}</p>
                   </div>
-                </div>,
+                </div>
+                </Link>
               )}
             </div>
           </Col>
@@ -79,12 +84,13 @@ class BlogLanding extends React.Component {
         <Row className='card-row -margin-bottom -row-flex divider col-reverse featured-section'
              gutter={16}>
           <Col md={12} className='card-col -margin-right -margin-bottom top-blog-section'>
+          <Link to={featuredPost?.node?.fields?.slug}>
             <img
               alt
               src={featuredPost?.node?.frontmatter?.image}
               className='section-img'
             />
-
+          </Link>
           </Col>
           <Col md={12} className='card-col image-col featured-blog-content'>
             <div className='category-tags'>
@@ -99,10 +105,10 @@ class BlogLanding extends React.Component {
             <Link to={featuredPost?.node?.fields?.slug}>
             <h3 className='-font-bold margin-bottom-25 base-text navy-blue base-text'>
               {featuredPost?.node?.frontmatter?.title}</h3>
-            </Link>
             <div className='subtitle base-text navy-blue para-text line-clamp-3'>
               {featuredPost?.node?.excerpt}
             </div>
+            </Link>
           </Col>
         </Row> : null}
         <Row md={12} className='card-col image-col recent-story-container all-category-section'
@@ -110,10 +116,13 @@ class BlogLanding extends React.Component {
           <div className='recent-story' style={{ maxHeight: 'unset' }}>
             {edges?.map(({node : {frontmatter,fields}}) =>
               <div className='story'>
+                <Link to={fields?.slug}>
                 <img
                   alt
                   src={frontmatter?.image}
                 />
+                </Link>
+                <Link to={fields?.slug}>
                 <div className='story-content'>
                   <div className='category-tags'>
                     {frontmatter?.categories?.category?.map(({ title, slug }) =>
@@ -124,11 +133,10 @@ class BlogLanding extends React.Component {
                       </Link>,
                     )}
                   </div>
-                  <Link to={fields?.slug}>
                     <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
-                  </Link>
                   <p className='para-text'>{frontmatter.username}</p>
                 </div>
+                </Link>
               </div>
             )}
           </div>
