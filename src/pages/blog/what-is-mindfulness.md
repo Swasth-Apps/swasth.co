@@ -1,5 +1,7 @@
 ---
 templateKey: blog-post
+categoryname: Mindfulness
+categoryslug: mindfulness
 title: What is Mindfulness?
 username: Sara Ferguson
 date: 2017-04-30T15:40:00.000Z
@@ -7,9 +9,20 @@ description: Mindfulness is the basic human ability to be fully present, aware
   of where we are and what we’re doing, and not overly reactive or overwhelmed
   by what’s going on around us.
 featuredpost: true
-image: /img/mindfulness-intro.jpeg
-categoryname: Mindfulness
-categoryslug: mindfulness
+image: /img/mindfulness-1.jpeg
+squareimage: /img/mindfulness-square.jpg
+categories:
+  category:
+    - title: Mindfulness
+      slug: mindfulness
+relatedpost:
+  blog:
+    - title: What is Dialectical Behavior Therapy?
+      slug: what-is-dialectical-behavior-therapy
+    - title: What is Cognitive Behavioral Therapy?
+      slug: what-is-cognitive-behavioral-therapy
+    - slug: what-is-acceptance-and-commitment-therapy
+      title: What is Acceptance and Commitment Therapy?
 tags:
   - Mindfulness
 ---
@@ -19,7 +32,7 @@ Mindfulness is the basic human ability to be fully present, aware of where we ar
 
 While mindfulness is something we all naturally possess, it’s more readily available to us when we practice on a daily basis.
 
-![](/img/mindfulness-1.jpeg)
+![](/img/mindfulness-intro.jpeg)
 
 Whenever you bring awareness to what you’re directly experiencing via your senses, or to your state of mind via your thoughts and emotions, you’re being mindful. And there’s growing research showing that when you train your brain to be mindful, you’re actually remodeling the physical structure of your brain.
 
