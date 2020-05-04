@@ -9,11 +9,26 @@
 }
 .extra-header{
   width: 100%;
-  padding: 1px;
   text-align: center;
   font-size: 14px;
   color: _palette(bg);
+  padding: 10px;
   background: _palette(primary-purple);
+  display: flex;
+  justify-content: center;
+  @media (max-width: 768px) {
+    display: block;
+  }
+  p{
+    margin-bottom: 10px;
+  }
+    i{
+    color: _palette(bg);
+    font-size: 18px;
+      z-index: 1211111;
+      position: absolute;
+      right: 15px;
+  }
   button{
     margin-left: 10px;
     background: lighten(_palette(dark-blue),10%);

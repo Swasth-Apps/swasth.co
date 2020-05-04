@@ -6,7 +6,7 @@ import '../assets/scss/main.scss'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import 'react-multi-carousel/lib/styles.css'
-import { Button } from 'antd'
+import { Button, Icon } from 'antd'
 
 
 class Layout extends React.Component {
@@ -15,6 +15,7 @@ class Layout extends React.Component {
     this.state = {
       isMenuVisible: false,
       loading: 'is-loading',
+      visible: true,
     }
   }
 
@@ -24,6 +25,12 @@ class Layout extends React.Component {
     }, 100)
   }
 
+  handleClick = () => {
+    this.setState({
+      visible: false,
+    })
+  }
+
   componentWillUnmount() {
     if (this.timeoutId) {
       clearTimeout(this.timeoutId)
@@ -31,17 +38,23 @@ class Layout extends React.Component {
   }
 
   render() {
-    const { children } = this.props;
+    const { children } = this.props
     return (
       <div className={`body ${this.state.loading} ${this.props.hideHomeImg ? 'light-body-bg' : ''}`}>
         {/*<img className='absoluted-header-image' src={BG}/>*/}
         <img
           src={CoachingBG}
           className='home-bg-img coaching-bg-img'/>
-        <div className="para-text extra-header">
-          We are offering free premium access to our Clinician Platform during the COVID-19 crisis.
-          <a href="https://clinician.swasth.co" target="_blank"><Button className='para-text'>Get Started</Button></a>
-        </div>
+        {this.state.visible ?
+          <div className="para-text extra-header">
+            <p>
+              We are offering free premium access to our Clinician Platform during the COVID-19 crisis.
+            </p>
+            <a href="https://clinician.swasth.co" target="_blank">
+              <Button className='para-text'>Get Started</Button>
+            </a>
+            <Icon type='close-circle' onClick={this.handleClick}/>
+          </div> : ''}
         <div
           id='wrapper'
           className={'coach-wrapper'}
@@ -52,9 +65,9 @@ class Layout extends React.Component {
           {children}
         </div>
         {/*{this.props.coachingFooter ?*/}
-          {/*<CoachingFooter increaseFooterMargin={this.props.increaseFooterMargin}/>*/}
-          {/*:*/}
-          <Footer show={this.props.show} hideFooter={this.props.hideFooter} showCustomBottom={this.props.topBg || false}/>
+        {/*<CoachingFooter increaseFooterMargin={this.props.increaseFooterMargin}/>*/}
+        {/*:*/}
+        <Footer show={this.props.show} hideFooter={this.props.hideFooter} showCustomBottom={this.props.topBg || false}/>
         {/*}*/}
 
         {/*<img src={footerImg}/>*/}
