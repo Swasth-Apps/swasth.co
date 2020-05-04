@@ -365,6 +365,25 @@
     }
 
     @media screen and (max-width: 769px) {
+      .recent-story{
+        a{
+          &:not(:last-child) {
+            .story {
+              padding-bottom: 10px;
+              border-bottom: 1px solid _palette(primary-purple);
+            }
+          }
+        }
+      }
+    }
+
+      @media screen and (max-width: 769px) {
+      background: transparent;
+      padding: 0 !important;
+      .landing-top-section{
+        background: #E9F3FF;
+        padding: 10px 15px !important;
+      }
       .recent-story-container {
         width: 100%;
         .recent-story{

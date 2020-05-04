@@ -22,7 +22,7 @@ class BlogLanding extends React.Component {
           <Col
             md={12}
             style={{ maxHeight: 600 }}
-            className='card-col -margin-bottom top-blog-section padd-sec'
+            className='card-col -margin-bottom top-blog-section padd-sec landing-top-section'
           >
           <Link to={latestBlog?.node?.fields?.slug}>
 
@@ -49,7 +49,7 @@ class BlogLanding extends React.Component {
 
           </Col>
           
-          <Col md={12} className='card-col image-col recent-story-container'>
+          <Col md={12} className='card-col image-col recent-story-container landing-top-section'>
             <h3 className='base-text navy-blue'>Recent Stories</h3>
             <div className='recent-story recent-stories-section'>
               {edges?.slice(0, 5)?.map(({ node: { frontmatter, fields } }) =>
