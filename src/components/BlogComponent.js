@@ -4,6 +4,7 @@ import img from '../assets/images/blogImg.png'
 import CategoryTabs from './BreadCrum'
 import { HTMLContent }  from '../components/Content'
 import { graphql, Link, StaticQuery } from 'gatsby'
+import ShareLink from 'react-facebook-share-link'
 
 
 class BlogComponent extends React.Component {
@@ -71,7 +72,12 @@ class BlogComponent extends React.Component {
                 {username}
               </div>
               <div className='social-icons'>
-                <Icon type='facebook' />
+              <ShareLink link={window.location.href}>
+               {link => (
+                   <a href={link} target='_blank'><Icon type='facebook' />
+                   </a>
+                 )}
+              </ShareLink>
                 <Icon type='twitter' />
                 <Icon type='instagram' />
               </div>
