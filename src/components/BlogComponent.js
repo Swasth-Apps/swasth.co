@@ -1,12 +1,21 @@
 import React from 'react'
 import { Col, Icon, Row } from 'antd'
-import img from '../assets/images/blogImg.png'
+import sf from '../assets/images/user-icons/sf.jpeg'
 import CategoryTabs from './BreadCrum'
 import { HTMLContent }  from '../components/Content'
 import { graphql, Link, StaticQuery } from 'gatsby'
-import ShareLink from 'react-facebook-share-link'
+import { FacebookShareCount, OKShareCount, PinterestShareCount, RedditShareCount,TumblrShareCount, VKShareCount} from "react-share";
+import { FacebookShareButton, TwitterShareButton, PinterestShareButton, LinkedinShareButton, RedditShareButton} from "react-share";
+import { EmailIcon,FacebookIcon,InstapaperIcon, LineIcon, LinkedinIcon, LivejournalIcon,MailruIcon, OKIcon,  PinterestIcon, PocketIcon,  RedditIcon, TelegramIcon, TumblrIcon,TwitterIcon, ViberIcon, WhatsappIcon,  WorkplaceIcon} from "react-share";
 
+const currentPageUrl = typeof window !== 'undefined' ? window.location.href : '';
 
+function getUserIcon(name) {
+  var initials = name.match(/\b\w/g) || [];
+  initials = ((initials.shift() || '') + (initials.pop() || ''));
+  console.log('initials ', initials.toString().toLowerCase());
+  return initials.toString().toLowerCase();
+}
 class BlogComponent extends React.Component {
   constructor(props) {
     super(props)
@@ -68,18 +77,47 @@ class BlogComponent extends React.Component {
             </div>
             <div className='blog-user'>
               <div className='user-info para-text'>
-              <img src={img}/>
+              <img src={sf}/>
                 {username}
               </div>
               <div className='social-icons'>
-              <ShareLink link={window.location.href}>
-               {link => (
-                   <a href={link} target='_blank'><Icon type='facebook' />
-                   </a>
-                 )}
-              </ShareLink>
-                <Icon type='twitter' />
-                <Icon type='instagram' />
+                <div className="social-button">
+                    <FacebookShareButton url={currentPageUrl} quote={title} className="social__share-button">
+                      <FacebookIcon size={32} round />
+                    </FacebookShareButton>
+
+                    <div>
+                      <FacebookShareCount url={currentPageUrl} className="social__share-count">
+                        {count => count}
+                      </FacebookShareCount>
+                    </div>
+                </div>
+                <div className="social-button">
+                    <TwitterShareButton url={currentPageUrl} quote={title} className="social__share-button">
+                      <TwitterIcon size={32} round />
+                    </TwitterShareButton>
+                </div>
+                <div className="social-button">
+                    <PinterestShareButton url={currentPageUrl} quote={title} className="social__share-button">
+                      <PinterestIcon size={32} round />
+                    </PinterestShareButton>
+                    <div>
+                      <PinterestShareCount url={currentPageUrl} className="social__share-count">
+                        {count => count}
+                      </PinterestShareCount>
+                    </div>
+                </div>
+                <div className="social-button">
+                    <RedditShareButton url={currentPageUrl} quote={title} className="social__share-button">
+                      <RedditIcon size={32} round />
+                    </RedditShareButton>
+
+                    <div>
+                      <RedditShareCount url={currentPageUrl} className="social__share-count">
+                        {count => count}
+                      </RedditShareCount>
+                    </div>
+                </div>
               </div>
             </div>
             <div />
