@@ -98,16 +98,6 @@ class BlogComponent extends React.Component {
                     </TwitterShareButton>
                 </div>
                 <div className="social-button">
-                    <PinterestShareButton url={currentPageUrl} quote={title} className="social__share-button">
-                      <PinterestIcon size={32} round />
-                    </PinterestShareButton>
-                    <div>
-                      <PinterestShareCount url={currentPageUrl} className="social__share-count">
-                        {count => count}
-                      </PinterestShareCount>
-                    </div>
-                </div>
-                <div className="social-button">
                     <RedditShareButton url={currentPageUrl} quote={title} className="social__share-button">
                       <RedditIcon size={32} round />
                     </RedditShareButton>

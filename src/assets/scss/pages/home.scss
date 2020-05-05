@@ -1676,6 +1676,12 @@ strong {
   img {
     width: 100%;
   }
+  h3 {
+    margin: 1em 0 0.5em;
+  }
+  h4 {
+    margin: 0em 0 0.5em;
+  }
   p{
     font-size: 12px;
     font-family: 'Arial';
@@ -1712,7 +1718,7 @@ strong {
   flex-wrap: wrap;
 
   p {
-    font-size: 12px !important;
+    font-size: 14px !important;
     padding: 0 5px;
     margin-left: 0 !important;
     color: _palette(secondary-color) !important;
