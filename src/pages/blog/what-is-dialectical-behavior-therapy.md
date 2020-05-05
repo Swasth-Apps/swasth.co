@@ -30,6 +30,8 @@ relatedpost:
   blog:
     - title: What is Mindfulness?
       slug: what-is-mindfulness
+    - title: What is Cognitive Behavioral Therapy?
+      slug: what-is-cognitive-behavioral-therapy
   description: CBT
 tags:
   - Mindfulness
