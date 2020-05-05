@@ -17,12 +17,19 @@ description: >+
   feel about it.
 
 image: /img/act-intro.jpg
+squareimage: /img/act-square.jpg
 categories:
   category:
     - slug: evidence-based-therapy
       title: Evidence Based Therapy
     - slug: acceptance-and-commitment-therapy-act
       title: Acceptance and Commitment Therapy (ACT)
+relatedpost:
+  blog:
+    - title: What is Cognitive Behavioral Therapy?
+      slug: what-is-cognitive-behavioral-therapy
+    - title: What is Mindfulness?
+      slug: what-is-mindfulness
 tags:
   - ACT
   - Mindfulness
@@ -32,7 +39,7 @@ From Wikipedia, the free encyclopedia
 
 "**Acceptance and commitment therapy**(**ACT**, typically pronounced as the word "act") is a form of counseling and a branch of clinical behavior analysis. It is an empirically-based psychological intervention that uses acceptance and mindfulness strategies mixed in different ways with commitment and behavior-change strategies, to increase psychological flexibility. The approach was originally called *comprehensive distancing*. [](https://en.wikipedia.org/wiki/Acceptance_and_commitment_therapy#cite_note-baojournal.com-3)[Steven C. Hayes](https://en.wikipedia.org/wiki/Steven_C._Hayes "Steven C. Hayes") developed Acceptance and Commitment Therapy in 1982 in order to create a mixed approach which integrates both cognitive and behavioral therapy.[](https://en.wikipedia.org/wiki/Acceptance_and_commitment_therapy#cite_note-4)There are a variety of protocols for ACT, depending on the target behavior or setting."
 
-## ACT Concepts
+### ACT Concepts
 
 The website **[www.actmindfully.com.au](https://www.actmindfully.com.au/)** explains ACT in simple terms: it is a type of therapy that aims to help patients accept what is out of their control, and commit instead to actions that enrichen their lives (Harris, 2013).
 
@@ -81,20 +88,14 @@ Finally, ACT aims to help patients **commit to actions** that will assist in the
 
 ACT is not all that different from other behavioral-based therapies; it just emphasizes acceptance instead of avoidance, and in that way, differs from many other forms of therapy. This departure from most mainstream treatment can be traced back to the background of ACT’s founder, Stephen C. Hayes.
 
-
-
-## How ACT Works 
+### How ACT Works
 
 The theory behind ACT is that it is not only ineffective, but often counterproductive, to try to control painful emotions or psychological experiences, because suppression of these feelings ultimately leads to more distress. ACT adopts the view that there are valid alternatives to trying to change the way you think, and these include mindful behavior, attention to personal values, and commitment to action. By taking steps to change their behavior while, at the same time, learning to accept their psychological experiences, clients can eventually change their attitude and emotional state.
 
-
-
-## What to Expect
+### What to Expect
 
  Working with a therapist, you will learn to listen to your own self-talk, or the way you talk to yourself specifically about traumatic events, problematic relationships, physical limitations, or other issues. You can then decide if an issue requires immediate action and change or if it can—or must—be accepted for what it is while you learn to make behavioral changes that can affect the situation. You may look at what hasn’t worked for you in the past, so that the therapist can help you stop repeating thought patterns and behaviors that are causing you more problems in the long run. Once you have faced and accepted your current issues, you make a commitment to stop fighting your past and your emotions and, instead, start practicing more confident and optimistic behavior, based on your personal values and goals.
 
-
-
-## What to Look for in an Acceptance and Commitment Therapist 
+### What to Look for in an Acceptance and Commitment Therapist
 
 Look for a licensed, experienced therapist, social worker, professional counselor or other mental-health professional with additional training in ACT. There is no special certification for ACT practitioners. Skills are acquired through peer counseling, workshops, and other training programs. In addition to these credentials, it is important to find a therapist with whom you feel comfortable working.
