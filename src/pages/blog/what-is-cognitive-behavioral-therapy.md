@@ -4,12 +4,12 @@ categoryname: Cognitive Behavioral Therapy
 categoryslug: cognitive-behavioral-therapy
 title: What is Cognitive Behavioral Therapy?
 username: Sara Ferguson
-date: 2020-04-30T14:22:22.259Z
+date: 2018-04-30T14:22:00.000Z
 description: Cognitive behavioral therapy (CBT) is a form of psychological
   treatment that has been demonstrated to be effective for a range of problems
   including depression, anxiety disorders, alcohol and drug use problems,
   marital problems, eating disorders and severe mental illness.
-image: /img/cbt-3.png
+image: /img/cbt-intro.jpg
 squareimage: /img/cbt-3.png
 categories:
   category:
@@ -33,11 +33,9 @@ Cognitive behavioral therapy (CBT) is a form of psychological treatment that has
 
 It is important to emphasize that advances in CBT have been made on the basis of both research and clinical practice. Indeed, CBT is an approach for which there is ample scientific evidence that the methods that have been developed actually produce change. In this manner, CBT differs from many other forms of psychological treatment.
 
-
-
 ![](/img/cbt-1.jpg)
 
-## Principles
+### Principles
 
 CBT is based on several core principles, including:
 
@@ -47,7 +45,7 @@ CBT is based on several core principles, including:
 
    ![](/img/cbt-2.jpg)
 
-## Treatment
+### Treatment
 
 CBT treatment usually involves efforts to change thinking patterns. These strategies might include:
 
