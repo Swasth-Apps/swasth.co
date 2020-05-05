@@ -118,10 +118,13 @@ class BlogComponent extends React.Component {
             <div className='recent-story recent-stories-section'>
               {relatedPosts?.map(({node:{frontmatter,fields}}) =>
               <div className='story'>
+                                  <Link to={fields?.slug}>
+
                 <img
                   alt
-                  src={frontmatter?.image}
+                  src={frontmatter?.squareimage}
                 />
+                </Link>
                 <div className='story-content'>
                   <div className='category-tags'>
                     {frontmatter?.categories?.category?.slice(0,1).map(({title,slug}) =>
