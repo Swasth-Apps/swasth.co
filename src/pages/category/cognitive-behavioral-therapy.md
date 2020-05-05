@@ -1,6 +1,6 @@
 ---
 templateKey: category-post
-title: Cognitive Behavioral Therapy
+title: CBT
 date: 2017-01-06T22:56:00.000Z
 description: "CBT (Cognitive behavioral therapy): often short term form of
   psychotherapy originally designed to treat depression, but is now used for a
