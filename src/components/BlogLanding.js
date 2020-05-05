@@ -125,7 +125,7 @@ class BlogLanding extends React.Component {
                 <Link to={fields?.slug}>
                 <div className='story-content'>
                   <div className='category-tags'>
-                    {frontmatter?.categories?.category?.map(({ title, slug }) =>
+                    {frontmatter?.categories?.category?.slice(0,1).map(({ title, slug }) =>
                       <Link to={`/category/${slug}`}>
                         <p className='para-text'>
                           {title}
