@@ -26,7 +26,7 @@ relatedpost:
 tags:
   - Mindfulness
 ---
-## What is mindfulness?
+### What is mindfulness?
 
 Mindfulness is the basic human ability to be fully present, aware of where we are and what we’re doing, and not overly reactive or overwhelmed by what’s going on around us.
 
@@ -38,7 +38,7 @@ Whenever you bring awareness to what you’re directly experiencing via your sen
 
 > The goal of mindfulness is to wake up to the inner workings of our mental, emotional, and physical processes.
 
-## What is meditation?
+### What is meditation?
 
 Meditation is exploring. It’s not a fixed destination. Your head doesn’t become vacuumed free of thought, utterly undistracted. It’s a special place where each and every moment is momentous. When we meditate we venture into the workings of our minds: our sensations (air blowing on our skin or a harsh smell wafting into the room), our emotions (love this, hate that, crave this, loathe that) and thoughts (wouldn’t it be weird to see an elephant playing a trumpet).
 
@@ -46,11 +46,11 @@ Meditation is exploring. It’s not a fixed destination. Your head doesn’t bec
 
 Mindfulness meditation asks us to suspend judgment and unleash our natural curiosity about the workings of the mind, approaching our experience with warmth and kindness, to ourselves and others.
 
-## How do I practice mindfulness and meditation?
+### How do I practice mindfulness and meditation?
 
 Mindfulness is available to us in every moment, whether through meditations and body scans, or mindful moment practices like taking time to pause and breathe when the phone rings instead of rushing to answer it.
 
-## The Basics of Mindfulness Practice
+### The Basics of Mindfulness Practice
 
 Mindfulness helps us put some space between ourselves and our reactions, breaking down our conditioned responses. Here’s how to tune into mindfulness throughout the day:
 
@@ -64,11 +64,11 @@ Mindfulness helps us put some space between ourselves and our reactions, breakin
 
 That’s the practice. It’s often been said that it’s very simple, but it’s not necessarily easy. The work is to just keep doing it. Results will accrue.
 
-## How to Meditate
+### How to Meditate
 
 This meditation focuses on the breath, not because there is anything special about it, but because the physical sensation of breathing is always there and you can use it as an anchor to the present moment. Throughout the practice you may find yourself caught up in thoughts, emotions, sounds—wherever your mind goes, simply come back again to the next breath. Even if you only come back once, that’s okay.
 
-## A Simple Meditation Practice
+### A Simple Meditation Practice
 
 ![](/img/mindfulness-5.jpeg)
 
