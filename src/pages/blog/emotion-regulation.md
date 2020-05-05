@@ -12,7 +12,8 @@ description: >+
 
 
 featuredpost: true
-image: /img/er-intro.jpeg
+image: /img/depression.jpeg
+squareimage: /img/er-square.jpg
 categories:
   category:
     - slug: dialectical-behavior-therapy-dbt
