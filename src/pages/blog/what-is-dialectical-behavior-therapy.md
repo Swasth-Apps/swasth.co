@@ -27,24 +27,23 @@ categories:
       slug: dialectical-behavior-therapy-dbt
 relatedpost:
   heading: What is CBT?
-  blog: []
+  blog:
+    - title: What is Mindfulness?
+      slug: what-is-mindfulness
   description: CBT
 tags:
   - Mindfulness
   - DBT
 ---
-
-
-## What is DBT?
+### What is DBT?
 
 \
 DBT was originally developed to treat borderline personality disorder. However, research shows that DBT has also been used successfully to treat people experiencing depression, bulimia, binge-eating, bipolar disorder, post-traumatic-stress disorder, and substance abuse. DBT skills are thought to have the capability of helping those who wish to improve their ability to regulate emotions, tolerate distress and negative emotion, be mindful and present in the given moment, and communicate and interact effectively with others.
 
-![what is DBT](/img/what-is-dbt.jpg "what is DBT")
+![what is DBT](/img/dbt-1.jpg "what is DBT")
 
-## How DBT Works?
+### How DBT Works?
 
-\
 DBT has now evolved into an evidence based psychotherapy approach for a variety of conditions. When a person is undergoing DBT, they can expect to participate in three therapeutic settings: ³
 
 * A group setting where a person is taught behavioral skills by doing homework assignments and role-playing new ways of interacting with people.
@@ -64,33 +63,33 @@ While each therapeutic setting has its own set structure and goals, the followin
 
 [](<>)
 
-## DBT Strategies
+### DBT Strategies
 
 People undergoing DBT are taught how to effectively change their behavior using four main strategies.¹
 
 [](https://behavioraltech.org/resources/faqs/dialectical-behavior-therapy-dbt/)
 
-### Core Mindfulness
+#### Core Mindfulness
 
 Mindfulness skills, which is perhaps the most important strategy in DBT, teaches you to focus on the present or “live in the moment.” By doing so, you can learn to pay attention to what's going on inside of you (thoughts, feelings, sensations, impulses) as well as what's outside of you (what you see, hear, smell, and touch) in non-judgemental ways. These skills will help you to slow down so you can focus on healthy coping skills in the midst of emotional pain. Mindfulness can help you to stay calm and avoid engaging in automatic negative thought patterns and impulsive behavior.
 
-### Sample Exercise: Observe Mindfulness Skill
+##### Sample Exercise: Observe Mindfulness Skill
 
 Pay attention to your breath. Take note of the sensation of inhaling and exhaling, observing your belly rise and fall as you breathe.
 
-### Distress Tolerance
+#### Distress Tolerance
 
 Distress tolerance teaches you to accept yourself and the current situation. More specifically, you learn how to tolerate or survive crises using four techniques: distraction, self-soothing, improving the moment, and thinking of pros and cons of not tolerating distress. By learning distress tolerance techniques, you'll be able to prepare in advance for any intense emotions and cope with them with a more positive long-term outlook.
 
-### Sample Exercise: Putting Your Body in Charge
+##### Sample Exercise: Putting Your Body in Charge
 
 Run up and down the stairs. If you're inside, go outside. If you're sitting, get up and walk around. The idea is to distract yourself by allowing your emotions to follow your body.
 
-### Interpersonal Effectiveness
+#### Interpersonal Effectiveness
 
 Interpersonal effectiveness helps you to become more assertive in a relationship (for example, expressing needs and saying "no") while still keeping that relationship positive and healthy. This happens by learning to listen and communicate effectively, deal with difficult people, and respect yourself and others.
 
-### Sample Exercise: GIVE
+##### Sample Exercise: GIVE
 
 Use the acronym GIVE to improve relationships and positive communication:
 
@@ -99,17 +98,17 @@ Use the acronym GIVE to improve relationships and positive communication:
 * **V**alidate: Acknowledge the person's thoughts and feelings
 * **E**asy: Try to have an easy attitude (smile and stay light-hearted)
 
-### Emotion Regulation
+#### Emotion Regulation
 
 Emotion regulation provides a set of skills that helps one more effectively navigate powerful feelings. It teaches you to identify, name, and change your emotions. By recognizing and coping with intense negative emotions (for example, anger), you can reduce your emotional vulnerability and have more positive emotional experiences.
 
-### Sample Exercise: Opposite Action
+##### Sample Exercise: Opposite Action
 
 Identify how you're feeling and do the opposite. If you're sad and feel like withdrawing from friends and family, do the opposite. Make plans to see family and friends and stay social.
 
 [](<>)
 
-## Is DBT Right for You?
+### Is DBT Right for You?
 
 While the majority of research to date has focused on the effectiveness of DBT for people with borderline personality disorder who struggle with thoughts of suicide and self-harm. DBT has also been used in the treatment of a variety of mental health conditions including:1
 
