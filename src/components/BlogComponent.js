@@ -4,7 +4,7 @@ import sf from '../assets/images/user-icons/sf.jpeg'
 import CategoryTabs from './BreadCrum'
 import { HTMLContent }  from '../components/Content'
 import { graphql, Link, StaticQuery } from 'gatsby'
-import { FacebookShareCount, OKShareCount, PinterestShareCount, RedditShareCount,TumblrShareCount, VKShareCount} from "react-share";
+import { FacebookShareCount, OKShareCount, PinterestShareCount, RedditShareCount,TumblrShareCount} from "react-share";
 import { FacebookShareButton, TwitterShareButton, PinterestShareButton, LinkedinShareButton, RedditShareButton} from "react-share";
 import { EmailIcon,FacebookIcon,InstapaperIcon, LineIcon, LinkedinIcon, LivejournalIcon,MailruIcon, OKIcon,  PinterestIcon, PocketIcon,  RedditIcon, TelegramIcon, TumblrIcon,TwitterIcon, ViberIcon, WhatsappIcon,  WorkplaceIcon} from "react-share";
 
@@ -98,6 +98,11 @@ class BlogComponent extends React.Component {
                     </TwitterShareButton>
                 </div>
                 <div className="social-button">
+                    <LinkedinShareButton url={currentPageUrl} quote={title} className="social__share-button">
+                      <LinkedinIcon size={32} round />
+                    </LinkedinShareButton>
+                </div>
+                <div className="social-button">
                     <RedditShareButton url={currentPageUrl} quote={title} className="social__share-button">
                       <RedditIcon size={32} round />
                     </RedditShareButton>
@@ -108,7 +113,7 @@ class BlogComponent extends React.Component {
                       </RedditShareCount>
                     </div>
                 </div>
-              </div>
+               </div>
             </div>
             <div />
           </Col>
