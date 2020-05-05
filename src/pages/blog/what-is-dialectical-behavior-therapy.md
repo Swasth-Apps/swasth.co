@@ -17,7 +17,8 @@ description: Dialectical behavior therapy (DBT) provides clients with new skills
   communicate with others in a way that is assertive, maintains self-respect,
   and strengthens relationships.
 featuredpost: true
-image: /img/yinyang.jpg
+image: /img/dbt-intro.jpg
+squareimage: /img/yinyang.jpg
 categories:
   category:
     - slug: evidence-based-therapy
