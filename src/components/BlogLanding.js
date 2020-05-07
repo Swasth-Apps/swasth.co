@@ -1,7 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'antd'
 import img from '../assets/images/Image(2).png'
-import CategoryTabs from './BreadCrum'
 import { graphql, Link, StaticQuery } from 'gatsby'
 
 class BlogLanding extends React.Component {
@@ -14,8 +13,7 @@ class BlogLanding extends React.Component {
     const latestBlog = edges[0];
     const featuredPost = edges?.find(({node : {frontmatter}}) => frontmatter?.featuredpost);
     return (
-      <section className='feature-section-group' style={{transform:'translateY(2%)'}}>
-        <CategoryTabs edges={this.props?.data?.categories?.edges}/>
+      <section className='feature-section-group blog-section-group'>
         <Row className='initial-section card-row -margin-bottom -row-flex divider col-reverse'
              style={{ alignItems: 'flex-start' }}
              gutter={16}>
@@ -40,7 +38,8 @@ class BlogLanding extends React.Component {
                 </Link>,
               )}
             </div>
-              <h3 className='-font-bold margin-bottom-25 base-text navy-blue base-text'>
+            <p className='para-text blog-date'>{latestBlog?.node?.frontmatter?.date}</p>
+            <h3 className='-font-bold margin-bottom-25 base-text navy-blue base-text'>
                 {latestBlog?.node?.frontmatter?.title}</h3>
             <div className='subtitle base-text navy-blue para-text'>
               {latestBlog?.node?.excerpt}
@@ -71,7 +70,8 @@ class BlogLanding extends React.Component {
                         </Link>,
                       )}
                     </div>
-                      <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
+                    <p className='para-text blog-date'>{frontmatter?.date}</p>
+                    <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
                     <p className='para-text'>{frontmatter.username}</p>
                   </div>
                 </div>
@@ -103,7 +103,8 @@ class BlogLanding extends React.Component {
             )}
             </div>
             <Link to={featuredPost?.node?.fields?.slug}>
-            <h3 className='-font-bold margin-bottom-25 base-text navy-blue base-text'>
+              <p className='para-text blog-date'>{featuredPost?.node?.frontmatter?.date}</p>
+              <h3 className='-font-bold margin-bottom-25 base-text navy-blue base-text'>
               {featuredPost?.node?.frontmatter?.title}</h3>
             <div className='subtitle base-text navy-blue para-text line-clamp-3'>
               {featuredPost?.node?.excerpt}
@@ -125,7 +126,7 @@ class BlogLanding extends React.Component {
                 <Link to={fields?.slug}>
                 <div className='story-content'>
                   <div className='category-tags'>
-                    {frontmatter?.categories?.category?.map(({ title, slug }) =>
+                    {frontmatter?.categories?.category?.slice(0,1).map(({ title, slug }) =>
                       <Link to={`/category/${slug}`}>
                         <p className='para-text'>
                           {title}
@@ -133,7 +134,8 @@ class BlogLanding extends React.Component {
                       </Link>,
                     )}
                   </div>
-                    <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
+                  <p className='para-text blog-date'>{frontmatter?.date}</p>
+                  <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
                   <p className='para-text'>{frontmatter.username}</p>
                 </div>
                 </Link>
@@ -146,57 +148,4 @@ class BlogLanding extends React.Component {
   }
 }
 
-export default (props) => (
-  <StaticQuery
-    query={graphql`
-      query AllBlogs {
-        blogs:allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
-        ) {
-          edges {
-            node {
-              excerpt(pruneLength: 400)
-              id
-              html
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-                templateKey
-                date(formatString: "MMMM DD, YYYY")
-                featuredpost
-                squareimage
-                image
-                username
-                categories {
-                    category {
-                      title
-                      slug
-                    }
-                 }
-              }
-            }
-          }
-        }
-
-        categories: allMarkdownRemark(
-          filter: { frontmatter: { templateKey: { eq: "category-post" } } }
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-              }
-            }
-          }
-        }
-      }
-    `}
-    render={(data, count) => <BlogLanding {...props} data={data} count={count}/>}
-  />
-)
+export default BlogLanding

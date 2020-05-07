@@ -36,12 +36,13 @@ CategoryTemplate.propTypes = {
 }
 
 const Feature = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post,categories } = data
   return (
     <Layout
       show
       hideFooter
       isContentWhite
+      categories = {categories?.edges}
     >
       <CategoryTemplate
         feature={post.frontmatter}
@@ -82,6 +83,20 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         image
+      }
+    }
+    categories: allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "category-post" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
       }
     }
   }

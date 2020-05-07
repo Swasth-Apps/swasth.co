@@ -29,7 +29,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-          bucketName: 'swasth.co'
+          //bucketName: 'swasth.co'
+          bucketName: 'swasth-website'
       },
     },
     'gatsby-transformer-sharp',

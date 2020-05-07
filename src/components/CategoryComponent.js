@@ -2,7 +2,6 @@ import React from 'react'
 import { Col, Row } from 'antd'
 import { graphql, Link, StaticQuery } from 'gatsby'
 import img from '../assets/images/blogImg.png'
-import CategoryTabs from '../components/BreadCrum'
 
 class CategoryComponent extends React.Component {
   constructor(props) {
@@ -16,9 +15,8 @@ class CategoryComponent extends React.Component {
 
     const featuredPost = edges?.find(({node : {frontmatter}}) => frontmatter?.featuredpost);
     return (
-      <section className='feature-section-group blog-section-container' style={{transform:'translateY(8%)'}}>
+      <section className='feature-section-group blog-section-container blog-section-group'>
         {this.props.helmet || ''}
-        <CategoryTabs edges={this.props?.data?.categories?.edges}/>
         <Row md={12}
              className='card-col
               image-col recent-story-container feeds-container
@@ -35,7 +33,7 @@ class CategoryComponent extends React.Component {
                 src={frontmatter?.squareimage}
               />
               <div className='story-content'>
-                <p className='para-text category-text'>{this.props.title}</p>
+                <span className='category-text'>{this.props.title}</span>
                 <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
                 <p className='para-text'>{frontmatter?.username}</p>
               </div>
@@ -165,21 +163,6 @@ export default (props) => (
                       slug
                     }
                  }
-              }
-            }
-          }
-        }
-
-        categories: allMarkdownRemark(
-          filter: { frontmatter: { templateKey: { eq: "category-post" } } }
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                title
               }
             }
           }

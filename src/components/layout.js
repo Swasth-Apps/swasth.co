@@ -7,6 +7,7 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import 'react-multi-carousel/lib/styles.css'
 import { Button, Icon } from 'antd'
+import CategoryTabs from './BreadCrum'
 
 
 class Layout extends React.Component {
@@ -62,12 +63,15 @@ class Layout extends React.Component {
         >
           <Header
             show={this.props.show} isLogoWhite={this.props.isLogoWhite}/>
+          {this.props?.categories ? <CategoryTabs edges={this.props?.categories}/> : null}
           {children}
         </div>
         {/*{this.props.coachingFooter ?*/}
         {/*<CoachingFooter increaseFooterMargin={this.props.increaseFooterMargin}/>*/}
         {/*:*/}
-        <Footer show={this.props.show} hideFooter={this.props.hideFooter} showCustomBottom={this.props.topBg || false}/>
+        <Footer show={this.props.show}
+                hideFooter={this.props.hideFooter}
+                showCustomBottom={this.props.topBg || false}/>
         {/*}*/}
 
         {/*<img src={footerImg}/>*/}

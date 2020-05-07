@@ -1,29 +1,45 @@
 import React from 'react'
-import { Col, Icon, Row } from 'antd'
-import img from '../assets/images/blogImg.png'
-import CategoryTabs from './BreadCrum'
-import { HTMLContent }  from '../components/Content'
+import { Col, Row } from 'antd'
+import sf from '../assets/images/user-icons/sf.jpeg'
+import { HTMLContent } from '../components/Content'
 import { graphql, Link, StaticQuery } from 'gatsby'
-import ShareLink from 'react-facebook-share-link'
+import {
+  FacebookIcon,
+  FacebookShareButton,
+  FacebookShareCount,
+  LinkedinIcon,
+  LinkedinShareButton,
+  RedditIcon,
+  RedditShareButton,
+  RedditShareCount,
+  TwitterIcon,
+  TwitterShareButton,
+} from 'react-share'
+import ShowMoreText from 'react-show-more-text';
 
+const currentPageUrl = typeof window !== 'undefined' ? window.location.href : '';
 
+function getUserIcon(name) {
+  var initials = name.match(/\b\w/g) || [];
+  initials = ((initials.shift() || '') + (initials.pop() || ''));
+  console.log('initials ', initials.toString().toLowerCase());
+  return initials.toString().toLowerCase();
+}
 class BlogComponent extends React.Component {
   constructor(props) {
     super(props)
   }
 
   render() {
-    const { image,title, description, tags,username,featuredpost,categories,relatedpost } = this.props.feature;
+    const { image,title, description, tags,username,featuredpost,categories,relatedpost,date } = this.props.feature;
     let edges = this.props?.data?.blogs?.edges;
     const relatedPosts = [];
     for(var i=0;i< relatedpost?.blog?.length ; i++){
       relatedPosts.push(edges?.find(({node:{fields}}) =>fields.slug === `/blog/${relatedpost?.blog?.[i]?.slug}/` ))
     }
     return (
-      <section className='feature-section-group blog-section-container' style={{transform:'translateY(1%)'}}>
+      <section className='feature-section-group blog-section-container blog-section-group'>
         {this.props.helmet || ''}
-        <CategoryTabs noTop edges={this.props?.data?.categories?.edges}/>
-
         <Row className='initial-section card-row -margin-bottom -row-flex col-reverse blog-section'
              style={{paddingRight:0 }}
              gutter={16}>
@@ -47,9 +63,18 @@ class BlogComponent extends React.Component {
               )}
             </div>
             {/*{categories?.category?.map(({title,slug}) =><span className='category-text'>{title}</span>)}*/}
-            <h2 className='-font-bold margin-bottom-25 base-text base-text'>
+            <p className='para-text blog-date'>{date}</p>
+            <h2 className='-font-bold base-text base-text'>
               {title}</h2>
-            <p className='para-text'>{description}</p>
+            <p className='para-text'>
+            <ShowMoreText
+              /* Default options */
+              lines={3}
+              more='Show more'
+              less='Show less'
+              anchorClass=''
+              expanded={false}
+            > {description}</ShowMoreText></p>
           </Col>
         </Row>
         <Row className='card-row -margin-bottom -row-flex divider col-reverse'
@@ -68,19 +93,43 @@ class BlogComponent extends React.Component {
             </div>
             <div className='blog-user'>
               <div className='user-info para-text'>
-              <img src={img}/>
+              <img src={sf}/>
                 {username}
               </div>
               <div className='social-icons'>
-              <ShareLink link={window.location.href}>
-               {link => (
-                   <a href={link} target='_blank'><Icon type='facebook' />
-                   </a>
-                 )}
-              </ShareLink>
-                <Icon type='twitter' />
-                <Icon type='instagram' />
-              </div>
+                <div className="social-button">
+                    <FacebookShareButton url={currentPageUrl} quote={title} className="social__share-button">
+                      <FacebookIcon size={32} round />
+                    </FacebookShareButton>
+
+                    <div>
+                      <FacebookShareCount url={currentPageUrl} className="social__share-count">
+                        {count => count}
+                      </FacebookShareCount>
+                    </div>
+                </div>
+                <div className="social-button">
+                    <TwitterShareButton url={currentPageUrl} quote={title} className="social__share-button">
+                      <TwitterIcon size={32} round />
+                    </TwitterShareButton>
+                </div>
+                <div className="social-button">
+                    <LinkedinShareButton url={currentPageUrl} quote={title} className="social__share-button">
+                      <LinkedinIcon size={32} round />
+                    </LinkedinShareButton>
+                </div>
+                <div className="social-button">
+                    <RedditShareButton url={currentPageUrl} quote={title} className="social__share-button">
+                      <RedditIcon size={32} round />
+                    </RedditShareButton>
+
+                    <div>
+                      <RedditShareCount url={currentPageUrl} className="social__share-count">
+                        {count => count}
+                      </RedditShareCount>
+                    </div>
+                </div>
+               </div>
             </div>
             <div />
           </Col>
@@ -90,10 +139,13 @@ class BlogComponent extends React.Component {
             <div className='recent-story recent-stories-section'>
               {relatedPosts?.map(({node:{frontmatter,fields}}) =>
               <div className='story'>
+                                  <Link to={fields?.slug}>
+
                 <img
                   alt
-                  src={frontmatter?.image}
+                  src={frontmatter?.squareimage}
                 />
+                </Link>
                 <div className='story-content'>
                   <div className='category-tags'>
                     {frontmatter?.categories?.category?.slice(0,1).map(({title,slug}) =>
@@ -104,8 +156,9 @@ class BlogComponent extends React.Component {
                       </Link>
                     )}
                   </div>
+                  <p className='para-text blog-date'>{frontmatter?.date}</p>
                   <Link to={fields?.slug}>
-                  <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
+                    <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
                   </Link>
                   <p className='para-text'>{frontmatter?.username}</p>
                 </div>
@@ -189,6 +242,7 @@ export default (props) => (
               }
               frontmatter {
                 title
+                description
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
@@ -201,21 +255,6 @@ export default (props) => (
                 title
                 }
                 }
-              }
-            }
-          }
-        }
-
-        categories: allMarkdownRemark(
-          filter: { frontmatter: { templateKey: { eq: "category-post" } } }
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                title
               }
             }
           }

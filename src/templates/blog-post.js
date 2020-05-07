@@ -34,13 +34,14 @@ BlogPostTemplate.propTypes = {
 }
 
 const BlogPost = ({ data = {} }) => {
-  const { markdownRemark: post } = data
-
+  const { markdownRemark: post,categories } = data
+console.log(categories)
   return (
     <Layout
       show
       hideFooter
       isContentWhite
+      categories = {categories?.edges}
     >
       <BlogPostTemplate
         content={post?.html}
@@ -81,6 +82,7 @@ export const pageQuery = graphql`
         title
         image
         username
+        description
         featuredpost
         categories {
           category {
@@ -95,6 +97,20 @@ export const pageQuery = graphql`
           }
         }
         tags
+      }
+    }
+    categories: allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "category-post" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
       }
     }
   }
