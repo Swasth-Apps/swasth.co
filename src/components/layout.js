@@ -46,7 +46,9 @@ class Layout extends React.Component {
         <img
           src={CoachingBG}
           className='home-bg-img coaching-bg-img'/>
-        {this.state.visible ?
+
+        {/* Display extra header  */}
+        {this.state.visible && this.props.extraHeader ?
           <div className="para-text extra-header">
             <p>
               We are offering free premium access to our Clinician Platform during the COVID-19 crisis.
