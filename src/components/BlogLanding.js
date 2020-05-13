@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Row } from 'antd'
 import img from '../assets/images/Image(2).png'
-import { graphql, Link, StaticQuery } from 'gatsby'
+import { Link } from 'gatsby'
 
 class BlogLanding extends React.Component {
   constructor(props) {
@@ -9,9 +9,9 @@ class BlogLanding extends React.Component {
   }
 
   render() {
-    let edges = this.props?.data?.blogs?.edges
-    const latestBlog = edges[0];
-    const featuredPost = edges?.find(({node : {frontmatter}}) => frontmatter?.featuredpost);
+    let blogs = this.props?.data
+    const latestBlog = blogs[0];
+    const featuredPost = blogs?.find(({node : {frontmatter}}) => frontmatter?.featuredpost);
     return (
       <section className='feature-section-group blog-section-group'>
         <Row className='initial-section card-row -margin-bottom -row-flex divider col-reverse'
@@ -47,11 +47,11 @@ class BlogLanding extends React.Component {
             </Link>
 
           </Col>
-          
+
           <Col md={12} className='card-col image-col recent-story-container landing-top-section'>
             <h3 className='base-text navy-blue'>Recent Stories</h3>
             <div className='recent-story recent-stories-section'>
-              {edges?.slice(0, 5)?.map(({ node: { frontmatter, fields } }) =>
+              {blogs?.slice(0, 5)?.map(({ node: { frontmatter, fields } }) =>
                                                     <Link to={fields?.slug}>
 
                 <div className='story'>
@@ -115,7 +115,7 @@ class BlogLanding extends React.Component {
         <Row md={12} className='card-col image-col recent-story-container all-category-section'
              style={{ marginTop: 50 }}>
           <div className='recent-story' style={{ maxHeight: 'unset' }}>
-            {edges?.map(({node : {frontmatter,fields}}) =>
+            {blogs?.map(({node : {frontmatter,fields}}) =>
               <div className='story'>
                 <Link to={fields?.slug}>
                 <img

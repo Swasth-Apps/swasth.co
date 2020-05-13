@@ -15,6 +15,36 @@ exports.createPages = ({ actions, graphql }) => {
 
   return graphql(`
     {
+     blogs:allMarkdownRemark(
+          sort: { order: DESC, fields: [frontmatter___date] }
+          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+        ) {
+          edges {
+            node {
+              excerpt(pruneLength: 400)
+              id
+              html
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                templateKey
+                date(formatString: "MMMM DD, YYYY")
+                featuredpost
+                squareimage
+                image
+                username
+                categories {
+                    category {
+                      title
+                      slug
+                    }
+                 }
+              }
+            }
+          }
+        }
       allMarkdownRemark(limit: 1000) {
         edges {
           node {
@@ -37,6 +67,16 @@ exports.createPages = ({ actions, graphql }) => {
     }
 
     const posts = result.data.allMarkdownRemark.edges
+
+    /******** for Infinite scroll in blog index page starts *********/
+    createPage({
+      path: "/blog",
+      component: path.resolve('src/templates/blog-index.js'),
+      context: {
+        blogList: result.data.blogs.edges,
+      },
+    })
+    /******** for Infinite scroll in blog index page ends *********/
 
     posts.forEach(edge => {
       const id = edge.node.id
