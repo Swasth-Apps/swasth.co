@@ -71,9 +71,12 @@ class Layout extends React.Component {
         {/*{this.props.coachingFooter ?*/}
         {/*<CoachingFooter increaseFooterMargin={this.props.increaseFooterMargin}/>*/}
         {/*:*/}
-        <Footer show={this.props.show}
+        <Footer
+          minFooterHeight={this.props.minFooterHeight}
+          show={this.props.show}
                 hideFooter={this.props.hideFooter}
-                showCustomBottom={this.props.topBg || false}/>
+                showCustomBottom={this.props.topBg || false}
+        />
         {/*}*/}
 
         {/*<img src={footerImg}/>*/}

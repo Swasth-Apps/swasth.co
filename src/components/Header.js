@@ -30,7 +30,7 @@ const Header = (props) => {
                       Clinicians
                     </div>
                   </a>
-                  <a activeClassName='header-nav-active' href="https://lifecoach.swasth.co" target="_blank" className='margin-right-25 header-content'>
+                  <a activeClassName='header-nav-active' href="/coaching" className='margin-right-25 header-content'>
                     <div className={`menu-content`}>
                       Coaching
                     </div>

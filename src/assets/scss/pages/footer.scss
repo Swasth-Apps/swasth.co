@@ -4,16 +4,31 @@
     margin-top: 80px !important;
   }
   }
-#footer {
+
+// Minimum footer height
+/***************/
+#min-footer{
+  @media (max-width: 426px) {
+    height: 600px !important;
+  }
+  @media (min-width: 427px) {
+    height: 430px !important;
+  }
+}
+#footer{
+  @media (max-width: 426px) {
+    height: 700px !important;
+  }
+}
+/******************/
+#footer,#min-footer {
   position: relative;
   background-color: transparent;
   height: 650px;
   overflow: hidden;
   display: flex;
   align-items: flex-end;
-  @media (max-width: 426px) {
-    height: 700px !important;
-  }
+
 
   .footer-widgets-wrap {
     position: relative;
@@ -35,6 +50,7 @@
     z-index: -1;
   }
 }
+
 .coaching-footer{
   //margin-top: -10px !important;
   height: auto !important;
