@@ -112,9 +112,11 @@ class BlogLanding extends React.Component {
             </Link>
           </Col>
         </Row> : null}
-        <Row md={12} className='card-col image-col recent-story-container all-category-section'
+        <Row
+          md={12}
+             className='card-col image-col recent-story-container all-category-section'
              style={{ marginTop: 50 }}>
-          <div className='recent-story' style={{ maxHeight: 'unset' }}>
+          <div id='all_posts' className='recent-story' style={{ maxHeight: 'unset' }}>
             {blogs?.map(({node : {frontmatter,fields}}) =>
               <div className='story'>
                 <Link to={fields?.slug}>
@@ -131,7 +133,7 @@ class BlogLanding extends React.Component {
                         <p className='para-text'>
                           {title}
                         </p>
-                      </Link>,
+                      </Link>
                     )}
                   </div>
                   <p className='para-text blog-date'>{frontmatter?.date}</p>

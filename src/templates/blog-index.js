@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Blogs from '../components/BlogLanding'
 import { graphql, StaticQuery } from 'gatsby'
+import { initialBlogsCount } from '../helper/helper'
 
 
 class BlogIndex extends React.Component {
@@ -10,9 +11,9 @@ class BlogIndex extends React.Component {
     const { blogList } = props.pageContext
     super(props);
     this.state ={
-      blogs: blogList.slice(0, 2),
+      blogs: blogList.slice(0, initialBlogsCount),
       active: 0,
-      hasMore: blogList.length > 2,
+      hasMore: blogList.length > initialBlogsCount,
       blogLength: blogList?.length
     }
   }
@@ -26,8 +27,7 @@ class BlogIndex extends React.Component {
     const currentLength = blogs.length
     const more = currentLength < blogLength
     const nextBlogs = more ?
-      this.props.pageContext.blogList.slice(currentLength, currentLength + 2) : []
-    console.log(nextBlogs,currentLength)
+      this.props.pageContext.blogList.slice(currentLength, currentLength + initialBlogsCount) : []
     this.setState({
       hasMore: more,
       blogs:[...blogs, ...nextBlogs]
@@ -37,10 +37,9 @@ class BlogIndex extends React.Component {
   handleScroll = () => {
     const { hasMore } = this.state;
     if ( !hasMore ) return;
-    if ( window && (
-      window.innerHeight +
-      document.documentElement.scrollTop >= document.documentElement.offsetHeight
-    )){
+    const element = document.querySelector('#all_posts');
+    const rect = element && element.getBoundingClientRect();
+    if (rect.bottom + rect.height < document.documentElement.scrollTop){
       this.loadBlogs()
     }
   }
@@ -64,37 +63,6 @@ export default (props) => (
   <StaticQuery
     query={graphql`
       query AllBlogs {
-        blogs:allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
-        ) {
-          edges {
-            node {
-              excerpt(pruneLength: 400)
-              id
-              html
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-                templateKey
-                date(formatString: "MMMM DD, YYYY")
-                featuredpost
-                squareimage
-                image
-                username
-                categories {
-                    category {
-                      title
-                      slug
-                    }
-                 }
-              }
-            }
-          }
-        }
-
         categories: allMarkdownRemark(
           filter: { frontmatter: { templateKey: { eq: "category-post" } } }
         ) {

@@ -117,3 +117,5 @@ export const lifeCoach=[
     comment:'Life Coaching with Michele changed my life. I was at a standstill for over 10 years working a Corporate job I didnt like. After 1 month of working with her I found a school to attend, my confidence increased in making a decision and I was able to move forward. I ended taking the package from Corporate and now I have the job of my dreams. I am a Holistic Health Counselor. I see clients privately and I do cooking classes and seminars. I never imagined what working with Michele would have done. A great experience but also a necessary one to make things happen in my life. I cannot thank her enough.    '
   }
 ]
+
+export const initialBlogsCount = 6;
