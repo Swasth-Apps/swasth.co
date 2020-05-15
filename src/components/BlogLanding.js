@@ -10,7 +10,7 @@ class BlogLanding extends React.Component {
 
   render() {
     let blogs = this.props?.data
-    const latestBlog = blogs[0];
+    const latestBlog = blogs?.[0];
     const featuredPost = blogs?.find(({node : {frontmatter}}) => frontmatter?.featuredpost);
     return (
       <section className='feature-section-group blog-section-group'>
