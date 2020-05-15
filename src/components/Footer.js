@@ -7,8 +7,8 @@ import { Col, Row } from 'antd'
 
 const Footer = (props) => (
   <footer
-    id={props.minFooterHeight ? 'min-footer' : 'footer'}
-    style={props.hideFooter ? { height: 550 } : null}
+    id={props.hideFooter ? 'min-footer' : 'footer'}
+    // style={props.hideFooter ? { height: 550 } : null}
   >
     <div className="inner">
       {!props.hideFooter ?
