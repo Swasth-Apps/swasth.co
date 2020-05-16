@@ -9,5 +9,6 @@ description: Attention-deficit/hyperactivity disorder (previously known as
   disorder, with estimates of its prevalence in children ranging from 5 to 11
   percent. This covers topics about ADHD, what it affects and helpful resources
   to cope with it.
+parent: Mental Health
 image: /img/adhd.jpg
 ---
