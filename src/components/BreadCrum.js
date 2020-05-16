@@ -14,22 +14,27 @@ class CategoryTabs extends React.Component {
     return navigate(e)
   }
 
-  content = (parents = {}) =>
-    <div className='breadcrum-more-content'>
-      {Object.entries(parents)?.map(([key,val]) =>(
-      <div className='parent-container'>
-        <h3>{key}</h3>
-        <ul>
-          {val?.map(value => <li onClick={() => this.handleChange(value.slug)}><a>{value.title}</a></li>)}
-        </ul>
-      </div>))}
-    </div>
+  content = (parents = {},location) =>{
+    const selectedPath = location?.location.pathname.slice(-1) === '/' ? location?.location.pathname : `${location?.location.pathname}/`
+    return(
+      <div className='breadcrum-more-content'>
+        {Object.entries(parents)?.map(([key,val]) =>(
+          <div className='parent-container'>
+            <h3>{key}</h3>
+            <ul>
+              {val?.map(value => <li className={value?.fields?.slug === selectedPath ? 'active-breadcrum' : ''} onClick={() => this.handleChange(value?.fields?.slug)}><a>{value.title}</a></li>)}
+            </ul>
+          </div>))}
+      </div>
+    )
+  }
+
 
 
   render() {
     const { edges } = this.props;
     /****** Grouping Categories by their parents *****/
-    let parents = edges?.map(({node:{frontmatter}}) => ({...frontmatter}))
+    let parents = edges?.map(({node:{frontmatter,fields}}) => ({...frontmatter,fields}))
       parents = parents?.reduce((r, a) => {
       if(a.parent) {
         r[a.parent] = [...r[a.parent] || [], a];
@@ -46,7 +51,7 @@ class CategoryTabs extends React.Component {
             activeKey={location?.location.pathname.slice(-1) === '/' ? location?.location.pathname : `${location?.location.pathname}/`}
             tabBarExtraContent={<div className='breadcrum-more'>
               <Popover
-                content={this.content(parents)}
+                content={this.content(parents,location)}
                 overlayClassName='breadcrum-more-overlay'
                 placement='bottomLeft'
               >

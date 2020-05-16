@@ -1802,6 +1802,12 @@ strong {
         }
       }
     }
+    .active-breadcrum{
+      color: _palette(primary-purple);
+      a:hover{
+        color: _palette(primary-purple) !important;
+      }
+    }
 
     @media screen and (max-width: 1024px) {
       flex: 0 0 33%;
