@@ -72,7 +72,9 @@ export default (props) => (
                 slug
               }
               frontmatter {
-                title
+              parent
+              featuredpost
+              title
               }
             }
           }

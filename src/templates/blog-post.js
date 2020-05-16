@@ -107,6 +107,8 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
+            parent
+            featuredpost
             title
           }
         }

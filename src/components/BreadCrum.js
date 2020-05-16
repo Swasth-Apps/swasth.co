@@ -14,53 +14,29 @@ class CategoryTabs extends React.Component {
     return navigate(e)
   }
 
-  content = () =>(
+  content = (parents = {}) =>
     <div className='breadcrum-more-content'>
+      {Object.entries(parents)?.map(([key,val]) =>(
       <div className='parent-container'>
-        <h3>Parent</h3>
+        <h3>{key}</h3>
         <ul>
-          <li><a>child 1</a></li>
-          <li><a>child 2</a></li>
-          <li><a>child 2</a></li>
+          {val?.map(value => <li onClick={() => this.handleChange(value.slug)}><a>{value.title}</a></li>)}
         </ul>
-      </div>
-      <div className='parent-container'>
-        <h3>Parent</h3>
-        <ul>
-          <li><a>child 1</a></li>
-          <li><a>child 2</a></li>
-          <li><a>child 2</a></li>
-        </ul>
-      </div>
-      <div className='parent-container'>
-        <h3>Parent</h3>
-        <ul>
-          <li><a>child 1</a></li>
-          <li><a>child 2</a></li>
-          <li><a>child 2</a></li>
-        </ul>
-      </div>
-      <div className='parent-container'>
-        <h3>Parent</h3>
-        <ul>
-          <li><a>child 1</a></li>
-          <li><a>child 2</a></li>
-          <li><a>child 2</a></li>
-        </ul>
-      </div>
-      <div className='parent-container'>
-        <h3>Parent</h3>
-        <ul>
-          <li><a>child 1</a></li>
-          <li><a>child 2</a></li>
-          <li><a>child 2</a></li>
-        </ul>
-      </div>
+      </div>))}
     </div>
-  )
+
 
   render() {
     const { edges } = this.props;
+    /****** Grouping Categories by their parents *****/
+    let parents = edges?.map(({node:{frontmatter}}) => ({...frontmatter}))
+      parents = parents?.reduce((r, a) => {
+      if(a.parent) {
+        r[a.parent] = [...r[a.parent] || [], a];
+      }
+      return r
+    }, {});
+    /***************/
     return (
       <Location>
         {location =>
@@ -70,11 +46,11 @@ class CategoryTabs extends React.Component {
             activeKey={location?.location.pathname.slice(-1) === '/' ? location?.location.pathname : `${location?.location.pathname}/`}
             tabBarExtraContent={<div className='breadcrum-more'>
               <Popover
-                content={this.content()}
+                content={this.content(parents)}
                 overlayClassName='breadcrum-more-overlay'
                 placement='bottomLeft'
               >
-              <a className='para-text'>Get More</a>
+              <a className='para-text'>More</a>
               </Popover>
             </div>}
           >
