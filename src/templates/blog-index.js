@@ -73,7 +73,7 @@ export default (props) => (
               }
               frontmatter {
               parent
-              featuredpost
+              featuredcategory
               title
               }
             }

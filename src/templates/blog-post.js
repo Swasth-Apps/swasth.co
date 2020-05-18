@@ -108,7 +108,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             parent
-            featuredpost
+            featuredcategory
             title
           }
         }

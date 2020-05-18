@@ -32,7 +32,7 @@ class CategoryTabs extends React.Component {
 
 
   render() {
-    const { edges } = this.props;
+    let { edges } = this.props;
     /****** Grouping Categories by their parents *****/
     let parents = edges?.map(({node:{frontmatter,fields}}) => ({...frontmatter,fields}))
       parents = parents?.reduce((r, a) => {
@@ -42,6 +42,7 @@ class CategoryTabs extends React.Component {
       return r
     }, {});
     /***************/
+    edges = edges?.filter(({node:{frontmatter}}) => frontmatter.featuredcategory);
     return (
       <Location>
         {location =>
