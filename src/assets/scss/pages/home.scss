@@ -1783,7 +1783,7 @@ strong {
 
       li {
         font-family: 'Apercu regular', Helvetica;
-        color: #5c5c5c;
+        color: darken(_palette(primary-purple), 10%);
         padding-left: 0;
         font-size: 16px;
         font-weight: bold;
@@ -1791,12 +1791,13 @@ strong {
         margin-bottom: 0px;
 
         &:hover {
+          color: darken(_palette(primary-purple), 15%);
           line-height: 1.6rem;
           border-bottom: 1px solid;
         }
 
         a:hover {
-          color: darken(#5c5c5c, 10%) !important;
+          color: darken(_palette(primary-purple), 15%) !important;
         }
       }
     }
