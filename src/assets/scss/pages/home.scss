@@ -1802,9 +1802,9 @@ strong {
       }
     }
     .active-breadcrum{
-      color: _palette(primary-purple);
+      color: darken(_palette(primary-blue), 10%);
       a:hover{
-        color: _palette(primary-purple) !important;
+        color: darken(_palette(primary-blue), 10%) !important;
       }
     }
 

@@ -74,9 +74,9 @@ const Header = (props) => {
               <a href="/blog">
                 <div className="menu-content">Blog</div>
               </a>
-              <a href="/download">
-                <div className="menu-content">Download App</div>
-              </a>
+              {/*<a href="/download">*/}
+                {/*<div className="menu-content">Download App</div>*/}
+              {/*</a>*/}
             </div> : ''
         }
     </>
