@@ -52,7 +52,7 @@ const Footer = (props) => (
                   <li><a href="/dbt-coach">DBT Coach</a></li>
                   <li><a href="/cbt-companion">CBT Companion</a></li>
                   <li><a href="/act-coach">ACT Coach</a></li>
-                  <li><a href="/dbt-daily">DBT Daily</a></li>
+                  {/*<li><a href="/dbt-daily">DBT Daily</a></li>*/}
                   <li></li>
                   <li><a href="https://findclinician.swasth.co">Find Provider</a></li>
 
