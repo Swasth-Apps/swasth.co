@@ -13,8 +13,14 @@ categories:
   category:
     - title: Tech
       slug: tech
-    - title: DBT
-      slug: holistic-health-approach
+    - title: Dialectical Behavior Therapy
+      slug: dialectical-behavior-therapy-dbt
+    - title: Evidence Based Therapy
+      slug: evidence-based-therapy
+relatedpost:
+  blog:
+    - slug: what-is-dialectical-behavior-therapy
+      title: What is Dialectical Behavior Therapy?
 tags:
   - DBT
   - Tech
