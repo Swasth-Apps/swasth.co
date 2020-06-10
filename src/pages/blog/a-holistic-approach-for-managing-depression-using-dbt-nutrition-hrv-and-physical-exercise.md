@@ -7,7 +7,7 @@ date: 2020-06-10T18:31:48.800Z
 description: A post on how to use a smart-phone based intervention for
   depression using DBT, Nutrition, HRV and Physical Exercise.
 featuredpost: true
-image: /img/holistic-health-4.jpg
+image: /img/holistic-health-4-blue.jpg
 squareimage: /img/evidence-based.png
 categories:
   category:
