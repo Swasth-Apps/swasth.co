@@ -41,8 +41,6 @@ Depression is a common mental health disorder and one of the leading causes of d
 
 ![](/img/depression.jpg)
 
-
-
 Although there are several pharmacological treatments for depression, we will focus on psychological interventions in this article.
 
 ### DBT
@@ -51,13 +49,9 @@ Across studies, paying attention to and analyzing one's emotions has been found 
 
 ![](/img/dbt.png)
 
-
-
 ### **Nutrition**
 
 Modifying nutrition factors can be a promising intervention target for mental health. Recent researchs suggests a potential role of nutrition in the development, course, and treatment of depression, whereas present depressive symptoms may also predict the development of an unhealthy lifestyle including poor diet quality.  Data supports the hypothesis that high dietary quality is associated with good emotional well-being. This association was particularly evident among females and non-obese middle-aged adults, following adjustments for confounding factors\[8]. 
-
-
 
 ![](/img/nutrition.jpg)
 
@@ -69,8 +63,6 @@ Reductions in HRV, specifically in HF variability (parasympathetic modulation), 
 
 ![](/img/hrv.png)
 
-
-
 The measurement of HRV allows to assess non-invasively parasympathetic influences and sympathovagal balance at the level of the heart. The available literature indicates that decreased HRV is a valuable marker of cardiovascular morbidity and mortality risk. However, it appears that lowered HRV is tightly linked also with other physical dysfunctions and with a number of psychopathological conditions \[9].
 
 ### **Physical Exercise**
@@ -78,8 +70,6 @@ The measurement of HRV allows to assess non-invasively parasympathetic influence
 Throughout history, individuals have noted the mental benefits of exercise and physical activity. Reduction in physical activity over time was also found to be predictive of an increased risk for developing depression. There are numerous challenges that must be overcome before exercise can be used as a treatment in real- world settings. there is substantial evidence supporting exercise use in the treatment of mental disorders, especially depression; however, this research has yet to make an impact on clinical practice\[10].
 
 ![Dialectical Behavior Therapy](/img/exercise.jpg "dialectical-behavior-therapy-dbt")
-
-
 
 ## Approach
 
@@ -89,15 +79,11 @@ We could then assess improvements in depression during the course as well as end
 
 ![](/img/assessments.png)
 
-
-
 ## DBT Coach App
 
 We have developed a smart phone app (available both on iOS and Android platforms) called [DBT Coach](https://www.swasth.co/dbt-coach/). 
 
 ![](/img/dbt-coach-app.png)
-
-
 
 The app enables:
 
@@ -108,8 +94,9 @@ The app enables:
 * Clients to perform breathing exercises (and import HRV entries)
 * Integrates with Apple Health, Fitbit and GoogleFit 
 
-Using advanced AI techniques, DBT Coach suggests skills that best work in a particular situation given the context.
+Using advanced AI techniques, DBT Coach extracts important pieces of context from exercise and journal entries and suggests skills that best work in a particular situation given the context.
 
+\
 If you are a clinician interested in a Behavioral Health Platform built for Evidence-Based treatment approaches please contact us at info@swasth.co.
 
 ## References
