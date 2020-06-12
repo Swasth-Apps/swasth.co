@@ -97,6 +97,6 @@
 @font-face {
     font-family: 'Swasth-font';
     font-style: normal;
-    font-weight: normal;
-    src: local('Swasth-font'), url('CharterNormal.ttf') format('truetype');
+    font-weight: lighter;
+    src: local('Swasth-font'), url('CharterITCRegular.ttf') format('truetype');
 }
