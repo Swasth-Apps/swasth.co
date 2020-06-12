@@ -81,7 +81,7 @@ class BlogComponent extends React.Component {
              style={{ alignItems:'flex-start', }}
              gutter={16}>
           <Col md={relatedPosts?.length ? 12 : 24} className='card-col -margin-right -margin-bottom'>
-            <div className='subtitle base-text navy-blue para-text'>
+            <div className='subtitle navy-blue blogs-fonts'>
               <HTMLContent className='blog-content' content={this.props.content} />
             </div>
             <div className='blog-tags'>

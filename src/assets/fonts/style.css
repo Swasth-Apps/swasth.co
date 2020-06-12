@@ -93,3 +93,10 @@
     font-weight: normal;
     src: local('Publico Text Web Regular'), url('PublicoTextWebRegular.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Swasth-font';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Swasth-font'), url('CharterNormal.ttf') format('truetype');
+}

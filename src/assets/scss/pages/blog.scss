@@ -9,6 +9,35 @@
 }
 
 
+// Swasth font
+.blogs-fonts{
+  p,div,h2,h3,li {
+    font-family: 'Swasth-font', Helvetica;
+  }
+  p,div,li{
+    letter-spacing: 0.05px;
+    font-size: 20px;
+  }
+  h2,h3,h4,p{
+    margin-bottom: 10px;
+  }
+  h2,h3,h4{
+    margin-top: 24px;
+    font-family: 'Apercu regular', Helvetica;
+  }
+  h3{
+    font-size: 30px;
+  }
+  strong{
+    font-weight: 400 !important;
+  }
+  h2:first-child{
+    margin-top: 0;
+  }
+
+}
+
+
 .navy-blue{
   color: #032230;
 }

@@ -1783,10 +1783,10 @@ strong {
 
       li {
         font-family: 'Apercu regular', Helvetica;
-        color: darken(_palette(primary-purple), 10%);
+        color: _palette(secondary-color);
         padding-left: 0;
         font-size: 16px;
-        font-weight: bold;
+        //font-weight: bold;
         width: fit-content;
         margin-bottom: 0px;
 
@@ -1882,7 +1882,7 @@ strong {
     padding: 0 5px;
     margin-left: 0 !important;
     color: _palette(secondary-color) !important;
-    font-weight: bold;
+    //font-weight: bold;
     margin-bottom: 0px;
   }
 
