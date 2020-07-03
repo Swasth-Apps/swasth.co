@@ -8,5 +8,7 @@ description: >+
   Personality Disorder (BPD), PTSD, Substance Use Disorder, Eating Disorders,
   Bipolar disorder etc.
 
+parent: Mental Health
+featuredcategory: true
 image: /img/yinyang.jpg
 ---
