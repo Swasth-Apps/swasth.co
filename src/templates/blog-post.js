@@ -14,10 +14,15 @@ export const BlogPostTemplatePreview = ({
   contentComponent,
   title,
   helmet,
+  isComponent = false
 }) => {
   const PostContent = contentComponent || Content
   const { image,title, description, tags,featuredpost,categories,date } = feature;
-  return (
+  return (isComponent ?  <BlogComponent
+        hemet={helmet}
+        content={content}
+        feature={feature}
+      /> :
     <section className='feature-section-group blog-section-container blog-section-group'>
       {this.props.helmet || ''}
       <Row className='initial-section card-row -margin-bottom -row-flex col-reverse blog-section'
@@ -114,10 +119,11 @@ const BlogPost = ({ data = {} }) => {
       isContentWhite
       categories = {categories?.edges}
     >
-      <BlogPostTemplate
+      <BlogPostTemplatePreview
         content={post?.html}
         feature={post.frontmatter}
         contentComponent={HTMLContent}
+        isComponent
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post?.frontmatter?.title}`}</title>
