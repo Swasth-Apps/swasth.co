@@ -1,11 +1,11 @@
 import React from 'react'
-import { BlogPostTemplatePreview } from '../../templates/blog-post'
+import {BlogPostTemplate} from '../../templates/blog-post'
 import Helmet from './CategoryPagePreview'
 
 const BlogPostPreview = ({ entry, widgetFor }) => {
   const data = entry.getIn(['data']).toJS()
   return (
-    <BlogPostTemplatePreview
+    <BlogPostTemplate
       content={widgetFor('body')}
       feature={data}
       helmet={
