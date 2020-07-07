@@ -1567,14 +1567,14 @@ strong {
       }
 
       .social-button {
-        vertical-align: top;
+        vertical-align: middle;
         display: inline-block;
         margin-right: 10px;
         text-align: center;
       }
 
       .social__share-count {
-        display: inline-flex;
+        display: none;
         justify-content: center;
         white-space: nowrap;
         overflow: visible;
