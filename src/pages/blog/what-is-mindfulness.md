@@ -4,7 +4,7 @@ categoryname: Mindfulness
 categoryslug: mindfulness
 title: What is Mindfulness?
 username: Sara Ferguson
-date: 2017-04-30T15:40:00.000Z
+date: April 30, 2017
 description: Mindfulness is the basic human ability to be fully present, aware
   of where we are and what we’re doing, and not overly reactive or overwhelmed
   by what’s going on around us.
