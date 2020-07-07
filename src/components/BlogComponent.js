@@ -22,7 +22,6 @@ const currentPageUrl = typeof window !== 'undefined' ? window.location.href : ''
 function getUserIcon(name) {
   var initials = name.match(/\b\w/g) || [];
   initials = ((initials.shift() || '') + (initials.pop() || ''));
-  console.log('initials ', initials.toString().toLowerCase());
   return initials.toString().toLowerCase();
 }
 class BlogComponent extends React.Component {
@@ -33,6 +32,7 @@ class BlogComponent extends React.Component {
   render() {
     const { image,title, description, tags,username,featuredpost,categories,relatedpost,date } = this.props.feature;
     let edges = this.props?.data?.blogs?.edges;
+    const { PostContent } = this.props;
     const relatedPosts = [];
     for(var i=0;i< relatedpost?.blog?.length ; i++){
       relatedPosts.push(edges?.find(({node:{fields}}) =>fields.slug === `/blog/${relatedpost?.blog?.[i]?.slug}/` ))
@@ -82,7 +82,7 @@ class BlogComponent extends React.Component {
              gutter={16}>
           <Col md={relatedPosts?.length ? 12 : 24} className='card-col -margin-right -margin-bottom'>
             <div className='subtitle navy-blue blogs-fonts'>
-              <HTMLContent className='blog-content' content={this.props.content} />
+              <PostContent className='blog-content' content={this.props.content} />
             </div>
             <div className='blog-tags'>
               {tags?.map(tag =>

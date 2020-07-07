@@ -18,6 +18,7 @@ export const BlogPostTemplate = ({
   return (<BlogComponent
         hemet={helmet}
         content={content}
+        PostContent={PostContent}
         feature={feature}
       />
   )
