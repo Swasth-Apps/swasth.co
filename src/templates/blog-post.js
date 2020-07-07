@@ -13,14 +13,16 @@ export const BlogPostTemplate = ({
   contentComponent,
   title,
   helmet,
-}) => {
+  isComponent
+  }) => {
   const PostContent = contentComponent || Content;
   return (<BlogComponent
         hemet={helmet}
         content={content}
         PostContent={PostContent}
         feature={feature}
-      />
+        isComponent={isComponent}
+    />
   )
 }
 

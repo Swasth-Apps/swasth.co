@@ -1,7 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'antd'
 import sf from '../assets/images/user-icons/sf.jpeg'
-import { HTMLContent } from '../components/Content'
 import { graphql, Link, StaticQuery } from 'gatsby'
 import {
   FacebookIcon,
@@ -15,7 +14,7 @@ import {
   TwitterIcon,
   TwitterShareButton,
 } from 'react-share'
-import ShowMoreText from 'react-show-more-text';
+import ShowMoreText from 'react-show-more-text'
 
 const currentPageUrl = typeof window !== 'undefined' ? window.location.href : '';
 
@@ -34,8 +33,10 @@ class BlogComponent extends React.Component {
     let edges = this.props?.data?.blogs?.edges;
     const { PostContent } = this.props;
     const relatedPosts = [];
-    for(var i=0;i< relatedpost?.blog?.length ; i++){
-      relatedPosts.push(edges?.find(({node:{fields}}) =>fields.slug === `/blog/${relatedpost?.blog?.[i]?.slug}/` ))
+    if(this.props.isComponent) {
+      for (let i = 0; i < relatedpost?.blog?.length; i++) {
+        relatedPosts.push(edges?.find(({ node: { fields } }) => fields.slug === `/blog/${relatedpost?.blog?.[i]?.slug}/`))
+      }
     }
     return (
       <section className='feature-section-group blog-section-container blog-section-group'>
