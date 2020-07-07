@@ -30,7 +30,7 @@ exports.createPages = ({ actions, graphql }) => {
               frontmatter {
                 title
                 templateKey
-                date(formatString: "MMMM DD, YYYY")
+                date
                 featuredpost
                 squareimage
                 image
