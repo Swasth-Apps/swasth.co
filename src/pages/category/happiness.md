@@ -1,7 +1,7 @@
 ---
 templateKey: category-post
 title: Happiness
-date: 2020-05-16T17:49:35.925Z
+date: May 16, 2020
 description: Posts about Happiness
 parent: Personal Growth
 featuredcategory: true
