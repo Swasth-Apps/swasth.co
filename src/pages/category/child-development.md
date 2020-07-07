@@ -1,7 +1,7 @@
 ---
 templateKey: category-post
 title: Child Development
-date: 2020-05-16T17:51:20.072Z
+date: May 16, 2020
 description: Posts about child development
 parent: Family
 featuredcategory: true
