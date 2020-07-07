@@ -30,8 +30,9 @@ class BlogComponent extends React.Component {
 
   render() {
     const { image,title, description, tags,username,featuredpost,categories,relatedpost,date } = this.props.feature;
-    let edges = this.props?.data?.blogs?.edges;
     const { PostContent } = this.props;
+    let edges = this.props?.data?.blogs?.edges;
+    edges = edges?.sort((a,b) => new Date(a.node.frontmatter.date) > new Date(b.node.frontmatter.date))
     const relatedPosts = [];
     if(this.props.isComponent) {
       for (let i = 0; i < relatedpost?.blog?.length; i++) {
