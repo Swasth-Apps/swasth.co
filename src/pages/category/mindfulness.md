@@ -1,7 +1,8 @@
 ---
 templateKey: category-post
 title: Mindfulness
-date: 2017-01-06T21:30:00.000Z
+date: January 06, 2017
 description: A category that consists of all mindfulness related posts
+parent: Personal Growth
 image: /img/mindfulness.jpeg
 ---
