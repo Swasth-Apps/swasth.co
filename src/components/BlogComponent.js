@@ -245,7 +245,7 @@ export default (props) => (
                 title
                 description
                 templateKey
-                date(formatString: "MMMM DD, YYYY")
+                date
                 featuredpost
                 image
                 squareimage
