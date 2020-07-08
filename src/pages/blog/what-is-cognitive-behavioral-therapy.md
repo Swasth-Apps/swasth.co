@@ -4,7 +4,7 @@ categoryname: Cognitive Behavioral Therapy
 categoryslug: cognitive-behavioral-therapy
 title: What is Cognitive Behavioral Therapy?
 username: Sara Ferguson
-date: April 30, 2018
+date: 2018-04-30
 description: Cognitive behavioral therapy (CBT) is a form of psychological
   treatment that has been demonstrated to be effective for a range of problems
   including depression, anxiety disorders, alcohol and drug use problems,

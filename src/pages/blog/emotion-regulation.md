@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Emotion Regulation
 username: Sara Ferguson
-date: July 03, 2017
+date: 2017-07-03
 description: >+
   Emotion regulation is a dialectical behavior therapy (DBT) skill to help us
   understand the function of emotions, the action urge that accompanies each

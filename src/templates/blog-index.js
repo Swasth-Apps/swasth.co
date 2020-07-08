@@ -9,7 +9,7 @@ class BlogIndex extends React.Component {
 
   constructor(props) {
     let { blogList } = props.pageContext
-    blogList = blogList?.sort((a,b) => new Date(a.node.frontmatter.date) > new Date(b.node.frontmatter.date))
+    // blogList = blogList?.sort((a,b) => new Date(a.node.frontmatter.date) > new Date(b.node.frontmatter.date))
     super(props);
     this.state ={
       blogs: blogList.slice(0, initialBlogsCount),

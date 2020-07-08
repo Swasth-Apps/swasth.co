@@ -1,7 +1,7 @@
 ---
 templateKey: category-post
 title: CBT
-date: January 06, 2017
+date: 2017-01-06
 description: "CBT (Cognitive behavioral therapy): often short term form of
   psychotherapy originally designed to treat depression, but is now used for a
   variety of mental roadblocks. This is a place where CBT experiences, articles

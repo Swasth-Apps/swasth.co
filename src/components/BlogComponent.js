@@ -15,6 +15,7 @@ import {
   TwitterShareButton,
 } from 'react-share'
 import ShowMoreText from 'react-show-more-text'
+import moment from 'moment'
 
 const currentPageUrl = typeof window !== 'undefined' ? window.location.href : '';
 
@@ -32,7 +33,7 @@ class BlogComponent extends React.Component {
     const { image,title, description, tags,username,featuredpost,categories,relatedpost,date } = this.props.feature;
     const { PostContent } = this.props;
     let edges = this.props?.data?.blogs?.edges;
-    edges = edges?.sort((a,b) => new Date(a.node.frontmatter.date) > new Date(b.node.frontmatter.date))
+    // edges = edges?.sort((a,b) => new Date(a.node.frontmatter.date) > new Date(b.node.frontmatter.date))
     const relatedPosts = [];
     if(this.props.isComponent) {
       for (let i = 0; i < relatedpost?.blog?.length; i++) {
@@ -65,7 +66,7 @@ class BlogComponent extends React.Component {
               )}
             </div>
             {/*{categories?.category?.map(({title,slug}) =><span className='category-text'>{title}</span>)}*/}
-            <p className='para-text blog-date'>{date}</p>
+            <p className='para-text blog-date'>{moment(date).format("MMMM DD, YYYY")}</p>
             <h2 className='-font-bold base-text base-text'>
               {title}</h2>
             <p className='para-text'>
@@ -158,7 +159,7 @@ class BlogComponent extends React.Component {
                       </Link>
                     )}
                   </div>
-                  <p className='para-text blog-date'>{frontmatter?.date}</p>
+                  <p className='para-text blog-date'>{moment(frontmatter?.date).format("MMMM DD, YYYY")}</p>
                   <Link to={fields?.slug}>
                     <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
                   </Link>

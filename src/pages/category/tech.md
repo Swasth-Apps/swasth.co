@@ -1,7 +1,7 @@
 ---
 templateKey: category-post
 title: Tech
-date: January 05, 2020
+date: 2020-01-05
 description: Information with respect to incorporating technology in Mental
   Health. Topics to include Clinician platform, Notes and Billing, emerging
   technologies in mental health, EHR, Client Engagement etc.

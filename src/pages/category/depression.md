@@ -1,7 +1,7 @@
 ---
 templateKey: category-post
 title: Depression
-date: February 21, 2017
+date: 2017-02-21
 description: Sara Ferguson
 parent: Mental Health
 image: /img/depression.jpeg

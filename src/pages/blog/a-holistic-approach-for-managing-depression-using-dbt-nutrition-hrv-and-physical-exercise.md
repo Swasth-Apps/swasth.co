@@ -3,7 +3,7 @@ templateKey: blog-post
 title: A holistic approach for managing Depression using DBT, Nutrition, HRV,
   Physical Exercise and Sleep
 username: Gana Pemmanda
-date: June 10, 2020
+date: 2020-06-10
 description: An approach towards using smart-phone based intervention for
   depression using DBT, Nutrition, HRV, Physical Exercise and Sleep
 featuredpost: true

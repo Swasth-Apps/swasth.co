@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Row } from 'antd'
 import img from '../assets/images/Image(2).png'
 import { Link } from 'gatsby'
+import moment from "moment";
 
 class BlogLanding extends React.Component {
   constructor(props) {
@@ -38,7 +39,9 @@ class BlogLanding extends React.Component {
                 </Link>,
               )}
             </div>
-            <p className='para-text blog-date'>{latestBlog?.node?.frontmatter?.date}</p>
+            <p className='para-text blog-date'>
+              {moment(latestBlog?.node?.frontmatter?.date).format("MMMM DD, YYYY")}
+            </p>
             <h3 className='-font-bold margin-bottom-25 base-text navy-blue base-text'>
                 {latestBlog?.node?.frontmatter?.title}</h3>
             <div className='subtitle base-text navy-blue para-text'>
@@ -70,7 +73,7 @@ class BlogLanding extends React.Component {
                         </Link>,
                       )}
                     </div>
-                    <p className='para-text blog-date'>{frontmatter?.date}</p>
+                    <p className='para-text blog-date'>{moment(frontmatter?.date).format("MMMM DD, YYYY")}</p>
                     <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
                     <p className='para-text'>{frontmatter.username}</p>
                   </div>
@@ -103,7 +106,9 @@ class BlogLanding extends React.Component {
             )}
             </div>
             <Link to={featuredPost?.node?.fields?.slug}>
-              <p className='para-text blog-date'>{featuredPost?.node?.frontmatter?.date}</p>
+              <p className='para-text blog-date'>
+                {moment(featuredPost?.node?.frontmatter?.date).format("MMMM DD, YYYY")}
+              </p>
               <h3 className='-font-bold margin-bottom-25 base-text navy-blue base-text'>
               {featuredPost?.node?.frontmatter?.title}</h3>
             <div className='subtitle base-text navy-blue para-text line-clamp-3'>
@@ -136,7 +141,7 @@ class BlogLanding extends React.Component {
                       </Link>
                     )}
                   </div>
-                  <p className='para-text blog-date'>{frontmatter?.date}</p>
+                  <p className='para-text blog-date'>{moment(frontmatter?.date).format("MMMM DD, YYYY")}</p>
                   <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
                   <p className='para-text'>{frontmatter.username}</p>
                 </div>

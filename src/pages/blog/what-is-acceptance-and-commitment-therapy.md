@@ -4,7 +4,7 @@ categoryname: Acceptance and Commitment Therapy (ACT)
 categoryslug: acceptance-and-commitment-therapy-act
 title: What is Acceptance and Commitment Therapy?
 username: Sara Ferguson
-date: April 18, 2017
+date: 2017-04-18
 description: >+
   Acceptance and commitment therapy (ACT) is an action-oriented approach to
   psychotherapy that stems from traditional behavior therapy and cognitive

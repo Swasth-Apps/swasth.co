@@ -10,7 +10,7 @@ class CategoryComponent extends React.Component {
 
   render() {
     let edges = this.props?.data?.blogs?.edges;
-    edges = edges?.sort((a,b) => new Date(a.node.frontmatter.date) > new Date(b.node.frontmatter.date))
+    // edges = edges?.sort((a,b) => new Date(a.node.frontmatter.date) > new Date(b.node.frontmatter.date))
     edges = edges?.filter(({node : {frontmatter}}) =>
       frontmatter?.categories?.category?.some(el => `/category/${el.slug}/` === this.props.slug));
 
