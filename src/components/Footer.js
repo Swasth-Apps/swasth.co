@@ -69,7 +69,7 @@ const Footer = (props) => (
                 <h4>Social</h4>
 
                 <ul className="list-unstyled iconlist">
-                  <li><i className="icon-facebook"/><a href="https://www.facebook.com/swasthapps/"
+                  <li><i className="icon-facebook"/><a href="https://www.facebook.com/swasthco/"
                                                        target="_blank"> Facebook</a></li>
                   <li><i className="icon-twitter"/><a href="https://www.twitter.com/swasthapps/"
                                                       target="_blank"> Twitter</a></li>
