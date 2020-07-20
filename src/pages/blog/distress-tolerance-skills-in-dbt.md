@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: "Distress Tolerance Skills in DBT "
 username: Rusha Bhattacharjee
-date: 2020-07-08T00:00:00.000Z
+date: 2020-03-07
 description: >+
   Distress Tolerance Skills in DBT are designed to navigate uncomfortable
   emotions and deal with crisis situations. 
