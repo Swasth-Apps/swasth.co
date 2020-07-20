@@ -2,13 +2,13 @@
 templateKey: blog-post
 title: "Distress Tolerance Skills in DBT "
 username: Rusha Bhattacharjee
-date: 2020-07-08
+date: 2020-07-08T00:00:00.000Z
 description: >+
   Distress Tolerance Skills in DBT are designed to navigate uncomfortable
   emotions and deal with crisis situations. 
 
 image: /img/distress-tolerance-skills01.png
-squareimage: /img/distress-tolerance-skills01.png
+squareimage: /img/distress-tolerance-skills01-square.png
 categories:
   category:
     - title: DBT
@@ -21,7 +21,7 @@ tags:
 
 Crises are a part of life, whether big or small - they are capable of overwhelming people and compelling them to react with negative behaviors. Specific traditional treatment approaches focus on avoiding painful emotions but distress tolerance skills available in the DBT program of [Swasth](https://www.swasth.co/dbt-coach/) teach patients that pain is inevitable. The best way to overcome it is by accepting your emotions and ensuring a more manageable emotional level for crisis survival.
 
-WhenDBTwas developed, there were no existing treatment manuals that addressed temporary toleration of distressing events or circumstances. Available behavioral treatment focused on changing behavior, while distress tolerance taught patients to accept, find meaning, and experience emotional distress. As distress tolerance skills came into existence, it was applied to train patients numerous "delay of gratification" and self-soothing techniques aimed at surviving crises while preventing them from indulging in dysfunctional behaviors (e.g., using drugs, attempting suicide, or engaging in other destructive behavior). In distress, tolerance is a set of skills focused on reality acknowledgment, which aims to reduce pain and increase freedom when distressing facts cannot be changed immediately.
+When DBT was developed, there were no existing treatment manuals that addressed temporary toleration of distressing events or circumstances. Available behavioral treatment focused on changing behavior, while distress tolerance taught patients to accept, find meaning, and experience emotional distress. As distress tolerance skills came into existence, it was applied to train patients numerous "delay of gratification" and self-soothing techniques aimed at surviving crises while preventing them from indulging in dysfunctional behaviors (e.g., using drugs, attempting suicide, or engaging in other destructive behavior). In distress, tolerance is a set of skills focused on reality acknowledgment, which aims to reduce pain and increase freedom when distressing facts cannot be changed immediately.
 
 ## Radical Acceptance For improving Distress Tolerance Skills
 
@@ -120,7 +120,7 @@ IMPROVE stands for Imagery, Meaning, Prayer, Relaxation, One thing in the moment
 
 Imagine yourself handling the situation effectively while being in your wise mind. As you assume your smart action, you will be able to overcome the job likewise.
 
-####  2. Meaning
+#### 2. Meaning
 
 Try to find meaning in painful situations. For example, contemplate what you can learn from it. In this way, you can be empathetic towards yourself and even work out flawed relationships.
 
@@ -144,10 +144,11 @@ Vacation means taking a mental break from challenging circumstances by engaging 
 
 Encouragement doesn't have to come from external factors. You can encourage yourself by telling impactful things to yourself - "I can do it", "This looks easy to me", "I got this," and so on.
 
-\
+
+
 <!--StartFragment-->
 
-## Analysing Pros And Cons
+## Analyzing Pros And Cons
 
 Making sensible emotions right after a distressing event is difficult, especially if you are not in your wise mind.
 
