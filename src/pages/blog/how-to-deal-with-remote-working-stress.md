@@ -2,11 +2,11 @@
 templateKey: blog-post
 title: How to deal with Remote Working Stress?
 username: Rusha Bhattacharya
-date: 2020-07-01
+date: 2020-07-01T00:00:00.000Z
 description: Remote working stress can lead to a myriad of mental health
   problems. Have a look at our recommended remedies you can adopt.
-image: /img/women.png
-squareimage: /img/women.png
+image: /img/acceptance.jpg
+squareimage: /img/acceptance.jpg
 categories:
   category:
     - title: stress
