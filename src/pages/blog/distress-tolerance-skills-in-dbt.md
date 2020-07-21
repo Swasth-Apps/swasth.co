@@ -156,6 +156,8 @@ For example, you have a terrible fight with your partner, and this event conjure
 
 Distress tolerance skills are valuable tools that you can learn through Dialectical Behavior Therapy to help yourself in preserving balance in the face of crises, accepting the distress, and coping with it in healthier ways. As you practice the skills of distraction, self-soothing, improving the moment, and focusing on pros and cons, you automatically attain the power to weather stressful circumstances and decrease painful feelings and dysfunctional urges.
 
+![dbt coach](/img/dbt-coach-app.png "dbt")
+
 With the advancement of Technology, everything can be availed via a few taps of your phone screen. To make Dialectical Behavioral Therapy Services more accessible, the team here at Swasth has built the [DBT Coach](https://www.swasth.co/dbt-coach/) (an app for DBT). Learn, Practice, and track your DBT skills via the comprehensive application and engage effectively with your therapist.
 
 Want to connect with your therapist easily? Swasth can assist you!
