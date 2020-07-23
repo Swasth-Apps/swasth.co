@@ -69,9 +69,7 @@ The DBT approach can be implemented in treating various mental health disorders.
 
 ![DBT Coach ](/img/dbt-coach-app.png "DBT Tools")
 
-
-
-To help you deal with dysfunctional behaviors at ease, we at [Swasth](https://www.swasth.co) have developed [DBT Coach](https://www.swasth.co/dbt-coach) app where you can learn and practice DBT skills with intuitive tools.
+To help you deal with dysfunctional behaviors at ease, we at [Swasth](http://www.swasth.co) have developed [DBT Coach](https://www.swasth.co/dbt-coach) app where you can learn and practice DBT skills with intuitive tools.
 
 We also have a coaching platform where you can get help with your eating disorders from our trained DBT Coaches using structure coaching programs. If you need more info you can reach us at info@swasth.co
 
