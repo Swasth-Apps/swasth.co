@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: " Dialectical Behavior Therapy for Eating Disorders "
 username: Rusha Bhattacharjee
-date: 2020-07-08
+date: 2020-07-08T00:00:00.000Z
 description: Dialectical Behavior Therapy is an evidence-based psychotherapy
   that helps people with binge-eating disorder or bulimia.
 image: /img/dbt-for-eating-disorders02.png
@@ -59,17 +59,21 @@ Research shows that people with behavioral eating disorders have benefited even 
 
 ## Conclusion
 
-The DBT approach can be implemented in treating various mental health disorders. Through DBT, individuals acquire the ability to learn self-awareness, ride out black-or-white/ perfectionistic thinking, deal with inner conflicts and stress better, and control negative thoughts while accepting ongoing emotions. DBT has been reported to be an effective psychotherapy for mental health issues such as depression, traumatic stress, anxiety disorders, and self-harm behaviors. Recent research studies have also shown the significance of DBT in treating survivors of sexual abuse and drug dependency.
-
-![DBT Coach ](/img/dbt-coach-app.png "DBT Tools")
+The DBT approach can be implemented in treating various mental health disorders. Through DBT, individuals acquire the ability to learn self-awareness, ride out black-or-white/ perfectionistic thinking, deal with inner conflicts and stress better, and control negative thoughts while accepting ongoing emotions. DBT has been reported to be an effective psychotherapy for mental health issues such as depression, traumatic stress, anxiety disorders, and self-harm behaviors. Recent research studies have also shown the significance of DBT in treating survivors of sexual abuse and drug dependency as well as eating disorders.
 
 <!--EndFragment-->
 
 <!--StartFragment-->
 
-To help you deal with dysfunctional behaviors at ease, we have designed [Swasth](https://www.swasth.co/dbt-coach/), your personal mental wellness coach where you can learn, practice, and upskill yourself with [DBT tools](https://www.swasth.co/dbt-coach/), as well as engage with top-class DBT therapists, effectively.
+## DBT Coach
+
+![DBT Coach ](/img/dbt-coach-app.png "DBT Tools")
 
 
+
+To help you deal with dysfunctional behaviors at ease, we at [Swasth](https://www.swasth.co) have developed [DBT Coach](https://www.swasth.co/dbt-coach) app where you can learn and practice DBT skills with intuitive tools.
+
+We also have a coaching platform where you can get help with your eating disorders from our trained DBT Coaches using structure coaching programs. If you need more info you can reach us at info@swasth.co
 
 <!--EndFragment-->
 
