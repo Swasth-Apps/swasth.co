@@ -24,7 +24,7 @@ tags:
 
 ## What is mindfulness?
 
-Mindfulness is paying attention to your present while observing your emotions with a nonjudgmental stance. When you practicemindfulness, you focus on your experiences and become productive at the same time.
+Mindfulness is paying attention to your present while observing your emotions with a nonjudgmental stance. When you practice mindfulness, you focus on your experiences and become productive at the same time.
 
 Imagine arriving at work but not remembering the car ride till there. You didn't have to think much about the order of your actions like, "first, I open the car door, and then I insert my key in the ignition, etc." You automatically performed those actions and found yourself at work. This phenomenon is called being in a state of autopilot when you do things out of habit, mindlessly. Mindfulness is just the opposite of being on autopilot, where you observe and label different thoughts and manage difficult emotions without being self-critical.
 
@@ -36,7 +36,7 @@ Doing things on autopilot can be useful at times as it saves a lot of time and e
 
 The roots of mindfulness lie in Buddhist teachings that manifest the journey towards enlightenment, and the concept of "sati" - which involves being aware, attentive, and present. The term "mindfulness" was coined through translation from an ancient language called Pali. The emergence of mindfulness in Western Culture can be traced back to the theories of Kabat-Zinn. Kabat-Zinn acquired the knowledge of mindfulness from several Buddhist teachers like Philip Kapleau and Thich Nhat Hanh. In the late 1970s, Kabat-Zinn inculcated his mindfulness theories among his pupils at University of Massachusetts Medical School. As he developed the program of Mindfulness-Based Stress Reduction (MBSR) for treating chronic pain, his research showed that patients would often try to ride out their pain, but it would only lead to more profound distress. Hence, he concluded that mindfulness was a successful approach to deal with these experiences.
 
-**Asmindfulnesswas integrated with science and medicine, it became a powerful psychodynamic technique based on [Cognitive Behavior Therapy](https://www.swasth.co/cbt-companion/), [Dialectical Behavior Therapy](https://www.swasth.co/dbt-coach/), and[Acceptance and Commitment Therapy](https://www.swasth.co/act-coach/).**
+**As mindfulness was integrated with science and medicine, it became a powerful psychodynamic technique based on [Cognitive Behavior Therapy](https://www.swasth.co/cbt-companion/), [Dialectical Behavior Therapy](https://www.swasth.co/dbt-coach/), and [Acceptance and Commitment Therapy](https://www.swasth.co/act-coach/).**
 
 ![Mindfullness](/img/mindfulness-in-dbt01.png "Mindful ")
 
@@ -44,7 +44,7 @@ The roots of mindfulness lie in Buddhist teachings that manifest the journey tow
 
 ## Understanding Mindfulness Skills in DBT
 
-MindfulnessinDialectical Behavior Therapy is a fundamental skill that is intrinsic to all other skill-sets. It is the first skill taught in DBT because without adding this to your practice toolbox, you cannot change long-standing behavioral problems.
+Mindfulness in Dialectical Behavior Therapy is a fundamental skill that is intrinsic to all other skill-sets. It is the first skill taught in DBT because without adding this to your practice toolbox, you cannot change long-standing behavioral problems.
 
 Mindfulness is significant in regulating emotions, analyzing situations without judging them, and resolving interpersonal conflicts calmly. It also helps in getting touch with your Wise Mind - the synthesis of emotional mind and rational thoughts. Learning how to be mindful isn't complicated, but it's a commitment to oneself by saying "Yes" to yourself to focus on the present without past rumination or future anticipation.
 
@@ -68,9 +68,7 @@ Research shows that mindfulness has significantly helped in reducing stress, anx
 
 ## Conclusion
 
-Mindfulness skills require practice, and with time they can become your most handy tool-set for treating dysfunctional behaviors. Start with basicDBTskills with the help of [Swasth](https://www.swasth.co/), an online mental wellness coach, and work your way up to mastering mindfulness efficiently. You can learn, practice, and monitor your progress inDBTskills, as well as connect with professional therapists at ease via our adaptive application.
-
-
+Mindfulness skills require practice, and with time they can become your most handy tool-set for treating dysfunctional behaviors. Start with basic DBT skills with the help of [](https://www.swasth.co/)DBT Coach App, a comprehensive DBT App, and work your way up to mastering mindfulness effectively. 
 
 <!--EndFragment-->
 
@@ -79,7 +77,5 @@ Mindfulness skills require practice, and with time they can become your most han
 <!--EndFragment-->
 
 <!--EndFragment-->
-
-
 
 <!--EndFragment-->
