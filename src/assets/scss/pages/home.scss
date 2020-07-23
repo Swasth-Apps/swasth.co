@@ -1851,6 +1851,12 @@ strong {
     //line-height: 0.1em;
     margin-bottom: 1em;
   }
+  a{
+    color: _palette(secondary-color);
+    &:hover{
+      color: darken(_palette(secondary-color),10%) !important;
+    }
+  }
 }
 
 
