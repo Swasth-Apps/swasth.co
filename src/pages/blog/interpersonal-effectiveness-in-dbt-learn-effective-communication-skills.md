@@ -108,8 +108,6 @@ When it comes to learning complex skills, there is always room for improvement, 
 
 If you feel that you or your loved one needs help in interpersonal effectiveness and may benefit from DBT, we recommend you seek help from a professional therapist trained in this therapy program.
 
-DBT therapists are not always easy to find, that is why we have curated an online mental wellness coach application -[Swasth](https://www.swasth.co/dbt-coach/), where you can learn, practice and monitorDBTskills and acquire expert guidance from world-class psychologists effectively.
-
 <!--EndFragment-->
 
 <!--EndFragment-->
