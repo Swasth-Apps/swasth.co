@@ -77,9 +77,7 @@ If you notice that remote work stress is taking a toll over you and affecting yo
 
 ## Conclusion
 
-Remote working stress has become a global issue, especially during this COVID-19 period, when situations are despicable outside and unmanageable inside. The United Nations claims that work stress is a collective challenge that we all must tackle and deal with together. There is still much to learn about working remotely and how to deal with resulting mental stress. At present, various online [mental wellness coaches](https://www.swasth.co/dbt-coach/) contribute to helping people to work on stress effectively. You can also opt for therapists if you think your symptoms are unbearable and you need help.
-
-
+Remote working stress has become a global issue, especially during this COVID-19 period, when situations are despicable outside and unmanageable inside. The United Nations claims that work stress is a collective challenge that we all must tackle and deal with together. There is still much to learn about working remotely and how to deal with resulting mental stress. At present, various online [](https://www.swasth.co/dbt-coach/)apps that focus on evidence based modalities such as [CBT Companion](https://www.swasth.co/cbt-companion)  to helping people to work on stress effectively. Please contact your therapist if you think your symptoms are unbearable and you need help.
 
 <!--EndFragment-->
 
