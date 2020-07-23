@@ -13,7 +13,7 @@ description: >
   While it’s impossible to feel better overnight, there are some ways to cope with this powerful emotion and develop yourself as an individual.
 featuredpost: true
 image: /img/how-to-overcome-loneliness-02.png
-squareimage: /img/how-to-overcome-loneliness-02.png
+squareimage: /img/loneliness-square.jpg
 categories:
   category:
     - title: Depression
