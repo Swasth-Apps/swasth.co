@@ -2,12 +2,12 @@
 templateKey: blog-post
 title: "Mindfulness in DBT "
 username: Rusha Bhattacharjee
-date: 2020-07-03
+date: 2020-07-03T00:00:00.000Z
 description: Mindfulness is present at the core of Dialectical Behavior Therapy,
   and it simply means being attentive to the present with a nonjudgmental
   stance.
 image: /img/mindfulness-in-dbt01.png
-squareimage: /img/mindfulness-in-dbt02.png
+squareimage: /img/mindfulness-square.jpg
 categories:
   category:
     - title: Mindfulness
