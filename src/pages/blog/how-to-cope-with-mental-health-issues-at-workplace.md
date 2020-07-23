@@ -2,11 +2,11 @@
 templateKey: blog-post
 title: "How to Cope With Mental Health Issues at Workplace?  "
 username: Rusha Bhattacharjee
-date: 2020-07-10
+date: 2020-07-10T00:00:00.000Z
 description: >2
    Prioritizing your mental health at work is crucial to avoid bigger problems like depression. This guide can help you combat workplace stress effectively. 
-image: /img/how-to-cope-with-mental-health-issues-at-workplace03.png
-squareimage: /img/how-to-cope-with-mental-health-issues-at-workplace03.png
+image: /img/workplace.jpg
+squareimage: /img/workplace-square.jpg
 categories:
   category:
     - slug: How-to-cope-with-Mental-Health-Issues-at-Workplace?
