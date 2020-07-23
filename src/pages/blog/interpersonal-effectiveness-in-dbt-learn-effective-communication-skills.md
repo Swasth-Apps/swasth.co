@@ -6,7 +6,7 @@ date: 2020-07-06T00:00:00.000Z
 description: "Interpersonal effectiveness skills in DBT teach us effective
   communication, balance relationships, and build a sense of mastery. "
 image: /img/interpersonal-effectiveness-skills01.png
-squareimage: /img/interpersonal-effectiveness-skills01.png
+squareimage: /img/interpersonal-square.jpg
 categories:
   category:
     - title: "DBT "
