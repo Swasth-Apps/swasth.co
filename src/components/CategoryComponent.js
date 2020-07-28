@@ -36,7 +36,7 @@ class CategoryComponent extends React.Component {
               <div className='story-content'>
                 <span className='category-text'>{this.props.title}</span>
                 <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
-                <p className='para-text'>{frontmatter?.username}</p>
+                <p className='para-text blog-date'>{frontmatter?.username}</p>
               </div>
               </Link>
             </div>)}

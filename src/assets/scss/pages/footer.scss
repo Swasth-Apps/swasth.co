@@ -9,10 +9,10 @@
 /***************/
 #min-footer{
   @media (max-width: 426px) {
-    height: 600px !important;
+    height: 650px !important;
   }
   @media (min-width: 427px) {
-    height: 370px !important;
+    height: 450px !important;
   }
 }
 #footer{
@@ -36,7 +36,10 @@
     margin: 0 auto;
     max-width: 65em;
     width: calc(100% - 6em);
-  }
+    @media screen and (max-width: 770px) {
+      padding: 0 !important;
+    }
+    }
 
   .inner {
     width: 100%;

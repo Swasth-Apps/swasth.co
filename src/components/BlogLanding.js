@@ -75,7 +75,7 @@ class BlogLanding extends React.Component {
                     </div>
                     <p className='para-text blog-date'>{moment(frontmatter?.date).format("MMMM DD, YYYY")}</p>
                     <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
-                    <p className='para-text'>{frontmatter.username}</p>
+                    <p className='para-text blog-date'>{frontmatter.username}</p>
                   </div>
                 </div>
                 </Link>
@@ -143,7 +143,7 @@ class BlogLanding extends React.Component {
                   </div>
                   <p className='para-text blog-date'>{moment(frontmatter?.date).format("MMMM DD, YYYY")}</p>
                   <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
-                  <p className='para-text'>{frontmatter.username}</p>
+                  <p className='para-text blog-date'>{frontmatter.username}</p>
                 </div>
                 </Link>
               </div>

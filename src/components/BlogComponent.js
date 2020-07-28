@@ -83,7 +83,7 @@ class BlogComponent extends React.Component {
         <Row className='card-row -margin-bottom -row-flex divider col-reverse'
              style={{ alignItems:'flex-start', }}
              gutter={16}>
-          <Col md={relatedPosts?.length ? 12 : 24} className='card-col -margin-right -margin-bottom'>
+          <Col md={14} className='card-col -margin-right -margin-bottom'>
             <div className='subtitle navy-blue blogs-fonts'>
               <PostContent className='blog-content' content={this.props.content} />
             </div>
@@ -137,7 +137,7 @@ class BlogComponent extends React.Component {
             <div />
           </Col>
           {relatedPosts?.length ?
-          <Col md={12} className='card-col image-col recent-story-container'>
+          <Col md={10} className='card-col image-col recent-story-container'>
             <h3 className='base-text navy-blue'>Related Stories</h3>
             <div className='recent-story recent-stories-section'>
               {relatedPosts?.map(({node:{frontmatter,fields}}) =>
@@ -163,7 +163,7 @@ class BlogComponent extends React.Component {
                   <Link to={fields?.slug}>
                     <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
                   </Link>
-                  <p className='para-text'>{frontmatter?.username}</p>
+                  <p className='para-text blog-date'>{frontmatter?.username}</p>
                 </div>
               </div>
               )}

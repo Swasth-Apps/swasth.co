@@ -40,7 +40,7 @@ class BlogIndex extends React.Component {
     if ( !hasMore ) return;
     const element = document.querySelector('#all_posts');
     const rect = element && element.getBoundingClientRect();
-    if (rect.bottom + rect.height < document.documentElement.scrollTop){
+    if (rect?.bottom + rect?.height < document?.documentElement?.scrollTop){
       this.loadBlogs()
     }
   }
