@@ -84,9 +84,11 @@ class BlogLanding extends React.Component {
           </Col>
         </Row>
         {featuredPost?
-        <Row className='card-row -margin-bottom -row-flex divider col-reverse featured-section'
+        <Row
+          style={{background : "transparent",alignItems: "flex-start"}}
+             className='card-row -margin-bottom -row-flex divider col-reverse'
              gutter={16}>
-          <Col md={12} className='card-col -margin-bottom top-blog-section'>
+          <Col md={12} style={{paddingRight: 0}} className='card-col top-blog-section'>
           <Link to={featuredPost?.node?.fields?.slug}>
             <img
               alt
@@ -95,7 +97,7 @@ class BlogLanding extends React.Component {
             />
           </Link>
           </Col>
-          <Col md={12} className='card-col image-col featured-blog-content'>
+          <Col md={12} className='card-col image-col featured-blog-content featured-section'>
             <div className='category-tags'>
             {featuredPost?.node?.frontmatter?.categories?.category?.map(({title,slug}) =>
               <Link to={`/category/${slug}`}>
