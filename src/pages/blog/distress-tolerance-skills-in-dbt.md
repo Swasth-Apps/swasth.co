@@ -15,7 +15,7 @@ categories:
       slug: dialectical-behavior-therapy-dbt
 tags:
   - DBT
-  - Distress Tolerance Skilss
+  - Distress Tolerance Skills
 ---
 <!--StartFragment-->
 
