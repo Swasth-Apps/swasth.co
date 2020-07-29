@@ -37,7 +37,7 @@ The implementation of DBT integrated with mindfulness and emotion regulation has
 
 DBT is a specific type of cognitive-behavioral treatment developed in the late 1970s by Marsha Linehan, Ph.D., to treat chronically suicidal individuals diagnosed with borderline personality disorder (BPD). It is now recognized as a treatment for multi-problem behaviors that occurs due to difficult underlying emotions.
 
-While treating EDs, this program focuses on emotional dysregulation responsible for triggering or augmenting distress eating behaviors and promotes acceptance of patients themselves. The dialectical view advised in **[Health Coach](https://healthcoach.swasth.co)** by [Swasth](https://www.swasth.co/dbt-coach/), an online emotional wellness coach, appeals to many as they strive for recovery - they acknowledge their emotions and work towards being attentive and productive.
+While treating EDs, this program focuses on emotional dysregulation responsible for triggering or augmenting distress eating behaviors and promotes acceptance of patients themselves. The dialectical view advised in **[Health Coach](https://healthcoach.swasth.co)** by [Swasth](https://www.swasth.co), an online emotional wellness coach, appeals to many as they strive for recovery - they acknowledge their emotions and work towards being attentive and productive.
 
 ## Learning New Skills In Dialectical Behavior Therapy
 
@@ -49,7 +49,7 @@ Mindfulness is when you amalgamate the intellectual and emotional output into ma
 
 Emotion regulation teaches you to navigate different feelings and make yourself less vulnerable in the first place to extreme shifts in emotions.
 
-Interpersonal effectiveness involves the mastery of doing away with the perfectionistic thinking like "right or wrong," "black and white mindset" and adopting assertive techniques like seeking help or expressing disapproval.
+Interpersonal effectiveness involves the mastery of doing away with the perfectionistic thinking like "right or wrong",  "black or white mindset" and adopting assertive techniques like seeking help or expressing disapproval.
 
 Diaphragmatic breathing is the practice of deep breathing to lower your stress. It helps you facilitate mindfulness and being fully aware of your emotional experience while staying focused on it.
 
