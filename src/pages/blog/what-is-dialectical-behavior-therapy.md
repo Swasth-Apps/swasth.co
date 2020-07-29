@@ -4,7 +4,7 @@ categoryname: Dialectical Behavior Therapy(DBT)
 categoryslug: dialectical-behavior-therapy-dbt
 title: What is Dialectical Behavior Therapy?
 username: Sara Ferguson
-date: 2017-01-06
+date: 2017-01-06T00:00:00.000Z
 description: Dialectical behavior therapy (DBT) provides clients with new skills
   to manage painful emotions and decrease conflict in relationships. DBT
   specifically focuses on providing therapeutic skills in four key areas. First,
@@ -32,6 +32,8 @@ relatedpost:
       slug: what-is-mindfulness
     - title: What is Cognitive Behavioral Therapy?
       slug: what-is-cognitive-behavioral-therapy
+    - title: What is Acceptance and Commitment Therapy?
+      slug: what-is-acceptance-and-commitment-therapy
   description: CBT
 tags:
   - Mindfulness
