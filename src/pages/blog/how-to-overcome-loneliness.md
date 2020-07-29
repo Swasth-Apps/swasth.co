@@ -24,31 +24,33 @@ tags:
 ---
 <!--StartFragment-->
 
-Yonder, lightening other loads,
+`Yonder, lightening other loads,`
 
-The seasons range the country roads,
+`The seasons range the country roads,`
 
-But here in London streets I ken
+`But here in London streets I ken`
 
-No such helpmates, only men;
+`No such helpmates, only men;`
 
-And these are not in plight to bear,
+`And these are not in plight to bear,`
 
-If they would, another’s care.
+`If they would, another’s care.`
 
-They have enough as ’tis: I see
+`They have enough as ’tis: I see`
 
-In many an eye that measures me
+`In many an eye that measures me`
 
-The mortal sickness of a mind
+`The mortal sickness of a mind`
 
-Too unhappy to be kind …
+`Too unhappy to be kind …`
 
 <!--EndFragment-->
 
+
+
 <!--StartFragment-->
 
-This is an excerpt from one of the 63 famous poetries of[A.E. Houseman- In My Own Shire, If I was Sad.](https://interestingliterature.com/2017/04/03/the-best-a-e-housman-poems-everyone-should-read/) These lines present the condition of a Shropshire Lad, who had to shift to the busy city of London from a rural area in 1896. Surrounded by hundreds of people, the lad felt enormously lonely.
+This is an excerpt from one of the 63 famous poetries of [A.E. Houseman- In My Own Shire, If I was Sad.](https://interestingliterature.com/2017/04/03/the-best-a-e-housman-poems-everyone-should-read/) These lines present the condition of a Shropshire Lad, who had to shift to the busy city of London from a rural area in 1896. Surrounded by hundreds of people, the lad felt enormously lonely.
 
 Loneliness is a subjective experience. It isn’t defined by the quantity of relationships but the quality. An individual may have hundreds of acquaintances and still feel alone. In contrast, others with a single loyal buddy may feel contented.
 
@@ -62,7 +64,7 @@ Often people mix-up the two overpowering experiences and consider them the same.
 
 To define in simple terms, loneliness is triggered by the absence of companionship. If prolonged, it can cause serious harm to the well-being and mental health.
 
-Being a homebody, my energy comes from being alone. As an ambivert, I prefer a balance between social connectedness and solitude, which has made me cope with this isolating covid period.
+Being a homebody, my energy comes from being alone. As an ambivert, I prefer a balance between social connectedness and solitude, which has made me cope with this isolating COVID-19 period.
 
 One can travel alone, eat alone, work alone, and still be at complete peace. Loneliness, however, hits differently. It can make somebody feel “odd one out” as they feel a lack of emotional support.
 
@@ -128,16 +130,16 @@ One of the excellent ways of combating loneliness is to try new activities. Join
 
 ### 8. Talk to a Consultant or avail Online Therapy Services
 
-Talk to a professional therapist and share your problems. Also, this digitized world has facilitated everything. There are many [reliable therapy services](https://www.swasth.co/) available online for various issues. Online [Therapy apps](https://www.swasth.co/dbt-coach/) can help in treating symptoms of depressive orders, including loneliness.
+Talk to a professional therapist and share your problems. Also, this digitized world has facilitated everything. There are many [reliable therapy services](https://www.swasth.co/) available online for various issues. Online [Therapy apps](https://www.swasth.co/dbt-coach/) such as **DBT Coach** can help in treating symptoms of depressive orders, including loneliness.
 
-Although the online services may look different, they can have similar effects like in-person therapy. The apps are equipped with 100+ video lessons, an internal journal, 200+ animations, and a great user experience.
+Although the online services may look different, they can have similar effects like in-person therapy. DBT Coach is equipped with 100+ video lessons, an internal journal, 200+ animations, and a great user experience.
 
 ## You don’t have to suffer alone, Seek for Help!
 
 If you have struggled with long-term loneliness or a mental crisis for weeks, months, or years, we encourage you to reach out for help. Please seek support -
 
 * [NAMI (National Alliance on Mental Health](https://www.nami.org/Find-Support/NAMI-Programs)) programs work to improve Americans' lives affected by mental illness.
-* [The Lonely Hour](https://www.thelonelyhour.com/)is a popular podcast that helps people open up about their struggles and isolation and loneliness.
+* [The Lonely Hour](https://www.thelonelyhour.com/) is a popular podcast that helps people open up about their struggles and isolation and loneliness.
 
 If you're in a situation where you want to self-harm, remove any weapons surrounding you, and contact-
 
@@ -146,7 +148,7 @@ If you're in a situation where you want to self-harm, remove any weapons surroun
 
 Give a ring to [the National Suicide Prevention Lifeline at 800-273-8255.](https://suicidepreventionlifeline.org/)
 
-Remember,“*Place your hand over your heart, can you feel it? That is called purpose. You’re alive for a reason so don’t ever give up.”*
+Remember, “*Place your hand over your heart, can you feel it? That is called purpose. You’re alive for a reason so don’t ever give up.”*
 
 ***Happy Living!***
 
