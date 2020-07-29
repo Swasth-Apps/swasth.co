@@ -15,7 +15,18 @@ categories:
     - slug: dialectical-behavior-therapy-dbt
       title: DBT
 relatedpost:
-  blog: []
+  blog:
+    - title: What is Mindfulness?
+      slug: what-is-mindfulness
+    - title: "Interpersonal Effectiveness in DBT: Learn effective communication
+        skills"
+      slug: interpersonal-effectiveness-in-dbt-learn-effective-communication-skills
+    - title: Distress Tolerance Skills in DBT
+      slug: distress-tolerance-skills-in-dbt
+    - title: Emotion Regulation
+      slug: emotion-regulation
+    - title: What is Dialectical Behavior Therapy?
+      slug: what-is-dialectical-behavior-therapy
 tags:
   - Mindfulness
   - DBT
@@ -68,7 +79,7 @@ Research shows that mindfulness has significantly helped in reducing stress, anx
 
 ## Conclusion
 
-Mindfulness skills require practice, and with time they can become your most handy tool-set for treating dysfunctional behaviors. Start with basic DBT skills with the help of [](https://www.swasth.co/)DBT Coach App, a comprehensive DBT App, and work your way up to mastering mindfulness effectively. 
+Mindfulness skills require practice, and with time they can become your most handy tool-set for treating dysfunctional behaviors. Start with basic DBT skills with the help of [](https://www.swasth.co/)[DBT Coach](https://www.swasth.co/dbt-coach) App, a comprehensive DBT App, and work your way up to mastering mindfulness effectively. 
 
 <!--EndFragment-->
 
