@@ -9,8 +9,16 @@ image: /img/workplace.jpg
 squareimage: /img/workplace-square.jpg
 categories:
   category:
-    - slug: How-to-cope-with-Mental-Health-Issues-at-Workplace?
+    - slug: stress
       title: Stress
+relatedpost:
+  blog:
+    - slug: how-to-overcome-loneliness
+      title: How to overcome Loneliness?
+    - slug: how-to-deal-with-remote-working-stress
+      title: How to deal with Remote Working Stress?
+    - slug: what-is-mindfulness
+      title: What is Mindfulness?
 tags:
   - Workplace Stress
   - Mental Health
@@ -21,9 +29,9 @@ tags:
 
 Workplace stress is a common problem in the US. According to [IPSOS](https://www.ipsos.com/en-us/news-polls/mental-health-survey-2017), more than 28% of Americans attributed their mental health problems to workplace stress.
 
-Workplace conflicts can be tackled with help, and work stress can be reduced with definite treatments. Still, if either of them is left unchecked for long, it can lead to more significant problems like depression, anxiety, and dysfunctional behaviors. More than[300 million people](http://www.who.int/mental_health/in_the_workplace/en/) in the world suffer from depression, and this condition is the prime reason why employees have a disability and other underlying issues.
+Workplace conflicts can be tackled with help, and work stress can be reduced with definite treatments. Still, if either of them is left unchecked for long, it can lead to more significant problems like depression, anxiety, and dysfunctional behaviors. More than [300 million people](http://www.who.int/mental_health/in_the_workplace/en/) in the world suffer from depression, and this condition is the prime reason why employees have a disability and other underlying issues.
 
-The biggest drawback of workplace stress is that it doesn't stay confined to work; it affects people's mental health and relationships, attacks their productivity level, and decreases their confidence level. According to the [Anxiety and Depression Association of America reports, 83% of men and 72%](https://adaa.org/workplace-stress-anxiety-disorders-survey)[of women](https://adaa.org/workplace-stress-anxiety-disorders-survey) state that workplace stress affects their personal lives like relationships with spouses or children. While it's challenging to manage stress at work, preparing yourself with evidence-based coping mechanisms can go a long way. This guide provides leading reasons for mental health problems at work and tips on coping with them for a healthy and meaningful life.
+The biggest drawback of workplace stress is that it doesn't stay confined to work; it affects people's mental health and relationships, attacks their productivity level, and decreases their confidence level. According to the [Anxiety and Depression Association of America reports, 83% of men and 72%](https://adaa.org/workplace-stress-anxiety-disorders-survey) [of women](https://adaa.org/workplace-stress-anxiety-disorders-survey) state that workplace stress affects their personal lives like relationships with spouses or children. While it's challenging to manage stress at work, preparing yourself with evidence-based coping mechanisms can go a long way. This guide provides leading reasons for mental health problems at work and tips on coping with them for a healthy and meaningful life.
 
 <!--StartFragment-->
 
@@ -79,15 +87,13 @@ A [study](http://www.sciencedirect.com/science/article/pii/S0169204611003665) le
 
 ### 3. Tune in to distractions
 
-According to DBTpsychologists, mindfulness is a crucial tool implemented to reduce stress. Distractions can be hard to cope with, but ultimately trying to block it out, such as not paying attention to a fun conversation happening at your next desk or your colleague calling your name from the other side, can lead to more significant stress. Therefore, it's advised to pay attention to your surroundings and observe its effect on your body, as you tune in to your distractions.
+According to DBT psychologists, mindfulness is a crucial tool implemented to reduce stress. Distractions can be hard to cope with, but ultimately trying to block it out, such as not paying attention to a fun conversation happening at your next desk or your colleague calling your name from the other side, can lead to more significant stress. Therefore, it's advised to pay attention to your surroundings and observe its effect on your body, as you tune in to your distractions.
 
 ### 4. Avoid Workplace Gossip
 
 <!--StartFragment-->
 
 Some people use "gossip" as a source of entertainment and seek temporary relief from extensive work pressure. In the long run, it can lead to reduced morale and strained relationships among coworkers. Discussing problems with a colleague can be helpful, but it's healthy only when it's done with the specific person, devoid of third parties.
-
-
 
 <!--EndFragment-->
 
@@ -99,9 +105,7 @@ Some people use "gossip" as a source of entertainment and seek temporary relief 
 
 ## Don’t suffer alone- Seek help!
 
-People dealing with workplace stress or mental health problems do not have to suffer alone. Get help from mental health professionals to deal with anxiety and stress. There are plenty of online mental wellness apps like [Swasth](https://www.swasth.app/) designed to help people develop skills to cope with depression and dysfunctional behaviors. You can learn, practice, and monitor your progress in various evidence-based treatment programs via this application and connect with world-class trained therapists at home.
-
-
+People dealing with workplace stress or mental health problems do not have to suffer alone. Get help from mental health professionals to deal with anxiety and stress. There are plenty of online mental wellness apps and behavioral health platforms like [Swasth](https://www.swasth.co) designed to help people develop skills to cope with depression and dysfunctional behaviors. You can learn, practice, and monitor your progress in various evidence-based treatment programs via this application and connect with world-class trained therapists at home.
 
 <!--EndFragment-->
 
