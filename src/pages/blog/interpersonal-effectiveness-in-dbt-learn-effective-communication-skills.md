@@ -11,6 +11,16 @@ categories:
   category:
     - title: "DBT "
       slug: dialectical-behavior-therapy-dbt
+relatedpost:
+  blog:
+    - title: Mindfulness in DBT
+      slug: mindfulness-in-dbt
+    - title: What is Dialectical Behavior Therapy?
+      slug: what-is-dialectical-behavior-therapy
+    - title: Emotion Regulation
+      slug: emotion-regulation
+    - title: Distress Tolerance Skills in DBT
+      slug: distress-tolerance-skills-in-dbt
 tags:
   - DBT
   - Interpersonal Effectiveness
