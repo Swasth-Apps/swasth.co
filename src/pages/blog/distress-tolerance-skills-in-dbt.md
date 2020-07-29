@@ -13,19 +13,29 @@ categories:
   category:
     - title: DBT
       slug: dialectical-behavior-therapy-dbt
+relatedpost:
+  blog:
+    - title: Mindfulness in DBT
+      slug: mindfulness-in-dbt
+    - slug: distress-tolerance-skills-in-dbt
+      title: Distress Tolerance Skills in DBT
+    - slug: emotion-regulation
+      title: Emotion Regulation
+    - slug: what-is-dialectical-behavior-therapy
+      title: What is Dialectical Behavior Therapy?
 tags:
   - DBT
   - Distress Tolerance Skills
 ---
 <!--StartFragment-->
 
-Crises are a part of life, whether big or small - they are capable of overwhelming people and compelling them to react with negative behaviors. Specific traditional treatment approaches focus on avoiding painful emotions but distress tolerance skills available in the DBT program of [Swasth](https://www.swasth.co/dbt-coach/) teach patients that pain is inevitable. The best way to overcome it is by accepting your emotions and ensuring a more manageable emotional level for crisis survival.
+Crises are a part of life, whether big or small - they are capable of overwhelming people and compelling them to react with negative behaviors. Specific traditional treatment approaches focus on avoiding painful emotions but distress tolerance skills in DBT teach patients that pain is inevitable. The best way to overcome it is by accepting your emotions and ensuring a more manageable emotional level for crisis survival.
 
 When DBT was developed, there were no existing treatment manuals that addressed temporary toleration of distressing events or circumstances. Available behavioral treatment focused on changing behavior, while distress tolerance taught patients to accept, find meaning, and experience emotional distress. As distress tolerance skills came into existence, it was applied to train patients numerous "delay of gratification" and self-soothing techniques aimed at surviving crises while preventing them from indulging in dysfunctional behaviors (e.g., using drugs, attempting suicide, or engaging in other destructive behavior). In distress, tolerance is a set of skills focused on reality acknowledgment, which aims to reduce pain and increase freedom when distressing facts cannot be changed immediately.
 
 ## Radical Acceptance For improving Distress Tolerance Skills
 
-An essential tool of distress tolerance is Radical Acceptance. Radical Acceptance is not a painkiller. It is the very embodiment of the [DBT Approach](https://www.swasth.co/dbt-coach/) through which you remain aware of your present situation and acknowledge it without evaluation or judgment. Radical Acceptance testifies the fact that painful emotions can neither be suppressed nor avoided. They will continue to exist, but it's our skillful stance that creates the impact. As you radically accept your emotions, you are ultimately making a choice - a choice of Acceptance.
+An essential tool of distress tolerance is Radical Acceptance. Radical Acceptance is not a painkiller. It is the very embodiment of the DBT Approach through which you remain aware of your present situation and acknowledge it without evaluation or judgment. Radical Acceptance testifies the fact that painful emotions can neither be suppressed nor avoided. They will continue to exist, but it's our skillful stance that creates the impact. As you radically accept your emotions, you are ultimately making a choice - a choice of Acceptance.
 
 Imagine having a cavity problem, and you need to see a dentist. The cavity problem needs immediate attention but you are terrified of the treatment involved in curing it, so you choose to stay in denial. However, you can't bear the pain anymore and you finally decide to consult a dentist. You soon realize that he is not very warm with his patients, and in a constant hurry to strike that spinning drill. So, you escape from the clinic and start neglecting your pain. But things become more complicated, and cutting off certain foods becomes the only option.
 
@@ -46,7 +56,7 @@ Here is a list of four skills essential for adopting the Distress Tolerance modu
 
 ## 4-Skill Guide For Navigating Emotional Distress
 
-* ### Distracting
+### Distracting
 
 The first skill - Distracting is composed of the acronym ACCEPTS, which allows you to shift your focus from negative thoughts to a more neutral or soothing emotion. ACCEPTS stands for Activities, Contributing, Comparisons, Emotions, Push away, Thoughts, and Sensation.
 
@@ -82,7 +92,7 @@ Restore physical sensations that can help you deviate from your current state of
 
 <!--StartFragment-->
 
-* ### Self-Soothing
+### Self-Soothing
 
 Another simple way to apply distress tolerance in a crisis is to use your body's senses. Self-soothing through bodily senses can quickly decrease the intensity of painful emotions. Here are the five senses to nurture for improving your distress tolerance skills:
 
@@ -108,7 +118,7 @@ Stimulating sensations of contact is an effective way to reduce stress or anxiet
 
 <!--StartFragment-->
 
-* ### Improving the moment
+### Improving the moment
 
 Whether it's a small problem (you broke your lipstick) or a more significant one (you broke your foot), you do not have control over unpleasant situations. And the positive attribute of problems is that they don't last forever. However, until the moment they do, you will need distress tolerance skills to endure such events without engaging in unhealthy behaviors.
 
@@ -146,7 +156,7 @@ Encouragement doesn't have to come from external factors. You can encourage your
 
 <!--StartFragment-->
 
-## Analyzing Pros And Cons
+### Analyzing Pros And Cons
 
 Making sensible emotions right after a distressing event is difficult, especially if you are not in your wise mind.
 
