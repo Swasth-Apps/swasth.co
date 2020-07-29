@@ -9,8 +9,14 @@ image: /img/women.png
 squareimage: /img/remote-work-stress-square.jpg
 categories:
   category:
-    - title: stress
-      slug: remote-working-stress
+    - title: Stress
+      slug: stress
+relatedpost:
+  blog:
+    - slug: what-is-mindfulness
+      title: What is Mindfulness?
+    - slug: how-to-overcome-loneliness
+      title: How to overcome Loneliness?
 tags:
   - Stress
   - Remote Working
@@ -23,7 +29,7 @@ With the sudden outbreak of novel coronavirus, the world faces a new phase where
 
 ## What makes Remote Working so stressful?
 
-While working from homemay have its perks, but when it comes to work stress, remote job "environment," the situations are far from perfect.
+While working from home may have its perks, but when it comes to work stress, remote job "environment," the situations are far from perfect.
 
 According to Swasth, a tech-based emotional wellness coach, sharing workspaces with family or roommates can cause one to develop numerous dysfunctional behaviors like overeating, to overwork, and so on. This can be problematic on many levels as they make a person stressed and anxious but, in the long-run, also hamper their relationships.
 
@@ -55,7 +61,7 @@ It's highly essential to maintain your routine even when you are not setting you
 
 ### 4. Take Breaks
 
-Taking breaks in between work promotes mental wellness, boosting your productivity and cognitive ability. When possible, take a break amidst work for a short walk and give yourself a much-needed change of surroundings or indulge in diaphragmatic breathing.[ In Swasth's DBT program](https://www.swasth.co/dbt-coach/), diaphragmatic breathing is recommended to lower stress levels and anger issues, resulting from various underlying circumstances like overwhelming work. It is also a good idea to have lunch at the right time to avoid overworking.
+Taking breaks in between work promotes mental wellness, boosting your productivity and cognitive ability. When possible, take a break amidst work for a short walk and give yourself a much-needed change of surroundings or indulge in diaphragmatic breathing. One of the approaches as suggesting in [DBT Coach](https://www.swasth.co/dbt-coach) app, is diaphragmatic breathing - recommended to lower stress levels and anger issues, resulting from various underlying circumstances like overwhelming work. It is also a good idea to have lunch at the right time to avoid overworking.
 
 <!--StartFragment-->
 
@@ -77,9 +83,7 @@ If you notice that remote work stress is taking a toll over you and affecting yo
 
 ## Conclusion
 
-Remote working stress has become a global issue, especially during this COVID-19 period, when situations are despicable outside and unmanageable inside. The United Nations claims that work stress is a collective challenge that we all must tackle and deal with together. There is still much to learn about working remotely and how to deal with resulting mental stress. At present, various online [mental wellness coaches](https://www.swasth.co/dbt-coach/) contribute to helping people to work on stress effectively. You can also opt for therapists if you think your symptoms are unbearable and you need help.
-
-
+Remote working stress has become a global issue, especially during this COVID-19 period, when situations are despicable outside and unmanageable inside. The United Nations claims that work stress is a collective challenge that we all must tackle and deal with together. There is still much to learn about working remotely and how to deal with resulting mental stress. At present, various online [](https://www.swasth.co/dbt-coach/)apps that focus on evidence based modalities such as CBT as used in [CBT Companion](https://www.swasth.co/cbt-companion)  to helping people to work on stress effectively. Please contact your therapist if you think your symptoms are unbearable and you need help.
 
 <!--EndFragment-->
 
