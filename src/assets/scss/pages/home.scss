@@ -370,14 +370,14 @@
     }
 
     .featured-blog-content {
-      height: 400px;
+      min-height: 400px;
       p {
         font-size: 14px;
       }
 
       div {
         span {
-          font-size: 14px;
+          font-size: 16px;
           font-family: 'medium-content-serif-font', Helvetica;
 
           p {
@@ -1499,7 +1499,7 @@ strong {
     }
     @media screen and (max-width: 769px) {
       .featured-blog-content {
-        margin: 0 10px;
+        margin: 0;
         height: 100% !important;
       }
     }
@@ -1558,6 +1558,7 @@ strong {
         font-size: 14px;
         font-weight: bold;
         color: _palette(dark-gray);
+        font-family: "Apercu Regular",Helvetica !important;
 
         img {
           width: 50px;
@@ -1607,6 +1608,15 @@ strong {
       .social__custom-icon {
         width: 32px;
         height: 32px;
+      }
+
+
+      @media screen and (max-width: 470px) {
+        flex-direction: column;
+        .user-info{
+          margin-bottom: 10px;
+          margin-left: -10px;
+        }
       }
 
     }
@@ -1727,7 +1737,7 @@ strong {
   .ant-tabs-tab {
     font-family: 'Apercu regular', Helvetica;
     color: #5c5c5c;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 16px;
     padding: 12px 4px;
     text-transform: uppercase;
@@ -1785,7 +1795,7 @@ strong {
     h3 {
       font-family: 'Apercu regular', Helvetica;
       color: #5c5c5c;
-      font-weight: bold;
+      font-weight: 500;
       font-size: 1.2em;
       margin-bottom: 0px;
       text-transform: uppercase;

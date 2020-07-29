@@ -78,8 +78,49 @@ class BlogComponent extends React.Component {
               anchorClass=''
               expanded={false}
             > {description}</ShowMoreText></p>
+            <div className='blog-user blog-details-user'>
+              <div className='user-info'>
+                <img src={sf}/>
+                {username}
+              </div>
+              <div className='social-icons'>
+                <div className="social-button">
+                  <FacebookShareButton url={currentPageUrl} quote={title} className="social__share-button">
+                    <FacebookIcon size={32} round />
+                  </FacebookShareButton>
+
+                  <div>
+                    <FacebookShareCount url={currentPageUrl} className="social__share-count">
+                      {count => count}
+                    </FacebookShareCount>
+                  </div>
+                </div>
+                <div className="social-button">
+                  <TwitterShareButton url={currentPageUrl} quote={title} className="social__share-button">
+                    <TwitterIcon size={32} round />
+                  </TwitterShareButton>
+                </div>
+                <div className="social-button">
+                  <LinkedinShareButton url={currentPageUrl} quote={title} className="social__share-button">
+                    <LinkedinIcon size={32} round />
+                  </LinkedinShareButton>
+                </div>
+                <div className="social-button">
+                  <RedditShareButton url={currentPageUrl} quote={title} className="social__share-button">
+                    <RedditIcon size={32} round />
+                  </RedditShareButton>
+
+                  <div>
+                    <RedditShareCount url={currentPageUrl} className="social__share-count">
+                      {count => count}
+                    </RedditShareCount>
+                  </div>
+                </div>
+              </div>
+            </div>
           </Col>
         </Row>
+        <div className="after-section">
         <Row className='card-row -margin-bottom -row-flex divider col-reverse'
              style={{ alignItems:'flex-start', }}
              gutter={16}>
@@ -94,7 +135,7 @@ class BlogComponent extends React.Component {
               </p>
               )}
             </div>
-            <div className='blog-user'>
+         {/*   <div className='blog-user'>
               <div className='user-info para-text'>
               <img src={sf}/>
                 {username}
@@ -133,7 +174,7 @@ class BlogComponent extends React.Component {
                     </div>
                 </div>
                </div>
-            </div>
+            </div>*/}
             <div />
           </Col>
           {relatedPosts?.length ?
@@ -170,6 +211,7 @@ class BlogComponent extends React.Component {
             </div>
           </Col> : null}
         </Row>
+        </div>
 
         {/*<Row md={12}
              className='card-col image-col recent-story-container feeds-container all-category-section'

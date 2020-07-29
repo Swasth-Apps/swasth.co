@@ -40,7 +40,16 @@
 
 }
 
-
+.after-section{
+  @media screen and (max-width: 799px) {
+    .col-reverse {
+      transform: translateY(0.5%) !important;
+    }
+  }
+}
+.subtitle{
+  font-size: 16px !important;
+}
 .navy-blue{
   color: #032230;
 }
@@ -340,3 +349,4 @@
   padding-left: 0 !important;
   }
 }
+
