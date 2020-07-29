@@ -47,7 +47,7 @@ Doing things on autopilot can be useful at times as it saves a lot of time and e
 
 The roots of mindfulness lie in Buddhist teachings that manifest the journey towards enlightenment, and the concept of "sati" - which involves being aware, attentive, and present. The term "mindfulness" was coined through translation from an ancient language called Pali. The emergence of mindfulness in Western Culture can be traced back to the theories of Kabat-Zinn. Kabat-Zinn acquired the knowledge of mindfulness from several Buddhist teachers like Philip Kapleau and Thich Nhat Hanh. In the late 1970s, Kabat-Zinn inculcated his mindfulness theories among his pupils at University of Massachusetts Medical School. As he developed the program of Mindfulness-Based Stress Reduction (MBSR) for treating chronic pain, his research showed that patients would often try to ride out their pain, but it would only lead to more profound distress. Hence, he concluded that mindfulness was a successful approach to deal with these experiences.
 
-**As mindfulness was integrated with science and medicine, it became a powerful psychodynamic technique based on [Cognitive Behavior Therapy](https://www.swasth.co/cbt-companion/), [Dialectical Behavior Therapy](https://www.swasth.co/dbt-coach/), and [Acceptance and Commitment Therapy](https://www.swasth.co/act-coach/).**
+**As mindfulness was integrated with science and medicine, it became a powerful psychodynamic technique based on [Cognitive Behavior Therapy](https://www.swasth.co/cbt-companion/), [Dialectical Behavior Therapy](https://www.swasth.co/dbt-coach/) and [Acceptance and Commitment Therapy](https://www.swasth.co/act-coach/).**
 
 ![Mindfullness](/img/mindfulness-in-dbt01.png "Mindful ")
 
