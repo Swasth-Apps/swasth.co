@@ -13,13 +13,13 @@ categories:
       slug: dialectical-behavior-therapy-dbt/
 relatedpost:
   blog:
-    - slug: mindfulness-in-dbt/
+    - slug: mindfulness-in-dbt
       title: Mindfulness in DBT
-    - slug: distress-tolerance-skills-in-dbt/
+    - slug: distress-tolerance-skills-in-dbt
       title: Distress Tolerance Skills in DBT
-    - slug: emotion-regulation/
+    - slug: emotion-regulation
       title: Emotion Regulation
-    - slug: what-is-dialectical-behavior-therapy/
+    - slug: what-is-dialectical-behavior-therapy
       title: What is Dialectical Behavior Therapy?
 tags:
   - DBT
