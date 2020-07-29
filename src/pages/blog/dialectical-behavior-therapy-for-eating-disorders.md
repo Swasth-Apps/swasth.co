@@ -6,11 +6,21 @@ date: 2020-07-08T00:00:00.000Z
 description: Dialectical Behavior Therapy is an evidence-based psychotherapy
   that helps people with binge-eating disorder or bulimia.
 image: /img/dbt-for-eating-disorders02.png
-squareimage: /img/dbt-for-eating-disorders02.png
+squareimage: /img/eating-disorder-square.jpeg
 categories:
   category:
     - title: "DBT "
-      slug: DBT-for-Eating-Disorders
+      slug: dialectical-behavior-therapy-dbt/
+relatedpost:
+  blog:
+    - slug: mindfulness-in-dbt/
+      title: Mindfulness in DBT
+    - slug: distress-tolerance-skills-in-dbt/
+      title: Distress Tolerance Skills in DBT
+    - slug: emotion-regulation/
+      title: Emotion Regulation
+    - slug: what-is-dialectical-behavior-therapy/
+      title: What is Dialectical Behavior Therapy?
 tags:
   - DBT
   - Eating Disorders
