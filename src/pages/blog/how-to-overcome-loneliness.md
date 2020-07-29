@@ -17,7 +17,13 @@ squareimage: /img/loneliness-square.jpg
 categories:
   category:
     - title: Depression
-      slug: Depression
+      slug: depression
+relatedpost:
+  blog:
+    - title: How to deal with Remote Working Stress?
+      slug: how-to-deal-with-remote-working-stress
+    - slug: what-is-mindfulness
+      title: What is Mindfulness?
 tags:
   - Depression
   - Loneliness
