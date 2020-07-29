@@ -13,13 +13,13 @@ categories:
       slug: dialectical-behavior-therapy-dbt/
 relatedpost:
   blog:
-    - slug: mindfulness-in-dbt/
+    - slug: mindfulness-in-dbt
       title: Mindfulness in DBT
-    - slug: distress-tolerance-skills-in-dbt/
+    - slug: distress-tolerance-skills-in-dbt
       title: Distress Tolerance Skills in DBT
-    - slug: emotion-regulation/
+    - slug: emotion-regulation
       title: Emotion Regulation
-    - slug: what-is-dialectical-behavior-therapy/
+    - slug: what-is-dialectical-behavior-therapy
       title: What is Dialectical Behavior Therapy?
 tags:
   - DBT
@@ -29,15 +29,15 @@ tags:
 
 Eating disorders do not discriminate, i.e., they can strike any gender, race, ethnicity, or socioeconomic background, according to the Eating Disorders Coalition, the organization for eating advocacy and awareness. The National Association of Anorexia Nervosa and Associated Disorders says that at least 30 million Americans have eating disorders, and every 62 minutes, at least one person dies out of it. Despite the commonness, the myths associated with it abound in nature. Such as that a person with an eating disorder is severely overweight or its a choice to overeat. It is not!
 
-A retrospective evaluation of US hospitals between 2013-2015 provided elaborative characteristics of people with eating disorders. This analysis indicated a broad range of mindless eating and binge-eating along with comorbid psychiatric diagnoses among them. The initial behavioral eating disorder outcomes revealed increased body weight, relapse of intense emotions, and finally, admitted to the program of Dialectical Behavioral Therapy.
+A retrospective evaluation of US hospitals between 2013-2015 provided elaborative characteristics of people with eating disorders. This analysis indicated a broad range of mindless eating and binge-eating along with co-morbid psychiatric diagnoses among them. The initial behavioral eating disorder outcomes revealed increased body weight, relapse of intense emotions, and finally, admitted to the program of Dialectical Behavioral Therapy.
 
-The implementation ofDBTintegrated with mindfulness and emotion regulation has shown positive outcomes among many people. Eating disorders typically commence due to invalidating environment conditions that fail to understand one's life complexities. This further reinforces a person's painful feelings and turns them into food. The rationale behind applying DBT is that it's based on the affect regulation model to cope with emotional vulnerability, unlike other approaches.
+The implementation of DBT integrated with mindfulness and emotion regulation has shown positive outcomes among many people. Eating disorders typically commence due to invalidating environment conditions that fail to understand one's life complexities. This further reinforces a person's painful feelings and turns them into food. The rationale behind applying DBT is that it's based on the affect regulation model to cope with emotional vulnerability, unlike other approaches.
 
 ## What is Dialectical Behavior Therapy?
 
 DBT is a specific type of cognitive-behavioral treatment developed in the late 1970s by Marsha Linehan, Ph.D., to treat chronically suicidal individuals diagnosed with borderline personality disorder (BPD). It is now recognized as a treatment for multi-problem behaviors that occurs due to difficult underlying emotions.
 
-While treating EDs, this program focuses on emotional dysregulation responsible for triggering or augmenting distress eating behaviors and promotes acceptance of patients themselves. The dialectical view advised in [Swasth](https://www.swasth.co/dbt-coach/), an online emotional wellness coach, appeals to many as they strive for recovery - they acknowledge their emotions and work towards being attentive and productive.
+While treating EDs, this program focuses on emotional dysregulation responsible for triggering or augmenting distress eating behaviors and promotes acceptance of patients themselves. The dialectical view advised in **[Health Coach](https://healthcoach.swasth.co)** by [Swasth](https://www.swasth.co/dbt-coach/), an online emotional wellness coach, appeals to many as they strive for recovery - they acknowledge their emotions and work towards being attentive and productive.
 
 ## Learning New Skills In Dialectical Behavior Therapy
 
