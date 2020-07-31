@@ -15,6 +15,8 @@ categories:
       slug: Cognitive Behavior Therapy
     - title: Evidence Based Therapy
       slug: evidence-based-therapy
+    - title: Anxiety
+      slug: anxiety
 relatedpost:
   blog:
     - title: What is Cognitive Behavioral Therapy?
