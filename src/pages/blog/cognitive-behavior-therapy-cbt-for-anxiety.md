@@ -13,6 +13,14 @@ categories:
   category:
     - title: CBT
       slug: Cognitive Behavior Therapy
+relatedpost:
+  blog:
+    - title: What is Cognitive Behavioral Therapy?
+      slug: what-is-cognitive-behavioral-therapy
+    - slug: what-is-dialectical-behavior-therapy
+      title: What is Dialectical Behavior Therapy?
+    - title: What is Acceptance and Commitment Therapy?
+      slug: what-is-acceptance-and-commitment-therapy
 tags:
   - CBT
   - Anxiety
