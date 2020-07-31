@@ -135,7 +135,7 @@ class BlogComponent extends React.Component {
               </p>
               )}
             </div>
-         {/*   <div className='blog-user'>
+            <div className='blog-user'>
               <div className='user-info para-text'>
               <img src={sf}/>
                 {username}
@@ -174,7 +174,7 @@ class BlogComponent extends React.Component {
                     </div>
                 </div>
                </div>
-            </div>*/}
+            </div>
             <div />
           </Col>
           {relatedPosts?.length ?

@@ -232,7 +232,7 @@ const Home = (props) => {
               <h2 style={{ textAlign: 'center' }} className='base-text'>HOW <span className='-highlighted-text'>OUR SERVICE</span>{' '} WORKS
               </h2>
             </Row>
-           
+           {/*
             <Row className='card-row '>
               <Col md={12} className='-margin-right'>
                 <img className='custom-image' src={rightProvider} alt='Therapy'/>
@@ -259,9 +259,10 @@ const Home = (props) => {
                 <button className='-btn-primary para-text'>
                   Find Provider
                 </button>
-                {/*<img src={findProvider}/>*/}
+                <img src={findProvider}/>
               </Col>
             </Row>
+            */}
             <Row className='card-row'>
               <Col md={12}>
                 <h2 className='bottom-space base-text'>
