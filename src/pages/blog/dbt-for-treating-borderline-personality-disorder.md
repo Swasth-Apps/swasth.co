@@ -10,7 +10,13 @@ squareimage: /img/bpd-square.jpg
 categories:
   category:
     - title: DBT
-      slug: DBT
+      slug: dialectical-behavior-therapy-dbt
+relatedpost:
+  blog:
+    - slug: what-is-dialectical-behavior-therapy
+      title: What is Dialectical Behavior Therapy?
+    - slug: emotion-regulation
+      title: Emotion Regulation
 tags:
   - DBT
   - Bipolar Personality Disorder
