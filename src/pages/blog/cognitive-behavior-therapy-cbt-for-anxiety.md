@@ -75,7 +75,8 @@ The best therapy suggested to deal with your anxiety would probably be CBT (Cogn
 
 ![CBT for Anxiety](/img/cbt.jpg "CBT for Anxiety")
 
-<!--EndFragment-->\
+<!--EndFragment-->
+
 <!--StartFragment-->
 
 * ### Ruling Out The Thought That Triggers The Patient
@@ -92,7 +93,6 @@ The therapist talks and questions the patient to rule out the root cause of the 
 
 After the root cause is known to the doctor, he would repeatedly keep giving CBT for Anxiety to the patient. In this case, it will make the patient face public more often. This in turn will help the patient to realize that what his thoughts were baseless and it will help him reframing a fresh and healthy thought structure and come out of his fear.
 
-\
 <!--StartFragment-->
 
 ## Take-Away Message
@@ -110,8 +110,6 @@ With the advancement of technology, there is an application for almost everythin
 Lastly, it is you, who has to think about the authenticity of this and take an initiative for this. Very well said by Roy T. Bennett:
 
 “Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.”
-
-
 
 <!--EndFragment-->
 
