@@ -13,6 +13,8 @@ categories:
   category:
     - title: CBT
       slug: Cognitive Behavior Therapy
+    - title: Evidence Based Therapy
+      slug: evidence-based-therapy
 relatedpost:
   blog:
     - title: What is Cognitive Behavioral Therapy?
