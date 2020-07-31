@@ -13,6 +13,8 @@ categories:
       slug: dialectical-behavior-therapy-dbt
     - title: BPD
       slug: bpd
+    - title: Evidence Based Therapy
+      slug: evidence-based-therapy
 relatedpost:
   blog:
     - slug: what-is-dialectical-behavior-therapy
