@@ -3,10 +3,10 @@ templateKey: blog-post
 title: Cognitive Behavior Therapy (CBT) for Anxiety
 username: Keerti Chandnani
 date: 2020-07-16T00:00:00.000Z
-description: Cognitive Behaviour Therapy is an efficient tool in treating
-  various mental and physical disorders, such as anxiety, stress, insomnia,
-  social anxiety disorder, PTSD, OCD, problems due to intake of alcohol and
-  drugs, sexual disorders, dental phobia, etc.
+description: Cognitive Behavior Therapy is an efficient tool in treating various
+  mental and physical disorders, such as anxiety, stress, insomnia, social
+  anxiety disorder, PTSD, OCD, problems due to intake of alcohol and drugs,
+  sexual disorders, dental phobia, etc.
 image: /img/cbt-anxiety.jpg
 squareimage: /img/cbt-anxiety-square.jpg
 categories:
@@ -27,13 +27,13 @@ tags:
 ---
 <!--StartFragment-->
 
-Cognitive Behaviour Therapy, as the name suggests; is a therapy (or treatment), which is behavior-related and is purely cognitive (i.e. related to knowledge). Now, this knowledge could be based on the practical world or the existing facts or some illusions (or self-created misconceptions). Hence, CBT (Cognitive Behaviour Therapy) can be explained as a treatment given to someone, whose thought pattern gets altered due to improper (or lack of) knowledge.
+Cognitive Behavior Therapy, as the name suggests; is a therapy (or treatment), which is behavior-related and is purely cognitive (i.e. related to knowledge). Now, this knowledge could be based on the practical world or the existing facts or some illusions (or self-created misconceptions). Hence, CBT (Cognitive Behavior Therapy) can be explained as a treatment given to someone, whose thought pattern gets altered due to improper (or lack of) knowledge.
 
 Unlike other ongoing long treatments, CBT is a short - term treatment procedure that targets the patient’s thought procedure, what he believes is right or a fact, his feelings about himself and others around him; which ultimately is reflected through his behavior and attitude.
 
-Cognitive Behaviour Therapy is an efficient tool in treating various mental and physical disorders, such as anxiety, stress, insomnia, social anxiety disorder, PTSD, OCD, problems due to intake of alcohol and drugs, sexual disorders, dental phobia, etc.
+Cognitive Behavior Therapy is an efficient tool in treating various mental and physical disorders, such as anxiety, stress, insomnia, social anxiety disorder, PTSD, OCD, problems due to intake of alcohol and drugs, sexual disorders, dental phobia, etc.
 
-Principles areas of working in Cognitive Behaviour Therapy are:
+Principles areas of working in Cognitive Behavior Therapy are:
 
 * Malfunctioning of thought process.
 * Inappropriate behavior and attitude.
@@ -71,7 +71,7 @@ In order to re-create confidence in the patient; he is exposed to his fears, ask
 
 If you are stressed, you will be anxious; hence leading to anxiety. It is a natural body response, towards anything strange that you are doing, or doing it for the first time. For Example, attending your first interview, relocating at a new place, delivering a speech, etc. Such a feeling prevails as long as you face it. But if it is always there with you, disturbing you every moment, losing your confidence and affecting your normal character; then it is an alarm to consult your doctor or a therapist.
 
-The best therapy suggested to deal with your anxiety would probably be CBT (Cognitive Behavioural Therapy). CBT for anxiety helps to change your thought pattern in a way that, even if triggered the situation would not go worse. Cognitive Behavioural Therapy for anxiety involves the following steps:
+The best therapy suggested to deal with your anxiety would probably be CBT (Cognitive Behavior Therapy). CBT for anxiety helps to change your thought pattern in a way that, even if triggered the situation would not go worse. Cognitive Behavior Therapy for anxiety involves the following steps:
 
 ![CBT for Anxiety](/img/cbt.jpg "CBT for Anxiety")
 
