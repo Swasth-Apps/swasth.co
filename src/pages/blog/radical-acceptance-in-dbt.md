@@ -10,7 +10,7 @@ squareimage: /img/radical-accpetance-sqaure.jpg
 categories:
   category:
     - title: DBT
-      slug: DBT
+      slug: dialectical-behavior-therapy-dbt
 relatedpost:
   blog:
     - slug: distress-tolerance-skills-in-dbt
