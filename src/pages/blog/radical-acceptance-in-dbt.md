@@ -2,18 +2,25 @@
 templateKey: blog-post
 title: Radical Acceptance in DBT
 username: Rusha Bhattacharjee
-date: 2020-07-13
+date: 2020-07-13T00:00:00.000Z
 description: Radical Acceptance is a skill taught in DBT that allows people to
   move on and fosters growth in place of stagnation and past ruminations.
-image: /img/radical-accpetance-main.jpg
+image: /img/radical-acceptance.jpg
 squareimage: /img/radical-accpetance-sqaure.jpg
 categories:
   category:
     - title: DBT
       slug: DBT
+relatedpost:
+  blog:
+    - slug: distress-tolerance-skills-in-dbt
+      title: Distress Tolerance Skills in DBT
+    - slug: what-is-dialectical-behavior-therapy
+      title: What is Dialectical Behavior Therapy?
 tags:
   - DBT
-  - Acceptance
+  - Radical Acceptance
+  - Distress Tolerance
 ---
 <!--StartFragment-->
 
