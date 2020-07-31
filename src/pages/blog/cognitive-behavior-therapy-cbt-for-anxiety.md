@@ -2,13 +2,13 @@
 templateKey: blog-post
 title: Cognitive Behavior Therapy (CBT) for Anxiety
 username: Keerti Chandnani
-date: 2020-07-16
+date: 2020-07-16T00:00:00.000Z
 description: Cognitive Behaviour Therapy is an efficient tool in treating
   various mental and physical disorders, such as anxiety, stress, insomnia,
   social anxiety disorder, PTSD, OCD, problems due to intake of alcohol and
   drugs, sexual disorders, dental phobia, etc.
-image: /img/cbt-intro.jpg
-squareimage: /img/cbt-intro-copy.jpg
+image: /img/cbt-anxiety.jpg
+squareimage: /img/cbt-anxiety-square.jpg
 categories:
   category:
     - title: CBT
