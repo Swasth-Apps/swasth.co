@@ -17,6 +17,8 @@ relatedpost:
       title: What is Dialectical Behavior Therapy?
     - slug: emotion-regulation
       title: Emotion Regulation
+    - title: Distress Tolerance Skills in DBT
+      slug: distress-tolerance-skills-in-dbt
 tags:
   - DBT
   - Bipolar Personality Disorder
