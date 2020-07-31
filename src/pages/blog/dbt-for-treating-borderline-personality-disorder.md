@@ -11,6 +11,8 @@ categories:
   category:
     - title: DBT
       slug: dialectical-behavior-therapy-dbt
+    - title: BPD
+      slug: bpd
 relatedpost:
   blog:
     - slug: what-is-dialectical-behavior-therapy
