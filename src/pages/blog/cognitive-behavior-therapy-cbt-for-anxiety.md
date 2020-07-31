@@ -13,6 +13,8 @@ categories:
   category:
     - title: CBT
       slug: Cognitive Behavior Therapy
+    - title: Evidence Based Therapy
+      slug: evidence-based-therapy
 relatedpost:
   blog:
     - title: What is Cognitive Behavioral Therapy?
@@ -99,7 +101,7 @@ After the root cause is known to the doctor, he would repeatedly keep giving CBT
 
 Cognitive behavioral therapy has been proven the most successful therapy to cure people, who make their own world, based upon unhelpful thoughts, which are nowhere close to the truth or reality. The patient then starts dwelling the same in his mind, taking them to be right; which in turn are reflected by his behavior and attitude, tending to eradicate his feelings. And no or lack of feelings further leads to the development of distorted thoughts. This is a cyclic process and keeps multiplying.
 
-![CBT Companion](/img/cbt_companion_.png "CBT Companion")
+![CBT Companion](/img/cbt_companion_screen.png "CBT Companion")
 
 <!--EndFragment-->
 
