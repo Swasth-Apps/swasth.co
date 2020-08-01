@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: ACT for Post-traumatic Stress
 username: Rusha Bhattacharjee
-date: 2020-07-18
+date: 2020-07-18T00:00:00.000Z
 description: >
   ACT is used to treat PTSD and other mental health d isorders. The goal of ACT
   is to promote acceptance while focusing on attention and commitment. 
@@ -49,7 +49,7 @@ Our mind is molded in a way that we can systematically label our emotions to be 
 
 ACT for PTSD focuses on five integral goals that, if pursued, can help you immensely in the long-run. These goals can empower you with self-confidence, self-awareness, and commitment towards betterment.
 
-1. ### Accept that Avoidance will not help
+### 1. Accept that Avoidance will not help
 
 ACTtherapists call this "goal creative hopelessness." You can achieve this goal if you accept that avoiding painful emotions is not a wise job, and it's never an effective solution to eliminating unpleasant elements from your life.
 
@@ -72,7 +72,5 @@ Avoiding emotional pain can consume a considerable amount of energy in people wi
 ## Conclusion
 
 Several people have reported development in using Acceptance and Commitment Therapy (ACT) for post-traumatic stress disorder (PTSD). If you are struggling with symptoms of PTSD, ACT for PTSD may be enormously helpful. Although, it is advised that you seek help from professional therapists or psychologists to deal with such delicate mental health concerns.
-
-
 
 <!--EndFragment-->
