@@ -65,7 +65,7 @@ class BlogLanding extends React.Component {
                   />
                   <div className='story-content'>
                     <div className='category-tags'>
-                      {frontmatter?.categories?.category?.slice(0,1).map(({ title, slug }) =>
+                      {frontmatter?.categories?.category.map(({ title, slug }) =>
                         <Link to={`/category/${slug}`}>
                           <p className='para-text'>
                             {title}
@@ -98,6 +98,7 @@ class BlogLanding extends React.Component {
           </Link>
           </Col>
           <Col md={12} className='card-col image-col featured-blog-content featured-section'>
+            <div className='ribbon ribbon-top-right ribbon-purple'><span>Featured</span></div>
             <div className='category-tags'>
             {featuredPost?.node?.frontmatter?.categories?.category?.map(({title,slug}) =>
               <Link to={`/category/${slug}`}>

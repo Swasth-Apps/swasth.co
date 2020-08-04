@@ -14,6 +14,7 @@ class CategoryComponent extends React.Component {
     edges = edges?.filter(({node : {frontmatter}}) =>
       frontmatter?.categories?.category?.some(el => `/category/${el.slug}/` === this.props.slug));
 
+    console.log(edges)
     const featuredPost = edges?.find(({node : {frontmatter}}) => frontmatter?.featuredpost);
     return (
       <section className='feature-section-group blog-section-container blog-section-group'>
@@ -34,7 +35,15 @@ class CategoryComponent extends React.Component {
                 src={frontmatter?.squareimage}
               />
               <div className='story-content'>
-                <span className='category-text'>{this.props.title}</span>
+                <div className='category-tags'>
+                {frontmatter?.categories?.category?.map(({ title, slug }) =>
+                  <Link to={`/category/${slug}`}>
+                    <p className='para-text'>
+                      {title}
+                    </p>
+                  </Link>
+                )}
+                </div>
                 <h3 className='base-text navy-blue'>{frontmatter?.title}</h3>
                 <p className='para-text blog-date'>{frontmatter?.username}</p>
               </div>
