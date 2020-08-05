@@ -11,6 +11,12 @@ categories:
   category:
     - title: Stress
       slug: stress
+relatedpost:
+  blog:
+    - slug: how-to-cope-with-mental-health-issues-at-workplace
+      title: How to Cope With Mental Health Issues at Workplace?
+    - title: How to deal with Remote Working Stress?
+      slug: how-to-deal-with-remote-working-stress
 tags:
   - Stress
   - Books
