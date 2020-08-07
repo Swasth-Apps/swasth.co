@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Two Vital CBT Techniques For Depression
 username: Keerti Chandnani
-date: 2020-07-29
+date: 2020-07-29T00:00:00.000Z
 description: "To treat depression, CBT has been proved to be the most powerful
   tool. ThE therapy works on the principle of cognition i.e., the mind
   processes. CBT comprises various talk sessions where the patient's thoughts
@@ -55,29 +55,35 @@ Hope is one of the most effective antidepressants ever encountered. Hope works a
 
 ### 1. Reframing The Patient’s Thoughts
 
-#### \    (Affecting the subconscious level)
+####    (Affecting the subconscious level)
 
-In the first technique, the patient is heard patiently and minutely. The way he explains his thoughts, expresses his feelings, every vital thing that he wants to convey. The therapist must simultaneously keep reflecting on the patient accurately as he is portraying his emotions. This reflection must be made in a subtle manner and in a reformed way.
+<!--StartFragment-->
 
-The patient must get positive feedback as if he is properly being understood. At everything he conveys, you must nod your head as if you fully agree with him. This very feel in the patient would let you enter his distorted emotional zone, making him comfortable in sharing his thoughts.
+In the first technique, the patient is heard patiently and minutely. The way he explains his thoughts, expresses his feelings, every vital thing that he wants to convey. One must simultaneously keep reflecting back to the patient in exactly the same manner, as he is portraying his feelings. This reflection should be made in a subtle manner and in a reformed way.
 
-![CBT for Depression](/img/depression-therapist.jpg "CBT sessions")
+Any positive words will uplift the patient's morale and would help him get out of the zone easily. At everything he conveys, we can nod our head as if we fully agree with him. This very feel in the patient would let us enter his distorted emotional zone, making him comfortable in sharing his thoughts.
 
-Avoid using the monitoring words as you must, you should have, no, you are mistaken, etc. This would work like kerosene in the fire of the patient's emotions, and the things would adopt a wrong path. The reason behind this being, the person in depression, considers all his thoughts to be brutal that keeps digging the negativity deeper. As a result, the patient develops it as a strong belief in his life.
+Avoid using the monitoring words like, you must, you should have, no you are mistaken, etc. This would work like kerosene in the fire of emotions of the patient, the things would adopt a wrong path. The reason behind this being, the person in depression considers all his thoughts to be brutal that keeps digging the negativity deeper. As a result, the patient develops it as a strong belief of his life.
 
-While reflecting on his feelings, you can add pleasing words like: perhaps, you might be thinking right and so on. The use of such terms would maintain the patient in his comfort zone, but simultaneously impact his subconscious mind and help him reframe his thoughts. Like I did with Mary.
+While reflecting back his feelings, we can add pleasing words like, perhaps, maybe, you might be thinking right and so on. The use of such words would maintain the patient in his comfort zone, but simultaneously impart an impact on his subconscious mind and will help him reframe his thoughts. Like I did with Mary.
 
-When she said, "I am viceroy of this country." I replied, "Wow, that's great, at what age did you become the viceroy?"
+When she said, “I am viceroy of this country.” I replied, “ Wow that’s great, at what age did you become the viceroy?”
 
-When she said, "I am a mother of 12 children." My response was, "That's great. No one could predict this as you are still maintained."
+When she said, “I am a mother of 12 children.” My response was, “ That’s great. No one could predict this as you are still maintained.”
 
-Her words, "I conceived my first child in my mother's womb," gave me a big shock. But I calmly responded, "It is no less than magic."
+Her words, “I conceived my first child in my mother’s womb” gave me a big shock. But I calmly responded, “It is no less than magic.”
 
-For her complaint, "My parents, with whom I am living, are not my real parents," I said, "Still, they love you so much that no one can make this out."
+For her complaint, “My parents, with whom I am living, are not my real parents” I said, “Still they love you so much that no one can make this out.”
 
-This conversation landed Mary to two - ways of satisfaction. One, there is someone to listen to and understand her. And second, the unconscious impact that she took for each of her statements. Her happiness in sharing her feelings with me made her relaxed and calm in her mind.
+This conversation landed Mary to two - ways of satisfaction. One, there is someone to listen to and understand her. And second, the unconscious impact that she took for each of her statements. Her happiness in sharing her feelings with me made her relaxed and calm at her mind.
 
 Now when Mary was calm, it was the turn of application of the second CBT technique for depression.
+
+
+
+<!--EndFragment-->
+
+![CBT for Depression](/img/depression-therapist.jpg "CBT sessions")
 
 <!--StartFragment-->
 
@@ -85,13 +91,21 @@ Now when Mary was calm, it was the turn of application of the second CBT techniq
 
 #### (Working at a conscious level of mind)
 
-After the feeling or the bond of comfort and trust is developed between you and the patient, you just have to take your next step of working at his conscious level.
+<!--StartFragment-->
 
-Take the things as they come to you. You have to think according to the perspective of the patient, what he wants to show you. You will have to accept that whatever your patient is saying is correct. Once you have brought your thinking level up to your patient's level, that would be the point from which you would be able to introduce your thoughts into his mind. It will then be the commencement of paving the way out of the depression world for your patient.
+After the feeling or the bond of comfort and trust is developed between us and the patient, we just have to take our next step of working at his conscious level.
 
-You should then start making your patient analyze what type of thought pattern he was developing or feeling. And as the patient is in the condition to make it out, it would be the moment for him to return back to the real world.
+We should take things as they come. We have to think according to the perspective of the patient, what he wants to show us. We will have to accept that whatever the sufferer is saying is correct. Once we have brought our thinking level up to the level of the patient, that would be the point from where we would be able to introduce our thoughts into his mind. It will then be the commencement of paving the way out of the depression world for the patient.
 
-Before you start giving CBT for depression to a patient, you must take into account hemorrhage, if any, that he might have encountered. Also, his schedule must be monitored.
+We should then start making the patient analyze as to what type of thought pattern was he developing or feeling. And as the patient is in the condition to make it out, it would be the moment for him to return back to the real world.
+
+<!--StartFragment-->
+
+Before CBT for depression is given to a patient, we must take into account hemorrhage if any that he might have encountered. Also, his schedule must be monitored thoroughly.
+
+<!--EndFragment-->
+
+<!--EndFragment-->.
 
 Cognitive Behavior Therapy may have to be repeated every five to ten months, depending upon the severity of the case. But the results of CBT for depression have always been found to be positive.
 
@@ -112,17 +126,9 @@ And remember,
 
 **Happy Living!**
 
-
-
 <!--EndFragment-->
 
-
-
-
-
 <!--EndFragment-->
-
-
 
 <!--EndFragment-->
 
