@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Are you stressed? Read these books to relax your mind!
 username: Keerti Chandnani
-date: 2020-07-23T00:00:00.000Z
+date: 2019-07-22
 description: "Swasth has brought the top 5 books to relax your mind when
   stressed. Dive deep to read the full article. "
 image: /img/book-horizontal.jpg
