@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Cognitive Behavior Therapy (CBT) for Anxiety
 username: Keerti Chandnani
-date: 2020-07-16T00:00:00.000Z
+date: 2019-07-15
 description: Cognitive Behavior Therapy is an efficient tool in treating various
   mental and physical disorders, such as anxiety, stress, insomnia, social
   anxiety disorder, PTSD, OCD, problems due to intake of alcohol and drugs,
@@ -51,11 +51,11 @@ In this case, the problems are encountered by the people due to their habit of t
 
 ## How Does CBT Work?
 
-The cognitive behavior therapy is targeted on healing and rectifying the thought process of the patient and making him behave relevantly and take the things as they actually are. This is a systematic and step by step procedure, which involves various sessions between the therapist and the patient.
+Cognitive behavior therapy is targeted towards healing and rectifying the thought process and  help people find new ways to behave. During a course of CBT, a person can learn to:
 
 * ### Spotting Out The Problem Or The Troubling Cause
 
-The very first step involves the therapist to spot out the actual problem or the trouble that a patient is facing. The phase of life (or the mental status) that he is going through presently.
+The very first step is to identify the actual problem clearly. The though process that has landed them here.
 
 * ### Scrolling Out The Cause
 
