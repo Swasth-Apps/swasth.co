@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react'
-import { Col, Row, Tabs, Progress } from 'antd'
+import { Link } from 'gatsby'
+import { Col, Row, Tabs } from 'antd'
+import { testimonials } from '../components/testimonialData'
 import therapyGraphic from '../assets/images/Therapy-section@3x.png'
-import Carousel from '../shared/carousel'
 import appStore from '../assets/images/app-store.png'
 import googlePay from '../assets/images/google-play.png'
 import DBTCoach from '../assets/images/DBT-app-icon.png'
@@ -10,56 +11,14 @@ import CBTCompanion from '../assets/images/CBT_app_icon.png'
 import DBTCoachScreen from '../assets/images/DBT_coach_screen.png'
 import ACTCoachScreen from '../assets/images/ACT_coach_screen.png'
 import CBTCompanionScreen from '../assets/images/CBT_companion_screen.png'
-import engagementTools from '../assets/images/360-degree-view-graphic@3x.png'
 import rightProvider from '../assets/images/Right_provider_graphic@3x.png'
 import evidenceGraphic from '../assets/images/Evidence_based_graphic@3x.png'
-import UserImg1 from '../assets/images/UserIcons/1.jpg'
-import UserImg2 from '../assets/images/UserIcons/2.jpeg'
-import UserImg3 from '../assets/images/UserIcons/3.jpeg'
-import UserImg4 from '../assets/images/UserIcons/4.jpeg'
-import UserImg5 from '../assets/images/UserIcons/5.jpeg'
-import UserImg6 from '../assets/images/UserIcons/6.jpeg'
-
-import Quote from '../assets/images/quote-icon@3x.png'
-
-
-import { home } from '../helper/helper'
+import ComprehensiveHealth from '../assets/images/Product_Exploded.png'
+import ProgramAdapts from '../assets/images/program-adapts.jpg'
 import Banner from '../components/Banner'
 
 const { TabPane } = Tabs;
 const Home = (props) => {
-  const testimonials = [
-    {
-      img: Quote,
-      user: UserImg1,
-      desc: 'I wish I had something like this when I started DBT. Would have saved thousands on therapists and saved myself the frustration of moving from one therapist to another. This app is so thorough that you don’t need anything else. I love the design, usability and how easy to access everything. Also, the most important me is the ability to share my entries with my therapist and constant feedback.',
-      name: 'Janet Marshal'
-    }, {
-      img: Quote,
-      user: UserImg2,
-      desc: 'Wow! They have created a video for every skill. It is very easy to follow. I am learning DBT on my own and found this lot more easier than reading the manual and learning on the internet. Also I can access from anywhere. I don’t know all aspects of DBT yet , but I am sure this App will take me all the way there. Great job and thanks for saving my life. My nearest DBT Therapist is 100+ miles away.',
-      name: 'Laura Sanders'
-    }, {
-      img: Quote,
-      user: UserImg3,
-      desc: 'I am a therapist that incorporates Evidence-Based therapy (specifically DBT) in my practice. I really love their platform since it helps me to be more engaged with my clients. I love that can assign homework and assessments and my clients can submit them through the app. I have recommended to other clinicians in my practice who love this too. If your are looking for a platform that enables to better incorporate Evidence-Based therapy in your practice, I highly recommend Swasth.',
-      name: 'Nicole M'
-    }, {
-      img: Quote,
-      user: UserImg4,
-      desc: 'Excellent! This will be my go to app for DBT from now on. Have been frustrated with low usability of existing apps on playstore. There is so much detail in this. A skills group member told me today that I can do my worksheets on this app. Wow! I didn’t even realize that and I was still amazed by the app. The best thing about the app is, I can do all my homework from the skills group and one-on-one therapy in the app (which my therapist assigns) and she can see it in her clinician app. I rarely forget to do my diary entry and homework anymore.',
-      name: 'Tracy D'
-    }, {
-      img: Quote,
-      user: UserImg5,
-      desc: 'WOW! Excellent app! I had been struggling to practice CBT because I didnt always have a pen & paper on hand... Since I DO always have my device handy, this will improve  tremendously my use of daily Diary cards. Further the content is so rich. I am a visual person - so the videos are perfect. There are so many features, I am just in love with it.    ',
-      name: 'Kendra jackson'
-    }, {
-      img: Quote,
-      user: UserImg6,
-      desc: 'As a therapist who uses both client apps and the clincian platform, I can say that these apps are very comprehensive. They cover all the tools necessary to make Client Engagement and Behavioral Health Coaching a great experience. I highly recommend this platform to all Clinicians for better outcomes to their clients.',
-      name: 'Michael Covey'
-    }]
   const store = (
     <Row className='card-row' style={{ display: 'flex', flexDirection: 'row' }}>
       <Col md={8} style={{ marginRight: '10px' }}>
@@ -123,13 +82,13 @@ const Home = (props) => {
             <div className='para-text'>
               <p style={{ textAlign: 'center' }}>
               Swasth's Digital Health Platform offers treatment programs for Anxiety, Depression,
-              Eating Disorders, Borderline Personality Disorder, PTSD, SUDs, etc. The Platform combines Technology, 
-              Evidence-Based Therapy and Coaching from Licensed Clinicians and Coaches.             
+              Eating Disorders, Borderline Personality Disorder, PTSD, SUDs, etc. The Platform combines Technology,
+              Evidence-Based Therapy and Coaching from Licensed Clinicians and Coaches.
               </p>
             </div>
             </Row>
             <Row>
-              <img className='custom-image' src={therapyGraphic} alt='Therapy' />
+              <img className='custom-image' src={ComprehensiveHealth} alt='Therapy' />
             </Row>
           {/*
             <Row className='card-row '>
@@ -163,7 +122,7 @@ const Home = (props) => {
             </Row>
           */}
             <Row className='card-row'>
-              <Col md={12}>
+              <Col md={12} className="program-adapts">
                 <h2 className='bottom-space base-text'>Programs that adapt to <span className='-highlighted-secondary-text'>Individual </span>
                  needs
                 </h2>
@@ -172,7 +131,7 @@ const Home = (props) => {
                 </div>
               </Col>
               <Col md={12} className='-margin-right'>
-                <img className='custom-image' src={evidenceGraphic} alt='Therapy' />
+                <img className='custom-image' src={ProgramAdapts} alt='Therapy' />
               </Col>
             </Row>
           </Col>
@@ -201,7 +160,7 @@ const Home = (props) => {
               </h2>
             </Row>
 
-          
+
             <Row className='card-row '>
               <Col md={12} className='-margin-right'>
                 <img className='custom-image' src={rightProvider} alt='Therapy' />
@@ -220,13 +179,14 @@ const Home = (props) => {
                 </div>
               </Col>
             </Row>
-          
+
             <Row className='card-row'>
               <Col md={12}>
                 <h2 className='bottom-space base-text'>
                   <span className='-highlighted-secondary-text'>
                     On-Demand
                     </span>
+                  {' '}
                 Skills Coaching
                 </h2>
                 <div className='para-text'>
@@ -353,17 +313,24 @@ const Home = (props) => {
         <Row gutter={24} className='second-fold-row' style={{ marginTop: 20 }}>
           <div className='cell well user-testimonial'>
             <div className='grid grid--3 well--m mt4 pricing-relative'>
-              {testimonials?.map((item, i) =>
+              {testimonials?.slice(0,6)?.map((item, i) =>
                 <div className={`card card--vertical card--starter pricing-relative life-coach-grid-section`}>
                   <div className='card-text'>
                     <img src={item.img} />
                     <p className='para-text navy-text line-clamp-para'>{item.desc}</p>
                     {/*<a className='para-text more-link-text' onClick={() => handleTestimonial(i)}>{i === testimonial ? 'READ LESS' :'READ MORE'}</a>*/}
-                    <span className='-font-bold user-img navy-text'><img src={item.user} /><strong>{item.name}</strong> </span>
+                    <span className='-font-bold user-img navy-text'>
+                      <div className="user-info"><img src={item.user} /><strong>{item.name}</strong></div>
+                                        <strong>{item.userType}</strong>
+
+                      </span>
                   </div>
                 </div>)}
             </div>
           </div>
+          {testimonials.length > 6 ?<div className="show-more-testimonial"> <Link to="/testimonial">
+            Show More
+          </Link></div> : null}
         </Row>
         {/*       <div style={{textAlign:'center'}} className='all-testimonials divider'>
           <a className='-highlighted-secondary-text'>Check all testimonials</a>

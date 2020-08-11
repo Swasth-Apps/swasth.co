@@ -99,6 +99,13 @@
   .home-section-group {
     transform: translateY(4%);
   }
+  .all-testimonial-section{
+    transform: translateY(10%);
+    @media only screen and (max-width: 769px) {
+      transform: translateY(5%);
+      width: inherit;
+    }
+  }
 
   .coaching-home-section-group {
     transform: translateY(25%);
