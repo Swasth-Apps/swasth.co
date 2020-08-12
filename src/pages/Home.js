@@ -64,7 +64,7 @@ const Home = (props) => {
               <span className='-highlighted-text'>
                 Therapy
                     </span>{' '}
-              is not one size fits all
+              isn't one size fits all
             </h2>
             <div className='para-text'>
               Treatment is not a one size fits all approach. Where you go for mental health care treatment depends
