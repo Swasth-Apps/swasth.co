@@ -7,7 +7,8 @@ class HomeIndex extends React.Component {
     
     render() {
         return (
-            <Layout extraHeader>
+            //<Layout extraHeader>
+            <Layout>
                 <Home />
             </Layout>
         )

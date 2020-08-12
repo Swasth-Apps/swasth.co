@@ -2,18 +2,19 @@ import React, { Fragment } from 'react'
 import { Link } from 'gatsby'
 import { Col, Row, Tabs } from 'antd'
 import { testimonials } from '../components/testimonialData'
-import therapyGraphic from '../assets/images/Therapy-section@3x.png'
+//import therapyGraphic from '../assets/images/Therapy-section@3x.png'
+import therapyGraphic from '../assets/images/Therapy.jpg'
 import appStore from '../assets/images/app-store.png'
 import googlePay from '../assets/images/google-play.png'
 import DBTCoach from '../assets/images/DBT-app-icon.png'
 import ACTCoach from '../assets/images/ACT-app-icon.png'
 import CBTCompanion from '../assets/images/CBT_app_icon.png'
-import DBTCoachScreen from '../assets/images/DBT_coach_screen.png'
+import DBTCoachScreen from '../assets/images/DBT_coach_screen@2x.png'
 import ACTCoachScreen from '../assets/images/ACT_coach_screen.png'
 import CBTCompanionScreen from '../assets/images/CBT_companion_screen.png'
-import rightProvider from '../assets/images/Right_provider_graphic@3x.png'
-import evidenceGraphic from '../assets/images/Evidence_based_graphic@3x.png'
-import ComprehensiveHealth from '../assets/images/Product_Exploded.png'
+import skillsCoaching from '../assets/images/skillsCoaching.png'
+import programs from '../assets/images/programs.png'
+import ComprehensiveHealth from '../assets/images/comprehensiveHealth.png'
 import ProgramAdapts from '../assets/images/program-adapts.jpg'
 import Banner from '../components/Banner'
 
@@ -123,11 +124,12 @@ const Home = (props) => {
           */}
             <Row className='card-row'>
               <Col md={12} className="program-adapts">
-                <h2 className='bottom-space base-text'>Programs that adapt to <span className='-highlighted-secondary-text'>Individual </span>
-                 needs
-                </h2>
+                <h3 className='bottom-space base-text'>Personalized programs for <span className='-highlighted-secondary-text'>specific </span>
+                 conditions
+                </h3>
                 <div className='para-text'>
-                  Our digital therapeutic tools are built ground up using evidence based treatments like Cognitive Behavioral Therapy (CBT), Acceptance & Commitment Therapy (ACT), Dialetical Behavior Therapy (DBT) etc. Further, we partner with our therapists and coaches so they can enjoy a thriving evidence-based practice while devoting more time to care.
+                  <p>Our treatment programs combines evidence-based therapy modalities (Dialectical Behavior Therapy / DBT, Cognitive Behavioral Therapy / CBT, Acceptance and Committment Therapy / ACT etc.) with nutritional psychology, sleep psychology, Heart Rate / HRV-biofeedback and Health Psychology.</p>
+                  <p> This holistic approach to behavioral health helps our program participants to gain long-lasting transformational results.</p>
                 </div>
               </Col>
               <Col md={12} className='-margin-right'>
@@ -156,52 +158,70 @@ const Home = (props) => {
       <Row className='card-row -row-flex-center'>
           <Col md={24}>
             <Row>
-              <h2 style={{ textAlign: 'center' }} className='base-text'>COACHING <span className='-highlighted-text'>PLATFORM</span>{' '}
+              <h2 style={{ textAlign: 'center' }} className='base-text'>Evidence-Based <span className='-highlighted-text'>Behavioral Health</span>{' '}Coaching
               </h2>
             </Row>
-
-
             <Row className='card-row '>
               <Col md={12} className='-margin-right'>
-                <img className='custom-image' src={rightProvider} alt='Therapy' />
+                <img className='custom-image' src={programs} alt='Therapy' />
               </Col>
               <Col md={12}>
-                <h2 className='bottom-space base-text'>
-                  Better care with
+                <h3 className='bottom-space base-text'>
+                Programs grounded in 
                   <span className='-highlighted-secondary-text'>
-                    {' '} Right Provider
+                    {' '} Proven Treatment Methods
                     </span>
-                </h2>
+                </h3>
                 <div className='para-text'>
-                  With Swasth's unique matching process, individuals get connected to the right clinician / provider at
-                  no cost. Our evidence based platform enables individuals to obtain care in-person, live video call or
-                  self guided digital care.
+                <p>We offer effective care programs designed by clinical experts and grounded in evidence-based practices that are proven to work. </p>
+                  The programs focus on:
+                  <ul>
+                    <li>Goal-focused treatment</li>
+                    <li>New skill development</li>
+                    <li> Practice between sessions</li>
+                    <li>Track progress toward goals</li>
+                    <li>Use an holistic approach</li>
+                    <li>Short-term and long-lasting results</li>
+                  </ul>
                 </div>
               </Col>
             </Row>
-
             <Row className='card-row'>
               <Col md={12}>
-                <h2 className='bottom-space base-text'>
+              <h3 className='bottom-space base-text'>
                   <span className='-highlighted-secondary-text'>
                     On-Demand
                     </span>
                   {' '}
                 Skills Coaching
-                </h2>
+                </h3>
                 <div className='para-text'>
-                  Our digital therapeutic tools are built ground up using evidence based treatments like Cognitive Behavioral Therapy (CBT), Acceptance & Commitment Therapy (ACT), Dialetical Behavior Therapy (DBT) etc. Further, we partner with our therapists and coaches so they can enjoy a thriving evidence-based practice while devoting more time to care.
+                With on-demand skills coaching you can get additional support - whether you  have currently enrolled or graduated from a program, or need 
+                immediate help due to a crisis.  These sessions include reviewing skills used, asking questions, discussing what work for your specific situation, 
+                and introducing new DBT skills to help manage your situation. 
                 </div>
               </Col>
               <Col md={12} className='-margin-right'>
-                <img className='custom-image' src={evidenceGraphic} alt='Therapy' />
+                <img className='custom-image' src={skillsCoaching} alt='Therapy' />
+              </Col>
+            </Row>
+            
+            <Row>
+              <Col md={24} style={{textAlign:'center',padding:'20px'}}>
+              <a href="https://healthcoach.swasth.co">       
+                <button className='-btn-primary para-text'> 
+                  Learn more
+                </button>
+              </a>
+                {/*<img src={findProvider}/>*/}
               </Col>
             </Row>
           </Col>
         </Row>
       </section>
       <section className='home-section-group after-border-section'>
-      <Row className='card-row -row-flex-center'>
+        <Row className='card-row -row-flex-center'></Row>
+        <Row className='card-row -row-flex-center'>
           <Col md={24} style={{ width: '100%' }}>
             <Row>
               <h2 style={{ textAlign: 'center' }} className='base-text'>Multi-Modality <span className='-highlighted-text'>Evidence-Based Therapy</span>{' '} Apps

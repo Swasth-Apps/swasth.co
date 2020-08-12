@@ -65,7 +65,7 @@ const Header = (props) => {
               <a href="/">
                 <div className="menu-content" href="javascript:;">Home</div>
               </a>
-              <a href="https://provider.swasth.co">
+              <a href="https://clinician.swasth.co">
                 <div className="menu-content">Clinicians</div>
               </a>
               <a href="/coaching">
