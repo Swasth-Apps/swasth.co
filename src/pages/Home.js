@@ -1,8 +1,9 @@
-import React, { Fragment } from 'react'
+import React, { Fragment,useEffect,useState } from 'react'
 import { Link } from 'gatsby'
 import { Col, Row, Tabs } from 'antd'
 import { testimonials } from '../components/testimonialData'
 import therapyGraphic from '../assets/images/Therapy-section@3x.png'
+import MobileGraphic from '../assets/images/MobileView.png'
 import appStore from '../assets/images/app-store.png'
 import googlePay from '../assets/images/google-play.png'
 import DBTCoach from '../assets/images/DBT-app-icon.png'
@@ -19,6 +20,14 @@ import Banner from '../components/Banner'
 
 const { TabPane } = Tabs;
 const Home = (props) => {
+  const [isMobile, setIsMobile] = useState(false)
+  useEffect(() => {
+    setIsMobile(window.innerWidth < 768)
+    window.addEventListener("resize",() =>{
+      setIsMobile(window.innerWidth < 768)
+    })
+  },[])
+
   const store = (
     <Row className='card-row' style={{ display: 'flex', flexDirection: 'row' }}>
       <Col md={8} style={{ marginRight: '10px' }}>
@@ -88,7 +97,7 @@ const Home = (props) => {
             </div>
             </Row>
             <Row>
-              <img className='custom-image' src={ComprehensiveHealth} alt='Therapy' />
+              <img className='custom-image' src={isMobile ? MobileGraphic : ComprehensiveHealth} alt='Therapy' />
             </Row>
           {/*
             <Row className='card-row '>
