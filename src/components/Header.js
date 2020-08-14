@@ -20,7 +20,6 @@ const Header = (props) => {
             <div style={{ display: 'flex',alignItems:'center' }}>
               {!state ?
                 <>
-                  {/*<Link to="/coaching/features" className='margin-right-25'>*/}
                   {/*<div className={`menu-content hide-content ${props.isLogoWhite ? 'white-text':''}`} href="javascript:;">Features</div>*/}
                   {/*</Link>*/}
                   <a target="_blank" href="https://clinician.swasth.co"
@@ -30,7 +29,7 @@ const Header = (props) => {
                       Clinicians
                     </div>
                   </a>
-                  <a activeClassName='header-nav-active' href="/coaching" className='margin-right-25 header-content'>
+                  <a activeClassName='header-nav-active' href="https://healthcoach.swasth.co" className='margin-right-25 header-content'>
                     <div className={`menu-content`}>
                       Coaching
                     </div>
@@ -65,10 +64,10 @@ const Header = (props) => {
               <a href="/">
                 <div className="menu-content" href="javascript:;">Home</div>
               </a>
-              <a href="https://provider.swasth.co">
+              <a href="https://clinician.swasth.co">
                 <div className="menu-content">Clinicians</div>
               </a>
-              <a href="/coaching">
+              <a href="https://healthcoach.swasth.co">
                 <div className="menu-content">Coaching</div>
               </a>
               <a href="/blog">
