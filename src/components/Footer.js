@@ -48,13 +48,10 @@ const Footer = (props) => (
                 <h4>Products</h4>
 
                 <ul className="list-unstyled iconlist ml-0">
+                <li><a href="https://healthcoach.swasth.co/">Behavioral Health Coach</a></li>
                   <li><a href="/dbt-coach">DBT Coach</a></li>
                   <li><a href="/cbt-companion">CBT Companion</a></li>
                   <li><a href="/act-coach">ACT Coach</a></li>
-                  <li><a href="https://healthcoach.swasth.co/">Coaching</a></li>
-                  <li></li>
-                  {/*<li><a href="https://findclinician.swasth.co">Find Provider</a></li>*/}
-
                 </ul>
 
               </div>
