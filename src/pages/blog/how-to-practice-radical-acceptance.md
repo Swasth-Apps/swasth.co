@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: How To Practice Radical Acceptance?
 username: Keerti
-date: 2020-08-15T00:00:00.000Z
+date: 2020-07-22
 description: >
   Adjusting to the changes in our lives because of COVID-19 may have caused
   feelings of fear, anxiety, anger, loneliness and helplessness.   If we could
