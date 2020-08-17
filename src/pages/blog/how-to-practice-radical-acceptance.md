@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: How To Practice Radical Acceptance?
 username: Keerti
-date: 2020-08-15
+date: 2020-08-15T00:00:00.000Z
 description: >
   Adjusting to the changes in our lives because of COVID-19 may have caused
   feelings of fear, anxiety, anger, loneliness and helplessness.   If we could
@@ -41,7 +41,7 @@ According to Dr. Linehan, the following steps are adopted for working out with R
 
 We must question ourselves about the series of events that must have been responsible for the current distressing situation.
 
-2. Analyze About The Roles
+Analyze About The Roles
 
 Try to find out your and others' participation in creating the present unpleasant moment. You (or the others) may have been the reason for this troubling time. The brutal truth of life is that you have to accept it and move on.
 
