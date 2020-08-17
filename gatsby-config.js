@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: "Swasth Website",
-    author: "Gana Pemmanda",
-    description: "Home of of Swasth Inc."
+    author: "Swasth Inc",
+    description: "Home Page of Swasth Inc."
   },
   plugins: [
     'gatsby-plugin-react-helmet',
