@@ -329,7 +329,7 @@ const Home = (props) => {
           </Col>
         </Row>
       </section>
-      <section className='home-section-group after-border-section'>
+      <section className='after-border-section'>
         <Row className='card-row -row-flex-center'>
           <Col md={24}>
             <div style={{ textAlign: 'center' }}>
