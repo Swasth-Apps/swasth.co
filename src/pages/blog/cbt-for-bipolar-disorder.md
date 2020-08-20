@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: CBT for Bipolar Disorder
 username: Keerti Chandnani
-date: 2020-07-15
+date: 2020-07-15T00:00:00.000Z
 description: "Cognitive Behavior Therapy (CBT) helps in reducing the frequency
   of bipolar mood swings via its 6 powerful techniques. Check out the read for
   more details. "
@@ -36,9 +36,9 @@ Bipolar Disorder is marked by extreme shifts in mood. The disorder moves back an
 
 If you’re somebody living with this you’re probably aware of the unpredictable and extreme mood swings. These highs and lows create tensions in your aspect of life, but if left untreated, they may also lead to suicide.
 
-![Bipolar Personality ](/img/bpd-1.jpg "CBT for Bipolar Personality Disorder")
+![Bipolar Personality ]( "CBT for Bipolar Personality Disorder")
 
-However, don’t worry! The good news is this disorder can be managed. While medication plays a vital role, supplementing it with Cognitive Behavioral Therapy (CBT) can bring your life on track.
+The good news is this disorder can be managed. While medication plays a vital role, supplementing it with Cognitive Behavioral Therapy (CBT) can bring your life on track.
 
 <!--StartFragment-->
 
@@ -94,11 +94,7 @@ For assisting the interaction between a therapist and the individual receiving t
 
 The platform helps in tracking emotions, activities, negative thoughts, and homework assignments which can be shared with the therapist augmenting the experience of the therapy sessions. Coupled with user-friendly videos and animations, the app enables a quicker learning and longer retention attitude in the learners.
 
-
-
 <!--EndFragment-->
-
-
 
 <!--EndFragment-->
 
