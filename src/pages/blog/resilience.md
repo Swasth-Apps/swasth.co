@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Resilience
 username: Rusha Bhattacharjee
-date: 2020-08-02
+date: 2020-08-02T00:00:00.000Z
 description: Resilience Skill is beneficial for controlling your emotions and
   thoughts immediately after a setback.
 image: /img/reselince.jpg
@@ -48,7 +48,7 @@ Reality can be painful, and the idea of embracing it may look terrifying. Howeve
 
 ### 2. Regain Personal Control
 
-![Resilience](/img/reselience-2.jpg "Resilience")
+![Resilience](/img/personal-control.jpg "Resilience")
 
 <!--EndFragment-->
 
@@ -60,6 +60,8 @@ Adversities may cause you to undermine your abilities and reduce your self-confi
 
 Once you've regained your self-control, it's time to identify and address new opportunities and plan how you can grow personally and establish yourself professionally in your next session. Imagine having a distressing situation, post your emotional turmoil, it's essential to reflect on what went wrong, and figure out your areas of improvement so that you can set new goals as your next step.
 
+![](/img/set-goals.jpg)
+
 A new goal could be related to proactively addressing your setback, such as acquiring a professional skill, searching for a new job, going on dates, or repairing your stained relationships. You might also pursue a goal that adds a new meaning or sense of joy to your life, like a hobby or age-old interest that you haven't flipped the pages of in a while.
 
 ### 4. Think Optimistically
@@ -69,8 +71,6 @@ While overcoming adversities and attaining new goals, your attitude towards life
 ### 5. Seek Support
 
 Once you endure adversities, it's obvious to be intimidated by the future, or be overpowered by feelings of isolation or neglect. That's why it's so important to reach out. Ensure support from people you're close to or those who understand your complex situations, without oversimplifying your complexities and giving you positive hopes for the future. In case you do not find anyone reliable, or support from your friends and family don't work, you can also seek therapeutic support from trained psychologists around you. This will not only help you develop resilience skills but also allow you to eliminate stress-causing elements.
-
-
 
 <!--EndFragment-->
 
