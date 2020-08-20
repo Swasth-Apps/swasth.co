@@ -68,9 +68,11 @@ The best way to understand which therapy is the most effective one for you is to
 
 ## Technology at its Best!
 
-![dbt coach](/img/dbt-coach-app.png "CBT Vs DBT")
-
 The world has changed, and we have tools and technology for almost everything. Swasth has developed feature-rich apps for specific evidence-based treatment modalities like [CBT Companion](https://www.swasth.co/cbt-companion/) and [DBT Coach](https://www.swasth.co/dbt-coach/) for augmenting the experience of the therapy sessions.
+
+
+
+![dbt coach](/img/swasth-platform.png "CBT Vs DBT")
 
 You can also get help with clinicians and coaches who specialize in specific issues by using our [Behavioral Health Platform](https://www.swasth.co/).
 
