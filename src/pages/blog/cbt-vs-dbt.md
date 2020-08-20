@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: CBT vs DBT
 username: Rusha Bhattacharjee
-date: 2020-07-20
+date: 2020-07-20T00:00:00.000Z
 description: CBT addresses the influence of your thoughts, feelings, and actions
   while DBT emphasizes acceptance, emotion regulation, and mindfulness.
 image: /img/mental-healt.jpg
@@ -70,10 +70,8 @@ The best way to understand which therapy is the most effective one for you is to
 
 ![dbt coach](/img/dbt-coach-app.png "CBT Vs DBT")
 
-The world has changed, and we have tools and technology for almost everything. Swasth has developed feature-rich solutions like [CBT Companion](https://www.swasth.co/cbt-companion/) and [DBT Coach](https://www.swasth.co/dbt-coach/) for augmenting the experience of the therapy sessions.
+The world has changed, and we have tools and technology for almost everything. Swasth has developed feature-rich apps for specific evidence-based treatment modalities like [CBT Companion](https://www.swasth.co/cbt-companion/) and [DBT Coach](https://www.swasth.co/dbt-coach/) for augmenting the experience of the therapy sessions.
 
-Engage better with your therapist using this robust [Behavioral Health Platform](https://www.swasth.co/).
-
-
+You can also get help with clinicians and coaches who specialize in specific issues by using our [Behavioral Health Platform](https://www.swasth.co/).
 
 <!--EndFragment-->
