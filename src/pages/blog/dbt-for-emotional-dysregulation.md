@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: DBT for Emotional Dysregulation
 username: Rusha Bhattacharjee
-date: 2020-07-24
+date: 2020-07-24T00:00:00.000Z
 description: >
   The role of Dialectical behavioral therapy ( DBT) as an early intervention in
   emotional dysregulation is to ensure social adjustment and examine how one
@@ -100,9 +100,7 @@ DBT teaches people that whatever they are doing is the best they can now. Also, 
 
 ## Will DBT fix my Emotional Dysregulation?
 
-Dialectical Behavior Therapy is not a magic therapy that can instantly cure you of all your dysfunctional symptoms, but it is at the core of effective recovery treatment. The skills you will learn in DBT will build a foundation for working up your way towards healthy relationships, better understanding, and a seamless regulation of your emotions. To allow this program to be truly effective in your recovery, you must be committed to yourDBTtreatment plan, practice your DBT skills, monitor your progress, and be open to improvements.
-
-
+Dialectical Behavior Therapy is not a magic therapy that can instantly cure you of all your dysfunctional symptoms, but it is at the core of effective recovery treatment. The skills you will learn in DBT will build a foundation for working up your way towards healthy relationships, better understanding, and a seamless regulation of your emotions. To allow this program to be truly effective in your recovery, you must be committed to your DBT treatment plan, practice your DBT skills, monitor your progress, and be open to improvements.
 
 <!--EndFragment-->
 
