@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Tools And Techniques Used In CBT
 username: Keerti Chandnani
-date: 2020-07-17
+date: 2020-07-17T00:00:00.000Z
 description: Check out the top 10 tools and techniques used in Cognitive
   Behavior Therapy (CBT) for resolving various cognitive issues.
 image: /img/cbt-main-imp.jpg
@@ -47,77 +47,67 @@ While providing Cognitive Behavior Therapy for social anxiety disorder, the pers
 
 ### 2. Relaxation Techniques
 
-1. ![Relaxation Techniques](/img/relax.jpg "CBT For Anxiety")
 
-   <!--StartFragment-->
 
-   ### 3. Self Indulgence Therapy
+![Relaxation Techniques](/img/relax.jpg "CBT For Anxiety")
 
-   This technique is best suited for people suffering from depression where they build their own virtual world. While providing Cognitive Behavior Therapy, the therapist listens to the patient’s thoughts very closely and tries to take in their perception.
+### 3. Self Indulgence Therapy
 
-   Thereafter, the therapist raises various questions for each thought and assumption and asks the person to prove them. Being altogether imaginary, the person fails to prove them and slowly starts believing what the therapist wants to show. This gradually starts bringing the person to a realistic world.
+This technique is best suited for people suffering from depression where they build their own virtual world. While providing Cognitive Behavior Therapy, the therapist listens to the patient’s thoughts very closely and tries to take in their perception.
 
-   ### 4. Experimental Therapy
+Thereafter, the therapist raises various questions for each thought and assumption and asks the person to prove them. Being altogether imaginary, the person fails to prove them and slowly starts believing what the therapist wants to show. This gradually starts bringing the person to a realistic world.
 
-   Anxiety disorders can be resolved using experimental therapy. It is based upon a catastrophic thinking process, where the patient develops the tendency of fearing baseless catastrophes.
+### 4. Experimental Therapy
 
-   While providing CBT for anxiety, the anxiety level of the person is initially raised so that the individual starts claiming about the disasters, going to take place. The therapist believes them and waits for his forecast to come true. But when the predictions fail, the rate of thinking towards the same starts lowering in the person. As a result, his thought patterns are altered towards a more practical path.
+Anxiety disorders can be resolved using experimental therapy. It is based upon a catastrophic thinking process, where the patient develops the tendency of fearing baseless catastrophes.
 
-   ### 5. Reframing Thoughts Pattern
+While providing CBT for anxiety, the anxiety level of the person is initially raised so that the individual starts claiming about the disasters, going to take place. The therapist believes them and waits for his forecast to come true. But when the predictions fail, the rate of thinking towards the same starts lowering in the person. As a result, his thought patterns are altered towards a more practical path.
 
-   Cognitive Behavior Therapy for depression involves reframing thoughts. This therapy works at the unconscious level of the person’s brain. The person’s feelings and thoughts are very closely heard by the therapist. With the constant acknowledgments from the therapist's side, the person starts developing a feeling of comfort and becomes relaxed when assured that someone understands their issues.
+### 5. Reframing Thoughts Pattern
 
-   The therapist (in his/her acknowledgments) starts reframing the person’s thoughts in a positive way. This leaves a helpful impact at the unconscious level, making the person think in the way the therapist wants.
+Cognitive Behavior Therapy for depression involves reframing thoughts. This therapy works at the unconscious level of the person’s brain. The person’s feelings and thoughts are very closely heard by the therapist. With the constant acknowledgments from the therapist's side, the person starts developing a feeling of comfort and becomes relaxed when assured that someone understands their issues.
 
-   ### 6. Scheduling And Activation
+The therapist (in his/her acknowledgments) starts reframing the person’s thoughts in a positive way. This leaves a helpful impact at the unconscious level, making the person think in the way the therapist wants.
 
-   When a person is given Cognitive Behavior Therapy for anxiety, they are sometimes asked to pen down all the activities that need to be completed. Thereafter, schedule them in an orderly manner. This practice makes the individual relaxed and the level of anxiety is lowered thereof.
+### 6. Scheduling And Activation
 
-   ### 7. Homework
+When a person is given Cognitive Behavior Therapy for anxiety, they are sometimes asked to pen down all the activities that need to be completed. Thereafter, schedule them in an orderly manner. This practice makes the individual relaxed and the level of anxiety is lowered thereof.
 
-   Homework is a critical component of CBT treatment. This keeps the individual connected to the sessions taken. The homework may comprise a list of questionnaires or activities, which widens up the brain and thinking capabilities of the person. This, in turn, helps bring them back to the practical world in a much more creative way.
+### 7. Homework
 
-   ### 8. Role Play
+Homework is a critical component of CBT treatment. This keeps the individual connected to the sessions taken. The homework may comprise a list of questionnaires or activities, which widens up the brain and thinking capabilities of the person. This, in turn, helps bring them back to the practical world in a much more creative way.
 
-   This technique is very helpful in making the person understand others' perspectives towards the same situation. This also helps reduce social phobia, improving communication and problem-solving skills, fighting back adverse situations, and also raises confidence levels.
+### 8. Role Play
 
-   ### 9. The SOLVED Technique
+This technique is very helpful in making the person understand others' perspectives towards the same situation. This also helps reduce social phobia, improving communication and problem-solving skills, fighting back adverse situations, and also raises confidence levels.
 
-   This technique is effective to help people who are unable to gather confidence to face a situation. This technique works like a mantra for a person to overcome their phobias. As the name implies,
+### 9. The SOLVED Technique
 
-   * S stands for making a selection of a proper issue that needs to be resolved.
-   * O stands for welcoming all possible solutions with an open mind.
-   * L stands for making a list of positives and negatives for every suggested solution.
-   * V stands for selecting and verifying the most appropriate available solutions.
-   * E stands for enacting upon the plan.
-   * D stands for making a firm decision towards the plan if it worked out successfully.
+This technique is effective to help people who are unable to gather confidence to face a situation. This technique works like a mantra for a person to overcome their phobias. As the name implies,
 
-   ### 10. Journaling and Recording
+* S stands for making a selection of a proper issue that needs to be resolved.
+* O stands for welcoming all possible solutions with an open mind.
+* L stands for making a list of positives and negatives for every suggested solution.
+* V stands for selecting and verifying the most appropriate available solutions.
+* E stands for enacting upon the plan.
+* D stands for making a firm decision towards the plan if it worked out successfully.
 
-   1. ![Journaling](/img/journal.jpg "CBT for Anxiety")
-
-      <!--StartFragment-->
-
-      In this technique, the person is asked to pen down each day’s thoughts (both the positive and the negative ones) emerging during and after each session of Cognitive Behavior Therapy. Reviewing and observing prominent thoughts helps to change behavioral patterns.
+### 10. Journaling and Recording
 
 
 
-      The core of Cognitive Behavior Therapy is the degree of comfort between the person and the therapist. If the person is unable to bond up with the therapist, it is advisable to get another one. No therapy works overnight. The wholehearted commitment of both, the person and the therapist are mandatory for positive results. The person should readily accept new thoughts and techniques. Some of the techniques (like exposure therapy) may raise the stress level at once, but it should be taken as a part of therapy.
+![Journaling](/img/journal.jpg "CBT for Anxiety")
 
-      ## CBT Companion
+In this technique, the person is asked to pen down each day’s thoughts (both the positive and the negative ones) emerging during and after each session of Cognitive Behavior Therapy. Reviewing and observing prominent thoughts helps to change behavioral patterns.
 
-      ![CBT Companion](/img/cbt_companion_screen.png "Cognitive Behavior Therapy For Anxiety")
+The core of Cognitive Behavior Therapy is the degree of comfort between the person and the therapist. If the person is unable to bond up with the therapist, it is advisable to get another one. No therapy works overnight. The wholehearted commitment of both, the person and the therapist are mandatory for positive results. The person should readily accept new thoughts and techniques. Some of the techniques (like exposure therapy) may raise the stress level at once, but it should be taken as a part of therapy.
 
-      <!--EndFragment-->
+## CBT Companion
 
-      <!--StartFragment-->
+![CBT Companion](/img/cbt_companion_screen.png "Cognitive Behavior Therapy For Anxiety")
 
-      To assist the interaction between a therapist and the individual receiving therapy Swasth has developed a robust and feature-rich CBT Companion App.
+To assist the interaction between a therapist and the individual receiving therapy Swasth has developed a robust and feature-rich CBT Companion App.
 
-      The app helps track emotions, activities, negative thoughts, and homework assignments which can be shared with the therapist augmenting the experience of the therapy sessions. The app also provides user-friendly videos and animations enabling a quicker learning and longer retention attitude in the learners.
-
-      <!--EndFragment-->
-
-   <!--EndFragment-->
+The app helps track emotions, activities, negative thoughts, and homework assignments which can be shared with the therapist augmenting the experience of the therapy sessions. The app also provides user-friendly videos and animations enabling a quicker learning and longer retention attitude in the learners.
 
 <!--EndFragment-->
