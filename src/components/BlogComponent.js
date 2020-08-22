@@ -78,7 +78,7 @@ class BlogComponent extends React.Component {
               anchorClass=''
               expanded={false}
             > {description}</ShowMoreText></p>
-            <div className='blog-user blog-details-user'>
+            <div className='blog-top-section-user'>
               <div className='user-info'>
                 <img src={sf}/>
                 {username}
