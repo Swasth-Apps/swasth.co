@@ -4,7 +4,7 @@ title: Resilience
 username: Rusha Bhattacharjee
 date: 2020-08-02T00:00:00.000Z
 description: Resilience Skill is beneficial for controlling your emotions and
-  thoughts immediately after a setback.
+  thoughts  immediately after a setback.
 image: /img/reselince.jpg
 squareimage: /img/reslience-square.jpg
 categories:
