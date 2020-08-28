@@ -47,7 +47,13 @@ While providing Cognitive Behavior Therapy for social anxiety disorder, the pers
 
 ### 2. Relaxation Techniques
 
+<!--StartFragment-->
 
+Cognitive Behavior Therapy for anxiety is provided only when the person is calm, else the conditions may get worse. This involves various relaxation techniques, like virtualization, breathing exercises, body loosening.
+
+These techniques help in lowering down the stress level, enabling the person to fight their phobia, social anxiety disorder, and similar stress oriented disorders.
+
+<!--EndFragment-->
 
 ![Relaxation Techniques](/img/relax.jpg "CBT For Anxiety")
 
@@ -93,8 +99,6 @@ This technique is effective to help people who are unable to gather confidence t
 * D stands for making a firm decision towards the plan if it worked out successfully.
 
 ### 10. Journaling and Recording
-
-
 
 ![Journaling](/img/journal.jpg "CBT for Anxiety")
 
