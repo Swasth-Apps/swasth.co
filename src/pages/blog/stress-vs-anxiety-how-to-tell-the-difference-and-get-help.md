@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: "Stress Vs Anxiety: How to Tell the Difference and Get Help?"
 username: Rusha Bhattacharjee
-date: 2020-08-26
+date: 2020-08-26T00:00:00.000Z
 description: The primary difference between stress and anxiety is that stress is
   a response to a threat in a situation and anxiety is a reaction to stress.
 featuredpost: true
@@ -14,13 +14,24 @@ categories:
       slug: stress
     - title: Anxiety
       slug: anxiety
+    - slug: mindfulness
+      title: Mindfulness
 relatedpost:
   blog:
     - slug: cognitive-behavior-therapy-cbt-for-anxiety
       title: Cognitive Behavior Therapy (CBT) for Anxiety
+    - slug: act-for-post-traumatic-stress
+      title: ACT for Post-traumatic Stress
+    - slug: are-you-stressed-read-these-books-to-relax-your-mind
+      title: Are you stressed? Read these books to relax your mind!
+    - slug: distress-tolerance-skills-in-dbt
+      title: "Distress Tolerance Skills in DBT "
+    - slug: what-is-mindfulness
+      title: What is Mindfulness?
 tags:
   - Stress
   - Anxiety
+  - Mindfulness
 ---
 <!--StartFragment-->
 
@@ -38,8 +49,8 @@ Stress is usually a response to an external cause, such as piled up work at the 
 
 ![What is Anxiety?](/img/anxiety.jpeg "What is Anxiety? ")
 
-Anxiety disorders are the most common mental health disorder in the U.S., affecting 18% of the American population. It is an individual's specific reaction to stress, i.e., it is a type of trigger for anxiety. Therefore, the origin of anxiety is generally internal. Anxiety is typically associated with a persistent feeling of apprehension or fear, even in situations that are not as grave as the ones that make you anxious. Unlike stress, anxiety persists even after the specific stressor has subsided. In severe cases, anxiety can also take the form of anxiety disorders. According to U.S.Anxiety disorders, the most common kinds of anxiety are generalized anxiety, panic attacks, phobias, Social Anxiety Disorder(SAD), Obsessive-Compulsive Disorder(OCD), and Post-Traumatic Stress Disorder(PTSD). Note that the distinctive feature of anxiety is worry and fear. For example, if someone very close to you is suffering from a chronic disease, you will automatically be overwhelmed with his/her health most of the time. Predicting or forecasting potential dangers even when there isn't one, is human nature. But responding to every such feeling and stressing over it can cause us to worry all the time rather than pursuing our real goals. It may also lead to chronic anxiety problems later.\
-\
+Anxiety disorders are the most common mental health disorder in the U.S., affecting 18% of the American population. It is an individual's specific reaction to stress, i.e., it is a type of trigger for anxiety. Therefore, the origin of anxiety is generally internal. Anxiety is typically associated with a persistent feeling of apprehension or fear, even in situations that are not as grave as the ones that make you anxious. Unlike stress, anxiety persists even after the specific stressor has subsided. In severe cases, anxiety can also take the form of anxiety disorders. According to U.S.Anxiety disorders, the most common kinds of anxiety are generalized anxiety, panic attacks, phobias, Social Anxiety Disorder(SAD), Obsessive-Compulsive Disorder(OCD), and Post-Traumatic Stress Disorder(PTSD). Note that the distinctive feature of anxiety is worry and fear. For example, if someone very close to you is suffering from a chronic disease, you will automatically be overwhelmed with his/her health most of the time. Predicting or forecasting potential dangers even when there isn't one, is human nature. But responding to every such feeling and stressing over it can cause us to worry all the time rather than pursuing our real goals. It may also lead to chronic anxiety problems later.
+
 <!--StartFragment-->
 
 ## What are the Symptoms of Stress?
@@ -81,7 +92,6 @@ Anxiety is typically characterized by excessive worry or fear. Here are some oth
 * Hyperactive reactions
 * Psychosomatic symptoms: Headaches, stomach-aches, dizziness.
 * Physical symptoms: Shortness of breath, fast heartbeat, excessive sweating, shortness of breath, chest pain.\
-  <!--StartFragment-->
 
   ## What are the Available Treatments?
 
@@ -124,8 +134,6 @@ Anxiety is typically characterized by excessive worry or fear. Here are some oth
   ![CBT Companion](/img/cbt_companion_screen.png "CBT Companion")
 
   Everyone experiences stress symptoms, and sometimes this stress may overwhelm you, making you worried and anxious about situations. It is important to learn how to manage your stress and know when to seek help. When stress or anxiety is no longer manageable, and symptoms of anxiety become unbearable and obstruct your daily living, it's time to seek assistance from a trained therapist or psychologist. In case you are wondering where to start, Swasth has developed feature-rich solutions like [ACT Coach](https://www.swasth.co/act-coach/), [DBT Coach](https://www.swasth.co/dbt-coach/), [CBT Companion](https://www.swasth.co/cbt-companion/) for augmenting the experience of evidence-based therapy sessions.
-
-  <!--EndFragment-->
 
 <!--EndFragment-->
 
