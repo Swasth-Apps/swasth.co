@@ -1,7 +1,7 @@
 ---
 templateKey: category-post
-title: Obsessive Compulsive Disorder
-date: 2020-07-01
+title: Obsessive Compulsive Disorder (OCD)
+date: 2020-07-01T00:00:00.000Z
 description: >
   Obsessive-Compulsive Disorder (OCD) is a mental disorder in which a person has
   repeated thoughts (called "obsessions"), or perform certain actions as rituals
