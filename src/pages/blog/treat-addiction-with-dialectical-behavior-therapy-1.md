@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Treat Addiction with Dialectical Behavior Therapy
 username: Keerti Chandnani
-date: 2020-08-19
+date: 2020-08-19T00:00:00.000Z
 description: "Dialectical Behavioral Therapy (DBT) is one of the most promising
   treatments for addiction. Invented by Dr. Marsha Linehan, DBT helps in
   treating compulsive patterns of self-harming via easy and effective
@@ -21,8 +21,10 @@ relatedpost:
       title: DBT for Emotional Dysregulation
     - slug: distress-tolerance-skills-in-dbt
       title: "Distress Tolerance Skills in DBT "
-    - slug: distress-tolerance-skills-in-dbt
-      title: "Distress Tolerance Skills in DBT "
+    - slug: how-to-practice-radical-acceptance
+      title: How To Practice Radical Acceptance?
+    - slug: what-is-dialectical-behavior-therapy
+      title: What is Dialectical Behavior Therapy?
 tags:
   - DBT
   - Substance Abuse
