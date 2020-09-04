@@ -2,10 +2,11 @@
 templateKey: blog-post
 title: Use of AI in Evidence-Based Therapies
 username: Rusha Bhattacharjee
-date: 2020-08-14
-description: Online and virtual therapists that use artificial intelligence to
-  encourage digital patient engagement could help remediate some everyday mental
-  health problems.
+date: 2020-08-14T00:00:00.000Z
+description: >-
+  Online and virtual therapists that use artificial intelligence to encourage
+  digital patient 
+   engagement could help remediate some everyday mental health problems.
 featuredpost: true
 image: /img/ai-main.jpg
 squareimage: /img/technology-square.jpg
@@ -18,6 +19,13 @@ relatedpost:
     - slug: a-holistic-approach-for-managing-depression-using-dbt-nutrition-hrv-and-physical-exercise
       title: A holistic approach for managing Depression using DBT, Nutrition, HRV,
         Physical Exercise and Sleep
+    - slug: interpersonal-effectiveness-in-dbt-learn-effective-communication-skills
+      title: " Interpersonal Effectiveness in DBT: Learn effective communication
+        skills"
+    - slug: how-to-overcome-loneliness
+      title: How to overcome Loneliness?
+    - slug: what-is-acceptance-and-commitment-therapy
+      title: What is Acceptance and Commitment Therapy?
 tags:
   - Telemedicine
   - Artificial Intelligence
@@ -40,10 +48,11 @@ Now, the question arises that if such a huge population faces these problems eve
 
 The answer is several factors contribute to this issue of poor mental health. Many people cannot afford treatment and medication, and it's often hard to find a trained therapist who can specifically cater to individualized issues. Most importantly, the stigma around mental health is so big that many people aren't willing to admit they need help with their psychological disorders. Whatever the case may be, it's clear that a more powerful and rigorous plan needs to be implemented in combating mental illnesses.
 
-This is where Artificial Intelligence comes to picture. AI aids in the psychological recommendation and helps recognize effective areas, curate genograms, determine the intensity of self-identification, examine cognitive interaction patterns, and achieve self-awareness and redefinition.\
+This is where Artificial Intelligence comes to picture. AI aids in the psychological recommendation and helps recognize effective areas, curate genograms, determine the intensity of self-identification, examine cognitive interaction patterns, and achieve self-awareness and redefinition.
+
 <!--StartFragment-->
 
-How can AI help in Evidence-based Therapies?
+## How can AI help in Evidence-based Therapies?
 
 Therapeutic bots are a form of artificial intelligence that uses machine learning to complement the efficacy of evidence-based psychotherapies like Dialectical Behavioral Therapy (DBT), Acceptance and Commitment Therapy (ACT), and Cognitive Behavior Therapy (CBT). They are composed of neural networks designed based on human brain neurons.
 
@@ -53,29 +62,18 @@ The most important aspect of the bot is that it implements different Evidence-Ba
 
 1. It asks you to change a negative thought into something more positive (a more direct form of CBT)
 2. It asks you to accept yourself, the crisis you are in, and react effectively. In short, it teaches you acceptance, mindfulness, and effectiveness (a more direct form of DBT).
-3. Provides videos and lessons to acquire toolkits that help.\
-   \
-   <!--StartFragment-->
+3. Provides videos and lessons to acquire toolkits that help.
 
    The bot keeps a check on its users daily, for example, asking users to fill up the diary card daily. It tracks users' moods based on their responses and projects them on weekly graphs. The bot learns through the users' daily responses and will detect immediately when something is not right based on the mood map it has stored in its database.
 
-   ![mood swings](/img/mood-swings.jpg "AI Telemedicine")
-
-   \
-   \
-   <!--StartFragment-->
+   ## \
+   Take-Home Message
 
    AI is not a substitute for a psychologist, and the approach may not work for everyone.
 
    When it comes to CBT and DBT, there are about 20+ years of case studies and evidence that suggest its ability to help those suffering from mental health issues. In case you are wondering where to start, Swasth has developed feature-rich solutions like [ACT Coach](https://www.swasth.co/act-coach/), [DBT Coach](https://www.swasth.co/dbt-coach/), [CBT Companion](https://www.swasth.co/cbt-companion/) for augmenting the experience of the therapy sessions.
 
    Engage better with your therapist using this robust [Evidence-Based Therapy platform](https://www.swasth.co/).
-
-
-
-   <!--EndFragment-->
-
-   <!--EndFragment-->
 
 <!--EndFragment-->
 
