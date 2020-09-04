@@ -58,7 +58,8 @@ COVID-19has plunged the world into a realm of uncertainty, and the constant news
 
 ![Accept Reality](/img/accept.jpg "Accept Reality")
 
-Coping with uncertainty means accepting the reality that, currently, there is not much to control. Research shows that simply acknowledging the degree of uncertainty is and how difficult it is to make it easier to endure. Thispandemichas revealed that most of us have been living under an illusion of control and certainty where our lives were predictable to a great extent. In reality, we can't control how long we live, how we die, or the presence of our loved ones. This is a scary reality, but denial doesn't help either. Therefore, by accepting this difficult situation, we allow ourselves to respond more effectively to it.\
+Coping with uncertainty means accepting the reality that, currently, there is not much to control. Research shows that simply acknowledging the degree of uncertainty is and how difficult it is to make it easier to endure. Thispandemichas revealed that most of us have been living under an illusion of control and certainty where our lives were predictable to a great extent. In reality, we can't control how long we live, how we die, or the presence of our loved ones. This is a scary reality, but denial doesn't help either. Therefore, by accepting this difficult situation, we allow ourselves to respond more effectively to it.
+
 <!--StartFragment-->
 
 ### 2. Create a Sense of Calm
@@ -77,11 +78,9 @@ If you are feeling low or dealing with a bad mood, now is the right time to have
 
 ### 5. Seek Support
 
-Do you feel overwhelmed? Scared about what's going to happen in your future? Do you want to talk about your feelings? Do you lack self-compassion? All these are the signs that may need professional mental health support. With a network of mental health coaches and therapists like[Swasth](https://www.swasth.co/), you can now engage in treatment programs from the safety of your home, especially during this pandemic, when stepping out of the house is not a viable option. Our developed feature-rich solutions like[ ACT Coach](https://www.swasth.co/act-coach/), [DBT Coach](https://www.swasth.co/dbt-coach/), [CBT Companion](https://www.swasth.co/cbt-companion/) can help you yield the experience of evidence-based therapy sessions at ease.
+Do you feel overwhelmed? Scared about what's going to happen in your future? Do you want to talk about your feelings? Do you lack self-compassion? All these are the signs that may need professional mental health support. With a network of mental health coaches and therapists like [Swasth](https://www.swasth.co/), you can now engage in treatment programs from the safety of your home, especially during this pandemic, when stepping out of the house is not a viable option. Our developed feature-rich solutions like[ ACT Coach](https://www.swasth.co/act-coach/), [DBT Coach](https://www.swasth.co/dbt-coach/), [CBT Companion](https://www.swasth.co/cbt-companion/) can help you yield the experience of evidence-based therapy sessions at ease.
 
 Engage better with your therapist using this robust [Behavioral Health Platform](https://www.swasth.co/) within the comfort of home.
-
-
 
 <!--EndFragment-->
 
