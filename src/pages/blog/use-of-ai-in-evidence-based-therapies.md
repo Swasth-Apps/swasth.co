@@ -14,6 +14,8 @@ categories:
   category:
     - title: Tech
       slug: tech
+    - title: Evidence Based Therapy
+      slug: evidence-based-therapy
 relatedpost:
   blog:
     - slug: a-holistic-approach-for-managing-depression-using-dbt-nutrition-hrv-and-physical-exercise
@@ -29,6 +31,7 @@ relatedpost:
 tags:
   - Telemedicine
   - Artificial Intelligence
+  - Evidence Based Therapy
 ---
 <!--StartFragment-->
 
