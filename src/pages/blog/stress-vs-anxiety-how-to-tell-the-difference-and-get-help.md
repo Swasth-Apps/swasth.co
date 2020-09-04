@@ -91,7 +91,7 @@ Anxiety is typically characterized by excessive worry or fear. Here are some oth
 * Sleep disturbance
 * Hyperactive reactions
 * Psychosomatic symptoms: Headaches, stomach-aches, dizziness.
-* Physical symptoms: Shortness of breath, fast heartbeat, excessive sweating, shortness of breath, chest pain.\
+* Physical symptoms: Shortness of breath, fast heartbeat, excessive sweating, shortness of breath, chest pain.
 
   ## What are the Available Treatments?
 
