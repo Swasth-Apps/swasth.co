@@ -103,7 +103,7 @@ Anxiety is typically characterized by excessive worry or fear. Here are some oth
 
   ![Meditation](/img/mindfulness-in-dbt02.png "Meditation")
 
-  Mindfulness meditation skills imply being fully aware of the present. These skills require you to learn to observe, describe, and experience the events of thoughts, sensations, emotions, and things happening externally in the environment, with a nonjudgmental stance. They help people interpret and regulate emotional vulnerabilities, thereby introspecting and reciprocating more responsibly. Take a walk in the park or watch the sunrise to reconnect with the natural world again.
+  Mindfulness meditation skills imply being fully aware of the present. These skills require you to learn to observe, describe, and experience the events of thoughts, sensations, emotions, and things happening externally in the environment, with a nonjudgmental stance. They help people interpret and regulate emotional vulnerabilities, thereby introspecting and reciprocating more responsibly. Take a walk in the park or watch the sunrise to reconnect with the natural world again. 
 
   #### 2. Diaphragmatic breathing
 
