@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: 6 core processes of ACT
 username: Keerti Chandnani
-date: 2020-08-12
+date: 2020-08-12T00:00:00.000Z
 description: "The goal of Acceptance and Commitment Therapy is to create a
   meaningful and productive life while accepting all the pain that goes with it.
   Today, in this article, we will share the six core  processes of ACT. "
@@ -13,12 +13,22 @@ categories:
   category:
     - slug: acceptance-and-commitment-therapy-act
       title: ACT
+    - slug: evidence-based-therapy
+      title: Evidence Based Therapy
 relatedpost:
   blog:
     - slug: what-is-acceptance-and-commitment-therapy
       title: What is Acceptance and Commitment Therapy?
+    - slug: how-to-practice-radical-acceptance
+      title: How To Practice Radical Acceptance?
+    - slug: act-for-post-traumatic-stress
+      title: ACT for Post-traumatic Stress
+    - slug: a-holistic-approach-for-managing-depression-using-dbt-nutrition-hrv-and-physical-exercise
+      title: A holistic approach for managing Depression using DBT, Nutrition, HRV,
+        Physical Exercise and Sleep
 tags:
   - ACT
+  - Evidence-Based Therapy
 ---
 <!--StartFragment-->
 
