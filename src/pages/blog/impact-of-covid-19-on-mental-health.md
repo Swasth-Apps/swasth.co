@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Impact of Covid-19 on Mental Health
 username: Rusha Bhattacharjee
-date: 2020-08-17
+date: 2020-08-17T00:00:00.000Z
 description: >
   The disrupted routines in COVID-19 times have led to a disrupted psychosocial
   environment, making it difficult for people to comprehend and cope even with
@@ -16,10 +16,22 @@ categories:
   category:
     - slug: mindfulness
       title: Mindfulness
+    - slug: depression
+      title: Depression
+    - slug: stress
+      title: Stress
 relatedpost:
   blog:
     - slug: how-to-overcome-loneliness
       title: How to overcome Loneliness?
+    - slug: are-you-stressed-read-these-books-to-relax-your-mind
+      title: Are you stressed? Read these books to relax your mind!
+    - slug: productivity-challenges-at-work
+      title: Productivity Challenges at Work
+    - slug: resilience
+      title: Resilience
+    - slug: what-is-mindfulness
+      title: What is Mindfulness?
 tags:
   - Covid-19
   - Mental Health
