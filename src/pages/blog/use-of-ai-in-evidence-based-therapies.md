@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Use of AI in Evidence-Based Therapies
+title: Telemedicine and AI in Evidence Based Therapy
 username: Rusha Bhattacharjee
 date: 2020-08-14T00:00:00.000Z
 description: >-
