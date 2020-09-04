@@ -66,8 +66,7 @@ The most important aspect of the bot is that it implements different Evidence-Ba
 
    The bot keeps a check on its users daily, for example, asking users to fill up the diary card daily. It tracks users' moods based on their responses and projects them on weekly graphs. The bot learns through the users' daily responses and will detect immediately when something is not right based on the mood map it has stored in its database.
 
-   ## \
-   Take-Home Message
+   ## Take-Home Message
 
    AI is not a substitute for a psychologist, and the approach may not work for everyone.
 
