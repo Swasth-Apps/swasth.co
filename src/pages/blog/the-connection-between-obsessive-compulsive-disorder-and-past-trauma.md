@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: The Connection between Obsessive-Compulsive Disorder and Past Trauma
 username: Rusha Bhattacharjee
-date: 2020-08-21
+date: 2020-08-21T00:00:00.000Z
 description: Obsessive-compulsive Disorder is usually treated as a stand-alone
   mental health concern. A growing form of research has now discovered that some
   cases of OCD may emerge from trauma. For these individuals, successful
@@ -15,13 +15,22 @@ categories:
   category:
     - slug: happiness
       title: Happiness
+    - slug: anxiety
+      title: Anxiety
 relatedpost:
   blog:
     - slug: cbt-for-bipolar-disorder
       title: CBT for Bipolar Disorder
+    - slug: act-for-post-traumatic-stress
+      title: ACT for Post-traumatic Stress
+    - slug: are-you-stressed-read-these-books-to-relax-your-mind
+      title: Are you stressed? Read these books to relax your mind!
+    - slug: dialectical-behavior-therapy-for-eating-disorders
+      title: " Dialectical Behavior Therapy for Eating Disorders "
 tags:
   - OCD
   - PTSD
+  - Mental Health
 ---
 <!--StartFragment-->
 
