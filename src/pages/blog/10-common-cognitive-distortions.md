@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: 10 common Cognitive Distortions
 username: Keerti Chandnani
-date: 2020-08-24
+date: 2020-08-24T00:00:00.000Z
 description: Cognitive distortions are irrational beliefs that are developed
   over time in response to adverse events. Often, these beliefs are so subtle
   that it is hard to separate them from day-to-day thoughts.
@@ -88,6 +88,8 @@ The fallacy distortion is based on the belief that our happiness rests on other 
 
 For instance, a woman thinking, “if I just encourage my husband to stop doing things that annoy me, I can be a happier wife,” exhibits the fallacy of change.
 
+![cognitive distortion](/img/couple-fight.jpeg "cognitive distortion")
+
 ### 8. Overgeneralization
 
 Overgeneralization occurs when you make a rule or protocol after a series of events or coincidences. Words like "never" or "always" are frequently used.
@@ -115,7 +117,5 @@ So, now you are aware of 10 common cognitive distortions, how do you fix them? T
 ![change your thinking](/img/think-differently.jpg "CBT Techniques")
 
 There are many tools and techniques in Cognitive Behavioral Therapy (CBT) that are intended to address these distortions. Learn about various [tools and techniques used in CBT](https://www.swasth.co/blog/tools-and-techniques-used-in-cbt/) that can help you in tackling these distortions and leave a peaceful life.
-
-
 
 <!--EndFragment-->
