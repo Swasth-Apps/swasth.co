@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Cognitive Behavior Therapy for Stress Management
 username: Rusha Bhattacharjee
-date: 2020-08-10
+date: 2020-08-10T00:00:00.000Z
 description: Cognitive Behavior Therapy is an effective form of treatment for
   stress that addresses individual thoughts and beliefs rather than actions.
 image: /img/stress-1.jpg
@@ -40,8 +40,8 @@ It is easy to get trapped in the habit of thinking negatively and become stresse
 
 Many people have found this form or therapy extremely beneficial in managing stress effectively within a dozen sessions.
 
-Cognitive Behavior Therapy is efficient in treating many issues such as anxiety disorders, depression, and even severe stress. Whether the stress contributes to mental health disorders such as panic, anxiety, or is just creating unpleasant experiences for us that interfere with a systematic lifestyle, CBT can be a very effective therapy model.\
-\
+Cognitive Behavior Therapy is efficient in treating many issues such as anxiety disorders, depression, and even severe stress. Whether the stress contributes to mental health disorders such as panic, anxiety, or is just creating unpleasant experiences for us that interfere with a systematic lifestyle, CBT can be a very effective therapy model.
+
 <!--StartFragment-->
 
 ## What is Cognitive Behavior Therapy?
@@ -50,7 +50,8 @@ Cognitive Behavior Therapy(CBT), is a short-term therapeutic model that helps in
 
 CBT is a collaborative treatment, requiring both the individual and therapist to work together. According to the [American Psychological Association (APA),](http://www.apa.org/ptsd-guideline/patients-and-families/cognitive-behavioral.aspx) by undergoing CBT, the person eventually learns to become their therapist.
 
-Cognitive Behavior Therapy (CBT)can provide a new perspective on your experiences, enabling you to regain strength and control of your mind and reduce the severe physiological and emotional symptoms. You will also learn effective strategies for dealing with stressful situations at ease.\
+Cognitive Behavior Therapy (CBT)can provide a new perspective on your experiences, enabling you to regain strength and control of your mind and reduce the severe physiological and emotional symptoms. You will also learn effective strategies for dealing with stressful situations at ease.
+
 <!--StartFragment-->
 
 ## Benefits of Cognitive Behavior Therapy
@@ -69,13 +70,9 @@ CBT helps people with many problems, ranging from stress to chronic depression. 
 
 Anyone considering Cognitive Behavior Therapy for themselves or their close ones must consult a trained CBT professional. At times, treatments can be costly, but self-help therapies are available. However, if your symptoms get out of hand and start to interfere with your daily living, it's advisable to consult a professional therapist immediately. In case you are wondering where to start, Swasth has developed a feature-rich solution named [CBT Companion](https://www.swasth.co/cbt-companion/) for augmenting the experience of evidence-based therapy sessions, at ease. You can now engage better with your therapist using this robust [Behavioral Health Platform](https://www.swasth.co/).
 
-
-
 <!--EndFragment-->
 
 <!--EndFragment-->
-
-
 
 <!--EndFragment-->
 
