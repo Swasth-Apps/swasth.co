@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: ACT for anxiety
 username: Rusha Bhattacharjee
-date: 2020-08-06
+date: 2020-08-06T00:00:00.000Z
 description: Acceptance and commitment therapy (ACT) for anxiety disorders is an
   innovative therapy that focuses on decreasing the action regulatory function
   of anxiety and related cognitions and has a strong focus on behavior change
@@ -80,11 +80,7 @@ Self-compassion is an integral technique for depowering anxiety issues and chang
 
 If you prefer a meditative practice to analyze and reform your thought patterns Acceptance and Commitment Therapy may be right. Your therapist will ask you to commit yourself to action that is in proportion to your acquired values, even if it causes you some physical or emotional distress in the beginning.
 
-Many of the techniques taught by your psychologist will alleviate your anxiety issue through symptom reduction. Hence, being fully present in social situations and mindful of your actions will help you recover quickly. In case you are wondering where to start, Swasth has developed feature-rich solutions like [ACT Coach](https://www.swasth.co/act-coach/), [DBT Coach](https://www.swasth.co/dbt-coach/), [CBT Companion](https://www.swasth.co/cbt-companion/) for augmenting the experience of the therapy sessions.
-
-Engage better with your therapist using this robust [Behavioral Health Platform](https://www.swasth.co/).
-
-
+Many of the techniques taught by your psychologist will alleviate your anxiety issue through symptom reduction. Hence, being fully present in social situations and mindful of your actions will help you recover quickly. In case you are wondering where to start, Swasth has developed feature-rich solutions like [ACT Coach](https://www.swasth.co/act-coach/), [](https://www.swasth.co/dbt-coach/)app along with a coaching platform for augmenting the experience of the therapy sessions.
 
 <!--EndFragment-->
 
