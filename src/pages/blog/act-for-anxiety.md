@@ -74,7 +74,7 @@ Anxiety is the price we pay for thinking about something too much. This means we
 
 ### 4. Practice Self-Compassion
 
-Self-compassion is an integral technique for depowering anxiety issues and changing our stained relationship with it.
+Self-compassion is an integral technique for de-escalating anxiety issues and changing our stained relationship with it.
 
 ### 5. See a therapist
 
