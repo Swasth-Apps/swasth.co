@@ -17,6 +17,12 @@ relatedpost:
   blog:
     - slug: what-is-cognitive-behavioral-therapy
       title: What is Cognitive Behavioral Therapy?
+    - slug: what-is-dialectical-behavior-therapy
+      title: What is Dialectical Behavior Therapy?
+    - slug: what-is-acceptance-and-commitment-therapy
+      title: What is Acceptance and Commitment Therapy?
+    - slug: tools-and-techniques-used-in-cbt
+      title: Tools And Techniques Used In CBT
 tags:
   - CBT
   - DBT
