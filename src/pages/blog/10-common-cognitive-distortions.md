@@ -13,6 +13,8 @@ categories:
   category:
     - slug: cognitive-behavioral-therapy
       title: CBT
+    - slug: evidence-based-therapy
+      title: Evidence Based Therapy
 relatedpost:
   blog:
     - slug: tools-and-techniques-used-in-cbt
