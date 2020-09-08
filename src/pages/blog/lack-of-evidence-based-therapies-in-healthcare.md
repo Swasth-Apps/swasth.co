@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Lack of Evidence-Based Therapies in Healthcare
 username: Rusha Bhattacharjee
-date: 2020-08-04
+date: 2020-08-04T00:00:00.000Z
 description: Evidence-Based Therapies are those that have been rigorously tested
   in randomized controlled trials or multiple-case studies and proven to be
   superior to existing treatments.
@@ -20,6 +20,11 @@ relatedpost:
       title: Emotion Regulation
     - slug: cbt-for-bipolar-disorder
       title: CBT for Bipolar Disorder
+    - slug: a-holistic-approach-for-managing-depression-using-dbt-nutrition-hrv-and-physical-exercise
+      title: A holistic approach for managing Depression using DBT, Nutrition, HRV,
+        Physical Exercise and Sleep
+    - slug: dbt-for-emotional-dysregulation
+      title: DBT for Emotional Dysregulation
 tags:
   - CBT
   - Evidence Based Therapy
