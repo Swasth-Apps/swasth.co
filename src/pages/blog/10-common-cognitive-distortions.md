@@ -17,6 +17,13 @@ relatedpost:
   blog:
     - slug: tools-and-techniques-used-in-cbt
       title: Tools And Techniques Used In CBT
+    - slug: act-for-post-traumatic-stress
+      title: ACT for Post-traumatic Stress
+    - slug: cbt-for-bipolar-disorder
+      title: CBT for Bipolar Disorder
+    - slug: a-holistic-approach-for-managing-depression-using-dbt-nutrition-hrv-and-physical-exercise
+      title: A holistic approach for managing Depression using DBT, Nutrition, HRV,
+        Physical Exercise and Sleep
 tags:
   - CBT
   - Evidence Based Therapy
