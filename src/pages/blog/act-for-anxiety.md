@@ -21,11 +21,12 @@ relatedpost:
       title: What is Acceptance and Commitment Therapy?
     - slug: 6-core-processes-of-act
       title: 6 core processes of ACT
-    - slug: a-holistic-approach-for-managing-depression-using-dbt-nutrition-hrv-and-physical-exercise
-      title: A holistic approach for managing Depression using DBT, Nutrition, HRV,
-        Physical Exercise and Sleep
     - slug: dbt-for-treating-borderline-personality-disorder
       title: "DBT for treating Borderline Personality Disorder "
+    - slug: act-for-post-traumatic-stress
+      title: ACT for Post-traumatic Stress
+    - slug: cognitive-behavior-therapy-cbt-for-anxiety
+      title: CBT for Anxiety
 tags:
   - Evidence Based Therapy
   - ACT
