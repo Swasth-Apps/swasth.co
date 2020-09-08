@@ -125,6 +125,6 @@ So, now you are aware of 10 common cognitive distortions, how do you fix them? T
 
 ![change your thinking](/img/think-differently.jpg "CBT Techniques")
 
-There are many tools and techniques in Cognitive Behavioral Therapy (CBT) that are intended to address these distortions. Learn about various [tools and techniques used in CBT](https://www.swasth.co/blog/tools-and-techniques-used-in-cbt/) that can help you in tackling these distortions and leave a peaceful life.
+There are many tools and techniques in Cognitive Behavioral Therapy (CBT) that are intended to address these distortions. Learn about various CBT techniques using the [CBT Companion](https://www.swasth.co/cbt-companion) App that can help you in tackling these distortions and leave a peaceful life.
 
 <!--EndFragment-->
