@@ -66,19 +66,17 @@ DBT emphasizes helping people accept the ongoing situation and change their beha
 
 <!--StartFragment-->
 
-## How to tell whether CBT or DBT is the right one for you?
+## Is one better than the other?
 
 People suffering from depression and anxiety disorders have found a lot of success with CBT, whereas people with Borderline Personality Disorder and other self-harm issues have found DBT effective. It's important to note that many people have more than one diagnosis; therefore, integrating both the elements of CBT and DBT helps them manage their symptoms.
 
 The best way to understand which therapy is the most effective one for you is to seek help from a mental health professional – a therapist, psychiatrist, or psychologist. They will analyze your symptoms, treatment history, and personal therapy goals and thereby recommend the best treatments.
 
-## Technology at its Best!
+## Self-help tools
 
 The world has changed, and we have tools and technology for almost everything. Swasth has developed feature-rich apps for specific evidence-based treatment modalities like [CBT Companion](https://www.swasth.co/cbt-companion/) and [DBT Coach](https://www.swasth.co/dbt-coach/) for augmenting the experience of the therapy sessions.
 
-
-
-![dbt coach](/img/swasth-platform.png "CBT Vs DBT")
+![dbt coach](/img/dbt-coach-app.png "CBT Vs DBT")
 
 You can also get help with clinicians and coaches who specialize in specific issues by using our [Behavioral Health Platform](https://www.swasth.co/).
 
