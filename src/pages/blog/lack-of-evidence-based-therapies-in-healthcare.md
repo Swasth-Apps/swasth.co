@@ -57,7 +57,6 @@ Applying evidence-based principles ensures the use of the best existing tool as 
 Two main goals behind the evidence-based practice are:
 
 1. Access to high-quality treatment.
-
 2. Increased accountability, mindfulness, and self-control.
 
 <!--StartFragment-->
@@ -68,11 +67,7 @@ This approach involves tracking not only the individual’s progress but also th
 
 ## Conclusion
 
-Evidence-Based Therapy, or it's a  practice as a kind of psychotherapy backed by research that has proven effective clinically rather than solely based on normative theories. Accessibility to these treatments will help improve the well being of those struggling with mental health issues that have been successfully managed through EBTs. Hence, Swasth has developed feature-rich solutions like [CBT Companion](https://www.swasth.co/cbt-companion/) and [DBT Coach](https://www.swasth.co/dbt-coach/) for augmenting the experience of evidence-based therapy sessions.
-
-Engage better with your therapist using this robust [Behavioral Health Platform](https://www.swasth.co/).
-
-
+Evidence-Based Therapy, or it's a  practice as a kind of psychotherapy backed by research that has proven effective clinically rather than solely based on normative theories. Accessibility to these treatments will help improve the well being of those struggling with mental health issues that have been successfully managed through EBTs. At Swasth, we have developed an Evidence-Based Behavioral Health Platform that comprises modality specific mobile apps like [CBT Companion](https://www.swasth.co/cbt-companion/), [DBT Coach](https://www.swasth.co/dbt-coach/) and [ACT Coach](https://www.swasth.co/act-coach) for augmenting the experience of evidence-based therapy sessions. These integrate seamlessly with a [Clinician platform](https://clinician.swasth.co) that enables Clinicians to engage better with their clients.
 
 <!--EndFragment-->
 
