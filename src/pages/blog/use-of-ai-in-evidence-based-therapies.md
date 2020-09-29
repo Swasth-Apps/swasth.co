@@ -73,10 +73,8 @@ The most important aspect of the bot is that it implements different Evidence-Ba
 
    AI is not a substitute for a psychologist, and the approach may not work for everyone.
 
-   When it comes to CBT and DBT, there are about 20+ years of case studies and evidence that suggest its ability to help those suffering from mental health issues. In case you are wondering where to start, Swasth has developed feature-rich solutions like [ACT Coach](https://www.swasth.co/act-coach/), [DBT Coach](https://www.swasth.co/dbt-coach/), [CBT Companion](https://www.swasth.co/cbt-companion/) for augmenting the experience of the therapy sessions.
+   When it comes to CBT and DBT, there are about 20+ years of case studies and evidence that suggest its ability to help those suffering from mental health issues. In case you are wondering where to start, Swasth has developed apps like [ACT Coach](https://www.swasth.co/act-coach/), [DBT Coach](https://www.swasth.co/dbt-coach/), [CBT Companion](https://www.swasth.co/cbt-companion/) for augmenting the experience of the therapy sessions.
 
-   Engage better with your therapist using this robust [Evidence-Based Therapy platform](https://www.swasth.co/).
-
-<!--EndFragment-->
+   <!--EndFragment-->
 
 <!--EndFragment-->
