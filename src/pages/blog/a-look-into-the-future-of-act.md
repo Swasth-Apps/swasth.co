@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: A look into the Future of ACT
 username: Rusha Bhattacharjee
-date: 2020-06-27
+date: 2020-06-27T00:00:00.000Z
 description: "The ACT-based intervention aims to promote individuals' new health
   behavior patterns through the improvement of the key construct of
   psychological flexibility, which is defined as the ability to contact the
@@ -54,7 +54,7 @@ Here are a couple of changes taking place in Acceptance and Commitment Therapy t
 
 ## Conclusion
 
-![Future](/img/act-future-2.jpg "Future of ACT")
+![Future](/img/act-intro.jpg "Future of ACT")
 
 A lot has changed in the last 15 years in psychotherapy, and ACT has been at the vanguard of these changes. Acceptance and Commitment Therapy has a solid empirical base that has its roots in the very nature of human language and cognition. It is curated upon powerful behavioral elements that flow from, and are in some sense guided by a coherent philosophical and theoretical foundation. The treatments that followed this formula, i.e., the ACT model, such as exposure therapies for anxiety problems, have been enormously successful and have shown long-term efficacy. 
 
