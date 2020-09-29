@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Impact of Covid-19 on Mental Health of US Workers
+title: Impact of Covid-19 on Mental Health
 username: Rusha Bhattacharjee
 date: 2020-08-17T00:00:00.000Z
 description: >
