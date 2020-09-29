@@ -6,6 +6,7 @@ date: 2020-08-04T00:00:00.000Z
 description: Evidence-Based Therapies are those that have been rigorously tested
   in randomized controlled trials or multiple-case studies and proven to be
   superior to existing treatments.
+featuredpost: true
 image: /img/missing-link-landscape.jpg
 squareimage: /img/thanking-sqaure.jpg
 categories:
