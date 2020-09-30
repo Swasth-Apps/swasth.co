@@ -6,7 +6,7 @@ date: 2020-08-24T00:00:00.000Z
 description: Cognitive distortions are irrational beliefs that are developed
   over time in response to adverse events. Often, these beliefs are so subtle
   that it is hard to separate them from day-to-day thoughts.
-featuredpost: true
+featuredpost: false
 image: /img/10-common-distortions.png
 squareimage: /img/negative-thoughts-square.jpg
 categories:
