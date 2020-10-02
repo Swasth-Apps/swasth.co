@@ -18,7 +18,13 @@ categories:
     - slug: stress
       title: Stress
 relatedpost:
-  blog: []
+  blog:
+    - slug: impact-of-covid-19-on-mental-health
+      title: Impact of Covid-19 on Mental Health
+    - slug: are-you-stressed-read-these-books-to-relax-your-mind
+      title: Are you stressed? Read these books to relax your mind!
+    - slug: stress-vs-anxiety-how-to-tell-the-difference-and-get-help
+      title: "Stress Vs Anxiety: How to Tell the Difference and Get Help?"
 tags:
   - Stress
   - Happiness
