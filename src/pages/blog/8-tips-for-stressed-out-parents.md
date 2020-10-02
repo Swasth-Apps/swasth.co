@@ -32,8 +32,7 @@ tags:
 ---
 <!--StartFragment-->
 
-*Revised marketing strategy. Parents- teacher conference Friday. Give team feedback to management. Finish winter camp applications. Get Anna ready for the Science test tomorrow. Plan the project budget. Schedule Janny’s flu shots. Start drafting quarterly forecasts. Call the roofer for the estimate. Grocery run, we are out of everything!!!!!!!!!!*\
-\
+*Revised marketing strategy. Parents- teacher conference Friday. Give team feedback to management. Finish winter camp applications. Get Anna ready for the Science test tomorrow. Plan the project budget. Schedule Janny’s flu shots. Start drafting quarterly forecasts. Call the roofer for the estimate. Grocery run, we are out of everything!!!!!!!!!!*
 
 <!--StartFragment-->
 
