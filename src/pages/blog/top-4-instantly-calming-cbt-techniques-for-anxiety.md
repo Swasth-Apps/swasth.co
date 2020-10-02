@@ -13,6 +13,18 @@ categories:
   category:
     - slug: cognitive-behavioral-therapy
       title: CBT
+    - slug: evidence-based-therapy
+      title: Evidence Based Therapy
+    - slug: stress
+      title: Stress
+relatedpost:
+  blog:
+    - slug: cbt-for-bipolar-disorder
+      title: CBT for Bipolar Disorder
+    - slug: cbt-vs-dbt
+      title: CBT vs DBT
+    - slug: what-is-cognitive-behavioral-therapy
+      title: What is Cognitive Behavioral Therapy?
 tags:
   - CBT
   - Anxiety
