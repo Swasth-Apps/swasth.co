@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Top 4 Instantly Calming CBT Techniques for Anxiety
 username: Keerti Chandnani
-date: 2020-08-31
+date: 2020-08-31T00:00:00.000Z
 description: "Anxiety is the response of mind and body to stressful, harmful, or
   say unfamiliar situations. Check out the top 4 Instantly Calming CBT
   Techniques for Anxiety. "
@@ -24,7 +24,7 @@ tags:
 
 The first and foremost step in overcoming a psychological issue is to learn more about it, also known as psychoeducation. Insights into your problem would assure you that you’re not alone, and you may even discover specific helpful strategies to overcome it. Some people find that knowing well about their problem is an essential and massive step on the road to recovery.
 
-Today, we will discuss a disorder that is affecting[40 million adults in the U.S.](https://adaa.org/about-adaa/press-room/facts-statistics#:~:text=Anxiety%20disorders%20are%20the%20most,of%20those%20suffering%20receive%20treatment.), Anxiety.
+Today, we will discuss a disorder that is affecting [40 million adults in the U.S.](https://adaa.org/about-adaa/press-room/facts-statistics#:~:text=Anxiety%20disorders%20are%20the%20most,of%20those%20suffering%20receive%20treatment.), Anxiety.
 
 So, before diving deep into the read, let’s first understand "anxiety" well.
 
@@ -98,10 +98,6 @@ Managing anxiety is more like an exercise- keep practicing your CBT skills to li
 
 ***Peaceful Living!!!***
 
-
-
 <!--EndFragment-->
-
-
 
 <!--EndFragment-->
