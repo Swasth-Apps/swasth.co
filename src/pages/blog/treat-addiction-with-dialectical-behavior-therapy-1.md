@@ -60,15 +60,13 @@ The last step is essential as people with addictions often don’t feel connecte
 
 <!--StartFragment-->
 
-Some journeys are a bit difficult to traverse without assistance. The voyage from addiction to a healthy lifestyle is one such example. Therapists and enabling technology will help guide your voyage. Swasth has come up with a robust and feature-rich [DBT Coach](https://www.swasth.co/dbt-coach/) application for practicing DBT skills. Engage better with your therapists with user-friendly animations, worksheets, journals, and walk down the road of transformation.
+Some journeys are a bit difficult to traverse without assistance. The voyage from addiction to a healthy lifestyle is one such example. Therapists and enabling technology will help guide your voyage. Swasth has developed a robust and feature-rich [DBT Coach](https://www.swasth.co/dbt-coach/) application for practicing DBT skills. Engage better with your therapists with user-friendly animations, worksheets, journals, and walk down the road of transformation.
 
 *Liked what you read?*
 
 *Don’t forget to share it with your peers via social media handles.*
 
 ***Happy Living!***
-
-
 
 <!--EndFragment-->
 
