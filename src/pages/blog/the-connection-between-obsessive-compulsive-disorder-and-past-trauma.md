@@ -52,28 +52,27 @@ Some common symptoms are:
 * Fear something bad might occur if you don't act fast
 * Impulsive thoughts like throwing away of things
 
-OCD can manifest in many different ways. Some people are obsessed with how things should be set, while others are overwhelmed by fears of hurting someone they love. You may be so used to such symptoms that you feel it's existence is normal. While the symptoms are believed to be caused by the integration of various genetic and environmental factors, they can be the potential cause of past trauma.
+OCD can manifest in many different ways. Some people are obsessed with how things should be set, while others are overwhelmed by fears of hurting someone they love. You may be so used to such symptoms that you feel its existence is normal. While the symptoms are believed to be caused by the integration of various genetic and environmental factors, they can be the potential cause of past trauma.
 
 ## The connection between Trauma and OCD
 
 ![Past Trauma](/img/past.jpeg "Past Trauma")
 
-Several types of research have validated the connection between pasttraumaandOCD. A study published in Behavior Research and Theory demonstrated that people are more likely to experience obsessive thoughts when they are exposed to catastrophic misinterpretations of their own stressful thoughts (distorted mental image).
+Several types of research have validated the connection between past trauma and OCD. A study published in Behavior Research and Theory demonstrated that people are more likely to experience obsessive thoughts when they are exposed to catastrophic misinterpretations of their own stressful thoughts (distorted mental image).
 
 With both Post-Traumatic Stress Disorder and OCD, a person has intrusive thoughts such as flashbacks, nightmares about the traumatic event and then engages in downplaying behaviors to reduce their stress emerging from those unpleasant thoughts.
 
-Compulsions are typically the neutralizing behaviors of OCD. People withOCDassume compulsive behaviors (like checking, cleaning, hoarding) to be safe and comforting in the short-run. However, in the long-run, these behaviors do not only inadequately focus on the roots of the anxiety but also accelerate the existing stress.
+Compulsions are typically the neutralizing behaviors of OCD. People with OCD assume compulsive behaviors (like checking, cleaning, hoarding) to be safe and comforting in the short-run. However, in the long-run, these behaviors do not only inadequately focus on the roots of the anxiety but also accelerate the existing stress.
 
-People who develop Obsessive-Compulsive Disorderpost a traumatic experience may even display a dysfunctional pattern of symptoms, such as suicidal tendencies, self-mutilation, panic disorder with agoraphobia, hoarding, compulsive spending, and greater anxiety or depression. While researchers continue to address the causes and effects of this disorder and conduct several controlled trials, determining the best approach to treat people with past trauma and OCD can be challenging for therapists. For this reason, an evidence-based treatment program is hugely significant.\
+People who develop Obsessive-Compulsive Disorder post a traumatic experience may even display a dysfunctional pattern of symptoms, such as suicidal tendencies, self-mutilation, panic disorder with agoraphobia, hoarding, compulsive spending, and greater anxiety or depression. While researchers continue to address the causes and effects of this disorder and conduct several controlled trials, determining the best approach to treat people with past trauma and OCD can be challenging for therapists. For this reason, an evidence-based treatment program is hugely significant.
+
 <!--StartFragment-->
 
 ## Treatment
 
-Obsessive-Compulsive Disorder is generally treated with Exposure and Response Prevention Therapy(ERP). In this gold standard program, individuals are exposed to the stimuli that trigger obsessive thoughts and urge them to engage in compulsion. They are then taught to control themselves from participating in normal compulsion and reduce anxiety. This treatment is carefully calibrated and curated to help people in doing away with avoidance strategies and being more thoughtful of their actions. But with trauma-related OCD or OCD that coincides with PTSD, one may opt for a different form of therapy. Some experts use Cognitive-Behavioral therapy (CBT) for trauma-related OCD. In this type of therapy, patients are taught to redirect their intrusive thoughts about the traumatic event. Other forms of treatment, such as Eye movement desensitization and reprocessing (EMDR) therapy and Trauma-Focused CBT, may also be beneficial. However, it is always recommended that you consult a trained Evidence-Based Treatment specialist for the right treatment if you notice any of the symptoms associated with OCD and PTSD. In case you are wondering where to start, Swasth has developed a feature-rich solution named [ACT Coach](https://www.swasth.co/act-coach/) for augmenting the experience of evidence-based sessions.
+Obsessive-Compulsive Disorder is generally treated with Exposure and Response Prevention Therapy(ERP). In this gold standard program, individuals are exposed to the stimuli that trigger obsessive thoughts and urge them to engage in compulsion. They are then taught to control themselves from participating in normal compulsion and reduce anxiety. This treatment is carefully calibrated and curated to help people in doing away with avoidance strategies and being more thoughtful of their actions. But with trauma-related OCD or OCD that coincides with PTSD, one may opt for a different form of therapy. Some experts use Cognitive-Behavioral therapy (CBT) for trauma-related OCD. In this type of therapy, patients are taught to redirect their intrusive thoughts about the traumatic event. Other forms of treatment, such as Eye movement desensitization and reprocessing (EMDR) therapy and Trauma-Focused CBT, may also be beneficial. However, it is always recommended that you consult a trained Evidence-Based Treatment specialist for the right treatment if you notice any of the symptoms associated with OCD and PTSD. In case you are wondering where to start, you can check out [ACT Coach](https://www.swasth.co/act-coach/) for augmenting the experience of evidence-based sessions.
 
 Engage better with your therapist using this robust [Behavioral Health Platform](https://www.swasth.co/).
-
-
 
 <!--EndFragment-->
 
