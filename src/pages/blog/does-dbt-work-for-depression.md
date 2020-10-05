@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: "Does DBT work for Depression? "
 username: Rusha Bhattacharjee
-date: 2020-10-05
+date: 2020-10-05T00:00:00.000Z
 description: "DBT was originally developed to treat other psychological
   disorders but can also be used to treat depression. DBT is similar to
   cognitive behavioural therapy and helps people build four major skills:
@@ -14,6 +14,19 @@ categories:
   category:
     - slug: depression
       title: Depression
+    - slug: dialectical-behavior-therapy-dbt
+      title: DBT
+    - slug: evidence-based-therapy
+      title: Evidence Based Therapy
+relatedpost:
+  blog:
+    - slug: what-is-dialectical-behavior-therapy
+      title: What is Dialectical Behavior Therapy?
+    - slug: interpersonal-effectiveness-in-dbt-learn-effective-communication-skills
+      title: " Interpersonal Effectiveness in DBT: Learn effective communication
+        skills"
+    - slug: dbt-for-emotional-dysregulation
+      title: DBT for Emotional Dysregulation
 tags:
   - CBT
   - Evidence Based Therapy
