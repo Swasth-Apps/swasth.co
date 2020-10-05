@@ -6,7 +6,7 @@ date: 2020-08-31T00:00:00.000Z
 description: "Anxiety is the response of mind and body to stressful, harmful, or
   say unfamiliar situations. Check out the top 4 Instantly Calming CBT
   Techniques for Anxiety. "
-featuredpost: true
+featuredpost: false
 image: /img/anxious-landscape.jpg
 squareimage: /img/calm-technqiues-square.jpg
 categories:
