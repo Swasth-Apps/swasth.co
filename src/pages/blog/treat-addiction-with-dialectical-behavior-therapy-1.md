@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Treat Addiction with Dialectical Behavior Therapy
+title: Dialectical Behavior Therapy for Addiction
 username: Keerti Chandnani
 date: 2020-08-19T00:00:00.000Z
 description: "Dialectical Behavioral Therapy (DBT) is one of the most promising
