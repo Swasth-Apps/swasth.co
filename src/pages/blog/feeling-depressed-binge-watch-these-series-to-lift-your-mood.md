@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Feeling Depressed? Binge-watch these series to lift your mood
 username: Keerti Chandnani
-date: 2020-09-09
+date: 2020-09-09T00:00:00.000Z
 description: From so much content available online, it is hard to select the
   ones that would chase away your blues. But no worries! Today, I will share my
   personal favorites, which will grip you with their storylines and make you
@@ -14,8 +14,22 @@ categories:
   category:
     - title: Stress
       slug: stress
+    - slug: happiness
+      title: Happiness
+    - slug: mindfulness
+      title: Mindfulness
+relatedpost:
+  blog:
+    - slug: are-you-stressed-read-these-books-to-relax-your-mind
+      title: Are you stressed? Read these books to relax your mind!
+    - slug: productivity-challenges-at-work
+      title: Productivity Challenges at Work
+    - slug: impact-of-covid-19-on-mental-health
+      title: Impact of Covid-19 on Mental Health
 tags:
   - Stress
+  - Mindfulness
+  - Happiness
 ---
 <!--StartFragment-->
 
