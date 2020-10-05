@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Different Types of Eating Disorder
+title: Types of Eating Disorder
 username: Keerti Chandnani
 date: 2020-09-04T00:00:00.000Z
 description: Eating disorder is a complex mental health condition that affects
@@ -34,7 +34,7 @@ tags:
 
 Eating disorder is a complex mental health condition that affects people of all genders, ages, races, ethnicities, religions, sexual orientations, and body types.
 
-According to a national survey, approximately 10 million men and 20 million women in America suffer from this illness at some or other point of their lives. Around[9% of the world population](https://academic.oup.com/ajcn/article/109/5/1402/5480601#137318890) is affected by this condition.[10% of those suffering](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-019-1352-3) from eating disorders can lose their lives.
+According to a national survey, approximately 10 million men and 20 million women in America suffer from this illness at some or other point of their lives. Over [9% of the world population](https://academic.oup.com/ajcn/article/109/5/1402/5480601#137318890) is affected by this condition, [10% of those suffering](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-019-1352-3) from eating disorders can lose their lives.
 
 There are different kinds of eating disorders, but one thing that is common amongst all of them besides the lack of control over eating habits is that they can progress and cause permanent damage to an individual’s mental and physical health. Therefore, it is important to identify if you or someone else you know show the symptoms of the disorder, and seek help.
 
@@ -95,7 +95,6 @@ A life-threatening eating disorder marked by a cycle of binge eating followed by
   ### 4. Avoidant Restrictive Food Intake Disorder
 
   A disorder characterized by eating disturbances which result in weight loss and other medical issues.
-
 * Lack of interest in eating due to sensory characteristics of food like textures and colors.
 * Avoidance of food results in significant weight loss, or lack of physical development, nutrient deficiency.
 * At times, the individual starts depending on nutritional supplements, disruption of psycho-social functioning, or oral feeding.
@@ -113,8 +112,6 @@ Rumination Disorder, when someone continuously regurgitates food after eating; T
 We have brought you a series of articles catering to this issue, and our first one enlists the different types of eating disorders and their symptoms.
 
 In the next bunch of write-ups, we shall discuss the treatment of this complex condition via evidence-based therapies. So stay tuned!
-
-
 
 <!--EndFragment-->
 
