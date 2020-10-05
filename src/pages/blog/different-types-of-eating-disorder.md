@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Different Types of Eating Disorder
 username: Keerti Chandnani
-date: 2020-09-04
+date: 2020-09-04T00:00:00.000Z
 description: Eating disorder is a complex mental health condition that affects
   people of all genders, ages, races, ethnicities, religions, sexual
   orientations, and body types. Today, in this piece we’re going to discuss the
@@ -13,11 +13,19 @@ categories:
   category:
     - slug: stress
       title: Stress
+    - title: evidence-based-therapy
+      slug: Evidence Based Therapy
+    - slug: mindfulness
+      title: Mindfulness
 relatedpost:
   blog:
     - slug: a-holistic-approach-for-managing-depression-using-dbt-nutrition-hrv-and-physical-exercise
       title: A holistic approach for managing Depression using DBT, Nutrition, HRV,
         Physical Exercise and Sleep
+    - slug: impact-of-covid-19-on-mental-health
+      title: Impact of Covid-19 on Mental Health
+    - slug: resilience
+      title: Resilience
 tags:
   - Eating Disorder
   - Evidence Based Therapy
