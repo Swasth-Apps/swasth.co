@@ -6,7 +6,7 @@ date: 2020-09-02T00:00:00.000Z
 description: No matter how overwhelmed you feel as a working parent, there are
   some simple and effective techniques for accomplishing a more competent and
   calm lifestyle.
-featuredpost: true
+featuredpost: false
 image: /img/stressed-parent-landscape.jpg
 squareimage: /img/stressed-parent-square.jpeg
 categories:
