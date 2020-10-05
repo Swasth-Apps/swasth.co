@@ -45,7 +45,7 @@ CBT is a therapy that helps individuals cope with disturbing thoughts, emotions,
 * Imaginal Exposure,
 * Ritual Prevention.
 
-  ![Obsessed](/img/obsessed.jpeg "Obsessed")
+  ![Obsession](/img/obsessed.jpeg "Obsession")
 
 ### What is Vivo Exposure?
 
@@ -68,9 +68,5 @@ We have discussed the intricacies of the topic; however, OCD is a much deeper su
 CBT Companion is a comprehensive behavioral health platform that helps you learn about CBT techniques, challenge negative thoughts, track emotions and activities. When diagnosed with OCD, you need to consult a therapist, and CBT Companion enriches your engagement with the expert. Equipped with easy to follow video lessons, exercises, mood tracking journal, a strong community- the app comes handy in coping with OCD symptoms.
 
 If you haven’t already tried this feature-rich popular application, then [click here](https://www.swasth.co/cbt-companion/).
-
-
-
-
 
 <!--EndFragment-->
