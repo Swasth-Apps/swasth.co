@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: "Guideline to other psychotherapies "
 username: Rusha Bhattacharjee
-date: 2020-09-16
+date: 2020-09-16T00:00:00.000Z
 description: >+
   If you're looking for the best-suited therapy for yourself, you might've
   already noticed the myriad of its types available. Although some therapeutic
@@ -29,6 +29,8 @@ In therapy, you'll have to collaborate with a trained mental health professional
 
 You can expect to have an impactful discussion on challenging circumstances, vulnerable emotions, and dysfunctional behaviors that affect your life.
 
+![Enjoy the Simple Things](/img/enjoy-the-simple-things.jpg "Enjoy the Simple Things")
+
 This will likely involve working up your way towards addressing negative events or distressing thoughts. All these may sound difficult in the beginning, but the end result is usually a happier and more meaningful life.
 
 Here's a look at some common types of therapy and how to choose which one is best for you:
@@ -54,8 +56,6 @@ Psychodynamic Therapy may be a good choice for addressing:
 * eating disorders
 * sleeping disorders
 * substance abuse
-
-  <!--StartFragment-->
 
   ## Behavioral Therapy<!--StartFragment-->
 
@@ -85,11 +85,11 @@ Psychodynamic Therapy may be a good choice for addressing:
   * obsessive-compulsive disorder (OCD)
   * interpersonal ineffectiveness
 
-    <!--StartFragment-->
-
     ## Humanistic Therapy
 
     Humanistic Therapy is an approach that focuses on your surroundings that cause distress - for example, at times, our invalidating environment, e.g. family members or colleagues, tend to oversimplify our complex emotions, which can further lead to an escalation of our distress. It teaches people to believe in their capabilities of understanding themselves in the best way.
+
+    ![Live Your Life](/img/live-your-life.jpg "Live Your Life")
 
     Humanistic therapists work to help you better understand your experiences and emotions without interpreting your feelings for you.
 
@@ -109,23 +109,9 @@ Psychodynamic Therapy may be a good choice for addressing:
     * substance abuse
     * feelings of worthlessness or self-judgment
 
-      <!--StartFragment-->
-
       The vast majority of therapeutic approaches do not apply to just one mental health issue. They can be used for treating various other mental health concerns, either individually or combining two or more therapies. For example, Psychotherapists can use a treatment program to address depression, but there is no "Depression Therapy." Nonetheless, there are some types of psychotherapies available that are specifically effective for specific issues and illnesses. Once you figure out which is the best fit for you, you can easily find help in improving your mental health and overall lifestyle. In case you are wondering where to start, Swasth has developed feature-rich solutions like [ACT Coach](https://www.swasth.co/act-coach/), [DBT Coach](https://www.swasth.co/dbt-coach/), [CBT Companion](https://www.swasth.co/cbt-companion/) for augmenting the experience of the therapy sessions.
 
       Engage better with your therapist using this robust [Behavioral Health Platform](https://www.swasth.co/).
-
-
-
-      <!--EndFragment-->
-
-    <!--EndFragment-->
-
-  <!--EndFragment-->
-
-
-
-  <!--EndFragment-->
 
 <!--EndFragment-->
 
