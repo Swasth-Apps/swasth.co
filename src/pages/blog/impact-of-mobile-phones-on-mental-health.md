@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: "Impact of Mobile Phones on Mental Health "
 username: Rusha Bhattacharjee
-date: 2020-09-14
+date: 2020-09-14T00:00:00.000Z
 description: Cell phone usage badly affects mental health of adolescents causing
   them to be anxious, depressed and angry or sometimes attempt suicide. However,
   some studies also showed a positive connection between cell phone addiction
@@ -13,10 +13,26 @@ categories:
   category:
     - title: Stress
       slug: stress
+    - slug: tech
+      title: Technology
+    - slug: mindfulness
+      title: Mindfulness
+relatedpost:
+  blog:
+    - slug: use-of-ai-in-evidence-based-therapies
+      title: Telemedicine and AI in Evidence Based Therapy
+    - slug: a-holistic-approach-for-managing-depression-using-dbt-nutrition-hrv-and-physical-exercise
+      title: A holistic approach for managing Depression using DBT, Nutrition, HRV,
+        Physical Exercise and Sleep
+    - slug: how-to-deal-with-remote-working-stress
+      title: How to deal with Remote Working Stress?
+    - slug: impact-of-covid-19-on-mental-health
+      title: Impact of Covid-19 on Mental Health
 tags:
   - Mobile Phone
   - Stress
   - Mindfulness
+  - Technology
 ---
 <!--StartFragment-->
 
