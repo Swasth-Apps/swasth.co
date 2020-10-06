@@ -16,6 +16,22 @@ categories:
   category:
     - title: Mindfulness
       slug: mindfulness
+    - slug: evidence-based-therapy
+      title: Evidence Based Therapy
+    - slug: acceptance-and-commitment-therapy-act
+      title: ACT
+    - slug: dialectical-behavior-therapy-dbt
+      title: DBT
+relatedpost:
+  blog:
+    - slug: what-is-acceptance-and-commitment-therapy
+      title: What is Acceptance and Commitment Therapy?
+    - slug: lack-of-evidence-based-therapies-in-healthcare
+      title: Lack of Evidence-Based Therapies in Healthcare
+    - slug: what-is-acceptance-and-commitment-therapy
+      title: What is Acceptance and Commitment Therapy?
+    - slug: what-is-cognitive-behavioral-therapy
+      title: What is Cognitive Behavioral Therapy?
 tags:
   - Psychotherapies
   - Self Help
