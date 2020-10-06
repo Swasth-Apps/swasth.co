@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Guideline to other psychotherapies "
+title: A Guide to different types of Therapies
 username: Rusha Bhattacharjee
 date: 2020-09-16T00:00:00.000Z
 description: >+
