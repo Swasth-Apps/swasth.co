@@ -1,6 +1,6 @@
 ---
 templateKey: category-post
-title: Techology
+title: Technology
 date: 2020-01-05T00:00:00.000Z
 description: Information with respect to incorporating technology in Mental
   Health. Topics to include Clinician platform, Notes and Billing, emerging
