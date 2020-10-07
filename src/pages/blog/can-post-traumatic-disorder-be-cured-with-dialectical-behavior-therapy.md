@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: "Can Post-traumatic Disorder be cured with Dialectical Behavior therapy? "
 username: Rusha Bhattacharjee
-date: 2020-09-18
+date: 2020-09-18T00:00:00.000Z
 description: 70% of people in the US have suffered from at least some kind of
   traumatic event in life with 20% having developed PTSD symptoms. DBT is one of
   the most effective evidence-based interventions to treating PTSD using various
@@ -13,6 +13,20 @@ categories:
   category:
     - title: Stress
       slug: stress
+    - slug: cognitive-behavioral-therapy
+      title: CBT
+    - slug: dialectical-behavior-therapy-dbt
+      title: DBT
+    - slug: evidence-based-therapy
+      title: Evidence Based Therapy
+relatedpost:
+  blog:
+    - slug: the-connection-between-obsessive-compulsive-disorder-and-past-trauma
+      title: The Connection between Obsessive-Compulsive Disorder and Past Trauma
+    - slug: act-for-post-traumatic-stress
+      title: ACT for Post-traumatic Stress
+    - slug: stress-vs-anxiety-how-to-tell-the-difference-and-get-help
+      title: "Stress Vs Anxiety: How to Tell the Difference and Get Help?"
 tags:
   - CBT
   - PTSD
@@ -33,8 +47,6 @@ PTSD, a common occurrence post-traumatic experience, has similar symptoms with a
 * Interpersonal ineffectiveness.
 * Prone to impulsive behavior.
 
-  <!--StartFragment-->
-
   # Dialectical Behavior Therapy for PTSD
 
   An increasingly popular treatment evidence-based treatment for BPD is Dialectical Behavioral Therapy (DBT). Given the symptoms they share, researchers have discovered the model of DBT, an effective approach to treat people suffering from PTSD.
@@ -43,13 +55,9 @@ PTSD, a common occurrence post-traumatic experience, has similar symptoms with a
 
   Trauma-focused DBT is based on CBT but delves deeper into the psychosocial factors involved in the individual’s daily experiences. DBT is used to assist people in coping with distorted or unstable emotional states and harmful behaviors, like self-harm or suicidal tendencies. It is a support-oriented approach to treatment, that allows individuals to dig deeper into their inner self, recognize their strengths, and then build upon them to uplift the person’s impression of themselves and their life, a path towards self-acceptance.
 
-  <!--StartFragment-->
-
   It is a cognitive-based therapeutic model which incorporates identification of thoughts and beliefs that make life difficult, and observe them mindfully until the individual becomes effective in his/her responses. For example, some people believe that if their vulnerability is exposed, it might prove them to be a weak person. Trauma-focused DBT would serve to teach the person, a more appropriate way of building his/her perspective. For example, ‘If I show my vulnerable side to them, they will think I am weak’, would convert to, ‘Vulnerability is human psychology, and everybody experiences it.’
 
   DBT is a collaborative pattern of therapy. In DBT, the therapist-client relationship is always the key to the successful completion of the session. Clients are given worksheets to practice at home, fill diary cards, practice self-soothing techniques, and develop interpersonal effectiveness by role-playing with the therapist.
-
-  <!--StartFragment-->
 
   ## Skills Training
 
@@ -95,8 +103,6 @@ PTSD, a common occurrence post-traumatic experience, has similar symptoms with a
 
   Research has shown that DBT’s PE is an acceptable, viable, safe, and efficient model for treating PTSD. In fact, according to [Harned in her work published in the Journal of Clinical Psychology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3348973/), ‘74% of clients prefer to receive a combined DBT and PE treatment over either treatment alone.’
 
-  <!--StartFragment-->
-
   ## DBT-PTSD
 
   In the assessment of DBT’s potential to the treatment of PTSD, researchers from the [Central Institute of Mental Health](https://www.zi-mannheim.de/) in Mannheim, Germany, conducted a study including 21 female participants who had undergone Childhood Sexual Abuse (CSA). Researchers applied a treatment model known as Dialectical Behavioral Therapy for Post-Traumatic Stress Disorder (DBT-PTSD) – a collaboration of DBT and CBT approaches to PTSD, like exposure therapy.
@@ -112,15 +118,5 @@ PTSD, a common occurrence post-traumatic experience, has similar symptoms with a
   ![Swasth Coaching Platform](/img/coaching.png "Swasth Coaching Platform")
 
   At times, finding help can seem difficult. A lot of us tend to keep it all within ourselves, in the fear of being exposed. Needless to mention, individual therapies can also be very expensive. This is why [Swasth](http://swasth.co) has developed a robust platform for people where they can consult trained evidence-based therapy coaches and learn highly effective skills to tackle PTSD or any psychological difficulty via the DBT coach.
-
-
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
 
 <!--EndFragment-->
