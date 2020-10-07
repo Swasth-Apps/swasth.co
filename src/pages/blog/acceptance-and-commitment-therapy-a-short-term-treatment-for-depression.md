@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Acceptance and Commitment Therapy - A Short-term Treatment for Depression.
 username: Rusha Bhattacharjee
-date: 2020-09-23
+date: 2020-09-23T00:00:00.000Z
 description: Depression is a common and serious medical illness that negatively
   affects how you feel, the way you think and how you act. ACT is gold-standard
   psychotherapy that looks at your character traits and behaviors to assist you
@@ -13,6 +13,20 @@ categories:
   category:
     - title: Depression
       slug: depression
+    - slug: acceptance-and-commitment-therapy-act
+      title: ACT
+    - slug: evidence-based-therapy
+      title: Evidence Based Therapy
+relatedpost:
+  blog:
+    - slug: 6-core-processes-of-act
+      title: 6 core processes of ACT
+    - slug: act-for-anxiety
+      title: ACT for anxiety
+    - slug: act-for-post-traumatic-stress
+      title: ACT for Post-traumatic Stress
+    - slug: what-is-acceptance-and-commitment-therapy
+      title: What is Acceptance and Commitment Therapy?
 tags:
   - Depression
   - ACT
