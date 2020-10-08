@@ -123,7 +123,7 @@ class BlogLanding extends React.Component {
         <Row
           md={12}
              className='card-col image-col recent-story-container all-category-section'
-             style={{ marginTop: 50 }}>
+             >
           <div id='all_posts' className='recent-story' style={{ maxHeight: 'unset' }}>
             {blogs?.map(({node : {frontmatter,fields}}) =>
               <div className='story'>

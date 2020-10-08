@@ -8,11 +8,8 @@
 // Minimum footer height
 /***************/
 #min-footer{
-  @media (max-width: 380px) {
-    height: 550px !important;
-  }
-  @media (max-width: 426px) and (min-width: 381px) {
-    height: 470px !important;
+  @media (max-width: 426.5px)  {
+    height: 500px !important;
   }
   @media (min-width: 427px) {
     height: 370px !important;
@@ -20,7 +17,10 @@
 }
 #footer{
   @media (max-width: 426px) {
-    height: 700px !important;
+    height: 550px !important;
+  }
+  @media (min-width: 427px) and (max-width: 768px) {
+    height: 350px !important;
   }
 }
 /******************/
