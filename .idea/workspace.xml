@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc70eb03-a129-4ee1-9e11-a0c375fba21f" name="Default Changelist" comment="-- create design for more categories">
+    <list default="true" id="cc70eb03-a129-4ee1-9e11-a0c375fba21f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/mission.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/pages/aboutus.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AboutUs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/about-us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/about-us-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/purple_yellow_gradient.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/libs/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/libs/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BlogLanding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogLanding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
     </list>
     <list id="c9136efa-379e-425e-8e32-46b67092561a" name="-- Design of Swasth Website" comment="-- Design of Swasth Website" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -43,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../health-coach-website" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -61,11 +66,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\vikas-vaghasiya\swasth-invision\src\templates" />
-      <recent name="D:\vikas-vaghasiya\swasth-invision\src\components" />
-      <recent name="D:\vikas-vaghasiya\swasth-invision\src\assets\images" />
-      <recent name="D:\vikas-vaghasiya\swasth-invision\src\cms\preview-templates" />
-      <recent name="D:\vikas-vaghasiya\swasth-invision\src\pages\blog" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/static/img" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/AboutUs" />
+      <recent name="$PROJECT_DIR$/src/pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\vikas-vaghasiya\swasth-invision\src\assets\images" />
@@ -176,14 +181,11 @@
       <workItem from="1589464911340" duration="6615000" />
       <workItem from="1589564983640" duration="3195000" />
       <workItem from="1589648679007" duration="8391000" />
-      <workItem from="1602171608502" duration="3556000" />
-    </task>
-    <task id="LOCAL-00015" summary="-- About page design">
-      <created>1582915286273</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1582915286273</updated>
+      <workItem from="1602171608502" duration="3637000" />
+      <workItem from="1602261779426" duration="36000" />
+      <workItem from="1602261832785" duration="3334000" />
+      <workItem from="1602266021265" duration="7103000" />
+      <workItem from="1602341502562" duration="7072000" />
     </task>
     <task id="LOCAL-00016" summary="-- initial blocking issue resolve">
       <created>1584371865632</created>
@@ -521,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589653172504</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="-- Css changes in headers and footer">
+      <created>1602175233159</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1602175233160</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +574,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="-- Merge conflict" />
     <MESSAGE value="-- Blogs and Category design including tabs" />
     <MESSAGE value="-- conflict solve" />
     <MESSAGE value="-- change in config yml" />
@@ -590,9 +598,14 @@
     <MESSAGE value="-- resolve build issue and remove console" />
     <MESSAGE value="-- changes" />
     <MESSAGE value="-- create design for more categories" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- create design for more categories" />
+    <MESSAGE value="-- Css changes in headers and footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Css changes in headers and footer" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="693" y="301" width="524" height="512" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602264987070">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="693" y="301" width="524" height="512" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602264987070" />
     <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2" timestamp="1602175231335">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -601,14 +614,30 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1602171949295" />
-    <state x="610" y="251" width="906" height="604" key="find.popup" timestamp="1602174174641">
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1602175248927">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="610" y="251" width="906" height="604" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1602174174641" />
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1602173032863">
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1602175248927" />
+    <state x="612" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1602261832580">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1602173032863" />
+    <state x="612" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602261832580" />
+    <state x="526" y="163" width="857" height="788" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602341577124">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="526" y="163" width="857" height="788" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1602341577124" />
+    <state x="610" y="251" width="906" height="604" key="find.popup" timestamp="1602271142848">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="610" y="251" width="906" height="604" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1602271142848" />
+    <state x="642" y="326" width="625" height="461" key="git4idea.merge.GitPullDialog" timestamp="1602175237618">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="642" y="326" width="625" height="461" key="git4idea.merge.GitPullDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602175237618" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1602342699662">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1602342699662" />
   </component>
   <component name="masterDetails">
     <states>

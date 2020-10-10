@@ -10,7 +10,7 @@ const Header = (props) => {
 
   return (
     <>
-        <header id="header" className="alt">
+        <header id="header" className={`alt ${props.aboutHeader ? "about-header" : ""}`}>
 
           <nav className='header-nav'>
             <Link to="/" hidden={state}

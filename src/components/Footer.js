@@ -33,6 +33,7 @@ const Footer = (props) => (
                 <h4>Swasth</h4>
 
                 <ul className="list-unstyled iconlist ml-0">
+                  <li><Link to="/about-us">About Us </Link></li>
                   <li><a href="https://clinician.swasth.co">Clinicians</a></li>
                   <li><a href="#">Members</a></li>
                   <li><a href="https://healthcoach.swasth.co/">Coaching</a></li>
@@ -49,9 +50,9 @@ const Footer = (props) => (
 
                 <ul className="list-unstyled iconlist ml-0">
                 <li><a href="https://healthcoach.swasth.co/">Behavioral Health Coach</a></li>
-                  <li><a href="/dbt-coach">DBT Coach</a></li>
-                  <li><a href="/cbt-companion">CBT Companion</a></li>
-                  <li><a href="/act-coach">ACT Coach</a></li>
+                  <li><Link to="/dbt-coach">DBT Coach</Link></li>
+                  <li><Link to="/cbt-companion">CBT Companion</Link></li>
+                  <li><Link to="/act-coach">ACT Coach</Link></li>
                 </ul>
 
               </div>
