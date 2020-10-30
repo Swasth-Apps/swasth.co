@@ -27,10 +27,10 @@ const Home = (props) => {
         <Fragment>
             <section className='about-us-banner-section'>
                 <div className="about-us-banner-content">
-                    <h5>Careers at Swasth </h5>
-                    <h2>
+                    <h1>We are bringing evidence-based behavioral healthcare to everyone.</h1>
+                    <h4>
                         Come build an emotionally healthy world with us
-                    </h2>
+                    </h4>
                     <Button className="-btn-primary"> See open positions </Button>
                 </div>
             </section>
@@ -39,7 +39,7 @@ const Home = (props) => {
                     <div className="about-us-tabs">
                         <h4>Who We Are</h4>
                         <h4>Our Mission</h4>
-                        <h4>Teams</h4>
+                        <h4>Leadership Team</h4>
                         <h4>Open Position</h4>
                     </div>
                 </div>
