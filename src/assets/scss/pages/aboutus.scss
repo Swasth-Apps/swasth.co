@@ -235,8 +235,10 @@
   .leader-section{
     display: flex;
     justify-content: space-between;
+    text-align: center;
     img{
-      width: 100%;
+      width: 75%;
+      border-radius: 50%;
     }
     .user{
       width: 30%;

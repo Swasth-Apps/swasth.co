@@ -133,19 +133,19 @@ const Home = (props) => {
                         <img src="https://www.lyrahealth.com/wp-content/uploads/2018/03/David_1.png"/>
                         <p className="name"> Gana Pemmanda </p>
                         <p>Co-founder & CEO</p>
-                        <p>Former CFO of Facebook, Genen tech, on the board of Survey Monkey and Cast light</p>
+                        <p>Former CFO of Facebook, Genen tech, on the board of Survey Monkey and Cast lightFormer CFO of Facebook, Genen tech, on the board of Survey Monkey and Cast light</p>
                     </div>
                     <div className="user">
                         <img src="https://www.lyrahealth.com/wp-content/uploads/2018/03/David_1.png"/>
                         <p className="name"> Gana Pemmanda </p>
                         <p>Co-founder & CEO</p>
-                        <p>Former CFO of Facebook, Genen tech, on the board of Survey Monkey and Cast light</p>
+                        <p>Former CFO of Facebook, Genen tech, on the board of Survey Monkey and Cast lightFormer CFO of Facebook, Genen tech, on the board of Survey Monkey and Cast light</p>
                     </div>
                     <div className="user">
                         <img src="https://www.lyrahealth.com/wp-content/uploads/2018/03/David_1.png"/>
                         <p className="name"> Gana Pemmanda </p>
                         <p>Co-founder & CEO</p>
-                        <p>Former CFO of Facebook, Genen tech, on the board of Survey Monkey and Cast light</p>
+                        <p>Former CFO of Facebook, Genen tech, on the board of Survey Monkey and Cast lightFormer CFO of Facebook, Genen tech, on the board of Survey Monkey and Cast light</p>
                     </div>
                 </div>
             </section>
