@@ -8,6 +8,8 @@
 // Minimum footer height
 /***************/
 #min-footer{
+  font-family: 'medium-content-serif-font', Helvetica !important;
+
   @media (max-width: 426.5px)  {
     height: 500px !important;
   }
@@ -216,7 +218,7 @@
         list-style: none;
         li{
           text-decoration: none;
-          font-size: 14px;
+          font-size: 16px;
           color: rgba(80,88,191,0.57);
           font-weight: bold;
           line-height: 2;

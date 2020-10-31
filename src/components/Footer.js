@@ -20,7 +20,7 @@ const Footer = (props) => (
 
               <div className="widget clearfix">
 
-                <img style={{ left: '20%' }} src={swasthLogo}/>
+                <Link to="/"><img style={{ left: '20%' }} src={swasthLogo}/></Link>
 
               </div>
 

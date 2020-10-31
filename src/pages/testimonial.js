@@ -19,7 +19,7 @@ const Testimonial = (props) => {
                 <div className={`card card--vertical card--starter pricing-relative life-coach-grid-section`}>
                   <div className='card-text'>
                     <img src={item.img} />
-                    <p className='para-text navy-text line-clamp-para'>{item.desc}</p>
+                    <p className='para-text navy-text line-clamp-para' style={{fontSize: 16}}>{item.desc}</p>
                     {/*<a className='para-text more-link-text' onClick={() => handleTestimonial(i)}>{i === testimonial ? 'READ LESS' :'READ MORE'}</a>*/}
                     <span className='-font-bold user-img navy-text'>
                       <div className="user-info"><img src={item.user} /><strong>{item.name}</strong></div>

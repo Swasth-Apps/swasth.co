@@ -23,6 +23,13 @@ const Home = (props) => {
             setIsMobile(window.innerWidth < 768)
         })
     }, []);
+
+    const findIdAndScroll = (id) => {
+        if(document.getElementById(id)) {
+            document.getElementById(id).scrollIntoView()
+        }
+    };
+
     return (
         <Fragment>
             <section className='about-us-banner-section'>
@@ -37,15 +44,15 @@ const Home = (props) => {
             <section>
                 <div className="about-us-tabs-container">
                     <div className="about-us-tabs">
-                        <h4>Who We Are</h4>
-                        <h4>Our Mission</h4>
-                        <h4>Leadership Team</h4>
-                        <h4>Open Position</h4>
+                        <h4 onClick={()=>findIdAndScroll("whoWeAre")}><a>Who We Are</a></h4>
+                        <h4 onClick={()=>findIdAndScroll("probSol")}><a>Our Mission</a></h4>
+                        <h4 onClick={()=>findIdAndScroll("leaderTeam")}><a>Leadership Team</a></h4>
+                        <h4 onClick={()=>findIdAndScroll("joinTeam")}><a>Open Position</a></h4>
                     </div>
                 </div>
             </section>
             <section>
-                <div className="about-us-mission-container">
+                <div className="about-us-mission-container" id="whoWeAre">
                     <div className="mission-content">
                         <h5>Why We Work</h5>
                         <h3>
@@ -58,7 +65,7 @@ const Home = (props) => {
                     </div>
                 </div>
             </section>
-            <section className="about-us-prob-sol">
+            <section className="about-us-prob-sol" id="probSol">
                 <div className="problem-section comm-section">
                     <div className="inner">
                         <h5 className="title">The Problem</h5>
@@ -126,15 +133,15 @@ const Home = (props) => {
                 </div>
             </section>
             <section className="about-us-leadership">
-                <h3>Our Leadership team</h3>
+                <h3 id="leaderTeam">Our Leadership team</h3>
                 <p>Our technologists, mental health experts, and business leaders driving the strategy behind Lyra.</p>
                 <div className="leader-section">
                     <div className="user">
                         <img src={require("../assets/images/gana.png")}/>
                         <p className="name"> Gana Pemmanda </p>
                         <p className="title">Co-founder & CEO</p>
-                        <p>Gana founded Swasth to transform behavioral health by bringing evidence-based therapy to everyone. 
-                            Having seen friends and family affected by mental health challenges and personally seen the benefits, he is passionate about a holistic approach 
+                        <p>Gana founded Swasth to transform behavioral health by bringing evidence-based therapy to everyone.
+                            Having seen friends and family affected by mental health challenges and personally seen the benefits, he is passionate about a holistic approach
                             for behavioral health care. Prior to founding Swasth, he lead product and technology teams at other startups as well as Fortune 100 companies.
                              Gana holds a MS in Computer Science from University of Missouri and a MSE/MBA from Wharton / Upenn.</p>
                     </div>
@@ -142,9 +149,9 @@ const Home = (props) => {
                         <img src={require("../assets/images/yotam.png")}/>
                         <p className="name"> Yotam Heineberg </p>
                         <p className="title">Chief Clinical Officer</p>
-                        <p>Yotam leads research, clinician operations and implementation of evidence-based therapy models at Swasth. 
-                            Yotam is a licensed clinical psychologist and a clinical faculty member at Palo Alto University. 
-                            After completing his doctorate at PGSP-Stanford Psy.D Consortium, he did his post-doctoral training and acted as a healthcare Fellow 
+                        <p>Yotam leads research, clinician operations and implementation of evidence-based therapy models at Swasth.
+                            Yotam is a licensed clinical psychologist and a clinical faculty member at Palo Alto University.
+                            After completing his doctorate at PGSP-Stanford Psy.D Consortium, he did his post-doctoral training and acted as a healthcare Fellow
                             at Stanford University (CCARE) where developed various programs focused on resilience, team building and compassion. </p>
                     </div>
                 { <div className="user">
@@ -158,12 +165,12 @@ const Home = (props) => {
                 </div>
             </section>
             <section className="about-us-join-team">
-                <div>
+                <div id="joinTeam">
                     <p>Ready to join our team ?</p>
                     <Button className="-btn-primary"> See open positions </Button>
                 </div>
             </section>
-            <section className="about-us-contact-us">
+            <section className="about-us-contact-us" >
                 <div className="support">
                     <h3>
                         Member Support

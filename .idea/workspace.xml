@@ -4,7 +4,10 @@
     <list default="true" id="cc70eb03-a129-4ee1-9e11-a0c375fba21f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/aboutus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/aboutus.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/testimonial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/testimonial.js" afterDir="false" />
     </list>
     <list id="c9136efa-379e-425e-8e32-46b67092561a" name="-- Design of Swasth Website" comment="-- Design of Swasth Website" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,14 +183,8 @@
       <workItem from="1602341502562" duration="7072000" />
       <workItem from="1602359913272" duration="72000" />
       <workItem from="1602515730224" duration="691000" />
-      <workItem from="1604082736421" duration="295000" />
-    </task>
-    <task id="LOCAL-00017" summary="-- design updation">
-      <created>1584388772986</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1584388772986</updated>
+      <workItem from="1604082736421" duration="465000" />
+      <workItem from="1604159190910" duration="1406000" />
     </task>
     <task id="LOCAL-00018" summary="-- desing changes">
       <created>1584463158128</created>
@@ -525,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602359928630</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="-- Design changes">
+      <created>1604083175717</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1604083175718</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +573,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="-- conflict solve" />
     <MESSAGE value="-- change in config yml" />
     <MESSAGE value="-- add category page template&#10;-- change in config yml" />
     <MESSAGE value="-- change" />
@@ -594,45 +597,46 @@
     <MESSAGE value="-- create design for more categories" />
     <MESSAGE value="-- Css changes in headers and footer" />
     <MESSAGE value="-- Add About Page Design" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- Add About Page Design" />
+    <MESSAGE value="-- Design changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Design changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="301" width="524" height="512" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602264987070">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="693" y="301" width="524" height="512" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602264987070" />
-    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2" timestamp="1602359928488">
+    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2" timestamp="1604083175562">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1602359928488" />
+    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1604083175562" />
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602518308229">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1602518308229" />
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1602359945382">
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1604083191528">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1602359945382" />
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1604083191528" />
     <state x="612" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1602261832580">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="612" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602261832580" />
-    <state x="526" y="163" width="857" height="788" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602341577124">
+    <state x="526" y="163" width="857" height="788" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604159696164">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="526" y="163" width="857" height="788" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1602341577124" />
-    <state x="610" y="251" width="906" height="604" key="find.popup" timestamp="1602271142848">
+    <state x="526" y="163" width="857" height="788" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1604159696164" />
+    <state x="610" y="251" width="906" height="604" key="find.popup" timestamp="1604159692719">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="610" y="251" width="906" height="604" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1602271142848" />
-    <state x="642" y="326" width="625" height="468" key="git4idea.merge.GitPullDialog" timestamp="1604082771635">
+    <state x="610" y="251" width="906" height="604" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1604159692719" />
+    <state x="642" y="326" width="625" height="482" key="git4idea.merge.GitPullDialog" timestamp="1604159193832">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="642" y="326" width="625" height="468" key="git4idea.merge.GitPullDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1604082771635" />
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1602342699662">
+    <state x="642" y="326" width="625" height="482" key="git4idea.merge.GitPullDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1604159193832" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1604159459550">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1602342699662" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1604159459550" />
   </component>
   <component name="masterDetails">
     <states>
