@@ -29,7 +29,7 @@ const Home = (props) => {
                 <div className="about-us-banner-content">
                     <h1>We are bringing evidence-based behavioral healthcare to everyone.</h1>
                     <h4>
-                        Come build an emotionally healthy world with us
+                        Join us in building a healthy world
                     </h4>
                     <Button className="-btn-primary"> See open positions </Button>
                 </div>
@@ -130,23 +130,31 @@ const Home = (props) => {
                 <p>Our technologists, mental health experts, and business leaders driving the strategy behind Lyra.</p>
                 <div className="leader-section">
                     <div className="user">
-                        <img src="https://www.lyrahealth.com/wp-content/uploads/2018/03/David_1.png"/>
+                        <img src={require("../assets/images/gana.png")}/>
                         <p className="name"> Gana Pemmanda </p>
-                        <p>Co-founder & CEO</p>
-                        <p>Former CFO of Facebook, Genen tech, on the board of Survey Monkey and Cast lightFormer CFO of Facebook, Genen tech, on the board of Survey Monkey and Cast light</p>
+                        <p className="title">Co-founder & CEO</p>
+                        <p>Gana founded Swasth to transform behavioral health by bringing evidence-based therapy to everyone. 
+                            Having seen friends and family affected by mental health challenges and personally seen the benefits, he is passionate about a holistic approach 
+                            for behavioral health care. Prior to founding Swasth, he lead product and technology teams at other startups as well as Fortune 100 companies.
+                             Gana holds a MS in Computer Science from University of Missouri and a MSE/MBA from Wharton / Upenn.</p>
                     </div>
                     <div className="user">
-                        <img src="https://www.lyrahealth.com/wp-content/uploads/2018/03/David_1.png"/>
-                        <p className="name"> Gana Pemmanda </p>
-                        <p>Co-founder & CEO</p>
-                        <p>Former CFO of Facebook, Genen tech, on the board of Survey Monkey and Cast lightFormer CFO of Facebook, Genen tech, on the board of Survey Monkey and Cast light</p>
+                        <img src={require("../assets/images/yotam.png")}/>
+                        <p className="name"> Yotam Heineberg </p>
+                        <p className="title">Chief Clinical Officer</p>
+                        <p>Yotam leads research, clinician operations and implementation of evidence-based therapy models at Swasth. 
+                            Yotam is a licensed clinical psychologist and a clinical faculty member at Palo Alto University. 
+                            After completing his doctorate at PGSP-Stanford Psy.D Consortium, he did his post-doctoral training and acted as a healthcare Fellow 
+                            at Stanford University (CCARE) where developed various programs focused on resilience, team building and compassion. </p>
                     </div>
-                    <div className="user">
-                        <img src="https://www.lyrahealth.com/wp-content/uploads/2018/03/David_1.png"/>
-                        <p className="name"> Gana Pemmanda </p>
-                        <p>Co-founder & CEO</p>
-                        <p>Former CFO of Facebook, Genen tech, on the board of Survey Monkey and Cast lightFormer CFO of Facebook, Genen tech, on the board of Survey Monkey and Cast light</p>
-                    </div>
+                { <div className="user">
+                    <img src={require("../assets/images/brian.jpg")}/>
+                        <p className="name"> Brian Thomas </p>
+                        <p className="title">COO & Advisor</p>
+                        <p>Brian supports operations and finance at Swasth. Brian spent fourteen years as a corporate executive at Equinix where he served as Chief of Staff
+                            in the Office of the CEO, Vice President of Global Corporate Planning, and Executive Sponsor for Corporate Sustainability and Leadership
+                            Development. Before Equinix, Brian was an investment banker with Citi for nine years. He received an M.Phil. in the Economics from the University of Cambridge and a BA in from Willamette University.</p>
+                    </div> }
                 </div>
             </section>
             <section className="about-us-join-team">

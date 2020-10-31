@@ -244,13 +244,17 @@
       width: 30%;
       .name{
         color: #123243;
-        font-weight: 600;
+        font-weight: 700;
         font-size: 20px;
+      }
+      .title {
+        font-size: 16px;
+        font-weight: 700;
       }
     }
     p{
       margin-bottom: 10px;
-      font-size: 16px;
+      font-size: 14px;
     }
   }
 }
