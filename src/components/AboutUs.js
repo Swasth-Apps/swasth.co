@@ -38,7 +38,7 @@ const Home = (props) => {
                     <h4>
                         Join us in building a healthy world
                     </h4>
-                    <Button className="-btn-primary"> See open positions </Button>
+                    {/*<Button className="-btn-primary"> See open positions </Button>   */}
                 </div>
             </section>
             <section>
@@ -142,12 +142,12 @@ const Home = (props) => {
                         <p className="title">Co-founder & CEO</p>
                         <p>Gana founded Swasth to transform behavioral health by bringing evidence-based therapy to everyone.
                             Having seen friends and family affected by mental health challenges and personally seen the benefits, he is passionate about a holistic approach
-                            for behavioral health care. Prior to founding Swasth, he lead product and technology teams at other startups as well as Fortune 100 companies.
-                             Gana holds a MS in Computer Science from University of Missouri and a MSE/MBA from Wharton / Upenn.</p>
+                            for behavioral health care. Prior to founding Swasth, he led product and technology teams at startups and Fortune 100 companies.
+                             Gana holds a MS in Computer Science from University of Missouri and a MSE/MBA from Wharton / UPenn.</p>
                     </div>
                     <div className="user">
                         <img src={require("../assets/images/yotam.png")}/>
-                        <p className="name"> Yotam Heineberg </p>
+                        <p className="name">Dr. Yotam Heineberg </p>
                         <p className="title">Chief Clinical Officer</p>
                         <p>Yotam leads research, clinician operations and implementation of evidence-based therapy models at Swasth.
                             Yotam is a licensed clinical psychologist and a clinical faculty member at Palo Alto University.

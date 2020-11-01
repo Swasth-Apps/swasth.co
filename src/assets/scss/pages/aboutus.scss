@@ -1,6 +1,7 @@
 .about-us-banner-section {
   //background: url("/img/about-us-bg.png");
-  background: url("/img/purple_yellow_gradient.jpg");
+  //background: url("/img/purple_yellow_gradient.jpg");
+  background-color: _palette(secondary-color);
   height: 500px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -21,10 +22,11 @@
     height: 100%;
     font-family: 'medium-content-serif-font', Helvetica !important;
 
-    h1, h3 {
-      margin-bottom: 0px;
+    h1, h4 {
       color: _palette(bg-color);
+      margin-top: 0px;
     }
+
 
     button {
       margin-top: 15px;
