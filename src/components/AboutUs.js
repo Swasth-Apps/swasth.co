@@ -54,7 +54,7 @@ const Home = (props) => {
             <section>
                 <div className="about-us-mission-container padding-20" id="missionStatement">
                     <div className="mission-content">
-                        <h2 className="base-text">Mission Statement</h2>
+                        <h2 className="base-text">Mission</h2>
                         <h3 className="para-text">
                             Our mission is to transform behavioral health care through technology, evidence-based therapy, guided by experts and coaches to empower people improve their mental-health.
                         </h3>
@@ -132,7 +132,7 @@ const Home = (props) => {
                 </div>
             </section> */}
             <section className="about-us-leadership padding-20">
-                <h2 id="leaderTeam" className="base-text">Our Leadership team</h2>
+                <h2 id="leaderTeam" className="base-text">Leadership team</h2>
                 {/*<p>Our technologists, mental health experts, and business leaders driving the strategy behind Swasth.</p>  */}
                 <div className="leader-section para-text">
                     <div className="user">
