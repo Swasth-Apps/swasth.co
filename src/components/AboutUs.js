@@ -34,7 +34,7 @@ const Home = (props) => {
         <Fragment>
             <section className='about-us-banner-section'>
                 <div className="about-us-banner-content padding-20">
-                    <h1>We are bringing evidence-based behavioral healthcare to everyone.</h1>
+                    <h1 className="base-text">We are bringing evidence-based behavioral healthcare to everyone.</h1>
                     {/*<h4>
                         Join us in building a healthy world
                     </h4>
@@ -45,8 +45,8 @@ const Home = (props) => {
                 <div className="about-us-tabs-container padding-10">
                     <div className="about-us-tabs">
                         {/*<h4 onClick={()=>findIdAndScroll("whoWeAre")}><a>Who We Are</a></h4> */}
-                        <h4 onClick={()=>findIdAndScroll("missionStatement")}><a>Our Mission</a></h4>
-                        <h4 onClick={()=>findIdAndScroll("leaderTeam")}><a>Leadership Team</a></h4>
+                        <h4 className="base-text" onClick={()=>findIdAndScroll("missionStatement")}><a>Our Mission</a></h4>
+                        <h4 className="base-text" onClick={()=>findIdAndScroll("leaderTeam")}><a>Leadership Team</a></h4>
                         {/*<h4 onClick={()=>findIdAndScroll("joinTeam")}><a>Open Position</a></h4>*/}
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const Home = (props) => {
             <section>
                 <div className="about-us-mission-container padding-20" id="missionStatement">
                     <div className="mission-content">
-                        <h2>Mission Statement</h2>
+                        <h2 className="base-text">Mission Statement</h2>
                         <h3 className="para-text">
                             Our mission is to transform behavioral health care through technology, evidence-based therapy, guided by experts and coaches to empower people improve their mental-health.
                         </h3>
@@ -132,7 +132,7 @@ const Home = (props) => {
                 </div>
             </section> */}
             <section className="about-us-leadership padding-20">
-                <h2 id="leaderTeam">Our Leadership team</h2>
+                <h2 id="leaderTeam" className="base-text">Our Leadership team</h2>
                 {/*<p>Our technologists, mental health experts, and business leaders driving the strategy behind Swasth.</p>  */}
                 <div className="leader-section para-text">
                     <div className="user">
@@ -164,14 +164,14 @@ const Home = (props) => {
                 </div>
             </section>
             <section className="about-us-join-team padding-20">
-                <div id="joinTeam">
-                    <p>Ready to join our team ?</p>
+                <div id="joinTeam" >
+                    <p className="base-text">Ready to join our team ?</p>
                     <a href="mailto:jobs@swasth.co"> <Button className="-btn-primary"> Email Us </Button></a>
                 </div>
             </section>
             <section className="about-us-contact-us padding-20">
                 <div className="support">
-                    <h3>
+                    <h3 className="base-text">
                         Members
                     </h3>
                     <p className="para-text">
@@ -179,7 +179,7 @@ const Home = (props) => {
                     </p>
                 </div>
                 <div className="support">
-                    <h3>
+                    <h3 className="base-text">
                         Sales
                     </h3>
                     <p className="para-text">
@@ -187,7 +187,7 @@ const Home = (props) => {
                     </p>
                 </div>
                 <div className="support">
-                    <h3>
+                    <h3 className="base-text">
                         Providers
                     </h3>
                     <p className="para-text">
@@ -195,7 +195,7 @@ const Home = (props) => {
                     </p>
                 </div>
                 <div className="support">
-                    <h3>
+                    <h3 className="base-text">
                         Press
                     </h3>
                     <p className="para-text">
