@@ -33,7 +33,7 @@ const Home = (props) => {
     return (
         <Fragment>
             <section className='about-us-banner-section'>
-                <div className="about-us-banner-content padding-10">
+                <div className="about-us-banner-content padding-20">
                     <h1>We are bringing evidence-based behavioral healthcare to everyone.</h1>
                     {/*<h4>
                         Join us in building a healthy world
@@ -41,7 +41,7 @@ const Home = (props) => {
                     <Button className="-btn-primary"> See open positions </Button>   */}
                 </div>
             </section>
-            <section>
+            <section className="padding-20">
                 <div className="about-us-tabs-container padding-10">
                     <div className="about-us-tabs">
                         {/*<h4 onClick={()=>findIdAndScroll("whoWeAre")}><a>Who We Are</a></h4> */}
@@ -52,10 +52,10 @@ const Home = (props) => {
                 </div>
             </section>
             <section>
-                <div className="about-us-mission-container" id="missionStatement">
+                <div className="about-us-mission-container padding-20" id="missionStatement">
                     <div className="mission-content">
-                        <h5>Mission Statement</h5>
-                        <h3>
+                        <h2>Mission Statement</h2>
+                        <h3 className="para-text">
                             Our mission is to transform behavioral health care through technology, evidence-based therapy, guided by experts and coaches to empower people improve their mental-health.
                         </h3>
                     </div>
@@ -131,10 +131,10 @@ const Home = (props) => {
                     </div>
                 </div>
             </section> */}
-            <section className="about-us-leadership">
-                <h3 id="leaderTeam">Our Leadership team</h3>
+            <section className="about-us-leadership padding-20">
+                <h2 id="leaderTeam">Our Leadership team</h2>
                 {/*<p>Our technologists, mental health experts, and business leaders driving the strategy behind Swasth.</p>  */}
-                <div className="leader-section">
+                <div className="leader-section para-text">
                     <div className="user">
                         <img src={require("../assets/images/gana.png")}/>
                         <p className="name"> Gana Pemmanda </p>
@@ -163,18 +163,18 @@ const Home = (props) => {
                     </div> }
                 </div>
             </section>
-            <section className="about-us-join-team padding-10">
+            <section className="about-us-join-team padding-20">
                 <div id="joinTeam">
                     <p>Ready to join our team ?</p>
                     <a href="mailto:jobs@swasth.co"> <Button className="-btn-primary"> Email Us </Button></a>
                 </div>
             </section>
-            <section className="about-us-contact-us padding-10">
+            <section className="about-us-contact-us padding-20">
                 <div className="support">
                     <h3>
                         Members
                     </h3>
-                    <p>
+                    <p className="para-text">
                         Contact our support team at <a>apps-help@swasth.co</a>.
                     </p>
                 </div>
@@ -182,7 +182,7 @@ const Home = (props) => {
                     <h3>
                         Sales
                     </h3>
-                    <p>
+                    <p className="para-text">
                         Contact our partnerships team at <a>info@swasth.co.</a>
                     </p>
                 </div>
@@ -190,7 +190,7 @@ const Home = (props) => {
                     <h3>
                         Providers
                     </h3>
-                    <p>
+                    <p className="para-text">
                         Contact the provider relations team at <a>providers@swasth.co.</a>
                     </p>
                 </div>
@@ -198,7 +198,7 @@ const Home = (props) => {
                     <h3>
                         Press
                     </h3>
-                    <p>
+                    <p className="para-text">
                         For press and media inquires, please contact us at <a>media@swasth.co.</a>
                     </p>
                 </div>
