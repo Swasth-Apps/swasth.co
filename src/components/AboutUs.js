@@ -33,7 +33,7 @@ const Home = (props) => {
     return (
         <Fragment>
             <section className='about-us-banner-section'>
-                <div className="about-us-banner-content">
+                <div className="about-us-banner-content padding-10">
                     <h1>We are bringing evidence-based behavioral healthcare to everyone.</h1>
                     <h4>
                         Join us in building a healthy world
@@ -42,7 +42,7 @@ const Home = (props) => {
                 </div>
             </section>
             <section>
-                <div className="about-us-tabs-container">
+                <div className="about-us-tabs-container padding-10">
                     <div className="about-us-tabs">
                         <h4 onClick={()=>findIdAndScroll("whoWeAre")}><a>Who We Are</a></h4>
                         <h4 onClick={()=>findIdAndScroll("probSol")}><a>Our Mission</a></h4>
@@ -51,7 +51,7 @@ const Home = (props) => {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className="padding-10">
                 <div className="about-us-mission-container" id="whoWeAre">
                     <div className="mission-content">
                         <h5>Why We Work</h5>
@@ -65,7 +65,7 @@ const Home = (props) => {
                     </div>
                 </div>
             </section>
-            <section className="about-us-prob-sol" id="probSol">
+            <section className="about-us-prob-sol padding-10" id="probSol">
                 <div className="problem-section comm-section">
                     <div className="inner">
                         <h5 className="title">The Problem</h5>
@@ -83,7 +83,7 @@ const Home = (props) => {
                     </div>
                 </div>
             </section>
-            <section className="about-us-values">
+            <section className="about-us-values padding-10">
                 <div className="values-container">
                     <div>
                         <h3>What do employees value about Swasth?</h3>
@@ -132,7 +132,7 @@ const Home = (props) => {
                     </div>
                 </div>
             </section>
-            <section className="about-us-leadership">
+            <section className="about-us-leadership padding-10">
                 <h3 id="leaderTeam">Our Leadership team</h3>
                 <p>Our technologists, mental health experts, and business leaders driving the strategy behind Lyra.</p>
                 <div className="leader-section">
@@ -164,13 +164,13 @@ const Home = (props) => {
                     </div> }
                 </div>
             </section>
-            <section className="about-us-join-team">
+            <section className="about-us-join-team padding-10">
                 <div id="joinTeam">
                     <p>Ready to join our team ?</p>
                     <Button className="-btn-primary"> See open positions </Button>
                 </div>
             </section>
-            <section className="about-us-contact-us" >
+            <section className="about-us-contact-us padding-10">
                 <div className="support">
                     <h3>
                         Member Support

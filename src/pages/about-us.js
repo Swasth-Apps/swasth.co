@@ -10,7 +10,6 @@ class AboutUs extends React.Component {
                 <Layout
                     aboutHeader
                     rearrangeChildren
-                    hideFooter
                 >
                 <AboutUsComponent/>
                 </Layout>

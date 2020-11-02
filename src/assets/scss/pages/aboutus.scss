@@ -151,6 +151,10 @@
   }
   @media screen and (max-width: 767px) {
     padding: 10px;
+    flex-direction: column;
+    .problem-section{
+      margin-bottom: 10px;
+    }
   }
 }
 
@@ -298,4 +302,8 @@
   .support{
     flex: 0 0 45%;
   }
+}
+
+.padding-10{
+  padding: 15px;
 }
