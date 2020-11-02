@@ -84,7 +84,7 @@
 }
 
 .about-us-mission-container {
-  max-width: 1000px;
+  max-width: 1400px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -92,17 +92,21 @@
   font-family: 'medium-content-serif-font', Helvetica !important;
 
   .mission-content {
-    flex-basis: 40%;
-    width: 40%;
+    flex-basis: 30%;
+    width: 30%;
 
     h5 {
       color: _palette(secondary-color);
     }
+
+    h3 {
+      line-height: 2.3em;
+    }
   }
 
   .mission-img {
-    flex-basis: 50%;
-    width: 50%;
+    flex-basis: 40%;
+    width: 40%;
 
     img {
       width: 100%;
@@ -214,7 +218,7 @@
 .about-us-join-team{
   padding: 80px 0;
   text-align: center;
-  background-color: #339dad;
+  background-color: _palette(primary-color);
   color: _palette(bg-color);
   font-weight: 600;
   font-family: 'medium-content-serif-font', Helvetica !important;
@@ -226,6 +230,7 @@
     background-color: #028598;
     color: _palette(bg-color);
     font-weight: 600;
+    width: 100px;
     &:hover{
       background-color: #064b55;
     }
@@ -249,6 +254,7 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin-top: 40px;
     img{
       width: 75%;
       border-radius: 50%;
