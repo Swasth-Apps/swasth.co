@@ -151,7 +151,7 @@ const Home = (props) => {
                         <p>Yotam leads research, clinician operations and implementation of evidence-based therapy models at Swasth.
                             Yotam is a licensed clinical psychologist and a clinical faculty member at Palo Alto University.
                             After completing his doctorate at PGSP-Stanford Psy.D Consortium, he did his post-doctoral training and acted as a healthcare Fellow
-                            at Stanford University (CCARE) where developed various programs focused on resilience, team building and compassion. </p>
+                            at Stanford University (CCARE) where he developed various programs focused on resilience, team building and compassion. </p>
                     </div>
                 { <div className="user">
                     <img src={require("../assets/images/brian.jpg")}/>
