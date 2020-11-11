@@ -140,8 +140,8 @@ const Home = (props) => {
                         <p className="name"> Gana Pemmanda </p>
                         <p className="title">Co-founder & CEO</p>
                         <p>Gana founded Swasth to transform behavioral health using technology and evidence-based models.
-                            Having seen friends and family affected by mental health challenges and personally seen the benefits, he is passionate about scaling
-                            towards behavioral health care. Prior to founding Swasth, he led product and technology teams at startups and Fortune 100 companies.
+                            Having seen friends and family affected by mental health challenges and having personally seen the benefits, he is passionate about scaling
+                            behavioral health care. Prior to founding Swasth, he led product and technology teams at startups and Fortune 100 companies.
                              Gana holds a MS in CS from the University of Missouri and a MSE/MBA from Wharton / Univerity of Pennsylvania.</p>
                     </div>
                     <div className="user">
