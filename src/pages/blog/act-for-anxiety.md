@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: ACT for anxiety
-username: Rusha Bhattacharjee
+username: Rusha
 date: 2020-08-06T00:00:00.000Z
 description: Acceptance and commitment therapy (ACT) for anxiety disorders is an
   innovative therapy that focuses on decreasing the action regulatory function
