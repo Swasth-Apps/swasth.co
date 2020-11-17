@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: CBT for Bipolar Disorder
-username: Keerti Chandnani
+username: Megan
 date: 2020-07-15T00:00:00.000Z
 description: "Cognitive Behavior Therapy (CBT) helps in reducing the frequency
   of bipolar mood swings via its 6 powerful techniques. Check out the read for
