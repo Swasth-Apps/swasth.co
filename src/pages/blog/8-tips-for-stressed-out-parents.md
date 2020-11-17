@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 8 Tips For Stressed Out Parents
-username: Keerti Chandnani
+username: Megan
 date: 2020-09-02T00:00:00.000Z
 description: No matter how overwhelmed you feel as a working parent, there are
   some simple and effective techniques for accomplishing a more competent and
