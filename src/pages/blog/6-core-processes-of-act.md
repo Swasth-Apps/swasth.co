@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: 6 core processes of ACT
-username: Keerti Chandnani
+username: Megan
 date: 2020-08-12T00:00:00.000Z
 description: "The goal of Acceptance and Commitment Therapy is to create a
   meaningful and productive life while accepting all the pain that goes with it.
