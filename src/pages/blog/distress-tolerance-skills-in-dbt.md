@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: "Distress Tolerance Skills in DBT "
-username: Rusha Bhattacharjee
+username: Rusha
 date: 2020-03-07T00:00:00.000Z
 description: >+
   Distress Tolerance Skills in DBT are designed to navigate uncomfortable
