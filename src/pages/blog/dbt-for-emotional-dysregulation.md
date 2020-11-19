@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: DBT for Emotional Dysregulation
-username: Rusha Bhattacharjee
+username: Rusha
 date: 2020-07-24T00:00:00.000Z
 description: >
   The role of Dialectical behavioral therapy ( DBT) as an early intervention in
