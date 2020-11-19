@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Resilience
-username: Rusha Bhattacharjee
+username: Rusha
 date: 2020-08-02T00:00:00.000Z
 description: Resilience Skill is beneficial for controlling your emotions and
   thoughts  immediately after a setback.
