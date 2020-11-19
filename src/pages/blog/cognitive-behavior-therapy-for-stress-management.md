@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Cognitive Behavior Therapy for Stress Management
-username: Rusha Bhattacharjee
+username: Rusha
 date: 2020-08-10T00:00:00.000Z
 description: Cognitive Behavior Therapy is an effective form of treatment for
   stress that addresses individual thoughts and beliefs rather than actions.
