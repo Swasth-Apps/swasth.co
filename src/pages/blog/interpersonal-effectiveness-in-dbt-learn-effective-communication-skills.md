@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: " Interpersonal Effectiveness in DBT: Learn effective communication skills"
-username: Rusha Bhattacharjee
+username: Rusha
 date: 2020-07-06T00:00:00.000Z
 description: "Interpersonal effectiveness skills in DBT teach us effective
   communication, balance relationships, and build a sense of mastery. "
