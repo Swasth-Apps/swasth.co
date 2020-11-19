@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Types of Eating Disorder
+title: Types of Eating Disorders
 username: Megan
 date: 2020-09-04T00:00:00.000Z
 description: Eating disorder is a complex mental health condition that affects
