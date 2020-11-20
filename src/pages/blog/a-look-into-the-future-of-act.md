@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: A look into the Future of ACT
-username: Rusha Bhattacharjee
+username: Rusha
 date: 2020-06-27T00:00:00.000Z
 description: "The ACT-based intervention aims to promote individuals' new health
   behavior patterns through the improvement of the key construct of
