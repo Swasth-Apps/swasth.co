@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: CBT vs DBT
-username: Rusha Bhattacharjee
+username: Rusha
 date: 2020-07-20T00:00:00.000Z
 description: CBT addresses the influence of your thoughts, feelings, and actions
   while DBT emphasizes acceptance, emotion regulation, and mindfulness.
