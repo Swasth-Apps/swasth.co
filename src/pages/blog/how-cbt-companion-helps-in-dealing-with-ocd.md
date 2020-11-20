@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
 title: How CBT Companion helps in dealing with OCD?
-username: Keerti Chandnani
-date: 2020-09-07
+username: Megan
+date: 2020-09-07T00:00:00.000Z
 description: "OCD is a severe mental health problem that has primarily two kinds
   of symptoms- Obsessions & Compulsions.  These symptoms can impair an
   individual’s social, professional, personal aspects of life, and cause
