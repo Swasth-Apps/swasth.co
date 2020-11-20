@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: "Can Post-traumatic Disorder be cured with Dialectical Behavior therapy? "
-username: Rusha Bhattacharjee
+username: Rusha
 date: 2020-09-18T00:00:00.000Z
 description: 70% of people in the US have suffered from at least some kind of
   traumatic event in life with 20% having developed PTSD symptoms. DBT is one of
