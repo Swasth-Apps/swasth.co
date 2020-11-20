@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Impact of Covid-19 on Mental Health
-username: Rusha Bhattacharjee
+username: Rusha
 date: 2020-08-17T00:00:00.000Z
 description: >
   The disrupted routines in COVID-19 times have led to a disrupted psychosocial
