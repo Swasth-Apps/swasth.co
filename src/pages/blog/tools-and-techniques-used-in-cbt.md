@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Tools And Techniques Used In CBT
-username: Keerti Chandnani
+username: Megan
 date: 2020-07-17T00:00:00.000Z
 description: Check out the top 10 tools and techniques used in Cognitive
   Behavior Therapy (CBT) for resolving various cognitive issues.
