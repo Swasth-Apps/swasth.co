@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Lack of Evidence-Based Therapies in Healthcare
-username: Rusha Bhattacharjee
+username: Rusha
 date: 2020-08-04T00:00:00.000Z
 description: Evidence-Based Therapies are those that have been rigorously tested
   in randomized controlled trials or multiple-case studies and proven to be
