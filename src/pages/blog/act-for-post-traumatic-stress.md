@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: ACT for Post-traumatic Stress
-username: Rusha Bhattacharjee
+username: Rusha
 date: 2020-07-18T00:00:00.000Z
 description: >
   ACT is used to treat PTSD and other mental health d isorders. The goal of ACT

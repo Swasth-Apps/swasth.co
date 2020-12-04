@@ -54,7 +54,7 @@ const Home = (props) => {
             <section>
                 <div className="about-us-mission-container padding-20" id="missionStatement">
                     <div className="mission-content">
-                        <h2 className="base-text">Mission Statement</h2>
+                        <h2 className="base-text">Mission</h2>
                         <h3 className="para-text">
                             Our mission is to transform behavioral health care through technology, evidence-based therapy, guided by experts and coaches to empower people improve their mental-health.
                         </h3>
@@ -132,17 +132,17 @@ const Home = (props) => {
                 </div>
             </section> */}
             <section className="about-us-leadership padding-20">
-                <h2 id="leaderTeam" className="base-text">Our Leadership team</h2>
+                <h2 id="leaderTeam" className="base-text">Leadership team</h2>
                 {/*<p>Our technologists, mental health experts, and business leaders driving the strategy behind Swasth.</p>  */}
                 <div className="leader-section para-text">
                     <div className="user">
                         <img src={require("../assets/images/gana.png")}/>
                         <p className="name"> Gana Pemmanda </p>
                         <p className="title">Co-founder & CEO</p>
-                        <p>Gana founded Swasth to transform behavioral health by bringing evidence-based therapy to everyone.
-                            Having seen friends and family affected by mental health challenges and personally seen the benefits, he is passionate about a holistic approach
-                            for behavioral health care. Prior to founding Swasth, he led product and technology teams at startups and Fortune 100 companies.
-                             Gana holds a MS in Computer Science from University of Missouri and a MSE/MBA from Wharton / UPenn.</p>
+                        <p>Gana founded Swasth to transform behavioral health using technology and evidence-based models.
+                            Having seen friends and family affected by mental health challenges and having personally seen the benefits, he is passionate about scaling
+                            behavioral health care. Prior to founding Swasth, he led product and technology teams at startups and Fortune 100 companies.
+                             Gana holds a MS in CS from the University of Missouri and a MSE/MBA from Wharton / Univerity of Pennsylvania.</p>
                     </div>
                     <div className="user">
                         <img src={require("../assets/images/yotam.png")}/>
@@ -151,7 +151,7 @@ const Home = (props) => {
                         <p>Yotam leads research, clinician operations and implementation of evidence-based therapy models at Swasth.
                             Yotam is a licensed clinical psychologist and a clinical faculty member at Palo Alto University.
                             After completing his doctorate at PGSP-Stanford Psy.D Consortium, he did his post-doctoral training and acted as a healthcare Fellow
-                            at Stanford University (CCARE) where developed various programs focused on resilience, team building and compassion. </p>
+                            at Stanford University (CCARE) where he developed various programs focused on resilience, team building and compassion. </p>
                     </div>
                 { <div className="user">
                     <img src={require("../assets/images/brian.jpg")}/>

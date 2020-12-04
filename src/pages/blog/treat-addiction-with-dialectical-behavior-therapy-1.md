@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Dialectical Behavior Therapy for Addiction
-username: Keerti Chandnani
+username: Megan
 date: 2020-08-19T00:00:00.000Z
 description: "Dialectical Behavioral Therapy (DBT) is one of the most promising
   treatments for addiction. Invented by Dr. Marsha Linehan, DBT helps in
