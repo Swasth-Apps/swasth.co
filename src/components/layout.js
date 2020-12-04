@@ -47,7 +47,7 @@ class Layout extends React.Component {
 
                 {this.state.visible && this.props.extraHeader ?
                     <div className="para-text extra-header">
-                        <p>
+                        <p className="para-text">
                             We are offering free premium access to our Clinician Platform during the COVID-19 crisis.
                         </p>
                         <a href="https://clinician.swasth.co" target="_blank">

@@ -263,7 +263,7 @@ const Home = (props) => {
                         DBT Coach
                 </span>{' '}
                     </h2>
-                    <div className='para-text'>
+                    <div className='para-text' style={{fontSize: 22}}>
                       A comprehensive app based on Dialetical Behavior Therapy (DBT), with over 100+ video lessons, exercises,
                       practice ideas and diary card tool for tracking DBT skills, targets and activites.
                   {store}
@@ -290,7 +290,7 @@ const Home = (props) => {
                         CBT Companion
                     </span>{' '}
                     </h2>
-                    <div className='para-text'>
+                    <div className='para-text' style={{fontSize: 22}}>
                       Based on Cognitive Behavior Therapy, this enables you to track mood, emotions, activities journal etc.
                       Video lessons, exercises, ability to share with care team and more..
                       {store}
@@ -317,7 +317,7 @@ const Home = (props) => {
                         ACT Coach
                     </span>{' '}
                     </h2>
-                    <div className='para-text'>
+                    <div className='para-text' style={{fontSize: 22}}>
                       Use Acceptance Commitment Therapy tools to record daily and weekly ACT Measures, stay mindful with ACT
                       Exercises, track mood, emotions, activities etc.
                       {store}
