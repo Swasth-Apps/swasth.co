@@ -35,7 +35,7 @@ class CategoryComponent extends React.Component {
                 src={frontmatter?.squareimage}
               />
               <div className='story-content'>
-                <div className='category-tags'>
+                <div className='category-tags para-text'>
                 {frontmatter?.categories?.category?.map(({ title, slug }) =>
                   <Link to={`/category/${slug}`}>
                     <p className='para-text'>
@@ -67,7 +67,7 @@ class CategoryComponent extends React.Component {
           </Col>
           <Col md={12} className='card-col image-col featured-blog-content'>
             <div className='ribbon ribbon-top-right ribbon-purple'><span>Featured</span></div>
-            <div className='category-tags'>
+            <div className='category-tags para-text'>
               {featuredPost?.node?.frontmatter?.categories?.category?.map(({title,slug}) =>
                 <Link to={`/category/${slug}`}>
                   <p className='para-text'>

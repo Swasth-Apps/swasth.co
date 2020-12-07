@@ -56,7 +56,7 @@ class BlogComponent extends React.Component {
           </Col>
           <Col md={12} className='card-col image-col featured-blog-content'>
             {featuredpost ? <div className='ribbon ribbon-top-right ribbon-purple'><span>Featured</span></div> : null}
-            <div className='category-tags'>
+            <div className='category-tags para-text'>
               {categories?.category?.map(({title,slug}) =>
                 <Link to={`/category/${slug}`}>
                 <p className='para-text'>
@@ -191,7 +191,7 @@ class BlogComponent extends React.Component {
                 />
                 </Link>
                 <div className='story-content'>
-                  <div className='category-tags'>
+                  <div className='category-tags para-text'>
                     {frontmatter?.categories?.category?.slice(0,1).map(({title,slug}) =>
                       <Link to={`/category/${slug}`}>
                         <p className='para-text'>
