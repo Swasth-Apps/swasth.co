@@ -105,11 +105,12 @@
     @media only screen and (max-width: 769px) {
       transform: translateY(5%);
       width: inherit;
+      margin-bottom: 20%;
     }
   }
 
   .coaching-home-section-group {
-    transform: translateY(25%);
+    transform: translateY(25%);/**/
     //height: 100vh;
     .card-row {
       height: inherit;
@@ -205,6 +206,9 @@
 
   .app-section-group {
     transform: translateY(2%);
+    @media screen and (max-width: 768.5px) {
+      margin-bottom: 175px;
+    }
   }
 
   .border-section-group {
@@ -225,6 +229,7 @@
       }
     }
   }
+
 }
 
 .card-row {
@@ -376,6 +381,7 @@
   border-radius: 15px;
   background-color: #FFF;
   box-shadow: 10px 20px 60px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 75px;
 
   .dbt-box-border {
     border-top: 3px solid _palette(primary-color);
@@ -558,9 +564,9 @@
   .all-testimonials {
     padding: 20px !important;
   }
-  .dbt-box-border {
+/*  .dbt-box-border {
     margin-bottom: 75px;
-  }
+  }*/
   .-padding-zero {
     padding: 0;
   }
