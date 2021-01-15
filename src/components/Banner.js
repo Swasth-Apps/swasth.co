@@ -25,7 +25,7 @@ const Banner = (props) => {
       <p className='bottom-space base-text'>Driving towards better{' '}<br/>
         <span className='-highlighted-text' id='change-text' />{' '}Health.</p>
       <div className='para-text'>
-        Swasth is transforming behavioral health care by creating a seamless experience for clients,
+        Resiliens is transforming behavioral health care by creating a seamless experience for clients,
         providers and employers. Using technology within the context of evidence based treatments, we
         connect clients to behavioral health providers and treatments that work, making the experience
         personalized and effective.
