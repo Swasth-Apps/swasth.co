@@ -42,10 +42,8 @@ class Layout extends React.Component {
         const {children} = this.props
         return (
             <div className={`body ${this.state.loading} ${this.props.hideHomeImg ? 'light-body-bg' : ''}`}>
-
-                {!this.props.rearrangeChildren ? <img src={CoachingBG} className='home-bg-img coaching-bg-img'/> : null}
-
-                {this.state.visible && this.props.extraHeader ?
+                {/*{!this.props.rearrangeChildren ? <img src={CoachingBG} className='home-bg-img coaching-bg-img'/> : null}*/}
+                {/*{this.state.visible && this.props.extraHeader ?
                     <div className="para-text extra-header">
                         <p className="para-text">
                             We are offering free premium access to our Clinician Platform during the COVID-19 crisis.
@@ -54,7 +52,7 @@ class Layout extends React.Component {
                             <Button className='para-text'>Get Started</Button>
                         </a>
                         <Icon type='close-circle' onClick={this.handleClick}/>
-                    </div> : ''}
+                    </div> : ''}*/}
 
                 <div
                     id='wrapper'

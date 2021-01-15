@@ -27,8 +27,9 @@
 }
 /******************/
 #footer,#min-footer {
+  margin-top: 100px;
   position: relative;
-  background-color: transparent;
+  background-color: #341f88;
   height: 650px;
   overflow: hidden;
   display: flex;
@@ -51,9 +52,10 @@
     width: 100%;
   }
 
-  img {
-    position: absolute;
-    top: 40px;
+  .media{
+    img{
+      margin-right: 20px;
+    }
   }
   .footer-bg{
     z-index: -1;
@@ -131,7 +133,6 @@
 
 #copyrights {
   padding: 5px 0;
-  background-color: #DDD;
   position: relative;
 
   i {
@@ -200,30 +201,32 @@
     text-align: right;
     .widget{
       margin-right: 20%;
+      text-align: left;
     }
   }
 
-  .col-md-6 {
-    width: 22.6666%;
+  .col-md-8 {
+    width: 33.3333%;
     text-align: left;
 
     .widget {
-      > h4 {
-        padding-left: 1em;
-        color: _palette(secondary-color);
+      > h5 {
         font-weight: bold;
+        font-size: 16px;
       }
 
       ul {
         list-style: none;
+        padding-left: 0px;
         li{
           text-decoration: none;
-          font-size: 16px;
           color: rgba(80,88,191,0.57);
-          font-weight: bold;
           line-height: 2;
+          padding-left: 0px;
           a{
             border-bottom: none;
+            color: white;
+            font-size: 14px;
             &:hover{
               color: _palette(primary-color) !important;
             }

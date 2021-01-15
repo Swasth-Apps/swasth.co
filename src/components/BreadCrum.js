@@ -34,7 +34,7 @@ class CategoryTabs extends React.Component {
   render() {
     let { edges } = this.props;
     /****** Grouping Categories by their parents *****/
-    let parents = edges?.map(({node:{frontmatter,fields}}) => ({...frontmatter,fields}))
+    let parents = edges?.map(({node:{frontmatter,fields}}) => ({...frontmatter,fields}));
       parents = parents?.reduce((r, a) => {
       if(a.parent) {
         r[a.parent] = [...r[a.parent] || [], a];
