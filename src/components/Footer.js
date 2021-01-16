@@ -3,15 +3,20 @@ import resilienceLogo from '../assets/images/Resiliens-footer-Logo.png'
 import unitedStates from '../assets/images/united-states.png'
 import {Link} from 'gatsby'
 import {Button, Col, Divider, Row} from 'antd'
+import topBg from "../assets/images/top-bg@3x.png";
 
 const Footer = (props) => (
     <footer
         id={props.hideFooter ? 'min-footer' : 'footer'}
+        style={{paddingTop: 100,
+            backgroundImage: `url(${require("../assets/images/top-bg.png")})`,
+            backgroundSize: "cover"
+        }}
         // style={props.hideFooter ? { height: 550 } : null}
     >
         <div className="inner">
             <div style={{textAlign: "center"}}>
-                <div className="footer-heading" style={{margin: "0 auto 50px",width: "fit-content"}}>
+                <div className="footer-heading card-row">
                     <p className="bottom-space white-text">Want to learn more about Resiliens ?</p>
                     <Button className="request-demo-btn" style={{margin: "20px 0"}}>Get Started</Button>
                 </div>
@@ -19,10 +24,8 @@ const Footer = (props) => (
             <div>
                 <div className="footer-widgets-wrap pb-4 clearfix">
                     <Row className="footer-row" gutter={16}>
-                        <Col className="col-md-8" md={8}>
-
+                        <Col className="col-md-8 footer-info" md={8}>
                             <div className="widget clearfix">
-
                                 <Link to="/"><img src={resilienceLogo}/></Link>
                                 <p className="white-text" style={{fontSize: 12}}>
                                     Resiliens's Digital Health Platform offers treatment programs for Anxiety, Depression,
@@ -39,8 +42,7 @@ const Footer = (props) => (
                             </div>
 
                         </Col>
-
-                        <Col className="col-md-16" md={16}>
+                        <Col className="col-md-16 footer-services" md={16}>
                             <Row gutter={16}>
                                 <Col className="col-md-8" md={8}>
 
@@ -60,7 +62,7 @@ const Footer = (props) => (
                                 </Col>
                                 <Col className="col-md-8" md={8}>
 
-                                    <div className="widget clearfix">
+                                    <div className="widget clearfix" style={{alignItems:"baseline"}}>
 
                                         <h5 className="white-text base-text">Products</h5>
 
@@ -93,7 +95,6 @@ const Footer = (props) => (
                         </Col>
 
                     </Row>
-
                 </div>
 
                 <div className="line line-sm m-0"/>

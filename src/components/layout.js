@@ -64,9 +64,9 @@ class Layout extends React.Component {
                         show={this.props.show}
                         isLogoWhite={this.props.isLogoWhite}
                     />
+                </div>
                     {this.props?.categories ? <CategoryTabs edges={this.props?.categories}/> : null}
                     {!this.props.rearrangeChildren ? children : null}
-                </div>
 
                 {this.props.rearrangeChildren ? children : null}
 

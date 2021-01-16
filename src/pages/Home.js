@@ -31,12 +31,12 @@ const Home = (props) => {
 
     const store = (
         <Row style={{display: 'flex', flexDirection: 'row',marginTop: 20}}>
-            <Col md={8} style={{marginRight: '10px'}}>
+            <Col md={8} style={{marginRight: '10px'}} className="store-icon">
                 <a href="https://itunes.apple.com/us/developer/swasth-inc/id1295868545">
                     <img src={appStore} alt='{app} Therapy App'/>
                 </a>
             </Col>
-            <Col md={8}>
+            <Col md={8} className="store-icon">
                 <a href="https://play.google.com/store/apps/developer?id=Swasth+Inc.">
                     <img src={googlePay} alt='{app} Therapy App'/>
                 </a>
@@ -64,7 +64,12 @@ const Home = (props) => {
             <img src={logo5}/>
           </Col>
         </Row>*/}
-                <Row className='card-row divider'>
+                <div
+                    id='wrapper'
+                    className={'coach-wrapper'}
+                    style={{paddingBottom: 0}}
+                >
+                <Row className='card-row divider section-gap'>
                     <Col md={12} className='-margin-right'>
                         <img className='custom-image updated-home-image' src={therapyGraphic} alt='Therapy'/>
                     </Col>
@@ -138,7 +143,7 @@ const Home = (props) => {
               </Col>
             </Row>
           */}
-                        <Row className='card-row section-gap'>
+                        <Row className='section-gap'>
                             <Col md={12} className="program-adapts">
                                 <p className='bottom-space base-text'>
                                     <span className='-highlighted-text'>Personalized Programs</span>
@@ -160,6 +165,7 @@ const Home = (props) => {
                         </Row>
                     </Col>
                 </Row>
+                </div>
                 {/*
           <Row className='card-row divider'>
                 <Col md={12} className='-margin-right '>
@@ -176,17 +182,18 @@ const Home = (props) => {
               </Row>
         */}
             </section>
+
             <section className='border-section-group'>
-                <Row className='card-row -row-flex-center'>
+                <Row className='-row-flex-center card-row'>
                     <Col md={24} className="section-gap">
-                        <Row>
+                        <Row className="card-row">
                             <p style={{textAlign: 'center'}} className='base-text bottom-space'>Evidence-Based <span
                                 className='-highlighted-text'>Behavioral Health</span>{' '}Coaching
                             </p>
                         </Row>
-                        <Row className='card-row '>
+                        <Row className='card-row'>
                             <Col md={12}>
-                                <h3 className='bottom-space base-text'>
+                                <h3 className='bottom-space base-text program-grounded'>
                                     Programs grounded in<br/>
                                     <span className='-highlighted-text'>
                     {' '} Proven Treatment Methods
@@ -214,7 +221,7 @@ const Home = (props) => {
                                 <img className='custom-image' src={programs} alt='Therapy'/>
                             </Col>
                         </Row>
-                        <Row className='card-row'>
+                        <Row className='card-row reverse-flex-column'>
                             <Col md={12} className='-margin-right'>
                                 <img className='custom-image' src={skillsCoaching} alt='Therapy'/>
                             </Col>
@@ -250,11 +257,9 @@ const Home = (props) => {
                                 <img src={findProvider}/>
                             </Col>
                         </Row>*/}
-                        <Row>
+                        <Row className="card-row">
                             <p style={{textAlign: 'center'}} className='base-text section-title'>Engage with <span
                                 className='-highlighted-text'>Community</span></p>
-                        </Row>
-                        <Row>
                             <div className='para-text'>
                                 <p style={{textAlign: 'center'}} className="black-18-font">
                                     We’ve got you. Our communities talk each day about more than<br/>
@@ -262,7 +267,7 @@ const Home = (props) => {
                                 </p>
                             </div>
                         </Row>
-                        <Row className="align-center card-row -row-flex-center">
+                        <Row className="align-center card-row -row-flex-center engage-community-row">
                             <div className="engage-community-section">
                                 <div className="engage-community-card">
                                     <img src={require("../assets/images/community-img.png")}
@@ -314,15 +319,18 @@ const Home = (props) => {
                     </Col>
                 </Row>
             </section>
+            <div
+                id='wrapper'
+                className={'coach-wrapper'}
+                style={{paddingBottom: 0}}
+            >
             <section className='home-section-group after-border-section'>
-                <Row className='card-row -row-flex-center'/>
-                <Row className='card-row -row-flex-center section-gap'>
+                <Row className='-row-flex-center'/>
+                <Row className='-row-flex-center'>
                     <Col md={24} style={{width: '100%'}}>
-                        <Row>
-                            <p style={{textAlign: 'center'}} className='bottom-space base-text'>Multi-Modality <span
+                            <p style={{textAlign: 'center'}} className='bottom-space base-text tab-view'>Multi-Modality <span
                                 className='-highlighted-text'>Evidence-Based Therapy</span>{' '} Apps
                             </p>
-                        </Row>
                         <Tabs
                             // className="over-custom-border bt_portal-tabs"
                             className='bt_portal-tabs with_underline'
@@ -343,7 +351,7 @@ const Home = (props) => {
                                 }
                                 key="1"
                             >
-                                <Row className='card-row divider'>
+                                <Row className='divider card-row'>
                                     <Col md={12} className='-margin-right'>
                                         <img className='custom-image' width='100%' src={DBTCoachScreen} alt='Therapy'/>
                                     </Col>
@@ -375,7 +383,7 @@ const Home = (props) => {
                                 }
                                 key="2"
                             >
-                                <Row className='card-row'>
+                                <Row className='divider card-row'>
                                     <Col md={12} className='-margin-right'>
                                         <img className='custom-image' width='100%' src={CBTCompanionScreen}
                                              alt='Therapy'/>
@@ -515,6 +523,7 @@ const Home = (props) => {
         </Row>
       */}
             </section>
+            </div>
         </Fragment>
     )
 }

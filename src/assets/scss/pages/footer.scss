@@ -18,25 +18,34 @@
   }
 }
 #footer{
-  @media (max-width: 426px) {
+/*  @media (max-width: 426px) {
     height: 600px !important;
   }
   @media (min-width: 427px) and (max-width: 768px) {
     height: 350px !important;
-  }
+  }*/
 }
 /******************/
 #footer,#min-footer {
   margin-top: 100px;
   position: relative;
   background-color: #341f88;
-  height: 650px;
+  //height: 650px;
   overflow: hidden;
   display: flex;
   align-items: flex-end;
   z-index: 4;
 
+.footer-heading{
+  margin: 0px auto 50px;
+  width: fit-content;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 50px;
+  @media screen and (max-width: 769.4px) {
+    align-items: flex-start;
+  }
 
+}
   .footer-widgets-wrap {
     position: relative;
     padding: 40px 0;
@@ -238,6 +247,9 @@
 }
 
 @media (max-width: 768.5px) {
+  #footer,#min-footer{
+    background-image: none !important;
+  }
   #copyrights{
     border-top: 2px dashed _palette(primary-color);
     padding-top: 10px;
@@ -256,9 +268,18 @@
       flex: 1 1 100%;
       flex-wrap: wrap;
       align-items: baseline;
-
+      flex-direction: column;
+      /*
       .col-md-8 {
         display: none;
+      }
+      */
+      .footer-info{
+        width: 100%;
+        .clearfix {
+          text-align: left;
+          align-items: flex-start;
+        }
       }
 
       .col-md-6 {
@@ -277,8 +298,9 @@
       .clearfix{
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: column;
+        margin-right: 0px;
         h4{
           padding-left: 0px;
         }
@@ -288,10 +310,24 @@
       }
     }
   }
+  .footer-services{
+    width: 100%;
+    margin-top: 30px;
+    .ant-row{
+      width: 100%;
+      display: flex;
+    }
+  }
   .coaching-footer{
     .footer-widgets-wrap{
       background: inherit;
     }
+  }
+}
+@media (max-width: 530px) {
+  .footer-widgets-wrap{
+    width: 100% !important;
+    max-width: calc(100% - 40px) !important;
   }
 }
 @media (max-width: 425px) {

@@ -2236,12 +2236,19 @@ strong {
 .black-18-font{
   color: #7c7c7c;
   font-size: 18px;
+  @media only screen and (max-width: 800px) {
+    font-size: 20px;
+    text-align: left !important;
+  }
 }
 
 .updated-home-image{
   width: 80% !important;
   @media screen and (max-width: 1200.5px) {
     width: 100% !important;
+  }
+  @media screen and (max-width: 769.5px) {
+    margin-bottom: 30px;
   }
 }
 
@@ -2253,13 +2260,34 @@ strong {
   .-highlighted-text{
     color: _palette(primary-blue);
   }
+  @media only screen and (max-width: 769.5px) {
+    margin-top: 50px;
+  }
+  @media only screen and (max-width: 800px) {
+    text-align: left !important;
+    font-size: 48px;
+    line-height: 60px;
+  }
+  @media only screen and (max-width: 600px) {
+    text-align: left !important;
+    font-size: 40px;
+    line-height: 50px;
+  }
 }
 
 
 // Engage Community Section
+.engage-community-row{
+  width: 100%;
+  overflow: auto;
+  @media screen and (max-width: 800px) {
+    align-items: flex-start !important;
+  }
+}
 .engage-community-section{
   display: flex;
   justify-content: center;
+  overflow: auto;
   .engage-community-card {
     width: 280px;
     height: 300px;
@@ -2269,7 +2297,7 @@ strong {
     background-color: #ffffff;
     text-align: left;
     .community-image{
-      width: 280px;
+      width: 100%;
       height: 150px;
       opacity: 0.9;
       border-radius: 15px 15px 0 0;
@@ -2309,6 +2337,24 @@ strong {
       }
     }
   }
+  @media screen and (max-width: 800px) {
+    justify-content: flex-start;
+    .engage-community-card{
+      max-width: 400px;
+      height: 400px;
+      .community-image{
+        height: 200px;
+      }
+      .card-title{
+        font-size: 16px !important;
+      }
+      .community-msg{
+        margin-top: 40px !important;
+        font-size: 14px !important;
+        line-height: 20px !important;
+      }
+    }
+  }
 }
 
 
@@ -2316,5 +2362,20 @@ strong {
   margin-top: 100px !important;
   @media screen and (max-width: 800px) {
     margin-top: 50px !important;
+  }
+}
+
+.reverse-flex-column{
+  @media screen and (max-width: 769.5px) {
+    flex-direction: column-reverse !important;
+    img{
+      margin-top: 20px;
+    }
+  }
+}
+
+.store-icon{
+  @media screen and (max-width: 800px) {
+    width: 50% !important;
   }
 }

@@ -18,7 +18,7 @@ const Banner = (props) => {
   return (
     <Row
         className='card-row divider -margin-bottom home-top-bg'
-        style={{background: `url(${topBg}) no-repeat center center fixed`}}
+        style={{background: `url(${topBg}) no-repeat center center fixed`, backgroundSize: "cover"}}
     >
       <div className="home-top-bg-inner-div">
     <Col md={12} className='card-col -margin-right -margin-bottom'>

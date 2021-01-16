@@ -93,7 +93,7 @@
 
   .menu-content {
     //color: _palette(bg);
-    font-family: 'Airbnb Cereal App Book', Helvetica;
+    font-family: 'Airbnb Cereal App Bold', Helvetica;
     color: #646464;
     cursor: pointer;
     font-weight: bold;
@@ -172,6 +172,22 @@
           font-size: 18px;
           color: #fff;
         }
+
+      }
+      @media only screen and (max-width: 800px) {
+        margin: 0px;
+        .home-top-bg-inner-div {
+          .custom-image {
+            display: none;
+          }
+          .para-text{
+            font-size: 20px;
+            color: #fff;
+          }
+        }
+      }
+      @media only screen and (max-width: 500px) {
+        height: 800px;
       }
     }
   }
@@ -289,7 +305,6 @@
   .border-section-group {
     background: _palette(bg-color);
     transform: translateY(6%);
-    margin: 0 -17.5em;
 
     .card-row {
       margin: 0 auto;
@@ -327,8 +342,12 @@
       }
       @media screen and (max-width: 900px) {
         max-width: 50em;
-        padding: 36px 15px;
+        padding: 36px 20px;
+        align-items: unset;
       }
+    }
+    @media only screen and (max-width: 769.5px) {
+      transform: translateY(0%);
     }
   }
 
@@ -446,7 +465,23 @@
     color: #5d61f4;
   }
   @media screen and (max-width: 800px) {
-    font-size: 30px;
+    font-size: 48px !important;
+    line-height: 60px !important;
+    text-align: left !important;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 40px !important;
+    line-height: 50px !important;
+  }
+}
+.program-grounded{
+  @media screen and (max-width: 992px) {
+    font-size: 40px !important;
+    line-height: 45px !important;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 30px !important;
+    line-height: 40px !important;
   }
 }
 
@@ -618,10 +653,10 @@
   .card-row {
     flex-direction: column;
     //text-align: justify;
-    padding: 20px 20px 0;
+    padding: 20px 40px 0;
 
     .ant-col {
-      width: fit-content;
+      width: unset;
       margin: auto;
 
       h2 {
@@ -642,7 +677,10 @@
       margin: 0 auto;
       text-align: justify;
       max-width: 100%;
-
+      padding: 20px 10px 0 !important;
+      .ant-col{
+        width: 100%;
+      }
       .-btn-primary {
         margin-top: 15px;
       }
@@ -656,7 +694,7 @@
 
   .divider {
     border-bottom: solid 0.5px _palette(light-gray);
-    padding: 30px;
+    padding: 30px 40px;
     //margin: 0 20px;
   }
   .blog-container {
@@ -695,6 +733,11 @@
   }
 }
 
+@media (max-width: 600px) {
+  .card-row{
+    padding: 20px 20px 0px;
+  }
+}
 @media (max-width: 435.5px) {
   .slick-slide {
     margin-right: 2px !important;
@@ -711,9 +754,9 @@
       transform: translateY(0%);
     }
   }
-  .-highlighted-secondary-text {
+/*  .-highlighted-secondary-text {
     font-size: 25px;
-  }
+  }*/
   .iframe-video {
     height: 100% !important;
   }
@@ -742,8 +785,25 @@
     color: #2b2b2b;
     font-weight: 900;
   }
+  @media screen and (max-width: 769.5px) {
+    .ant-tabs-tabpane{
+      .divider{
+        .ant-col-md-12:last-child {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
 }
-
+@media screen and (max-width: 800px) {
+  .ant-tabs-nav-scroll , .tab-view{
+    padding: 20px 40px 0;
+  }
+}  @media screen and (max-width: 600px) {
+  .ant-tabs-nav-scroll , .tab-view{
+    padding: 20px 20px 0;
+  }
+}
 .bt_portal-tabs.-sub_tab:not(.main-tabs) {
   .ant-tabs-nav-wrap {
     margin: 0 !important;
@@ -822,6 +882,9 @@
 
   .ant-tabs-tab {
     margin-right: 20px !important;
+  }
+  @media screen and (max-width: 769.5px) {
+    text-align: left !important;
   }
 }
 
