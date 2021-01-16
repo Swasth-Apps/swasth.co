@@ -41,6 +41,7 @@
   width: fit-content;
   border-bottom: 1px solid #fff;
   padding-bottom: 50px;
+  flex-direction: column !important;
   @media screen and (max-width: 769.4px) {
     align-items: flex-start;
   }
