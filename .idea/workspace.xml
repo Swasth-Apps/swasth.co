@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc70eb03-a129-4ee1-9e11-a0c375fba21f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/Resiliens-Logo@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/components/demoModal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RequestDemoModal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/base/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BlogComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BlogLanding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogLanding.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BreadCrum.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BreadCrum.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CategoryComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CategoryComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helper/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog/blog-detail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/blog-detail/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blog-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blog-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/category-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/category-post.js" afterDir="false" />
     </list>
     <list id="c9136efa-379e-425e-8e32-46b67092561a" name="-- Design of Swasth Website" comment="-- Design of Swasth Website" />
     <option name="SHOW_DIALOG" value="false" />
@@ -226,14 +206,7 @@
       <workItem from="1610771755442" duration="930000" />
       <workItem from="1610774372295" duration="15268000" />
       <workItem from="1610793084019" duration="5000" />
-      <workItem from="1610799620487" duration="18674000" />
-    </task>
-    <task id="LOCAL-00031" summary="-- Blogs and Category design including tabs">
-      <created>1588187538985</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1588187538985</updated>
+      <workItem from="1610799620487" duration="18857000" />
     </task>
     <task id="LOCAL-00032" summary="-- conflict solve">
       <created>1588187632508</created>
@@ -571,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610792958551</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="-- Integrate Blog Page">
+      <created>1610819456394</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1610819456394</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +595,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="-- integrate all content from netlify" />
     <MESSAGE value="-- Delete files" />
     <MESSAGE value="-- change home page design" />
     <MESSAGE value="-- change url of clinicians" />
@@ -640,17 +619,18 @@
     <MESSAGE value="-- responsive design" />
     <MESSAGE value="-- Update Responsive design" />
     <MESSAGE value="-- Change in DBT Coach Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- Change in DBT Coach Page" />
+    <MESSAGE value="-- Integrate Blog Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Integrate Blog Page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="301" width="524" height="512" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610716020765">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="693" y="301" width="524" height="512" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1610716020765" />
-    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2" timestamp="1610792958451">
+    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2" timestamp="1610819456176">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1610792958451" />
+    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1610819456176" />
     <state x="182" y="121" width="1536" height="879" key="DiffContextDialog" timestamp="1610740892045">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -683,10 +663,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="610" y="251" width="906" height="604" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1610818445848" />
-    <state x="642" y="326" width="625" height="517" key="git4idea.merge.GitPullDialog" timestamp="1610792965583">
+    <state x="642" y="326" width="625" height="517" key="git4idea.merge.GitPullDialog" timestamp="1610819460389">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="642" y="326" width="625" height="517" key="git4idea.merge.GitPullDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1610792965583" />
+    <state x="642" y="326" width="625" height="517" key="git4idea.merge.GitPullDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1610819460389" />
     <state x="624" y="252" key="run.anything.popup" timestamp="1610818011760">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

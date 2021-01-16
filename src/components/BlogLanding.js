@@ -220,7 +220,7 @@ class BlogLanding extends React.Component {
                                             <h3 className='base-text navy-blue card-title'>{frontmatter?.title}</h3>
                                             <p className='para-text blog-date user-name'>{frontmatter.username}</p>
                                         </div>
-                                            <Icon type="arrow-right" className="arrow-icon"/>
+                                            <Icon type="right" className="arrow-icon"/>
                                     </div>
                                 </Link>
                             </div>
