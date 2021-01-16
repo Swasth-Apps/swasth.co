@@ -1,13 +1,12 @@
 .about-us-banner-section {
   //background: url("/img/about-us-bg.png");
   //background: url("/img/purple_yellow_gradient.jpg");
-  background-color: _palette(secondary-color);
+  background-color: _palette(primary-blue);
   height: 500px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   background-attachment: fixed;
-  margin-top: 100px;
   width: 100%;
 
   .about-us-banner-content {

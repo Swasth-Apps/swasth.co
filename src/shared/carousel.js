@@ -120,9 +120,9 @@ const CarouselContainer = ({reviews}) => (
         <div className='testimonials-blogs'>
           <div style={{textAlign:'center',marginBottom:'15px'}}>
             { <img src={blogImg} className='testimonial-user-img'/> }
-            <div className='testimonial-user-name'>{name ?`- ${name}` : ''}</div>
+            <div className='testimonial-user-name base-text'>{name ?`- ${name}` : ''}</div>
           </div>
-          <h6>
+          <h6 className="black-18-font para-text">
             {comment}
           </h6>
         </div>

@@ -38,9 +38,9 @@ const Banner = (props) => {
         <Row className='card-row divider'>
           <Col md={12} className='card-col -margin-right'>
             <h1 className='-highlighted-secondary-text apps-title'>DBT Coach</h1>
-            <h2 className='bottom-space'>A comprehensive app for
-              <span className='-highlighted-text' style={{marginTop:'5px'}}>{' '}Dialectical Behavior Therapy</span> (DBT).</h2>
-            <div >
+            <p className='bottom-space'>A comprehensive app for
+              <span className='-highlighted-text' style={{marginTop:'5px'}}>{' '}Dialectical Behavior Therapy</span> (DBT).</p>
+            <div className="para-text black-18-font">
               Learn, practice and track your DBT skills
               with DBT Coach App. Engage better with your Therapist using
               our comprehensive Behavioral Health Platform.
@@ -59,7 +59,7 @@ const Banner = (props) => {
               </Col>
             </Row>
             <Row>
-              <a style={{fontSize:'24px'}} onClick={()=>setVisible(true)}><Icon type="video-camera"/> {' '}Watch the Video</a>
+              <a style={{fontSize:'24px'}} className="base-text black-18-font" onClick={()=>setVisible(true)}><Icon type="video-camera"/> {' '}Watch the Video</a>
               <Modal
                 visible={visible}
                 onCancel={()=>setVisible(false)}
@@ -81,7 +81,7 @@ const Banner = (props) => {
             </Row>
           </Col>
           <Col md={12} className='card-col'>
-            <img src={bannerGraphic} className='custom-imagesk' />
+            <img src={bannerGraphic} className='custom-imagesk' style={{width:"100%"}}/>
           </Col>
         </Row>
         {/* <Row className='card-row -row-flex-space-evenly'>
@@ -106,23 +106,21 @@ const Banner = (props) => {
             <img className='custom-image' src={lessons} alt='Therapy' />
           </Col>
           <Col md={12}>
-            <div className='-highlighted-secondary-text semi-title'>EASY TO FOLLOW</div>
-            <h2 className='bottom-space'>
+            <p className='bottom-space'>
               <span className='-highlighted-text'>
-                DBT
+                Easy to follow DBT
                     </span>{' '}
               Lessons
-            </h2>
-            <div >
+            </p>
+            <div className="para-text black-18-font">
               Learn DBT skills with user-friendly videos and animations. There are over 100+ video lessons and 200+ animations.
             </div>
           </Col>
         </Row>
         <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
-            <div className='-highlighted-secondary-text semi-title'>USE IT TO</div>
             <h2 className='bottom-space'>
-              <span className='-highlighted-text'>{' '}Record Diary</span>{' '}Entries</h2>
+              <span className='-highlighted-text'>Use it to{' '}Record Diary</span>{' '}Entries</h2>
             <div >
               Record your mood, skills, emotions, urges, behaviors, activities and journal multiple times a day.
             </div>
@@ -136,14 +134,13 @@ const Banner = (props) => {
             <img className='custom-image' src={practiceExercises} alt='Therapy' />
           </Col>
           <Col md={12}>
-            <div className='-highlighted-secondary-text semi-title'>EASY TO FOLLOW</div>
-            <h2 className='bottom-space'>
+            <p className='bottom-space'>
               <span className='-highlighted-text'>
-                Practice
+               Easy to Follow Practice
                     </span>{' '}
               Exercises
-            </h2>
-            <div >
+            </p>
+            <div className="para-text black-18-font">
               Practice DBT using well-designed exercises that replaces worksheets. Leave your manual at home and do your exercises from anywhere.
             </div>
           </Col>
@@ -151,10 +148,9 @@ const Banner = (props) => {
 
         <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
-            <div className='-highlighted-secondary-text semi-title'>TRACK & MANAGE WITH</div>
-            <h2 className='bottom-space'>
-              <span className='-highlighted-text'>Entries</span>{' '}Timeline</h2>
-            <div >
+            <p className='bottom-space'>
+              <span className='-highlighted-text'>Track & Manage with Entries</span>{' '}Timeline</p>
+            <div className="para-text black-18-font">
               User-friendly timeline for entries, exercises, meditations etc. Manage your crisis survival skills and track how you use them.
             </div>
           </Col>
@@ -167,24 +163,23 @@ const Banner = (props) => {
             <img className='custom-image' src={reminders} alt='Therapy' />
           </Col>
           <Col md={12}>
-            <div className='-highlighted-secondary-text semi-title'>STAY ON TOP OF EVERYTHING WITH</div>
-            <h2 className='bottom-space'>
+            <p className='bottom-space'>
+              Stay on top of everything with{' '}
               <span className='-highlighted-text'>
                 Reminders & Affirmation
                     </span>
-            </h2>
-            <div >
+            </p>
+            <div className="para-text black-18-font">
               We provide a range of options to set multiple daily or weekly reminders for diary card entry, meditations, affirmations or anything else to help you stay on top of DBT Skills.
             </div>
           </Col>
         </Row>
         <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
-            <div className='-highlighted-secondary-text semi-title'>EASY TO</div>
-            <h2 className='bottom-space'>
-              Share Your
-              <span className='-highlighted-text'>{' '}Data</span></h2>
-            <div >
+            <p className='bottom-space'>
+              Easy to Share Your
+              <span className='-highlighted-text'>{' '}Data</span></p>
+            <div className="para-text black-18-font">
               Share what you want to share with your provider and care team. Providers in our clinician app can see it in real-time. You can also share via email with who you choose.
             </div>
           </Col>
@@ -197,27 +192,28 @@ const Banner = (props) => {
             <img className='custom-image' src={engage} alt='Engagement tools' />
           </Col>
           <Col md={12}>
-            <div className='-highlighted-secondary-text semi-title'>EVEN MORE FEATURES</div>
-            <h2 className='bottom-space'>
+            <p className='bottom-space'>
+              Even more features
               <span className='-highlighted-text'>
+                {' '}
                 Engage
                     </span>
               {' and '}
               <span className='-highlighted-text'>
                 Stay-Upto-Date
                     </span>
-            </h2>
-            <div >
+            </p>
+            <div className="para-text black-18-font">
               Engage better with your provider by taking assessments, doing homeworks all in the app. Additional tools such as summary, quiz and meditations keep you up to date with your DBT practice.
             </div>
           </Col>
         </Row>
         <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
-            <div className='-highlighted-secondary-text semi-title'>JOIN THE</div>
-            <h2 className='bottom-space'>
-              <span className='-highlighted-text'>{' '}Community</span></h2>
-            <div >
+            <p className='bottom-space'>
+              Join the
+              <span className='-highlighted-text'>{' '}Community</span></p>
+            <div className="para-text black-18-font">
               Come join the DBT Community. There are discussion forums where you can discuss about DBT skill application and anything DBT. Further, use existing Peer Groups or create your own to support each other.
             </div>
           </Col>
@@ -229,9 +225,9 @@ const Banner = (props) => {
         <Row className='card-row -row-flex-center divider'>
           <Col md={24}>
             <Row className='card-row -row-flex-center'>
-              <div style={{ textAlign: 'center' }}>
-                <h2 className='bottom-space'>
-                  <span className='-highlighted-secondary-text'>{' '}Testimonials</span>{' '}about<span className='-highlighted-text'>{' '}DBT Coach</span> </h2>
+              <div style={{ textAlign: 'center' }} className="para-text black-18-font">
+                <p className='bottom-space'>
+                  <span className='-highlighted-secondary-text'>{' '}Testimonials</span>{' '}about<span className='-highlighted-text'>{' '}DBT Coach</span> </p>
                 Over 200,000 users have already benefited from DBT Coach.
               </div>
             </Row>
@@ -245,81 +241,81 @@ const Banner = (props) => {
         <Row className='card-row -row-flex-center divider -padding-zero'>
           <Col md={24}>
             <Row className='card-row -row-flex-center'>
-              <h3 className='bottom-space' style={{ fontWeight: '600' }}>Frequently Asked Questions</h3>
+              <p className='bottom-space' style={{ fontWeight: '600' }}>Frequently Asked Questions</p>
             </Row>
             <Row className='card-row -row-flex-space-between -asked-question-card'>
               <Col md={12} className='blog-container question-container'>
-                <div className='blog-user -font-bold' style={{ color: 'black' }}>
+                <div className='blog-user -font-bold black-18-font base-text' style={{ color: 'black' }}>
                   Can I record multiple times a day?
                 </div>
-                <div className='blog-user'>
+                <div className='blog-user black-18-font para-text'>
                   Yes. You can record entries as many times as you like. All entries, exercises etc. are shown in clean timeline view.
                 </div>
               </Col>
               <Col md={12} className='blog-container question-container'>
-                <div className='blog-user -font-bold' style={{ color: 'black' }}>
+                <div className='blog-user base-text -font-bold black-18-font' style={{ color: 'black' }}>
                   Can I share my diary card report?
                 </div>
-                <div className='blog-user'>
+                <div className='blog-user black-18-font para-text'>
                   Yes. You can share your diary card with your therapist and care team. It also integrates to a therapist portal.
                 </div>
               </Col>
             </Row>
             <Row className='card-row -row-flex-space-between -asked-question-card'>
               <Col md={12} className='blog-container question-container'>
-                <div className='blog-user -font-bold' style={{ color: 'black' }}>
+                <div className='blog-user -font-bold black-18-font base-text' style={{ color: 'black' }}>
                   Do you have lessons for each skill?
                 </div>
-                <div className='blog-user'>
+                <div className='blog-user black-18-font para-text'>
                   Yes and even more. There are over 100+ video lessons and 200+ animations.
                 </div>
               </Col>
               <Col md={12} className='blog-container question-container'>
-                <div className='blog-user -font-bold' style={{ color: 'black' }}>
+                <div className='blog-user -font-bold black-18-font base-text' style={{ color: 'black' }}>
                   Do you have Practice Idea for each skill?
                 </div>
-                <div className='blog-user'>
+                <div className='blog-user black-18-font para-text'>
                   We currently have practice ideas for most skills. It gives ideas on how you can practice these skills.
                 </div>
               </Col>
             </Row>
             <Row className='card-row -row-flex-space-between -asked-question-card'>
               <Col md={12} className='blog-container question-container'>
-                <div className='blog-user -font-bold' style={{ color: 'black' }}>
+                <div className='blog-user -font-bold black-18-font base-text' style={{ color: 'black' }}>
                   How do I set reminders for different time on different days?
                 </div>
-                <div className='blog-user'>
+                <div className='blog-user black-18-font para-text'>
                   You can set multiple reminders. For eg. you can set a daily reminder say at 8 AM. But also set a weekly reminder repeating on specific days at another time.
                 </div>
               </Col>
               <Col md={12} className='blog-container question-container'>
-                <div className='blog-user -font-bold' style={{ color: 'black' }}>
+                <div className='blog-user -font-bold black-18-font base-text' style={{ color: 'black' }}>
                   What are mood correlations?
               </div>
-                <div className='blog-user'>
+                <div className='blog-user black-18-font para-text'>
                   They are top 5 items in each category (skills, targets, activities, sleep etc.) that correspond to a particular mood. They help your draw insights from the most common things you did when you were in a particular mood.
               </div>
               </Col>
             </Row>
             <Row className='card-row -row-flex-space-between -asked-question-card'>
               <Col md={12} className='blog-container question-container'>
-                <div className='blog-user -font-bold' style={{ color: 'black' }}>
+                <div className='blog-user -font-bold black-18-font base-text' style={{ color: 'black' }}>
                   Can I do my homework or exercises in the app?
                 </div>
-                <div className='blog-user'>
+                <div className='blog-user para-text black-18-font'>
                   Yes. If your provider is on our clinician app, they can assign you homework, practice ideas, exercises and assessments to you and you can complete and submit them all via the app. You can choose what to share with your clinician and he / she can see it in the clinician app.
                 </div>
               </Col>
               <Col md={12} className='blog-container question-container'>
-                <div className='blog-user -font-bold' style={{ color: 'black' }}>
+                <div className='blog-user -font-bold black-18-font base-text' style={{ color: 'black' }}>
                   Do you have monthly subscription?
                 </div>
-                <div className='blog-user'>
+                <div className='blog-user black-18-font para-text'>
                   Yes. We have a monthly subscription, but we don't believe anyone can learn DBT in a month. We offer a discounted six month subscription as well as a monthly subscription depending on your choice. We have a 3-day trial period during which you can access all areas of the app for free.
                 </div>
               </Col>
             </Row>
-           
+
           </Col>
         </Row>
 
@@ -327,8 +323,8 @@ const Banner = (props) => {
           <Col md={24} className='dbt-box-container'>
             <Row className='card-row -row-flex-center dbt-box-border'>
               <div style={{ textAlign: 'center' }}>
-                <h4 className='-font-bold'>Download <span className='-highlighted-secondary-text'>{' '}DBT Coach</span> App</h4>
-                <div className='blog-user'>The most comprehensive app for Dialectical Behavior Therapy. Come on join and be part of the community! </div>
+                <h4 className='-font-bold base-text'>Download <span className='-highlighted-secondary-text'>{' '}DBT Coach</span> App</h4>
+                <div className='blog-user black-18-font'>The most comprehensive app for Dialectical Behavior Therapy. Come on join and be part of the community! </div>
                 {store}
               </div>
             </Row>

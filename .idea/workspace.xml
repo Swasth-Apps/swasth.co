@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="cc70eb03-a129-4ee1-9e11-a0c375fba21f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/aboutus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/aboutus.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DBTCoach.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DBTCoach.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/dbt-coach.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dbt-coach.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/carousel.js" afterDir="false" />
     </list>
     <list id="c9136efa-379e-425e-8e32-46b67092561a" name="-- Design of Swasth Website" comment="-- Design of Swasth Website" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,14 +208,7 @@
       <workItem from="1608816116256" duration="527000" />
       <workItem from="1610715581759" duration="23058000" />
       <workItem from="1610771755442" duration="930000" />
-      <workItem from="1610774372295" duration="13887000" />
-    </task>
-    <task id="LOCAL-00029" summary="-- changes">
-      <created>1588174950281</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1588174950281</updated>
+      <workItem from="1610774372295" duration="15173000" />
     </task>
     <task id="LOCAL-00030" summary="-- changes">
       <created>1588177337276</created>
@@ -550,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610786817013</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="-- Update Responsive design">
+      <created>1610791671046</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1610791671046</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +597,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="-- Content management integrated" />
     <MESSAGE value="-- styling issue" />
     <MESSAGE value="-- integrate all content from netlify" />
     <MESSAGE value="-- Delete files" />
@@ -619,17 +621,18 @@
     <MESSAGE value="-- Update Home page design" />
     <MESSAGE value="-- change" />
     <MESSAGE value="-- responsive design" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- responsive design" />
+    <MESSAGE value="-- Update Responsive design" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Update Responsive design" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="301" width="524" height="512" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610716020765">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="693" y="301" width="524" height="512" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1610716020765" />
-    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2" timestamp="1610786816911">
+    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2" timestamp="1610791670954">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1610786816911" />
+    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1610791670954" />
     <state x="182" y="121" width="1536" height="879" key="DiffContextDialog" timestamp="1610740892045">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -646,10 +649,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="664" y="258" width="581" height="598" key="MultipleFileMergeDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1604292144367" />
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1610786833147">
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1610791674036">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1610786833147" />
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1610791674036" />
     <state x="612" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1610774372071">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -658,18 +661,18 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="526" y="163" width="857" height="788" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1610791632024" />
-    <state x="610" y="251" width="906" height="604" key="find.popup" timestamp="1610791599464">
+    <state x="610" y="251" width="906" height="604" key="find.popup" timestamp="1610792876392">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="610" y="251" width="906" height="604" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1610791599464" />
+    <state x="610" y="251" width="906" height="604" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1610792876392" />
     <state x="642" y="326" width="625" height="510" key="git4idea.merge.GitPullDialog" timestamp="1610786821138">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="642" y="326" width="625" height="510" key="git4idea.merge.GitPullDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1610786821138" />
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1610780544472">
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1610792007802">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1610780544472" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1610792007802" />
   </component>
   <component name="masterDetails">
     <states>
