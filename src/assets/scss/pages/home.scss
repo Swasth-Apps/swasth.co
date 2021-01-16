@@ -859,18 +859,17 @@
   padding: 4px 0;
   font-size: 16px;
   color: #fff;
-  text-transform: uppercase;
   text-align: center;
   font-weight: 800;
 }
 
 .ribbon-purple {
   &::before, &::after {
-    border: 5px solid _palette(primary-purple);
+    border: 5px solid _palette(primary-blue);
   }
 
   span {
-    background-color: _palette(primary-purple);
+    background-image: linear-gradient(258deg, #754af6 86%, #4273f0 10%);
   }
 }
 
@@ -907,6 +906,7 @@
 .ribbon-top-right {
   top: -10px;
   right: -10px;
+
 }
 
 .ribbon-top-right::before,
@@ -1731,19 +1731,24 @@ strong {
 
 // Breadcrum
 .category-tabs {
-  padding: 85px 15px 0 10px;
+  padding: 70px 15px 0 10px;
 
   .ant-tabs-bar {
     border-bottom: none;
   }
 
+  .ant-tabs-nav-scroll{
+    margin-bottom: 5px;
+  }
   .menu-content,
   .ant-tabs-tab {
-    font-family: 'Airbnb Cereal App Book', Helvetica;
-    color: #5c5c5c;
-    font-weight: 500;
-    font-size: 18px;
-    padding: 12px 4px;
+    font-family: 'Airbnb Cereal App Bold', Helvetica;
+    color: #2b2b2b;
+    font-size: 14px;
+    padding: 8px 13px 8px 16px;
+    background: #fcfcfc;
+    opacity: 0.9;
+    border-radius: 10px;
     //text-transform: uppercase;
   }
 
@@ -1752,23 +1757,36 @@ strong {
   }
 
   .ant-tabs-tab-active {
-    color: _palette(secondary-color) !important;
+    background-color: _palette(secondary-color) !important;
+    color: _palette(bg) !important;
+  }
+  @media screen and (max-width: 770px) {
+    padding: 20px 15px 0 10px;
+    .ant-tabs-nav-container-scrolling{
+      margin: 10px 0px;
+    }
   }
 }
 
 // More breadcrum overlay style
 .breadcrum-more-overlay {
-  max-width: 85em;
+  max-width: 50em;
   width: 100%;
   margin: 0 auto;
   padding: 10px 0;
 
+  .ant-popover-inner{
+    border-radius: 10px;
+  }
+  .ant-popover-content{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.21);
+  }
   .ant-popover-arrow {
     display: none;
   }
 
   .ant-popover-inner-content {
-    padding: 12px 24px;
+    padding: 24px;
   }
 
   @media screen and (max-width: 1225px) {
@@ -1777,16 +1795,23 @@ strong {
 }
 
 .breadcrum-more {
+  margin-top: -5px;
   a {
-    padding: 12px 4px 0;
-    color: darken(_palette(primary-purple), 10%);
-    font-size: 16px;
+    padding: 8px 13px 8px 16px;
+    color: darken(_palette(primary-blue), 10%);
+    border-radius: 10px;
+    background-color: rgba(115, 76, 246,0.2);
+    font-size: 14px;
     //font-weight: 600;
     &:hover {
-      color: darken(_palette(primary-purple), 15%) !important;
-      line-height: 1.6rem;
-      border-bottom: 1px solid;
+      background-color: _palette(secondary-color) !important;
+      color: _palette(bg) !important;
     }
+  }
+  @media screen and (max-width: 770px) {
+    position: absolute;
+    top: 0px;
+    right: 20px;
   }
 }
 
@@ -1796,30 +1821,34 @@ strong {
   flex-wrap: wrap;
 
   .parent-container {
-    flex: 0 0 25%;
 
     h3 {
-      font-family: 'Airbnb Cereal App Book', Helvetica;
-      color: #5c5c5c;
+      color: #344356;
       font-weight: 500;
-      font-size: 1.2em;
-      margin-bottom: 0px;
+      font-size: 16px;
+      margin-bottom: 10px;
       text-transform: uppercase;
     }
 
     ul {
       list-style: none;
       padding-left: 0;
-
+      display: flex;
+      flex-wrap: wrap;
       li {
-        font-family: 'Swasth-font', Helvetica;
-        color: _palette(secondary-color);
-        padding-left: 0;
-        font-size: 16px;
+        font-family: 'Avenir', Helvetica;
+        color: #344356;
+        padding-right: 10px;
+        margin-right: 10px;
+        margin-bottom: 8px;
+
+        font-size: 14px;
         //font-weight: bold;
         width: fit-content;
-        margin-bottom: 0px;
-
+        height: fit-content;
+        &:not(:last-child){
+          border-right: 1px solid #344356;
+        }
         &:hover {
           color: darken(_palette(primary-purple), 15%);
           line-height: 1.6rem;
@@ -1833,8 +1862,12 @@ strong {
     }
 
     .active-breadcrum {
-      color: darken(_palette(primary-blue), 10%);
-
+      color: _palette(bg);
+      background-color: _palette(primary-blue);
+      border-radius: 5px;
+      font-weight: 600;
+      padding: 2px 10px;
+      margin-top: -2px;
       a:hover {
         color: darken(_palette(primary-blue), 10%) !important;
       }
@@ -1916,22 +1949,30 @@ strong {
   display: flex;
   flex: 0 0 100%;
   flex-wrap: wrap;
-
+a{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
   p {
-    font-size: 16px !important;
-    padding: 0 5px;
+    font-size: 10px !important;
+    padding: 5px 10px;
+    border-radius: 5px;
     margin-left: 0 !important;
-    color: _palette(secondary-color) !important;
-    //font-weight: bold;
+    font-weight: bold;
     margin-bottom: 0px;
   }
-
-  a {
-    &:not(:last-child) {
-      p {
-        border-right: 1px solid;
-      }
-    }
+  .blue-tag{
+    color: #4273f0 !important;
+    background-color: rgba(66, 115, 240,0.2);
+    border-radius: 5px;
+  }  .pink-tag{
+    color: #d366d9 !important;
+    background-color: rgba(211, 102, 217,0.2);
+    border-radius: 5px;
+  }  .purple-tag{
+    color: #744bf6 !important;
+    background-color: rgba(116, 75, 246,0.2);
+    border-radius: 5px;
   }
 }
 
@@ -2210,7 +2251,7 @@ strong {
 // Css for blog date
 .blog-date {
   margin: 0 0 10px;
-  color: #032230;
+  color: #2b2b2b;
   font-size: 14px;
   font-family: 'Avenir', Helvetica !important;
 }

@@ -43,6 +43,11 @@ const BlogPost = ({ data = {} }) => {
       isContentWhite
       categories = {categories?.edges}
     >
+      <div
+          id='wrapper'
+          className={'coach-wrapper'}
+          style={{paddingBottom: 0}}
+      >
       <BlogPostTemplate
         content={post?.html}
         feature={post.frontmatter}
@@ -58,6 +63,7 @@ const BlogPost = ({ data = {} }) => {
           </Helmet>
         }
       />
+      </div>
     </Layout>
   )
 }

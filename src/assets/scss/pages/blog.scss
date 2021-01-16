@@ -15,7 +15,7 @@
     font-family: 'Avenir', Helvetica;
   }
   h2,h3{
-    font-family: 'Airbnb Cereal App Book', Helvetica;
+    font-family: 'Airbnb Cereal App Bold', Helvetica;
 
   }
   p,div,li{
@@ -27,7 +27,7 @@
   }
   h2,h3,h4{
     margin: 24px 0;
-    font-family: 'Airbnb Cereal App Book', Helvetica;
+    font-family: 'Airbnb Cereal App Bold', Helvetica;
   }
   h3{
     font-size: 26px;
@@ -58,7 +58,7 @@
   font-size: 16px !important;
 }
 .navy-blue{
-  color: #032230;
+  color: #000000;
 }
 .blog-padding-0 {
   padding: 0;
@@ -354,6 +354,197 @@
   padding-left: 20px !important;
   @media (max-width: 768.5px) {
   padding-left: 0 !important;
+  }
+}
+
+
+
+// Updated Blog Design
+.vertical-blog-card{
+  padding: 5px;
+  flex: 0 0 33.333%;
+}
+.horizontal-blog-card{
+  padding: 5px;
+  flex: 0 0 50%;
+  position: relative;
+  a{
+    &:hover{
+      color: _palette(primary-blue) !important;
+    }
+  }
+  .blog-img-flex{
+    flex: unset !important;
+    img {
+      width: 120px !important;
+      height: 120px !important;
+      border-radius: 40px;
+    }
+  }
+  .story-content{
+    padding-right: 40px;
+  }
+  .card-title{
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .arrow-icon{
+    position: absolute;
+    right: 20px;
+    &:hover{
+      color: _palette(primary-blue);
+    }
+  }
+}
+.vertical-card{
+  box-shadow: 0 0px 25px 0 rgba(60, 128, 209, 0.09);
+  background-color: _palette(bg);
+  padding: 10px;
+  border-radius: 25px;
+  position: relative;
+  height: 100%;
+  .story{
+    img{
+      width: 100%;
+      height: 100%;
+      border-radius: 25px;
+    }
+    .story-content{
+      padding: 15px;
+      .user-name{
+        position: absolute;
+        bottom: 0;
+      }
+    }
+    .vertical-card-title{
+      font-size: 20px;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .vertical-card-description{
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+  }
+}
+.horizontal-card{
+  display: flex;
+  flex: 0 0 100%;
+  align-items: center;
+  border-radius: 25px;
+  box-shadow: 0 0px 25px 0 rgba(60, 128, 209, 0.09);
+  background-color: _palette(bg);
+  padding: 10px 10px 0;
+  position: relative;
+  .blog-img-flex{
+    flex: 0 0 50%;
+    padding-right: 20px;
+    img{
+      width: 100%;
+      height: 100%;
+      border-radius: 25px;
+    }
+  }
+  .horizontal-card-description{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+}
+.initial-blog{
+  width: 100%;
+  margin-top: 50px;
+  .user-name{
+    color: _palette(secondary-color);
+    font-weight: bold;
+  }
+}
+
+.blog-page-recent-stories-text{
+  color: #000000;
+  font-size: 24px;
+}
+
+.recent-stories-section{
+  display: flex;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+}
+.all-stories-section{
+  display: flex;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1050px) {
+  .vertical-blog-card{
+    flex: 0 0 50%;
+  }
+  .horizontal-blog-card{
+    flex: 0 0 100%;
+    width: 100%;
+    .horizontal-card{
+      flex-direction: row !important;
+    }
+  }
+}
+@media screen and (max-width: 780px) {
+  .horizontal-card{
+    flex-direction: column;
+    .blog-text{
+      margin-top: 10px;
+      padding: 20px;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .recent-stories-section {
+    flex-wrap: nowrap;
+    overflow: auto;
+    .vertical-blog-card {
+      flex: 0 0 90%;
+
+      .vertical-card {
+        .vertical-card-description {
+          -webkit-line-clamp: 5;
+        }
+      }
+    }
+  }
+  .all-stories-section{
+    .horizontal-card{
+      padding: 16px;
+      flex-direction: column !important;
+      align-items: flex-start;
+      .arrow-icon{
+        display: none;
+      }
+      .story-content{
+        padding-right: 0px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 460px) {
+  .horizontal-card{
+    .blog-img-flex{
+      padding-right: 0px;
+      img{
+        width: 100% !important;
+        margin-bottom: 10px;
+        height: 100% !important;
+      }
+    }
+    .user-name{
+      margin-top: 10px;
+    }
   }
 }
 

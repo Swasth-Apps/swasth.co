@@ -17,7 +17,7 @@ export const home =[
   {
     comment:'Thank you I\'ve needed DBT my whole life and finding DBT meetings isn\'t as common and easy as you might think. Haveing DBT in my pocket when ever I need it is just what I\'ve been looking for. Thank you for taking the time to create this app you\'ve probably helped more ppl than you know.'
   }
-]
+];
 export const dbtcoach=[
   {
     name:'ASHLEY GANTT',
@@ -53,7 +53,7 @@ export const dbtcoach=[
     name:'KENDRA JACKSON57',
     comment:'WOW! Excellent app! I had been struggling to practice DBT because I didn\'t always have a pen & paper on hand... Since I DO always have my device handy, this will improve tremendously my use of daily Diary cards. Further the content is so rich. I am a visual person - so the videos are perfect. There are so many coach, I am just in love with it.'
   },
-]
+];
 export const dbtdaily=[
   {
     name:' EMMA G',
@@ -92,7 +92,7 @@ export const dbtdaily=[
     name:' CARRY MINATI',
     comment:'Excellent I\'ve studied DBT for years and this is a great little tool to have with you to help you when you are going through though times.'
   },
-]
+];
 export const lifeCoach=[
   {
     name:'Sophia',
@@ -116,6 +116,7 @@ export const lifeCoach=[
     name:' Jack',
     comment:'Life Coaching with Michele changed my life. I was at a standstill for over 10 years working a Corporate job I didnt like. After 1 month of working with her I found a school to attend, my confidence increased in making a decision and I was able to move forward. I ended taking the package from Corporate and now I have the job of my dreams. I am a Holistic Health Counselor. I see clients privately and I do cooking classes and seminars. I never imagined what working with Michele would have done. A great experience but also a necessary one to make things happen in my life. I cannot thank her enough.    '
   }
-]
+];
 
+export const colors = ["blue-tag","pink-tag","purple-tag"];
 export const initialBlogsCount = 6;

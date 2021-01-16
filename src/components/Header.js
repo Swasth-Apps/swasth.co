@@ -1,18 +1,20 @@
 import React, {useState} from 'react'
 import {Button, Icon} from 'antd'
 import PropTypes from 'prop-types'
-import resilienceDarkLogo from '../assets/images/resilience-logo@2x.png'
-import getStartedBtn from '../assets/images/get-started-btn.png'
+import resilienceDarkLogo from '../assets/images/Resiliens-Logo@3x.png'
 import {Link} from 'gatsby'
+import RequestDemoModal from "./RequestDemoModal";
 
 const Header = (props) => {
-    const [state, setState] = useState(false)
+    const [state, setState] = useState(false);
+    const [modal,setModal] = useState(false)
     const {isContentWhite} = props;
 
     return (
         <>
             <header id="header" className={`alt ${props.aboutHeader ? "about-header" : ""}`}>
 
+                <RequestDemoModal modal={modal} onClose={() => setModal(false)}/>
                 <nav className='header-nav'>
                     <Link
                         to="/"
@@ -20,7 +22,6 @@ const Header = (props) => {
                         className="header-logo-section"
                     >
                         <img style={{marginBottom: -5}} src={resilienceDarkLogo} alt='Home'/>
-                        <p className="para-text">Resiliens</p>
                     </Link>
                     <div style={{display: 'flex', alignItems: 'center'}}>
                         {!state ?
@@ -50,7 +51,7 @@ const Header = (props) => {
                                 <Link to="/" hidden={state}
                                       style={{display: 'flex', alignItems: 'center',padding: 0}}
                                       className='header-content'>
-                                    <Button className="request-demo-btn">
+                                    <Button className="request-demo-btn" onClick={() => setModal(true)}>
                                         Request a Demo
                                     </Button>
                                 </Link>

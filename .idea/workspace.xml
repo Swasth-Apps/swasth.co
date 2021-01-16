@@ -2,13 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc70eb03-a129-4ee1-9e11-a0c375fba21f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/Resiliens-Logo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/components/demoModal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RequestDemoModal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/aboutus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/aboutus.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/blog.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DBTCoach.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DBTCoach.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/dbt-coach.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/dbt-coach.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BlogComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BlogLanding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogLanding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BreadCrum.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BreadCrum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CategoryComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CategoryComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helper/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/blog-detail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/blog-detail/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/blog-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/blog-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/category-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/category-post.js" afterDir="false" />
     </list>
     <list id="c9136efa-379e-425e-8e32-46b67092561a" name="-- Design of Swasth Website" comment="-- Design of Swasth Website" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,18 +81,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2018.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\vikas-vaghasiya\swasth-invision\src\assets\images" />
-      <recent name="D:\vikas-vaghasiya\swasth-invision\src\pages" />
-      <recent name="D:\vikas-vaghasiya\swasth-invision\src\assets\fonts" />
-      <recent name="D:\vikas-vaghasiya\swasth-invision\src\pages\live-coach" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src/assets/fonts" />
       <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/AboutUs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/scss/components" />
+      <recent name="D:\vikas-vaghasiya\swasth-invision\src\assets\images" />
+      <recent name="D:\vikas-vaghasiya\swasth-invision\src\pages" />
+      <recent name="D:\vikas-vaghasiya\swasth-invision\src\assets\fonts" />
+      <recent name="D:\vikas-vaghasiya\swasth-invision\src\pages\live-coach" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -208,14 +224,9 @@
       <workItem from="1608816116256" duration="527000" />
       <workItem from="1610715581759" duration="23058000" />
       <workItem from="1610771755442" duration="930000" />
-      <workItem from="1610774372295" duration="15173000" />
-    </task>
-    <task id="LOCAL-00030" summary="-- changes">
-      <created>1588177337276</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1588177337276</updated>
+      <workItem from="1610774372295" duration="15268000" />
+      <workItem from="1610793084019" duration="5000" />
+      <workItem from="1610799620487" duration="18674000" />
     </task>
     <task id="LOCAL-00031" summary="-- Blogs and Category design including tabs">
       <created>1588187538985</created>
@@ -553,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610791671046</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="-- Change in DBT Coach Page">
+      <created>1610792958551</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1610792958551</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,7 +615,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="-- styling issue" />
     <MESSAGE value="-- integrate all content from netlify" />
     <MESSAGE value="-- Delete files" />
     <MESSAGE value="-- change home page design" />
@@ -622,17 +639,18 @@
     <MESSAGE value="-- change" />
     <MESSAGE value="-- responsive design" />
     <MESSAGE value="-- Update Responsive design" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- Update Responsive design" />
+    <MESSAGE value="-- Change in DBT Coach Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Change in DBT Coach Page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="301" width="524" height="512" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610716020765">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="693" y="301" width="524" height="512" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1610716020765" />
-    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2" timestamp="1610791670954">
+    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2" timestamp="1610792958451">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1610791670954" />
+    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1610792958451" />
     <state x="182" y="121" width="1536" height="879" key="DiffContextDialog" timestamp="1610740892045">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -649,30 +667,34 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="664" y="258" width="581" height="598" key="MultipleFileMergeDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1604292144367" />
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1610791674036">
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1610793011355">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1610791674036" />
-    <state x="612" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1610774372071">
+    <state x="555" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1610793011355" />
+    <state x="612" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1610793083251">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="612" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1610774372071" />
-    <state x="526" y="163" width="857" height="788" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610791632024">
+    <state x="612" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1610793083251" />
+    <state x="526" y="163" width="857" height="788" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610817181769">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="526" y="163" width="857" height="788" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1610791632024" />
-    <state x="610" y="251" width="906" height="604" key="find.popup" timestamp="1610792876392">
+    <state x="526" y="163" width="857" height="788" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1610817181769" />
+    <state x="610" y="251" width="906" height="604" key="find.popup" timestamp="1610818445848">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="610" y="251" width="906" height="604" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1610792876392" />
-    <state x="642" y="326" width="625" height="510" key="git4idea.merge.GitPullDialog" timestamp="1610786821138">
+    <state x="610" y="251" width="906" height="604" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1610818445848" />
+    <state x="642" y="326" width="625" height="517" key="git4idea.merge.GitPullDialog" timestamp="1610792965583">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="642" y="326" width="625" height="510" key="git4idea.merge.GitPullDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1610786821138" />
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1610792007802">
+    <state x="642" y="326" width="625" height="517" key="git4idea.merge.GitPullDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1610792965583" />
+    <state x="624" y="252" key="run.anything.popup" timestamp="1610818011760">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1610792007802" />
+    <state x="624" y="252" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1610818011760" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1610818391101">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1610818391101" />
   </component>
   <component name="masterDetails">
     <states>

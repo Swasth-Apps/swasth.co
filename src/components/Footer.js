@@ -7,7 +7,7 @@ import topBg from "../assets/images/top-bg@3x.png";
 
 const Footer = (props) => (
     <footer
-        id={props.hideFooter ? 'min-footer' : 'footer'}
+        id={'footer'}
         style={{paddingTop: 100,
             backgroundImage: `url(${require("../assets/images/top-bg.png")})`,
             backgroundSize: "cover"

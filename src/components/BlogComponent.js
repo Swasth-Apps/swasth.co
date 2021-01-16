@@ -16,6 +16,7 @@ import {
 } from 'react-share'
 import ShowMoreText from 'react-show-more-text'
 import moment from 'moment'
+import {colors} from "../helper/helper";
 
 const currentPageUrl = typeof window !== 'undefined' ? window.location.href : '';
 
@@ -57,8 +58,8 @@ class BlogComponent extends React.Component {
           <Col md={12} className='card-col image-col featured-blog-content'>
             {featuredpost ? <div className='ribbon ribbon-top-right ribbon-purple'><span>Featured</span></div> : null}
             <div className='category-tags para-text'>
-              {categories?.category?.map(({title,slug}) =>
-                <Link to={`/category/${slug}`}>
+              {categories?.category?.map(({title,slug},i) =>
+                <Link to={`/category/${slug}`} className={colors[i % 3]}>
                 <p className='para-text'>
                   {title}
                 </p>
@@ -192,8 +193,8 @@ class BlogComponent extends React.Component {
                 </Link>
                 <div className='story-content'>
                   <div className='category-tags para-text'>
-                    {frontmatter?.categories?.category?.slice(0,1).map(({title,slug}) =>
-                      <Link to={`/category/${slug}`}>
+                    {frontmatter?.categories?.category?.slice(0,1).map(({title,slug},i) =>
+                      <Link to={`/category/${slug}`} className={colors[i % 3]}>
                         <p className='para-text'>
                           {title}
                         </p>

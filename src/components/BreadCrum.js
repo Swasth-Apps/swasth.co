@@ -20,7 +20,7 @@ class CategoryTabs extends React.Component {
       <div className='breadcrum-more-content'>
         {Object.entries(parents)?.map(([key,val]) =>(
           <div className='parent-container'>
-            <h3>{key}</h3>
+            <h3 className="base-text">{key}</h3>
             <ul>
               {val?.map(value => <li className={value?.fields?.slug === selectedPath ? 'active-breadcrum' : ''} onClick={() => this.handleChange(value?.fields?.slug)}><a>{value.title}</a></li>)}
             </ul>
@@ -56,7 +56,7 @@ class CategoryTabs extends React.Component {
                 overlayClassName='breadcrum-more-overlay'
                 placement='bottomLeft'
               >
-              <a className='para-text'>More</a>
+              <a className='base-text'>More</a>
               </Popover>
             </div>}
           >

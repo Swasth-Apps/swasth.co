@@ -15,7 +15,13 @@ export default class BlogIndex extends React.Component {
         show
         hideFooter
       >
+        <div
+            id='wrapper'
+            className={'coach-wrapper'}
+            style={{paddingBottom: 0}}
+        >
         <Blogs data={data} />
+        </div>
       </Layout>
     )
   }

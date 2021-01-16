@@ -41,7 +41,10 @@ class Layout extends React.Component {
     render() {
         const {children} = this.props
         return (
-            <div className={`body ${this.state.loading} ${this.props.hideHomeImg ? 'light-body-bg' : ''}`}>
+            <div
+                className={`body ${this.state.loading} ${this.props.hideHomeImg ? 'light-body-bg' : ''}`}
+
+            >
                 {/*{!this.props.rearrangeChildren ? <img src={CoachingBG} className='home-bg-img coaching-bg-img'/> : null}*/}
                 {/*{this.state.visible && this.props.extraHeader ?
                     <div className="para-text extra-header">
@@ -65,7 +68,14 @@ class Layout extends React.Component {
                         isLogoWhite={this.props.isLogoWhite}
                     />
                 </div>
+                <div
+                    id='wrapper'
+                    className={'coach-wrapper'}
+                    style={{paddingBottom: 0}}
+                >
                     {this.props?.categories ? <CategoryTabs edges={this.props?.categories}/> : null}
+                </div>
+
                     {!this.props.rearrangeChildren ? children : null}
 
                 {this.props.rearrangeChildren ? children : null}
