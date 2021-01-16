@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc70eb03-a129-4ee1-9e11-a0c375fba21f" name="Default Changelist" comment="-- change">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/top-bg.png" afterDir="false" />
+    <list default="true" id="cc70eb03-a129-4ee1-9e11-a0c375fba21f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/pages/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
     </list>
     <list id="c9136efa-379e-425e-8e32-46b67092561a" name="-- Design of Swasth Website" comment="-- Design of Swasth Website" />
@@ -211,14 +204,7 @@
       <workItem from="1608816116256" duration="527000" />
       <workItem from="1610715581759" duration="23058000" />
       <workItem from="1610771755442" duration="930000" />
-      <workItem from="1610774372295" duration="11809000" />
-    </task>
-    <task id="LOCAL-00027" summary="-- Merge conflict">
-      <created>1588173584461</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1588173584461</updated>
+      <workItem from="1610774372295" duration="12091000" />
     </task>
     <task id="LOCAL-00028" summary="-- changes">
       <created>1588174940921</created>
@@ -556,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610740792336</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="-- responsive design">
+      <created>1610786567211</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1610786567211</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +593,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="-- commit changes" />
     <MESSAGE value="-- Content management integrated" />
     <MESSAGE value="-- styling issue" />
     <MESSAGE value="-- integrate all content from netlify" />
@@ -625,17 +617,18 @@
     <MESSAGE value="-- Resolve footer design issue" />
     <MESSAGE value="-- Update Home page design" />
     <MESSAGE value="-- change" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- change" />
+    <MESSAGE value="-- responsive design" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- responsive design" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="301" width="524" height="512" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610716020765">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="693" y="301" width="524" height="512" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1610716020765" />
-    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2" timestamp="1610740893588">
+    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2" timestamp="1610786566945">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1610740893588" />
+    <state x="507" y="57" width="895" height="1000" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1610786566945" />
     <state x="182" y="121" width="1536" height="879" key="DiffContextDialog" timestamp="1610740892045">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -664,10 +657,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="526" y="163" width="857" height="788" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1610786496989" />
-    <state x="610" y="251" width="906" height="604" key="find.popup" timestamp="1610786464531">
+    <state x="610" y="251" width="906" height="604" key="find.popup" timestamp="1610786754994">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="610" y="251" width="906" height="604" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1610786464531" />
+    <state x="610" y="251" width="906" height="604" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1610786754994" />
     <state x="642" y="326" width="625" height="503" key="git4idea.merge.GitPullDialog" timestamp="1610740798913">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

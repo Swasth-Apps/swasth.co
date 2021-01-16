@@ -143,7 +143,7 @@ const Home = (props) => {
               </Col>
             </Row>
           */}
-                        <Row className='section-gap'>
+                        <Row className='section-gap program-row-adapts'>
                             <Col md={12} className="program-adapts">
                                 <p className='bottom-space base-text'>
                                     <span className='-highlighted-text'>Personalized Programs</span>
