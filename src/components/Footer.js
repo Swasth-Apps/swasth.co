@@ -17,7 +17,7 @@ const Footer = (props) => (
         <div className="inner">
             <div style={{textAlign: "center"}}>
                 <div className="footer-heading card-row">
-                    <p className="bottom-space white-text">Want to learn more about Resiliens ?</p>
+                    <p className="bottom-space white-text base-text">Want to learn more about Resiliens ?</p>
                     <Button className="request-demo-btn" style={{margin: "20px 0"}}>Get Started</Button>
                 </div>
             </div>
@@ -27,17 +27,19 @@ const Footer = (props) => (
                         <Col className="col-md-8 footer-info" md={8}>
                             <div className="widget clearfix">
                                 <Link to="/"><img src={resilienceLogo}/></Link>
-                                <p className="white-text" style={{fontSize: 12}}>
+                                <p className="white-text para-text" style={{fontSize: 14}}>
                                     Resiliens's Digital Health Platform offers treatment programs for Anxiety, Depression,
                                     Eating Disorders, Borderline Personality Disorder, PTSD, SUDs, etc
                                 </p>
                                 <div className="media">
                                     <a href="https://www.facebook.com/swasthco/"
-                                       target="_blank"><img src={require("../assets/images/facebook-icon.png")}/></a>
+                                       target="_blank"><img src={require("../assets/images/fb-icon.png")}/></a>
                                     <a href="https://www.twitter.com/swasthapps/"
-                                       target="_blank"><img src={require("../assets/images/linkedin-icon.png")}/></a>
-                                    <a href="https://www.twitter.com/swasthapps/"
-                                       target="_blank"><img src={require("../assets/images/linkedin-icon.png")}/></a>
+                                       target="_blank"><img src={require("../assets/images/twitter-icon.png")}/></a>
+                                    <a href="https://www.instagram.com/swasthapps/"
+                                       target="_blank"><img src={require("../assets/images/instagram-icon.png")}/></a>
+                                    <a href="https://www.youtube.com/channel/UCtM20mp-kA1xkKdWA5Q-9KA"
+                                       target="_blank"><img src={require("../assets/images/youtube-icon.png")}/></a>
                                 </div>
                             </div>
 

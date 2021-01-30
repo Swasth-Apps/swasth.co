@@ -5,7 +5,13 @@ class HomeIndex extends React.Component {
   render() {
     return (
       <Layout>
+        <div
+            id='wrapper'
+            className={'coach-wrapper'}
+            style={{paddingBottom: 0}}
+        >
         <CBTCompanion />
+        </div>
       </Layout>
     )
   }

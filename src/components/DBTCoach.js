@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react'
-import { Col, Icon, Modal, Row } from 'antd'
+import {Button, Col, Icon, Modal, Row} from 'antd'
 import bannerGraphic from '../assets/images/DBT-splash_iphone.png'
 import lessons from '../assets/images/DBT-lessons.png'
 import recordEntries from '../assets/images/DBT-record-diary.png'
@@ -37,15 +37,15 @@ const Banner = (props) => {
       <section className='app-section-group'>
         <Row className='card-row divider'>
           <Col md={12} className='card-col -margin-right'>
-            <h1 className='-highlighted-secondary-text apps-title'>DBT Coach</h1>
-            <p className='bottom-space'>A comprehensive app for
-              <span className='-highlighted-text' style={{marginTop:'5px'}}>{' '}Dialectical Behavior Therapy</span> (DBT).</p>
+            <h1 className='-highlighted-secondary-text apps-title base-text'>DBT Coach</h1>
+            <p className='bottom-space base-text'>A comprehensive app for
+              <span className='-highlighted-text base-text' style={{marginTop:'5px'}}>{' '}Dialectical Behavior Therapy</span> (DBT).</p>
             <div className="para-text black-18-font">
               Learn, practice and track your DBT skills
               with DBT Coach App. Engage better with your Therapist using
               our comprehensive Behavioral Health Platform.
             </div>
-            <Row className='card-row store-icons' style={{ padding: '32px 32px 0px', display: 'flex',flexDirection:'row' }}>
+          {/*  <Row className='card-row store-icons' style={{ padding: '32px 32px 0px', display: 'flex',flexDirection:'row' }}>
               <Col md={8}>
                 <a href="https://apps.apple.com/us/app/dbt-coach/id1452264969">
                   <img src={appStore} alt='DBT Coach on App Store' />
@@ -57,9 +57,10 @@ const Banner = (props) => {
                   <img src={googlePay} alt='DBT Coach on Play Store' />
                 </a>
               </Col>
-            </Row>
+            </Row>*/}
             <Row>
-              <a style={{fontSize:'24px'}} className="base-text black-18-font" onClick={()=>setVisible(true)}><Icon type="video-camera"/> {' '}Watch the Video</a>
+              <Button className="request-demo-btn" onClick={()=>setVisible(true)} style={{margin: "20px 0"}}>Watch the Video</Button>
+              {/*<a style={{fontSize:'24px'}} className="base-text black-18-font" onClick={()=>setVisible(true)}><Icon type="video-camera"/> {' '}Watch the Video</a>*/}
               <Modal
                 visible={visible}
                 onCancel={()=>setVisible(false)}
@@ -107,7 +108,7 @@ const Banner = (props) => {
           </Col>
           <Col md={12}>
             <p className='bottom-space'>
-              <span className='-highlighted-text'>
+              <span className='-highlighted-text base-text'>
                 Easy to follow DBT
                     </span>{' '}
               Lessons
@@ -120,7 +121,7 @@ const Banner = (props) => {
         <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <h2 className='bottom-space'>
-              <span className='-highlighted-text'>Use it to{' '}Record Diary</span>{' '}Entries</h2>
+              <span className='-highlighted-text base-text'>Use it to{' '}Record Diary</span>{' '}Entries</h2>
             <div >
               Record your mood, skills, emotions, urges, behaviors, activities and journal multiple times a day.
             </div>
@@ -135,7 +136,7 @@ const Banner = (props) => {
           </Col>
           <Col md={12}>
             <p className='bottom-space'>
-              <span className='-highlighted-text'>
+              <span className='-highlighted-text base-text'>
                Easy to Follow Practice
                     </span>{' '}
               Exercises
@@ -149,7 +150,7 @@ const Banner = (props) => {
         <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
             <p className='bottom-space'>
-              <span className='-highlighted-text'>Track & Manage with Entries</span>{' '}Timeline</p>
+              <span className='-highlighted-text base-text'>Track & Manage with Entries</span>{' '}Timeline</p>
             <div className="para-text black-18-font">
               User-friendly timeline for entries, exercises, meditations etc. Manage your crisis survival skills and track how you use them.
             </div>
@@ -163,7 +164,7 @@ const Banner = (props) => {
             <img className='custom-image' src={reminders} alt='Therapy' />
           </Col>
           <Col md={12}>
-            <p className='bottom-space'>
+            <p className='bottom-space base-text'>
               Stay on top of everything with{' '}
               <span className='-highlighted-text'>
                 Reminders & Affirmation
@@ -176,7 +177,7 @@ const Banner = (props) => {
         </Row>
         <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
-            <p className='bottom-space'>
+            <p className='bottom-space base-text'>
               Easy to Share Your
               <span className='-highlighted-text'>{' '}Data</span></p>
             <div className="para-text black-18-font">
@@ -192,7 +193,7 @@ const Banner = (props) => {
             <img className='custom-image' src={engage} alt='Engagement tools' />
           </Col>
           <Col md={12}>
-            <p className='bottom-space'>
+            <p className='bottom-space base-text'>
               Even more features
               <span className='-highlighted-text'>
                 {' '}
@@ -210,7 +211,7 @@ const Banner = (props) => {
         </Row>
         <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
-            <p className='bottom-space'>
+            <p className='bottom-space base-text'>
               Join the
               <span className='-highlighted-text'>{' '}Community</span></p>
             <div className="para-text black-18-font">
@@ -226,8 +227,8 @@ const Banner = (props) => {
           <Col md={24}>
             <Row className='card-row -row-flex-center'>
               <div style={{ textAlign: 'center' }} className="para-text black-18-font">
-                <p className='bottom-space'>
-                  <span className='-highlighted-secondary-text'>{' '}Testimonials</span>{' '}about<span className='-highlighted-text'>{' '}DBT Coach</span> </p>
+                <p className='bottom-space base-text'>
+                  <span className='-highlighted-secondary-text '>{' '}Testimonials</span>{' '}about<span className='-highlighted-text'>{' '}DBT Coach</span> </p>
                 Over 200,000 users have already benefited from DBT Coach.
               </div>
             </Row>
@@ -241,7 +242,7 @@ const Banner = (props) => {
         <Row className='card-row -row-flex-center divider -padding-zero'>
           <Col md={24}>
             <Row className='card-row -row-flex-center'>
-              <p className='bottom-space' style={{ fontWeight: '600' }}>Frequently Asked Questions</p>
+              <p className='bottom-space base-text' style={{ fontWeight: '600' }}>Frequently Asked Questions</p>
             </Row>
             <Row className='card-row -row-flex-space-between -asked-question-card'>
               <Col md={12} className='blog-container question-container'>

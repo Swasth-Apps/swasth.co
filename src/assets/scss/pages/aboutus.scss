@@ -19,11 +19,21 @@
     align-items: center;
     height: 100%;
 
-    h1, h4 {
+    .-highlighted-text{
+      background-color: #fff;
+      color: #4273f0;
+      padding: 0 10px;
+    }
+    h2, h4 {
       color: _palette(bg-color);
       margin-top: 0px;
+
     }
 
+    h2{
+      font-size: 40px;
+      line-height: 60px;
+    }
 
     button {
       margin-top: 15px;
@@ -59,21 +69,36 @@
       padding: 25px 15px;
       cursor: pointer;
       position: relative;
+      a{
+        color: _palette(secondary-color);
+
+        &:hover{
+          color: _palette(secondary-color) !important;
+        }
+      }
+      &:before {
+         background: _palette(secondary-color);
+         bottom: 0px;
+         content: "";
+         height: 5px;
+         left: 0;
+         opacity: 0;
+         position: absolute;
+         -webkit-transition: opacity 0.25s ease-in-out;
+         transition: opacity 0.25s ease-in-out;
+         width: 100%;
+       }
 
       &:hover {
         &:before {
-          background: _palette(secondary-color);
-          bottom: 0px;
-          content: "";
-          height: 5px;
-          left: 0;
-          opacity: 1;
-          position: absolute;
-          -webkit-transition: opacity 0.25s ease-in-out;
-          transition: opacity 0.25s ease-in-out;
-          width: 100%;
+         opacity: 1;
         }
       }
+
+      @media screen and (max-width: 500px) {
+        font-size: 16px;
+      }
+
     }
 
   }
@@ -92,13 +117,13 @@
 
     h2 {
       font-weight: 600;
+      font-size: 40px;
       margin-bottom: 20px;
-      color: _palette(secondary-color);
+      color: _palette(primary-blue);
     }
 
-    h3 {
-      line-height: 1.8em;
-      font-size: 22px;
+    div {
+      font-size: 18px;
     }
   }
 
@@ -215,15 +240,17 @@
 }
 
 .about-us-join-team{
-  padding: 80px 0;
+  padding: 40px 0;
   margin-top: 20px;
   text-align: center;
-  background-color: _palette(primary-color);
+  background-color: _palette(primary-blue);
   color: _palette(bg-color);
   font-weight: 600;
 
   p{
-    margin-bottom: 15px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    letter-spacing: 0px;
   }
   button{
     background-color: #028598;
@@ -245,15 +272,16 @@
 
   h2{
     font-weight: 600;
-
-    color: _palette(secondary-color);
+    color: _palette(primary-blue);
     margin-bottom: 10px;
+    font-size: 40px;
   }
   p{
     font-size: 18px;
   }
   .leader-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
     margin-top: 40px;
@@ -267,10 +295,12 @@
         color: #123243;
         font-weight: 700;
         font-size: 20px;
+        text-align: center;
       }
       .title {
         font-size: 16px;
         font-weight: 700;
+        text-align: center;
       }
       @media screen and (max-width: 600px) {
         width: 100%;
@@ -279,12 +309,61 @@
     p{
       margin-bottom: 10px;
       font-size: 16px;
+      text-align: justify;
+    }
+    .social-icons {
+      text-align: center;
+      a{
+        margin-right: 10px;
+      }
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+      }
     }
     @media screen and (max-width: 600px) {
       display: block;
       .user{
         margin-bottom: 40px;
       }
+    }
+  }
+  .board-member-section{
+    img{
+      //border-radius: 15px;
+      box-shadow: 10px 20px 60px 0 rgba(0, 0, 0, 0.06);
+    }
+    .user{
+      width: 20%;
+      margin-bottom: 40px;
+      .name{
+        color: #123243;
+        font-weight: 700;
+        margin-bottom: 0px;
+        font-size: 20px;
+        text-align: center;
+      }
+      .title {
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+      }
+      @media screen and (max-width: 1200px) {
+        width: 25%;
+      }
+      @media screen and (max-width: 1000px) {
+        width: 30%;
+      }
+      @media screen and (max-width: 770px) {
+        width: 50%;
+      }
+      @media screen and (max-width: 500px) {
+        width: 100%;
+      }
+    }
+    @media screen and (min-width: 500.5px) {
+      display: flex;
     }
   }
 }
@@ -304,7 +383,7 @@
     color: #123243;
   }
   p{
-    font-size: 20px;
+    font-size: 18px;
   }
   a {
     color: _palette(secondary-color);

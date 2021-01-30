@@ -71,6 +71,7 @@
   }
 }
 
+
 @media screen and (max-width: 1023px) {
   .coach-wrapper {
     #header {
@@ -89,7 +90,7 @@
     z-index: 12;
     cursor: pointer;
     position: absolute !important;
-    right: 15px;
+    right: 0px;
     top: 50%;
     margin-top: -20px;
 
@@ -97,10 +98,18 @@
       font-size: 24px;
       padding: 5px 0 15px 0;
     }
+    .anticon-close{
+      color: white;
+    }
 
     .not-white {
       color: _palette(fg-bold) !important;
     }
+  }
+  .menu-close-icon{
+    position: fixed !important;
+    right: 15px;
+    top: 40px;
   }
   .menu-fold-content {
     position: fixed;
@@ -108,6 +117,7 @@
     flex-direction: column;
     height: 100vh;
     z-index: 1;
+    top: 0;
     background: rgba(31, 56, 97, 0.99);
     width: 100%;
     justify-content: center;
@@ -122,8 +132,54 @@
       cursor: pointer;
       margin: 0 auto;
     }
+    .folded-menu-collapse{
+      background-color: transparent;
+      border: none;
+      .ant-collapse-item{
+        border-bottom: none;
+        width: 230px;
+        margin: auto;
+        border-bottom: 1px solid rgba(255, 255, 255, .125);
+        .ant-collapse-header{
+          color: #fff;
+          padding: 20px;
+          font-size: 19px;
+          width: 230px;
+          cursor: pointer;
+          margin: 0 auto;
+          .ant-collapse-arrow{
+            right: 0;
+            font-size: 16px;
+          }
+        }
+        .ant-collapse-content-box{
+          padding: 0px;
+        }
+      }
+      .ant-collapse-content{
+        border-top: none;
+        background-color: transparent;
+      }
+    }
   }
 }
+
+.menu-fold-content-close{
+  transition: height 0.4s ease-out 0s;
+  height: 0px;
+  a,.folded-menu-collapse{
+    display: none;
+  }
+}
+.menu-fold-content-open{
+  transition: height 0.4s ease-out 0s;
+  height: 100%;
+  a,.folded-menu-collapse{
+    display: block;
+  }
+}
+
+
 
 @media screen and (max-width: 768px) {
   .coach-wrapper {
