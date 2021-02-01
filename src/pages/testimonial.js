@@ -7,6 +7,11 @@ const Testimonial = (props) => {
   return (
     <Fragment>
       <Layout>
+          <div
+              id='wrapper'
+              className={'coach-wrapper'}
+              style={{paddingBottom: 0}}
+          >
       <section className='home-section-group all-testimonial-section'>
         <Row>
           <h2 style={{ textAlign: 'center' }} className='base-text'> <span className='-highlighted-secondary-text'>Testimonials</span>
@@ -32,6 +37,7 @@ const Testimonial = (props) => {
           </div>
         </Row>
       </section>
+          </div>
       </Layout>
     </Fragment>
   )

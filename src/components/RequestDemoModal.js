@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
-import {Button, Form, Input, InputNumber, Modal} from 'antd';
+import {Link} from "gatsby"
+import {Button, Form, Input, InputNumber, Modal, Radio} from 'antd';
 
 const RequestDemoModal = props => {
     const [openModal, setOpenModal] = useState(false);
@@ -25,12 +26,24 @@ const RequestDemoModal = props => {
         >
             <div className="request-form">
                 <div>
-                    <p className="request-text base-text" >See what Resiliens can do for your workforce</p>
+                    <p className="request-text base-text" >See what Resiliens can do</p>
                     <p className="info-text para-text" style={{marginTop: 5}}>
-                        Are you an employee looking for care? <a className="base-text">Start here</a>
+                        Are you looking for care?
+                        {/*<a className="base-text">Start here</a>*/}
                     </p>
                 </div>
                 <Form name="control-hooks" onSubmit={() => console.log()}>
+                    <Form.Item label="I am a" className="form-item" style={{display: "flex"}}>
+                        {getFieldDecorator('user_type', {
+                            rules: [{required: false}],
+                        })(
+                            <Radio.Group>
+                                <Radio value={"client"}>Client / Patient</Radio>
+                                <Radio value={"Clinician"}>Clinician</Radio>
+                                <Radio value={"Employer"}>Employer</Radio>
+                            </Radio.Group>
+                        )}
+                    </Form.Item>
                 <div className="flex-form">
                     <Form.Item className="form-item">
                         {getFieldDecorator('first_name', {
@@ -86,7 +99,7 @@ const RequestDemoModal = props => {
                 </Form.Item>
                 <p className="para-text info-text">
                     By submitting this form, you are agreeing to Resiliens Health's {' '}
-                    <a href="/" className='base-text'>Privacy Policy</a> and <a href="/" className="base-text">Terms of Use</a>.
+                    <Link to="/privacy" className='base-text'>Privacy Policy</Link> and <Link to="/terms"  className="base-text">Terms of Use</Link>.
                 </p>
                 <Button className="request-demo-btn base-text">Request a Demo</Button>
             </Form>

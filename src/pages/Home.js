@@ -260,7 +260,11 @@ const Home = (props) => {
                                 <img src={findProvider}/>
                             </Col>
                         </Row>*/}
-                        <Row className="card-row" style={{justifyContent: "center"}}>
+
+
+                      {/* ------------ Engage with Community Section ---------  */}
+
+                      {/* <Row className="card-row" style={{justifyContent: "center"}}>
                             <div>
                                 <p
                                     style={{textAlign: 'center'}}
@@ -323,7 +327,7 @@ const Home = (props) => {
                                     </div>
                                 </div>
                             </div>
-                        </Row>
+                        </Row>*/}
                     </Col>
                 </Row>
             </section>

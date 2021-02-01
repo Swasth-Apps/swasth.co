@@ -119,7 +119,7 @@
       font-weight: 600;
       font-size: 40px;
       margin-bottom: 20px;
-      color: _palette(primary-blue);
+      color: #4273f0;
     }
 
     div {
@@ -272,7 +272,7 @@
 
   h2{
     font-weight: 600;
-    color: _palette(primary-blue);
+    color: #4273f0;
     margin-bottom: 10px;
     font-size: 40px;
   }
@@ -317,8 +317,8 @@
         margin-right: 10px;
       }
       img {
-        width: 30px;
-        height: 30px;
+        width: 24px;
+        height: 24px;
         border-radius: 5px;
       }
     }
@@ -335,7 +335,6 @@
       box-shadow: 10px 20px 60px 0 rgba(0, 0, 0, 0.06);
     }
     .user{
-      width: 20%;
       margin-bottom: 40px;
       .name{
         color: #123243;
@@ -348,12 +347,6 @@
         font-size: 16px;
         font-weight: 700;
         text-align: center;
-      }
-      @media screen and (max-width: 1200px) {
-        width: 25%;
-      }
-      @media screen and (max-width: 1000px) {
-        width: 30%;
       }
       @media screen and (max-width: 770px) {
         width: 50%;

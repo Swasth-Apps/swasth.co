@@ -4,11 +4,17 @@ import Privacy from '../components/Privacy'
 
 
 class HomeIndex extends React.Component {
-    
+
     render() {
         return (
             <Layout>
+                <div
+                    id='wrapper'
+                    className={'coach-wrapper'}
+                    style={{paddingBottom: 0}}
+                >
                 <Privacy />
+                </div>
             </Layout>
         )
     }

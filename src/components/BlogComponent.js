@@ -17,6 +17,7 @@ import {
 import ShowMoreText from 'react-show-more-text'
 import moment from 'moment'
 import {colors} from "../helper/helper";
+import img from "../assets/images/Image(2).png";
 
 const currentPageUrl = typeof window !== 'undefined' ? window.location.href : '';
 
@@ -44,6 +45,84 @@ class BlogComponent extends React.Component {
     return (
       <section className='feature-section-group blog-section-container blog-section-group'>
         {this.props.helmet || ''}
+        <div className="initial-blog">
+            <div className="horizontal-card">
+              {featuredpost ? <div className='ribbon ribbon-top-right ribbon-purple'><span>Featured</span></div> : null}
+              <div className="blog-img-flex">
+                <img
+                    alt
+                    src={image}
+                    className='section-img'
+                />
+              </div>
+              <div className="blog-text">
+                <div className='category-tags para-text'>
+                  {categories?.category?.map(({title, slug}, i) =>
+                      <Link to={`/category/${slug}`} className={colors[i % 3]}>
+                        <p className='para-text'>
+                          {title}
+                        </p>
+                      </Link>,
+                  )}
+                </div>
+                <p className='para-text blog-date'>
+                  {moment(date).format("MMMM DD, YYYY")}
+                </p>
+                <h3 className='-font-bold base-text navy-blue base-text'>
+                  {title}</h3>
+                <div className='subtitle base-text navy-blue para-text horizontal-card-detail-description'>
+                  {description}
+                </div>
+                {/**/}
+                {/*  {excerpt}*/}
+                {/*</div>*/}
+                <div className='blog-top-section-user'>
+                  <div className='user-info'>
+                    <img src={sf}/>
+                    <p className='para-text blog-date user-name'>{username}</p>
+                  </div>
+                  <div className='social-icons'>
+                    <div className="social-button">
+                      <FacebookShareButton url={currentPageUrl} quote={title} className="social__share-button">
+                        <FacebookIcon size={32} round />
+                      </FacebookShareButton>
+
+                      <div>
+                        <FacebookShareCount url={currentPageUrl} className="social__share-count">
+                          {count => count}
+                        </FacebookShareCount>
+                      </div>
+                    </div>
+                    <div className="social-button">
+                      <TwitterShareButton url={currentPageUrl} quote={title} className="social__share-button">
+                        <TwitterIcon size={32} round />
+                      </TwitterShareButton>
+                    </div>
+                    <div className="social-button">
+                      <LinkedinShareButton url={currentPageUrl} quote={title} className="social__share-button">
+                        <LinkedinIcon size={32} round />
+                      </LinkedinShareButton>
+                    </div>
+                    <div className="social-button">
+                      <RedditShareButton url={currentPageUrl} quote={title} className="social__share-button">
+                        <RedditIcon size={32} round />
+                      </RedditShareButton>
+
+                      <div>
+                        <RedditShareCount url={currentPageUrl} className="social__share-count">
+                          {count => count}
+                        </RedditShareCount>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+        </div>
+
+
+{/*
         <Row className='initial-section card-row -margin-bottom -row-flex col-reverse blog-section'
              style={{paddingRight:0 }}
              gutter={16}>
@@ -66,13 +145,12 @@ class BlogComponent extends React.Component {
                 </Link>
               )}
             </div>
-            {/*{categories?.category?.map(({title,slug}) =><span className='category-text'>{title}</span>)}*/}
+            {categories?.category?.map(({title,slug}) =><span className='category-text'>{title}</span>)}
             <p className='para-text blog-date'>{moment(date).format("MMMM DD, YYYY")}</p>
             <h2 className='-font-bold base-text base-text'>
               {title}</h2>
             <p className='para-text'>
             <ShowMoreText
-              /* Default options */
               lines={3}
               more='Show more'
               less='Show less'
@@ -121,7 +199,9 @@ class BlogComponent extends React.Component {
             </div>
           </Col>
         </Row>
-        <div className="after-section">
+        */}
+
+        <div className="after-section initial-blog">
         <Row className='card-row -margin-bottom -row-flex divider col-reverse'
              style={{ alignItems:'flex-start', }}
              gutter={16}>
@@ -180,7 +260,7 @@ class BlogComponent extends React.Component {
           </Col>
           {relatedPosts?.length ?
           <Col md={10} className='card-col image-col recent-story-container'>
-            <h3 className='base-text navy-blue'>Related Stories</h3>
+            <h3 className='base-text navy-blue related-story-title'>Related Stories</h3>
             <div className='recent-story recent-stories-section'>
               {relatedPosts?.map(({node:{frontmatter,fields}}) =>
               <div className='story'>

@@ -1,6 +1,6 @@
 import React, {Fragment, useEffect, useState} from 'react'
 import {Button, Tabs} from 'antd'
-import topBg from "../assets/images/top-bg@3x.png";
+import topBg from "../assets/images/pexels-kaboompics-com-6335.jpg";
 //import therapyGraphic from '../assets/images/Therapy-section@3x.png'
 
 const {TabPane} = Tabs;
@@ -38,7 +38,8 @@ const Home = (props) => {
                 style={{background: `url(${topBg}) no-repeat center center fixed`, backgroundSize: "cover"}}
             >
                 <div className="about-us-banner-content padding-20">
-                    <h2 className="base-text">We are bringing Evidence-based <span className="-highlighted-text">Behavioral</span>  Healthcare to everyone.</h2>
+                    <h2 className="base-text">We are bringing Evidence-based <span
+                        className="-highlighted-text">Behavioral</span> Healthcare to everyone.</h2>
                     {/*<h4>
                         Join us in building a healthy world
                     </h4>
@@ -193,17 +194,65 @@ const Home = (props) => {
                 {/*<p>Our technologists, mental health experts, and business leaders driving the strategy behind Swasth.</p>  */}
                 <div className="leader-section board-member-section para-text">
                     <div className="user">
+                        <img src={require("../assets/images/philip.jpg")}/>
+                        <p className="name base-text">Philip Zimbardo </p>
+                        <p className="title para-text">Professor Emeritus @ Stanford</p>
+                        <p className="para-text social-icons">
+                            <a href="https://www.linkedin.com/in/philzimbardo/">
+                                <img src={require("../assets/images/linkedin.png")}/>
+                            </a> <a href="http://www.zimbardo.com/">
+                            <img src={require("../assets/images/website.png")}/>
+                        </a>
+                        </p>
+                    </div>
+                    <div className="user">
+                        <img src={require("../assets/images/image-placeholder.png")}/>
+                        <p className="name base-text">TBA</p>
+                        <p className="title para-text">TBA</p>
+                        <p className="para-text social-icons">
+                            <a href="">
+                                <img src={require("../assets/images/linkedin.png")}/>
+                            </a>
+                        </p>
+                    </div>
+                    <div className="user">
+                        <img src={require("../assets/images/image-placeholder.png")}/>
+                        <p className="name base-text">TBA</p>
+                        <p className="title para-text">TBA</p>
+                        <p className="para-text social-icons">
+                            <a href="">
+                                <img src={require("../assets/images/linkedin.png")}/>
+                            </a>
+                        </p>
+                    </div>
+                    <div className="user">
+                        <img src={require("../assets/images/brian.jpg")}/>
+                        <p className="name base-text">Brian Thomas</p>
+                        <p className="title para-text">Business Executive</p>
+                        <p className="para-text social-icons">
+                            <a href="">
+                                <img src={require("../assets/images/linkedin.png")}/>
+                            </a>
+                        </p>
+                    </div>
+                    <div className="user">
+                        <img src={require("../assets/images/daniel.jpeg")}/>
+                        <p className="name base-text">Daniel Blanaru</p>
+                        <p className="title para-text">Chief Clinical Officer</p>
+                        <p className="para-text social-icons">
+                            <a href="https://www.linkedin.com/in/danielblanaru/">
+                                <img src={require("../assets/images/linkedin.png")}/>
+                            </a>
+                        </p>
+                    </div>
+                    <div className="user">
                         <img src={require("../assets/images/gana.png")}/>
                         <p className="name base-text"> Gana Pemmanda </p>
                         <p className="title para-text">Co-founder & CEO</p>
                         <p className="para-text social-icons">
-                            <a href="https://swasth.co">
-                                <img
-                                    src="https://go.lyrahealth.com/l/427662/2020-06-17/6kh9qs/427662/225425/linkedin_25px_marine.png"/>
-                            </a> <a href="https://swasth.co">
-                            <img
-                                src="https://go.lyrahealth.com/l/427662/2020-06-17/6kh9qs/427662/225425/linkedin_25px_marine.png"/>
-                        </a>
+                            <a href="https://www.linkedin.com/in/ganapemmanda/">
+                                <img src={require("../assets/images/linkedin.png")}/>
+                            </a>
                         </p>
                     </div>
                     <div className="user">
@@ -211,69 +260,29 @@ const Home = (props) => {
                         <p className="name base-text">Dr. Yotam Heineberg </p>
                         <p className="title para-text">Chief Clinical Officer</p>
                         <p className="para-text social-icons">
-                            <a href="https://swasth.co">
-                                <img
-                                    src="https://go.lyrahealth.com/l/427662/2020-06-17/6kh9qs/427662/225425/linkedin_25px_marine.png"/>
-                            </a> <a href="https://swasth.co">
-                            <img
-                                src="https://go.lyrahealth.com/l/427662/2020-06-17/6kh9qs/427662/225425/linkedin_25px_marine.png"/>
-                        </a>
+                            <a href="">
+                                <img src={require("../assets/images/linkedin.png")}/>
+                            </a>
                         </p>
                     </div>
                     <div className="user">
-                        <img src={require("../assets/images/brian.jpg")}/>
-                        <p className="name base-text"> Brian Thomas </p>
-                        <p className="title para-text">Advisor</p>
+                        <img src={require("../assets/images/image-placeholder.png")}/>
+                        <p className="name base-text">TBA</p>
+                        <p className="title para-text">TBA</p>
                         <p className="para-text social-icons">
-                            <a href="https://swasth.co">
-                                <img
-                                    src="https://go.lyrahealth.com/l/427662/2020-06-17/6kh9qs/427662/225425/linkedin_25px_marine.png"/>
-                            </a> <a href="https://swasth.co">
-                            <img
-                                src="https://go.lyrahealth.com/l/427662/2020-06-17/6kh9qs/427662/225425/linkedin_25px_marine.png"/>
-                        </a>
+                            <a href="">
+                                <img src={require("../assets/images/linkedin.png")}/>
+                            </a>
                         </p>
                     </div>
                     <div className="user">
-                        <img src={require("../assets/images/yotam.png")}/>
-                        <p className="name base-text">Dr. Yotam Heineberg </p>
-                        <p className="title para-text">Chief Clinical Officer</p>
+                        <img src={require("../assets/images/image-placeholder.png")}/>
+                        <p className="name base-text">TBA</p>
+                        <p className="title para-text">TBA</p>
                         <p className="para-text social-icons">
-                            <a href="https://swasth.co">
-                                <img
-                                    src="https://go.lyrahealth.com/l/427662/2020-06-17/6kh9qs/427662/225425/linkedin_25px_marine.png"/>
-                            </a> <a href="https://swasth.co">
-                            <img
-                                src="https://go.lyrahealth.com/l/427662/2020-06-17/6kh9qs/427662/225425/linkedin_25px_marine.png"/>
-                        </a>
-                        </p>
-                    </div>
-                    <div className="user">
-                        <img src={require("../assets/images/brian.jpg")}/>
-                        <p className="name base-text"> Brian Thomas </p>
-                        <p className="title para-text">Advisor</p>
-                        <p className="para-text social-icons">
-                            <a href="https://swasth.co">
-                                <img
-                                    src="https://go.lyrahealth.com/l/427662/2020-06-17/6kh9qs/427662/225425/linkedin_25px_marine.png"/>
-                            </a> <a href="https://swasth.co">
-                            <img
-                                src="https://go.lyrahealth.com/l/427662/2020-06-17/6kh9qs/427662/225425/linkedin_25px_marine.png"/>
-                        </a>
-                        </p>
-                    </div>
-                    <div className="user">
-                        <img src={require("../assets/images/yotam.png")}/>
-                        <p className="name base-text">Dr. Yotam Heineberg </p>
-                        <p className="title para-text">Chief Clinical Officer</p>
-                        <p className="para-text social-icons">
-                            <a href="https://swasth.co">
-                                <img
-                                    src="https://go.lyrahealth.com/l/427662/2020-06-17/6kh9qs/427662/225425/linkedin_25px_marine.png"/>
-                            </a> <a href="https://swasth.co">
-                            <img
-                                src="https://go.lyrahealth.com/l/427662/2020-06-17/6kh9qs/427662/225425/linkedin_25px_marine.png"/>
-                        </a>
+                            <a href="">
+                                <img src={require("../assets/images/linkedin.png")}/>
+                            </a>
                         </p>
                     </div>
                 </div>

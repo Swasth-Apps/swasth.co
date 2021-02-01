@@ -20,7 +20,7 @@
   }
   p,div,li{
     letter-spacing: 0.05px;
-    font-size: 20px;
+    font-size: 18px;
   }
   h2,h3,h4,p{
     margin-bottom: 10px;
@@ -457,6 +457,85 @@
     overflow: hidden;
     margin-bottom: 20px;
   }
+  .horizontal-card-detail-description{
+    margin-bottom: 20px;
+  }
+  .blog-user, .blog-top-section-user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+
+    .user-info {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      font-weight: bold;
+      color: _palette(dark-gray);
+      font-family: "Airbnb Cereal App Book", Helvetica !important;
+
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-right: 10px;
+      }
+    }
+
+    .social-icons {
+      i {
+        border-radius: 50px;
+        color: _palette(bg);
+        font-size: 16px;
+        padding: 10px;
+        background: _palette(fg-bold);
+        margin-left: 10px;
+      }
+    }
+
+    .social-button {
+      vertical-align: middle;
+      display: inline-block;
+      margin-right: 10px;
+      text-align: center;
+    }
+
+    .social__share-count {
+      display: none;
+      justify-content: center;
+      white-space: nowrap;
+      overflow: visible;
+      width: 0;
+      margin-top: 3px;
+      font-size: 12px;
+    }
+
+    .social__share-button {
+      cursor: pointer;
+      box-shadow: none;
+    }
+
+    .social__share-button:hover:not(:active) {
+      opacity: 0.75;
+    }
+
+    .social__custom-icon {
+      width: 32px;
+      height: 32px;
+    }
+
+
+    @media screen and (max-width: 470px) {
+      flex-direction: column;
+      align-items: flex-start;
+      .user-info {
+        margin-bottom: 10px;
+        margin-left: -10px;
+      }
+    }
+
+  }
+
 }
 .initial-blog{
   width: 100%;

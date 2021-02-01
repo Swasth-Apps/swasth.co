@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Col, Row } from 'antd'
-import bannerGraphic from '../assets/images/top-right-image.png'
+import bannerGraphic from '../assets/images/home-woman.jpeg'
 import topBg from '../assets/images/top-bg@3x.png'
 
 const Banner = (props) => {

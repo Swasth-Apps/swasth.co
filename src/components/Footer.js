@@ -1,11 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
 import resilienceLogo from '../assets/images/Resiliens-footer-Logo.png'
 import unitedStates from '../assets/images/united-states.png'
 import {Link} from 'gatsby'
 import {Button, Col, Divider, Row} from 'antd'
 import topBg from "../assets/images/top-bg@3x.png";
+import RequestDemoModal from "./RequestDemoModal";
 
-const Footer = (props) => (
+const Footer = (props) => {
+    const [modal, setModal] = useState(false)
+return(
     <footer
         id={'footer'}
         style={{paddingTop: 100,
@@ -14,11 +17,13 @@ const Footer = (props) => (
         }}
         // style={props.hideFooter ? { height: 550 } : null}
     >
+        <RequestDemoModal modal={modal} onClose={() => setModal(false)}/>
+
         <div className="inner">
             <div style={{textAlign: "center"}}>
                 <div className="footer-heading card-row">
                     <p className="bottom-space white-text base-text">Want to learn more about Resiliens ?</p>
-                    <Button className="request-demo-btn" style={{margin: "20px 0"}}>Get Started</Button>
+                    <Button className="request-demo-btn" style={{margin: "20px 0"}} onClick={() => setModal(true)}>Get Started</Button>
                 </div>
             </div>
             <div>
@@ -55,7 +60,7 @@ const Footer = (props) => (
                                         <ul className="list-unstyled iconlist ml-0">
                                             <li><Link to="/about-us" className="para-text">About Us </Link></li>
                                             <li><a href="https://clinician.swasth.co" className="para-text">Clinicians</a></li>
-                                            <li><a href="#" className="para-text">Members</a></li>
+                                            <li><a href="#" className="para-text">Employers</a></li>
                                             <li><a href="https://healthcoach.swasth.co/" className="para-text">Coaching</a></li>
                                         </ul>
 
@@ -82,12 +87,12 @@ const Footer = (props) => (
                                 <Col className="col-md-8" md={8}>
                                     <div className="widget clearfix">
 
-                                        <h5 className="white-text base-text">Resource</h5>
+                                        <h5 className="white-text base-text">Resources</h5>
 
                                         <ul className="list-unstyled iconlist">
-                                            <li><Link className="para-text" to="/">Resources</Link></li>
+                                            {/*                                            <li><Link className="para-text" to="/">Resources</Link></li>
                                             <li><Link className="para-text" to="/">Webinars</Link></li>
-                                            <li><Link className="para-text" to="/">Coronavirus</Link></li>
+                                            <li><Link className="para-text" to="/">Coronavirus</Link></li>*/}
                                             <li><Link className="para-text" to="/blog">Blog</Link></li>
                                         </ul>
 
@@ -127,5 +132,6 @@ const Footer = (props) => (
         </div>
     </footer>
 )
+}
 
 export default Footer

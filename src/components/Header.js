@@ -31,10 +31,10 @@ const Header = (props) => {
                                 <Dropdown overlay={<div className="header-menu-submenu">
                                     <a
                                         target="_blank"
-                                        href="https://clinician.swasth.co"
+                                        href="https://resilify.org"
                                         className='menu-content-item'>
                                         <div className={`menu-content para-text`}>
-                                            Self Help App
+                                            Self Help App (Resilify)
                                         </div>
                                     </a>
                                     <a target="_blank" href="https://clinician.swasth.co"
@@ -121,10 +121,10 @@ const Header = (props) => {
                                 <div className="header-menu-submenu">
                                     <a
                                         target="_blank"
-                                        href="https://clinician.swasth.co"
+                                        href="https://resilify.org"
                                         className='menu-content-item'>
                                         <div className={`menu-content para-text`}>
-                                            Self Help App
+                                            Self Help App (Resilify)
                                         </div>
                                     </a>
                                     <a target="_blank" href="https://clinician.swasth.co"
