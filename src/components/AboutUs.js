@@ -1,21 +1,7 @@
 import React, {Fragment, useEffect, useState} from 'react'
 import {Button, Tabs} from 'antd'
-import topBg from "../assets/images/pexels-kaboompics-com-6335.jpg";
+import topBg from "../assets/images/about-us-banner.jpg";
 //import therapyGraphic from '../assets/images/Therapy-section@3x.png'
-
-const {TabPane} = Tabs;
-
-const img1 = <svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg">
-    <g transform="translate(-66 -2818)" fill="none" fill-rule="evenodd">
-        <path d="M66 2818h420v300H66z" fill="#96D5CC"></path>
-        <path fill="#7CCBBF" d="M66 2967h420v151H66z"></path>
-        <path
-            d="M278.044 3033c36.385 0 72.036-22 106.956-66-34.92-44-70.571-66-106.956-66-36.384 0-73.066 22-110.044 66 36.978 44 73.66 66 110.044 66z"
-            fill="#FFF" opacity=".5"></path>
-        <ellipse fill="#7CCBBF" cx="277.5" cy="2967" rx="37.5" ry="38"></ellipse>
-    </g>
-</svg>
-
 const Home = (props) => {
     const [isMobile, setIsMobile] = useState(false)
     useEffect(() => {
