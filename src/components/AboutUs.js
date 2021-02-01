@@ -3,9 +3,9 @@ import {Button, Tabs} from 'antd'
 import topBg from "../assets/images/about-us-banner.jpg";
 //import therapyGraphic from '../assets/images/Therapy-section@3x.png'
 const Home = (props) => {
-    const [isMobile, setIsMobile] = useState(false)
+    const [isMobile, setIsMobile] = useState(false);
     useEffect(() => {
-        setIsMobile(window.innerWidth < 768)
+        setIsMobile(window.innerWidth < 768);
         window.addEventListener("resize", () => {
             setIsMobile(window.innerWidth < 768)
         })
