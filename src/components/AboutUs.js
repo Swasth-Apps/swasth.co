@@ -224,7 +224,7 @@ const Home = (props) => {
                     <div className="user">
                         <img src={require("../assets/images/daniel.jpeg")}/>
                         <p className="name base-text">Daniel Blanaru</p>
-                        <p className="title para-text">Chief Clinical Officer</p>
+                        <p className="title para-text">Chief Growth Officer</p>
                         <p className="para-text social-icons">
                             <a href="https://www.linkedin.com/in/danielblanaru/">
                                 <img src={require("../assets/images/linkedin.png")}/>
