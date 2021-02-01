@@ -16,7 +16,7 @@ import CBTCompanionScreen from '../assets/images/CBT_companion_screen.png'
 import skillsCoaching from '../assets/images/skillsCoaching.png'
 import programs from '../assets/images/programs.png'
 import ComprehensiveHealth from '../assets/images/comprehensiveHealth.png'
-import ProgramAdapts from '../assets/images/Pprogram-image.png'
+import ProgramAdapts from '../assets/images/pexels-kaboompics-com-6335.jpg'
 import Banner from '../components/Banner'
 
 const {TabPane} = Tabs;

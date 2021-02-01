@@ -24,8 +24,8 @@ const Home = (props) => {
                 style={{background: `url(${topBg}) no-repeat center center fixed`, backgroundSize: "cover"}}
             >
                 <div className="about-us-banner-content padding-20">
-                    <h2 className="base-text">We are bringing Evidence-based <span
-                        className="-highlighted-text">Behavioral</span> Healthcare to everyone.</h2>
+                    <h2 className="base-text">We are bringing <span
+                        className="-highlighted-text">Evidence-based </span><br />Behavioral Healthcare to everyone.</h2>
                     {/*<h4>
                         Join us in building a healthy world
                     </h4>
@@ -232,6 +232,16 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className="user">
+                        <img src={require("../assets/images/image-placeholder.png")}/>
+                        <p className="name base-text">TBA</p>
+                        <p className="title para-text">TBA</p>
+                        <p className="para-text social-icons">
+                            <a href="">
+                                <img src={require("../assets/images/linkedin.png")}/>
+                            </a>
+                        </p>
+                    </div>
+                    <div className="user">
                         <img src={require("../assets/images/gana.png")}/>
                         <p className="name base-text"> Gana Pemmanda </p>
                         <p className="title para-text">Co-founder & CEO</p>
@@ -251,16 +261,7 @@ const Home = (props) => {
                             </a>
                         </p>
                     </div>
-                    <div className="user">
-                        <img src={require("../assets/images/image-placeholder.png")}/>
-                        <p className="name base-text">TBA</p>
-                        <p className="title para-text">TBA</p>
-                        <p className="para-text social-icons">
-                            <a href="">
-                                <img src={require("../assets/images/linkedin.png")}/>
-                            </a>
-                        </p>
-                    </div>
+
                     <div className="user">
                         <img src={require("../assets/images/image-placeholder.png")}/>
                         <p className="name base-text">TBA</p>
