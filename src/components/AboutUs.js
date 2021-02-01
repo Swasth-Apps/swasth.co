@@ -180,7 +180,7 @@ const Home = (props) => {
                 {/*<p>Our technologists, mental health experts, and business leaders driving the strategy behind Swasth.</p>  */}
                 <div className="leader-section board-member-section para-text">
                     <div className="user">
-                        <img src={require("../assets/images/philip.jpg")}/>
+                        <img src={require("../assets/images/philip.png")}/>
                         <p className="name base-text">Philip Zimbardo </p>
                         <p className="title para-text">Professor Emeritus @ Stanford</p>
                         <p className="para-text social-icons">
