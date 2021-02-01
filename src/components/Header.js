@@ -40,7 +40,7 @@ const Header = (props) => {
                                     <a target="_blank" href="https://clinician.swasth.co"
                                        className='menu-content-item'>
                                         <div className={`menu-content para-text`}>
-                                            Clinicians Platform
+                                            Clinician Platform
                                         </div>
                                     </a>
                                     <a target="_blank" href="https://healthcoach.swasth.co"
@@ -130,7 +130,7 @@ const Header = (props) => {
                                     <a target="_blank" href="https://clinician.swasth.co"
                                        className='menu-content-item'>
                                         <div className={`menu-content para-text`}>
-                                            Clinicians Platform
+                                            Clinician Platform
                                         </div>
                                     </a>
                                     <a target="_blank" href="https://healthcoach.swasth.co"
