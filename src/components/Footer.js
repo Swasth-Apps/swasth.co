@@ -7,7 +7,7 @@ import topBg from "../assets/images/top-bg@3x.png";
 import RequestDemoModal from "./RequestDemoModal";
 
 const Footer = (props) => {
-    const [modal, setModal] = useState(false)
+    const [modal, setModal] = useState(false);
 return(
     <footer
         id={'footer'}
