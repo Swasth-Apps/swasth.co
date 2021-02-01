@@ -1,5 +1,16 @@
 .terms-section-group {
-  transform: translateY(2%) !important;
+  p,li,u{
+    font-family: 'Avenir', Helvetica;
+    span {
+      font-family: 'Avenir', Helvetica;
+    }
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-family: "Airbnb Cereal App Bold";
+    font {
+      font-family: "Airbnb Cereal App Bold";
+    }
+  }
 }
 
 .header-content {
@@ -631,17 +642,6 @@
   right: 0;
 }
 
-@media (max-width: 649px) {
-  .terms-section-group {
-    transform: translateY(0.5%) !important;
-  }
-}
-
-@media (min-width: 650px) and (max-width: 768.5px) {
-  .terms-section-group {
-    transform: translateY(1%);
-  }
-}
 
 @media (max-width: 780px) {
   #wrapper {
