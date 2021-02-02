@@ -81,7 +81,7 @@ We could then assess improvements in depression during the course as well as end
 
 ## DBT Coach App
 
-We have developed a smart phone app (available both on iOS and Android platforms) called [DBT Coach](https://www.swasth.co/dbt-coach/). 
+We have developed a smart phone app (available both on iOS and Android platforms) called [DBT Coach](https://www.resiliens.com/dbt-coach/). 
 
 ![](/img/dbt-coach-app.png)
 
@@ -97,7 +97,7 @@ The app enables:
 Using advanced AI techniques, DBT Coach extracts important pieces of context from exercise and journal entries and suggests skills that best work in a particular situation given the context.
 
 \
-If you are a clinician interested in a Behavioral Health Platform built for Evidence-Based treatment approaches please contact us at info@swasth.co.
+If you are a clinician interested in a Behavioral Health Platform built for Evidence-Based treatment approaches please contact us at info@resiliens.com.
 
 ## References
 

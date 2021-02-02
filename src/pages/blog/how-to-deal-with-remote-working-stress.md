@@ -61,7 +61,7 @@ It's highly essential to maintain your routine even when you are not setting you
 
 ### 4. Take Breaks
 
-Taking breaks in between work promotes mental wellness, boosting your productivity and cognitive ability. When possible, take a break amidst work for a short walk and give yourself a much-needed change of surroundings or indulge in diaphragmatic breathing. One of the approaches as suggested in [DBT Coach](https://www.swasth.co/dbt-coach) app, is diaphragmatic breathing - recommended to lower stress levels and anger issues, resulting from various underlying circumstances like overwhelming work. It is also a good idea to have lunch at the right time to avoid overworking.
+Taking breaks in between work promotes mental wellness, boosting your productivity and cognitive ability. When possible, take a break amidst work for a short walk and give yourself a much-needed change of surroundings or indulge in diaphragmatic breathing. One of the approaches as suggested in [DBT Coach](https://www.resiliens.com/dbt-coach) app, is diaphragmatic breathing - recommended to lower stress levels and anger issues, resulting from various underlying circumstances like overwhelming work. It is also a good idea to have lunch at the right time to avoid overworking.
 
 <!--StartFragment-->
 
@@ -83,7 +83,7 @@ If you notice that remote work stress is taking a toll over you and affecting yo
 
 ## Conclusion
 
-Remote working stress has become a global issue, especially during this COVID-19 period, when situations are despicable outside and unmanageable inside. The United Nations claims that work stress is a collective challenge that we all must tackle and deal with together. There is still much to learn about working remotely and how to deal with resulting mental stress. At present, various online [](https://www.swasth.co/dbt-coach/)apps that focus on evidence based modalities such as CBT as used in [CBT Companion](https://www.swasth.co/cbt-companion)  to helping people to work on stress effectively. Please contact your therapist if you think your symptoms are unbearable and you need help.
+Remote working stress has become a global issue, especially during this COVID-19 period, when situations are despicable outside and unmanageable inside. The United Nations claims that work stress is a collective challenge that we all must tackle and deal with together. There is still much to learn about working remotely and how to deal with resulting mental stress. At present, various online [](https://www.resiliens.com/dbt-coach/)apps that focus on evidence based modalities such as CBT as used in [CBT Companion](https://www.resiliens.com/cbt-companion)  to helping people to work on stress effectively. Please contact your therapist if you think your symptoms are unbearable and you need help.
 
 <!--EndFragment-->
 

@@ -109,7 +109,7 @@ Cognitive behavioral therapy has been proven the most successful therapy to cure
 
 <!--StartFragment-->
 
-With the advancement of technology, there is an application for almost everything. A featureful, and user-friendly [CBT therapy app](https://www.swasth.co/cbt-companion/) under the guidance of experts can help you a lot.
+With the advancement of technology, there is an application for almost everything. A featureful, and user-friendly [CBT therapy app](https://www.resiliens.com/cbt-companion/) under the guidance of experts can help you a lot.
 
 Lastly, it is you, who has to think about the authenticity of this and take an initiative for this. Very well said by Roy T. Bennett:
 

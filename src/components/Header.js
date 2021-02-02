@@ -29,24 +29,25 @@ const Header = (props) => {
                                 {/*<div className={`menu-content hide-content ${props.isLogoWhite ? 'white-text':''}`} href="javascript:;">Features</div>*/}
                                 {/*</Link>*/}
                                 <Dropdown overlay={<div className="header-menu-submenu">
+                                   
+                                    <a target="_blank" href="https://clinician.resiliens.com"
+                                       className='menu-content-item'>
+                                        <div className={`menu-content para-text`}>
+                                            Clinician Platform
+                                        </div>
+                                    </a>
+                                    <a target="_blank" href="https://healthcoach.resiliens.com"
+                                       className='menu-content-item'>
+                                        <div className={`menu-content para-text`}>
+                                            Coaching Platform
+                                        </div>
+                                    </a>
                                     <a
                                         target="_blank"
                                         href="https://resilify.org"
                                         className='menu-content-item'>
                                         <div className={`menu-content para-text`}>
-                                            Self Help App (Resilify)
-                                        </div>
-                                    </a>
-                                    <a target="_blank" href="https://clinician.swasth.co"
-                                       className='menu-content-item'>
-                                        <div className={`menu-content para-text`}>
-                                            Clinicians Platform
-                                        </div>
-                                    </a>
-                                    <a target="_blank" href="https://healthcoach.swasth.co"
-                                       className='menu-content-item'>
-                                        <div className={`menu-content para-text`}>
-                                            Coaching Platform
+                                            Reslify (Self Help)
                                         </div>
                                     </a>
                                 </div>}
@@ -65,6 +66,13 @@ const Header = (props) => {
                                         className='menu-content-item'>
                                         <div className={`menu-content para-text`}>
                                             About Us
+                                        </div>
+                                    </Link>
+                                    <Link
+                                        to="/"
+                                        className='menu-content-item'>
+                                        <div className={`menu-content para-text`}>
+                                            Press
                                         </div>
                                     </Link>
                                 </div>}
@@ -119,24 +127,24 @@ const Header = (props) => {
                                 Solutions
                             </div>} key="Solutions" >
                                 <div className="header-menu-submenu">
+                                    <a target="_blank" href="https://clinician.resiliens.com"
+                                       className='menu-content-item'>
+                                        <div className={`menu-content para-text`}>
+                                            Clinician Platform
+                                        </div>
+                                    </a>
+                                    <a target="_blank" href="https://healthcoach.resiliens.com"
+                                       className='menu-content-item'>
+                                        <div className={`menu-content para-text`}>
+                                           Behavioral Coaching Platform
+                                        </div>
+                                    </a>
                                     <a
                                         target="_blank"
                                         href="https://resilify.org"
                                         className='menu-content-item'>
                                         <div className={`menu-content para-text`}>
-                                            Self Help App (Resilify)
-                                        </div>
-                                    </a>
-                                    <a target="_blank" href="https://clinician.swasth.co"
-                                       className='menu-content-item'>
-                                        <div className={`menu-content para-text`}>
-                                            Clinicians Platform
-                                        </div>
-                                    </a>
-                                    <a target="_blank" href="https://healthcoach.swasth.co"
-                                       className='menu-content-item'>
-                                        <div className={`menu-content para-text`}>
-                                            Coaching Platform
+                                            Resilify (Self Help)
                                         </div>
                                     </a>
                                 </div>
@@ -155,10 +163,10 @@ const Header = (props) => {
                                 </div>
                             </Collapse.Panel>
                         </Collapse>
-                       {/* <a href="https://clinician.swasth.co">
+                       {/* <a href="https://clinician.resiliens.com">
                             <div className="menu-content">Clinicians</div>
                         </a>
-                        <a href="https://healthcoach.swasth.co">
+                        <a href="https://healthcoach.resiliens.com">
                             <div className="menu-content">Coaching</div>
                         </a>*/}
                         <a href="/blog">

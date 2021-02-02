@@ -34,7 +34,7 @@ tags:
 ---
 <!--StartFragment-->
 
-Odds are, you've heard about [Dialectical Behavior Therapy (DBT)](https://www.swasth.co/blog/what-is-dialectical-behavior-therapy/). In mental wellness, DBT has been increasingly getting popular over the years because of its result-oriented approach and time-saving skill-sets. Regardless of whether you originally found out about it from a companion, relative, an advisor or specialist, or even Selena Gomez, there's a motivation behind why specialists are grasping this evidence-based treatment methodology and are accepting specialty certifications to practiceDBT.
+Odds are, you've heard about [Dialectical Behavior Therapy (DBT)](https://www.resiliens.com/blog/what-is-dialectical-behavior-therapy/). In mental wellness, DBT has been increasingly getting popular over the years because of its result-oriented approach and time-saving skill-sets. Regardless of whether you originally found out about it from a companion, relative, an advisor or specialist, or even Selena Gomez, there's a motivation behind why specialists are grasping this evidence-based treatment methodology and are accepting specialty certifications to practiceDBT.
 
 In any case, on the off chance that you've done any examination in endeavors to discover treatment for depression, you may have read that Dialectical Behavior Therapy was first evolved to treat Borderline Personality Disorder. So, does DBT really work forDepression? Well, the fact is when Dialectical Behavior Therapy (DBT) was produced for treating Borderline Personality Disorder (BPD), it was additionally discovered to be a successful treatment for depression and other mental health concerns.
 
@@ -118,7 +118,7 @@ Finally, DBT firmly underscores the connection between the absence of self-care 
 
 <!--StartFragment-->
 
-This is only a short sneak look of how DBT can help with Depression. Suppose you are struggling with Depression or significant emotional dysregulation and/or behavioral issues. In that case, Swasth's comprehensive[Dialectical Behavior Therapy (DBT) Coach](https://www.swasth.co/dbt-coach/) can help you work up your way towards better mental health free from elements of destructive behaviors and depressive thoughts.
+This is only a short sneak look of how DBT can help with Depression. Suppose you are struggling with Depression or significant emotional dysregulation and/or behavioral issues. In that case, Swasth's comprehensive[Dialectical Behavior Therapy (DBT) Coach](https://www.resiliens.com/dbt-coach/) can help you work up your way towards better mental health free from elements of destructive behaviors and depressive thoughts.
 
 <!--EndFragment-->
 

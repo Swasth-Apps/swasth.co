@@ -129,9 +129,9 @@ Researchers have also found that DBT is effective regardless of age, sex, sexual
 
 If you believe that you or a loved one may benefit from DBT, please seek guidance from a doctor or healthcare professional trained in this treatment approach. DBT therapists aren't always easy to locate.
 
-[Try DBT With an Online Therapist](https://findprovider.swasth.co)
+[Try DBT With an Online Therapist](https://findprovider.resiliens.com)
 
-[](https://findprovider.swasth.co)Was this page helpful?
+[](https://findprovider.resiliens.com)Was this page helpful?
 
 Article Sources
 

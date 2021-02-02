@@ -68,7 +68,7 @@ Cognitive Behavior Therapy is a form of psychotherapy where a person learns to m
 
 CBT helps people with many problems, ranging from stress to chronic depression. The therapist and patient can work together to address goals and ensure positive results. However, the individual must be an active participant to benefit.
 
-Anyone considering Cognitive Behavior Therapy for themselves or their close ones must consult a trained CBT professional. At times, treatments can be costly, but self-help therapies are available. However, if your symptoms get out of hand and start to interfere with your daily living, it's advisable to consult a professional therapist immediately. In case you are wondering where to start, Swasth has developed a feature-rich solution named [CBT Companion](https://www.swasth.co/cbt-companion/) for augmenting the experience of evidence-based therapy sessions, at ease. You can now engage better with your therapist using this robust [Behavioral Health Platform](https://www.swasth.co/).
+Anyone considering Cognitive Behavior Therapy for themselves or their close ones must consult a trained CBT professional. At times, treatments can be costly, but self-help therapies are available. However, if your symptoms get out of hand and start to interfere with your daily living, it's advisable to consult a professional therapist immediately. In case you are wondering where to start, Swasth has developed a feature-rich solution named [CBT Companion](https://www.resiliens.com/cbt-companion/) for augmenting the experience of evidence-based therapy sessions, at ease. You can now engage better with your therapist using this robust [Behavioral Health Platform](https://www.resiliens.com/).
 
 <!--EndFragment-->
 

@@ -117,6 +117,6 @@ PTSD, a common occurrence post-traumatic experience, has similar symptoms with a
 
   ![Swasth Coaching Platform](/img/coaching.png "Swasth Coaching Platform")
 
-  At times, finding help can seem difficult. A lot of us tend to keep it all within ourselves, in the fear of being exposed. Needless to mention, individual therapies can also be very expensive. This is why [Swasth](http://swasth.co) has developed a robust platform for people where they can consult trained evidence-based therapy coaches and learn highly effective skills to tackle PTSD or any psychological difficulty via the DBT coach.
+  At times, finding help can seem difficult. A lot of us tend to keep it all within ourselves, in the fear of being exposed. Needless to mention, individual therapies can also be very expensive. This is why [Swasth](http://resiliens.com) has developed a robust platform for people where they can consult trained evidence-based therapy coaches and learn highly effective skills to tackle PTSD or any psychological difficulty via the DBT coach.
 
 <!--EndFragment-->

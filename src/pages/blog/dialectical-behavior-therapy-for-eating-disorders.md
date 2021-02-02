@@ -37,7 +37,7 @@ The implementation of DBT integrated with mindfulness and emotion regulation has
 
 DBT is a specific type of cognitive-behavioral treatment developed in the late 1970s by Marsha Linehan, Ph.D., to treat chronically suicidal individuals diagnosed with borderline personality disorder (BPD). It is now recognized as a treatment for multi-problem behaviors that occurs due to difficult underlying emotions.
 
-While treating EDs, this program focuses on emotional dysregulation responsible for triggering or augmenting distress eating behaviors and promotes acceptance of patients themselves. The dialectical view advised in **[Health Coach](https://healthcoach.swasth.co)** by [Swasth](https://www.swasth.co), an online emotional wellness coach, appeals to many as they strive for recovery - they acknowledge their emotions and work towards being attentive and productive.
+While treating EDs, this program focuses on emotional dysregulation responsible for triggering or augmenting distress eating behaviors and promotes acceptance of patients themselves. The dialectical view advised in **[Health Coach](https://healthcoach.resiliens.com)** by [Swasth](https://www.resiliens.com), an online emotional wellness coach, appeals to many as they strive for recovery - they acknowledge their emotions and work towards being attentive and productive.
 
 ## Learning New Skills In Dialectical Behavior Therapy
 
@@ -79,9 +79,9 @@ The DBT approach can be implemented in treating various mental health disorders.
 
 ![DBT Coach ](/img/dbt-coach-app.png "DBT Tools")
 
-To help you deal with dysfunctional behaviors at ease, we at [Swasth](http://www.swasth.co) have developed [DBT Coach](https://www.swasth.co/dbt-coach) app where you can learn and practice DBT skills with intuitive tools.
+To help you deal with dysfunctional behaviors at ease, we at [Swasth](http://www.resiliens.com) have developed [DBT Coach](https://www.resiliens.com/dbt-coach) app where you can learn and practice DBT skills with intuitive tools.
 
-We also have a coaching platform where you can get help with your eating disorders from our trained DBT Coaches using structure coaching programs. If you need more info you can reach us at info@swasth.co
+We also have a coaching platform where you can get help with your eating disorders from our trained DBT Coaches using structure coaching programs. If you need more info you can reach us at info@resiliens.com
 
 <!--EndFragment-->
 
