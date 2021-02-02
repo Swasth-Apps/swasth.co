@@ -74,7 +74,7 @@ const Home = (props) => {
                     <div className="inner">
                         <h5 className="title">The Solution</h5>
                         <h3>We are revolutionizing how people find and receive care.</h3>
-                        <h5>In fact, Swasth helps people get care 21x faster and experience 3x better outcomes, which
+                        <h5>In fact, Resiliens helps people get care 21x faster and experience 3x better outcomes, which
                             means they feel better, faster.</h5>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ const Home = (props) => {
             <section className="about-us-values padding-10">
                 <div className="values-container">
                     <div>
-                        <h3>What do employees value about Swasth?</h3>
+                        <h3>What do employees value about Resiliens?</h3>
                         <h6>
                             We asked Lyrians what they love most about working here. Here’s what they told us.
                         </h6>
@@ -92,11 +92,11 @@ const Home = (props) => {
                             <img src={"/img/purple_yellow_gradient.jpg"}/>
                             <div className="content">
                                 <h4>We are mission-driven</h4>
-                                <p>No matter your role at Swasth, you’ll hear real-life stories of how your work is
+                                <p>No matter your role at Resiliens, you’ll hear real-life stories of how your work is
                                     improving people’s lives and see it at scale in the results we share with our
                                     customers. We are proud of what we’re doing.</p>
                                 <h4>In Practice</h4>
-                                <p>People often tell us Swasth is life-changing and we share those stories in daily
+                                <p>People often tell us Resiliens is life-changing and we share those stories in daily
                                     standups, Slack channels, and more.</p>
                             </div>
                         </div>
@@ -104,11 +104,11 @@ const Home = (props) => {
                             <img src={"/img/purple_yellow_gradient.jpg"}/>
                             <div className="content">
                                 <h4>We are mission-driven</h4>
-                                <p>No matter your role at Swasth, you’ll hear real-life stories of how your work is
+                                <p>No matter your role at Resiliens, you’ll hear real-life stories of how your work is
                                     improving people’s lives and see it at scale in the results we share with our
                                     customers. We are proud of what we’re doing.</p>
                                 <h4>In Practice</h4>
-                                <p>People often tell us Swasth is life-changing and we share those stories in daily
+                                <p>People often tell us Resiliens is life-changing and we share those stories in daily
                                     standups, Slack channels, and more.</p>
                             </div>
                         </div>
@@ -116,11 +116,11 @@ const Home = (props) => {
                             <img src={"/img/purple_yellow_gradient.jpg"}/>
                             <div className="content">
                                 <h4>We are mission-driven</h4>
-                                <p>No matter your role at Swasth, you’ll hear real-life stories of how your work is
+                                <p>No matter your role at Resiliens, you’ll hear real-life stories of how your work is
                                     improving people’s lives and see it at scale in the results we share with our
                                     customers. We are proud of what we’re doing.</p>
                                 <h4>In Practice</h4>
-                                <p>People often tell us Swasth is life-changing and we share those stories in daily
+                                <p>People often tell us Resiliens is life-changing and we share those stories in daily
                                     standups, Slack channels, and more.</p>
                             </div>
                         </div>
@@ -130,18 +130,18 @@ const Home = (props) => {
             </section> */}
             <section className="about-us-leadership padding-20">
                 <h2 id="leaderTeam" className="base-text">Leadership Team</h2>
-                {/*<p>Our technologists, mental health experts, and business leaders driving the strategy behind Swasth.</p>  */}
+                {/*<p>Our technologists, mental health experts, and business leaders driving the strategy behind Resiliens.</p>  */}
                 <div className="leader-section para-text">
                     <div className="user">
                         <img src={require("../assets/images/gana-2.jpg")}/>
                         <p className="name base-text"> Gana Pemmanda </p>
                         <p className="title para-text">Co-founder & CEO</p>
-                        <p className="para-text">Gana founded Swasth to transform behavioral health using technology and
+                        <p className="para-text">Gana co-founded Resiliens to transform behavioral health using technology and
                             evidence-based
                             models.
                             Having seen friends and family affected by mental health challenges and having personally
                             seen the benefits, he is passionate about scaling
-                            behavioral health care. Prior to founding Swasth, he led product and technology teams at
+                            behavioral health care. Prior to founding Resiliens, he led product and technology teams at
                             startups and Fortune 100 companies.
                             Gana holds a MS in CS from the University of Missouri and a MSE/MBA from Wharton / Univerity
                             of Pennsylvania.</p>
@@ -152,7 +152,7 @@ const Home = (props) => {
                         <p className="title para-text">Chief Clinical Officer</p>
                         <p className="para-text">Yotam leads research, clinician operations and implementation of
                             evidence-based therapy
-                            models at Swasth.
+                            models at Resiliens.
                             Yotam is a licensed clinical psychologist and a clinical faculty member at Palo Alto
                             University.
                             After completing his doctorate at PGSP-Stanford Consortium, he did his post-doctoral
@@ -177,7 +177,7 @@ const Home = (props) => {
             </section>
             <section className="about-us-leadership padding-20">
                 <h2 id="boardTeam" className="base-text">Board of Directors and Advisors</h2>
-                {/*<p>Our technologists, mental health experts, and business leaders driving the strategy behind Swasth.</p>  */}
+                {/*<p>Our technologists, mental health experts, and business leaders driving the strategy behind Resiliens.</p>  */}
                 <div className="leader-section board-member-section para-text">
                     <div className="user">
                         <img src={require("../assets/images/philip.png")}/>
