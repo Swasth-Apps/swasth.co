@@ -168,11 +168,11 @@ Distress tolerance skills are valuable tools that you can learn through Dialecti
 
 ![dbt coach](/img/dbt-coach-app.png "dbt")
 
-With the advancement of Technology, everything can be availed via a few taps of your phone screen. To make Dialectical Behavioral Therapy Services more accessible, the team here at Swasth has built the [DBT Coach](https://www.swasth.co/dbt-coach/) (an app for DBT). Learn, Practice, and track your DBT skills via the comprehensive application and engage effectively with your therapist.
+With the advancement of Technology, everything can be availed via a few taps of your phone screen. To make Dialectical Behavioral Therapy Services more accessible, the team here at Swasth has built the [DBT Coach](https://www.resiliens.com/dbt-coach/) (an app for DBT). Learn, Practice, and track your DBT skills via the comprehensive application and engage effectively with your therapist.
 
 Want to connect with your therapist easily? Swasth can assist you!
 
-Need more information, [stay tuned here](https://www.swasth.co/blog), or follow us at [Facebook](https://www.facebook.com/swasthco/), and [Linkedin](https://www.linkedin.com/company/swasth).
+Need more information, [stay tuned here](https://www.resiliens.com/blog), or follow us at [Facebook](https://www.facebook.com/swasthco/), and [Linkedin](https://www.linkedin.com/company/swasth).
 
 And yes, don’t forget to share it on your channel too!
 

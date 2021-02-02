@@ -58,7 +58,7 @@ Here are a couple of changes taking place in Acceptance and Commitment Therapy t
 
 A lot has changed in the last 15 years in psychotherapy, and ACT has been at the vanguard of these changes. Acceptance and Commitment Therapy has a solid empirical base that has its roots in the very nature of human language and cognition. It is curated upon powerful behavioral elements that flow from, and are in some sense guided by a coherent philosophical and theoretical foundation. The treatments that followed this formula, i.e., the ACT model, such as exposure therapies for anxiety problems, have been enormously successful and have shown long-term efficacy. 
 
-In case you are looking to learn more about evidence-based therapies, checkout [ACT Coach](https://www.swasth.co/act-coach/), [DBT Coach](https://www.swasth.co/dbt-coach/), [CBT Companion](https://www.swasth.co/cbt-companion/) apps for augmenting the experience of the therapy sessions. The Swasth [](https://clinician.swasth.co)[Clinician Platform](https://clinician.swasth.co) allows for better engagement with your therapist. 
+In case you are looking to learn more about evidence-based therapies, checkout [ACT Coach](https://www.resiliens.com/act-coach/), [DBT Coach](https://www.resiliens.com/dbt-coach/), [CBT Companion](https://www.resiliens.com/cbt-companion/) apps for augmenting the experience of the therapy sessions. The Swasth [](https://clinician.resiliens.com)[Clinician Platform](https://clinician.resiliens.com) allows for better engagement with your therapist. 
 
 <!--EndFragment-->
 

@@ -16,7 +16,7 @@ const Terms = () =>(
           <h2>INTRODUCTION</h2>
           <p>This Medical Professionals Agreement (the “Agreement”) incorporates by reference all provisions of the
             standard Terms of Service (the “Standard Terms”) of Swasth, Inc. (“Swasth” or the “Company” or “we”), found
-            at https://www.swasth.co/terms.html. In the event of any conflict between the terms of this Agreement and
+            at https://www.resiliens.com/terms.html. In the event of any conflict between the terms of this Agreement and
             the Standard Terms, the terms of this Agreement shall be controlling in all matters concerning your use of
             Swasth’s Services as a Medical Professional (“Medical Professional Service”). By completing the registration
             process, clicking an associated “I AGREE” button, and/or using the Medical Professional Service, you are

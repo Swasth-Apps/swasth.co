@@ -40,7 +40,7 @@ There are many definitions, but one of the most fundamental characteristics of a
 
 Dialectical Behavioral Therapy (DBT) is one of the most promising treatments for addiction. Invented by [Dr. Marsha Linehan](https://behavioraltech.org/about-us/founded-by-marsha/), DBT helps in treating compulsive patterns of self-harming via easy and effective techniques. As recently revealed, these techniques come from her insights, though at a huge personal cost (struggles with mental illness). Though Dr. Marsha was never a substance abuser herself, like many abusers, she was trapped in self-loathing, self-harm, psychic pain, and a downward spiral of shame from which there doesn't seem any escape.
 
-DBT helps addicts via different skills-[Distress Tolerance](https://www.swasth.co/blog/distress-tolerance-skills-in-dbt/), [Mindfulness](https://www.swasth.co/blog/mindfulness-in-dbt/), [Emotional Regulation](https://www.swasth.co/blog/emotion-regulation/), and [Interpersonal Effectiveness](https://www.swasth.co/blog/interpersonal-effectiveness-in-dbt-learn-effective-communication-skills/). These skills help in correcting problematic behaviors that lead to addiction.
+DBT helps addicts via different skills-[Distress Tolerance](https://www.resiliens.com/blog/distress-tolerance-skills-in-dbt/), [Mindfulness](https://www.resiliens.com/blog/mindfulness-in-dbt/), [Emotional Regulation](https://www.resiliens.com/blog/emotion-regulation/), and [Interpersonal Effectiveness](https://www.resiliens.com/blog/interpersonal-effectiveness-in-dbt-learn-effective-communication-skills/). These skills help in correcting problematic behaviors that lead to addiction.
 
 Dialectical Behavioral Therapy (DBT) helps in restoring a person's emotional balance and eliminating their dependency on their addiction. A typical treatment moves through multiple stages, including the following-
 
@@ -60,7 +60,7 @@ The last step is essential as people with addictions often don’t feel connecte
 
 <!--StartFragment-->
 
-Some journeys are a bit difficult to traverse without assistance. The voyage from addiction to a healthy lifestyle is one such example. Therapists and enabling technology will help guide your voyage. Swasth has developed a robust and feature-rich [DBT Coach](https://www.swasth.co/dbt-coach/) application for practicing DBT skills. Engage better with your therapists with user-friendly animations, worksheets, journals, and walk down the road of transformation.
+Some journeys are a bit difficult to traverse without assistance. The voyage from addiction to a healthy lifestyle is one such example. Therapists and enabling technology will help guide your voyage. Swasth has developed a robust and feature-rich [DBT Coach](https://www.resiliens.com/dbt-coach/) application for practicing DBT skills. Engage better with your therapists with user-friendly animations, worksheets, journals, and walk down the road of transformation.
 
 *Liked what you read?*
 

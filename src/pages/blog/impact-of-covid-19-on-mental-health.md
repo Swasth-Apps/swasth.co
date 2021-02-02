@@ -78,7 +78,7 @@ If you are feeling low or dealing with a bad mood, now is the right time to have
 
 ### 5. Seek Support
 
-Do you feel overwhelmed? Scared about what's going to happen in your future? Do you want to talk about your feelings? Do you lack self-compassion? All these are the signs that may need professional mental health support. Seeking remote tele-health help from mental health coaches and therapists helps especially during this pandemic, when stepping out of the house is not a viable option. Using apps like[ ACT Coach](https://www.swasth.co/act-coach/), [DBT Coach](https://www.swasth.co/dbt-coach/), [CBT Companion](https://www.swasth.co/cbt-companion/) can help you yield the experience of evidence-based therapy sessions at ease in addition to reaching out to your therapist.
+Do you feel overwhelmed? Scared about what's going to happen in your future? Do you want to talk about your feelings? Do you lack self-compassion? All these are the signs that may need professional mental health support. Seeking remote tele-health help from mental health coaches and therapists helps especially during this pandemic, when stepping out of the house is not a viable option. Using apps like[ ACT Coach](https://www.resiliens.com/act-coach/), [DBT Coach](https://www.resiliens.com/dbt-coach/), [CBT Companion](https://www.resiliens.com/cbt-companion/) can help you yield the experience of evidence-based therapy sessions at ease in addition to reaching out to your therapist.
 
 <!--EndFragment-->
 

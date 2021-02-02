@@ -51,7 +51,7 @@ class Layout extends React.Component {
                         <p className="para-text">
                             We are offering free premium access to our Clinician Platform during the COVID-19 crisis.
                         </p>
-                        <a href="https://clinician.swasth.co" target="_blank">
+                        <a href="https://clinician.resiliens.com" target="_blank">
                             <Button className='para-text'>Get Started</Button>
                         </a>
                         <Icon type='close-circle' onClick={this.handleClick}/>

@@ -136,7 +136,7 @@ One of the excellent ways of combating loneliness is to try new activities. Join
 
 ### 8. Talk to a Consultant or avail Online Therapy Services
 
-Talk to a professional therapist and share your problems. Also, this digitized world has facilitated everything. There are many [reliable therapy services](https://www.swasth.co/) available online for various issues. Online [Therapy apps](https://www.swasth.co/dbt-coach/) such as **DBT Coach** can help in treating symptoms of depressive orders, including loneliness.
+Talk to a professional therapist and share your problems. Also, this digitized world has facilitated everything. There are many [reliable therapy services](https://www.resiliens.com/) available online for various issues. Online [Therapy apps](https://www.resiliens.com/dbt-coach/) such as **DBT Coach** can help in treating symptoms of depressive orders, including loneliness.
 
 Although the online services may look different, they can have similar effects like in-person therapy. DBT Coach is equipped with 100+ video lessons, an internal journal, 200+ animations, and a great user experience.
 

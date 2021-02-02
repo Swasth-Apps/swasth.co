@@ -1,6 +1,6 @@
 import React, {Fragment, useEffect, useState} from 'react'
 import {Button, Tabs} from 'antd'
-import topBg from "../assets/images/about-us-banner.jpg";
+import topBg from "../assets/images/about-us-banner-3.jpg";
 //import therapyGraphic from '../assets/images/Therapy-section@3x.png'
 const Home = (props) => {
     const [isMobile, setIsMobile] = useState(false);
@@ -57,7 +57,7 @@ const Home = (props) => {
                         </div>
                     </div>
                     <div className="mission-img">
-                        <img src={require("../assets/images/aboutus-mission.png")}/>
+                        <img src={require("../assets/images/aboutus-mission.jpg")}/>
                     </div>
                 </div>
             </section>
@@ -129,11 +129,11 @@ const Home = (props) => {
                 </div>
             </section> */}
             <section className="about-us-leadership padding-20">
-                <h2 id="leaderTeam" className="base-text">Leadership team</h2>
+                <h2 id="leaderTeam" className="base-text">Leadership Team</h2>
                 {/*<p>Our technologists, mental health experts, and business leaders driving the strategy behind Swasth.</p>  */}
                 <div className="leader-section para-text">
                     <div className="user">
-                        <img src={require("../assets/images/gana.png")}/>
+                        <img src={require("../assets/images/gana-2.jpg")}/>
                         <p className="name base-text"> Gana Pemmanda </p>
                         <p className="title para-text">Co-founder & CEO</p>
                         <p className="para-text">Gana founded Swasth to transform behavioral health using technology and
@@ -155,7 +155,7 @@ const Home = (props) => {
                             models at Swasth.
                             Yotam is a licensed clinical psychologist and a clinical faculty member at Palo Alto
                             University.
-                            After completing his doctorate at PGSP-Stanford Psy.D Consortium, he did his post-doctoral
+                            After completing his doctorate at PGSP-Stanford Consortium, he did his post-doctoral
                             training and acted as a healthcare Fellow
                             at Stanford University (CCARE) where he developed various programs focused on resilience,
                             team building and compassion. </p>
@@ -216,7 +216,7 @@ const Home = (props) => {
                         <p className="name base-text">Brian Thomas</p>
                         <p className="title para-text">Business Executive</p>
                         <p className="para-text social-icons">
-                            <a href="">
+                            <a href="https://www.linkedin.com/in/brianthomas70/">
                                 <img src={require("../assets/images/linkedin.png")}/>
                             </a>
                         </p>
@@ -224,7 +224,7 @@ const Home = (props) => {
                     <div className="user">
                         <img src={require("../assets/images/daniel.jpeg")}/>
                         <p className="name base-text">Daniel Blanaru</p>
-                        <p className="title para-text">Chief Growth Officer</p>
+                        <p className="title para-text">Executive @ Hippo Insurance</p>
                         <p className="para-text social-icons">
                             <a href="https://www.linkedin.com/in/danielblanaru/">
                                 <img src={require("../assets/images/linkedin.png")}/>
@@ -242,7 +242,7 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className="user">
-                        <img src={require("../assets/images/gana.png")}/>
+                        <img src={require("../assets/images/gana-2.jpg")}/>
                         <p className="name base-text"> Gana Pemmanda </p>
                         <p className="title para-text">Co-founder & CEO</p>
                         <p className="para-text social-icons">
@@ -277,7 +277,7 @@ const Home = (props) => {
             <section className="about-us-join-team">
                 <div id="joinTeam">
                     <p className="base-text">Ready to join our team ?</p>
-                    <a href="mailto:jobs@swasth.co">
+                    <a href="mailto:jobs@resiliens.com">
                         <Button className="request-demo-btn" style={{margin: "20px 0"}}>Email Us</Button>
                     </a>
                 </div>
@@ -288,7 +288,7 @@ const Home = (props) => {
                         Members
                     </h3>
                     <p className="para-text">
-                        Contact our support team at <a>apps-help@swasth.co</a>.
+                        Contact our support team at <a>help@resiliens.com</a>.
                     </p>
                 </div>
                 <div className="support">
@@ -296,7 +296,7 @@ const Home = (props) => {
                         Sales
                     </h3>
                     <p className="para-text">
-                        Contact our partnerships team at <a>info@swasth.co.</a>
+                        Contact our partnerships team at <a>info@resiliens.com.</a>
                     </p>
                 </div>
                 <div className="support">
@@ -304,7 +304,7 @@ const Home = (props) => {
                         Providers
                     </h3>
                     <p className="para-text">
-                        Contact the provider relations team at <a>providers@swasth.co.</a>
+                        Contact the provider relations team at <a>providers@resiliens.com.</a>
                     </p>
                 </div>
                 <div className="support">
@@ -312,7 +312,7 @@ const Home = (props) => {
                         Press
                     </h3>
                     <p className="para-text">
-                        For press and media inquires, please contact us at <a>media@swasth.co.</a>
+                        For press and media inquires, please contact us at <a>media@resiliens.com.</a>
                     </p>
                 </div>
             </section>

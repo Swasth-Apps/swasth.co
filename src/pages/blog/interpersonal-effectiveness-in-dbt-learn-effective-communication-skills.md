@@ -33,7 +33,7 @@ Individuals with difficulty in regulating their emotions often experience proble
 
 ## What is Interpersonal Effectiveness?
 
-Interpersonal effectiveness is one of the four modules of [Dialectical Behavior Therapy](https://www.swasth.co/blog/what-is-dialectical-behavior-therapy/) and is considered the second most core skill that underlies other skill-sets. The additional modules consist of mindfulness, distress tolerance, and emotion regulation. Learning interpersonal effectiveness skills can not only make communication more comfortable but also prevent oneself from being taken advantage of, at certain circumstances. To successfully implement interpersonal skills, you must be adept with the other pillars of DBT, namely emotional regulation, mindfulness, and distress tolerance.
+Interpersonal effectiveness is one of the four modules of [Dialectical Behavior Therapy](https://www.resiliens.com/blog/what-is-dialectical-behavior-therapy/) and is considered the second most core skill that underlies other skill-sets. The additional modules consist of mindfulness, distress tolerance, and emotion regulation. Learning interpersonal effectiveness skills can not only make communication more comfortable but also prevent oneself from being taken advantage of, at certain circumstances. To successfully implement interpersonal skills, you must be adept with the other pillars of DBT, namely emotional regulation, mindfulness, and distress tolerance.
 
 In your interaction with others, there is a lot of sensory information to withdraw and analysis to conduct - words that the other person uses, the physiological responses, thoughts, and emotions you possess as a response, etc. There is a lot to observe here.
 

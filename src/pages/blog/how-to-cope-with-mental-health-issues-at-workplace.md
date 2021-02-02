@@ -105,7 +105,7 @@ Some people use "gossip" as a source of entertainment and seek temporary relief 
 
 ## Don’t suffer alone- Seek help!
 
-People dealing with workplace stress or mental health problems do not have to suffer alone. Get help from mental health professionals to deal with anxiety and stress. There are plenty of online mental wellness apps and behavioral health platforms like [Swasth](https://www.swasth.co) designed to help people develop skills to cope with depression and dysfunctional behaviors. You can learn, practice, and monitor your progress in various evidence-based treatment programs via this application and connect with world-class trained therapists at home.
+People dealing with workplace stress or mental health problems do not have to suffer alone. Get help from mental health professionals to deal with anxiety and stress. There are plenty of online mental wellness apps and behavioral health platforms like [Swasth](https://www.resiliens.com) designed to help people develop skills to cope with depression and dysfunctional behaviors. You can learn, practice, and monitor your progress in various evidence-based treatment programs via this application and connect with world-class trained therapists at home.
 
 <!--EndFragment-->
 

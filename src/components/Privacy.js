@@ -7,11 +7,11 @@ const Privacy = () =>(
 
       <div className="container clearfix">
         <br/>
-        <p>At Swasth, Inc. we respect your privacy and value the trust you have placed in us. We are committed to the
-          responsible management, use, and protection of your information. This Privacy Policy explains how Swasth, Inc.
-          (&ldquo;<strong><u>Swasth</u></strong>,&rdquo; &ldquo;<strong><u>we</u></strong>,&rdquo; &ldquo;
+        <p>At Resiliens, Inc. we respect your privacy and value the trust you have placed in us. We are committed to the
+          responsible management, use, and protection of your information. This Privacy Policy explains how Resiliens, Inc.
+          (&ldquo;<strong><u>Resiliens</u></strong>,&rdquo; &ldquo;<strong><u>we</u></strong>,&rdquo; &ldquo;
           <strong><u>our</u></strong>,&rdquo; or &ldquo;<strong><u>us</u></strong>&rdquo;) collects, uses, and discloses
-          information we obtain through www.swasth.co and any products, services, or
+          information we obtain through www.Resiliens.co and any products, services, or
           mobile applications that link to this Privacy Policy (collectively, the &ldquo;
           <strong><u>Services</u></strong>&rdquo;).</p>
         <h2>HEALTH PRIVACY</h2>
@@ -118,13 +118,13 @@ const Privacy = () =>(
         <h2>CHILDREN'S PRIVACY</h2>
         <p>We do not knowingly collect, maintain, or use personal information from children under 13 years of age, and
           no part of the Services are directed to children under the age of 13. If you learn that your child has
-          provided us with information, you may alert us at help@swasth.co. If we learn that we have
+          provided us with information, you may alert us at help@Resiliens.co. If we learn that we have
           collected any information from children under 13, we will promptly take steps to delete such information and
           terminate the child's account.</p>
         <h2>INTERNATIONAL USERS</h2>
         <p>By choosing to visit the Services or otherwise provide information to us, you agree that any dispute over
           privacy or the terms contained in this Privacy Policy will be governed by the law of the state of California
-          and the adjudication of any disputes arising in connection with Swasth or the Services will be in accordance
+          and the adjudication of any disputes arising in connection with Resiliens or the Services will be in accordance
           with the Terms of Use.</p>
         <p>If you are visiting from the European Union or other regions with laws governing data collection and use,
           please note that you are agreeing to the transfer of your information to the United States and processing
@@ -134,11 +134,11 @@ const Privacy = () =>(
         <p>If you would like to update or correct any information that you have provided to us through your use of the
           Services or otherwise, you may use the functionality of the Services to change or delete such information. If
           such functionality is insufficient or if you have any questions regarding our privacy practices, please send
-          an email to info@swasth.co.</p>
+          an email to info@Resiliens.co.</p>
         <h2>CHANGES TO OUR PRIVACY POLICY AND PRACTICES</h2>
         <p>We may revise this Privacy Policy, so review it periodically.</p>
         <p><u>Posting of Revised Privacy Policy</u>. We will post any adjustments to the Privacy Policy at
-          www.swasth.co/privacy, and the revised version will be effective when it is posted. If you are
+          www.Resiliens.co/privacy, and the revised version will be effective when it is posted. If you are
           concerned about how your information is used, bookmark this page and read this Privacy Policy periodically.
         </p>
         <p><u>New Uses of Information</u>. From time to time, we may desire to use information about you for uses not

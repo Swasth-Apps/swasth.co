@@ -64,9 +64,9 @@ Another [study](https://www.thelancet.com/journals/lanchi/article/PIIS2352-4642(
 
 ## Takeaway
 
-We have a lot to learn about the consequences of smartphone use among individuals for a better understanding of its impact on mental health. Although the evidence addresses the reasons to be mindful in using mobile phones, several researchers are also of the view that technology can serve as a support system for general people. In case, you are unable to control your urges of overusing cell phones; you can opt for Swasth and ensure highly researched evidence-based treatments through our mental wellness coaches like [ACT Coach](https://www.swasth.co/act-coach/), [DBT Coach](https://www.swasth.co/dbt-coach/), [CBT Companion](https://www.swasth.co/cbt-companion/).
+We have a lot to learn about the consequences of smartphone use among individuals for a better understanding of its impact on mental health. Although the evidence addresses the reasons to be mindful in using mobile phones, several researchers are also of the view that technology can serve as a support system for general people. In case, you are unable to control your urges of overusing cell phones; you can opt for Swasth and ensure highly researched evidence-based treatments through our mental wellness coaches like [ACT Coach](https://www.resiliens.com/act-coach/), [DBT Coach](https://www.resiliens.com/dbt-coach/), [CBT Companion](https://www.resiliens.com/cbt-companion/).
 
-Engage better with your therapist using this robust [Behavioral Health Platform](https://www.swasth.co/).
+Engage better with your therapist using this robust [Behavioral Health Platform](https://www.resiliens.com/).
 
 
 

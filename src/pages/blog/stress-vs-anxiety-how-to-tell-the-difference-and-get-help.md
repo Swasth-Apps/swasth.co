@@ -133,7 +133,7 @@ Anxiety is typically characterized by excessive worry or fear. Here are some oth
 
   ![CBT Companion](/img/cbt_companion_screen.png "CBT Companion")
 
-  Everyone experiences stress symptoms, and sometimes this stress may overwhelm you, making you worried and anxious about situations. It is important to learn how to manage your stress and know when to seek help. When stress or anxiety is no longer manageable, and symptoms of anxiety become unbearable and obstruct your daily living, it's time to seek assistance from a trained therapist or psychologist. You can use apps like [ACT Coach](https://www.swasth.co/act-coach/), [DBT Coach](https://www.swasth.co/dbt-coach/), [CBT Companion](https://www.swasth.co/cbt-companion/) for self-help as well as for augmenting the experience of evidence-based therapy sessions.
+  Everyone experiences stress symptoms, and sometimes this stress may overwhelm you, making you worried and anxious about situations. It is important to learn how to manage your stress and know when to seek help. When stress or anxiety is no longer manageable, and symptoms of anxiety become unbearable and obstruct your daily living, it's time to seek assistance from a trained therapist or psychologist. You can use apps like [ACT Coach](https://www.resiliens.com/act-coach/), [DBT Coach](https://www.resiliens.com/dbt-coach/), [CBT Companion](https://www.resiliens.com/cbt-companion/) for self-help as well as for augmenting the experience of evidence-based therapy sessions.
 
 <!--EndFragment-->
 

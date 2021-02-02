@@ -29,7 +29,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-          //bucketName: 'swasth.co'
+          //bucketName: 'resiliens.com'
           bucketName: 'swasth-website'
       },
     },
