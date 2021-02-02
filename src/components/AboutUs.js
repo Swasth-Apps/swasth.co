@@ -1,5 +1,5 @@
 import React, {Fragment, useEffect, useState} from 'react'
-import {Button, Tabs} from 'antd'
+import {Button} from 'antd'
 import topBg from "../assets/images/about-us-banner-3.jpg";
 //import therapyGraphic from '../assets/images/Therapy-section@3x.png'
 const Home = (props) => {
@@ -37,13 +37,10 @@ const Home = (props) => {
                 <div className="about-us-tabs-container padding-10">
                     <div className="about-us-tabs">
                         {/*<h4 onClick={()=>findIdAndScroll("whoWeAre")}><a>Who We Are</a></h4> */}
-                        <h4 onClick={() => findIdAndScroll("missionStatement")}><a className="base-text">Our Mission</a>
-                        </h4>
-                        <h4 onClick={() => findIdAndScroll("leaderTeam")}><a className="base-text">Leadership Team</a>
-                        </h4>
-                        <h4 onClick={() => findIdAndScroll("boardTeam")}><a className="base-text">Board of
-                            Directors</a>
-                        </h4>
+                        <h4 onClick={() => findIdAndScroll("missionStatement")}><a className="base-text">Mission</a></h4>
+                        <h4 onClick={() => findIdAndScroll("ourApproach")}><a className="base-text">Approach</a></h4>
+                        <h4 onClick={() => findIdAndScroll("leaderTeam")}><a className="base-text">Leadership</a></h4>
+                        <h4 onClick={() => findIdAndScroll("boardTeam")}><a className="base-text">Board</a></h4>
                         {/*<h4 onClick={()=>findIdAndScroll("joinTeam")}><a>Open Position</a></h4>*/}
                     </div>
                 </div>
@@ -60,6 +57,24 @@ const Home = (props) => {
                     <div className="mission-img">
                         <img src={require("../assets/images/aboutus-mission.jpg")}/>
                     </div>
+                </div>
+            </section>
+            <section>
+                <div className="about-us-mission-container about-us-approach-container padding-20" id="ourApproach">
+                    <div className="mission-img">
+                        <img src={require("../assets/images/about-us-approach.jpg")}/>
+                    </div>
+                    <div className="mission-content">
+                        <h2 className="base-text">Our Approach</h2>
+                        <div className="para-text">
+                            We pride ourselves on partnering with healthcare leaders to assist in driving better outcomes and make a positive impact.
+                            NeuroFlow exists to make sure no patient who needs behavioral health support falls through the cracks.
+                            <p style={{marginBottom: 10}} />
+                            We build more than just engaging digital health tools for patient self-care:
+                            we create platforms that connect the patient to care providers and specialists, empowering them to remotely coordinate and deliver effective mental health care at scale.
+                        </div>
+                    </div>
+
                 </div>
             </section>
             {/*<section className="about-us-prob-sol" id="probSol">
