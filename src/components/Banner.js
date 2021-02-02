@@ -15,6 +15,7 @@ const Banner = (props) => {
       }
     },2000);
   }, [])
+
   return (
     <Row
         className='card-row divider -margin-bottom home-top-bg'

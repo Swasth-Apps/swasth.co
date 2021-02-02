@@ -23,6 +23,7 @@ const Home = (props) => {
                 className='about-us-banner-section'
                 style={{background: `url(${topBg}) no-repeat center center fixed`, backgroundSize: "cover"}}
             >
+                <div className="overlay-class" />
                 <div className="about-us-banner-content padding-20">
                     <h2 className="base-text">We are bringing <span
                         className="-highlighted-text">Evidence-based </span><br />Behavioral Healthcare to everyone.</h2>

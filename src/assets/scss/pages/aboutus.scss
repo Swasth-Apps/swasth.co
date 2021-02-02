@@ -1,4 +1,5 @@
 .about-us-banner-section {
+  position: relative;
   //background: url("/img/about-us-bg.png");
   //background: url("/img/purple_yellow_gradient.jpg");
   background-color: _palette(primary-blue);
@@ -8,6 +9,16 @@
   background-size: cover; /* Resize the background image to cover the entire container */
   background-attachment: fixed;
   width: 100%;
+
+  .overlay-class{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(106, 77, 192,0.9);
+    opacity: 0.8;
+  }
 
   .about-us-banner-content {
     max-width: 49em;
@@ -25,7 +36,9 @@
       padding: 0 10px;
     }
     h2, h4 {
-      color: #341f88;
+      //color: #341f88;
+      color: white;
+      z-index: 1;
       margin-top: 0px;
 
     }
@@ -116,7 +129,7 @@
     width: 50%;
 
     h2 {
-      font-weight: 600;
+      //font-weight: 600;
       font-size: 40px;
       margin-bottom: 20px;
       color: #4273f0;
@@ -271,7 +284,7 @@
   margin-top: 50px;
 
   h2{
-    font-weight: 600;
+    //font-weight: 600;
     color: #4273f0;
     margin-bottom: 10px;
     font-size: 40px;
@@ -293,14 +306,14 @@
       width: 30%;
       .name{
         color: #123243;
-        font-weight: 700;
+        //font-weight: 700;
         font-size: 20px;
         text-align: center;
       }
       .title {
         font-size: 16px;
-        font-weight: 700;
-        text-align: center;
+        //font-weight: 700;
+        text-align: center ;
       }
       @media screen and (max-width: 600px) {
         width: 100%;
@@ -338,14 +351,14 @@
       margin-bottom: 40px;
       .name{
         color: #123243;
-        font-weight: 700;
+        //font-weight: 700;
         margin-bottom: 0px;
         font-size: 20px;
         text-align: center;
       }
       .title {
         font-size: 16px;
-        font-weight: 700;
+        //font-weight: 700;
         text-align: center;
       }
       @media screen and (max-width: 770px) {
