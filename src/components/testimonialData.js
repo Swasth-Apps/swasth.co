@@ -56,7 +56,10 @@ export const testimonials = [
     desc: 'The CBT Companion app turned out to be a very valuable tool for me. It supported me in challenging life situations as well as in everyday life. The app taught me to switch off from autopilot and let go of negative thinking traps that have contributed to my depression and anxiety. I also found a kinder and more compassionate attitude towards myself and others, and I’ve learned to make decisions based on my values. These things were particularly important for me. The App offers a flexible way to do practices on my own but also to contact my therapist whenever more support and help is needed.',
     name: 'Maria',
     userType: "User"
-  },{/*
+  }
+];
+
+{/*
     img: Quote,
     user: UserImg7,
     desc: 'As a therapist who uses both client apps and the clincian platform, I can say that these apps are very comprehensive. They cover all the tools necessary to make Client Engagement and Behavioral Health Coaching a great experience. I highly recommend this platform to all Clinicians for better outcomes to their clients.',
@@ -159,4 +162,3 @@ export const testimonials = [
     name: 'Rebecca',
     userType: "Client"
   */}
-]

@@ -61,7 +61,7 @@ return(
                                             <li><Link to="/about-us" className="para-text">About Us </Link></li>
                                             <li><a href="https://clinician.resiliens.com" className="para-text">Clinicians</a></li>
                                             <li><a href="#" className="para-text">Employers</a></li>
-                                            <li><a href="https://healthcoach.resiliens.com/" className="para-text">Coaching</a></li>
+                                            <li><a href="https://behavioralhealthcoach.resiliens.com/" className="para-text">Coaching</a></li>
                                         </ul>
 
                                     </div>
@@ -74,7 +74,7 @@ return(
                                         <h5 className="white-text base-text">Products</h5>
 
                                         <ul className="list-unstyled iconlist ml-0">
-                                            <li><a href="https://healthcoach.resiliens.com/" className="para-text">Behavioral Health Coach</a>
+                                            <li><a href="https://behavioralhealthcoach.resiliens.com/" className="para-text">Behavioral Health Coach</a>
                                             </li>
                                             <li><Link to="/dbt-coach" className="para-text">DBT Coach</Link></li>
                                             <li><Link to="/cbt-companion" className="para-text">CBT Companion</Link></li>

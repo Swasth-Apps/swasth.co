@@ -29,14 +29,14 @@ const Header = (props) => {
                                 {/*<div className={`menu-content hide-content ${props.isLogoWhite ? 'white-text':''}`} href="javascript:;">Features</div>*/}
                                 {/*</Link>*/}
                                 <Dropdown overlay={<div className="header-menu-submenu">
-                                   
+
                                     <a target="_blank" href="https://clinician.resiliens.com"
                                        className='menu-content-item'>
                                         <div className={`menu-content para-text`}>
                                             Clinician Platform
                                         </div>
                                     </a>
-                                    <a target="_blank" href="https://healthcoach.resiliens.com"
+                                    <a target="_blank" href="https://behavioralhealthcoach.resiliens.com/"
                                        className='menu-content-item'>
                                         <div className={`menu-content para-text`}>
                                             Coaching Platform
@@ -47,7 +47,7 @@ const Header = (props) => {
                                         href="https://resilify.org"
                                         className='menu-content-item'>
                                         <div className={`menu-content para-text`}>
-                                            Reslify (Self Help)
+                                            Resilify (Self Help)
                                         </div>
                                     </a>
                                 </div>}
@@ -133,7 +133,7 @@ const Header = (props) => {
                                             Clinician Platform
                                         </div>
                                     </a>
-                                    <a target="_blank" href="https://healthcoach.resiliens.com"
+                                    <a target="_blank" href="https://behavioralhealthcoach.resiliens.com/"
                                        className='menu-content-item'>
                                         <div className={`menu-content para-text`}>
                                            Behavioral Coaching Platform
@@ -141,7 +141,7 @@ const Header = (props) => {
                                     </a>
                                     <a
                                         target="_blank"
-                                        href="https://resilify.org"
+                                            href="https://resilify.org"
                                         className='menu-content-item'>
                                         <div className={`menu-content para-text`}>
                                             Resilify (Self Help)

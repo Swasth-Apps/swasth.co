@@ -1,26 +1,67 @@
 import React, {Fragment, useEffect, useState} from 'react'
 import {Link} from 'gatsby'
-import {Col, Row, Tabs} from 'antd'
+import {Col, Icon, Row} from 'antd'
 import {testimonials} from '../components/testimonialData'
 //import therapyGraphic from '../assets/images/Therapy-section@3x.png'
 import therapyGraphic from '../assets/images/therapy-image.png'
 import MobileGraphic from '../assets/images/MobileView.png'
 import appStore from '../assets/images/app-store.png'
 import googlePay from '../assets/images/google-play.png'
-import DBTCoach from '../assets/images/DBT-app-icon.png'
-import ACTCoach from '../assets/images/ACT-app-icon.png'
-import CBTCompanion from '../assets/images/CBT_app_icon.png'
-import DBTCoachScreen from '../assets/images/DBT_coach_screen@2x.png'
-import ACTCoachScreen from '../assets/images/ACT_coach_screen.png'
-import CBTCompanionScreen from '../assets/images/CBT_companion_screen.png'
-import skillsCoaching from '../assets/images/skillsCoaching.png'
-import programs from '../assets/images/programs.png'
+import DBTCoachScreen from '../assets/images/DBT-app-icon@3x.png'
+import ACTCoachScreen from '../assets/images/ACT-app-icon.png'
+import CBTCompanionScreen from '../assets/images/CBT_app_icon@3x.png'
+import SelfHelpImg from '../assets/images/Self-Health-Coach-Section.png'
+import programs from '../assets/images/Proven-Treatment-Methods-Img.png'
 import ComprehensiveHealth from '../assets/images/comprehensiveHealth.png'
 import ProgramAdapts from '../assets/images/pexels-kaboompics-com-6335.jpg'
+import DotsIcon from '../assets/images/dots.png';
+
+
+
+
 import Banner from '../components/Banner'
 
-const {TabPane} = Tabs;
-const Home = (props) => {
+/*
+const helpData = [
+    {
+        title: "Anxiety",
+        image: require("../assets/images/programs/Anxiety-icon.png")
+    },{
+        title: "Depression",
+        image: require("../assets/images/programs/Depression-icon.png")
+    },{
+        title: "Eating Disorders",
+        image: require("../assets/images/programs/Eating Disorders-icon.png")
+    },{
+        title: "Insomnia",
+        image: require("../assets/images/programs/Insomnia-icon.png")
+    },{
+        title: "Panic Disorders",
+        image: require("../assets/images/programs/Panic-Disorders-icon.png")
+    },
+];
+*/
+
+const helpData = [
+    {
+        title: "Anxiety",
+        image: require("../assets/images/programs/Anxiety.jpg")
+    },{
+        title: "Depression",
+        image: require("../assets/images/programs/Depression.jpg")
+    },{
+        title: "Eating Disorders",
+        image: require("../assets/images/programs/Eating-Disorder.jpg")
+    },{
+        title: "Insomnia",
+        image: require("../assets/images/programs/Insomnia.jpg")
+    },{
+        title: "Panic Disorders",
+        image: require("../assets/images/programs/Panic-Disorder.jpg")
+    },
+];
+
+const Home = () => {
     const [isMobile, setIsMobile] = useState(false)
     useEffect(() => {
         setIsMobile(window.innerWidth < 768)
@@ -197,14 +238,16 @@ const Home = (props) => {
                         <Row className='card-row'>
                             <Col md={12}>
                                 <h3 className='bottom-space base-text program-grounded'>
-                                    Programs grounded in<br/>
+                                    Live Coaching for<br/>
                                     <span className='-highlighted-text'>
-                    {' '} Proven Treatment Methods
+                    {' '} Groups and Individuals
                     </span>
                                 </h3>
                                 <div className='para-text black-18-font margin-bottom-25'>
-                                    <p>We offer effective care programs designed by clinical experts and grounded in
-                                        evidence-based practices that are proven to work. </p>
+                                    <p className="width-90">We offer effective care programs grounded in proven
+                                        treatment methods designed by
+                                        clinical experts and grounded in evidence-based practices that are proven to
+                                        work. </p>
                                     <b>The programs focus on :</b>
                                     <ul className="black-18-font">
                                         <li className="para-text">Goal-focused treatment</li>
@@ -216,9 +259,11 @@ const Home = (props) => {
                                     </ul>
                                 </div>
 
-                                <button className='request-demo-btn' style={{marginBottom: 20}}>
-                                    Get Started
-                                </button>
+                                <a href="https://behavioralhealthcoach.resiliens.com/" target="_blank">
+                                    <button className='request-demo-btn' style={{marginBottom: 20}}>
+                                        Get Started
+                                    </button>
+                                </a>
                             </Col>
                             <Col md={12} className="-margin-right">
                                 <img className='custom-image' src={programs} alt='Therapy'/>
@@ -226,7 +271,7 @@ const Home = (props) => {
                         </Row>
                         <Row className='card-row reverse-flex-column'>
                             <Col md={12} className='-margin-right'>
-                                <img className='custom-image' src={skillsCoaching} alt='Therapy'/>
+                                <img className='custom-image' src={SelfHelpImg} alt='Therapy'/>
                             </Col>
                             <Col md={12}>
                                 <p className='bottom-space base-text'>
@@ -236,16 +281,21 @@ const Home = (props) => {
                     </span>
 
                                 </p>
-                                <div className='para-text margin-bottom-25 black-18-font'>
+                                <div className='para-text margin-bottom-25 black-18-font width-90'>
                                     With on-demand skills coaching you can get additional support - whether you have
                                     currently enrolled or graduated from a program, or need
                                     immediate help due to a crisis. These sessions include reviewing skills used, asking
                                     questions, discussing what work for your specific situation,
                                     and introducing new DBT skills to help manage your situation.
                                 </div>
-                                <button className='request-demo-btn'>
-                                    Get Started
-                                </button>
+                                <a
+                                    href="https://resilify.org"
+                                    target="_blank"
+                                >
+                                    <button className='request-demo-btn'>
+                                        Get Started
+                                    </button>
+                                </a>
                             </Col>
 
                         </Row>
@@ -262,9 +312,9 @@ const Home = (props) => {
                         </Row>*/}
 
 
-                      {/* ------------ Engage with Community Section ---------  */}
+                        {/* ------------ Engage with Community Section ---------  */}
 
-                      {/* <Row className="card-row" style={{justifyContent: "center"}}>
+                        {/* <Row className="card-row" style={{justifyContent: "center"}}>
                             <div>
                                 <p
                                     style={{textAlign: 'center'}}
@@ -336,15 +386,45 @@ const Home = (props) => {
                 className={'coach-wrapper'}
                 style={{paddingBottom: 0}}
             >
-                <section className='home-section-group after-border-section'>
+                <section className="help-people-section">
                     <Row className='-row-flex-center'/>
                     <Row className='-row-flex-center'>
                         <Col md={24} style={{width: '100%'}}>
                             <p style={{textAlign: 'center'}}
-                               className='bottom-space base-text tab-view'>Multi-Modality <span
-                                className='-highlighted-text'>Evidence-Based Therapy</span>{' '} Apps
+                               className='bottom-space base-text tab-view'>We <span
+                                className='-highlighted-text'>Help People With</span>
                             </p>
-                            <Tabs
+
+                            <div className="multi-modality-section">
+                                {helpData?.map(data =>
+                                <div className="section">
+                                    <div className="section-card">
+                                        <h4 className="base-text">{data.title}</h4>
+                                        <img src={data.image}/>
+                                    </div>
+                                </div>
+                                )}
+                                <Link className="section" to="/programs">
+                                    <div className="section-card">
+                                        <h4 className="base-text">More</h4>
+                                        <img src={DotsIcon} className="dots-image"/>
+                                    </div>
+                                </Link>
+                            </div>
+                        </Col>
+                    </Row>
+                </section>
+            </div>
+
+            <section className='home-section-group after-border-section modality-section'>
+                <Row className='-row-flex-center'/>
+                <Row className='-row-flex-center' id='wrapper'>
+                    <Col md={24} style={{width: '100%'}}>
+                        <p style={{textAlign: 'center'}}
+                           className='bottom-space base-text tab-view'>Multi-Modality <span
+                            className='-highlighted-text'>Evidence-Based Therapy</span>{' '} Apps
+                        </p>
+                        {/* <Tabs
                                 // className="over-custom-border bt_portal-tabs"
                                 className='bt_portal-tabs with_underline'
                                 defaultActiveKey="1"
@@ -452,10 +532,46 @@ const Home = (props) => {
                                     </Row>
                                 </TabPane>
 
-                            </Tabs>
-                        </Col>
-                    </Row>
-                </section>
+                            </Tabs>*/}
+
+                        <div className="multi-modality-section">
+                            <Link className="section" to="/dbt-coach">
+                                <div className="section-card">
+                                    <img src={DBTCoachScreen}/>
+                                    <h4 className="base-text">DBT Coach</h4>
+                                    <p className="para-text">
+                                        Read More <Icon type="arrow-right"/>
+                                    </p>
+                                </div>
+                            </Link>
+                            <Link className="section" to="/cbt-companion">
+                                <div className="section-card">
+                                    <img src={CBTCompanionScreen}/>
+                                    <h4 className="base-text">CBT Companion</h4>
+                                    <p className="para-text">
+                                        Read More <Icon type="arrow-right"/>
+                                    </p>
+                                </div>
+                            </Link>
+                            <Link className="section" to="/act-coach">
+                                <div className="section-card">
+                                    <img src={ACTCoachScreen}/>
+                                    <h4 className="base-text">ACT Coach</h4>
+                                    <p className="para-text">
+                                        Read More <Icon type="arrow-right"/>
+                                    </p>
+                                </div>
+                            </Link>
+                        </div>
+                    </Col>
+                </Row>
+            </section>
+
+            <div
+                id='wrapper'
+                className={'coach-wrapper'}
+                style={{paddingBottom: 0}}
+            >
                 <section className='after-border-section'>
                     <Row className='card-row -row-flex-center'>
                         <Col md={24}>

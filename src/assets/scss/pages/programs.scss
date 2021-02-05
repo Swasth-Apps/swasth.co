@@ -1,0 +1,32 @@
+.all-programs-page{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .category-tabs-container{
+    background-color: _palette(bg);
+    border-radius: 15px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    .tab-text{
+      color: _palette(primary-blue);
+      font-size: 18px;
+      margin-bottom: 0px;
+      &:first-child {
+        margin-right: 50px;
+      }
+    }
+    .selected-category-tab{
+      height: 50px;
+      background-color: _palette(primary-blue);
+      color: _palette(bg);
+      border-radius: 50px;
+      padding: 5px 30px;
+      display: flex;
+      align-items: center;
+    }
+
+  }
+}

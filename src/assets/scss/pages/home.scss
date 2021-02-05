@@ -935,8 +935,9 @@
   //}
 
   span {
-    background-image: linear-gradient(258deg, #754af6 86%, #4273f0 10%);
+    //background-image: linear-gradient(258deg, #754af6 86%, #4273f0 10%);
     //background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    background-color: #754af6;
     background-size: 0px 3px;
     background-position: 0px 90%;
   }
@@ -2153,7 +2154,6 @@ a{
 
 .user-testimonial {
   .life-coach-grid-section {
-    cursor: pointer;
     transition: all 0.5s;
     //box-shadow: rgba(103, 183, 222, 0.15) 16px 0 0 0.10px;
     .card-text {
@@ -2525,5 +2525,96 @@ a{
 .store-icon {
   @media screen and (max-width: 800px) {
     width: 50% !important;
+  }
+}
+
+
+// New Multi Modality Apps
+.multi-modality-section{
+  display: flex;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  .section{
+    flex: 0 0 33%;
+    padding: 20px;
+    &:nth-child(3n){
+      padding-right: 0;
+    }
+    .section-card{
+      box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      padding: 15px 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 275px;
+      background-color: _palette(bg);
+      h4{
+        color: _palette(dark-blue);
+        margin-top: 30px;
+        margin-bottom: 0px;
+        font-size: 24px;
+      }
+      img{
+        height: 120px;
+        //min-height: 70%;
+        //max-height: 70%;
+      }
+      .dots-image{
+        height: 20px !important;
+      }
+      p{
+        text-align: center;
+        font-size: 15px;
+        color: #a5a5a5;
+        margin-top: 10px;
+        font-style: italic;
+        font-weight: 600;
+        margin-bottom: 0px;
+        i{
+          margin-left: 10px;
+        }
+      }
+    }
+    @media screen and (max-width: 768.5px) {
+      flex: 0 0 50%;
+    }
+    @media screen and (max-width: 500px) {
+      flex: 0 0 100%;
+    }
+  }
+}
+
+.modality-section{
+  background: _palette(bg-color);
+  padding: 100px 0;
+}
+
+// We help People with
+.help-people-section{
+  margin-top: 50px;
+  .section-card{
+    h4{
+      margin-bottom: 30px !important;
+      margin-top: 0px !important;
+    }
+    p{
+      margin-top: 20px;
+    }
+    img{
+      height: 140px !important;
+      //min-height: 70%;
+      //max-height: 70%;
+    }
+  }
+}
+
+.width-90{
+  width: 90%;
+  @media only screen and (max-width: 769px) {
+    width: 100%;
   }
 }
