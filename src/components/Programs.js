@@ -57,7 +57,9 @@ class Programs extends React.Component {
                                 >
                                     <div className="section-card" style={{
                                         backgroundImage: `url(${d.image})`,
-                                        backgroundSize: "contain"
+                                        backgroundSize: "cover",
+                                        backgroundPosition:"center",
+                                        backgroundRepeat:"no-repeat",
                                     }}>
                                         <div className="content">
                                             <h4 className="base-text">{d.title}</h4>
