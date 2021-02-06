@@ -1,10 +1,6 @@
 import React, {Fragment} from "react";
-import {Link} from "gatsby";
-import DBTCoachScreen from "../assets/images/DBT-app-icon@3x.png";
 import {Icon} from "antd";
-import CBTCompanionScreen from "../assets/images/CBT_app_icon@3x.png";
-import ACTCoachScreen from "../assets/images/ACT-app-icon.png";
-import {programs} from "../helper/programs";
+import {helpData, programs} from "../helper/programs";
 
 class Programs extends React.Component {
     constructor(props) {
@@ -14,9 +10,23 @@ class Programs extends React.Component {
         }
     }
 
+    changeTab = (tab) => {
+        this.setState({
+            selectedTab: tab
+        })
+    };
+
+    refToWebapp = (slug) => {
+        if(this.state.selectedTab === "resilify"){
+            window.open(`https://resilify.org/program-detail/${slug}`)
+        }else{
+            window.open(`https://resilify.org/program-detail/${slug}`)
+        }
+    }
+
     render() {
         const {selectedTab} = this.state;
-        const data = programs[selectedTab];
+        const data = helpData?.filter(({type}) => type ===  selectedTab);
         return (
             <Fragment>
                 <section
@@ -29,22 +39,28 @@ class Programs extends React.Component {
                     >
                         <div className="category-tabs-container">
                             <p
-                                className={`tab-text base-text ${selectedTab === "coaching-app" ? "selected-category-tab" : ""}`}
+                                className={`tab-text base-text ${selectedTab === "coaching" ? "selected-category-tab" : ""}`}
+                                onClick={() => this.changeTab("coaching")}
                             > Live Coaching </p>
                             <p
                                 className={`tab-text base-text ${selectedTab === "resilify" ? "selected-category-tab" : ""}`}
+                                onClick={() => this.changeTab("resilify")}
                             >
                                 Self Help App
                             </p>
                         </div>
                         <div className="multi-modality-section programs-list">
                             {data?.map(d =>
-                            <a className="section" href="/dbt-coach">
+                            <a
+                                className="section"
+                                onClick={() => this.refToWebapp(d.slug)}
+                            >
                                 <div className="section-card">
-                                    <img src={d.image}/>
                                     <h4 className="base-text">{d.title}</h4>
+                                    <img src={d.image}/>
                                     <p className="para-text">
-                                        {d.description} <Icon type="arrow-right"/>
+                                        {d.description ? d.description : "Read More"}
+                                        {d.description ? "" : <Icon type="arrow-right"/>}
                                     </p>
                                 </div>
                             </a>
