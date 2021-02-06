@@ -1,6 +1,6 @@
 import React, {Fragment} from "react";
 import {Icon} from "antd";
-import {helpData, programs} from "../helper/programs";
+import {helpData} from "../helper/programs";
 
 class Programs extends React.Component {
     constructor(props) {
@@ -17,16 +17,16 @@ class Programs extends React.Component {
     };
 
     refToWebapp = (slug) => {
-        if(this.state.selectedTab === "resilify"){
+        if (this.state.selectedTab === "resilify") {
             window.open(`https://resilify.org/program-detail/${slug}`)
-        }else{
+        } else {
             window.open(`https://resilify.org/program-detail/${slug}`)
         }
     }
 
     render() {
         const {selectedTab} = this.state;
-        const data = helpData?.filter(({type}) => type ===  selectedTab);
+        const data = helpData?.filter(({type}) => type === selectedTab);
         return (
             <Fragment>
                 <section
@@ -51,19 +51,24 @@ class Programs extends React.Component {
                         </div>
                         <div className="multi-modality-section programs-list">
                             {data?.map(d =>
-                            <a
-                                className="section"
-                                onClick={() => this.refToWebapp(d.slug)}
-                            >
-                                <div className="section-card">
-                                    <h4 className="base-text">{d.title}</h4>
-                                    <img src={d.image}/>
-                                    <p className="para-text">
-                                        {d.description ? d.description : "Read More"}
-                                        {d.description ? "" : <Icon type="arrow-right"/>}
-                                    </p>
-                                </div>
-                            </a>
+                                <a
+                                    className="section"
+                                    onClick={() => this.refToWebapp(d.slug)}
+                                >
+                                    <div className="section-card" style={{
+                                        backgroundImage: `url(${d.image})`,
+                                        backgroundSize: "contain"
+                                    }}>
+                                        <div className="content">
+                                            <h4 className="base-text">{d.title}</h4>
+                                            <p className="para-text">
+                                                {/*{d.description ? d.description : "Read More"}
+                                        {d.description ? "" : <Icon type="arrow-right"/>}*/}
+                                                Read More <Icon type="arrow-right"/>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
                             )}
                         </div>
                     </div>

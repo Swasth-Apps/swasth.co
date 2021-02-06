@@ -36,11 +36,25 @@
   }
   .programs-list {
     .section-card{
+      justify-content: flex-end;
+      position: relative;
+      .content{
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 20px 0;
+        width: 100%;
+        border-radius: 0 0 15px 15px;
+        background-image: linear-gradient(to bottom, #4170ed03 -3%, #0d4df6 103%);
+      }
       h4{
+        color: white;
         margin-top: 0px;
       }
       p{
-        margin-top: 20px;
+        color: white;
+        margin-top: 10px;
       }
     }
   }
