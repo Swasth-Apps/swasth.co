@@ -48,10 +48,10 @@ const Home = (props) => {
             <section>
                 <div className="about-us-mission-container padding-20" id="missionStatement">
                     <div className="mission-content">
-                        <h2 className="base-text">Mission</h2>
+                        <h2 className="base-text">Our Mission</h2>
                         <div className="para-text">
                             Our mission is to transform behavioral health care through technology, evidence-based
-                            therapy, guided by experts and coaches to empower people improve their mental-health.
+                            therapy and give everyone the tools, resources and clinical support when they need it.
                         </div>
                     </div>
                     <div className="mission-img">
@@ -67,11 +67,9 @@ const Home = (props) => {
                     <div className="mission-content">
                         <h2 className="base-text">Our Approach</h2>
                         <div className="para-text">
-                            We pride ourselves on partnering with healthcare leaders to assist in driving better outcomes and make a positive impact.
-                            NeuroFlow exists to make sure no patient who needs behavioral health support falls through the cracks.
+                            We focus on evidence-based behavioral health care and psychoeducation, guided by experts and coaches to empower people improve their mental-health.
                             <p style={{marginBottom: 10}} />
-                            We build more than just engaging digital health tools for patient self-care:
-                            we create platforms that connect the patient to care providers and specialists, empowering them to remotely coordinate and deliver effective mental health care at scale.
+                            In addition to comprehensive digital health tools for self-care, our platforms assist clinicians and specialists to achieve better outcomes by delivering effective behavioral health care at scale.
                         </div>
                     </div>
 
@@ -181,11 +179,8 @@ const Home = (props) => {
                         <p className="name base-text"> Brian Thomas </p>
                         <p className="title para-text">Advisor</p>
                         <p className="para-text">Brian spent fourteen years as a corporate executive at Equinix where he
-                            served as Chief of
-                            Staff
-                            in the Office of the CEO, Vice President of Global Corporate Planning, and Executive Sponsor
-                            for Corporate Sustainability and Leadership
-                            Development. Before Equinix, Brian was an investment banker with Citi for nine years. He
+                            served as Chief of Staff in the Office of the CEO, Vice President of Global Corporate Planning, and Executive Sponsor
+                            for Corporate Sustainability and Leadership Development. Before Equinix, Brian was an investment banker with Citi for nine years. He
                             received an M.Phil. in the Economics from the University of Cambridge and a BA in from
                             Willamette University.</p>
                     </div>}
@@ -196,8 +191,8 @@ const Home = (props) => {
                 {/*<p>Our technologists, mental health experts, and business leaders driving the strategy behind Resiliens.</p>  */}
                 <div className="leader-section board-member-section para-text">
                     <div className="user">
-                        <img src={require("../assets/images/philip.png")}/>
-                        <p className="name base-text">Philip Zimbardo </p>
+                        <img src={require("../assets/images/zimbardo.jpg")}/>
+                        <p className="name base-text">Dr. Philip Zimbardo </p>
                         <p className="title para-text">Professor Emeritus @ Stanford</p>
                         <p className="para-text social-icons">
                             <a href="https://www.linkedin.com/in/philzimbardo/">
@@ -208,6 +203,18 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className="user">
+                        <img src={require("../assets/images/dennis.png")}/>
+                        <p className="name base-text">Dr. Dennis Tirch </p>
+                        <p className="title para-text">Founder @ Center for Compassion Focused Therapy </p>
+                        <p className="para-text social-icons">
+                            <a href="https://www.linkedin.com/in/dennis-tirch-663420b/">
+                                <img src={require("../assets/images/linkedin.png")}/>
+                            </a> <a href="http://www.mindfulcompassion.com/dr-dennis-tirch">
+                            <img src={require("../assets/images/website.png")}/>
+                        </a>
+                        </p>
+                    </div>
+ {/*                    <div className="user">
                         <img src={require("../assets/images/image-placeholder.png")}/>
                         <p className="name base-text">TBA</p>
                         <p className="title para-text">TBA</p>
@@ -226,7 +233,7 @@ const Home = (props) => {
                                 <img src={require("../assets/images/linkedin.png")}/>
                             </a>
                         </p>
-                    </div>
+                    </div> */}
                     <div className="user">
                         <img src={require("../assets/images/brian.jpg")}/>
                         <p className="name base-text">Brian Thomas</p>
@@ -247,7 +254,7 @@ const Home = (props) => {
                             </a>
                         </p>
                     </div>
-                    <div className="user">
+{/*                     <div className="user">
                         <img src={require("../assets/images/image-placeholder.png")}/>
                         <p className="name base-text">TBA</p>
                         <p className="title para-text">TBA</p>
@@ -256,7 +263,7 @@ const Home = (props) => {
                                 <img src={require("../assets/images/linkedin.png")}/>
                             </a>
                         </p>
-                    </div>
+                    </div> */}
                     <div className="user">
                         <img src={require("../assets/images/gana-2.jpg")}/>
                         <p className="name base-text"> Gana Pemmanda </p>
@@ -278,7 +285,7 @@ const Home = (props) => {
                         </p>
                     </div>
 
-                    <div className="user">
+  {/*                   <div className="user">
                         <img src={require("../assets/images/image-placeholder.png")}/>
                         <p className="name base-text">TBA</p>
                         <p className="title para-text">TBA</p>
@@ -287,7 +294,7 @@ const Home = (props) => {
                                 <img src={require("../assets/images/linkedin.png")}/>
                             </a>
                         </p>
-                    </div>
+                    </div> */}
                 </div>
             </section>
             <section className="about-us-join-team">
