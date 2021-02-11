@@ -26,6 +26,14 @@
           font-weight: bold;
         }
       }
+      .success-text{
+        color: _palette(accent6);
+        margin-top: 20px;
+        font-size: 16px;
+        h3{
+          color: _palette(accent6);
+        }
+      }
       .form-item{
         margin-bottom: 0;
         margin-top: 10px;

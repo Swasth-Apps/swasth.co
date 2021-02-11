@@ -1,5 +1,5 @@
 import React, {Fragment} from "react";
-import {Icon} from "antd";
+import {Icon, Row} from "antd";
 import {helpData} from "../helper/programs";
 import _ from "lodash";
 import Program from "./Program";
@@ -51,6 +51,7 @@ class Programs extends React.Component {
             <Fragment>
                 <section
                     className='all-programs-page'
+
                 >
                     {!path ?
                         <div
@@ -94,7 +95,9 @@ class Programs extends React.Component {
                                     </a>
                                 )}
                             </div>
-                        </div> : <div className="category-page-body">
+                        </div> : <div className="category-page-body"
+
+                        >
                             <div className="program-section" id={`topic-tabs`}>
                                 <h3 className="program-section-title base-text">
                                     <Icon onClick={() => window.history.back()} type="arrow-left" className="arrow-icon" style={{marginRight: 20}}/>
