@@ -5,16 +5,15 @@ exports.handler = async event => {
     let email = requestParams.email;
 
     AWS.config.update({
-        accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+        accessKeyId: process.env.GATSNY_AWS_ACCESS_KEY_ID,
+        secretAccessKey: process.env.GATSNY_AWS_SECRET_ACCESS_KEY,
         region: 'us-east-1'
     });
 
     const ses = new AWS.SES({apiVersion: "2010-12-01"});
-    console.log("------",process.env.AWS_EMAIL)
     const params = {
         Destination: {
-            ToAddresses: [process.env.AWS_EMAIL] // Email address/addresses that you want to send your email
+            ToAddresses: [process.env.GATSBY_AWS_EMAIL] // Email address/addresses that you want to send your email
         },
         //   ConfigurationSetName: <<ConfigurationSetName>>,
         Message: {
