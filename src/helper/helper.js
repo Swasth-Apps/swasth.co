@@ -1,3 +1,41 @@
+
+export function getCloudIDFromImageName(image, source, type = 'lessons') {
+  let path = '';
+  if (image) {
+    let n = image.lastIndexOf('.');
+    path =
+        `${source?.toLowerCase()}/${
+            cloudinaryPaths[source?.toLowerCase()]?.[type]
+        }` + image.slice(0, n);
+  }
+  return path;
+}
+
+export const groupName = "dbt-coach-users";
+
+export const cloudinaryPaths = {
+  dbt: {
+    exercises: 'png/exercises/',
+    lessons: 'png/lessons/',
+  },
+  cbt: {
+    exercises: 'png/exercises/',
+    lessons: 'png/lessons/',
+  },
+  act: {
+    exercises: 'exercises/',
+    lessons: 'lessons/',
+  },
+  bodhi: {
+    activities: 'activities/',
+    lessons: 'lessons/',
+    tracks: 'tracks/',
+    community: 'community/',
+    assessments: 'assessments/',
+    tools: 'tools/',
+  },
+};
+
 export const home =[
   {
     comment:'I have spent years in talk therapy and when my friend suggested to try an alternate approach, I was skeptical at first. But I think you guys really saved my life.'

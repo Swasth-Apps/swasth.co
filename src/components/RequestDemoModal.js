@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import {Link} from "gatsby"
 import {Button, Form, Input, InputNumber, Modal, Radio} from 'antd';
-
+import axios from 'axios';
 const RequestDemoModal = props => {
     const [openModal, setOpenModal] = useState(false);
     useEffect(() => {
@@ -15,6 +15,22 @@ const RequestDemoModal = props => {
         props.form.resetFields();
         props.onClose()
     };
+
+    const send = (e) => {
+        e.preventDefault();
+
+        props.form.validateFields((err,values) => {
+            if(!err){
+                axios.post('/.netlify/functions/ses-send-email', {
+                   ...values
+                }).then((res) => {
+                    console.log(res)
+                })
+            }
+        })
+
+    };
+
 
     const {getFieldDecorator} = props.form;
     return (
@@ -32,13 +48,13 @@ const RequestDemoModal = props => {
                         {/*<a className="base-text">Start here</a>*/}
                     </p>
                 </div>
-                <Form name="control-hooks" onSubmit={() => console.log()}>
+                <Form name="control-hooks" onSubmit={send}>
                     <Form.Item label="I am a" className="form-item" style={{display: "flex"}}>
                         {getFieldDecorator('user_type', {
                             rules: [{required: false}],
                         })(
                             <Radio.Group>
-                                <Radio value={"client"}>Client / Patient</Radio>
+                                <Radio value={"Client"}>Client / Patient</Radio>
                                 <Radio value={"Clinician"}>Clinician</Radio>
                                 <Radio value={"Employer"}>Employer</Radio>
                             </Radio.Group>
@@ -74,7 +90,7 @@ const RequestDemoModal = props => {
                     )}
                 </Form.Item>
                     <Form.Item className="form-item">
-                        {getFieldDecorator('email_name', {
+                        {getFieldDecorator('email', {
                             rules: [
                                 {required: true, message: 'Please input your email!'},
                                 {type: "email", message: "Invalidate Email"}
@@ -88,12 +104,13 @@ const RequestDemoModal = props => {
                     </Form.Item>
                 </div>
                 <Form.Item className="form-item">
-                    {getFieldDecorator('help', {
+                    {getFieldDecorator('message', {
                         rules: [{required: false}],
                     })(
-                        <Input
+                        <Input.TextArea
+                            rows={4}
                             placeholder="How can we help you?"
-                            className="request-form-input"
+                            className="request-form-input request-form-textarea"
                         />,
                     )}
                 </Form.Item>
@@ -101,7 +118,7 @@ const RequestDemoModal = props => {
                     By submitting this form, you are agreeing to Resiliens Health's {' '}
                     <Link to="/privacy" className='base-text'>Privacy Policy</Link> and <Link to="/terms"  className="base-text">Terms of Use</Link>.
                 </p>
-                <Button className="request-demo-btn base-text">Request a Demo</Button>
+                <Button htmlType="submit" className="request-demo-btn base-text">Request a Demo</Button>
             </Form>
             </div>
         </Modal>

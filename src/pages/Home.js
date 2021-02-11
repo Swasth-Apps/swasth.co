@@ -17,8 +17,6 @@ import ProgramAdapts from '../assets/images/pexels-kaboompics-com-6335.jpg'
 import DotsIcon from '../assets/images/dots.png';
 
 
-
-
 import Banner from '../components/Banner'
 
 /*
@@ -46,16 +44,16 @@ const helpData = [
     {
         title: "Anxiety",
         image: require("../assets/images/programs/Anxiety.jpg")
-    },{
+    }, {
         title: "Depression",
         image: require("../assets/images/programs/Depression.jpg")
-    },{
+    }, {
         title: "Eating Disorders",
         image: require("../assets/images/programs/Eating-Disorder.jpg")
-    },{
+    }, {
         title: "Insomnia",
         image: require("../assets/images/programs/Insomnia.jpg")
-    },{
+    }, {
         title: "Panic Disorders",
         image: require("../assets/images/programs/Panic-Disorder.jpg")
     },
@@ -144,8 +142,10 @@ const Home = () => {
                                 <div className='para-text'>
                                     <p style={{textAlign: 'center'}} className="black-18-font">
                                         Resiliens's Digital Health Platform offers treatment programs for Anxiety,
-                                        Depression, Eating Disorders, Borderline Personality Disorder, PTSD, SUDs, etc. The Platform
-                                        combines Technology, Evidence-Based Therapy and Coaching from Licensed Clinicians and Coaches.
+                                        Depression, Eating Disorders, Borderline Personality Disorder, PTSD, SUDs, etc.
+                                        The Platform
+                                        combines Technology, Evidence-Based Therapy and Coaching from Licensed
+                                        Clinicians and Coaches.
                                     </p>
                                 </div>
                             </Row>
@@ -280,9 +280,12 @@ const Home = () => {
 
                                 </p>
                                 <div className='para-text margin-bottom-25 black-18-font width-90'>
-                                Finding effective behavioral healthcare is hard. Through our self-guided app (Resilify), you have access to over 50+ self-guided programs, 
-                                organized by symptoms / conditions, treatment modalities. These contain video-guided lessons, exercises, activities and tools that were created by 
-                                 experts in behavioral health using  evidence-based techniques, to improve your mental well-being.
+                                    Finding effective behavioral healthcare is hard. Through our self-guided app
+                                    (Resilify), you have access to over 50+ self-guided programs,
+                                    organized by symptoms / conditions, treatment modalities. These contain video-guided
+                                    lessons, exercises, activities and tools that were created by
+                                    experts in behavioral health using evidence-based techniques, to improve your mental
+                                    well-being.
                                 </div>
                                 <a
                                     href="https://resilify.org"
@@ -391,19 +394,27 @@ const Home = () => {
                                 className='-highlighted-text'>help people with</span>
                             </p>
 
-                            <div className="multi-modality-section">
+                            <div className="multi-modality-section programs-list">
                                 {helpData?.map(data =>
-                                <div className="section">
-                                    <div className="section-card">
-                                        <h4 className="base-text">{data.title}</h4>
-                                        <img src={data.image}/>
+                                    <div className="section">
+                                        <div className="section-card" style={{
+                                            backgroundImage: `url(${data.image})`,
+                                            backgroundSize: "cover",
+                                            backgroundPosition:"center",
+                                            backgroundRepeat:"no-repeat",
+                                        }}>
+                                            <div className="content">
+                                                <h4 className="base-text">{data.title}</h4>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
                                 )}
                                 <Link className="section" to="/programs">
                                     <div className="section-card">
-                                        <h4 className="base-text">More</h4>
                                         <img src={DotsIcon} className="dots-image"/>
+                                        <div className="more-content">
+                                        <h4 className="base-text more-text">More</h4>
+                                        </div>
                                     </div>
                                 </Link>
                             </div>

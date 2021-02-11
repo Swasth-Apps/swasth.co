@@ -66,7 +66,7 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(result.errors)
     }
 
-    const posts = result.data.allMarkdownRemark.edges
+    const posts = result.data.allMarkdownRemark.edges;
 
     /******** for Infinite scroll in blog index page starts *********/
     createPage({
@@ -75,11 +75,11 @@ exports.createPages = ({ actions, graphql }) => {
       context: {
         blogList: result.data.blogs.edges,
       },
-    })
+    });
     /******** for Infinite scroll in blog index page ends *********/
 
     posts.forEach(edge => {
-      const id = edge.node.id
+      const id = edge.node.id;
       createPage({
         path: edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
@@ -118,6 +118,18 @@ exports.createPages = ({ actions, graphql }) => {
     // })
   })
 }
+
+exports.onCreatePage = ({ page, actions }) => {
+  const { createPage } = actions;
+
+  if(page.path.match(/^\/programs/)){
+    createPage({
+      path: "/programs",
+      matchPath: '/programs/*',
+      component: path.resolve(`src/pages/programs.js`)
+    })
+  }
+};
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
