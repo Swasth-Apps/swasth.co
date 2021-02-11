@@ -1,4 +1,4 @@
-// Proxima Nova Font
+.menu-fold-content// Proxima Nova Font
 .font-proxima-nova {
   font-family: 'proxima_nova_rgregular', Helvetica;
 }
@@ -100,7 +100,8 @@
     }
 
     .anticon-close {
-      color: white;
+      //color: white;
+      padding: 15px 0 0px 0;
     }
 
     .not-white {
@@ -121,21 +122,24 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    z-index: 1;
+    z-index: 11;
     top: 0;
-    background: rgba(31, 56, 97, 0.99);
+    background: white;
     width: 100%;
     justify-content: center;
     text-align: center;
 
     a {
       border-bottom: 1px solid rgba(255, 255, 255, .125);
-      color: #fff;
-      padding: 20px;
+      color: #22303f;
+      padding: 10px;
       font-size: 19px;
-      width: 230px;
+      width: 90%;
       cursor: pointer;
       margin: 0 auto;
+      &:last-child{
+        padding-bottom: 20px;
+      }
     }
 
     .folded-menu-collapse {
@@ -144,17 +148,19 @@
 
       .ant-collapse-item {
         border-bottom: none;
-        width: 230px;
+        width: 90%;
         margin: auto;
         border-bottom: 1px solid rgba(255, 255, 255, .125);
-
+        &:not(:first-child){
+          margin-top: 5px;
+        }
         .ant-collapse-header {
-          color: #fff;
-          padding: 20px;
+          color: #22303f;
+          padding: 10px;
           font-size: 19px;
-          width: 230px;
+          width: 90%;
           cursor: pointer;
-          margin: 0 auto;
+          margin: 0;
 
           .ant-collapse-arrow {
             right: 0;
@@ -163,12 +169,25 @@
         }
 
         .ant-collapse-content-box {
-          padding: 0px;
+          margin: 0 16px 16px 10px;
+          padding: 0;
+          .menu-content-item {
+            p{
+              text-align: left;
+            }
+            p:first-child {
+              margin-bottom: 0px;
+            }
 
+            p:not(:first-child) {
+              margin-bottom: 10px;
+              color: #4d6580;
+            }
+          }
           .header-menu-submenu {
-            padding: 0px;
+            padding: 15px 0 0;
             min-width: 200px;
-
+            margin-top: 15px;
             a:last-child {
               border-bottom: none;
             }
@@ -185,7 +204,6 @@
 }
 
 .menu-fold-content-close {
-  transition: height 0.4s ease-out 0s;
   height: 0px;
 
   a, .folded-menu-collapse {
@@ -194,11 +212,18 @@
 }
 
 .menu-fold-content-open {
-  transition: height 0.4s ease-out 0s;
-  height: 100%;
+  height: fit-content;
+  box-shadow: 1px 1px 6px 0 #bfb6b6;
+  margin-top: 90px;
+  padding-bottom: 20px;
 
   a, .folded-menu-collapse {
     display: block;
+  }
+  .menu-content,
+  .ant-tabs-tab{
+    font-family: "Airbnb Cereal App Medium", Helvetica;
+    text-align: left;
   }
 }
 
@@ -938,7 +963,6 @@
   font-size: 16px;
   color: #fff;
   text-align: center;
-  font-weight: 800;
 }
 
 .ribbon-purple {
@@ -1925,7 +1949,6 @@ strong {
 
     h3 {
       color: #344356;
-      font-weight: 500;
       font-size: 16px;
       margin-bottom: 10px;
       text-transform: uppercase;
@@ -2066,7 +2089,7 @@ strong {
     padding: 5px 10px;
     border-radius: 5px;
     margin-left: 0 !important;
-    font-weight: bold;
+    //font-weight: bold;
     margin-bottom: 0px;
   }
 
@@ -2615,7 +2638,6 @@ strong {
         color: #a5a5a5;
         margin-top: 10px;
         font-style: italic;
-        font-weight: 600;
         margin-bottom: 0px;
         display: -webkit-box;
         -webkit-line-clamp: 3;

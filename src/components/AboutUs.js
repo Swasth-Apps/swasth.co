@@ -150,7 +150,7 @@ const Home = (props) => {
                         <img src={require("../assets/images/gana-2.jpg")}/>
                         <p className="name base-text"> Gana Pemmanda </p>
                         <p className="title para-text">Co-founder & CEO</p>
-                        <p className="para-text">Gana co-founded Resiliens to transform behavioral health using technology and
+                        <p className="para-book-text">Gana co-founded Resiliens to transform behavioral health using technology and
                             evidence-based
                             models.
                             Having seen friends and family affected by mental health challenges and having personally
@@ -164,7 +164,7 @@ const Home = (props) => {
                         <img src={require("../assets/images/yotam.png")}/>
                         <p className="name base-text">Dr. Yotam Heineberg </p>
                         <p className="title para-text">Chief Clinical Officer</p>
-                        <p className="para-text">Yotam leads research, clinician operations and implementation of
+                        <p className="para-book-text">Yotam leads research, clinician operations and implementation of
                             evidence-based therapy
                             models at Resiliens.
                             Yotam is a licensed clinical psychologist and a clinical faculty member at Palo Alto
@@ -178,7 +178,7 @@ const Home = (props) => {
                         <img src={require("../assets/images/brian.jpg")}/>
                         <p className="name base-text"> Brian Thomas </p>
                         <p className="title para-text">Advisor</p>
-                        <p className="para-text">Brian spent fourteen years as a corporate executive at Equinix where he
+                        <p className="para-book-text">Brian spent fourteen years as a corporate executive at Equinix where he
                             served as Chief of Staff in the Office of the CEO, Vice President of Global Corporate Planning, and Executive Sponsor
                             for Corporate Sustainability and Leadership Development. Before Equinix, Brian was an investment banker with Citi for nine years. He
                             received an M.Phil. in the Economics from the University of Cambridge and a BA in from

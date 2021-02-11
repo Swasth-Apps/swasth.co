@@ -18,6 +18,13 @@
     font-weight: normal;
     src: local('Avenir'), url('Avenir-LT-65-Medium.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Avenir Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Book'), url('AvenirLTStd-Book.otf') format('opentype');
+}
 @font-face {
     font-family: 'Airbnb Cereal App Book';
     font-style: normal;
