@@ -36,7 +36,7 @@ const Header = (props) => {
                                             Clinician Platform
                                         </div>
                                     </a>
-                                    <a target="_blank" href="https://behavioralhealthcoach.resiliens.com/"
+                                    <a target="_blank" href="https://coaching.resiliens.com/"
                                        className='menu-content-item'>
                                         <div className={`menu-content para-text`}>
                                             Coaching Platform
@@ -47,7 +47,7 @@ const Header = (props) => {
                                         href="https://resilify.org"
                                         className='menu-content-item'>
                                         <div className={`menu-content para-text`}>
-                                            Resilify (Self Help)
+                                            Resilify (Self Guided)
                                         </div>
                                     </a>
                                 </div>}
@@ -133,7 +133,7 @@ const Header = (props) => {
                                             Clinician Platform
                                         </div>
                                     </a>
-                                    <a target="_blank" href="https://behavioralhealthcoach.resiliens.com/"
+                                    <a target="_blank" href="https://coaching.resiliens.com/"
                                        className='menu-content-item'>
                                         <div className={`menu-content para-text`}>
                                            Behavioral Coaching Platform
@@ -144,7 +144,7 @@ const Header = (props) => {
                                             href="https://resilify.org"
                                         className='menu-content-item'>
                                         <div className={`menu-content para-text`}>
-                                            Resilify (Self Help)
+                                            Resilify (Self Guided)
                                         </div>
                                     </a>
                                 </div>

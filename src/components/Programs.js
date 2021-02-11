@@ -41,12 +41,12 @@ class Programs extends React.Component {
                             <p
                                 className={`tab-text base-text ${selectedTab === "coaching" ? "selected-category-tab" : ""}`}
                                 onClick={() => this.changeTab("coaching")}
-                            > Live Coaching </p>
+                            > Live Coaching</p>
                             <p
                                 className={`tab-text base-text ${selectedTab === "resilify" ? "selected-category-tab" : ""}`}
                                 onClick={() => this.changeTab("resilify")}
                             >
-                                Self Help App
+                                Self Guided
                             </p>
                         </div>
                         <div className="multi-modality-section programs-list">

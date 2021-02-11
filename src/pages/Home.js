@@ -144,10 +144,8 @@ const Home = () => {
                                 <div className='para-text'>
                                     <p style={{textAlign: 'center'}} className="black-18-font">
                                         Resiliens's Digital Health Platform offers treatment programs for Anxiety,
-                                        Depression,
-                                        Eating Disorders, Borderline Personality Disorder, PTSD, SUDs, etc. The Platform
-                                        combines Technology,
-                                        Evidence-Based Therapy and Coaching from Licensed Clinicians and Coaches.
+                                        Depression, Eating Disorders, Borderline Personality Disorder, PTSD, SUDs, etc. The Platform
+                                        combines Technology, Evidence-Based Therapy and Coaching from Licensed Clinicians and Coaches.
                                     </p>
                                 </div>
                             </Row>
@@ -259,7 +257,7 @@ const Home = () => {
                                     </ul>
                                 </div>
 
-                                <a href="https://behavioralhealthcoach.resiliens.com/" target="_blank">
+                                <a href="https://coaching.resiliens.com/" target="_blank">
                                     <button className='request-demo-btn' style={{marginBottom: 20}}>
                                         Get Started
                                     </button>
@@ -282,11 +280,9 @@ const Home = () => {
 
                                 </p>
                                 <div className='para-text margin-bottom-25 black-18-font width-90'>
-                                    With on-demand skills coaching you can get additional support - whether you have
-                                    currently enrolled or graduated from a program, or need
-                                    immediate help due to a crisis. These sessions include reviewing skills used, asking
-                                    questions, discussing what work for your specific situation,
-                                    and introducing new DBT skills to help manage your situation.
+                                Finding effective behavioral healthcare is hard. Through our self-guided app (Resilify), you have access to over 50+ self-guided programs, 
+                                organized by symptoms / conditions, treatment modalities. These contain video-guided lessons, exercises, activities and tools that were created by 
+                                 experts in behavioral health using  evidence-based techniques, to improve your mental well-being.
                                 </div>
                                 <a
                                     href="https://resilify.org"
@@ -392,7 +388,7 @@ const Home = () => {
                         <Col md={24} style={{width: '100%'}}>
                             <p style={{textAlign: 'center'}}
                                className='bottom-space base-text tab-view'>We <span
-                                className='-highlighted-text'>Help People With</span>
+                                className='-highlighted-text'>help people with</span>
                             </p>
 
                             <div className="multi-modality-section">
