@@ -45,6 +45,8 @@ class Programs extends React.Component {
         } else {
             data = _.find(helpData, ({slug}) => slug === path);
         }
+
+        console.log(process.env.GATSBY_AWS_EMAIL)
         return (
             <Fragment>
                 <section
