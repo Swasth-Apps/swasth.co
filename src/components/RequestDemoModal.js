@@ -1,7 +1,9 @@
 import React, {useEffect, useState} from 'react'
-import {Link} from "gatsby"
+import {Link} from "gatsby";
+import Amplify, {API, graphqlOperation} from 'aws-amplify'
+import graphql_endpoint from '../aws-appsync-url'
 import {Button, Form, Input, InputNumber, Modal, Radio} from 'antd';
-import axios from 'axios';
+import {requestDemo} from "../queries";
 const RequestDemoModal = props => {
     const [openModal, setOpenModal] = useState(false);
     const [showSuccess, setShowSuccess] = useState(false);
@@ -22,12 +24,17 @@ const RequestDemoModal = props => {
 
         props.form.validateFields((err,values) => {
             if(!err){
-                axios.post('/.netlify/functions/ses-send-email', {
-                   ...values
-                }).then((res) => {
-                    console.log(res);
-                    setShowSuccess(true)
+                Amplify.configure({
+                    API: {
+                        graphql_endpoint: graphql_endpoint.RESILIFY,
+                    },
+                });
+                API.graphql(graphqlOperation(requestDemo,{...values,phone: values?.phone_number?.toString()}),{
+                    "x-api-key" : graphql_endpoint.API_KEY
                 })
+                    .then(({ data }) => {
+                        setShowSuccess(true)
+                    });
             }
         })
 
@@ -121,7 +128,7 @@ const RequestDemoModal = props => {
                     <Link to="/privacy" className='base-text'>Privacy Policy</Link> and <Link to="/terms"  className="base-text">Terms of Use</Link>.
                 </p>
                 <Button htmlType="submit" className="request-demo-btn base-text">Request a Demo</Button>
-                    {!showSuccess ?
+                    {showSuccess ?
                     <p className="para-text success-text">
                         <h3 className="base-text"> Thank you for contacting us.</h3>
                         You are very important to us, all information received will always remain confidential. We will contact you as soon as we review your message.

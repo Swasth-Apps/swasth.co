@@ -1,3 +1,18 @@
+// Airbnb font
+.base-text {
+  font-family: 'Airbnb Cereal App Bold', Helvetica;
+}
+
+// Avenir font
+.para-text {
+  font-family: 'Avenir', Helvetica;
+}
+
+// Avenir Book
+.para-book-text{
+  font-family: "Avenir Book",'Avenir', Helvetica;
+}
+
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
