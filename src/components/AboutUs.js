@@ -157,7 +157,7 @@ const Home = (props) => {
                             seen the benefits, he is passionate about scaling
                             behavioral health care. Prior to founding Resiliens, he led product and technology teams at
                             startups and Fortune 100 companies.
-                            Gana holds a MS in CS from the University of Missouri and a MSE/MBA from Wharton / Univerity
+                            Gana holds a MS in CS from the University of Missouri and a MSE/MBA from Wharton / University
                             of Pennsylvania.</p>
                     </div>
                     <div className="user">
