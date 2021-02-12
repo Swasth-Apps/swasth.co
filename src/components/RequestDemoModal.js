@@ -58,7 +58,7 @@ const RequestDemoModal = props => {
                     </p>
                 </div>
                 <Form name="control-hooks" onSubmit={send}>
-                    <Form.Item label="I am a" className="form-item" style={{display: "flex"}}>
+                    <Form.Item label="I am a" className="form-item user-type-label" style={{display: "flex"}}>
                         {getFieldDecorator('user_type', {
                             rules: [{required: false}],
                         })(

@@ -3,22 +3,76 @@ import {Icon, Row} from "antd";
 import {helpData} from "../helper/programs";
 import _ from "lodash";
 import Program from "./Program";
+import graphql_endpoint from '../aws-appsync-url';
+import Amplify, {API, graphqlOperation} from 'aws-amplify';
+
+const getProgramsByTag = `query getProgramsByTag($tag: String) {
+  getProgramsByTag(tag: $tag ) {
+ id
+    coachId
+    coach{
+        userId
+        name
+        email
+        picture
+    }
+    duration{
+        interval
+        period
+    }
+    name
+    description
+    image
+    type
+    app
+    gradient
+    isFeatured
+    isFree
+    payment
+    tags
+    shortDescription
+  }
+}`;
+
 
 class Programs extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             selectedTab: "resilify",
-            path: ""
+            path: "",
+            data: []
         }
     }
 
     componentDidMount() {
         const path = window.location.pathname.substring('/programs/'.length);
         if (path) {
-            this.setState({
-                path
-            })
+            if(path.includes("coaching/")){
+                this.setState({
+                    loading: true
+                });
+                Amplify.configure({
+                    API: {
+                        graphql_endpoint: graphql_endpoint.COACHING_MARKETING,
+                    },
+                });
+                API.graphql(graphqlOperation(getProgramsByTag, { tag: path?.toLowerCase() }), {
+                    "x-api-key": graphql_endpoint.API_KEY
+                }).then(({ data }) => {
+                    this.setState({
+                        programs: data?.getProgramsByTag,
+                        loading: false
+                    })
+                }).catch(e => this.setState({
+                    loading: false
+                }));
+            }else {
+                console.log(path.substring('self-guided/'.length))
+                this.setState({
+                    path: path.substring('self-guided/'.length)
+                })
+            }
         }
 
     }
@@ -31,14 +85,14 @@ class Programs extends React.Component {
 
     refToWebapp = (slug) => {
         if (this.state.selectedTab === "resilify") {
-            window.open(`/programs/${slug}`, "_self")
+            window.open(`/programs/self-guided/${slug}`, "_self")
         } else {
-            window.open(`https://resilify.org/program-detail/${slug}`)
+            window.open(`/programs/coaching/${slug}`, "_self")
         }
     };
 
     render() {
-        const {selectedTab, path} = this.state;
+        const {selectedTab, path, loading} = this.state;
         let data = [];
         if (!path) {
             data = helpData?.filter(({type}) => type === selectedTab);
@@ -46,14 +100,25 @@ class Programs extends React.Component {
             data = _.find(helpData, ({slug}) => slug === path);
         }
 
-        console.log(process.env.GATSBY_AWS_EMAIL)
+        console.log(process.env.GATSBY_AWS_EMAIL);
         return (
             <Fragment>
                 <section
                     className='all-programs-page'
 
                 >
-                    {!path ?
+                    {loading ? <div className="loader-component">
+                        <svg className="isoContentLoader" viewBox="0 0 50 50">
+                            <circle
+                                className="isoContentLoaderCircle"
+                                cx="25"
+                                cy="25"
+                                r="20"
+                                fill="none"
+                                strokeWidth="3.6"
+                            />
+                        </svg>
+                    </div> : !path ?
                         <div
                             id='wrapper'
                             className={'coach-wrapper'}
