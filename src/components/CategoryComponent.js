@@ -1,5 +1,4 @@
 import React from 'react'
-import {Col, Row} from 'antd'
 import {graphql, Link, StaticQuery} from 'gatsby'
 import img from '../assets/images/blogImg.png'
 import {colors} from "../helper/helper";

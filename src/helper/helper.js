@@ -1,3 +1,10 @@
+import graphql_endpoint from '../aws-appsync-url'
+
+
+export const getImage = img => {
+  return graphql_endpoint.BUCKET_URL+img;
+};
+
 
 export function getCloudIDFromImageName(image, source, type = 'lessons') {
   let path = '';
@@ -10,6 +17,7 @@ export function getCloudIDFromImageName(image, source, type = 'lessons') {
   }
   return path;
 }
+
 
 export const groupName = "dbt-coach-users";
 
@@ -34,6 +42,9 @@ export const cloudinaryPaths = {
     assessments: 'assessments/',
     tools: 'tools/',
   },
+  coaching:{
+    png: 'png/'
+  }
 };
 
 export const home =[
@@ -151,10 +162,31 @@ export const lifeCoach=[
     name:'Esther',
     comment:'When I started with Coach Michele, I did not know anything about coaching.  I called her because she helped a friend of mine make a career transition that was perfect for her and I had the opportunity to make a change and did not know where to start.    '
   }, {
-    name:' Jack',
+    name:'Jack',
     comment:'Life Coaching with Michele changed my life. I was at a standstill for over 10 years working a Corporate job I didnt like. After 1 month of working with her I found a school to attend, my confidence increased in making a decision and I was able to move forward. I ended taking the package from Corporate and now I have the job of my dreams. I am a Holistic Health Counselor. I see clients privately and I do cooking classes and seminars. I never imagined what working with Michele would have done. A great experience but also a necessary one to make things happen in my life. I cannot thank her enough.    '
   }
 ];
+
+
+export const expertsData = [{
+  name:"Dennis Tirch",
+  img:require("../assets/images/experts/tirch.jpeg"),
+  description:"Dr Dennis Tirch founded the USA’s Center for Compassion Focused Therapy and is current President of The Compassionate Mind Foundation USA. He is in demand for international workshops and invited speeches.",
+  expertise: "Founder of The Center for Compassion Focused Therapy",
+  "slug":"dennish-tirch"
+},{
+  name:"Philip Zimbardo",
+  img:require("../assets/images/experts/philip.jpg"),
+  description:"Dr Philip Zimbardo is one of the most well known psychologists of the second half of the twentieth century. Best known for the Stanford Prison Experiment of 1971, his research has covered the psychology of evil, cult behavior, shyness and heroism.",
+  expertise: "Emeritus Professor of Psychology at Stanford University and President of the Heroic Imagination Project",
+  "slug":"philip-zimbardo"
+},{
+  name:"Dr. Yotam Heineberg",
+  img:require("../assets/images/experts/yotam.png"),
+  description:"After completing his doctorate at PGSP-Stanford Consortium, he did his post-doctoral training and acted as a healthcare Fellow at Stanford University (CCARE) where he developed various programs focused on resilience, team building and compassion.",
+  expertise: "Clinical psychologist and a clinical faculty member at Palo Alto University",
+  "slug":"yotam-heineberg"
+}];
 
 export const colors = ["blue-tag","pink-tag","purple-tag"];
 export const initialBlogsCount = 6;

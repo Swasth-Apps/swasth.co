@@ -4,6 +4,7 @@
   "version": "2.0.0",
   "author": "Gana",
   "dependencies": {
+    "@ant-design/icons": "^4.5.0",
     "@babel/plugin-proposal-optional-chaining": "^7.8.3",
     "antd": "^3.26.2",
     "aws-amplify": "^3.3.18",
@@ -34,6 +35,7 @@
     "netlify-cms-app": "^2.11.24",
     "node-sass": "^4.13.1",
     "react": "^16.5.1",
+    "react-animated-css": "^1.2.1",
     "react-dom": "^16.5.1",
     "react-facebook-share-link": "^1.0.4",
     "react-helmet": "^5.2.0",

@@ -22,6 +22,9 @@
 	$font: (
 		family:				('Airbnb Cereal App Book'),
 		family-fixed:		('Airbnb Cereal App Book'),
+		base-font:			('Airbnb Cereal App Bold'),
+		base-medium-font:	('Airbnb Cereal App Medium'),
+		para-font:			('Avenir'),
 		weight:				300,
 		weight-bold:		300,
 		letter-spacing:		0.5px,
@@ -61,4 +64,5 @@
 		primary-grey: #333333,
 		primary-green:#00EA9C,
 		dark-blue: #344356,
+		lighter-disabled: #696767,
 	);

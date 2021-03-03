@@ -3,3 +3,76 @@ export const requestDemo = `query requestDemo($message: String, $phone: String, 
    success
   }
 }`;
+
+
+export const getMarketingPrograms = `query {
+  getMarketingPrograms {
+    id
+    coachId
+    coach{
+        userId
+        name
+        email
+        picture
+    }
+    duration{
+        interval
+        period
+    }
+    name
+    description
+    image
+    type
+    app
+    gradient
+    isFeatured
+    isFree
+    payment
+    tags
+    shortDescription
+  }
+}`;
+
+export const getProviderSlug = `query getProviderSlug($slug: String!) {
+  getProviderSlug(slug: $slug) {
+    id
+    name {
+      first
+      full
+      last
+    }
+    email
+    address {
+      zip
+      country
+      city
+      state
+    }
+    bio
+    about
+    coverImg
+    phone
+    profileImg
+    qualifications {
+      certification
+      image
+      qualification_year
+      school
+    }
+    awards {
+      award
+      givenBy
+      image
+      year
+    }
+    resources {
+      description
+      image
+      resource
+      title
+      type
+    }
+    slug
+  }
+}
+`;

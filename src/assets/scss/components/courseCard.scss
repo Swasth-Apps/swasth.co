@@ -1,0 +1,115 @@
+.course-card{
+  //max-width: 380px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 5px 16px 0px;
+  transition: all 0.3s ease 0s;
+  .course-card-image{
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    position: relative;
+    img{
+      width: 100%;
+      height: 300px;
+    }
+    .video-button{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      cursor: pointer;
+      svg {
+        width: 60px;
+        height: 60px;
+        fill: _palette(primary-blue);
+      }
+      &:hover{
+        svg{
+          fill: rgb(0, 0, 0);
+        }
+      }
+    }
+  }
+  position: relative;
+  .course-card-content{
+    padding: 20px 20px 100px;
+    background-color: _palette(bg);
+    h3{
+      color: rgb(51, 51, 51);
+      margin-bottom: 10px;
+      font-size: 24px;
+    }
+    p{
+      white-space: initial;
+      font-size: 14px;
+    }
+    .desc{
+      min-height: 6em;
+      font-size: 16px;
+    }
+    .course-registration-info{
+      color: darken(_palette(primary-green),10%);
+      h3{
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 0;
+        color: darken(_palette(primary-green),10%);
+      }
+    }
+    .program-tags{
+      margin-right: 8px;
+      color: _palette(dark-blue);
+      /* &:not(:last-child){
+         margin-right: 10px;
+       }*/
+      font-size: 12px;
+      margin-bottom: 10px;
+      border-radius: 50px;
+      border: 1px solid _palette(dark-blue);
+      padding: 3px 10px;
+    }
+  }
+  .course-card-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0 0  10px 10px;
+    overflow: hidden;
+    p{
+      text-align: right;
+      margin-right: 15px;
+      margin-bottom: 1rem;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    svg{
+      margin-left: 10px;
+    }
+    .course-card-footer-coach{
+      padding: 10px 25px;
+      display: flex;
+      align-items: center;
+      background: lighten(rgb(64, 103, 233),40%);
+      font-size: 16px;
+      img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        margin-right: 15px;
+      }
+    }
+  }
+  &:hover{
+    transform: translateY(-10px);
+  }
+}
+.course-basics{
+  margin-top: 10px;
+  svg{
+    margin-right: 10px;
+  }
+  p{
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+}

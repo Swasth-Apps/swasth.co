@@ -31,18 +31,7 @@ const Header = (props) => {
                                 <Dropdown
                                     overlay={<div className="header-menu-submenu">
 
-                                        <a target="_blank" href="https://clinician.resiliens.com"
-                                           className='menu-content-item'>
-                                            <div className="menu-item">
-                                                <img src={require("../assets/images/navbar-icon/clinician.png")}/>
-                                                <div className={`menu-content para-text`}>
-                                                    <p>Clinician Platform</p>
-                                                    <p className="para-book-text">Engage better with Clients</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <a target="_blank" href="https://coaching.resiliens.com/"
-                                           className='menu-content-item'>
+                                        <Link to="/coaching" className='menu-content-item'>
                                             <div className="menu-item">
                                                 <img src={require("../assets/images/navbar-icon/coaching.png")}/>
                                                 <div className={`menu-content para-text`}>
@@ -50,7 +39,7 @@ const Header = (props) => {
                                                     <p className="para-book-text">Behavioral Health Coaching</p>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </Link>
                                         <a
                                             target="_blank"
                                             href="https://resilify.org"
@@ -60,6 +49,16 @@ const Header = (props) => {
                                                 <div className={`menu-content para-text`}>
                                                     <p>Resilify</p>
                                                     <p className="para-book-text">Self Guided Programs </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a target="_blank" href="https://clinician.resiliens.com"
+                                           className='menu-content-item'>
+                                            <div className="menu-item">
+                                                <img src={require("../assets/images/navbar-icon/clinician.png")}/>
+                                                <div className={`menu-content para-text`}>
+                                                    <p>Clinician Platform</p>
+                                                    <p className="para-book-text">Engage better with Clients</p>
                                                 </div>
                                             </div>
                                         </a>
@@ -149,18 +148,7 @@ const Header = (props) => {
                         Solutions
                     </div>} key="Solutions">
                         <div className="header-menu-submenu">
-                            <a target="_blank" href="https://clinician.resiliens.com"
-                               className='menu-content-item'>
-                                <div className="menu-item">
-                                    <img src={require("../assets/images/navbar-icon/clinician.png")}/>
-                                    <div className={`menu-content para-text`}>
-                                        <p>Clinician Platform</p>
-                                        <p className="para-book-text">Engage better with Clients</p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a target="_blank" href="https://coaching.resiliens.com/"
-                               className='menu-content-item'>
+                            <Link to="/coaching" className='menu-content-item'>
                                 <div className="menu-item">
                                     <img src={require("../assets/images/navbar-icon/coaching.png")}/>
                                     <div className={`menu-content para-text`}>
@@ -168,7 +156,7 @@ const Header = (props) => {
                                         <p className="para-book-text">Behavioral Health Coaching</p>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                             <a
                                 target="_blank"
                                 href="https://resilify.org"
@@ -178,6 +166,16 @@ const Header = (props) => {
                                     <div className={`menu-content para-text`}>
                                         <p>Resilify</p>
                                         <p className="para-book-text">Self Guided Programs </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a target="_blank" href="https://clinician.resiliens.com"
+                               className='menu-content-item'>
+                                <div className="menu-item">
+                                    <img src={require("../assets/images/navbar-icon/clinician.png")}/>
+                                    <div className={`menu-content para-text`}>
+                                        <p>Clinician Platform</p>
+                                        <p className="para-book-text">Engage better with Clients</p>
                                     </div>
                                 </div>
                             </a>

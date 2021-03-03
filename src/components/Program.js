@@ -4,7 +4,7 @@ import {getCloudIDFromImageName} from "../helper/helper";
 import CLImage from "../helper/CLImage";
 
 const Program = props => {
-    const program = props.program
+    const program = props.program;
     return (
         <a className="keen-slider__slide program-card" href={`https://resilify.org/program-detail/${program.slug}`}>
             <CLImage

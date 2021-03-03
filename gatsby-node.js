@@ -117,7 +117,7 @@ exports.createPages = ({ actions, graphql }) => {
     //   })
     // })
   })
-}
+};
 
 exports.onCreatePage = ({ page, actions }) => {
   const { createPage } = actions;
@@ -127,6 +127,14 @@ exports.onCreatePage = ({ page, actions }) => {
       path: "/programs",
       matchPath: '/programs/*',
       component: path.resolve(`src/pages/programs.js`)
+    })
+  }
+
+  if(page.path.match(/^\/expert/)){
+    createPage({
+      path: "/expert",
+      matchPath: '/expert/*',
+      component: path.resolve(`src/pages/expert.js`)
     })
   }
 };

@@ -1,0 +1,99 @@
+.coaching-landing-page-tab {
+  .ant-tabs-nav-wrap {
+    border-top: 1px solid #e8e8e8;
+    padding: 5px;
+
+    .ant-tabs-tab {
+      font-family: _font(base-medium-font);
+      font-size: 16px;
+    }
+
+    .ant-tabs-tab-active {
+      color: _palette(primary-purple);
+    }
+
+    .ant-tabs-ink-bar {
+      display: none !important;
+    }
+  }
+}
+
+
+// Client's Programs
+.clients-navigation-wrapper {
+  position: relative;
+
+  .keen-slider {
+    display: flex;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+  }
+
+  .keen-slider__slide {
+    flex: 0 0 33%;
+    padding: 15px 10px;
+
+    &:hover {
+      color: inherit !important;
+    }
+  }
+}
+
+
+// Experts Data
+.experts-navigation-wrapper {
+  margin-top: 20px;
+  .keen-slider {
+    display: flex;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+
+    .expert-container {
+      flex: 0 0 33%;
+      padding: 15px;
+      cursor: pointer;
+      transition: transform 0.25s ease-in-out;
+      .info {
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        padding: 20px;
+        border-radius: 10px;
+        height: 100%;
+        .img {
+          //text-align: center;
+          display: flex;
+          align-items: flex-start;
+          margin-bottom: 8px;
+          min-height: 140px;
+          img {
+            width: 120px;
+            border-radius: 50%;
+            margin-right: 24px;
+          }
+        }
+
+        .name {
+          color: _palette(primary-purple);
+          margin-bottom: 10px;
+          font-size: 18px;
+        }
+
+        .expertise {
+          font-size: 15px;
+          margin-bottom: 15px;
+        }
+
+        .description {
+          font-size: 14px;
+          margin-bottom: 10px;
+          color: _palette(blog-user);
+        }
+
+      }
+      &:hover{
+        transform: scale(1.05);
+        color: inherit !important;
+      }
+    }
+  }
+
+}
