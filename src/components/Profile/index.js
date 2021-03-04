@@ -3,6 +3,7 @@ import BasicInformation from "./BasicInformation";
 import ProfileData from "./ProfileData";
 import Amplify, {API, graphqlOperation} from "aws-amplify";
 import {getProviderSlug} from "../../queries";
+import graphql_endpoint from "../../aws-appsync-url";
 
 class Profile extends React.Component{
     constructor(props) {
@@ -14,17 +15,16 @@ class Profile extends React.Component{
 
     componentDidMount() {
         const path = window.location.pathname.substring('/expert/'.length);
-        console.log(path)
         this.setState({
             loading: true
         });
         Amplify.configure({
             API: {
-                graphql_endpoint: "https://2iytwnhpanhevbcif4vtbgb5re.appsync-api.us-east-1.amazonaws.com/graphql",
+                graphql_endpoint: graphql_endpoint.COACHING_DEV_MARKETING,
             },
         });
         API.graphql(graphqlOperation(getProviderSlug,{slug: path}), {
-            "x-api-key": "da2-a3lvko7r7jeivfhhcgj3dfcfpe"
+            "x-api-key": graphql_endpoint.COACHING_DEV_API_KEY
         })
             .then(({data}) => {
                 this.setState({
@@ -38,13 +38,13 @@ class Profile extends React.Component{
 
     render(){
         const { provider } = this.state;
-        return(
+        return( provider ?
                 <div className="profile-page">
                     <div className="basic-profile-info">
                         <BasicInformation provider={provider}/>
                         <ProfileData provider={provider}/>
                     </div>
-                </div>
+                </div> : null
         );
     }
 }

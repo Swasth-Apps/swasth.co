@@ -2,12 +2,13 @@ import React from 'react';
 import {ClockCircleOutlined, RightOutlined, UsergroupAddOutlined} from "@ant-design/icons";
 import PlaceHolderImg from '../../assets/images/image-placeholder.png'
 import {Link} from 'gatsby';
-import {getImage} from "../../helper/helper";
+import {getImage, getProgramName} from "../../helper/helper";
 import {Animated} from "react-animated-css";
 
 const CourseCard = ({program, className,index}) => {
+    console.log(program?.coach?.picture)
     return (
-        <Link to="/expert" state={{isCourseOpen: true}} className={className}>
+        <Link to={`/coaching/program/${getProgramName(program?.name)}?program=${program.id}`} state={{isCourseOpen: true}} className={className}>
             <Animated animationIn="zoomIn" animationInDuration={index * 500}>
 
                 <div className={`course-card`}>

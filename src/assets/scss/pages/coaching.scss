@@ -1,4 +1,8 @@
 .coaching-landing-page-tab {
+  .ant-tabs-bar{
+    max-width: 1400px;
+    margin: 16px auto;
+  }
   .ant-tabs-nav-wrap {
     border-top: 1px solid #e8e8e8;
     padding: 5px;
@@ -16,6 +20,222 @@
       display: none !important;
     }
   }
+}
+
+
+
+// Overview Section
+
+.coaching-overview-container {
+  .coaching-overview {
+    transition: filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
+    position: relative;
+    width: 100%;
+    background: #4273f017;
+    margin-top: 20px;
+
+    .card-row {
+      padding: 0 0px 0px !important;
+
+      .content {
+        h3 {
+          margin-bottom: 50px;
+          color: _palette(dark-blue);
+        }
+
+        p {
+          margin-bottom: 70px;
+          color: _palette(dark-blue);
+        }
+      }
+
+      .img-section {
+        padding-top: 150px;
+      }
+
+    }
+
+    .bg-img {
+      &:before {
+        background: url("https://v1.nitrocdn.com/aDQSgnHktaudvkmeJfPxNoEXBteJYlvY/assets/static/source/rev-5de672a/wp-content/themes/lyra-2020/dist/images/hero-3.svg") bottom center no-repeat;
+        transform: translateX(20%);
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+      }
+
+      img {
+        max-width: 420px;
+        margin-bottom: -5px;
+      }
+    }
+  }
+  .coaching-overview-access-section{
+    margin-top: 50px;
+    background: #f0c44224;
+    padding: 100px 100px 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px;
+    h2{
+      font-size: 32px;
+      line-height: 45px;
+    }
+    .divider{
+      border-top: 1px solid #6b6b6b3d;
+      margin: 30px 0;
+    }
+    .section-img{
+      margin-top: 50px;
+      width: 100%;
+    }
+    .sequence-sections{
+      display: flex;
+      flex: 0 0 100%;
+      flex-wrap: wrap;
+      .section{
+        flex: 0 0 25%;
+        padding: 15px;
+        h3{
+          font-size: 40px;
+        }
+        .title{
+          font-size: 24px;
+          margin-bottom: 20px;
+          color: #333333;
+        }
+        .desc{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .coaching-overview-choose-section{
+    margin-top: 100px;
+    h2{
+      font-size: 40px;
+      line-height: 45px;
+      margin-bottom: 40px;
+    }
+    .sequence-sections{
+      display: flex;
+      flex: 0 0 100%;
+      flex-wrap: wrap;
+      .section{
+        flex: 0 0 25%;
+        padding: 20px 30px;
+        img{
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        h3{
+          font-size: 40px;
+        }
+        .title{
+          font-size: 24px;
+          margin-bottom: 20px;
+          color: #333333;
+        }
+        .desc{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .coaching-overview-new-skills-section{
+    margin-top: 100px;
+    background: #123243;
+    padding: 50px 100px;
+    .content{
+      h3,p{
+        margin-bottom: 30px;
+        color: white
+      }
+    }
+  }
+
+  .coaching-overview-track-progress-section{
+    background: #123243ba;
+    padding: 50px 100px;
+    .content{
+      h3,p,a{
+        margin-bottom: 30px;
+        color: white
+      }
+      a{
+        font-size: 16px;
+        .anticon{
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .coaching-overview-bhp-container{
+    margin-top: 100px;
+    padding: 100px 0;
+    background: rgba(241,241,241,0.2);
+    width: 100%;
+    h2{
+      font-size: 40px;
+      line-height: 45px;
+      color: darken(_palette(primary-purple),10%);
+    }
+    .card-row{
+      justify-content: center;
+    }
+    .padded-view{
+      padding: 20px 80px;
+      justify-content: space-between;
+
+    }
+    .bg-img{
+      background: #add8e678;
+    }
+  }
+
+  .coaching-overview-bhp-flex-section{
+    margin-top: 100px;
+    .sequence-sections{
+      display: flex;
+      flex: 0 0 100%;
+      flex-wrap: wrap;
+      .section{
+        flex: 0 0 33%;
+        padding: 0 30px 20px 30px;
+        &:not(:nth-child(1)) {
+          border-right: 1px solid #6b6b6b3d;
+          border-bottom:  1px solid #6b6b6b3d;
+        }
+        &:nth-child(1){
+          padding: 100px 40px;
+        }
+        img{
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        .title{
+          font-size: 24px;
+          margin-bottom: 20px;
+          color: #333333;
+        }
+        .text{
+          color: _palette(primary-color);
+          font-size: 16px;
+        }
+        .desc{
+          font-size: 16px;
+        }
+      }
+      .bg-section{
+        background: #f0c44224;
+      }
+    }
+  }
+
 }
 
 
@@ -96,4 +316,451 @@
     }
   }
 
+}
+
+
+// Coach Program CSS
+.coaching-program-page{
+  .video-section{
+    margin-bottom: 40px;
+    .card-row {
+      justify-content: space-between;
+    }
+    .program-basics{
+      margin-top: 10px;
+      svg{
+        margin-right: 15px;
+      }
+      p{
+        margin-bottom: 15px;
+        font-size: 16px;
+        display: flex;
+        align-items: flex-start;
+        .anticon{
+          font-size: 24px;
+        }
+      }
+    }
+    .program-price{
+      color: _palette(dark-blue);
+      font-size: 40px;
+    }
+  }
+
+  .banner-section {
+    background: #2a3c5f;
+    padding: 100px 0;
+    .tab-view{
+      line-height: 60px;
+      color: white;
+    }
+    .desc-view{
+      color: white;
+      text-align: center;
+      font-size: 18px;
+    }
+    .img-overlay{
+      background-position: -90px 188px !important;
+      background-repeat: no-repeat !important;
+      background-size: contain !important;
+      opacity: 0.06;
+      transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    }
+  }
+  .how-it-works{
+    background: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    .tab-view,.desc-view{
+      color: _palette(dark-blue);
+    }
+    .desc-view{
+      font-size: 20px;
+    }
+    .how-it-works-section{
+      margin-top: 50px;
+      .sequence-sections{
+        display: flex;
+        flex: 0 0 100%;
+        flex-wrap: wrap;
+        .section{
+          flex: 0 0 25%;
+          padding: 20px 10px;
+          .card {
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px;
+            height: 100%;
+            border-radius: 0 0 10px 10px;
+          }
+          img{
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 10px 10px 0px 0px;
+          }
+          h3{
+            font-size: 40px;
+          }
+          .title{
+            font-size: 20px;
+            color: _palette(dark-blue);
+            padding: 0 20px;
+            margin-bottom: 10px;
+            text-align: center;
+          }
+          .desc{
+            font-size: 16px;
+            padding: 0 20px 20px;
+          }
+        }
+      }
+    }
+  }
+  .program-bottom-section {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 50px;
+    margin: 100px 0px;
+    .card-col {
+      margin-top: 50px;
+    }
+
+    .transform-section-img {
+      height: auto;
+    }
+
+    .subtitle {
+      margin-bottom: 20px;
+
+      h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 16px;
+        color: black;
+        margin-bottom: 15px;
+      }
+    }
+
+    .instructor-profile {
+      display: flex;
+      margin-bottom: 50px;
+      .instructor-image {
+        width: 150px;
+        height: 150px;
+        margin-right: 20px;
+        border-radius: 50% 0 50% 50%;
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+      }
+
+
+
+      h3 {
+        margin-bottom: 0;
+        font-weight: 600;
+        font-size: 20px;
+        margin-left: 15px;
+        color: _palette(primary-blue);
+      }
+
+      p {
+        font-size: 16px;
+        margin: 15px 0 15px 15px;
+        line-height: 26px;
+      }
+
+      @media screen and (max-width: 700px) {
+        display: block;
+        .instructor-image {
+          margin-bottom: 10px;
+          border-radius: 50% 50% 50% 0%;
+        }
+        h3, p {
+          margin-left: 0;
+        }
+      }
+    }
+    .instructor-interest-education{
+      display: flex;
+      align-items: center;
+      @media screen and (max-width: 769px) {
+        display: block;
+        .flex-box{
+          padding: 0px !important;
+        }
+      }
+    }
+    .flex-box{
+      width: 50%;
+      &:first-child{
+        padding-right: 20px;
+      }
+      @media screen and (max-width: 769px) {
+        width: 100%;
+      }
+    }
+    .box{
+      border-radius: 15px;
+      border: solid 2px #d6d6d6;
+      background-color: rgba(231, 231, 231, 0.1);
+      padding: 20px;
+      margin-bottom: 1rem;
+      h4{
+        color: _palette(primary-blue);
+      }
+      ul {
+        list-style: none; /* Remove default bullets */
+        margin-top: 15px;
+        li{
+          margin-top: 10px;
+          color: #767676;
+          font-family: 'Avenir', Helvetica;
+          font-size: 16px;
+        }
+      }
+
+      ul li::before {
+        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: _palette(primary-blue); /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+        padding-right: 2rem;
+      }
+
+      .flex-list{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        li{
+          width: 50%;
+          padding-right: 10px;
+          display: flex;
+        }
+        @media screen and (max-width: 700px) {
+          display: block;
+          width: 100%;
+          li{
+            width: 100%;
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 500px) {
+      padding: 20px;
+      width: calc(100% + 24px) !important;
+      margin-left: -8px;
+      margin-right: -8px;
+    }
+  }
+
+}
+
+
+// Programs For Professionals
+
+
+// Training Approach
+.training-approach-container{
+  display: flex;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+  .expert-live-workshop {
+    flex: 0 0 45%;
+    margin-right: 5%;
+    .workshop-info-cotainer {
+      top: unset;
+      bottom: -20px;
+      padding: 30px 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 75%;
+      p {
+        color: inherit;
+        margin-bottom: 0;
+        font-size: 20px;
+        &:last-child {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+.expert-live-workshop{
+  margin-top: 40px;
+  position: relative;
+  img{
+    width: 100%;
+  }
+  .workshop-info-cotainer{
+    position: absolute;
+    top: -20px;
+    left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 5px 16px 0px;
+    background-color: _palette(bg);
+    padding: 30px 64px;
+    text-align: center;
+    p{
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+    .ant-btn{
+      letter-spacing: 1.2px;
+      width: 250px;
+      height: 50px;
+      border: 1px solid;
+      color: inherit;
+    }
+  }
+}
+
+
+.professional-program-tab{
+  background: white;
+  margin-top: 20px;
+  .ant-tabs-nav-wrap{
+    padding: 10px;
+    .ant-tabs-tab{
+      p{
+        font-size: 18px;
+      }
+    }
+  }
+  .ant-tabs-ink-bar{
+    display: none !important;
+  }
+}
+// Individual Course Section
+.individual-course-container{
+  background: _palette(bg);
+  padding-top: 50px;
+  h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: _palette(dark-blue);
+  }
+  .course-section {
+    display: flex;
+    flex: 0 0 100%;
+
+    .main-course-col {
+      flex: 0 0 66%;
+      img {
+        width: 100%;
+      }
+      p,li{
+        margin-bottom: 10px;
+        font-size: 14px;
+      }
+      .course-basics{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        p:not(:first-child){
+          margin-left: 20px;
+        }
+      }
+      ul{
+        list-style: disc;
+      }
+      .desc{
+        font-size: 16px;
+      }
+      .ce-credits{
+        margin-top: 20px;
+        color: black;
+        font-size: 18px;
+      }
+    }
+
+    .course-payment-col {
+      flex: 0 0 30%;
+      margin-left: 3%;
+      .payment-card {
+        position: sticky;
+        top: 50px;
+        margin-bottom: 20px;
+        min-height: 100px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 5px 16px 0px;
+        padding: 15px;
+        text-align: center;
+      }
+      p{
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+      h3{
+        font-size: 26px;
+      }
+      h3,h1{
+        color: _palette(dark-blue);
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .primary-btn{
+        padding: 10px;
+      }
+    }
+  }
+}
+
+// Course Modules
+.course-modules{
+  margin: auto;
+  .program-sessions {
+    margin: 0px;
+    .program-sessions-text {
+      text-align: left;
+    }
+  }
+}
+
+// FAQs
+
+.faq-section{
+  margin: 40px 0 20px;
+  background: _palette(bg);
+  padding: 20px;
+  .faq-search{
+    border-radius: 50px;
+    padding-left: 20px;
+    .anticon-search{
+      &:before{
+        border:  none;
+      }
+    }
+    .antinput-suffix{
+      margin-right: 12px;
+      svg{
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+  .faq-search-content{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    justify-content: space-between;
+    .faq-content{
+      flex: 0 0 48%;
+      h2{
+        margin-bottom: 10px;
+        padding-left: 1.5rem;
+        font-size: 20px;
+      }
+      li{
+        margin-bottom: 5px;
+        font-size: 16px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }

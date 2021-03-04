@@ -130,6 +130,14 @@ exports.onCreatePage = ({ page, actions }) => {
     })
   }
 
+  if(page.path.match(/^\/coaching\/program/)){
+    createPage({
+      path: "/coaching/program",
+      matchPath: '/coaching/program/*',
+      component: path.resolve(`src/pages/coaching/program/index.js`)
+    })
+  }
+
   if(page.path.match(/^\/expert/)){
     createPage({
       path: "/expert",

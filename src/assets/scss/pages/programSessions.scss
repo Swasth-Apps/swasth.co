@@ -1,0 +1,98 @@
+.program-sessions{
+  max-width: 800px;
+  margin: 0px auto;
+  padding-top: 40px;
+  //padding-bottom: 50px;
+  .program-sessions-text{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: _palette(dark-blue);
+    font-family: 18px;
+  }
+  .title{
+    margin-top: 20px;
+    font-size: 20px;
+    color: _palette(dark-blue);
+  }
+  .ant-collapse{
+    border: none;
+    background: transparent;
+    .ant-collapse-item{
+      margin-top: 10px;
+      box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+      border-bottom: none;
+      border-radius: 10px;
+    }
+    .ant-collapse-header{
+      padding: 20px !important;
+      border-radius: 10px !important;
+      background: white;
+      &:hover{
+        background: white;
+      }
+      p{
+        font-size: 18px;
+        color: #000000b0;
+      }
+      .ant-collapse-arrow{
+        top: 30px !important;
+        font-size: 16px !important;
+        color: #000000b0 !important;
+        @media only screen and (max-width: 460px) {
+          top: 40px !important;
+        }
+      }
+    }
+    .ant-collapse-item-active{
+      .ant-collapse-header{
+        border-radius: 10px 10px 0 0 !important;
+        background: white;
+      }
+    }
+    .ant-collapse-content{
+      background-color: white !important;
+      margin-top: 0px;
+      padding-top: 0px;
+      border-top: 0;
+      border-radius: 0 0 10px 10px !important;
+      .session-title{
+        color: _palette(dark-blue);
+        font-size: 18px;
+      }
+      .session-desc{
+        color: #333333;
+        font-size: 14px;
+      }
+    }
+
+  }
+  .ant-collapse-content-box{
+    padding: 0 15px;
+    margin-top: -20px;
+
+    .ant-tabs-nav-wrap{
+      border: none;
+    }
+  }
+  .sessions-container{
+    display: flex;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    .sessions-section{
+      flex: 0 0 50%;
+      padding: 10px 20px;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    margin: 40px;
+  }
+  @media only screen and (max-width: 600px) {
+    margin: 20px;
+  }
+
+
+
+
+}

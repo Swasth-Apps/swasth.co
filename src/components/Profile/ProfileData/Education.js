@@ -5,7 +5,7 @@ import {getCloudIDFromImageName} from "../../../helper/helper";
 // const {Option} = Select;
 const Education = ({provider}) => {
 
-    return (
+    return (provider?.qualifications?.length ?
         <div className="profile-data-content">
             <div className="profile-content-box">
 
@@ -32,7 +32,7 @@ const Education = ({provider}) => {
                     )}
                 </div>
             </div>
-        </div>
+        </div> : null
     )
 };
 

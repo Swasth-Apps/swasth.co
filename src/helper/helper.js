@@ -1,5 +1,6 @@
 import graphql_endpoint from '../aws-appsync-url'
 
+export const getProgramName = name => name?.split(" ")?.join("-")?.toLowerCase();
 
 export const getImage = img => {
   return graphql_endpoint.BUCKET_URL+img;
@@ -173,7 +174,7 @@ export const expertsData = [{
   img:require("../assets/images/experts/tirch.jpeg"),
   description:"Dr Dennis Tirch founded the USA’s Center for Compassion Focused Therapy and is current President of The Compassionate Mind Foundation USA. He is in demand for international workshops and invited speeches.",
   expertise: "Founder of The Center for Compassion Focused Therapy",
-  "slug":"dennish-tirch"
+  "slug":"dennis-tirch"
 },{
   name:"Philip Zimbardo",
   img:require("../assets/images/experts/philip.jpg"),

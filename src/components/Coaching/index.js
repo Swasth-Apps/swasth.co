@@ -2,28 +2,44 @@ import React from 'react'
 import { Tabs } from "antd";
 import ClientsPrograms from "./ClientsPrograms";
 import Experts from "./Experts";
+import CoachingOverview from "./Overview";
 
 const { TabPane } = Tabs;
 const CoachingComponent = () => {
     return (
         <section className='coaching-section'>
-            <div
-                id='wrapper'
-                className={'coach-wrapper'}
-                style={{paddingBottom: 0}}
-            >
                 <Tabs defaultActiveKey="1" centered className="coaching-landing-page-tab">
-                    <TabPane tab="For Client" key="1">
-                        <ClientsPrograms />
+                    <TabPane tab="Overview" key="1">
+                        <CoachingOverview />
                     </TabPane>
-                    <TabPane tab="For Clinician / Coach" key="2">
+                    <TabPane tab="For Everyone" key="2">
+                        <div
+                            id='wrapper'
+                            className={'coach-wrapper'}
+                            style={{paddingBottom: 0}}
+                        >
                         <ClientsPrograms />
+                        </div>
                     </TabPane>
-                    <TabPane tab="Experts" key="3">
+                    <TabPane tab="For Behavioral Health Professionals" key="3">
+                        <div
+                            id='wrapper'
+                            className={'coach-wrapper'}
+                            style={{paddingBottom: 0}}
+                        >
+                        <ClientsPrograms />
+                        </div>
+                    </TabPane>
+                    <TabPane tab="Experts" key="4">
+                        <div
+                            id='wrapper'
+                            className={'coach-wrapper'}
+                            style={{paddingBottom: 0}}
+                        >
                         <Experts />
+                        </div>
                     </TabPane>
                 </Tabs>
-            </div>
         </section>
     )
 };

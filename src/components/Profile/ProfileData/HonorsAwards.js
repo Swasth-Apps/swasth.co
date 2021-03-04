@@ -6,6 +6,7 @@ import {getCloudIDFromImageName} from "../../../helper/helper";
 const HonorsAwards = ({provider}) => {
 
     return (
+        provider?.awards?.length ?
         <div className="profile-data-content">
             <div className="profile-content-box">
                     <div className="-flex">
@@ -32,7 +33,7 @@ const HonorsAwards = ({provider}) => {
                     )}
                 </div>
             </div>
-        </div>
+        </div> : null
     )
 };
 
