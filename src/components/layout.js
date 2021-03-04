@@ -58,7 +58,7 @@ class Layout extends React.Component {
                     </div> : ''}*/}
 
                 <div
-                    id='wrapper'
+                    id='coaching-header'
                     className={'coach-wrapper'}
                     style={{paddingBottom: 0}}
                 >

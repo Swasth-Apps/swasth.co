@@ -2,14 +2,19 @@
   .ant-tabs-bar{
     max-width: 1400px;
     margin: 16px auto;
+    border-bottom: none;
   }
   .ant-tabs-nav-wrap {
-    border-top: 1px solid #e8e8e8;
     padding: 5px;
 
     .ant-tabs-tab {
       font-family: _font(base-medium-font);
       font-size: 16px;
+      .tab-title{
+        img{
+          width: 40px;
+        }
+      }
     }
 
     .ant-tabs-tab-active {

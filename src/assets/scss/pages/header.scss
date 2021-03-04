@@ -1031,3 +1031,20 @@
 }
 
 
+.sticky-header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 11111111;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 5px 16px 0px;
+}
+#coaching-header{
+  .header-nav{
+    max-width: 1400px;
+    margin: auto;
+    @media only screen and (min-width: 500px) and (max-width: 1399.5px) {
+      max-width: unset;
+      margin: 0 20px;
+    }
+  }
+}

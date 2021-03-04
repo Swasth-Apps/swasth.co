@@ -9,10 +9,17 @@ const CoachingComponent = () => {
     return (
         <section className='coaching-section'>
                 <Tabs defaultActiveKey="1" centered className="coaching-landing-page-tab">
-                    <TabPane tab="Overview" key="1">
+                    <TabPane tab={<p className="para-text tab-title">
+                        <img src={require("../../assets/images/coachingTabIcons/icons8-overview-64.png")}/>
+                        <div />
+                        Overview
+                    </p>} key="1">
                         <CoachingOverview />
                     </TabPane>
-                    <TabPane tab="For Everyone" key="2">
+                    <TabPane tab={<p className="para-text tab-title">
+                        <img src={require("../../assets/images/coachingTabIcons/icons8-person-48.png")}/>
+                        <div />
+                        For Everyone</p>} key="2">
                         <div
                             id='wrapper'
                             className={'coach-wrapper'}
@@ -21,7 +28,10 @@ const CoachingComponent = () => {
                         <ClientsPrograms />
                         </div>
                     </TabPane>
-                    <TabPane tab="For Behavioral Health Professionals" key="3">
+                    <TabPane tab={<p className="para-text tab-title">
+                        <img src={require("../../assets/images/coachingTabIcons/icons8-experience-skill-48.png")}/>
+                        <div />
+                        For Behavioral Health Professionals</p>} key="3">
                         <div
                             id='wrapper'
                             className={'coach-wrapper'}
@@ -30,7 +40,10 @@ const CoachingComponent = () => {
                         <ClientsPrograms />
                         </div>
                     </TabPane>
-                    <TabPane tab="Experts" key="4">
+                    <TabPane tab={<p className="para-text tab-title">
+                        <img src={require("../../assets/images/coachingTabIcons/icons8-mental-health-48.png")}/>
+                        <div />
+                        Experts</p>} key="4">
                         <div
                             id='wrapper'
                             className={'coach-wrapper'}

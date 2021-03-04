@@ -89,9 +89,9 @@
 			//@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			//@include vendor('transition-delay', '0.75s');
 			//@include vendor('animation', 'none');
-			background-color: transparent;
+			background-color: white;
 			box-shadow: none;
-
+			z-index: 11111;
 			&.style1 { .logo { strong { color: _palette(accent1); } } }
 			&.style2 { .logo { strong { color: _palette(accent2); } } }
 			&.style3 { .logo { strong { color: _palette(accent3); } } }

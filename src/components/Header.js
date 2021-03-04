@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import {Button, Collapse, Dropdown, Icon} from 'antd'
 import PropTypes from 'prop-types'
 import resilienceDarkLogo from '../assets/images/Resiliens-Logo@3x.png'
@@ -7,8 +7,23 @@ import RequestDemoModal from "./RequestDemoModal";
 
 const Header = (props) => {
     const [state, setState] = useState(false);
-    const [modal, setModal] = useState(false)
+    const [modal, setModal] = useState(false);
     const {isContentWhite} = props;
+
+    useEffect(() => {
+        window.addEventListener("scroll",(e)=> onScroll(e))
+    },[]);
+
+    const onScroll = e =>{
+        const header = document.getElementById("coaching-header");
+        const sticky = header.offsetTop;
+        console.log("-----",sticky)
+        if (window.pageYOffset > (sticky + 100)) {
+            header.classList.add("sticky-header");
+        } else {
+            header.classList.remove("sticky-header");
+        }
+    };
 
     return (
         <>
@@ -228,11 +243,12 @@ const Header = (props) => {
                 {/*<div className="menu-content">Download App</div>*/}
                 {/*</a>*/}
             </div>
+            <div className="after-content"/>
         </>
     )
-}
+};
 Header.propTypes = {
     onToggleMenu: PropTypes.func,
-}
+};
 
 export default Header
