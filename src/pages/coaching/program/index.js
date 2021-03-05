@@ -60,6 +60,11 @@ const getMarketingData = `query getMarketingData($programId: ID!) {
   }
 }`;
 
+if (typeof window === 'undefined') {
+    global.window = {
+        location: {}
+    }
+}
 
 class CoachingProgram extends React.Component{
     constructor(props) {
