@@ -1,16 +1,16 @@
 .coaching-landing-page-tab {
   .ant-tabs-bar{
-    max-width: 1400px;
-    margin: 16px auto;
     border-bottom: none;
+    margin-bottom: 0px;
   }
   .ant-tabs-nav-wrap {
     padding: 5px;
-
+    background: _palette(dark-blue);
     .ant-tabs-tab {
       font-family: _font(base-medium-font);
       font-size: 16px;
       .tab-title{
+        color: white;
         img{
           width: 40px;
         }
@@ -37,7 +37,6 @@
     position: relative;
     width: 100%;
     background: #4273f017;
-    margin-top: 20px;
 
     .card-row {
       padding: 0 0px 0px !important;

@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/resilify/*"
-  to = "http://resilify-webapp-dev.s3-website-us-east-1.amazonaws.com/"
+  to = "http://resilify-webapp-dev.s3-website-us-east-1.amazonaws.com/:splat"
   status = 200
   force = true
   headers = {X-From = "Netlify"}

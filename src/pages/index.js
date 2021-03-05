@@ -1,14 +1,16 @@
 import React from 'react'
 import Layout from '../components/layout'
-import Home from './Home'
+import LandingPage from "../components/LandingPage";
+// import Home from './Home'
 
 
 class HomeIndex extends React.Component {
-    
+
     render() {
         return (
             <Layout extraHeader>
-             <Home />
+             {/*<Home />*/}
+             <LandingPage/>
             </Layout>
         )
     }
