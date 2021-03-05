@@ -8,7 +8,7 @@ if (typeof window === 'undefined') {
 }
 class HomeIndex extends React.Component {
     render() {
-        if (typeof window !== `undefined`) {
+        if (typeof window !== `undefined` && window.open) {
             window.open(PDF, "_self")
         }
         return (
