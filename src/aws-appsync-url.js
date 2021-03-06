@@ -5,6 +5,10 @@ const graphQl_endPoints = {
     RESILIFY: 'https://ciognbc4eraszaetlzqusuzbey.appsync-api.us-east-1.amazonaws.com/graphql',
     API_KEY: "da2-3hyo2q3rgrhjxcgtk33mc7e76i",
 
+    RESILIFY_TRACKS: "https://ciognbc4eraszaetlzqusuzbey.appsync-api.us-east-1.amazonaws.com/graphql",
+    TRACK_APIKEY: "da2-3hyo2q3rgrhjxcgtk33mc7e76i",
+
+
     COACHING_DEV_MARKETING: 'https://2iytwnhpanhevbcif4vtbgb5re.appsync-api.us-east-1.amazonaws.com/graphql',
     COACHING_DEV_API_KEY: "da2-a3lvko7r7jeivfhhcgj3dfcfpe",
 
@@ -16,6 +20,10 @@ const graphQl_endPoints = {
   production: {
     RESILIFY: 'https://ciognbc4eraszaetlzqusuzbey.appsync-api.us-east-1.amazonaws.com/graphql',
     API_KEY: "da2-3hyo2q3rgrhjxcgtk33mc7e76i",
+
+    RESILIFY_TRACKS: "https://ciognbc4eraszaetlzqusuzbey.appsync-api.us-east-1.amazonaws.com/graphql",
+    TRACK_APIKEY: "da2-3hyo2q3rgrhjxcgtk33mc7e76i",
+
 
     COACHING_DEV_MARKETING: 'https://2iytwnhpanhevbcif4vtbgb5re.appsync-api.us-east-1.amazonaws.com/graphql',
     COACHING_DEV_API_KEY: "da2-a3lvko7r7jeivfhhcgj3dfcfpe",

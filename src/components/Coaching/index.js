@@ -1,23 +1,36 @@
-import React from 'react'
-import { Tabs } from "antd";
+import React, {useState} from 'react'
+import {Tabs} from "antd";
+import EveryoneActive from "../../assets/images/coachingTabIcons/Everyone-active-icon.png";
+import ProfessionalActive from "../../assets/images/coachingTabIcons/profesisonal-active-icon.png";
+import OverviewActive from "../../assets/images/coachingTabIcons/overview-active-icon.png";
+import ExpertActive from "../../assets/images/coachingTabIcons/overview-active-icon.png";
 import ClientsPrograms from "./ClientsPrograms";
 import Experts from "./Experts";
 import CoachingOverview from "./Overview";
 
 const { TabPane } = Tabs;
 const CoachingComponent = () => {
+    const [key, setKey] = useState("1");
     return (
         <section className='coaching-section'>
-                <Tabs defaultActiveKey="1" centered className="coaching-landing-page-tab">
-                    <TabPane tab={<p className="para-text tab-title">
-                        <img src={require("../../assets/images/coachingTabIcons/icons8-overview-64.png")}/>
+            <div className="coaching-product-section">
+                <h3 className="base-text product-title">Coaching Platform</h3>
+            </div>
+                <Tabs
+                    centered
+                    defaultActiveKey="1"
+                    className="coaching-landing-page-tab"
+                    onChange={key => setKey(key)}
+                >
+                    <TabPane tab={<p className={`para-text tab-title ${key !== "1" ? "unselected-tab" : ""}`}>
+                        <img src={OverviewActive}/>
                         <div className="tab-div-title">
                             Overview </div>
                     </p>} key="1">
                         <CoachingOverview />
                     </TabPane>
-                    <TabPane tab={<p className="para-text tab-title">
-                        <img src={require("../../assets/images/coachingTabIcons/icons8-person-48.png")}/>
+                    <TabPane tab={<p className={`para-text tab-title ${key !== "2" ? "unselected-tab" : ""}`}>
+                        <img src={EveryoneActive}/>
                         <div className="tab-div-title">
                             For Everyone </div>
                     </p>} key="2">
@@ -29,8 +42,8 @@ const CoachingComponent = () => {
                         <ClientsPrograms />
                         </div>
                     </TabPane>
-                    <TabPane tab={<p className="para-text tab-title">
-                        <img src={require("../../assets/images/coachingTabIcons/icons8-experience-skill-48.png")}/>
+                    <TabPane tab={<p className={`para-text tab-title ${key !== "3" ? "unselected-tab" : ""}`}>
+                        <img src={ProfessionalActive}/>
                         <div className="tab-div-title">
                             For Professionals </div>
                         </p>} key="3">
@@ -42,8 +55,8 @@ const CoachingComponent = () => {
                         <ClientsPrograms />
                         </div>
                     </TabPane>
-                    <TabPane tab={<p className="para-text tab-title">
-                        <img src={require("../../assets/images/coachingTabIcons/icons8-mental-health-48.png")}/>
+                    <TabPane tab={<p className={`para-text tab-title ${key !== "4" ? "unselected-tab" : ""}`}>
+                        <img src={ExpertActive}/>
                         <div className="tab-div-title">
                            Experts </div>
                       </p>} key="4">

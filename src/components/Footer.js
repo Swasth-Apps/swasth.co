@@ -20,12 +20,12 @@ return(
         <RequestDemoModal modal={modal} onClose={() => setModal(false)}/>
 
         <div className="inner">
-            <div style={{textAlign: "center"}}>
+           {/* <div style={{textAlign: "center"}}>
                 <div className="footer-heading card-row">
                     <p className="bottom-space white-text base-text">Want to learn more about Resiliens ?</p>
                     <Button className="request-demo-btn" style={{margin: "20px 0"}} onClick={() => setModal(true)}>Get Started</Button>
                 </div>
-            </div>
+            </div>*/}
             <div>
                 <div className="footer-widgets-wrap pb-4 clearfix">
                     <Row className="footer-row" gutter={16}>
@@ -36,7 +36,7 @@ return(
                                     Resiliens's Digital Health Platform offers treatment programs for Anxiety, Depression,
                                     Eating Disorders, Borderline Personality Disorder, PTSD, SUDs, etc
                                 </p>
-                                <div className="media">
+                                <div className="media" style={{marginTop: 15}}>
                                     <a href="https://www.facebook.com/swasthco/"
                                        target="_blank"><img src={require("../assets/images/fb-icon.png")}/></a>
                                     <a href="https://www.twitter.com/swasthapps/"

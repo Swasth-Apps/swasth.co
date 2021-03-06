@@ -138,6 +138,14 @@ exports.onCreatePage = ({ page, actions }) => {
     })
   }
 
+  if(page.path.match(/^\/resilify\/program/)){
+    createPage({
+      path: "/resilify/program",
+      matchPath: '/resilify/program/*',
+      component: path.resolve(`src/pages/resilify/program.js`)
+    })
+  }
+
   if(page.path.match(/^\/expert/)){
     createPage({
       path: "/expert",
@@ -145,6 +153,16 @@ exports.onCreatePage = ({ page, actions }) => {
       component: path.resolve(`src/pages/expert.js`)
     })
   }
+
+
+  if(page.path.match(/^\/resilify\/category/)){
+    createPage({
+      path: "/resilify/category",
+      matchPath: '/resilify/category/*',
+      component: path.resolve(`src/pages/resilify/category/index.js`)
+    })
+  }
+
 };
 
 exports.onCreateNode = ({ node, actions, getNode }) => {

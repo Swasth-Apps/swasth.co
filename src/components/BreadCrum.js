@@ -4,7 +4,7 @@ import { Popover, Tabs } from 'antd'
 import { Location } from '@reach/router';
 
 
-const { TabPane } = Tabs
+const { TabPane } = Tabs;
 
 class CategoryTabs extends React.Component {
   constructor(props){
@@ -12,7 +12,7 @@ class CategoryTabs extends React.Component {
   }
   handleChange = (e) =>{
     return navigate(e)
-  }
+  };
 
   content = (parents = {},location) =>{
     const selectedPath = location?.location.pathname.slice(-1) === '/' ? location?.location.pathname : `${location?.location.pathname}/`
@@ -22,12 +22,15 @@ class CategoryTabs extends React.Component {
           <div className='parent-container'>
             <h3 className="base-text">{key}</h3>
             <ul>
-              {val?.map(value => <li className={value?.fields?.slug === selectedPath ? 'active-breadcrum' : ''} onClick={() => this.handleChange(value?.fields?.slug)}><a>{value.title}</a></li>)}
+              {val?.map(value => <li
+                  className={value?.fields?.slug === selectedPath ? 'active-breadcrum' : ''}
+                  onClick={() => this.handleChange(value?.fields?.slug)}
+              ><a>{value.title}</a></li>)}
             </ul>
           </div>))}
       </div>
     )
-  }
+  };
 
 
 

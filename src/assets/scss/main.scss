@@ -3,8 +3,14 @@
   font-family: 'Airbnb Cereal App Bold', Helvetica;
 }
 
-// Avenir font
+// Avenir Book font
 .para-text {
+  font-family: 'Avenir Book', Helvetica;
+}
+
+
+// Avenir Medium font
+.para-medium-text {
   font-family: 'Avenir', Helvetica;
 }
 
@@ -97,3 +103,5 @@
 @import "pages/coaching";
 @import "pages/providerProfile";
 @import 'pages/programSessions';
+@import 'pages/resilify';
+@import 'pages/resilifyProgramDetail';

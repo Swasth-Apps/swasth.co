@@ -19,7 +19,20 @@ export function getCloudIDFromImageName(image, source, type = 'lessons') {
   return path;
 }
 
+export const jsonStr = (obj) => {
+  return obj
+      ? JSON.parse(
+          obj.replace(/(\w+:)|(\w+ :)/g, function (matchedStr) {
+            return '"' + matchedStr.substring(0, matchedStr.length - 1) + '":';
+          }),
+      )
+      : '';
+};
 
+export const getParseDetails = (details) => {
+  let temp = typeof details === 'string' ? JSON.parse(details) : details || {};
+  return typeof temp === 'string' ? jsonStr(temp) : temp;
+};
 export const groupName = "dbt-coach-users";
 
 export const cloudinaryPaths = {

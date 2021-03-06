@@ -1,0 +1,394 @@
+// Banner Section
+.resilify-program-page {
+  background: _palette(bg);
+
+  .banner-img {
+    height: 100%;
+    display: flex;
+    max-height: 1920px;
+  }
+
+  .program-top-banner {
+    //position: absolute;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    padding: 100px 50px 50px;
+    &::-webkit-scrollbar {
+      background-color: transparent;
+      width: 0px
+    }
+
+    .banner-img {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      z-index: -1;
+    }
+
+    .banner-body-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 50px;
+      max-width: 1400px;
+      margin: auto;
+
+      .banner-inner-body {
+        width: 100%;
+
+        .program-title-section {
+          //max-width: 450px;
+        }
+
+        .program-name {
+          font-size: 30px;
+          font-weight: bold;
+          color: _palette(bg);
+          letter-spacing: 1.09px;
+          max-width: 1400px;
+          @media only screen and (min-width: 1400px) {
+            margin-left: 75px;
+          }
+        }
+
+        h4 {
+          color: _palette(bg);
+        }
+
+        .banner-program {
+          max-width: 100%;
+          position: relative;
+          display: flex;
+          justify-content: center;
+
+          .program-img-section {
+            width: 50%;
+            height: 100%;
+            margin-right: 50px;
+
+            .program-img {
+              margin-top: 20px;
+              width: 100%;
+              height: 100%;
+              border-radius: 15px;
+            }
+          }
+
+          .program-session {
+            width: 500px;
+            height: 100%;
+            margin-top: 20px;
+
+            h5 {
+              color: _palette(bg);
+              margin-bottom: 20px;
+              letter-spacing: 0.5px;
+              font-family: _font(base-font);
+            }
+
+            .ant-collapse {
+              margin-bottom: 15px;
+              margin-left: 0px;
+              max-height: 400px;
+              overflow-y: auto;
+              background: transparent;
+              border: none;
+              .ant-collapse-item{
+                border-bottom: none;
+                .ant-collapse-content{
+                  background-color: transparent;
+                  .ant-tabs-tab{
+                    font-family: _font(para-font) !important;
+                  }
+                  li{
+                    font-family: _font(para-font) !important;
+                  }
+                }
+              }
+              .ant-collapse-header, .ant-collapse-content-box > p {
+                color: _palette(bg);
+                font-size: 16px;
+                letter-spacing: 0.5px;
+                font-family: _font(base-font);
+              }
+
+              .ant-collapse-header {
+                padding: 12px 16px 12px 0;
+
+                .ant-collapse-arrow {
+                  font-size: 18px;
+                  opacity: 0.5;
+                }
+              }
+
+              .ant-collapse-item-active {
+                .ant-collapse-arrow {
+                  opacity: 1;
+                }
+              }
+
+              .ant-collapse-content-box {
+                padding: 0 20px;
+
+                .topic-tabs {
+                  padding: 0 20px 20px 0;
+                  margin-top: 0;
+
+                  .ant-tabs-bar {
+                    border-bottom: none;
+                  }
+
+                  .ant-tabs-nav::before {
+                    border-bottom: none;
+                  }
+
+
+                  .menu-content,
+                  .ant-tabs-tab {
+                    color: _palette(bg);
+                    //font-weight: 500;
+                    padding: 12px 4px;
+                    opacity: 0.7;
+                    margin-right: 16px;
+                    //text-transform: uppercase;
+                    .ant-tabs-tab-btn {
+                      font-size: 15px;
+                      font-family: 'Airbnb Cereal App Bold', Helvetica;
+                      font-weight: inherit;
+                    }
+                  }
+
+                  .ant-tabs-tab-active {
+                    opacity: 1 !important;
+
+                    .ant-tabs-tab-btn {
+                      color: #75f1b0 !important;
+                      border: 1px solid #75f1b0;
+                      padding: 5px 10px;
+                      border-radius: 50px;
+                    }
+                  }
+
+                  .ant-tabs-ink-bar {
+                    background: #75f1b0;
+                    display: none;
+                    height: 4px;
+                  }
+
+                  .ant-tabs-content {
+                    margin-left: 24px;
+
+                    li {
+                      list-style-type: none;
+                      color: _palette(bg);
+                      font-size: 15px;
+                      margin-bottom: 10px;
+                      align-items: center;
+                      display: flex;
+                      flex-wrap: wrap;
+                      img{
+                        width: 16px;
+                        height: 16px;
+                        margin-right: 10px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          @media only screen and (min-width: 992px) and (max-width: 1400px) {
+            justify-content: space-between;
+          }
+
+          @media only screen and (max-width: 992px) {
+            flex-direction: column;
+            display: flex;
+            max-width: 100%;
+            padding-right: 0;
+            .program-img-section {
+              width: 100% !important;
+              position: unset;
+            }
+
+            .program-session {
+              width: 100% !important;
+              margin-left: 0;
+              padding-left: 0px !important;
+              padding-right: 0px !important;
+              margin-top: 20px;
+              position: relative;
+              min-height: 300px;
+              right: 0;
+            }
+          }
+
+        }
+
+
+        @media only screen and (min-width: 992px) and (max-width: 1400px) {
+          justify-content: space-between;
+          padding: 0 50px;
+        }
+
+        @media only screen and (max-width: 1024.5px) {
+          width: 100%;
+          max-width: 90%;
+          padding: 0 50px;
+          height: 100%;
+        }
+        @media only screen and (max-width: 1024.5px) {
+          padding: 0px;
+        }
+      }
+
+      @media only screen and (max-width: 1399.5px) {
+        padding: 0 30px;
+      }
+
+      @media only screen and (max-width: 500px) {
+        padding: 0 10px 0 0 ;
+      }
+
+      @media only screen and (max-width: 1024.5px) {
+        align-items: flex-end;
+      }
+
+    }
+  }
+
+  .resilify-program-description {
+    display: flex;
+    justify-content: space-between;
+    //width: calc(100% - 10rem);
+    margin: 50px auto 20px;
+    max-width: 1400px;
+
+    .program-desc {
+      width: 100%;
+      padding: 20px 0px;
+
+      .program-desc-text {
+        max-width: 90%;
+
+        h1, h2, h3, h4, h5 {
+          font-family: 'Airbnb Cereal App Medium', Helvetica;
+          margin-bottom: 20px;
+          color: #344356;
+        }
+
+        h3 {
+          font-size: 30px;
+        }
+
+        p, li {
+          font-family: _font(para-font);
+          color: #344356;
+          font-size: 18px;
+        }
+
+        li {
+          list-style: disc;
+          margin-left: 20px;
+        }
+
+        @media only screen and (max-width: 769.5px) {
+          max-width: 100%;
+        }
+      }
+
+    }
+
+    .coach-user-info {
+      width: 35%;
+      padding: 20px;
+
+      .-flex {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          margin-right: 20px;
+        }
+      }
+
+      p {
+        margin-top: 10px;
+        font-size: 14px;
+      }
+
+      .tags {
+        h4 {
+          margin-top: 20px;
+        }
+
+        div {
+          display: flex;
+          flex-wrap: wrap;
+
+          .tag {
+            border: 1.5px solid _palette(primary-blue);
+            color: _palette(primary-blue);
+            padding: 5px 10px;
+            font-size: 14px;
+            font-family: _font(para-font);
+            font-weight: 600;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+
+    @media only screen and (max-width: 1399.5px) {
+      padding: 0 30px;
+    }
+    @media only screen and (max-width: 1024.5px) {
+      width: 100%;
+      flex-direction: column;
+      .program-desc {
+        width: 100%;
+        padding: 20px 0px;
+      }
+
+      .coach-user-info {
+        width: 100%;
+        padding: 0;
+      }
+    }
+    @media only screen and (min-width: 800px) and (max-width: 1024.5px) {
+      padding: 0 40px;
+    }
+    @media only screen and (max-width: 799.5px) {
+      padding: 0 30px;
+    }
+  }
+
+  .category-page-body {
+    max-width: 1400px;
+    margin: auto;
+    padding-top: 30px;
+
+    .program-section-title {
+      text-align: left;
+      padding: 0px;
+    }
+
+    .program-wrapper {
+      padding: 0px;
+    }
+
+    @media only screen and (max-width: 1399.5px) {
+      padding: 0 30px;
+    }
+  }
+}

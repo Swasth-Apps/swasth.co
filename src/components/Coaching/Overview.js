@@ -1,8 +1,9 @@
 import React from "react";
 import {Col, Row} from "antd";
 import {ArrowRightOutlined} from "@ant-design/icons";
+import bannerGraphic from "../../assets/images/home-woman.jpeg";
 
-const CoachingOverview = props => {
+const CoachingOverview = () => {
     return (
         <div className="coaching-overview-container">
             <div className="coaching-overview">
@@ -30,7 +31,7 @@ const CoachingOverview = props => {
                                 </Col>
                                 <Col md={12} className="-margin-right img-section" style={{textAlign: "center"}}>
                                     <img className='custom-image'
-                                         src="https://v1.nitrocdn.com/aDQSgnHktaudvkmeJfPxNoEXBteJYlvY/assets/static/source/rev-5de672a/wp-content/uploads/2020/01/member-experience-hero1.png"
+                                         src={bannerGraphic}
                                          alt='Therapy'/>
                                 </Col>
                             </Row>
@@ -47,33 +48,31 @@ const CoachingOverview = props => {
                 className={'coach-wrapper'}
                 style={{paddingBottom: 0}}
             >
-
-
                 <div className="coaching-overview-access-section">
                     <h2 className="base-text">Access care through our<br/> innovative Coaching Platform</h2>
                     <div className="divider"/>
                     <div className="sequence-sections">
                         <div className="section">
                             <h3>1</h3>
-                            <p className="para-text title">Receive personalized care options</p>
+                            <p className="para-medium-text title">Receive personalized care options</p>
                             <p className="para-text desc">Review recommendations tailored to each member’s symptoms,
                                 severity, and lifestyle.</p>
                         </div>
                         <div className="section">
                             <h3>2</h3>
-                            <p className="para-text title">Book real-time appointments</p>
+                            <p className="para-medium-text title">Book real-time appointments</p>
                             <p className="para-text desc">Schedule appointments online and choose to meet in-person or
                                 via live video.</p>
                         </div>
                         <div className="section">
                             <h3>3</h3>
-                            <p className="para-text title">Learn and practice new real-life skills</p>
+                            <p className="para-medium-text title">Learn and practice new real-life skills</p>
                             <p className="para-text desc">Develop new coping skills from your provider and through
                                 proven digital lessons and exercises.</p>
                         </div>
                         <div className="section">
                             <h3>4</h3>
-                            <p className="para-text title">Track and measure progress</p>
+                            <p className="para-medium-text title">Track and measure progress</p>
                             <p className="para-text desc">Complete ongoing clinical assessments to understand how
                                 treatment and recovery progress.</p>
                         </div>
@@ -87,7 +86,7 @@ const CoachingOverview = props => {
                     <div className="sequence-sections">
                         <div className="section">
                             <img src={require("../../assets/images/overview/m-e-1.png")}/>
-                            <p className="para-text title">In-person</p>
+                            <p className="para-medium-text title">In-person</p>
                             <p className="para-text desc">
                                 Ideal for honoring member preference and treating complex needs
                             </p>
@@ -95,7 +94,7 @@ const CoachingOverview = props => {
                         <div className="section">
                             <img src={require("../../assets/images/overview/m-e-2.png")}/>
 
-                            <p className="para-text title">
+                            <p className="para-medium-text title">
                                 Live-video
                             </p>
                             <p className="para-text desc">
@@ -105,7 +104,7 @@ const CoachingOverview = props => {
                         <div className="section">
                             <img src={require("../../assets/images/overview/m-e-3.png")}/>
 
-                            <p className="para-text title">Live-messaging</p>
+                            <p className="para-medium-text title">Live-messaging</p>
                             <p className="para-text desc">
                                 Private and flexible, great for connecting with support anywhere
                             </p>
@@ -113,7 +112,7 @@ const CoachingOverview = props => {
                         <div className="section">
                             <img src={require("../../assets/images/overview/m-e-4.png")}/>
 
-                            <p className="para-text title">
+                            <p className="para-medium-text title">
                                 Self-led
                             </p>
                             <p className="para-text desc">

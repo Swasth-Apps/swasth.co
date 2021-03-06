@@ -1,30 +1,32 @@
 import React from "react";
 import {Col, Row} from "antd";
-import {ArrowRightOutlined} from "@ant-design/icons";
 import {Link} from "gatsby";
 import bannerGraphic from "../assets/images/home-woman.jpeg";
+import ComprehensiveHealth from "../assets/images/comprehensiveHealth.png";
+import programs from "../assets/images/Proven-Treatment-Methods-Img.png";
+import SelfHelpImg from "../assets/images/Self-Health-Coach-Section.png";
+import DotsIcon from "../assets/images/dots.png";
+import {testimonials} from "./testimonialData";
+import ProgramAdapts from "../assets/images/pexels-kaboompics-com-6335.jpg";
 
-const expertsData = [{
-    name:"Dennis Tirch",
-    img:require("../assets/images/experts/tirch.jpeg"),
-    description:"Dr Dennis Tirch founded the USA’s Center for Compassion Focused Therapy and is current President of The Compassionate Mind Foundation USA. He is in demand for international workshops and invited speeches.",
-    expertise: "Founder of The Center for Compassion Focused Therapy",
-    "slug":"dennis-tirch"
-},{
-    name:"Philip Zimbardo",
-    img:require("../assets/images/experts/philip.jpg"),
-    description:"Dr Philip Zimbardo is one of the most well known psychologists of the second half of the twentieth century. Best known for the Stanford Prison Experiment of 1971, his research has covered the psychology of evil, cult behavior, shyness and heroism.",
-    expertise: "Emeritus Professor of Psychology at Stanford University and President of the Heroic Imagination Project",
-    "slug":"philip-zimbardo"
-},{
-    name:"Dr. Yotam Heineberg",
-    img:require("../assets/images/experts/yotam.png"),
-    description:"After completing his doctorate at PGSP-Stanford Consortium, he did his post-doctoral training and acted as a healthcare Fellow at Stanford University (CCARE) where he developed various programs focused on resilience, team building and compassion.",
-    expertise: "Clinical psychologist and a clinical faculty member at Palo Alto University",
-    "slug":"yotam-heineberg"
-}];
-
-
+const helpData = [
+    {
+        title: "Anxiety",
+        image: require("../assets/images/programs/anxiety_new.jpeg")
+    }, {
+        title: "Depression",
+        image: require("../assets/images/programs/depression_new.jpeg")
+    }, {
+        title: "Eating Disorders",
+        image: require("../assets/images/programs/Eating-Disorder_new.jpeg")
+    }, {
+        title: "Insomnia",
+        image: require("../assets/images/programs/Insomnia_new.jpeg")
+    }, {
+        title: "Panic Disorders",
+        image: require("../assets/images/programs/Panic-Disorder_new.jpeg")
+    },
+];
 const LandingPage = props => {
     return (
         <div className="home-page-overview-container">
@@ -42,7 +44,9 @@ const LandingPage = props => {
                                         Behavioral health care <br/> for everyone
                                     </h3>
                                     <div className='para-text black-18-font margin-bottom-25'>
-                                        <p className="width-90 para-text">A platform built on evidence-based principles, delivered by licensed clinicians, coaches making care accessible, effective and scalable.</p>
+                                        <p className="width-90 para-text">A platform built on evidence-based principles,
+                                            delivered by licensed clinicians, coaches making care accessible, effective
+                                            and scalable.</p>
                                     </div>
 
                                     <a href="https://home-page.resiliens.com/" target="_blank">
@@ -52,9 +56,11 @@ const LandingPage = props => {
                                     </a>
                                 </Col>
                                 <Col md={12} className="-margin-right img-section" style={{textAlign: "center"}}>
-                                    <img className='custom-image'
-                                         src={bannerGraphic}
-                                         alt='Therapy'/>
+                                    <img
+                                        className='custom-image'
+                                        src={bannerGraphic}
+                                        alt='Therapy'
+                                    />
                                 </Col>
                             </Row>
                         </Col>
@@ -72,14 +78,20 @@ const LandingPage = props => {
             >
 
                 <div className="home-page-content-section">
-                    <h3 className="base-text">A comprehensive behavioral health platform</h3>
-                    <div className="home-page-content-bottom-section">
+                    <h3 className="base-text center margin-bottom-25 comprehensive-text">A Comprehensive Behavioral
+                        Health Platform</h3>
+                    <p className="para-book-text center" style={{fontSize: 18}}> Resiliens's Digital Health Platform
+                        offers treatment programs for Anxiety,
+                        Depression, Eating Disorders, Borderline Personality Disorder, PTSD, SUDs, etc.
+                        The Platform
+                        combines Technology, Evidence-Based Therapy and Coaching from Licensed
+                        Clinicians and Coaches.</p>
+                    {/*<div className="home-page-content-bottom-section">
                         <div className="-flex">
                             <div className="home-page-content-flex-section">
                                 <div className="flex-container">
                                     <h3 className="para-text">Coaching</h3>
-                                    <p className="para-book-text">Only 24% of members who receive care through health
-                                        plans demonstrate reliable clinical improvement.</p>
+
                                 </div>
                                 <div className="flex-container">
                                     <h3 className="para-text">Self-guided Programs</h3>
@@ -101,30 +113,63 @@ const LandingPage = props => {
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div>*/}
+                    <Row className="align-center" style={{marginTop: 20}}>
+                        <img
+                            className='custom-image'
+                            src={ComprehensiveHealth}
+                            alt='Therapy'
+                        />
+                    </Row>
+                    <Row className='section-gap program-row-adapts'>
+                        <Col md={12} className="program-adapts">
+                            <p className='bottom-space base-text'>
+                                <span className='-highlighted-text'>Personalized Programs</span>
+                                <br/>
+                                for Specific Conditions
+                            </p>
+                            <div className='para-text black-18-font'>
+                                <p>Our treatment programs combines evidence-based therapy modalities
+                                    (Dialectical Behavior Therapy / DBT, Cognitive Behavioral Therapy / CBT,
+                                    Acceptance and Committment Therapy / ACT etc.) with nutritional psychology,
+                                    sleep psychology, Heart Rate / HRV-biofeedback and Health Psychology.</p>
+                                <p> This holistic approach to behavioral health helps our program participants
+                                    to gain long-lasting transformational results.</p>
+                            </div>
+                        </Col>
+                        <Col md={12} className='-margin-right align-right'>
+                            <img className='custom-image updated-home-image' src={ProgramAdapts} alt='Therapy'/>
+                        </Col>
+                    </Row>
+
+
                 </div>
+
+                <h3 className="base-text center margin-bottom-25 health-coaching-text">Behavioral Health Coaching</h3>
                 <div className="home-page-overview-new-skills-section home-page-improvement-section">
                     <Row className='-row-flex-center card-row bg-img'>
                         <Col md={24}>
                             <Row className='card-row'>
                                 <Col md={12} className="content">
                                     <h3 className='bottom-space base-text program-grounded'>
-                                        The gold standard of<br/>measuring improvement
+                                        Live Coaching for<br/>Groups and Individuals
                                     </h3>
-                                    <h5 className="para-text">No vanity metrics. Only meaningful, measurable
-                                        change.</h5>
-                                    <div className='para-text black-18-font margin-bottom-25'>
-                                        <p className="width-90 para-text">
-                                            At Lyra, we use “reliable clinical improvement” to measure change,
-                                            which means that an individual in treatment has improved enough on a
-                                            measure of clinical symptoms that we don’t believe the change can be
-                                            accounted for by normal variation in scores or measurement error.
+                                    <p className="para-medium-text width-90" style={{fontSize: 18}}>
+                                        We offer effective care programs grounded in proven treatment methods designed
+                                        by clinical experts and grounded in evidence-based practices that are proven to
+                                        work.
+                                    </p>
+                                    <div className='para-text' style={{marginTop: 40}}>
+                                        <p className="para-text para-medium-text">
+                                            The programs focus on :
                                         </p>
-                                        <p className="width-90 para-text">
-                                            Other companies often report a 1-point change, which represents normal
-                                            variation in symptom scores over time and does not reflect a meaningful
-                                            improvement in depression, anxiety or stress.
-                                        </p>
+                                        <ul>
+                                            <li className="para-book-text">Goal-focused treatment</li>
+                                            <li className="para-book-text">New skill development</li>
+                                            <li className="para-book-text">Practice between sessions</li>
+                                            <li className="para-book-text">Track progress toward goals</li>
+                                            <li className="para-book-text">Short-term and long-lasting results</li>
+                                        </ul>
                                     </div>
 
                                     <a href="https://home-page.resiliens.com/" target="_blank">
@@ -135,14 +180,186 @@ const LandingPage = props => {
                                 </Col>
                                 <Col md={12} className="-margin-right img-section" style={{textAlign: "center"}}>
                                     <img className='custom-image'
-                                         src={require("../assets/images/Home/girl-img.png")}
+                                         src={programs}
                                          alt='Therapy'/>
                                 </Col>
                             </Row>
                         </Col>
                     </Row>
                 </div>
+                <div className="home-page-overview-new-skills-section home-page-self-guided">
+                    <Row className='-row-flex-center card-row bg-img'>
+                        <Col md={24}>
+                            <Row className='card-row'>
+                                <Col md={12} className="-margin-right img-section" style={{textAlign: "center"}}>
+                                    <img className='custom-image'
+                                         src={SelfHelpImg}
+                                         alt='Therapy'/>
+                                </Col>
+                                <Col md={12} className="content">
+                                    <h3 className='bottom-space base-text program-grounded'>
+                                        Self Guided Programs
+                                    </h3>
+                                    <p className="para-text width-90" style={{fontSize: 18}}>
+                                        Finding effective behavioral healthcare is hard. Through our self-guided app
+                                        (Resilify), you have access to over 50+ self-guided programs, organized by
+                                        symptoms / conditions, treatment modalities.
+                                        <br/>
+                                        <br/>
+                                        These contain video-guided lessons,
+                                        exercises, activities and tools that were created by experts in behavioral
+                                        health
+                                        using evidence-based techniques, to improve your mental well-being.
+                                    </p>
+                                    <a href="https://home-page.resiliens.com/" target="_blank">
+                                        <button className='request-demo-btn' style={{marginTop: 20}}>
+                                            Get Started
+                                        </button>
+                                    </a>
+                                </Col>
 
+                            </Row>
+                        </Col>
+                    </Row>
+                </div>
+
+            </div>
+            <div
+                id='wrapper'
+                className={'coach-wrapper'}
+                style={{paddingBottom: 0}}
+            >
+                <section className="help-people-section">
+                    <Row className='-row-flex-center'/>
+                    <Row className='-row-flex-center'>
+                        <Col md={24} style={{width: '100%'}}>
+                            <p style={{textAlign: 'center'}}
+                               className='bottom-space base-text tab-view'>We <span
+                                className='-highlighted-secondary-text'>help people with</span>
+                            </p>
+
+                            <div className="multi-modality-section programs-list">
+                                {helpData?.map(data =>
+                                    <div className="section">
+                                        <div className="section-card" style={{
+                                            backgroundImage: `url(${data.image})`,
+                                            backgroundSize: "cover",
+                                            backgroundPosition: "center",
+                                            backgroundRepeat: "no-repeat",
+                                        }}>
+                                            <div className="content">
+                                                <h4 className="base-text">{data.title}</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                )}
+                                <Link className="section" to="/programs">
+                                    <div className="section-card">
+                                        <img src={DotsIcon} className="dots-image"/>
+                                        <div className="more-content">
+                                            <h4 className="base-text more-text">More</h4>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+                        </Col>
+                    </Row>
+                </section>
+            </div>
+            <div
+                id='wrapper'
+                className={'coach-wrapper'}
+                style={{paddingBottom: 0}}
+            >
+                <section className='after-border-section'>
+                    <Row className='card-row -row-flex-center'>
+                        <Col md={24}>
+                            <div style={{textAlign: 'center'}}>
+                                <p className='bottom-space base-text'>Check out what our
+                                    <span className='-highlighted-secondary-text'>{' '}users </span>{' '} are saying
+                                    about<span className='-highlighted-secondary-text'>{' '}Resiliens</span></p>
+
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row gutter={24} className='second-fold-row' style={{marginTop: 20}}>
+                        <div className='cell well user-testimonial'>
+                            <div className='grid grid--3 well--m mt4 pricing-relative'>
+                                {testimonials?.slice(0, 6)?.map((item, i) =>
+                                    <div
+                                        className={`card card--vertical card--starter pricing-relative life-coach-grid-section`}>
+                                        <div className='card-text'>
+                                            <img src={item.img}/>
+                                            <p className='para-text navy-text line-clamp-para'>{item.desc}</p>
+                                            {/*<a className='para-text more-link-text' onClick={() => handleTestimonial(i)}>{i === testimonial ? 'READ LESS' :'READ MORE'}</a>*/}
+                                            <span className='-font-bold user-img navy-text'>
+                      <div className="user-info">
+                          <img src={item.user}/>
+                          <strong className="para-text">
+                              {item.name}
+                              <br/>
+                              <strong className="para-text -highlighted-secondary-text">{item.userType}</strong>
+                          </strong>
+                      </div>
+
+                      </span>
+                                        </div>
+                                    </div>)}
+                            </div>
+                        </div>
+                        {testimonials.length > 6 ?
+                            <div className="show-more-testimonial base-text"><Link to="/testimonial">
+                                Show More
+                            </Link></div> : null}
+                    </Row>
+                    {/*       <div style={{textAlign:'center'}} className='all-testimonials divider'>
+          <a className='-highlighted-secondary-text'>Check all testimonials</a>
+        </div>
+      <Row className='card-row -row-flex-center blog-container-card-row'>
+          <Col md={24}>
+            <Row className='card-row -row-flex-center'>
+              <h2 className='bottom-space'>Read the latest from
+                <span className='-highlighted-secondary-text'>{' '}Resiliens</span></h2>
+            </Row>
+            <Row className='card-row -row-flex-space-between blog-container-row' style={{ display: 'flex'}}>
+              <Col md={6} className='blog-container'>
+                <img src={blogImg} style={{width:'100%'}}/>
+                <div className='img-tag'>THERAPY</div>
+                <h5>
+                  Exposing our blind spots: How to Tackle Unconscious Bias as Therapist
+                </h5>
+                <div className='blog-user'>
+                  William Hua, phD {'   -   '} Nov 19,2019
+                </div>
+              </Col>
+              <Col md={6} className='blog-container'>
+                <img src={blogImg2} style={{width:'100%'}}/>
+                <div className='img-tag'>THERAPY</div>
+                <h5>
+                  Exposing our blind spots: How to Tackle Unconscious Bias as Therapist
+                </h5>
+                <div className='blog-user'>
+                  William Hua, phD {'   -   '} Nov 19,2019
+                </div>
+              </Col>
+              <Col md={6} className='blog-container'>
+                <img src={blogImg3} style={{width:'100%'}}/>
+                <div className='img-tag'>THERAPY</div>
+                <h5>
+                  Exposing our blind spots: How to Tackle Unconscious Bias as Therapist
+                </h5>
+                <div className='blog-user'>
+                  William Hua, phD {'   -   '} Nov 19,2019
+                </div>
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+      */}
+                </section>
+            </div>
+
+            {/*
                 <div className="home-page-content-section">
                     <h3 className="title base-text">Grounded in proven treatment methods</h3>
                     <div className="home-page-content-bottom-section">
@@ -221,7 +438,7 @@ const LandingPage = props => {
                         </div>
                     </div>
                 </div>
-                {/*
+
                 <div className="home-page-overview-access-section">
                     <h2 className="base-text">Access care through our<br/> innovative Coaching Platform</h2>
                     <div className="divider"/>
@@ -253,7 +470,7 @@ const LandingPage = props => {
                     </div>
                     <div className="divider"/>
                     <img src={require("../assets/images/overview/care.jpg")} className="section-img"/>
-                </div>*/}
+                </div>
 
                 <div className="home-page-overview-choose-section">
                     <h2 className="base-text">Results from Lyra’s latest clinical research</h2>
@@ -387,8 +604,8 @@ const LandingPage = props => {
                             )}
                         </div>
                     </div>
-                </div>
-            </div>
+                </div>*/}
+
             {/* *********** For Everyone ************ */
             }
 

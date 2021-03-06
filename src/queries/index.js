@@ -76,3 +76,54 @@ export const getProviderSlug = `query getProviderSlug($slug: String!) {
   }
 }
 `;
+
+
+export const getTracksList = `
+    query getTracksList {
+        getTracksList {
+            id
+            name
+            sequence
+            topics
+            module
+            isFree
+            image
+            marketingImage
+            tags
+            description
+            isFeatured
+            slug
+            price
+            sessions{
+                name
+                sequence
+                lessons
+                activityGroups {
+                    id
+                    name
+                    sequence
+                    activities {
+                        details
+                        id
+                        name
+                        image
+                        type
+                    }
+                }
+            }
+        }
+    }
+`;
+
+export const getTopics = `
+    query getTopics {
+        getTopics {
+            id
+            name
+            sequence
+            image
+            description
+            icon
+        }
+    }
+`;

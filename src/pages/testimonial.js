@@ -27,8 +27,8 @@ const Testimonial = (props) => {
                     <p className='para-text navy-text line-clamp-para' style={{fontSize: 16}}>{item.desc}</p>
                     {/*<a className='para-text more-link-text' onClick={() => handleTestimonial(i)}>{i === testimonial ? 'READ LESS' :'READ MORE'}</a>*/}
                     <span className='-font-bold user-img navy-text'>
-                      <div className="user-info"><img src={item.user} /><strong>{item.name}</strong></div>
-                                        <strong>{item.userType}</strong>
+                      <div className="user-info"><img src={item.user} /><strong className="para-text">{item.name}</strong></div>
+                                        <strong className="para-text">{item.userType}</strong>
 
                       </span>
                   </div>

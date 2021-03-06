@@ -3,7 +3,7 @@ import * as CLOUDINARY from 'cloudinary-core';
 
 export const cloudName = 'dbt';
 
-const cloudinary = CLOUDINARY.Cloudinary.new({cloud_name: cloudName});
+export const cloudinary = CLOUDINARY.Cloudinary.new({cloud_name: cloudName});
 
 export default class CLImage extends Component {
   constructor() {

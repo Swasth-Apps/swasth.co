@@ -649,6 +649,13 @@
 
 .after-border-section {
   margin-top: 100px;
+  background: #d3d3d31c;
+  padding: 50px;
+  border-radius: 10px;
+  .life-coach-grid-section{
+    background: white;
+    border-radius: 10px;
+  }
 }
 
 @media (max-width: 768.5px) {

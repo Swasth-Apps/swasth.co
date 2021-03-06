@@ -150,8 +150,11 @@ const Home = () => {
                                 </div>
                             </Row>
                             <Row className="align-center">
-                                <img className='custom-image' src={isMobile ? MobileGraphic : ComprehensiveHealth}
-                                     alt='Therapy'/>
+                                <img
+                                    className='custom-image'
+                                    src={isMobile ? MobileGraphic : ComprehensiveHealth}
+                                    alt='Therapy'
+                                />
                             </Row>
 
                             {/*
@@ -400,8 +403,8 @@ const Home = () => {
                                         <div className="section-card" style={{
                                             backgroundImage: `url(${data.image})`,
                                             backgroundSize: "cover",
-                                            backgroundPosition:"center",
-                                            backgroundRepeat:"no-repeat",
+                                            backgroundPosition: "center",
+                                            backgroundRepeat: "no-repeat",
                                         }}>
                                             <div className="content">
                                                 <h4 className="base-text">{data.title}</h4>
@@ -413,7 +416,7 @@ const Home = () => {
                                     <div className="section-card">
                                         <img src={DotsIcon} className="dots-image"/>
                                         <div className="more-content">
-                                        <h4 className="base-text more-text">More</h4>
+                                            <h4 className="base-text more-text">More</h4>
                                         </div>
                                     </div>
                                 </Link>
@@ -603,7 +606,7 @@ const Home = () => {
                                             <span className='-font-bold user-img navy-text'>
                       <div className="user-info">
                           <img src={item.user}/>
-                          <strong className="base-text">
+                          <strong className="para-text">
                               {item.name}
                               <br/>
                               <strong className="para-text -highlighted-secondary-text">{item.userType}</strong>

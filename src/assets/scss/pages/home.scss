@@ -2671,11 +2671,14 @@ strong {
 
 // We help People with
 .help-people-section {
-  margin-top: 50px;
+  margin-top: 100px;
 
   .section-card {
+    .content{
+      background-image: linear-gradient(to bottom, #4170ed03 -3%, #1a1a1bd9 103%) !important;
+    }
     h4 {
-      margin-bottom: 30px !important;
+      margin-bottom: 10px !important;
       margin-top: 0px !important;
     }
 
@@ -2702,11 +2705,18 @@ strong {
 
 // Update Home page Design
 .home-page-overview-container {
+
+  .health-coaching-text{
+    font-size: 40px;
+    line-height: 50px;
+    margin: 40px 0 60px;
+  }
+
   .home-page-overview {
     transition: filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
     position: relative;
     width: 100%;
-    background: rgba(117,74,246, 0.11);
+    background: rgba(66,115,240,0.1);
 
     .card-row {
       padding: 0 0px 0px !important;
@@ -2716,17 +2726,17 @@ strong {
           margin-bottom: 20px;
           font-size: 50px;
           line-height: 60px;
-          color: _palette(extra-dark-blue);
+          color: _palette(blue-color);
         }
 
         p {
-          margin-bottom: 70px;
+          margin-bottom: 50px;
           color: _palette(extra-dark-blue);
         }
       }
 
       .img-section {
-        padding-top: 50px;
+        padding-top: 100px;
       }
       .request-demo-btn{
         //background: _palette(extra-dark-blue);
@@ -2738,7 +2748,7 @@ strong {
 
     .bg-img {
       &:before {
-        background: url("https://v1.nitrocdn.com/aDQSgnHktaudvkmeJfPxNoEXBteJYlvY/assets/static/source/rev-5de672a/wp-content/themes/lyra-2020/dist/images/hero-6.svg") bottom center no-repeat;
+        background: url("/img/bg.png") center center no-repeat;
         transform: translateX(20%);
         content: "";
         position: absolute;
@@ -2750,8 +2760,20 @@ strong {
 
       img {
         max-width: 480px;
-        margin-bottom: -10px;
-        border-top-left-radius: 100px;
+        margin-bottom: -50px;
+        border-radius: 10px;
+        //border-top-left-radius: 100px;
+      }
+    }
+
+  }
+  .coach-wrapper{
+    .program-adapts{
+      .black-18-font{
+        p{
+          font-size: 18px;
+          font-family: _font(para-book-font);
+        }
       }
     }
   }
@@ -2760,6 +2782,10 @@ strong {
     padding: 100px 0 50px;
     margin-bottom: 30px;
     border-bottom: 1px solid #6b6b6b3d;
+    .comprehensive-text{
+      font-size: 40px;
+      line-height: 50px;
+    }
     .title{
       font-size: 50px;
       line-height: 60px;
@@ -2812,9 +2838,10 @@ strong {
   }
 
   .home-page-overview-new-skills-section{
-    background: #123243;
+    background: #4273f0d9;
     margin-top: 0 !important;
     padding: 0px 100px !important;
+    border-radius: 10px 10px 0 0;
     h5{
       font-size: 24px;
     }
@@ -2908,14 +2935,24 @@ strong {
 
   .home-page-overview-new-skills-section{
     margin-top: 100px;
-    background: #123243;
+    background: #4273f0d9;
     padding: 50px 100px;
     .content{
-      h3,h5,p{
-        margin-bottom: 30px;
+      h3,h6,p,li{
         color: white
       }
+      p,li{
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+      h3,h5{
+        margin-bottom: 30px;
+      }
     }
+  }
+.home-page-self-guided{
+  border-radius: 0 0 10px 10px;
+    background: rgba(66,115,240,0.70);
   }
 
   .home-page-overview-bhp-flex-section{

@@ -1,18 +1,20 @@
 import React from 'react'
+import {connect} from "react-redux";
 import Header from './Header'
 import Footer from './Footer'
-import CoachingBG from '../assets/images/top-bg@3x.png'
 import '../assets/scss/main.scss'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import 'react-multi-carousel/lib/styles.css'
-import {Button, Icon} from 'antd'
 import CategoryTabs from './BreadCrum'
-
+import graphql_endpoint from '../aws-appsync-url'
+import Amplify, {API, graphqlOperation} from "aws-amplify";
+import {getTopics, getTracksList} from "../queries";
+import {setPrograms,setTopics} from "../Redux/Actions/Programs";
 
 class Layout extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             isMenuVisible: false,
             loading: 'is-loading',
@@ -21,15 +23,42 @@ class Layout extends React.Component {
     }
 
     componentDidMount() {
+
+        const programs = this.props.programs;
+
+        if(!programs?.programs?.length){
+            Amplify.configure({
+                API: {
+                    graphql_endpoint: graphql_endpoint.RESILIFY_TRACKS
+                }
+            });
+            API.graphql(graphqlOperation(getTracksList), {
+                "x-api-key": graphql_endpoint.TRACK_APIKEY
+            }).then(({data}) => {
+                this.props.setPrograms(data?.getTracksList?.filter(({marketingImage}) => marketingImage))
+            }).catch(error => {
+                console.log('error-------------', error);
+            });
+        }
+
+        if(!programs?.topics?.length){
+            Amplify.configure({
+                API: {
+                    graphql_endpoint: graphql_endpoint.RESILIFY_TRACKS
+                }
+            });
+            API.graphql(graphqlOperation(getTopics), {
+                "x-api-key": graphql_endpoint.TRACK_APIKEY
+            }).then(({data}) => {
+                this.props.setTopics(data?.getTopics)
+            }).catch(error => {
+                console.log('error-------------', error);
+            });
+        }
+
         this.timeoutId = setTimeout(() => {
             this.setState({loading: ''})
         }, 100)
-    }
-
-    handleClick = () => {
-        this.setState({
-            visible: false,
-        })
     }
 
     componentWillUnmount() {
@@ -39,23 +68,12 @@ class Layout extends React.Component {
     }
 
     render() {
-        const {children} = this.props
+        const {children} = this.props;
         return (
             <div
                 className={`body ${this.state.loading} ${this.props.hideHomeImg ? 'light-body-bg' : ''}`}
 
             >
-                {/*{!this.props.rearrangeChildren ? <img src={CoachingBG} className='home-bg-img coaching-bg-img'/> : null}*/}
-                {/*{this.state.visible && this.props.extraHeader ?
-                    <div className="para-text extra-header">
-                        <p className="para-text">
-                            We are offering free premium access to our Clinician Platform during the COVID-19 crisis.
-                        </p>
-                        <a href="https://clinician.resiliens.com" target="_blank">
-                            <Button className='para-text'>Get Started</Button>
-                        </a>
-                        <Icon type='close-circle' onClick={this.handleClick}/>
-                    </div> : ''}*/}
 
                 <div
                     id='coaching-header'
@@ -91,4 +109,16 @@ class Layout extends React.Component {
     }
 }
 
-export default Layout
+const mapStateToProps = (state) => ({
+    programs: state.programs,
+});
+
+export default connect(
+    mapStateToProps,
+    (dispatch) => ({
+        setPrograms: (programs) =>
+            dispatch(setPrograms(programs)),
+        setTopics: (topics) =>
+            dispatch(setTopics(topics)),
+    }),
+)(Layout);
