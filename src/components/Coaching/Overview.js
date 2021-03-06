@@ -16,7 +16,7 @@ const CoachingOverview = props => {
                             <Row className='card-row'>
                                 <Col md={12} className="content">
                                     <h3 className='bottom-space base-text program-grounded'>
-                                        Evidence based <br/>Behavioral health care
+                                        Evidence Based <br/>Behavioral Health Care
                                     </h3>
                                     <div className='para-text black-18-font margin-bottom-25'>
                                         <p className="width-90 para-text">LEARN ABOUT OUR PROGRAMS </p>

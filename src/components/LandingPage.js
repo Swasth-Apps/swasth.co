@@ -2,6 +2,7 @@ import React from "react";
 import {Col, Row} from "antd";
 import {ArrowRightOutlined} from "@ant-design/icons";
 import {Link} from "gatsby";
+import bannerGraphic from "../assets/images/home-woman.jpeg";
 
 const expertsData = [{
     name:"Dennis Tirch",
@@ -38,10 +39,15 @@ const LandingPage = props => {
                             <Row className='card-row'>
                                 <Col md={12} className="content">
                                     <h3 className='bottom-space base-text program-grounded'>
-                                        Mental health care<br/> grounded in science
+                                        Driving Towards Better<br/> Behavioral Health
                                     </h3>
                                     <div className='para-text black-18-font margin-bottom-25'>
-                                        <p className="width-90 para-text">LEARN ABOUT OUR PROGRAMS </p>
+                                        <p className="width-90 para-text">
+                                            Resiliens is transforming behavioral health care by creating a seamless experience for clients,
+                                            providers and employers. Using technology within the context of evidence based treatments, we
+                                            connect clients to behavioral health providers and treatments that work, making the experience
+                                            personalized and effective.
+                                        </p>
                                     </div>
 
                                     <a href="https://home-page.resiliens.com/" target="_blank">
@@ -52,7 +58,7 @@ const LandingPage = props => {
                                 </Col>
                                 <Col md={12} className="-margin-right img-section" style={{textAlign: "center"}}>
                                     <img className='custom-image'
-                                         src={require("../assets/images/Home/home-banner.png")}
+                                         src={bannerGraphic}
                                          alt='Therapy'/>
                                 </Col>
                             </Row>
