@@ -127,7 +127,7 @@ const RequestDemoModal = props => {
                     By submitting this form, you are agreeing to Resiliens Health's {' '}
                     <Link to="/privacy" className='base-text'>Privacy Policy</Link> and <Link to="/terms"  className="base-text">Terms of Use</Link>.
                 </p>
-                <Button htmlType="submit" className="request-demo-btn base-text">Request a Demo</Button>
+                <Button htmlType="submit" className="request-demo-btn base-text">Request a demo</Button>
                     {showSuccess ?
                     <p className="para-text success-text">
                         <h3 className="base-text"> Thank you for contacting us.</h3>

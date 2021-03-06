@@ -39,15 +39,10 @@ const LandingPage = props => {
                             <Row className='card-row'>
                                 <Col md={12} className="content">
                                     <h3 className='bottom-space base-text program-grounded'>
-                                        Driving Towards Better<br/> Behavioral Health
+                                        Behavioral health care <br/> for everyone
                                     </h3>
                                     <div className='para-text black-18-font margin-bottom-25'>
-                                        <p className="width-90 para-text">
-                                            Resiliens is transforming behavioral health care by creating a seamless experience for clients,
-                                            providers and employers. Using technology within the context of evidence based treatments, we
-                                            connect clients to behavioral health providers and treatments that work, making the experience
-                                            personalized and effective.
-                                        </p>
+                                        <p className="width-90 para-text">A platform built on evidence-based principles, delivered by licensed clinicians, coaches making care accessible, effective and scalable.</p>
                                     </div>
 
                                     <a href="https://home-page.resiliens.com/" target="_blank">
@@ -77,18 +72,17 @@ const LandingPage = props => {
             >
 
                 <div className="home-page-content-section">
-                    <h3 className="title base-text">Many treatments practiced today are ineffective. Lyra <br/>only delivers the
-                        most effective care.</h3>
+                    <h3 className="base-text">A comprehensive behavioral health platform</h3>
                     <div className="home-page-content-bottom-section">
                         <div className="-flex">
                             <div className="home-page-content-flex-section">
                                 <div className="flex-container">
-                                    <h3 className="para-text">With health plans…</h3>
+                                    <h3 className="para-text">Coaching</h3>
                                     <p className="para-book-text">Only 24% of members who receive care through health
                                         plans demonstrate reliable clinical improvement.</p>
                                 </div>
                                 <div className="flex-container">
-                                    <h3 className="para-text">With Lyra…</h3>
+                                    <h3 className="para-text">Self-guided Programs</h3>
                                     <p className="para-book-text">71% of members see reliable clinical improvement. 75%
                                         of members recover. A total of 83% of members improve or recover.</p>
                                 </div>

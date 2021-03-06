@@ -23,14 +23,15 @@
   min-width: 140px;
   height: 50px;
   border-radius: 5px;
-  background-image: linear-gradient(60deg, _palette(primary-blue) 35%, #4273f0 99%);
+  //background-image: linear-gradient(60deg, _palette(primary-blue) 35%, #4273f0 99%);
+  background-color: #4273f0;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.26);
   font-size: 14px;
   color: #fff;
   font-family: _font(base-font);
   letter-spacing: 0.6px;
   border: 0;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 
