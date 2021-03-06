@@ -128,7 +128,7 @@ const Header = (props) => {
                                 <Link to="/" hidden={state} style={{display: 'flex', alignItems: 'center', padding: 0}}
                                       className='header-content'>
                                     <Button className="request-demo-btn" onClick={() => setModal(true)}>
-                                        Request a Demo
+                                        Request a demo
                                     </Button>
                                 </Link>
                             </> : ''}
@@ -235,7 +235,7 @@ const Header = (props) => {
                 </a>
                 <Link to="/" style={{borderBottom: "none"}}>
                     <Button className="request-demo-btn" onClick={() => setModal(true)}>
-                        Request a Demo
+                        Request a demo
                     </Button>
                 </Link>
                 {/*<a href="/download">*/}

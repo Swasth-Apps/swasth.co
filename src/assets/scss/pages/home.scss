@@ -2729,7 +2729,9 @@ strong {
         padding-top: 50px;
       }
       .request-demo-btn{
-        background: _palette(extra-dark-blue);
+        //background: _palette(extra-dark-blue);
+        background-color: #4273f0;
+        text-transform:none;
       }
 
     }
