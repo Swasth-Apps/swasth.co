@@ -17,7 +17,7 @@ const CoachingOverview = () => {
                             <Row className='card-row'>
                                 <Col md={12} className="content">
                                     <h3 className='bottom-space base-text program-grounded'>
-                                        Evidence Based <br/>Behavioral Health Care
+                                        Evidence based <br/>Behavioral Health Coaching
                                     </h3>
                                     <div className='para-text black-18-font margin-bottom-25'>
                                         <p className="width-90 para-text">LEARN ABOUT OUR PROGRAMS </p>
@@ -49,32 +49,24 @@ const CoachingOverview = () => {
                 style={{paddingBottom: 0}}
             >
                 <div className="coaching-overview-access-section">
-                    <h2 className="base-text">Access care through our<br/> innovative Coaching Platform</h2>
+                    <h2 className="base-text">Access care through our innovative Coaching Platform</h2>
                     <div className="divider"/>
                     <div className="sequence-sections">
                         <div className="section">
-                            <h3>1</h3>
-                            <p className="para-medium-text title">Receive personalized care options</p>
-                            <p className="para-text desc">Review recommendations tailored to each member’s symptoms,
-                                severity, and lifestyle.</p>
+                            <p className="para-medium-text title">Programs for specific conditions and lifestyle</p>
+                            <p className="para-text desc">The programs are created by experts in evidence-based therapies treating these conditions with peer-reviewed research.</p>
                         </div>
                         <div className="section">
-                            <h3>2</h3>
-                            <p className="para-medium-text title">Book real-time appointments</p>
-                            <p className="para-text desc">Schedule appointments online and choose to meet in-person or
-                                via live video.</p>
+                            <p className="para-medium-text title">Supported by licensed clinicians and coaches</p>
+                            <p className="para-text desc">The programs typically run between 6-14 weeks with a weekly live session and supported by coaches for continuous support.</p>
                         </div>
                         <div className="section">
-                            <h3>3</h3>
-                            <p className="para-medium-text title">Learn and practice new real-life skills</p>
-                            <p className="para-text desc">Develop new coping skills from your provider and through
-                                proven digital lessons and exercises.</p>
+                            <p className="para-medium-text title">Digital library to aid skill practice</p>
+                            <p className="para-text desc">Develop skills by accessing a comprehensive library of video-guided lessons and exercises that accompany the sessions.</p>
                         </div>
                         <div className="section">
-                            <h3>4</h3>
-                            <p className="para-medium-text title">Track and measure progress</p>
-                            <p className="para-text desc">Complete ongoing clinical assessments to understand how
-                                treatment and recovery progress.</p>
+                            <p className="para-medium-text title">Tracking tools to see how you are doing</p>
+                            <p className="para-text desc">You can measure your progress with comprehensive set of tools and clinician assessments specific to the condition.</p>
                         </div>
                     </div>
                     <div className="divider"/>

@@ -14,7 +14,7 @@ const CoachingComponent = () => {
     return (
         <section className='coaching-section'>
             <div className="coaching-product-section">
-                <h3 className="base-text product-title">Coaching Platform</h3>
+                <h3 className="base-text product-title">Coaching</h3>
             </div>
                 <Tabs
                     centered

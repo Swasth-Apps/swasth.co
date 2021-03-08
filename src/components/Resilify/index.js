@@ -30,13 +30,11 @@ const ResilifyScreen = () => {
                                     <Row className='card-row'>
                                         <Col md={12} className="content">
                                             <h3 className='bottom-space base-text program-grounded'>
-                                                Don’t Face Life’s<br/> Challenges Alone
+                                                Self-guided Programs<br/>
                                             </h3>
                                             <div className='para-text black-18-font margin-bottom-25'>
                                                 <p className="width-90 para-text">
-                                                    Our online groups offer a safe space and the support
-                                                    you need. Have honest conversation
-                                                    with others going through a similar experience.
+                                                   Our Resilify Platform offers self-guided programs based on evidence-based treatment modalities that last anywhere from 6-12 weeks.
                                                 </p>
                                             </div>
 

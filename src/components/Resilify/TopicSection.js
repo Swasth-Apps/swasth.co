@@ -16,7 +16,7 @@ const TopicSection = props => {
         <div className="resilify-home-page-body">
             <div className="resilify-program-section">
                 <div className="program-section" id={`topic-tabs`}>
-                    <h3 className="program-section-title base-text">Evidence Based PsychoEducational Programs</h3>
+                    <h3 className="program-section-title base-text">Programs</h3>
                 </div>
                 {programs?.length ?
                     <Slider className="program-wrapper" key={generateRandomID()}>
@@ -39,7 +39,7 @@ const TopicSection = props => {
                         <div className="content">
                             <div className="outer-div">
                                 <h3 className="base-text">
-                                    Get 50+ Programs across 9 categories
+                                   Acess these programs anytime / anywhere
                                     <div className="divider"/>
                                 </h3>
                                 <ul className="para-text">
