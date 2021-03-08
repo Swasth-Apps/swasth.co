@@ -132,7 +132,7 @@ const RequestDemoModal = props => {
             </div>
         </Modal>
             <Button className={`request-demo-btn ${props.className}`} onClick={() => setOpenModal(true)}>
-                {props.children || "Request a demo" }
+                {props.btnText || "Request a demo" }
             </Button>
         </>
     );

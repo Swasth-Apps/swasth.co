@@ -1,8 +1,7 @@
 import React from "react";
 import {Col, Row} from "antd";
 import TopicSection from "./TopicSection";
-import {generateRandomID, getCloudIDFromImageName, scrollToDiv} from "./common/helper";
-import CategoryTabs from "./common/CategoryTabs";
+import {generateRandomID, getCloudIDFromImageName} from "./common/helper";
 import FAQs from "./common/FAQs";
 import {useSelector} from "react-redux";
 import bannerGraphic from "../../assets/images/home-woman.jpeg";
@@ -81,9 +80,7 @@ const ResilifyScreen = () => {
                         <li className="para-text"><CheckOutlined /> Watch on your desktop, phone, or TV</li>
                         <li className="para-text"><CheckOutlined /> Available audio-only lessons</li>
                     </ul>
-                    <RequestDemoModal>
-                        Get Started
-                    </RequestDemoModal>
+                    <RequestDemoModal btnText="Get Started" />
                 </div>
             </div>
             <div className="explore-more">

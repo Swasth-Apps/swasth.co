@@ -80,6 +80,7 @@ export const cloudinaryPaths = {
         community: 'community/',
         assessments: 'assessments/',
         tools: 'tools/',
+        icons: 'icons/',
     },
 };
 

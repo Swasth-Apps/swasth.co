@@ -7,21 +7,19 @@ import CLImage from "../../helper/CLImage";
 import {useSelector} from "react-redux";
 import {Collapse, Tabs} from "antd";
 import {getParseDetails} from "../../helper/helper";
-import {getCloudIDFromImageName} from "../../components/Resilify/common/helper";
+import {getCloudIDFromImageName, getCloudIDFromImageURL} from "../../components/Resilify/common/helper";
 import Program from "../../components/Program";
-import {Link} from "gatsby";
-import CategoryTabs from "../../components/Resilify/common/CategoryTabs";
-import CategoryMobileTabs from "../../components/Resilify/CategoryMobileTabs";
+import Loader from "../../components/Loader";
 
-const { Panel } = Collapse;
-const { TabPane } = Tabs;
+const {Panel} = Collapse;
+const {TabPane} = Tabs;
 
 const edges = ["Lessons", "Activities"];
 
-const ResilifyProgram = () =>{
+const ResilifyProgram = () => {
 
     const programs = useSelector(state => state.commonData.programs);
-    const topics = useSelector(state => state.commonData.topics);
+    const loading = useSelector(state => state.commonData.resilifyLoading);
 
     let slug = typeof window !== 'undefined' ? window.location.pathname.substring('/resilify/program/'.length) : '';
     slug = slug?.split("/")?.[0];
@@ -35,27 +33,16 @@ const ResilifyProgram = () =>{
         ({id}) => id !== program.id
     );
 
-        return (
-            <Layout>
-              {/*  <div
-                    id='wrapper'
-                    className={'resilify-categories'}
-                    style={{paddingBottom: 0}}
-                >
-                    <Link to="/resilify" className="base-text product-title">
-                        <img src={require("../../assets/images/resilify/logo.png")}/> RESILIFY
-                    </Link>
-                    <div className="resilify-category-tabs">
-                        <CategoryTabs topics={topics} category={program?.topics?.[0]}/>
-                    </div>
-                    <CategoryMobileTabs topics={topics} category={program?.topics?.[0]}/>
-                </div>*/}
-                <div className="resilify-program-page">
+    return (
+        <Layout>
+            <div className="resilify-program-page">
+                {loading ? <Loader/> : <>
+
                     <div className="banner-img">
                         <div className="program-top-banner"
-                        style={{
-                            background: `url(${require("../../assets/images/resilify/coach-bg.png")}) no-repeat center center fixed`
-                        }}
+                             style={{
+                                 background: `url(${require("../../assets/images/resilify/coach-bg.png")}) no-repeat center center fixed`
+                             }}
                         >
                             <div className="banner-body-section">
                                 <div className="banner-inner-body">
@@ -78,7 +65,8 @@ const ResilifyProgram = () =>{
                                         {program?.sessions?.length ?
                                             <div className="program-session">
                                                 <h5>{`${program?.sessions?.length} SESSIONS`}</h5>
-                                                <Collapse ghost expandIconPosition="right" accordion className="scrollbar">
+                                                <Collapse ghost expandIconPosition="right" accordion
+                                                          className="scrollbar">
                                                     {program?.sessions?.map((session, i) => {
                                                         const lessons = getParseDetails(session?.lessons?.[0]);
                                                         const activities = session.activityGroups?.flatMap(({activities}) => activities);
@@ -94,8 +82,20 @@ const ResilifyProgram = () =>{
                                                                                     </li>)}
                                                                             </ul> : <ul>
                                                                                 {activities?.map(activity =>
-                                                                                    <li><img
-                                                                                        src={require("../../assets/images/exercise.png")}/>{activity.name}
+                                                                                    <li>
+                                                                                        <CLImage
+                                                                                            cloudId={getCloudIDFromImageURL(
+                                                                                                activity.icon || 'Behavioral-activation.png',
+                                                                                                'bodhi',
+                                                                                                'icons',
+                                                                                            )}
+                                                                                            options={{
+                                                                                                format: 'png',
+                                                                                                background: 'transparent',
+                                                                                                color:"white"
+                                                                                            }}
+                                                                                        />
+                                                                                        {activity.name}
                                                                                     </li>)}
                                                                             </ul>
                                                                         }
@@ -119,22 +119,24 @@ const ResilifyProgram = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="category-page-body">
-                        <div className="program-section" id={`topic-tabs`}>
-                            <h3 className="program-section-title base-text">Related Programs</h3>
-                        </div>
-                        <div className="program-wrapper">
-                            {relatedPrograms?.map(program =>
-                                <Program program={program}/>
-                            )}
-                        </div>
+                </>}
+
+                <div className="category-page-body">
+                    <div className="program-section" id={`topic-tabs`}>
+                        <h3 className="program-section-title base-text">Related Programs</h3>
                     </div>
-                    <div style={{background: "#f9f9f9", padding: "20px 0 20px", marginTop: 50}}>
-                        <FAQs />
+                    <div className="program-wrapper">
+                        {relatedPrograms?.map(program =>
+                            <Program program={program}/>
+                        )}
                     </div>
                 </div>
-            </Layout>
-        )
+                <div style={{background: "#f9f9f9", padding: "20px 0 20px", marginTop: 50}}>
+                    <FAQs/>
+                </div>
+            </div>
+        </Layout>
+    )
 };
 
 export default ResilifyProgram;

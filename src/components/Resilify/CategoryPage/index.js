@@ -7,6 +7,7 @@ import {cloudinary} from "../../../helper/CLImage";
 import Program from "../../Program";
 import {useSelector} from "react-redux";
 import CategoryMobileTabs from "../CategoryMobileTabs";
+import Loader from "../../Loader";
 
 
 const getCLImageUrl = image => {
@@ -33,6 +34,7 @@ const getCLImageUrl = image => {
 
 const CategoryPageScreen = () => {
     const [showMore, setShowMore] = useState(true);
+    const loading = useSelector(state => state.commonData.resilifyLoading);
     const data = useSelector(state => state.commonData);
 
     const toggleMore = () => {
@@ -118,24 +120,28 @@ const CategoryPageScreen = () => {
             <div className="program-section" id={`topic-tabs`}>
                 <h3 className="program-section-title base-text">Programs</h3>
             </div>
-            <div className="program-wrapper">
-                {p?.map(program =>
-                    <Program program={program} onReload={() => this.forceUpdate()}/>
-                )}
-            </div>
-            {p?.length ? null : <Empty description="No Programs available for this category."/>}
-            {temps?.length > 8 ? showMore ?
-                <div style={{textAlign: "center", margin: "20px 0 40px"}}>
-                    <a rel="noreferrer" onClick={toggleMore}>
-                        <Button className="request-demo-btn base-text" onClick={() => scrollToDiv("#topic-tabs")}>Show
-                            More</Button>
-                    </a>
-                </div> : <div style={{textAlign: "center", margin: "20px 0 40px"}} onClick={toggleMore}>
-                    <a rel="noreferrer">
-                        <Button className="request-demo-btn base-text" onClick={() => scrollToDiv("#topic-tabs")}>Show
-                            Less</Button>
-                    </a>
-                </div> : null}
+            {loading ? <Loader/> : <>
+
+                <div className="program-wrapper">
+                    {p?.map(program =>
+                        <Program program={program} onReload={() => this.forceUpdate()}/>
+                    )}
+                </div>
+                {p?.length ? null : <Empty description="No Programs available for this category."/>}
+                {temps?.length > 8 ? showMore ?
+                    <div style={{textAlign: "center", margin: "20px 0 40px"}}>
+                        <a rel="noreferrer" onClick={toggleMore}>
+                            <Button className="request-demo-btn base-text" onClick={() => scrollToDiv("#topic-tabs")}>Show
+                                More</Button>
+                        </a>
+                    </div> : <div style={{textAlign: "center", margin: "20px 0 40px"}} onClick={toggleMore}>
+                        <a rel="noreferrer">
+                            <Button className="request-demo-btn base-text" onClick={() => scrollToDiv("#topic-tabs")}>Show
+                                Less</Button>
+                        </a>
+                    </div> : null}
+            </>}
+
         </div>
     </div>;
 

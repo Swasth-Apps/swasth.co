@@ -139,7 +139,7 @@
 
           & > span, & > p {
             color: #344356 !important;
-            font-family: "Avenir", Helvetica !important;
+            font-family: _font(para-book-font) !important;
             display: -webkit-box;
             -webkit-line-clamp: 3;
             font-size: 14px !important;
@@ -150,7 +150,7 @@
 
             span:first-child, p:first-child {
               color: #344356 !important;
-              font-family: "Avenir", Helvetica !important;
+              font-family: _font(para-book-font) !important;
               display: -webkit-box;
               -webkit-line-clamp: 3;
               font-size: 14px !important;

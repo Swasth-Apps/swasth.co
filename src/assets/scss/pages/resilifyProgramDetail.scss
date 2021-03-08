@@ -199,9 +199,12 @@
                       display: flex;
                       flex-wrap: wrap;
                       img{
-                        width: 16px;
-                        height: 16px;
+                        width: 24px;
+                        height: 24px;
+                        background: white;
+                        border-radius: 50px;
                         margin-right: 10px;
+                        padding: 5px;
                       }
                     }
                   }
@@ -305,7 +308,7 @@
         }
 
         p, li {
-          font-family: _font(para-font);
+          font-family: _font(para-book-font);
           color: #344356;
           font-size: 18px;
         }

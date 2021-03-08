@@ -9,8 +9,14 @@ import 'react-multi-carousel/lib/styles.css'
 import CategoryTabs from '../BreadCrum'
 import graphql_endpoint from '../../aws-appsync-url'
 import Amplify, {API, graphqlOperation} from "aws-amplify";
-import {getTopics, getTracksList} from "../../queries";
-import {setPrograms,setTopics} from "../../Redux/Actions/Programs";
+import {getMarketingPrograms, getTopics, getTracksList} from "../../queries";
+import {
+    setMarketingLoading,
+    setMarketingPrograms,
+    setPrograms,
+    setResilifyLoading,
+    setTopics
+} from "../../Redux/Actions/Programs";
 
 class Layout extends React.Component {
     constructor(props) {
@@ -19,14 +25,15 @@ class Layout extends React.Component {
             isMenuVisible: false,
             loading: 'is-loading',
             visible: true,
+            resilifyLoader: false
         }
     }
 
     componentDidMount() {
 
-        const programs = this.props.programs;
-
-        if(!programs?.programs?.length){
+        const programs = this.props.commonData?.programs;
+        this.props.setResilifyLoading(true);
+        if (!programs?.length) {
             Amplify.configure({
                 API: {
                     graphql_endpoint: graphql_endpoint.RESILIFY_TRACKS
@@ -36,12 +43,14 @@ class Layout extends React.Component {
                 "x-api-key": graphql_endpoint.TRACK_APIKEY
             }).then(({data}) => {
                 this.props.setPrograms(data?.getTracksList?.filter(({marketingImage}) => marketingImage))
+                this.props.setResilifyLoading(false)
             }).catch(error => {
+                this.props.setResilifyLoading(false);
                 console.log('error-------------', error);
             });
         }
 
-        if(!programs?.topics?.length){
+        if (!this.props.commonData?.topics?.length) {
             Amplify.configure({
                 API: {
                     graphql_endpoint: graphql_endpoint.RESILIFY_TRACKS
@@ -50,9 +59,30 @@ class Layout extends React.Component {
             API.graphql(graphqlOperation(getTopics), {
                 "x-api-key": graphql_endpoint.TRACK_APIKEY
             }).then(({data}) => {
-                this.props.setTopics(data?.getTopics)
+                this.props.setTopics(data?.getTopics);
+                if (programs?.programs?.length) {
+                    this.props.setResilifyLoading(false)
+                }
             }).catch(error => {
+                this.props.setResilifyLoading(false);
                 console.log('error-------------', error);
+            });
+        }
+
+        if (!(this.props.commonData?.marketingPrograms?.length)) {
+            this.props.setMarketingLoading(true);
+            Amplify.configure({
+                API: {
+                    graphql_endpoint: graphql_endpoint.COACHING_MARKETING,
+                },
+            });
+            API.graphql(graphqlOperation(getMarketingPrograms), {
+                "x-api-key": graphql_endpoint.COACHING_API_KEY
+            }).then(({data}) => {
+                this.props.setMarketingPrograms(data?.getMarketingPrograms);
+                this.props.setMarketingLoading(false);
+            }).catch(() => {
+                this.props.setMarketingLoading(false);
             });
         }
 
@@ -95,23 +125,23 @@ class Layout extends React.Component {
                     {this.props?.categories ? <CategoryTabs edges={this.props?.categories}/> : null}
                 </div>
 
-                    {!this.props.rearrangeChildren ? children : null}
+                {!this.props.rearrangeChildren ? children : null}
 
                 {this.props.rearrangeChildren ? children : null}
 
-                    <Footer
-                        minFooterHeight={this.props.minFooterHeight}
-                        show={this.props.show}
-                        hideFooter={this.props.hideFooter}
-                        showCustomBottom={this.props.topBg || false}
-                    />
+                <Footer
+                    minFooterHeight={this.props.minFooterHeight}
+                    show={this.props.show}
+                    hideFooter={this.props.hideFooter}
+                    showCustomBottom={this.props.topBg || false}
+                />
             </div>
         )
     }
 }
 
 const mapStateToProps = (state) => ({
-    programs: state.programs,
+    commonData: state.commonData,
 });
 
 export default connect(
@@ -121,5 +151,11 @@ export default connect(
             dispatch(setPrograms(programs)),
         setTopics: (topics) =>
             dispatch(setTopics(topics)),
+        setMarketingPrograms: (programs) =>
+            dispatch(setMarketingPrograms(programs)),
+        setMarketingLoading: (loading) =>
+            dispatch(setMarketingLoading(loading)),
+        setResilifyLoading: (loading) =>
+            dispatch(setResilifyLoading(loading)),
     }),
 )(Layout);

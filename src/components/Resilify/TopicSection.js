@@ -4,8 +4,11 @@ import Slider from "./common/Slider";
 import {generateRandomID} from "./common/helper";
 import Program from "../Program";
 import {Link} from "gatsby";
+import {useSelector} from "react-redux";
+import Loader from "../Loader";
 
 const TopicSection = props => {
+    const loading = useSelector(state => state.commonData.resilifyLoading);
     const [key, setKey] = useState("All");
     const [count, setCount] = useState(0);
 
@@ -23,6 +26,7 @@ const TopicSection = props => {
                 <div className="program-section" id={`topic-tabs`}>
                     <h3 className="program-section-title base-text">Programs</h3>
                 </div>
+                {loading ? <Loader /> : <>
                 {programs?.length ?
                     <Slider className="program-wrapper" key={generateRandomID()}>
                         {programs?.map((program) => <Program program={program} onReload={() => setCount(count + 1)}/>)}
@@ -33,6 +37,7 @@ const TopicSection = props => {
                             Programs</Button>
                     </Link>
                 </div>
+                </>}
             </div>
             </div>
             <div

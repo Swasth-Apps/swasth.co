@@ -264,7 +264,7 @@
 
             span:first-child, p:first-child {
               color: _palette(dark-blue) !important;
-              font-family: _palette(para-font) !important;
+              font-family: _font(para-book-font) !important;
               display: -webkit-box;
               -webkit-line-clamp: 2;
               font-size: 14px !important;
@@ -1111,7 +1111,7 @@
 
           & > span, & > p {
             color: _palette(dark-blue) !important;
-            font-family: _font(para-font) !important;
+            font-family: _font(para-book-font) !important;
             display: -webkit-box;
             -webkit-line-clamp: 2;
             font-size: 14px !important;
@@ -1122,7 +1122,7 @@
 
             span:first-child, p:first-child {
               color: _palette(dark-blue) !important;
-              font-family: _font(para-font) !important;
+              font-family: _font(para-book-font) !important;
               display: -webkit-box;
               -webkit-line-clamp: 2;
               font-size: 14px !important;

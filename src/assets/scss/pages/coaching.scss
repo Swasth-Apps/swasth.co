@@ -1,7 +1,8 @@
 
-.coaching-mobile-section{
+.coaching-mobile-section {
   display: none;
 }
+
 .coaching-section {
   position: relative;
 
@@ -11,10 +12,12 @@
     top: 36px;
     left: 0px;
     width: 100%;
-    img{
+
+    img {
       width: 30px;
       margin-right: 10px;
     }
+
     .product-title {
       font-size: 24px;
       color: white;
@@ -26,10 +29,11 @@
       @media only screen and (max-width: 1400px) {
         margin-left: 20px;
       }
-      }
+    }
   }
-  .coaching-landing-page-tab{
-    .ant-tabs-nav{
+
+  .coaching-landing-page-tab {
+    .ant-tabs-nav {
       max-width: 1400px;
       margin: auto;
       display: flex;
@@ -45,7 +49,7 @@
   .coaching-section {
     display: none;
   }
-  .coaching-mobile-section{
+  .coaching-mobile-section {
     display: block;
   }
 }
@@ -112,6 +116,11 @@
   }
 }
 
+.coaching-program-collapse {
+  .ant-tabs-nav-wrap {
+    background: _palette(bg);
+  }
+}
 
 // Overview Section
 
@@ -169,12 +178,13 @@
       .card-row {
         flex-direction: column-reverse;
         padding-bottom: 20px !important;
-        .img-section{
+
+        .img-section {
           padding-top: 40px;
         }
       }
-      .bg-img{
-        img{
+      .bg-img {
+        img {
           margin-bottom: 50px;
         }
       }
@@ -230,35 +240,37 @@
         }
       }
     }
+
     @media (max-width: 1200px) {
       padding: 50px;
-      .sequence-sections{
-       .section{
-         flex: 0 0 50%;
-       }
-     }
+      .sequence-sections {
+        .section {
+          flex: 0 0 50%;
+        }
+      }
     }
     @media (max-width: 800px) {
       margin-top: 50px;
       padding: 30px;
-      h2{
+      h2 {
         font-size: 36px;
         line-height: 45px;
       }
     }
 
     @media (max-width: 700px) {
-      .sequence-sections{
+      .sequence-sections {
         flex-wrap: nowrap;
         overflow-x: auto;
-       .section{
-         flex: 0 0 90%;
-       }
-     }
+
+        .section {
+          flex: 0 0 90%;
+        }
+      }
     }
     @media (max-width: 500px) {
       padding: 20px;
-      h2{
+      h2 {
         font-size: 36px;
         line-height: 45px;
       }
@@ -305,24 +317,27 @@
         }
       }
     }
+
     @media (max-width: 1200px) {
-      .sequence-sections{
-        .section{
+      .sequence-sections {
+        .section {
           flex: 0 0 50%;
         }
       }
     }
     @media (max-width: 700px) {
-      h2{
+      h2 {
         font-size: 36px;
         line-height: 45px;
       }
-      .sequence-sections{
+      .sequence-sections {
         flex-wrap: nowrap;
         overflow-x: auto;
-        .section{
+
+        .section {
           flex: 0 0 90%;
-          &:first-child{
+
+          &:first-child {
             padding-left: 0px;
           }
         }
@@ -342,11 +357,12 @@
         color: white
       }
     }
+
     @media (max-width: 769px) {
       padding: 0px !important;
       margin-top: 50px;
-      .card-row{
-        .card-row{
+      .card-row {
+        .card-row {
           padding: 40px 0px !important;
           flex-direction: column-reverse;
         }
@@ -373,10 +389,11 @@
         }
       }
     }
+
     @media (max-width: 769px) {
       padding: 0px !important;
-      .card-row{
-        .card-row{
+      .card-row {
+        .card-row {
           padding: 40px 0px !important;
           flex-direction: column-reverse;
         }
@@ -419,18 +436,19 @@
     @media (max-width: 769px) {
       margin-top: 50px;
       padding: 50px 0 0;
-      h3{
+      h3 {
         font-size: 30px !important;
         line-height: 40px !important;
       }
-      .card-row{
+      .card-row {
         padding: 0px;
       }
       .padded-view {
         padding: 40px 10px 20px;
         border-bottom: 1px solid #6b6b6b3d;
         margin-bottom: 40px;
-        img{
+
+        img {
           margin-bottom: 40px;
         }
       }
@@ -440,12 +458,13 @@
           border-bottom: none;
           margin-bottom: 0px;
         }
-        img{
+
+        img {
           margin-top: 40px;
           margin-bottom: 0px;
         }
       }
-      .divider{
+      .divider {
         padding: 20px 40px;
       }
     }
@@ -516,7 +535,7 @@
     }
 
     @media (max-width: 780px) {
-     margin-top: 50px;
+      margin-top: 50px;
     }
   }
 
@@ -529,10 +548,12 @@
   padding: 100px 0;
   border-top: 2px solid #ffffff2e;
   position: relative;
+
   .tab-view {
     line-height: 60px;
     color: _palette(blue-color);
   }
+
   &:before {
     background: url("/img/Coaching-bg.png") bottom center no-repeat;
     transform: translateX(20%);
@@ -548,6 +569,7 @@
 .clients-navigation-wrapper {
   position: relative;
   padding: 70px 0px;
+
   .keen-slider {
     display: flex;
     flex: 0 0 100%;
@@ -561,6 +583,7 @@
     &:hover {
       color: inherit !important;
     }
+
     @media only screen and (max-width: 1200px) {
       flex: 0 0 50%;
     }
@@ -630,19 +653,22 @@
         transform: scale(1.05);
         color: inherit !important;
       }
+
       @media only screen and (max-width: 1240px) {
         flex: 0 0 50%;
       }
       @media only screen and (max-width: 770px) {
-       .img{
-         flex-direction: column;
-         img{
-           margin-bottom: 15px;
-         }
-         .name{
-           margin-bottom: 0px;
-         }
-       }
+        .img {
+          flex-direction: column;
+
+          img {
+            margin-bottom: 15px;
+          }
+
+          .name {
+            margin-bottom: 0px;
+          }
+        }
       }
       @media only screen and (max-width: 580px) {
         flex: 0 0 100%;
@@ -709,6 +735,15 @@
       opacity: 0.06;
       transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     }
+
+    @media screen and (max-width: 769px) {
+      .desc-view{
+        text-align: left;
+      }
+      .tab-view{
+        padding: 20px 0px 0px !important;
+      }
+    }
   }
 
   .how-it-works {
@@ -734,7 +769,7 @@
 
         .section {
           flex: 0 0 25%;
-          padding: 20px 10px;
+          padding: 20px 10px 0;
 
           .card {
             box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px;
@@ -765,8 +800,32 @@
             padding: 0 20px 20px;
           }
         }
+
+        @media screen and (max-width: 1280px) {
+          .section {
+            flex: 0 0 33%;
+          }
+        }
+        @media screen and (max-width: 769px) {
+          .section {
+            flex: 0 0 50%;
+          }
+        }
+        @media screen and (max-width: 600px) {
+          .section {
+            flex: 0 0 100%;
+          }
+        }
       }
     }
+
+    @media screen and (max-width: 769px) {
+     padding-top: 50px;
+      .how-it-works-section{
+        margin-top: 0px;
+      }
+    }
+
   }
 
   .program-bottom-section {
@@ -776,7 +835,7 @@
     margin: 100px 0px;
 
     .card-col {
-      margin-top: 50px;
+      //margin-top: 50px;
     }
 
     .transform-section-img {

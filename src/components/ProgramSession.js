@@ -41,8 +41,8 @@ const ProgramSession = (props) => {
                 {getSessionByModule()?.map((item, i) => item && Object.values(item)?.map((sessions) =>
 
                     <Panel header={<p className="para-text">{sessions?.[0]?.module}</p>} key={i}>
-                        <Tabs defaultActiveKey="1" className="coaching-landing-page-tab">
-                            <TabPane tab="Video Sessions" key="1">
+                        <Tabs defaultActiveKey="1" className="coaching-landing-page-tab coaching-program-collapse">
+                            <TabPane tab="Lessons" key="1">
                                 <div className="sessions-container">
                                     {sessions?.filter(({type}) => type !== "TASK")?.map((s,index) =>
                                         <div className="sessions-section">

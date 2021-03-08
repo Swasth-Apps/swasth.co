@@ -6,9 +6,12 @@ import Program from "../Program";
 import {Button, Empty, Popover} from "antd";
 import {scrollToDiv} from "./common/helper";
 import CategoryMobileTabs from "./CategoryMobileTabs";
+import Loader from "../Loader";
 
 const ResilifyProgramsScreen = () => {
     const [showMore, setShowMore] = useState(true);
+    const loading = useSelector(state => state.commonData.resilifyLoading);
+
     const data = useSelector(state => state.commonData);
 
     const toggleMore = () => {
@@ -43,7 +46,9 @@ const ResilifyProgramsScreen = () => {
             <div className="program-section" id={`topic-tabs`}>
                 <h3 className="program-section-title base-text">Programs</h3>
             </div>
-            <div className="program-wrapper">
+            {loading ? <Loader /> : <>
+
+                <div className="program-wrapper">
                 {p?.map(program =>
                     <Program program={program} onReload={() => this.forceUpdate()}/>
                 )}
@@ -61,6 +66,7 @@ const ResilifyProgramsScreen = () => {
                             Less</Button>
                     </a>
                 </div> : null}
+            </>}
         </div>
     </div>;
 

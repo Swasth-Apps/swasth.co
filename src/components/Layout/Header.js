@@ -70,7 +70,7 @@ const Header = (props) => {
                                 For Everyone</div>
                         </a>
 
-                        <a
+                     {/*   <a
                             rel="noreferrer"
                             className={tab === "professionals" ? "selected-tab" : ""}
                             onClick={() => onChangeTab("professionals")}
@@ -79,7 +79,7 @@ const Header = (props) => {
                                 <img src={ProfessionalActive} />
                                 For Professionals</div>
                         </a>
-
+*/}
                         <a
                             rel="noreferrer"
                             className={tab === "experts" ? "selected-tab" : ""}

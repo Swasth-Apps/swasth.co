@@ -106,7 +106,7 @@ export const getTracksList = `
                         details
                         id
                         name
-                        image
+                        icon
                         type
                     }
                 }

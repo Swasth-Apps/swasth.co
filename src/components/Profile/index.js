@@ -4,9 +4,9 @@ import ProfileData from "./ProfileData";
 import Amplify, {API, graphqlOperation} from "aws-amplify";
 import {getProviderSlug} from "../../queries";
 import graphql_endpoint from "../../aws-appsync-url";
-import Layout from "../Layout/layout";
+import Loader from "../Loader";
 
-class Profile extends React.Component{
+class Profile extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -24,7 +24,7 @@ class Profile extends React.Component{
                 graphql_endpoint: graphql_endpoint.COACHING_DEV_MARKETING,
             },
         });
-        API.graphql(graphqlOperation(getProviderSlug,{slug: path}), {
+        API.graphql(graphqlOperation(getProviderSlug, {slug: path}), {
             "x-api-key": graphql_endpoint.COACHING_DEV_API_KEY
         })
             .then(({data}) => {
@@ -37,17 +37,21 @@ class Profile extends React.Component{
         }));
     }
 
-    render(){
-        const { provider } = this.state;
-        return( provider ?
-            <div id="wrapper">
+    render() {
+        const {provider, loading} = this.state;
+        return (provider ?
+                <div id="wrapper">
+                    <div className="profile-page">
+                        <div className="basic-profile-info">
+                            {loading ? <Loader/> : <>
 
-            <div className="profile-page">
-                    <div className="basic-profile-info">
-                        <BasicInformation provider={provider}/>
-                        <ProfileData provider={provider}/>
+                                <BasicInformation provider={provider}/>
+                                <ProfileData provider={provider}/>
+                            </>}
+
+                        </div>
                     </div>
-            </div></div> : null
+                </div> : null
         );
     }
 }
