@@ -3,8 +3,9 @@ import {useSelector} from "react-redux";
 import {Link} from "gatsby";
 import CategoryTabs from "./common/CategoryTabs";
 import Program from "../Program";
-import {Button, Empty} from "antd";
+import {Button, Empty, Popover} from "antd";
 import {scrollToDiv} from "./common/helper";
+import CategoryMobileTabs from "./CategoryMobileTabs";
 
 const ResilifyProgramsScreen = () => {
     const [showMore, setShowMore] = useState(true);
@@ -24,17 +25,16 @@ const ResilifyProgramsScreen = () => {
                 <div className="top-section">
                     <div
                         id='wrapper'
-                        className={'coach-wrapper'}
+                        className={'resilify-categories'}
                         style={{paddingBottom: 0}}
                     >
+                        <Link to="/resilify" className="base-text product-title">
+                            <img src={require("../../assets/images/resilify/logo.png")}/> RESILIFY
+                        </Link>
                         <div className="resilify-category-tabs">
-                            <div style={{width: "10%", textAlign: "right"}}>
-                                <Link to="/resilify" className="base-text product-title">
-                                    <img src={require("../../assets/images/resilify/logo.png")}/>RESILIFY
-                                </Link>
-                            </div>
                             <CategoryTabs topics={topics}/>
                         </div>
+                       <CategoryMobileTabs topics={topics}/>
                     </div>
                 </div>
             </div>

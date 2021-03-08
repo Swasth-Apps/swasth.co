@@ -1,13 +1,12 @@
 import React, {useState} from "react";
-import { Link } from "gatsby";
-import {Button, Col, Empty, Row} from "antd";
-import {generateRandomID, getCloudIDFromImageName, scrollToDiv} from "../common/helper";
+import {Link} from "gatsby";
+import {Button, Empty} from "antd";
+import {getCloudIDFromImageName, scrollToDiv} from "../common/helper";
 import CategoryTabs from "../common/CategoryTabs";
-import CLImage, {cloudinary} from "../../../helper/CLImage";
-import Slider from "../common/Slider";
+import {cloudinary} from "../../../helper/CLImage";
 import Program from "../../Program";
-import {CheckOutlined} from "@ant-design/icons";
 import {useSelector} from "react-redux";
+import CategoryMobileTabs from "../CategoryMobileTabs";
 
 
 const getCLImageUrl = image => {
@@ -65,20 +64,19 @@ const CategoryPageScreen = () => {
                 <div className="top-section">
                     <div
                         id='wrapper'
-                        className={'coach-wrapper'}
+                        className={'resilify-categories'}
                         style={{paddingBottom: 0}}
                     >
+                        <Link to="/resilify" className="base-text product-title">
+                            <img src={require("../../../assets/images/resilify/logo.png")}/> RESILIFY
+                        </Link>
                         <div className="resilify-category-tabs">
-                            <div style={{width: "10%",textAlign: "right"}}>
-                                <Link to="/resilify" className="base-text product-title">
-                                    <img src={require("../../../assets/images/resilify/logo.png")}/>RESILIFY
-                                </Link>
-                            </div>
-                    <CategoryTabs topics={topics} category={category}/>
+                            <CategoryTabs topics={topics} category={category}/>
                         </div>
+                        <CategoryMobileTabs topics={topics} category={category}/>
                     </div>
                 </div>
-          {/*      <div className="coaching-overview-container">
+                {/*      <div className="coaching-overview-container">
                     <div className="coaching-overview">
                         <div
                             id='wrapper'

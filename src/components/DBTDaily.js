@@ -246,7 +246,7 @@ const Banner = (props) => {
         </Row>*/}
 
         <Row className='card-row' />
-        <Row className='card-row -row-flex-center'>
+       {/* <Row className='card-row -row-flex-center'>
           <Col md={24}>
             <Row className='card-row -row-flex-center'>
               <div style={{textAlign:'center'}}>
@@ -260,7 +260,7 @@ const Banner = (props) => {
         <Carousel reviews={dbtdaily}/>
         <div style={{textAlign:'center'}} className='all-testimonials divider'>
           <a className='-highlighted-secondary-text'>Check all testimonials</a>
-        </div>
+        </div>*/}
         <Row className='card-row -row-flex-center -padding-zero divider'>
           <Col md={24}>
             <Row className='card-row -row-flex-center'>

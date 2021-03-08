@@ -19,21 +19,6 @@ const ResilifyScreen = () => {
     return <div className="resilify-home-page">
         <div className="banner-img">
             <div className="home-top-banner">
-                <div className="top-section">
-                    <div
-                        id='wrapper'
-                        className={'coach-wrapper'}
-                        style={{paddingBottom: 0}}
-                    >
-                        <div className="resilify-category-tabs">
-                            <div>
-                                <Link to="/resilify" className="base-text product-title">
-                                    <img src={require("../../assets/images/resilify/logo.png")}/>RESILIFY
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div className="coaching-overview-container">
                     <div className="coaching-overview">
                         <div

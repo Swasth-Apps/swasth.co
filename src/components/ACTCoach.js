@@ -264,7 +264,7 @@ const ACTCoach = (props) => {
         </Col>
       </Row>
       <Row className='card-row' />
-      <Row className='card-row -row-flex-center'>
+    {/*  <Row className='card-row -row-flex-center'>
         <Col md={24}>
           <Row className='card-row -row-flex-center'>
             <div style={{ textAlign: 'center' }}>
@@ -275,7 +275,7 @@ const ACTCoach = (props) => {
           </Row>
         </Col>
       </Row>
-      <Carousel reviews={dbtcoach} />
+      <Carousel reviews={dbtcoach} />*/}
       {/*<div style={{textAlign:'center'}} className='all-testimonials divider'>
         <a className='-highlighted-ACT-secondary-text'>Check all testimonials</a>
     </div> */}

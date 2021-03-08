@@ -9,7 +9,7 @@ export default class CategoryIndex extends React.Component {
     super(props);
   }
   render() {
-    const { data } = this.props
+    const { data } = this.props;
     return (
       <Layout
         show

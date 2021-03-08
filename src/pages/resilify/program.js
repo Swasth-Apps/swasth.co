@@ -9,6 +9,9 @@ import {Collapse, Tabs} from "antd";
 import {getParseDetails} from "../../helper/helper";
 import {getCloudIDFromImageName} from "../../components/Resilify/common/helper";
 import Program from "../../components/Program";
+import {Link} from "gatsby";
+import CategoryTabs from "../../components/Resilify/common/CategoryTabs";
+import CategoryMobileTabs from "../../components/Resilify/CategoryMobileTabs";
 
 const { Panel } = Collapse;
 const { TabPane } = Tabs;
@@ -18,6 +21,7 @@ const edges = ["Lessons", "Activities"];
 const ResilifyProgram = () =>{
 
     const programs = useSelector(state => state.commonData.programs);
+    const topics = useSelector(state => state.commonData.topics);
 
     let slug = typeof window !== 'undefined' ? window.location.pathname.substring('/resilify/program/'.length) : '';
     slug = slug?.split("/")?.[0];
@@ -33,6 +37,19 @@ const ResilifyProgram = () =>{
 
         return (
             <Layout>
+              {/*  <div
+                    id='wrapper'
+                    className={'resilify-categories'}
+                    style={{paddingBottom: 0}}
+                >
+                    <Link to="/resilify" className="base-text product-title">
+                        <img src={require("../../assets/images/resilify/logo.png")}/> RESILIFY
+                    </Link>
+                    <div className="resilify-category-tabs">
+                        <CategoryTabs topics={topics} category={program?.topics?.[0]}/>
+                    </div>
+                    <CategoryMobileTabs topics={topics} category={program?.topics?.[0]}/>
+                </div>*/}
                 <div className="resilify-program-page">
                     <div className="banner-img">
                         <div className="program-top-banner"

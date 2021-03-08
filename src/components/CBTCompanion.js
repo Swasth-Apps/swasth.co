@@ -255,7 +255,7 @@ const CBTCompanion = (props) => {
           </Col>
         </Row>
         <Row className='card-row'/>
-        <Row className='card-row -row-flex-center'>
+       {/* <Row className='card-row -row-flex-center'>
           <Col md={24}>
             <Row className='card-row -row-flex-center'>
               <div style={{ textAlign: 'center' }}>
@@ -266,7 +266,7 @@ const CBTCompanion = (props) => {
             </Row>
           </Col>
         </Row>
-        <Carousel reviews={dbtdaily}/>
+        <Carousel reviews={dbtdaily}/>*/}
         {/*<div style={{textAlign:'center'}} className='all-testimonials divider'>
         <a className='-highlighted-cbt-secondary-text'>Check all testimonials</a>
     </div> */}

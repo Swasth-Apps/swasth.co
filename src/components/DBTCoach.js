@@ -223,7 +223,7 @@ const Banner = (props) => {
           </Col>
         </Row>
         <Row className='card-row' />
-        <Row className='card-row -row-flex-center divider'>
+       {/* <Row className='card-row -row-flex-center divider'>
           <Col md={24}>
             <Row className='card-row -row-flex-center'>
               <div style={{ textAlign: 'center' }} className="para-text black-18-font">
@@ -234,7 +234,7 @@ const Banner = (props) => {
             </Row>
           </Col>
         </Row>
-        <Carousel reviews={dbtcoach} />
+        <Carousel reviews={dbtcoach} />*/}
         <div className='divider' />
         {/*<div style={{textAlign:'center'}} className='all-testimonials divider'>
           <a className='-highlighted-secondary-text'>Check all testimonials</a>

@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {Tabs} from "antd";
 import EveryoneActive from "../../assets/images/coachingTabIcons/Everyone-active-icon.png";
-import ProfessionalActive from "../../assets/images/coachingTabIcons/profesisonal-active-icon.png";
+import ProfessionalActive from "../../assets/images/coachingTabIcons/professional-active-icon.png";
 import OverviewActive from "../../assets/images/coachingTabIcons/overview-active-icon.png";
 import ExpertActive from "../../assets/images/coachingTabIcons/experts-active-icon.png";
 import ClientsPrograms from "./ClientsPrograms";
@@ -14,7 +14,9 @@ const CoachingComponent = () => {
     return (
         <section className='coaching-section'>
             <div className="coaching-product-section">
-                <h3 className="base-text product-title">Coaching</h3>
+                <h3 className="base-text product-title">
+                    <img src={require("../../assets/images/coachingProgram/logo.png")} />
+                    Coaching</h3>
             </div>
                 <Tabs
                     centered

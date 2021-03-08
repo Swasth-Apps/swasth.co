@@ -7,7 +7,7 @@ import RequestDemoModal from "../RequestDemoModal";
 import OverviewActive from "../../assets/images/coachingTabIcons/overview-normal-icon.png";
 import ExpertActive from "../../assets/images/coachingTabIcons/experts-normal-icon.png";
 import EveryoneActive from "../../assets/images/coachingTabIcons/Everyone-normal-icon.png";
-import ProfessionalActive from "../../assets/images/coachingTabIcons/profesisonal-normal-icon.png";
+import ProfessionalActive from "../../assets/images/coachingTabIcons/professional-normal-icon.png";
 
 const Header = (props) => {
     const [state, setState] = useState(false);
@@ -17,8 +17,15 @@ const Header = (props) => {
     useEffect(() => {
         window.addEventListener("scroll", () => onScroll())
     }, []);
+
     useEffect(() => {
-        onScroll()
+        onScroll();
+        const header = document.getElementById("coaching-header");
+        if (state) {
+            header.classList.add("sticky-full-height-header");
+        } else {
+            header.classList.remove("sticky-full-height-header");
+        }
     }, [state]);
 
     const onScroll = () => {
@@ -83,7 +90,7 @@ const Header = (props) => {
                                 Experts</div>
                         </a>
                     </a>
-                    <a rel="noreferrer">
+                    <a rel="noreferrer" style={{textAlign: "initial"}}>
                         <img
                             className="menu-content"
                             style={{width: 150, marginBottom: 10}}

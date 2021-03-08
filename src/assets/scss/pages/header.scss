@@ -1045,12 +1045,16 @@
   }
 }
 
-
+.sticky-full-height-header{
+  height: 100vh;
+  overflow: auto;
+}
 .sticky-header{
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 11111111;
+  z-index: 1111;
+
   //box-shadow: rgba(0, 0, 0, 0.07) 0px 5px 16px 0px;
 }
 #coaching-header{
