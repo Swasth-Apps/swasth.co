@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/Layout/layout'
 import AboutUsComponent from "../components/AboutUs"
 
 class AboutUs extends React.Component {

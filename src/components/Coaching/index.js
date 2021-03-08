@@ -3,7 +3,7 @@ import {Tabs} from "antd";
 import EveryoneActive from "../../assets/images/coachingTabIcons/Everyone-active-icon.png";
 import ProfessionalActive from "../../assets/images/coachingTabIcons/profesisonal-active-icon.png";
 import OverviewActive from "../../assets/images/coachingTabIcons/overview-active-icon.png";
-import ExpertActive from "../../assets/images/coachingTabIcons/overview-active-icon.png";
+import ExpertActive from "../../assets/images/coachingTabIcons/experts-active-icon.png";
 import ClientsPrograms from "./ClientsPrograms";
 import Experts from "./Experts";
 import CoachingOverview from "./Overview";
@@ -25,35 +25,26 @@ const CoachingComponent = () => {
                     <TabPane tab={<p className={`para-text tab-title ${key !== "1" ? "unselected-tab" : ""}`}>
                         <img src={OverviewActive}/>
                         <div className="tab-div-title">
-                            Overview </div>
+                            Overview
+                        </div>
                     </p>} key="1">
                         <CoachingOverview />
                     </TabPane>
                     <TabPane tab={<p className={`para-text tab-title ${key !== "2" ? "unselected-tab" : ""}`}>
                         <img src={EveryoneActive}/>
                         <div className="tab-div-title">
-                            For Everyone </div>
-                    </p>} key="2">
-                        <div
-                            id='wrapper'
-                            className={'coach-wrapper'}
-                            style={{paddingBottom: 0}}
-                        >
-                        <ClientsPrograms />
+                            For Everyone
                         </div>
+                    </p>} key="2">
+                        <ClientsPrograms />
                     </TabPane>
                     <TabPane tab={<p className={`para-text tab-title ${key !== "3" ? "unselected-tab" : ""}`}>
-                        <img src={ProfessionalActive}/>
+                        <img src={ProfessionalActive} />
                         <div className="tab-div-title">
-                            For Professionals </div>
-                        </p>} key="3">
-                        <div
-                            id='wrapper'
-                            className={'coach-wrapper'}
-                            style={{paddingBottom: 0}}
-                        >
-                        <ClientsPrograms />
+                            For Professionals
                         </div>
+                        </p>} key="3">
+                        <ClientsPrograms />
                     </TabPane>
                     <TabPane tab={<p className={`para-text tab-title ${key !== "4" ? "unselected-tab" : ""}`}>
                         <img src={ExpertActive}/>

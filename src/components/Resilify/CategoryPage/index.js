@@ -63,9 +63,22 @@ const CategoryPageScreen = () => {
         <div className="banner-img">
             <div className="home-top-banner">
                 <div className="top-section">
+                    <div
+                        id='wrapper'
+                        className={'coach-wrapper'}
+                        style={{paddingBottom: 0}}
+                    >
+                        <div className="resilify-category-tabs">
+                            <div style={{width: "10%",textAlign: "right"}}>
+                                <Link to="/resilify" className="base-text product-title">
+                                    <img src={require("../../../assets/images/resilify/logo.png")}/>RESILIFY
+                                </Link>
+                            </div>
                     <CategoryTabs topics={topics} category={category}/>
+                        </div>
+                    </div>
                 </div>
-                <div className="coaching-overview-container">
+          {/*      <div className="coaching-overview-container">
                     <div className="coaching-overview">
                         <div
                             id='wrapper'
@@ -100,7 +113,7 @@ const CategoryPageScreen = () => {
 
                         </div>
                     </div>
-                </div>
+                </div>*/}
             </div>
         </div>
         <div className="category-page-body">
@@ -125,51 +138,6 @@ const CategoryPageScreen = () => {
                             Less</Button>
                     </a>
                 </div> : null}
-        </div>
-
-        <div
-            id='wrapper'
-            className={'coach-wrapper'}
-            style={{paddingBottom: 0}}
-        >
-            <div className="learning-section">
-                <div className="section">
-                    <h2 className="base-text">Start learning from the best minds now</h2>
-                    <ul>
-                        <li className="para-text"><CheckOutlined /> All 100 classes and categories</li>
-                        <li className="para-text"><CheckOutlined /> New classes added every month</li>
-                        <li className="para-text"><CheckOutlined /> Download and watch offline</li>
-                        <li className="para-text"><CheckOutlined /> PDF workbooks for every class</li>
-                        <li className="para-text"><CheckOutlined /> Watch on your desktop, phone, or TV</li>
-                        <li className="para-text"><CheckOutlined /> Available audio-only lessons</li>
-                    </ul>
-                    <button className='request-demo-btn' style={{marginBottom: 20}}>
-                        Get Started
-                    </button>
-                </div>
-            </div>
-            <div className="explore-more">
-                <h2 className="base-text">Explore More</h2>
-                <Slider className="program-wrapper" key={generateRandomID()}>
-                    {topics?.map((t) => {
-                        const slug = t?.name?.split(" ")?.join("-")?.toLowerCase();
-                        return (
-                            <Link to={`/resilify/category/${slug}`} className="category">
-                                <CLImage
-                                    className="program-img"
-                                    cloudId={getCloudIDFromImageName(
-                                        t.image,
-                                        "bodhi",
-                                        'tracks',
-                                    )}
-                                />
-                                <h4 className="base-text">{t?.name}</h4>
-                                <p className="para-text">{programs?.filter(({topics}) => topics?.includes(t?.id))?.length} {' '} Programs</p>
-                            </Link>
-                        )
-                    })}
-                </Slider>
-            </div>
         </div>
     </div>;
 

@@ -1,22 +1,38 @@
 import React from "react";
 import {Col, Row} from "antd";
 import TopicSection from "./TopicSection";
-import {scrollToDiv} from "./common/helper";
+import {generateRandomID, getCloudIDFromImageName, scrollToDiv} from "./common/helper";
 import CategoryTabs from "./common/CategoryTabs";
 import FAQs from "./common/FAQs";
 import {useSelector} from "react-redux";
 import bannerGraphic from "../../assets/images/home-woman.jpeg";
+import {CheckOutlined} from "@ant-design/icons";
+import Slider from "./common/Slider";
+import {Link} from "gatsby";
+import CLImage from "../../helper/CLImage";
 
 const ResilifyScreen = () => {
     const p = useSelector(state => state.commonData);
-    const categories = p?.topics;
+    const topics = p?.topics;
     const programs = p?.programs;
 
     return <div className="resilify-home-page">
         <div className="banner-img">
             <div className="home-top-banner">
                 <div className="top-section">
-                    <CategoryTabs topics={categories} />
+                    <div
+                        id='wrapper'
+                        className={'coach-wrapper'}
+                        style={{paddingBottom: 0}}
+                    >
+                        <div className="resilify-category-tabs">
+                            <div>
+                                <Link to="/resilify" className="base-text product-title">
+                                    <img src={require("../../assets/images/resilify/logo.png")}/>RESILIFY
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="coaching-overview-container">
                     <div className="coaching-overview">
@@ -38,9 +54,11 @@ const ResilifyScreen = () => {
                                                 </p>
                                             </div>
 
-                                                <button className='request-demo-btn' onClick={() => scrollToDiv("#topic-tabs")} style={{marginBottom: 20}}>
+                                            <Link to="/resilify/programs">
+                                                <button className='request-demo-btn' style={{marginBottom: 20}}>
                                                     Browse Programs
                                                 </button>
+                                            </Link>
                                         </Col>
                                         <Col md={12} className="-margin-right img-section" style={{textAlign: "center"}}>
                                             <img className='custom-image'
@@ -58,9 +76,53 @@ const ResilifyScreen = () => {
         </div>
         <TopicSection
             programs={programs}
-            topics={categories}
+            topics={topics}
             itemsPerSlider={programs?.itemsPerSlider}
         />
+        <div
+            id='wrapper'
+            className={'coach-wrapper'}
+            style={{paddingBottom: 0}}
+        >
+            <div className="learning-section">
+                <div className="section">
+                    <h2 className="base-text">Start learning from the best minds now</h2>
+                    <ul>
+                        <li className="para-text"><CheckOutlined /> All 100 classes and categories</li>
+                        <li className="para-text"><CheckOutlined /> New classes added every month</li>
+                        <li className="para-text"><CheckOutlined /> Download and watch offline</li>
+                        <li className="para-text"><CheckOutlined /> PDF workbooks for every class</li>
+                        <li className="para-text"><CheckOutlined /> Watch on your desktop, phone, or TV</li>
+                        <li className="para-text"><CheckOutlined /> Available audio-only lessons</li>
+                    </ul>
+                    <button className='request-demo-btn' style={{marginBottom: 20}}>
+                        Get Started
+                    </button>
+                </div>
+            </div>
+            <div className="explore-more">
+                <h2 className="base-text">Explore More</h2>
+                <Slider className="program-wrapper" key={generateRandomID()}>
+                    {topics?.map((t) => {
+                        const slug = t?.name?.split(" ")?.join("-")?.toLowerCase();
+                        return (
+                            <Link to={`/resilify/category/${slug}`} className="category">
+                                <CLImage
+                                    className="program-img"
+                                    cloudId={getCloudIDFromImageName(
+                                        t.image,
+                                        "bodhi",
+                                        'tracks',
+                                    )}
+                                />
+                                <h4 className="base-text">{t?.name}</h4>
+                                <p className="para-text">{programs?.filter(({topics}) => topics?.includes(t?.id))?.length} {' '} Programs</p>
+                            </Link>
+                        )
+                    })}
+                </Slider>
+            </div>
+        </div>
         <div className="home-bottom-bg">
            {/* <div className="generalized-sections">
                 <div className="sections">

@@ -1,23 +1,21 @@
 import React, {useState} from 'react'
-import resilienceLogo from '../assets/images/Resiliens-footer-Logo.png'
-import unitedStates from '../assets/images/united-states.png'
+import resilienceLogo from '../../assets/images/Resiliens-footer-Logo.png'
+import unitedStates from '../../assets/images/united-states.png'
 import {Link} from 'gatsby'
-import {Button, Col, Divider, Row} from 'antd'
-import topBg from "../assets/images/top-bg@3x.png";
-import RequestDemoModal from "./RequestDemoModal";
+import {Col, Row} from 'antd'
 
 const Footer = (props) => {
-    const [modal, setModal] = useState(false);
+    // const [modal, setModal] = useState(false);
 return(
     <footer
         id={'footer'}
         style={{paddingTop: 100,
-            backgroundImage: `url(${require("../assets/images/top-bg.png")})`,
+            backgroundImage: `url(${require("../../assets/images/top-bg.png")})`,
             backgroundSize: "cover"
         }}
         // style={props.hideFooter ? { height: 550 } : null}
     >
-        <RequestDemoModal modal={modal} onClose={() => setModal(false)}/>
+        {/*<RequestDemoModal modal={modal} onClose={() => setModal(false)}/>*/}
 
         <div className="inner">
            {/* <div style={{textAlign: "center"}}>
@@ -38,13 +36,13 @@ return(
                                 </p>
                                 <div className="media" style={{marginTop: 15}}>
                                     <a href="https://www.facebook.com/swasthco/"
-                                       target="_blank"><img src={require("../assets/images/fb-icon.png")}/></a>
+                                       target="_blank"><img src={require("../../assets/images/fb-icon.png")}/></a>
                                     <a href="https://www.twitter.com/swasthapps/"
-                                       target="_blank"><img src={require("../assets/images/twitter-icon.png")}/></a>
+                                       target="_blank"><img src={require("../../assets/images/twitter-icon.png")}/></a>
                                     <a href="https://www.instagram.com/swasthapps/"
-                                       target="_blank"><img src={require("../assets/images/instagram-icon.png")}/></a>
+                                       target="_blank"><img src={require("../../assets/images/instagram-icon.png")}/></a>
                                     <a href="https://www.youtube.com/channel/UCtM20mp-kA1xkKdWA5Q-9KA"
-                                       target="_blank"><img src={require("../assets/images/youtube-icon.png")}/></a>
+                                       target="_blank"><img src={require("../../assets/images/youtube-icon.png")}/></a>
                                 </div>
                             </div>
 

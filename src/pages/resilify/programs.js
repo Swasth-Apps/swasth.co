@@ -1,17 +1,17 @@
 import React from 'react'
 import Layout from '../../components/Layout/layout'
-import ResilifyScreen from "../../components/Resilify";
+import Programs from "../../components/Resilify/Programs";
 
 
-class Resilify extends React.Component {
+class ResilifyPrograms extends React.Component {
 
     render() {
         return (
             <Layout extraHeader>
-                <ResilifyScreen />
+                <Programs />
             </Layout>
         )
     }
 }
 
-export default Resilify
+export default ResilifyPrograms;

@@ -252,6 +252,8 @@
 @media (max-width: 768.5px) {
   #footer,#min-footer{
     background-image: none !important;
+    padding: 0 20px;
+    padding-top: 50px !important;
   }
   #copyrights{
     border-top: 2px dashed _palette(primary-color);
@@ -327,13 +329,18 @@
     }
   }
 }
+
 @media (max-width: 530px) {
   .footer-widgets-wrap{
     width: 100% !important;
     max-width: calc(100% - 40px) !important;
   }
 }
+
 @media (max-width: 425px) {
+  #footer,#min-footer{
+    padding: 0px;
+  }
   .footer-widgets-wrap {
     .footer-row {
       .col-md-6 {

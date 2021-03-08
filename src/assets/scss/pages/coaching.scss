@@ -1,9 +1,13 @@
+
+.coaching-mobile-section{
+  display: none;
+}
 .coaching-section {
   position: relative;
 
   .coaching-product-section {
     position: absolute;
-    z-index: 11111;
+    z-index: 1;
     top: 36px;
     left: 40px;
     width: 100%;
@@ -16,7 +20,18 @@
       margin: auto;
     }
   }
+
 }
+
+@media only screen and (max-width: 1023px) {
+  .coaching-section {
+    display: none;
+  }
+  .coaching-mobile-section{
+    display: block;
+  }
+}
+
 
 .coaching-landing-page-tab {
   .ant-tabs-bar {
@@ -34,6 +49,7 @@
 
     .ant-tabs-tab {
       font-size: 16px;
+      z-index: 1111111;
       //border-radius: 5px;
       //box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px;
       //background: white;
@@ -130,6 +146,22 @@
         border-radius: 10px;
       }
     }
+
+    @media (max-width: 769px) {
+      .card-row {
+        flex-direction: column-reverse;
+        padding-bottom: 20px !important;
+        .img-section{
+          padding-top: 40px;
+        }
+      }
+      .bg-img{
+        img{
+          margin-bottom: 50px;
+        }
+      }
+    }
+
   }
 
   .coaching-overview-access-section {
@@ -145,6 +177,8 @@
 
     .divider {
       border-top: 1px solid #6b6b6b3d;
+      border-bottom: none !important;
+      padding: 0px !important;
       margin: 30px 0;
     }
 
@@ -178,6 +212,40 @@
         }
       }
     }
+    @media (max-width: 1200px) {
+      padding: 50px;
+      .sequence-sections{
+       .section{
+         flex: 0 0 50%;
+       }
+     }
+    }
+    @media (max-width: 800px) {
+      margin-top: 50px;
+      padding: 30px;
+      h2{
+        font-size: 36px;
+        line-height: 45px;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .sequence-sections{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+       .section{
+         flex: 0 0 90%;
+       }
+     }
+    }
+    @media (max-width: 500px) {
+      padding: 20px;
+      h2{
+        font-size: 36px;
+        line-height: 45px;
+      }
+    }
+
   }
 
   .coaching-overview-choose-section {
@@ -219,6 +287,29 @@
         }
       }
     }
+    @media (max-width: 1200px) {
+      .sequence-sections{
+        .section{
+          flex: 0 0 50%;
+        }
+      }
+    }
+    @media (max-width: 700px) {
+      h2{
+        font-size: 36px;
+        line-height: 45px;
+      }
+      .sequence-sections{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        .section{
+          flex: 0 0 90%;
+          &:first-child{
+            padding-left: 0px;
+          }
+        }
+      }
+    }
   }
 
   .coaching-overview-new-skills-section {
@@ -231,6 +322,16 @@
       h3, p {
         margin-bottom: 30px;
         color: white
+      }
+    }
+    @media (max-width: 769px) {
+      padding: 0px !important;
+      margin-top: 50px;
+      .card-row{
+        .card-row{
+          padding: 40px 0px !important;
+          flex-direction: column-reverse;
+        }
       }
     }
   }
@@ -254,6 +355,16 @@
         }
       }
     }
+    @media (max-width: 769px) {
+      padding: 0px !important;
+      .card-row{
+        .card-row{
+          padding: 40px 0px !important;
+          flex-direction: column-reverse;
+        }
+      }
+    }
+
   }
 
   .coaching-overview-bhp-container {
@@ -286,6 +397,42 @@
       background: #754af630;
       border-radius: 10px;
     }
+
+    @media (max-width: 769px) {
+      margin-top: 50px;
+      padding: 50px 0 0;
+      h3{
+        font-size: 30px !important;
+        line-height: 40px !important;
+      }
+      .card-row{
+        padding: 0px;
+      }
+      .padded-view {
+        padding: 40px 10px 20px;
+        border-bottom: 1px solid #6b6b6b3d;
+        margin-bottom: 40px;
+        img{
+          margin-bottom: 40px;
+        }
+      }
+      .bg-img {
+        .padded-view {
+          padding: 40px 40px 20px;
+          border-bottom: none;
+          margin-bottom: 0px;
+        }
+        img{
+          margin-top: 40px;
+          margin-bottom: 0px;
+        }
+      }
+      .divider{
+        padding: 20px 40px;
+      }
+    }
+
+
   }
 
   .coaching-overview-bhp-flex-section {
@@ -335,6 +482,23 @@
       .bg-section {
         background: rgba(66, 115, 240, 0.14);
       }
+
+      @media (max-width: 780px) {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        .section {
+          flex: 0 0 75%;
+        }
+      }
+      @media (max-width: 425px) {
+        .section {
+          flex: 0 0 90%;
+        }
+      }
+    }
+
+    @media (max-width: 780px) {
+     margin-top: 50px;
     }
   }
 
@@ -342,10 +506,30 @@
 
 
 // Client's Programs
+.coaching-programs-banner-section {
+  background: #4273f01c;
+  padding: 100px 0;
+  border-top: 2px solid #ffffff2e;
+  position: relative;
+  .tab-view {
+    line-height: 60px;
+    color: _palette(blue-color);
+  }
+  &:before {
+    background: url("/img/Coaching-bg.png") bottom center no-repeat;
+    transform: translateX(20%);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+
 .clients-navigation-wrapper {
   position: relative;
   padding: 70px 0px;
-
   .keen-slider {
     display: flex;
     flex: 0 0 100%;
@@ -359,6 +543,13 @@
     &:hover {
       color: inherit !important;
     }
+    @media only screen and (max-width: 1200px) {
+      flex: 0 0 50%;
+    }
+    @media only screen and (max-width: 780px) {
+      flex: 0 0 100%;
+    }
+
   }
 }
 
@@ -420,6 +611,23 @@
       &:hover {
         transform: scale(1.05);
         color: inherit !important;
+      }
+      @media only screen and (max-width: 1240px) {
+        flex: 0 0 50%;
+      }
+      @media only screen and (max-width: 770px) {
+       .img{
+         flex-direction: column;
+         img{
+           margin-bottom: 15px;
+         }
+         .name{
+           margin-bottom: 0px;
+         }
+       }
+      }
+      @media only screen and (max-width: 580px) {
+        flex: 0 0 100%;
       }
     }
   }

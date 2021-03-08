@@ -4,6 +4,7 @@ import ProfileData from "./ProfileData";
 import Amplify, {API, graphqlOperation} from "aws-amplify";
 import {getProviderSlug} from "../../queries";
 import graphql_endpoint from "../../aws-appsync-url";
+import Layout from "../Layout/layout";
 
 class Profile extends React.Component{
     constructor(props) {
@@ -39,12 +40,14 @@ class Profile extends React.Component{
     render(){
         const { provider } = this.state;
         return( provider ?
-                <div className="profile-page">
+            <div id="wrapper">
+
+            <div className="profile-page">
                     <div className="basic-profile-info">
                         <BasicInformation provider={provider}/>
                         <ProfileData provider={provider}/>
                     </div>
-                </div> : null
+            </div></div> : null
         );
     }
 }

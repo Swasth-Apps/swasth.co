@@ -116,6 +116,11 @@
                 font-size: 16px;
                 letter-spacing: 0.5px;
                 font-family: _font(base-font);
+
+
+                @media only screen and (max-width: 1024.5px) {
+                  font-size: 14px;
+                }
               }
 
               .ant-collapse-header {
@@ -123,6 +128,7 @@
 
                 .ant-collapse-arrow {
                   font-size: 18px;
+                  right: 0px;
                   opacity: 0.5;
                 }
               }
@@ -247,6 +253,13 @@
         @media only screen and (max-width: 1024.5px) {
           padding: 0px;
         }
+
+
+
+        @media only screen and (max-width: 769px) {
+          max-width: 100%;
+        }
+
       }
 
       @media only screen and (max-width: 1399.5px) {
@@ -254,13 +267,16 @@
       }
 
       @media only screen and (max-width: 500px) {
-        padding: 0 10px 0 0 ;
+        padding: 0 0px 0 0 ;
       }
 
       @media only screen and (max-width: 1024.5px) {
         align-items: flex-end;
       }
 
+    }
+    @media (max-width: 769px) {
+      padding: 50px 20px 50px;
     }
   }
 

@@ -7,16 +7,10 @@ import {requestDemo} from "../queries";
 const RequestDemoModal = props => {
     const [openModal, setOpenModal] = useState(false);
     const [showSuccess, setShowSuccess] = useState(false);
-    useEffect(() => {
-        if (props.modal) {
-            setOpenModal(true)
-        }
-    }, [props.modal]);
 
     const handleCloseModal = () => {
         setOpenModal(false);
         props.form.resetFields();
-        props.onClose()
     };
 
     const send = (e) => {
@@ -43,6 +37,7 @@ const RequestDemoModal = props => {
 
     const {getFieldDecorator} = props.form;
     return (
+        <>
         <Modal
             className="request-demo-modal"
             visible={openModal}
@@ -136,6 +131,10 @@ const RequestDemoModal = props => {
             </Form>
             </div>
         </Modal>
+            <Button className={`request-demo-btn ${props.className}`} onClick={() => setOpenModal(true)}>
+                Request a demo
+            </Button>
+        </>
     );
 };
 

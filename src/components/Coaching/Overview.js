@@ -140,7 +140,7 @@ const CoachingOverview = () => {
                                 </Col>
                                 <Col md={12} className="-margin-right img-section" style={{textAlign: "center"}}>
                                     <img className='custom-image'
-                                         src="https://v1.nitrocdn.com/aDQSgnHktaudvkmeJfPxNoEXBteJYlvY/assets/static/optimized/rev-5de672a/wp-content/uploads/2020/12/Lyra-Members-lessonsandvideos-1080px-201203-1024x831.png"
+                                         src={require("../../assets/images/coachingProgram/coaching.png")}
                                          alt='Therapy'/>
                                 </Col>
                             </Row>
@@ -155,7 +155,7 @@ const CoachingOverview = () => {
                                 <Col md={12} className="-margin-right img-section" style={{textAlign: "center"}}>
                                     <img
                                         className='custom-image'
-                                        src="https://v1.nitrocdn.com/aDQSgnHktaudvkmeJfPxNoEXBteJYlvY/assets/static/optimized/rev-5de672a/wp-content/uploads/2020/01/Lyra-Members-Insights-1080px-v3-944x1024.png"
+                                        src={require("../../assets/images/coachingProgram/coaching-mobile.png")}
                                         alt='Therapy'
                                     />
                                 </Col>
@@ -261,7 +261,7 @@ const CoachingOverview = () => {
                         </Col>
                     </Row>
 
-
+                    <div className="divider"/>
                     {/* Left: Image and Right: Content*/}
                     <Row className='-row-flex-center card-row'>
                         <Col md={24}>
@@ -326,7 +326,7 @@ const CoachingOverview = () => {
                         </Col>
                     </Row>
 
-
+                    <div className="divider"/>
 
                     <div className="coaching-overview-bhp-flex-section">
                         <div className="sequence-sections">

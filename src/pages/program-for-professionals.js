@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/Layout/layout'
 import Overview from '../components/Coaching/Program/ProfessionalsProgram/Overview'
 import TrainingApproach from '../components/Coaching/Program/ProfessionalsProgram/Tools'
 import FAQs from '../components/Coaching/Program/ProfessionalsProgram/Faq'

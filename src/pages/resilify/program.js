@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from "lodash";
 import ReactHtmlParser from "react-html-parser";
-import Layout from '../../components/layout';
+import Layout from '../../components/Layout/layout';
 import FAQs from "../../components/Resilify/common/FAQs";
 import CLImage from "../../helper/CLImage";
 import {useSelector} from "react-redux";
@@ -32,7 +32,7 @@ const ResilifyProgram = () =>{
     );
 
         return (
-            <Layout extraHeader>
+            <Layout>
                 <div className="resilify-program-page">
                     <div className="banner-img">
                         <div className="program-top-banner"

@@ -6,13 +6,7 @@ import Slider from "react-slick";
 const CategoryTabs = (props) => {
     const topics = props?.topics || [];
     return (
-        <div
-            id='wrapper'
-            className={'coach-wrapper'}
-            style={{paddingBottom: 0}}
-        >
-        <div className="resilify-category-tabs">
-            <div style={{width: "10%",textAlign: "right"}}><h3 className="base-text product-title">RESILIFY</h3></div>
+
             <SliderComponent className="categories-wrapper" key={generateRandomID()}>
                 <Link
                     to="/resilify/category/all/"
@@ -31,8 +25,6 @@ const CategoryTabs = (props) => {
                     }
                 )}
             </SliderComponent>
-        </div>
-        </div>
     )
 };
 

@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../../../components/layout";
+import Layout from "../../../components/Layout/layout";
 import CoachProgram from "../../../components/Coaching/Program";
 import Amplify, { API, graphqlOperation } from 'aws-amplify'
 import graphql_endpoint from '../../../aws-appsync-url'

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import { Row } from 'antd'
 import { testimonials } from '../components/testimonialData'
-import Layout from '../components/layout.js'
+import Layout from '../components/Layout/layout.js'
 
 const Testimonial = (props) => {
   return (

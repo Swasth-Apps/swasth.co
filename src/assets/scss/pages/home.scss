@@ -1,4 +1,4 @@
-.menu-fold-content// Proxima Nova Font
+.menu-fold-content // Proxima Nova Font
 .font-proxima-nova {
   font-family: 'proxima_nova_rgregular', Helvetica;
 }
@@ -101,7 +101,7 @@
 
     .anticon-close {
       //color: white;
-      padding: 15px 0 0px 0;
+      padding: 0px 0 0px 0;
     }
 
     .not-white {
@@ -137,9 +137,14 @@
       width: 90%;
       cursor: pointer;
       margin: 0 auto;
-      &:last-child{
+
+      &:last-child {
         padding-bottom: 20px;
       }
+    }
+
+    .selected-tab{
+      opacity: 1 !important;
     }
 
     .folded-menu-collapse {
@@ -151,9 +156,11 @@
         width: 90%;
         margin: auto;
         border-bottom: 1px solid rgba(255, 255, 255, .125);
-        &:not(:first-child){
+
+        &:not(:first-child) {
           margin-top: 5px;
         }
+
         .ant-collapse-header {
           color: #22303f;
           padding: 10px;
@@ -171,10 +178,12 @@
         .ant-collapse-content-box {
           margin: 0 16px 16px 10px;
           padding: 0;
+
           .menu-content-item {
-            p{
+            p {
               text-align: left;
             }
+
             p:first-child {
               margin-bottom: 0px;
             }
@@ -184,10 +193,12 @@
               color: #4d6580;
             }
           }
+
           .header-menu-submenu {
             padding: 15px 0 0;
             min-width: 200px;
             margin-top: 15px;
+
             a:last-child {
               border-bottom: none;
             }
@@ -206,7 +217,7 @@
 .menu-fold-content-close {
   height: 0px;
 
-  a, .folded-menu-collapse {
+  a, .folded-menu-collapse,button {
     display: none;
   }
 }
@@ -214,16 +225,28 @@
 .menu-fold-content-open {
   height: fit-content;
   box-shadow: 1px 1px 6px 0 #bfb6b6;
-  margin-top: 90px;
+  margin-top: 75px;
   padding-bottom: 20px;
 
   a, .folded-menu-collapse {
     display: block;
   }
+
   .menu-content,
-  .ant-tabs-tab{
+  .ant-tabs-tab {
     font-family: "Airbnb Cereal App Medium", Helvetica;
     text-align: left;
+  }
+  .coaching-mobile-header{
+    a{
+      display: flex !important;
+      align-items: center;
+      opacity: 0.8;
+    }
+    img{
+      width: 20px;
+      margin-right: 10px;
+    }
   }
 }
 
@@ -231,12 +254,6 @@
 @media screen and (max-width: 768px) {
   .coach-wrapper {
     padding-top: 0 !important;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1023px) {
-  .menu-fold-content {
-    margin-left: -3rem;
   }
 }
 
@@ -1567,9 +1584,11 @@ strong {
     text-align: center;
   }
 }
-.ant-dropdown{
+
+.ant-dropdown {
   z-index: 111111111 !important;
 }
+
 .ant-dropdown-menu {
   min-width: 175px;
 
@@ -2412,7 +2431,11 @@ strong {
   .program-adapts {
     margin-right: 30px;
     @media screen and (max-width: 769px) {
-      margin-bottom: 15px !important;
+      margin-bottom: 30px !important;
+      & > p{
+        font-size: 30px !important;
+        line-height: 40px !important;
+      }
     }
   }
 
@@ -2656,7 +2679,7 @@ strong {
       flex: 0 0 50%;
     }
     @media screen and (max-width: 768.5px) {
-        padding: 12px;
+      padding: 12px;
     }
     @media screen and (max-width: 520px) {
       flex: 0 0 100%;
@@ -2674,9 +2697,10 @@ strong {
   margin-top: 100px;
 
   .section-card {
-    .content{
+    .content {
       background-image: linear-gradient(to bottom, #4170ed03 -3%, #1a1a1bd9 103%) !important;
     }
+
     h4 {
       margin-bottom: 10px !important;
       margin-top: 0px !important;
@@ -2702,11 +2726,10 @@ strong {
 }
 
 
-
 // Update Home page Design
 .home-page-overview-container {
 
-  .health-coaching-text{
+  .health-coaching-text {
     font-size: 40px;
     line-height: 50px;
     margin: 40px 0 60px;
@@ -2716,7 +2739,7 @@ strong {
     transition: filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
     position: relative;
     width: 100%;
-    background: rgba(66,115,240,0.1);
+    background: rgba(66, 115, 240, 0.1);
 
     .card-row {
       padding: 0 0px 0px !important;
@@ -2738,10 +2761,11 @@ strong {
       .img-section {
         padding-top: 100px;
       }
-      .request-demo-btn{
+
+      .request-demo-btn {
         //background: _palette(extra-dark-blue);
         background-color: #4273f0;
-        text-transform:none;
+        text-transform: none;
       }
 
     }
@@ -2766,11 +2790,28 @@ strong {
       }
     }
 
+    @media (max-width: 769px) {
+      .card-row {
+        flex-direction: column-reverse;
+        padding-bottom: 20px !important;
+        .img-section{
+          padding-top: 40px;
+        }
+      }
+      .bg-img{
+        img{
+          margin-bottom: 50px;
+        }
+      }
+    }
+
+
   }
-  .coach-wrapper{
-    .program-adapts{
-      .black-18-font{
-        p{
+
+  .coach-wrapper {
+    .program-adapts {
+      .black-18-font {
+        p {
           font-size: 18px;
           font-family: _font(para-book-font);
         }
@@ -2778,57 +2819,69 @@ strong {
     }
   }
 
-  .home-page-content-section{
+  .home-page-content-section {
     padding: 100px 0 50px;
     margin-bottom: 30px;
     border-bottom: 1px solid #6b6b6b3d;
-    .comprehensive-text{
+
+    .comprehensive-text {
       font-size: 40px;
       line-height: 50px;
     }
-    .title{
+
+    .title {
       font-size: 50px;
       line-height: 60px;
       padding-bottom: 50px;
       margin-bottom: 50px;
       border-bottom: 1px solid #6b6b6b3d;
     }
-    .home-page-content-bottom-section{
-      .-flex{
+
+    .home-page-content-bottom-section {
+      .-flex {
         display: flex;
         flex: 0 0 100%;
-        .home-page-content-flex-section{
+
+        .home-page-content-flex-section {
           flex: 0 0 50%;
           padding: 20px;
-          .flex-container{
+
+          .flex-container {
             margin-bottom: 40px;
           }
-          h3{
+
+          h3 {
             font-size: 24px;
           }
-          p{
+
+          p {
             font-size: 18px;
           }
-          a{
+
+          a {
             margin-top: 15px;
             color: #1d455a;
             font-size: 16px;
             display: block;
-            &:hover{
+
+            &:hover {
               color: lighten(#1d455a, 10%) !important;
             }
           }
-          ul{
+
+          ul {
             list-style-type: none;
             margin-top: 20px;
-            li{
+
+            li {
               margin-bottom: 20px;
               padding-bottom: 20px;
               font-size: 30px;
               border-bottom: 1px solid #6b6b6b3d;
             }
           }
-          .div{
+
+          .div {
             margin-bottom: 20px;
             padding-left: 20px;
           }
@@ -2837,88 +2890,119 @@ strong {
     }
   }
 
-  .home-page-overview-new-skills-section{
+  .home-page-overview-new-skills-section {
     background: #4273f0d9;
     margin-top: 0 !important;
     padding: 0px 100px !important;
     border-radius: 10px 10px 0 0;
-    h5{
+
+    h5 {
       font-size: 24px;
     }
-    p{
+
+    p {
       font-size: 16px;
     }
+
+    .request-demo-btn {
+      background: _palette(primary-blue);
+    }
+    @media (max-width: 769px) {
+      padding: 0px !important;
+      .card-row{
+        .card-row{
+          padding: 40px 0px !important;
+          flex-direction: column-reverse;
+        }
+      }
+    }
+
   }
 
-  .home-page-overview-access-section{
+  .home-page-overview-access-section {
     margin-top: 50px;
     background: #f0c44224;
     padding: 100px 100px 50px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px;
-    h2{
+
+    h2 {
       font-size: 32px;
       line-height: 45px;
     }
-    .divider{
+
+    .divider {
       border-top: 1px solid #6b6b6b3d;
       margin: 30px 0;
     }
-    .section-img{
+
+    .section-img {
       margin-top: 50px;
       width: 100%;
     }
-    .sequence-sections{
+
+    .sequence-sections {
       display: flex;
       flex: 0 0 100%;
       flex-wrap: wrap;
-      .section{
+
+      .section {
         flex: 0 0 25%;
         padding: 15px;
-        h3{
+
+        h3 {
           font-size: 40px;
         }
-        .title{
+
+        .title {
           font-size: 24px;
           margin-bottom: 20px;
           color: #333333;
         }
-        .desc{
+
+        .desc {
           font-size: 16px;
         }
       }
     }
   }
 
-  .home-page-overview-choose-section{
+  .home-page-overview-choose-section {
     margin-top: 100px;
     background: #d6eaed;
     padding: 100px;
-    h2{
+
+    h2 {
       font-size: 42px;
       line-height: 50px;
       margin-bottom: 40px;
     }
-    .sequence-sections{
+
+    .sequence-sections {
       display: flex;
       flex: 0 0 100%;
       flex-wrap: wrap;
-      .section{
+
+      .section {
         flex: 0 0 33%;
         padding: 20px 20px;
+
         .box {
           box-shadow: rgba(0, 0, 0, 0.07) 0 8px 25px 0;
           height: 100%;
           background: white;
           border-radius: 10px;
         }
-        img{
+
+        img {
           width: 100%;
           margin-bottom: 20px;
         }
-        h3{
+
+        h3 {
           font-size: 40px;
         }
-        .title{
+
+        .title {
           margin-top: 15px;
           min-height: 100px;
           font-size: 24px;
@@ -2926,94 +3010,190 @@ strong {
           margin-bottom: 20px;
           color: #333333;
         }
-        .desc{
+
+        .desc {
           font-size: 16px;
         }
       }
     }
   }
 
-  .home-page-overview-new-skills-section{
+  .home-page-overview-new-skills-section {
     margin-top: 100px;
     background: #4273f0d9;
     padding: 50px 100px;
-    .content{
-      h3,h6,p,li{
+
+    .content {
+      h3, h6, p, li {
         color: white
       }
-      p,li{
+
+      p, li {
         margin-bottom: 10px;
         font-size: 18px;
       }
-      h3,h5{
+
+      h3, h5 {
         margin-bottom: 30px;
       }
     }
   }
-.home-page-self-guided{
-  border-radius: 0 0 10px 10px;
-    background: rgba(66,115,240,0.70);
+
+  .home-page-self-guided {
+    border-radius: 0 0 10px 10px;
+    background: rgba(66, 115, 240, 0.70);
   }
 
-  .home-page-overview-bhp-flex-section{
+  .home-page-overview-bhp-container {
     margin-top: 100px;
-    .sequence-sections{
+    padding: 100px 0 0;
+    background: rgba(241, 241, 241, 0.2);
+    width: 100%;
+
+    h2 {
+      font-size: 40px;
+      line-height: 45px;
+      color: _palette(primary-blue);
+    }
+
+    h3 {
+      font-size: 40px;
+      line-height: 55px;
+      margin-bottom: 30px;
+    }
+
+    .card-row {
+      justify-content: center;
+    }
+
+    .padded-view {
+      padding: 20px 80px;
+      justify-content: space-between;
+
+      .custom-image {
+        border-radius: 10px;
+      }
+
+    }
+
+    a {
+      font-family: _font(para-font);
+      font-size: 16px;
+
+      &:hover {
+        color: _palette(dark-blue) !important;
+      }
+    }
+
+    .content-grounded {
+      margin-bottom: 30px;
+
+      .content-subtitle {
+        font-size: 24px;
+        margin-bottom: 5px;
+      }
+
+      .content-desc {
+        font-size: 16px;
+      }
+    }
+
+    .bg-img {
+      background: #754af630;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 769px) {
+        margin-top: 50px;
+      padding: 50px 0 0;
+      .card-row{
+        padding: 0px;
+      }
+      .padded-view {
+        padding: 40px 10px 20px;
+      }
+      .bg-img {
+        .padded-view {
+          padding: 40px 40px 20px;
+        }
+      }
+    }
+
+  }
+
+  .home-page-overview-bhp-flex-section {
+    margin: 50px 0;
+
+    .sequence-sections {
       display: flex;
       flex: 0 0 100%;
       flex-wrap: wrap;
-      .section{
+
+      .section {
         flex: 0 0 33%;
         padding: 0 30px 20px 30px;
-        &:not(:nth-child(1)) {
-          border-right: 1px solid #6b6b6b3d;
-          border-bottom:  1px solid #6b6b6b3d;
-        }
-        &:nth-child(1){
-          padding: 100px 40px;
-        }
-        img{
+        border-right: 1px solid #6b6b6b3d;
+        border-bottom: 1px solid #6b6b6b3d;
+
+        img {
           width: 100%;
           margin-bottom: 20px;
         }
-        a{
-          font-size: 18px;
+
+        a {
+          font-size: 16px;
         }
-        .title{
+
+        .title {
           font-size: 24px;
           line-height: 35px;
-          margin-bottom: 20px;
+          margin-bottom: 10px;
           color: #333333;
         }
-        .text{
-          color: _palette(primary-color);
+
+        .text {
           font-size: 16px;
+          margin-bottom: 20px;
         }
-        .desc{
+
+        .desc {
           font-size: 16px;
         }
       }
-      .bg-section{
-        background: #f0c44224;
+      @media (max-width: 780px) {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        .section {
+          flex: 0 0 75%;
+        }
       }
+      @media (max-width: 425px) {
+        .section {
+          flex: 0 0 90%;
+        }
+      }
+
     }
   }
 
-  .home-page-clinician-section{
+  .home-page-clinician-section {
     padding: 50px 0 50px;
     margin-top: 30px;
     border-top: 1px solid #6b6b6b3d;
-    .title{
+
+    .title {
       font-size: 50px;
       line-height: 60px;
       margin-bottom: 50px;
     }
-    .desc{
+
+    .desc {
       font-size: 18px;
       width: 50%;
     }
   }
 
-  .expert-container{
+  .expert-container {
     flex: 0 0 50% !important;
   }
 

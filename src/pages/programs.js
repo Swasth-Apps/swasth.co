@@ -1,6 +1,6 @@
 import React from 'react'
-import Layout from '../components/layout'
-import Programs from "../components/Programs";
+import Layout from '../components/Layout/layout'
+import OldPrograms from "../components/Old-Programs";
 
 
 class HomeIndex extends React.Component {
@@ -8,7 +8,7 @@ class HomeIndex extends React.Component {
     render() {
         return (
             <Layout>
-                <Programs />
+                <OldPrograms />
             </Layout>
         )
     }

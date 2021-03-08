@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../components/layout';
+import Layout from '../components/Layout/layout';
 import CBTCompanion from '../components/CBTCompanion';
 class HomeIndex extends React.Component {
   render() {

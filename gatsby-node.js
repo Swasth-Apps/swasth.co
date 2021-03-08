@@ -122,13 +122,13 @@ exports.createPages = ({ actions, graphql }) => {
 exports.onCreatePage = ({ page, actions }) => {
   const { createPage } = actions;
 
-  if(page.path.match(/^\/programs/)){
+/*  if(page.path.match(/^\/programs/)){
     createPage({
       path: "/programs",
-      matchPath: '/programs/*',
+      matchPath: '/programs/!*',
       component: path.resolve(`src/pages/programs.js`)
     })
-  }
+  }*/
 
   if(page.path.match(/^\/coaching\/program/)){
     createPage({

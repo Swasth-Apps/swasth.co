@@ -1,7 +1,7 @@
 import React, {Fragment, useEffect, useState} from 'react'
 import {Link} from 'gatsby'
 import {Col, Icon, Row} from 'antd'
-import {testimonials} from '../components/testimonialData'
+import {testimonials} from './testimonialData'
 //import therapyGraphic from '../assets/images/Therapy-section@3x.png'
 import therapyGraphic from '../assets/images/therapy-image.png'
 import MobileGraphic from '../assets/images/MobileView.png'
@@ -17,7 +17,7 @@ import ProgramAdapts from '../assets/images/pexels-kaboompics-com-6335.jpg'
 import DotsIcon from '../assets/images/dots.png';
 
 
-import Banner from '../components/Banner'
+import Banner from './Banner'
 
 /*
 const helpData = [
@@ -59,7 +59,7 @@ const helpData = [
     },
 ];
 
-const Home = () => {
+const OldHome = () => {
     const [isMobile, setIsMobile] = useState(false)
     useEffect(() => {
         setIsMobile(window.innerWidth < 768)
@@ -673,4 +673,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default OldHome

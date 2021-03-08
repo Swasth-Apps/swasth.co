@@ -1,35 +1,107 @@
 import React, {useEffect, useState} from 'react'
-import {Button, Collapse, Dropdown, Icon} from 'antd'
+import {Collapse, Dropdown, Icon} from 'antd'
 import PropTypes from 'prop-types'
-import resilienceDarkLogo from '../assets/images/Resiliens-Logo@3x.png'
+import resilienceDarkLogo from '../../assets/images/Resiliens-Logo@3x.png'
 import {Link} from 'gatsby'
-import RequestDemoModal from "./RequestDemoModal";
+import RequestDemoModal from "../RequestDemoModal";
+import OverviewActive from "../../assets/images/coachingTabIcons/overview-normal-icon.png";
+import ExpertActive from "../../assets/images/coachingTabIcons/experts-normal-icon.png";
+import EveryoneActive from "../../assets/images/coachingTabIcons/Everyone-normal-icon.png";
+import ProfessionalActive from "../../assets/images/coachingTabIcons/profesisonal-normal-icon.png";
 
 const Header = (props) => {
     const [state, setState] = useState(false);
-    const [modal, setModal] = useState(false);
+    const [tab, setTab] = useState(props.extraHeader === "coaching" ? "overview" : "");
     const {isContentWhite} = props;
 
     useEffect(() => {
-        window.addEventListener("scroll",(e)=> onScroll(e))
-    },[]);
+        window.addEventListener("scroll", () => onScroll())
+    }, []);
+    useEffect(() => {
+        onScroll()
+    }, [state]);
 
-    const onScroll = e =>{
+    const onScroll = () => {
         const header = document.getElementById("coaching-header");
         const sticky = header.offsetTop;
-        console.log("-----",sticky)
-        if (window.pageYOffset > (sticky + 100)) {
+        if (state || (window.pageYOffset > (sticky + 100) )) {
             header.classList.add("sticky-header");
         } else {
             header.classList.remove("sticky-header");
         }
     };
 
+    const onChangeTab = tab => {
+        setTab(tab);
+        setState(false);
+        props.onChangeTab(tab);
+    };
+
+    const renderExtraHeader = () => {
+        switch (props.extraHeader) {
+            case "coaching":
+                return <>
+                    <a style={{margin: "30px 0"}} rel={"noreferrer"} className="coaching-mobile-header">
+                        <a
+                            rel="noreferrer"
+                            className={tab === "overview" ? "selected-tab" : ""}
+                            onClick={() => onChangeTab("overview")}
+                        >
+                            <div className="menu-content base-text">
+                                <img src={OverviewActive}/>
+                                Overview
+                            </div>
+                        </a>
+
+                        <a
+                            rel="noreferrer"
+                            className={tab === "everyone" ? "selected-tab" : ""}
+                            onClick={() => onChangeTab("everyone")}
+                        >
+                            <div className="menu-content base-text">
+                                <img src={EveryoneActive}/>
+                                For Everyone</div>
+                        </a>
+
+                        <a
+                            rel="noreferrer"
+                            className={tab === "professionals" ? "selected-tab" : ""}
+                            onClick={() => onChangeTab("professionals")}
+                        >
+                            <div className="menu-content base-text">
+                                <img src={ProfessionalActive} />
+                                For Professionals</div>
+                        </a>
+
+                        <a
+                            rel="noreferrer"
+                            className={tab === "experts" ? "selected-tab" : ""}
+                            onClick={() => onChangeTab("experts")}
+                        >
+                            <div className="menu-content base-text">
+                                <img src={ExpertActive}/>
+                                Experts</div>
+                        </a>
+                    </a>
+                    <a rel="noreferrer">
+                        <img
+                            className="menu-content"
+                            style={{width: 150, marginBottom: 10}}
+                            src={resilienceDarkLogo}
+                            alt='Home'
+                        />
+                    </a>
+                </>;
+            case "resilify":
+                return <div/>;
+            default:
+                return <div/>
+        }
+    };
+
     return (
         <>
             <header id="header" className={`alt ${props.aboutHeader ? "about-header" : ""}`}>
-
-                <RequestDemoModal modal={modal} onClose={() => setModal(false)}/>
                 <nav className='header-nav'>
                     <Link
                         to="/"
@@ -48,7 +120,7 @@ const Header = (props) => {
 
                                         <Link to="/coaching" className='menu-content-item'>
                                             <div className="menu-item">
-                                                <img src={require("../assets/images/navbar-icon/coaching.png")}/>
+                                                <img src={require("../../assets/images/navbar-icon/coaching.png")}/>
                                                 <div className={`menu-content para-text`}>
                                                     <p>Coaching Platform</p>
                                                     <p className="para-book-text">Behavioral Health Coaching</p>
@@ -59,7 +131,7 @@ const Header = (props) => {
                                             to="/resilify"
                                             className='menu-content-item'>
                                             <div className="menu-item">
-                                                <img src={require("../assets/images/navbar-icon/resilify.png")}/>
+                                                <img src={require("../../assets/images/navbar-icon/resilify.png")}/>
                                                 <div className={`menu-content para-text`}>
                                                     <p>Resilify</p>
                                                     <p className="para-book-text">Self Guided Programs </p>
@@ -69,7 +141,7 @@ const Header = (props) => {
                                         <a target="_blank" href="https://clinician.resiliens.com"
                                            className='menu-content-item'>
                                             <div className="menu-item">
-                                                <img src={require("../assets/images/navbar-icon/clinician.png")}/>
+                                                <img src={require("../../assets/images/navbar-icon/clinician.png")}/>
                                                 <div className={`menu-content para-text`}>
                                                     <p>Clinician Platform</p>
                                                     <p className="para-book-text">Engage better with Clients</p>
@@ -92,7 +164,8 @@ const Header = (props) => {
                                             to="/about-us"
                                             className='menu-content-item'>
                                             <div className="menu-item">
-                                                <img src={require("../assets/images/navbar-icon/about-us-icon.png")}/>
+                                                <img
+                                                    src={require("../../assets/images/navbar-icon/about-us-icon.png")}/>
                                                 <div className={`menu-content para-text`}>
                                                     <p>About Us</p>
                                                     <p className="para-book-text">Learn more about our mission</p>
@@ -103,7 +176,7 @@ const Header = (props) => {
                                             to="/"
                                             className='menu-content-item'>
                                             <div className="menu-item">
-                                                <img src={require("../assets/images/navbar-icon/press-icon.png")}/>
+                                                <img src={require("../../assets/images/navbar-icon/press-icon.png")}/>
                                                 <div className={`menu-content para-text`}>
                                                     <p>Press</p>
                                                     <p className="para-book-text">Collected press materials</p>
@@ -125,17 +198,18 @@ const Header = (props) => {
                                         Blog
                                     </div>
                                 </Link>
-                                <Link to="/" hidden={state} style={{display: 'flex', alignItems: 'center', padding: 0}}
-                                      className='header-content'>
-                                    <Button className="request-demo-btn" onClick={() => setModal(true)}>
-                                        Request a demo
-                                    </Button>
-                                </Link>
+                                <a rel="noreferrer" hidden={state}
+                                   style={{display: 'flex', alignItems: 'center', padding: 0}}
+                                   className='header-content'>
+                                    <RequestDemoModal/>
+                                </a>
                             </> : ''}
                         <a
                             className={`menu-fold-icon ${state ? "menu-close-icon" : ""}`}
                             href='javascript:void(0)'
-                            onClick={() => setState(!state)}>
+                            onClick={() => {
+                                setState(!state);
+                            }}>
                             {state ? <Icon className='icon' type="close"/>
                                 : <Icon className={`icon ${isContentWhite ? 'not-white' : ''}`} type="menu"/>}
                         </a>
@@ -150,6 +224,7 @@ const Header = (props) => {
                 {/*<Link to/features">*/}
                 {/*<div className="menu-content">Features</div>*/}
                 {/*</Link>*/}
+                {props.extraHeader ? renderExtraHeader() : null}
                 <a href="/">
                     <div className="menu-content base-text">Home</div>
                 </a>
@@ -164,7 +239,7 @@ const Header = (props) => {
                         <div className="header-menu-submenu">
                             <Link to="/coaching" className='menu-content-item'>
                                 <div className="menu-item">
-                                    <img src={require("../assets/images/navbar-icon/coaching.png")}/>
+                                    <img src={require("../../assets/images/navbar-icon/coaching.png")}/>
                                     <div className={`menu-content para-text`}>
                                         <p>Coaching Platform</p>
                                         <p className="para-book-text">Behavioral Health Coaching</p>
@@ -176,7 +251,7 @@ const Header = (props) => {
                                 href="https://resilify.org"
                                 className='menu-content-item'>
                                 <div className="menu-item">
-                                    <img src={require("../assets/images/navbar-icon/resilify.png")}/>
+                                    <img src={require("../../assets/images/navbar-icon/resilify.png")}/>
                                     <div className={`menu-content para-text`}>
                                         <p>Resilify</p>
                                         <p className="para-book-text">Self Guided Programs </p>
@@ -186,7 +261,7 @@ const Header = (props) => {
                             <a target="_blank" href="https://clinician.resiliens.com"
                                className='menu-content-item'>
                                 <div className="menu-item">
-                                    <img src={require("../assets/images/navbar-icon/clinician.png")}/>
+                                    <img src={require("../../assets/images/navbar-icon/clinician.png")}/>
                                     <div className={`menu-content para-text`}>
                                         <p>Clinician Platform</p>
                                         <p className="para-book-text">Engage better with Clients</p>
@@ -203,7 +278,7 @@ const Header = (props) => {
                                 to="/about-us"
                                 className='menu-content-item'>
                                 <div className="menu-item">
-                                    <img src={require("../assets/images/navbar-icon/about-us-icon.png")}/>
+                                    <img src={require("../../assets/images/navbar-icon/about-us-icon.png")}/>
                                     <div className={`menu-content para-text`}>
                                         <p>About Us</p>
                                         <p className="para-book-text">Learn more about our mission</p>
@@ -214,7 +289,7 @@ const Header = (props) => {
                                 to="/"
                                 className='menu-content-item'>
                                 <div className="menu-item">
-                                    <img src={require("../assets/images/navbar-icon/press-icon.png")}/>
+                                    <img src={require("../../assets/images/navbar-icon/press-icon.png")}/>
                                     <div className={`menu-content para-text`}>
                                         <p>Press</p>
                                         <p className="para-book-text">Collected press materials</p>
@@ -234,9 +309,7 @@ const Header = (props) => {
                     <div className="menu-content base-text">Blog</div>
                 </a>
                 <Link to="/" style={{borderBottom: "none"}}>
-                    <Button className="request-demo-btn" onClick={() => setModal(true)}>
-                        Request a demo
-                    </Button>
+                    <RequestDemoModal/>
                 </Link>
                 {/*<a href="/download">*/}
                 {/*<div className="menu-content">Download App</div>*/}

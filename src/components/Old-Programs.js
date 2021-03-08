@@ -35,7 +35,7 @@ const getProgramsByTag = `query getProgramsByTag($tag: String) {
 }`;
 
 
-class Programs extends React.Component {
+class OldPrograms extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -181,4 +181,4 @@ class Programs extends React.Component {
     }
 }
 
-export default Programs;
+export default OldPrograms;

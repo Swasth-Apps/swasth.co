@@ -64,7 +64,7 @@ class ProfileData extends React.Component {
                                                         'png',
                                                     )}
                                                 />
-                                                <div style={{marginBottom: 30}}>
+                                                <div style={{marginBottom: 30,marginTop: 10}}>
                                                     <a
                                                         className="para-text"
                                                         style={{fontSize: 18}}

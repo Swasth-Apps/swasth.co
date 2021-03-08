@@ -14,6 +14,11 @@ const TopicSection = props => {
     programs = programs?.filter(({marketingImage}) => marketingImage);
     return (
         <div className="resilify-home-page-body">
+            <div
+                id='wrapper'
+                className={'coach-wrapper'}
+                style={{paddingBottom: 0}}
+            >
             <div className="resilify-program-section">
                 <div className="program-section" id={`topic-tabs`}>
                     <h3 className="program-section-title base-text">Programs</h3>
@@ -23,11 +28,12 @@ const TopicSection = props => {
                         {programs?.map((program) => <Program program={program} onReload={() => setCount(count + 1)}/>)}
                     </Slider> : <Empty description="No programs available for this categories"/>}
                 <div style={{textAlign: "center", marginTop: 20}}>
-                    <Link to={`/resilify/category/all`}>
+                    <Link to={`/resilify/programs`}>
                         <Button className="request-demo-btn base-text">More
                             Programs</Button>
                     </Link>
                 </div>
+            </div>
             </div>
             <div
                 id='wrapper'

@@ -135,23 +135,30 @@
 
 // Program Section
 .resilify-home-page-body {
-  margin-top: 100px;
 
   .resilify-program-section {
-    max-width: 1400px;
-    padding: 100px;
+    padding: 100px 30px;
     background: rgba(211, 211, 211, 0.11);
     margin: auto;
     border-radius: 10px;
+    @media (max-width: 769px) {
+      padding: 50px 0;
+    }
   }
 
   .program-section {
     .program-section-title {
-      color: _palette(dark-blue);
-      font-size: 40px;
+      //color: _palette(dark-blue);
+      font-size: 36px;
       margin-bottom: 60px;
       letter-spacing: 0.38px;
       padding: 0 20px;
+
+      @media (max-width: 769px) {
+       margin-bottom: 30px;
+        font-size: 36px;
+        padding: 0px;
+      }
     }
 
     .topic-tabs {
@@ -200,7 +207,7 @@
   }
 
   .program-wrapper {
-    padding: 0px 20px;
+    //padding: 0px 20px;
     max-width: 1400px;
     margin: 20px auto;
 
@@ -325,13 +332,13 @@
     }
 
     .slick-prev {
-      left: 10px;
+      left: -15px;
       display: block !important;
       z-index: 1111;
     }
 
     .slick-next {
-      right: 10px;
+      right: -15px;
       display: block !important;
     }
   }
@@ -378,7 +385,7 @@
     border-radius: 0 0 10px 10px;
     .member-text {
       text-align: center;
-
+      padding: 0 20px;
       h1, p {
         color: _palette(bg);
       }
@@ -394,7 +401,8 @@
           width: 100px;
           background: _palette(bg);
           border-radius: 50px;
-          margin: 10px auto 20px;
+          margin: 20px auto 40px;
+          padding: 5px;
         }
       }
 
@@ -461,7 +469,7 @@
     }
 
     @media only screen and (max-width: 769.5px) {
-      padding: 40px 20px 40px;
+      padding: 40px 20px 0px;
       .coach-text {
         h1 {
           font-size: 24px;
@@ -534,9 +542,9 @@
   padding-bottom: 50px;
 
   h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 40px;
+    margin-bottom: 40px;
+    //text-align: center;
+    font-size: 36px;
   }
 
   .title {
@@ -603,10 +611,11 @@
   }
 
   @media only screen and (max-width: 900px) {
-    margin: 40px;
+    margin: 40px 50px;
   }
   @media only screen and (max-width: 600px) {
     margin: 20px;
+    padding-top: 0px;
   }
 }
 
@@ -626,11 +635,11 @@
     margin: auto;
 
     .content {
-      flex: 0 0 40%;
+      flex: 0 0 50%;
     }
 
     .image {
-      flex: 0 0 60%;
+      flex: 0 0 50%;
     }
 
     .content {
@@ -652,11 +661,12 @@
         }
 
         .divider {
-          margin-top: 10px;
+          margin-top: 20px;
           height: 5px;
           width: 100px;
           background: _palette(primary-blue);
           border-radius: 50px;
+          padding: 5px;
         }
 
         h3 {
@@ -665,9 +675,13 @@
 
         .apps {
           margin-bottom: 20px;
-
           img {
             margin-right: 20px;
+          }
+          @media (max-width: 769px) {
+           img{
+             width: 40%;
+           }
           }
         }
 
@@ -732,8 +746,8 @@
             width: 100%;
           }
 
-          h1 {
-            font-size: 30px;
+          h3 {
+            font-size: 36px !important;
           }
         }
       }
@@ -741,6 +755,7 @@
   }
 
   @media only screen and (max-width: 900px) {
+    padding: 40px;
     .home-discover-inner-section {
       .outer-div {
         width: 100% !important;
@@ -748,15 +763,16 @@
     }
   }
   @media only screen and (max-width: 769.5px) {
+    padding: 30px;
     padding-top: 0;
     .home-discover-inner-section {
       .content {
         margin-top: 20px;
         padding: 0 15px;
 
-        h1 {
+        h3 {
           line-height: normal !important;
-          font-size: 30px !important;
+          font-size: 36px !important;
 
           br {
             display: none;
@@ -767,10 +783,11 @@
   }
 
   @media only screen and (max-width: 450px) {
+    padding: 0px;
     .home-discover-inner-section {
       .content {
-        h1 {
-          font-size: 24px;
+        h3 {
+          font-size: 36px !important;
         }
       }
     }
@@ -930,11 +947,21 @@
     font-size: 24px;
     margin-bottom: 0px;
     color: _palette(blue-color);
-
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    img{
+      width: 40px;
+      margin-right: 10px;
+      border-radius: 50px;
+    }
+    &:hover{
+      color: _palette(blue-color) !important;
+    }
   }
   .categories-wrapper {
     padding: 0px 20px;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0px auto;
 
     .slick-slide {
@@ -1014,8 +1041,8 @@
   .program-section-title {
     text-align: left;
     padding: 0px;
-    color: _palette(dark-blue);
-    font-size: 40px;
+    //color: _palette(dark-blue);
+    font-size: 36px;
     letter-spacing: 0.38px;
   }
 
@@ -1203,6 +1230,7 @@
     border-radius: 0 0 10px 10px;
     .member-text {
       text-align: center;
+      padding: 0 20px;
 
       h1, p {
         color: _palette(bg);
@@ -1281,7 +1309,7 @@
     }
 
     @media only screen and (max-width: 769.5px) {
-      padding: 40px 20px 40px;
+      padding: 40px 20px 0px;
       .coach-text {
         h1 {
           font-size: 24px;
@@ -1300,7 +1328,7 @@
 .learning-section {
   background: _palette(blue-color);
   max-width: 1400px;
-  margin: 100px auto 40px;
+  margin: 40px auto 40px;
   border-radius: 10px;
 
   .section {
@@ -1341,25 +1369,9 @@
       }
     }
 
-    .get-started {
-      width: 200px;
-      padding: 9px 32px;
-      border-radius: 10px;
-      background: _palette(bg);
-      font-size: 18px;
-      color: _palette(primary-blue);
-      margin-top: 40px;
-      border: 0;
-      height: 60px;
-
-      span {
-        font-family: _palette(base-font);
-      }
+    .request-demo-btn{
+      background: _palette(primary-blue);
     }
-  }
-
-  @media only screen and (max-width: 1399.5px) {
-    margin: 20px;
   }
 }
 
@@ -1370,8 +1382,7 @@
   margin-top: 100px !important;
   h2{
     margin-bottom: 40px;
-    font-size: 40px;
-    color: _palette(dark-blue);
+    font-size: 36px;
   }
   .program-wrapper {
     .category {
@@ -1441,18 +1452,17 @@
     }
 
     .slick-prev {
-      left: -10px;
+      left: -15px;
       display: block !important;
     }
 
     .slick-next {
-      right: -10px;
+      right: -15px;
       display: block !important;
     }
   }
-
-  @media only screen and (max-width: 1399.5px) {
-    margin: 20px;
+  @media (max-width: 769px) {
+    margin-top: 80px !important;
   }
 }
 
