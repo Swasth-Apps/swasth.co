@@ -10,6 +10,7 @@ import {CheckOutlined} from "@ant-design/icons";
 import Slider from "./common/Slider";
 import {Link} from "gatsby";
 import CLImage from "../../helper/CLImage";
+import RequestDemoModal from "../RequestDemoModal";
 
 const ResilifyScreen = () => {
     const p = useSelector(state => state.commonData);
@@ -80,9 +81,9 @@ const ResilifyScreen = () => {
                         <li className="para-text"><CheckOutlined /> Watch on your desktop, phone, or TV</li>
                         <li className="para-text"><CheckOutlined /> Available audio-only lessons</li>
                     </ul>
-                    <button className='request-demo-btn' style={{marginBottom: 20}}>
+                    <RequestDemoModal>
                         Get Started
-                    </button>
+                    </RequestDemoModal>
                 </div>
             </div>
             <div className="explore-more">

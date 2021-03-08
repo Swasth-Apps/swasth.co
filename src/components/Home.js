@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {Col, Row} from "antd";
 import {Link} from "gatsby";
 import bannerGraphic from "../assets/images/home-woman.jpeg";
@@ -8,8 +8,18 @@ import SelfHelpImg from "../assets/images/Self-Health-Coach-Section.png";
 import ProgramAdapts from "../assets/images/pexels-kaboompics-com-6335.jpg";
 import {ArrowRightOutlined} from "@ant-design/icons";
 import RequestDemoModal from "./RequestDemoModal";
+import MobileGraphic from "../assets/images/MobileView.png";
 
 const Home = () => {
+
+    const [isMobile, setIsMobile] = useState(false);
+    useEffect(() => {
+        setIsMobile(window.innerWidth < 768);
+        window.addEventListener("resize", () => {
+            setIsMobile(window.innerWidth < 768)
+        })
+    }, []);
+
     return (
         <div className="home-page-overview-container">
             <div className="home-page-overview">
@@ -66,7 +76,7 @@ const Home = () => {
                     <Row className="align-center" style={{marginTop: 20}}>
                         <img
                             className='custom-image'
-                            src={ComprehensiveHealth}
+                            src={isMobile ? MobileGraphic : ComprehensiveHealth}
                             alt='Therapy'
                         />
                     </Row>
