@@ -116,7 +116,50 @@
   }
 }
 
+
+.coaching-program-collapsible {
+  .ant-collapse-header {
+    p {
+      color: _palette(primary-blue) !important;
+    }
+
+    svg {
+      fill: _palette(primary-blue) !important;
+    }
+  }
+
+  .ant-collapse-item-active {
+    border: 1px solid _palette(primary-blue);
+
+    .ant-collapse-content {
+      border-bottom: 1px solid _palette(primary-blue);
+    }
+  }
+}
+
 .coaching-program-collapse {
+  display: flex;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+  padding: 15px;
+
+  .sessions-section {
+    width: 50%;
+    flex: 0 0 50%;
+    padding: 10px;
+
+    .session-sequence {
+      color: _palette(blue-color);
+    }
+
+    @media (max-width: 600px) {
+      width: 100%;
+      flex: 0 0 100%;
+    }
+  }
+  @media (max-width: 600px) {
+    padding: 15px 0px;
+  }
   .ant-tabs-nav-wrap {
     background: _palette(bg);
   }
@@ -579,9 +622,11 @@
   .keen-slider__slide {
     flex: 0 0 33%;
     padding: 15px 10px;
-    .animated{
+
+    .animated {
       height: 100%;
     }
+
     &:hover {
       color: inherit !important;
     }
@@ -687,6 +732,7 @@
     margin-bottom: 40px;
     justify-content: space-between;
     padding: 50px 0px;
+
     .card-row {
       justify-content: space-between;
     }
@@ -716,26 +762,26 @@
     }
 
     @media only screen and (min-width: 770px) and (max-width: 1200px) {
-      .video-img{
-          width: 100% !important;
+      .video-img {
+        width: 100% !important;
       }
-      .ant-col{
+      .ant-col {
         width: 50% !important;
       }
     }
     @media only screen and (max-width: 769px) {
       padding: 20px 0px;
       flex-direction: column-reverse;
-      .video-img{
+      .video-img {
         margin-bottom: 40px;
         width: 100% !important;
       }
-      .ant-col{
+      .ant-col {
         width: 100% !important;
       }
     }
 
-    }
+  }
 
   .banner-section {
     background: #2a3c5f;
@@ -761,10 +807,10 @@
     }
 
     @media screen and (max-width: 769px) {
-      .desc-view{
+      .desc-view {
         text-align: left;
       }
-      .tab-view{
+      .tab-view {
         padding: 20px 0px 0px !important;
       }
     }
@@ -844,16 +890,17 @@
     }
 
     @media screen and (max-width: 769px) {
-     padding-top: 50px;
-      .how-it-works-section{
+      padding-top: 50px;
+      .how-it-works-section {
         margin-top: 0px;
-        .sequence-sections{
-          .section{
+
+        .sequence-sections {
+          .section {
             padding: 0px 0px 20px;
           }
         }
       }
-      #wrapper{
+      #wrapper {
         padding-bottom: 0px;
       }
     }
@@ -898,7 +945,7 @@
         height: 150px;
         margin-right: 20px;
         border-radius: 50% 0 50% 50%;
-        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
       }
 
 
