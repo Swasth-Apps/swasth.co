@@ -21,11 +21,11 @@ class Profile extends React.Component {
         });
         Amplify.configure({
             API: {
-                graphql_endpoint: graphql_endpoint.COACHING_DEV_MARKETING,
+                graphql_endpoint: graphql_endpoint.COACHING_MARKETING,
             },
         });
         API.graphql(graphqlOperation(getProviderSlug, {slug: path}), {
-            "x-api-key": graphql_endpoint.COACHING_DEV_API_KEY
+            "x-api-key": graphql_endpoint.COACHING_API_KEY
         })
             .then(({data}) => {
                 this.setState({

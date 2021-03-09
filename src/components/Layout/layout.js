@@ -32,8 +32,8 @@ class Layout extends React.Component {
     componentDidMount() {
 
         const programs = this.props.commonData?.programs;
-        this.props.setResilifyLoading(true);
         if (!programs?.length) {
+            this.props.setResilifyLoading(true);
             Amplify.configure({
                 API: {
                     graphql_endpoint: graphql_endpoint.RESILIFY_TRACKS
@@ -42,7 +42,7 @@ class Layout extends React.Component {
             API.graphql(graphqlOperation(getTracksList), {
                 "x-api-key": graphql_endpoint.TRACK_APIKEY
             }).then(({data}) => {
-                this.props.setPrograms(data?.getTracksList?.filter(({marketingImage}) => marketingImage))
+                this.props.setPrograms(data?.getTracksList?.filter(({marketingImage}) => marketingImage));
                 this.props.setResilifyLoading(false)
             }).catch(error => {
                 this.props.setResilifyLoading(false);
@@ -51,6 +51,7 @@ class Layout extends React.Component {
         }
 
         if (!this.props.commonData?.topics?.length) {
+            this.props.setResilifyLoading(true);
             Amplify.configure({
                 API: {
                     graphql_endpoint: graphql_endpoint.RESILIFY_TRACKS
@@ -60,7 +61,7 @@ class Layout extends React.Component {
                 "x-api-key": graphql_endpoint.TRACK_APIKEY
             }).then(({data}) => {
                 this.props.setTopics(data?.getTopics);
-                if (programs?.programs?.length) {
+                if (programs?.length) {
                     this.props.setResilifyLoading(false)
                 }
             }).catch(error => {

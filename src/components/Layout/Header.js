@@ -70,7 +70,7 @@ const Header = (props) => {
                                 For Everyone</div>
                         </a>
 
-                     {/*   <a
+                        <a
                             rel="noreferrer"
                             className={tab === "professionals" ? "selected-tab" : ""}
                             onClick={() => onChangeTab("professionals")}
@@ -79,7 +79,7 @@ const Header = (props) => {
                                 <img src={ProfessionalActive} />
                                 For Professionals</div>
                         </a>
-*/}
+
                         <a
                             rel="noreferrer"
                             className={tab === "experts" ? "selected-tab" : ""}
@@ -253,9 +253,9 @@ const Header = (props) => {
                                     </div>
                                 </div>
                             </Link>
-                            <a
-                                target="_blank"
-                                href="https://resilify.org"
+                            <Link
+                                to="/resilify"
+
                                 className='menu-content-item'>
                                 <div className="menu-item">
                                     <img src={require("../../assets/images/navbar-icon/resilify.png")}/>
@@ -264,7 +264,7 @@ const Header = (props) => {
                                         <p className="para-book-text">Self Guided Programs </p>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                             <a target="_blank" href="https://clinician.resiliens.com"
                                className='menu-content-item'>
                                 <div className="menu-item">

@@ -39,6 +39,14 @@ const getMarketingData = `query getMarketingData($programId: ID!) {
       education
       experience
     }
+    howItWorks{
+        description
+        cards{
+            image
+            title
+            description
+        }
+    }
     sessions{
       id
       moduleId
@@ -87,11 +95,11 @@ class CoachingProgram extends React.Component{
         });
         Amplify.configure({
             API: {
-                graphql_endpoint: graphql_endpoint.COACHING_DEV_MARKETING,
+                graphql_endpoint: graphql_endpoint.COACHING_MARKETING,
             },
         });
         API.graphql(graphqlOperation(getMarketingData, { programId }), {
-            "x-api-key": graphql_endpoint.COACHING_DEV_API_KEY
+            "x-api-key": graphql_endpoint.COACHING_API_KEY
         }).then(({ data }) => {
             this.setState({
                 program: data?.getMarketingData,

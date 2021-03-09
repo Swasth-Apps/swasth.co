@@ -4,6 +4,7 @@ import CoachingComponent from "../../components/Coaching";
 import CoachingOverview from "../../components/Coaching/Overview";
 import ClientsPrograms from "../../components/Coaching/ClientsPrograms";
 import Experts from "../../components/Coaching/Experts";
+import ProfessionalPrograms from "../../components/Coaching/ProfessionalPrograms";
 
 
 class CoachingIndex extends React.Component {
@@ -19,7 +20,7 @@ class CoachingIndex extends React.Component {
         switch (this.state.tab) {
             case "overview": return <CoachingOverview />;
             case "everyone": return <ClientsPrograms />;
-            case "professionals": return <ClientsPrograms />;
+            case "professionals": return <ProfessionalPrograms />;
             case "experts": return <Experts />;
             default: return ;
         }

@@ -20,18 +20,6 @@ const ProgramSession = (props) => {
         }))
     };
 
-    const getRelativePeriod = (period) => {
-        switch (period) {
-            case "DAYS" :
-                return "Day ";
-            case "WEEKS" :
-                return "Week ";
-            case "MONTHS" :
-                return "MONTH ";
-            default :
-                return ""
-        }
-    };
     return (
         <div className="program-sessions" id="faqs">
 

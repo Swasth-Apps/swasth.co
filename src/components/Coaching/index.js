@@ -7,6 +7,7 @@ import ExpertActive from "../../assets/images/coachingTabIcons/experts-active-ic
 import ClientsPrograms from "./ClientsPrograms";
 import Experts from "./Experts";
 import CoachingOverview from "./Overview";
+import ProfessionalPrograms from "./ProfessionalPrograms";
 
 const { TabPane } = Tabs;
 const CoachingComponent = () => {
@@ -40,14 +41,14 @@ const CoachingComponent = () => {
                     </p>} key="2">
                         <ClientsPrograms />
                     </TabPane>
-                   {/* <TabPane tab={<p className={`para-text tab-title ${key !== "3" ? "unselected-tab" : ""}`}>
+                    <TabPane tab={<p className={`para-text tab-title ${key !== "3" ? "unselected-tab" : ""}`}>
                         <img src={ProfessionalActive} />
                         <div className="tab-div-title">
                             For Professionals
                         </div>
                         </p>} key="3">
-                        <ClientsPrograms />
-                    </TabPane>*/}
+                        <ProfessionalPrograms />
+                    </TabPane>
                     <TabPane tab={<p className={`para-text tab-title ${key !== "4" ? "unselected-tab" : ""}`}>
                         <img src={ExpertActive}/>
                         <div className="tab-div-title">

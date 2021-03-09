@@ -579,7 +579,9 @@
   .keen-slider__slide {
     flex: 0 0 33%;
     padding: 15px 10px;
-
+    .animated{
+      height: 100%;
+    }
     &:hover {
       color: inherit !important;
     }
@@ -683,7 +685,8 @@
 .coaching-program-page {
   .video-section {
     margin-bottom: 40px;
-
+    justify-content: space-between;
+    padding: 50px 0px;
     .card-row {
       justify-content: space-between;
     }
@@ -711,7 +714,28 @@
       color: _palette(dark-blue);
       font-size: 40px;
     }
-  }
+
+    @media only screen and (min-width: 770px) and (max-width: 1200px) {
+      .video-img{
+          width: 100% !important;
+      }
+      .ant-col{
+        width: 50% !important;
+      }
+    }
+    @media only screen and (max-width: 769px) {
+      padding: 20px 0px;
+      flex-direction: column-reverse;
+      .video-img{
+        margin-bottom: 40px;
+        width: 100% !important;
+      }
+      .ant-col{
+        width: 100% !important;
+      }
+    }
+
+    }
 
   .banner-section {
     background: #2a3c5f;
@@ -823,6 +847,14 @@
      padding-top: 50px;
       .how-it-works-section{
         margin-top: 0px;
+        .sequence-sections{
+          .section{
+            padding: 0px 0px 20px;
+          }
+        }
+      }
+      #wrapper{
+        padding-bottom: 0px;
       }
     }
 

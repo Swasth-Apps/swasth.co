@@ -3041,7 +3041,10 @@ strong {
 
   .home-page-self-guided {
     border-radius: 0 0 10px 10px;
-    background: rgba(66, 115, 240, 0.70);
+    background: rgba(66,115,240, 0.26);
+    h3,p{
+      color: #2b2b2b !important;
+    }
   }
 
   .home-page-overview-bhp-container {

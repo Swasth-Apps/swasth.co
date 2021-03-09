@@ -5,7 +5,8 @@ import PlaceHolderImg from '../../../assets/images/image-placeholder.png'
 import ReactPlayer from 'react-player';
 import {ClockCircleOutlined, HeartOutlined, UsergroupAddOutlined} from "@ant-design/icons";
 import ProgramSession from "../../ProgramSession";
-import {getImage} from "../../../helper/helper";
+import {getCloudIDFromImageName, getImage} from "../../../helper/helper";
+import CLImage from "../../../helper/CLImage";
 
 class CoachProgram extends React.Component {
     constructor(props) {
@@ -27,57 +28,53 @@ class CoachProgram extends React.Component {
                 >
                     <div className="coaching-program-top-section">
                         <Row className='-row-flex-center card-row video-section'>
-                            <Col md={24}>
-                                <Row className='card-row'>
-                                    <Col md={8} className="content">
-                                        <h3 className='bottom-space base-text program-grounded'>
-                                            {program?.name}
-                                        </h3>
-                                        <div className='para-text black-18-font margin-bottom-25'>
-                                            <p className="width-90 para-text" style={{
-                                                color: "#4F4F4F"
-                                            }}>
-                                                {program?.description}
-                                            </p>
-                                        </div>
-                                        <div className="program-basics">
-                                            <p>
-                                                <UsergroupAddOutlined/>
-                                                <span className="para-text">{program.type}</span>
-                                            </p>
-                                            <p>
-                                                <ClockCircleOutlined/>
-                                                <span className="para-text">
+                                <Col md={8} className="content">
+                                    <h3 className='bottom-space base-text program-grounded'>
+                                        {program?.name}
+                                    </h3>
+                                    <div className='para-text black-18-font margin-bottom-25'>
+                                        <p className="width-90 para-text" style={{
+                                            color: "#4F4F4F"
+                                        }}>
+                                            {program?.description}
+                                        </p>
+                                    </div>
+                                    <div className="program-basics">
+                                        <p>
+                                            <UsergroupAddOutlined/>
+                                            <span className="para-text">{program.type}</span>
+                                        </p>
+                                        <p>
+                                            <ClockCircleOutlined/>
+                                            <span className="para-text">
                                                     {`${program?.duration?.interval} ${program?.duration?.period}`}
                                                 </span>
-                                            </p>
-                                            <p>
-                                                <HeartOutlined/>
-                                                <span className="para-text">
+                                        </p>
+                                        <p>
+                                            <HeartOutlined/>
+                                            <span className="para-text">
                                                     Each skill is evidence based and derived
                                                     from Acceptance Commitment Therapy
                                                 </span>
-                                            </p>
-                                        </div>
-
-                                        <p className="program-price base-text">
-                                            {program.isFree ? "Free" : `$${parseFloat(parseInt(program.payment,10) / 100)}`}
                                         </p>
-                                    </Col>
-                                    <Col md={12} className="-margin-right img-section" style={{textAlign: "center"}}>
-                                        <ReactPlayer
-                                            className='video-img'
-                                            url={program?.featuredVideos?.[0] || "https://www.youtube.com/watch?v=rzqiPaAxbgo&t=97s"}
-                                            fluid={false}
-                                            resizeMode={"contain"}
-                                            controls
-                                            style={{
-                                                height: "100%"
-                                            }}
-                                        />
-                                    </Col>
-                                </Row>
-                            </Col>
+                                    </div>
+
+                                    <p className="program-price base-text">
+                                        {program.isFree ? "Free" : `$${parseFloat(parseInt(program.payment,10) / 100)}`}
+                                    </p>
+                                </Col>
+                                <Col md={12} className="img-section" style={{textAlign: "center"}}>
+                                    <ReactPlayer
+                                        className='video-img'
+                                        url={program?.featuredVideos?.[0] || "https://www.youtube.com/watch?v=rzqiPaAxbgo&t=97s"}
+                                        fluid={false}
+                                        resizeMode={"contain"}
+                                        controls
+                                        style={{
+                                            height: "100%"
+                                        }}
+                                    />
+                                </Col>
                         </Row>
                     </div>
                 </div>
@@ -102,10 +99,7 @@ class CoachProgram extends React.Component {
                                 How it works
                             </p>
                             <p className="para-text desc-view">
-                                The program is skills based. You can start anytime and do the program at your own pace.
-                                For best results, it’s designed to work over 8 weeks.
-                                You’ll learn skills and strategies that you can immediately incorporate in your life. It
-                                takes just 1-2 hours to do per week on average plus practice time.
+                                {program?.howItWorks?.description}
                             </p>
                         </Col>
                     </Row>
@@ -115,54 +109,24 @@ class CoachProgram extends React.Component {
                     >
                         <div className="how-it-works-section">
                             <div className="sequence-sections">
+                                {program?.howItWorks?.cards?.map(card =>
                                 <div className="section">
                                     <div className="card">
-                                        <img src={require("../../../assets/images/coachingProgram/img-thmb1.jpg")}/>
-                                        <p className="base-text title">Watch</p>
+                                        <CLImage
+                                            cloudId={getCloudIDFromImageName(
+                                                card?.image,
+                                                "coaching",
+                                                'png',
+                                            )}
+                                        />
+                                        <p className="base-text title">{card?.title}</p>
                                         <p className="para-text desc">
-                                            From absorbing stories to cool animations, each entertaining week takes
-                                            about 1-2 hours or so to do plus practice time.
+                                           {card?.description}
 
                                         </p>
                                     </div>
                                 </div>
-                                <div className="section">
-                                    <div className="card">
-                                        <img src={require("../../../assets/images/coachingProgram/img-thmb2.jpg")}/>
-
-                                        <p className="base-text title">
-                                            Learn
-                                        </p>
-                                        <p className="para-text desc">
-                                            Easy to do and clearly explained, the skills and strategies you’ll learn are
-                                            scientifically proven to actually work.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="section">
-                                    <div className="card">
-                                        <img src={require("../../../assets/images/coachingProgram/Card-3.jpg")}/>
-
-                                        <p className="base-text title">Practice</p>
-                                        <p className="para-text desc">
-                                            Right from the start, you’ll be able to practice what you learn and feel the
-                                            benefits in your daily life.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="section">
-                                    <div className="card">
-                                        <img src={require("../../../assets/images/coachingProgram/Card-5.jpg")}/>
-
-                                        <p className="base-text title">
-                                            Transform
-                                        </p>
-                                        <p className="para-text desc">
-                                            Week by week, apply easy to learn skills and strategies and move your life
-                                            into fulfilment, meaning and genuine happiness.
-                                        </p>
-                                    </div>
-                                </div>
+                                )}
                             </div>
                         </div>
                     </div>

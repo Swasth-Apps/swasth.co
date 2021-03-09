@@ -41,7 +41,7 @@ const Home = () => {
                                             and scalable.</p>
                                     </div>
 
-                                        <RequestDemoModal />
+                                    <RequestDemoModal/>
                                 </Col>
                                 <Col md={12} className="-margin-right img-section" style={{textAlign: "center"}}>
                                     <img
@@ -182,34 +182,52 @@ const Home = () => {
                     </Row>
                 </div>
 
-                <div className="home-page-overview-bhp-container">
-                        <h2 className="base-text">Coaching Experts</h2>
+            </div>
+            <div className="home-page-overview-bhp-container">
+
+                <div
+                    id='wrapper'
+                    className={'coach-wrapper'}
+                    style={{paddingBottom: 0}}
+                >
+                    <h2 className="base-text">Behavioral Health Professionals</h2>
 
                     <div className="home-page-overview-bhp-flex-section">
                         <div className="sequence-sections">
                             <div className="section">
-                                <img src="https://v1.nitrocdn.com/aDQSgnHktaudvkmeJfPxNoEXBteJYlvY/assets/static/optimized/rev-5de672a/wp-content/uploads/2021/01/hp-personalized-care-Illustration.png"/>
+                                <img
+                                    src={require("../assets/images/Telecommuting.png")}
+                                />
 
-                                <p className="para-medium-text title">The right personalized care in just a few clicks</p>
-                                <p className="para-text text">Expert recommendations, online scheduling, and next-day appointments</p>
+                                <p className="para-medium-text title">The right personalized care in just a few
+                                    clicks</p>
+                                <p className="para-text text">Expert recommendations, online scheduling, and next-day
+                                    appointments</p>
                                 <a href="https://coaching.resiliens.com/" target="_blank" className="para-text">
                                     Our Member Experience <ArrowRightOutlined/>
                                 </a>
                             </div>
                             <div className="section">
-                                <img src="https://v1.nitrocdn.com/aDQSgnHktaudvkmeJfPxNoEXBteJYlvY/assets/static/optimized/rev-5de672a/wp-content/uploads/2021/01/hp-every-need-illustration.png"/>
+                                <img
+                                    src={require("../assets/images/Click_here.png")}
+                                />
 
-                                <p className="para-medium-text title">Effective treatments for every need, from stress to self-harm</p>
-                                <p className="para-text text">Support for mild to complex needs, including children, adults, and couples</p>
+                                <p className="para-medium-text title">Effective treatments for every need, from stress
+                                    to self-harm</p>
+                                <p className="para-text text">Support for mild to complex needs, including children,
+                                    adults, and couples</p>
                                 <a href="https://coaching.resiliens.com/" target="_blank" className="para-text">
                                     Our Care Options <ArrowRightOutlined/>
                                 </a>
                             </div>
                             <div className="section">
-                                <img src="https://v1.nitrocdn.com/aDQSgnHktaudvkmeJfPxNoEXBteJYlvY/assets/static/optimized/rev-5de672a/wp-content/uploads/2021/01/hp-provider-network-illustration.png"/>
+                                <img
+                                    src={require("../assets/images/Group_therapy.png")}
+                                />
 
                                 <p className="para-medium-text title">A superior network of available providers</p>
-                                <p className="para-text text">High-quality coaches, therapists, and physicians curated for your workforce</p>
+                                <p className="para-text text">High-quality coaches, therapists, and physicians curated
+                                    for your workforce</p>
                                 <a href="https://coaching.resiliens.com/" target="_blank" className="para-text">
                                     Our Network <ArrowRightOutlined/>
                                 </a>
@@ -218,37 +236,42 @@ const Home = () => {
                     </div>
 
                     {/* Left: Content and Right:Image */}
-                        <Row className='-row-flex-center card-row bg-img'>
-                            <Col md={24}>
-                                <Row className='card-row padded-view'>
-                                    <Col md={12} className="content">
-                                        <h3 className='bottom-space base-text program-grounded'>
-                                            How Brown Brothers Harriman is Changing the Conversation on Employee Mental Health
-                                        </h3>
-                                        <div className='para-text black-18-font margin-bottom-25'>
-                                            <p className="width-90 para-text">
-                                                Lack of in-network therapists and long wait times led the firm to consider new solutions for their mental health benefits.
-                                                After partnering with Lyra, 100% of BBH members have reported being satisfied or extremely satisfied with their care.
-                                            </p>
-                                        </div>
+                    <Row className='-row-flex-center card-row bg-img'>
+                        <Col md={24}>
+                            <Row className='card-row padded-view'>
+                                <Col md={12} className="content">
+                                    <h3 className='bottom-space base-text program-grounded'>
+                                        How Brown Brothers Harriman is Changing the Conversation on Employee Mental
+                                        Health
+                                    </h3>
+                                    <div className='para-text black-18-font margin-bottom-25'>
+                                        <p className="width-90 para-text">
+                                            Lack of in-network therapists and long wait times led the firm to consider
+                                            new solutions for their mental health benefits.
+                                            After partnering with Lyra, 100% of BBH members have reported being
+                                            satisfied or extremely satisfied with their care.
+                                        </p>
+                                    </div>
 
-                                        <a href="https://coaching.resiliens.com/" target="_blank" className="para-text">
-                                                Read the blog post <ArrowRightOutlined/>
-                                        </a>
-                                    </Col>
-                                    <Col md={10} className="-margin-right img-section" style={{textAlign: "center"}}>
-                                        <img
-                                            className='custom-image'
-                                            src="https://v1.nitrocdn.com/aDQSgnHktaudvkmeJfPxNoEXBteJYlvY/assets/static/optimized/rev-5de672a/wp-content/uploads/2021/01/hp-BBH-case-study-894x1024.png"
-                                            alt='Therapy'
-                                        />
-                                    </Col>
-                                </Row>
-                            </Col>
-                        </Row>
+                                    <a href="https://coaching.resiliens.com/" target="_blank" className="para-text">
+                                        Read the blog post <ArrowRightOutlined/>
+                                    </a>
+                                </Col>
+                                <Col md={10} className="-margin-right img-section" style={{textAlign: "center"}}>
+                                    <img
+                                        className='custom-image'
+                                        src={require("../assets/images/ce-credits.jpeg")}
+                                        alt='Therapy'
+                                        style={{opacity: 0.75}}
+                                    />
+                                </Col>
+                            </Row>
+                        </Col>
+                    </Row>
+                </div>
 
-
-                        {/* Left: Image and Right: Content*/}
+                {/* Left: Image and Right: Content*/}
+                {/*
                         <Row className='-row-flex-center card-row'>
                             <Col md={24}>
                                 <Row className='card-row padded-view'>
@@ -288,12 +311,11 @@ const Home = () => {
                                 </Row>
                             </Col>
                         </Row>
-
-
-                </div>
+*/}
 
 
             </div>
+
         </div>
     )
 };

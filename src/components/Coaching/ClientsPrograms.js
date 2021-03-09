@@ -24,7 +24,6 @@ class ClientsPrograms extends React.Component {
 
     render() {
         const {coachingLoading,marketingPrograms} = this.props;
-        console.log(marketingPrograms)
         return (
             <>
                 <section className='coaching-programs-banner-section'>
