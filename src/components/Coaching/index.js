@@ -8,7 +8,7 @@ import ClientsPrograms from "./ClientsPrograms";
 import Experts from "./Experts";
 import CoachingOverview from "./Overview";
 import ProfessionalPrograms from "./ProfessionalPrograms";
-
+import Logo from "../../assets/images/coachingProgram/logo.png"
 const { TabPane } = Tabs;
 const CoachingComponent = () => {
     const [key, setKey] = useState("1");
@@ -16,7 +16,7 @@ const CoachingComponent = () => {
         <section className='coaching-section'>
             <div className="coaching-product-section">
                 <h3 className="base-text product-title">
-                    <img src={require("../../assets/images/coachingProgram/logo.png")} />
+                    <img src={Logo} />
                     Coaching</h3>
             </div>
                 <Tabs

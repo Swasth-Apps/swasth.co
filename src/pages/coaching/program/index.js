@@ -68,17 +68,11 @@ const getMarketingData = `query getMarketingData($programId: ID!) {
   }
 }`;
 
-if (typeof window === 'undefined') {
-    global.window = {
-        location: {}
-    }
-}
-
 class CoachingProgram extends React.Component{
     constructor(props) {
         super(props);
-        const urlParams = new URLSearchParams(window.location.search);
-        const programId = urlParams.get('program');
+        const urlParams = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : null;
+        const programId = urlParams?.get('program');
         this.state = {
             program: {},
             programId,

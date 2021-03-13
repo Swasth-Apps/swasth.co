@@ -6,6 +6,9 @@ import Program from "../Program";
 import {Link} from "gatsby";
 import {useSelector} from "react-redux";
 import Loader from "../Loader";
+import AppStoreIcon from "../../assets/images/app-store.png"
+import PlayStoreIcon from "../../assets/images/play-store.png"
+import ResiliensWithDevices from "../../assets/images/resiliens_with_devices.png"
 
 const TopicSection = props => {
     const loading = useSelector(state => state.commonData.resilifyLoading);
@@ -60,14 +63,14 @@ const TopicSection = props => {
                                     <li className="para-text">New programs added every month</li>
                                 </ul>
                                 <div className="apps">
-                                    <img src={require("../../assets/images/app-store.png")}/>
-                                    <img src={require("../../assets/images/play-store.png")}/>
+                                    <img src={AppStoreIcon}/>
+                                    <img src={PlayStoreIcon}/>
                                 </div>
                                 {/*<Button className="join-program-btn para-text" onClick={() => scrollToDiv("#topic-tabs")}>Browse Programs</Button>*/}
                             </div>
                         </div>
                         <div className="image">
-                            <img src={require("../../assets/images/resiliens_with_devices.png")}/>
+                            <img src={ResiliensWithDevices}/>
                         </div>
                     </div>
                 </div>

@@ -9,7 +9,10 @@ import ProgramAdapts from "../assets/images/pexels-kaboompics-com-6335.jpg";
 import {ArrowRightOutlined} from "@ant-design/icons";
 import RequestDemoModal from "./RequestDemoModal";
 import MobileGraphic from "../assets/images/MobileView.png";
-
+import Telecommuting from "../assets/images/Telecommuting.png"
+import ClickHere from "../assets/images/Click_here.png"
+import GroupTherapy from "../assets/images/Group_therapy.png"
+import CeCredits from "../assets/images/ce-credits.jpeg"
 const Home = () => {
 
     const [isMobile, setIsMobile] = useState(false);
@@ -196,7 +199,7 @@ const Home = () => {
                         <div className="sequence-sections">
                             <div className="section">
                                 <img
-                                    src={require("../assets/images/Telecommuting.png")}
+                                    src={Telecommuting}
                                 />
 
                                 <p className="para-medium-text title">Live Courses from leading experts in evidence-based modalities</p>
@@ -204,7 +207,7 @@ const Home = () => {
                             </div>
                             <div className="section">
                                 <img
-                                    src={require("../assets/images/Click_here.png")}
+                                    src={ClickHere}
                                 />
 
                                 <p className="para-medium-text title">Interactive programs to further hone your therapeutic skills</p>
@@ -212,7 +215,7 @@ const Home = () => {
                             </div>
                             <div className="section">
                                 <img
-                                    src={require("../assets/images/Group_therapy.png")}
+                                    src={GroupTherapy}
                                 />
 
                                 <p className="para-medium-text title">An extensive network of like-minded practictioners</p>
@@ -243,7 +246,7 @@ const Home = () => {
                                 <Col md={10} className="-margin-right img-section" style={{textAlign: "center"}}>
                                     <img
                                         className='custom-image'
-                                        src={require("../assets/images/ce-credits.jpeg")}
+                                        src={CeCredits}
                                         alt='Therapy'
                                         style={{opacity: 0.75}}
                                     />

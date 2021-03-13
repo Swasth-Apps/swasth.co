@@ -1,4 +1,7 @@
 import graphql_endpoint from '../aws-appsync-url'
+import Tirch from "../assets/images/experts/tirch.jpeg"
+import Philip from "../assets/images/experts/philip.jpg"
+import Yotam from "../assets/images/experts/yotam.png"
 
 export const getProgramName = name => name?.split(" ")?.join("-")?.toLowerCase();
 
@@ -184,19 +187,19 @@ export const lifeCoach=[
 
 export const expertsData = [{
   name:"Dennis Tirch",
-  img:require("../assets/images/experts/tirch.jpeg"),
+  img:{Tirch},
   description:"Dr Dennis Tirch founded the USA’s Center for Compassion Focused Therapy and is current President of The Compassionate Mind Foundation USA. He is in demand for international workshops and invited speeches.",
   expertise: "Founder of The Center for Compassion Focused Therapy",
   "slug":"dennis-tirch"
 },{
   name:"Philip Zimbardo",
-  img:require("../assets/images/experts/philip.jpg"),
+  img:{Philip},
   description:"Dr Philip Zimbardo is one of the most well known psychologists of the second half of the twentieth century. Best known for the Stanford Prison Experiment of 1971, his research has covered the psychology of evil, cult behavior, shyness and heroism.",
   expertise: "Emeritus Professor of Psychology at Stanford University and President of the Heroic Imagination Project",
   "slug":"philip-zimbardo"
 },{
   name:"Dr. Yotam Heineberg",
-  img:require("../assets/images/experts/yotam.png"),
+  img:{Yotam},
   description:"After completing his doctorate at PGSP-Stanford Consortium, he did his post-doctoral training and acted as a healthcare Fellow at Stanford University (CCARE) where he developed various programs focused on resilience, team building and compassion.",
   expertise: "Clinical psychologist and a clinical faculty member at Palo Alto University",
   "slug":"yotam-heineberg"

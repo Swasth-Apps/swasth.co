@@ -2,6 +2,9 @@ import React from "react";
 import {Col, Row} from "antd";
 import {ArrowRightOutlined} from "@ant-design/icons";
 import bannerGraphic from "../../assets/images/coaching-woman.jpeg";
+import Care from "../../assets/images/overview/care.jpg"
+import Coaching from "../../assets/images/coachingProgram/coaching.png"
+import CoachingMobile from "../../assets/images/coachingProgram/coaching-mobile.png"
 
 const CoachingOverview = () => {
     return (
@@ -70,7 +73,7 @@ const CoachingOverview = () => {
                         </div>
                     </div>
                     <div className="divider"/>
-                    <img src={require("../../assets/images/overview/care.jpg")} className="section-img"/>
+                    <img src={Care} className="section-img"/>
                 </div>
 {/*
                 <div className="coaching-overview-choose-section">
@@ -132,7 +135,7 @@ const CoachingOverview = () => {
                                 </Col>
                                 <Col md={12} className="-margin-right img-section" style={{textAlign: "center"}}>
                                     <img className='custom-image'
-                                         src={require("../../assets/images/coachingProgram/coaching.png")}
+                                         src={Coaching}
                                          alt='Therapy'/>
                                 </Col>
                             </Row>
@@ -147,7 +150,7 @@ const CoachingOverview = () => {
                                 <Col md={12} className="-margin-right img-section" style={{textAlign: "center"}}>
                                     <img
                                         className='custom-image'
-                                        src={require("../../assets/images/coachingProgram/coaching-mobile.png")}
+                                        src={CoachingMobile}
                                         alt='Therapy'
                                     />
                                 </Col>

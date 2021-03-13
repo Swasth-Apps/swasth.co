@@ -1,6 +1,16 @@
 import React, {Fragment, useEffect, useState} from 'react'
 import {Button} from 'antd'
 import topBg from "../assets/images/about-us-banner-3.jpg";
+import AboutUsMission  from "../assets/images/aboutus-mission.jpg"
+import AboutUsApproach from "../assets/images/about-us-approach.jpg"
+import Gana2 from "../assets/images/gana-2.jpg"
+import Yotam from "../assets/images/yotam.png"
+import Brian from "../assets/images/brian.jpg"
+import Zimbardo from "../assets/images/zimbardo.jpg"
+import Linkedin from "../assets/images/linkedin.png"
+import Website from "../assets/images/website.png"
+import Dennis from "../assets/images/dennis.png"
+import Daniel from "../assets/images/daniel.jpeg"
 //import therapyGraphic from '../assets/images/Therapy-section@3x.png'
 const Home = (props) => {
     const [isMobile, setIsMobile] = useState(false);
@@ -55,14 +65,14 @@ const Home = (props) => {
                         </div>
                     </div>
                     <div className="mission-img">
-                        <img src={require("../assets/images/aboutus-mission.jpg")}/>
+                        <img src={AboutUsMission}/>
                     </div>
                 </div>
             </section>
             <section>
                 <div className="about-us-mission-container about-us-approach-container padding-20" id="ourApproach">
                     <div className="mission-img">
-                        <img src={require("../assets/images/about-us-approach.jpg")}/>
+                        <img src={AboutUsApproach}/>
                     </div>
                     <div className="mission-content">
                         <h2 className="base-text">Our Approach</h2>
@@ -147,7 +157,7 @@ const Home = (props) => {
                 {/*<p>Our technologists, mental health experts, and business leaders driving the strategy behind Resiliens.</p>  */}
                 <div className="leader-section para-text">
                     <div className="user">
-                        <img src={require("../assets/images/gana-2.jpg")}/>
+                        <img src={Gana2}/>
                         <p className="name base-text"> Gana Pemmanda </p>
                         <p className="title para-text">Co-founder & CEO</p>
                         <p className="para-book-text">Gana co-founded Resiliens to transform behavioral health using technology and
@@ -161,7 +171,7 @@ const Home = (props) => {
                             of Pennsylvania.</p>
                     </div>
                     <div className="user">
-                        <img src={require("../assets/images/yotam.png")}/>
+                        <img src={Yotam}/>
                         <p className="name base-text">Dr. Yotam Heineberg </p>
                         <p className="title para-text">Chief Clinical Officer</p>
                         <p className="para-book-text">Yotam leads research, clinician operations and implementation of
@@ -175,7 +185,7 @@ const Home = (props) => {
                             team building and compassion. </p>
                     </div>
                     {<div className="user">
-                        <img src={require("../assets/images/brian.jpg")}/>
+                        <img src={Brian}/>
                         <p className="name base-text"> Brian Thomas </p>
                         <p className="title para-text">Advisor</p>
                         <p className="para-book-text">Brian spent fourteen years as a corporate executive at Equinix where he
@@ -191,26 +201,26 @@ const Home = (props) => {
                 {/*<p>Our technologists, mental health experts, and business leaders driving the strategy behind Resiliens.</p>  */}
                 <div className="leader-section board-member-section para-text">
                     <div className="user">
-                        <img src={require("../assets/images/zimbardo.jpg")}/>
+                        <img src={Zimbardo}/>
                         <p className="name base-text">Dr. Philip Zimbardo </p>
                         <p className="title para-text">Professor Emeritus @ Stanford</p>
                         <p className="para-text social-icons">
                             <a href="https://www.linkedin.com/in/philzimbardo/">
-                                <img src={require("../assets/images/linkedin.png")}/>
+                                <img src={Linkedin}/>
                             </a> <a href="http://www.zimbardo.com/">
-                            <img src={require("../assets/images/website.png")}/>
+                            <img src={Website}/>
                         </a>
                         </p>
                     </div>
                     <div className="user">
-                        <img src={require("../assets/images/dennis.png")}/>
+                        <img src={Dennis}/>
                         <p className="name base-text">Dr. Dennis Tirch </p>
                         <p className="title para-text">Founder @ Center for Compassion Focused Therapy </p>
                         <p className="para-text social-icons">
                             <a href="https://www.linkedin.com/in/dennis-tirch-663420b/">
-                                <img src={require("../assets/images/linkedin.png")}/>
+                                <img src={Linkedin}/>
                             </a> <a href="http://www.mindfulcompassion.com/dr-dennis-tirch">
-                            <img src={require("../assets/images/website.png")}/>
+                            <img src={Website}/>
                         </a>
                         </p>
                     </div>
@@ -220,7 +230,7 @@ const Home = (props) => {
                         <p className="title para-text">TBA</p>
                         <p className="para-text social-icons">
                             <a href="">
-                                <img src={require("../assets/images/linkedin.png")}/>
+                                <img src={Linkedin}/>
                             </a>
                         </p>
                     </div>
@@ -235,22 +245,22 @@ const Home = (props) => {
                         </p>
                     </div> */}
                     <div className="user">
-                        <img src={require("../assets/images/brian.jpg")}/>
+                        <img src={Brian}/>
                         <p className="name base-text">Brian Thomas</p>
                         <p className="title para-text">Business Executive</p>
                         <p className="para-text social-icons">
                             <a href="https://www.linkedin.com/in/brianthomas70/">
-                                <img src={require("../assets/images/linkedin.png")}/>
+                                <img src={Linkedin}/>
                             </a>
                         </p>
                     </div>
                     <div className="user">
-                        <img src={require("../assets/images/daniel.jpeg")}/>
+                        <img src={Daniel}/>
                         <p className="name base-text">Daniel Blanaru</p>
                         <p className="title para-text">Executive @ Hippo Insurance</p>
                         <p className="para-text social-icons">
                             <a href="https://www.linkedin.com/in/danielblanaru/">
-                                <img src={require("../assets/images/linkedin.png")}/>
+                                <img src={Linkedin}/>
                             </a>
                         </p>
                     </div>
@@ -265,22 +275,22 @@ const Home = (props) => {
                         </p>
                     </div> */}
                     <div className="user">
-                        <img src={require("../assets/images/gana-2.jpg")}/>
+                        <img src={Gana2}/>
                         <p className="name base-text"> Gana Pemmanda </p>
                         <p className="title para-text">Co-founder & CEO</p>
                         <p className="para-text social-icons">
                             <a href="https://www.linkedin.com/in/ganapemmanda/">
-                                <img src={require("../assets/images/linkedin.png")}/>
+                                <img src={Linkedin}/>
                             </a>
                         </p>
                     </div>
                     <div className="user">
-                        <img src={require("../assets/images/yotam.png")}/>
+                        <img src={Yotam}/>
                         <p className="name base-text">Dr. Yotam Heineberg </p>
                         <p className="title para-text">Chief Clinical Officer</p>
                         <p className="para-text social-icons">
                             <a href="">
-                                <img src={require("../assets/images/linkedin.png")}/>
+                                <img src={Linkedin}/>
                             </a>
                         </p>
                     </div>

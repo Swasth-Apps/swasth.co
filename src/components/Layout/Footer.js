@@ -1,8 +1,13 @@
 import React, {useState} from 'react'
 import resilienceLogo from '../../assets/images/Resiliens-footer-Logo.png'
 import unitedStates from '../../assets/images/united-states.png'
+import FBIcon from "../../assets/images/fb-icon.png";
 import {Link} from 'gatsby'
 import {Col, Row} from 'antd'
+import TopBg from "../../assets/images/top-bg.png"
+import TwitterIcon from "../../assets/images/twitter-icon.png"
+import InstagramIcon from "../../assets/images/instagram-icon.png"
+import YoutubeIcon from "../../assets/images/youtube-icon.png"
 
 const Footer = (props) => {
     // const [modal, setModal] = useState(false);
@@ -10,7 +15,7 @@ return(
     <footer
         id={'footer'}
         style={{paddingTop: 100,
-            backgroundImage: `url(${require("../../assets/images/top-bg.png")})`,
+            backgroundImage: `url(${TopBg})`,
             backgroundSize: "cover"
         }}
         // style={props.hideFooter ? { height: 550 } : null}
@@ -36,13 +41,13 @@ return(
                                 </p>
                                 <div className="media" style={{marginTop: 15}}>
                                     <a href="https://www.facebook.com/swasthco/"
-                                       target="_blank"><img src={require("../../assets/images/fb-icon.png")}/></a>
+                                       target="_blank"><img src={FBIcon}/></a>
                                     <a href="https://www.twitter.com/swasthapps/"
-                                       target="_blank"><img src={require("../../assets/images/twitter-icon.png")}/></a>
+                                       target="_blank"><img src={TwitterIcon}/></a>
                                     <a href="https://www.instagram.com/swasthapps/"
-                                       target="_blank"><img src={require("../../assets/images/instagram-icon.png")}/></a>
+                                       target="_blank"><img src={InstagramIcon}/></a>
                                     <a href="https://www.youtube.com/channel/UCtM20mp-kA1xkKdWA5Q-9KA"
-                                       target="_blank"><img src={require("../../assets/images/youtube-icon.png")}/></a>
+                                       target="_blank"><img src={YoutubeIcon}/></a>
                                 </div>
                             </div>
 
