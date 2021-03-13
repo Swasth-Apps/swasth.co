@@ -1,50 +1,51 @@
 .about-us-banner-section {
+  transition: filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
   position: relative;
-  //background: url("/img/about-us-bg.png");
-  //background: url("/img/purple_yellow_gradient.jpg");
-  background-color: _palette(primary-blue);
-  height: 500px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  background-attachment: fixed;
   width: 100%;
+  background: #754af61f;
 
-  .overlay-class{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #754af6;
-    opacity: 0.6;
-  }
-
-  .about-us-banner-content {
-    max-width: 49em;
-    text-align: center;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-
-    .-highlighted-text{
-      background-color: #fff;
-      color: #4273f0;
-      padding: 0 10px;
+  // .overlay-class{
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   background-color: _palette(primary-blue);
+  //   opacity: 0.6;
+  // }
+  .bg-image-container{
+    &:before {
+      background: url("/img/Coaching-bg.png") bottom center no-repeat;
+      transform: translateX(20%);
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
     }
-    h2, h4 {
+
+    img {
+      max-width: 420px;
+      margin-bottom: -50px;
+      border-radius: 10px;
+    }
+  
+    .-highlighted-text{
+      color: _palette(primary-blue);
+      font-weight: bold;
+    }
+    h2, h3 {
       //color: #341f88;
-      color: white;
       z-index: 1;
       margin-top: 0px;
 
     }
-
-    h2{
-      font-size: 40px;
+    .base-text{
+      color: _palette(bg-alt);
+    }
+    h3{
+      font-size: 50px;
       line-height: 60px;
     }
 
@@ -58,7 +59,7 @@
         color: _palette(bg-color);
       }
     }
-  }
+}
 }
 
 .about-us-tabs-container {
@@ -118,55 +119,74 @@
   }
 }
 
-.about-us-mission-container {
-  max-width: 65em;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0;
-
-  .mission-content {
-    width: 50%;
-
-    h2 {
-      //font-weight: 600;
-      font-size: 40px;
-      margin-bottom: 20px;
-      color: #4273f0;
-    }
-
-    div {
-      font-size: 18px;
-    }
-  }
-
-  .mission-img {
-    width: 50%;
-
-    img {
-      width: 100%;
-    }
-  }
-
-  @media screen and (max-width: 767px) {
-    padding: 40px 10px;
-    display: block;
-    .mission-content {
-      margin-bottom: 10px;
-      width: 100%;
-    }
-    .mission-img{
-      width: 100%;
-    }
-  }
+.mission-bg{
+  background: rgba(66, 115, 240, 0.85);
 }
-.about-us-approach-container{
-  @media screen and (max-width: 767px) {
+  .about-us-mission-container {
+    max-width: 65em;
+    margin: auto;
     display: flex;
-    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    color: #FFF;
+    .mission-content {
+      width: 50%;
+
+      h2 {
+        //font-weight: 600;
+        font-size: 40px;
+        margin-bottom: 20px;
+        color: #FFF;
+      }
+
+      div {
+        font-size: 18px;
+      }
+    }
+
+    .mission-img {
+      width: 50%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      padding: 40px 10px;
+      display: block;
+      .mission-content {
+        margin-bottom: 10px;
+        width: 100%;
+      }
+      .mission-img{
+        width: 100%;
+      }
+    }
+  }
+.approach-bg{
+  background: rgba(66, 115, 240, 0.26);
+  
+
+  .about-us-approach-container{
+   
+  .ml-2{
+    margin-left: 20px;
+    .base-text{
+      color: _palette(primary-blue);
+    }
+    .para-text{
+      color: #000;  
+    }
+  }
+    @media screen and (max-width: 767px) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
 }
+
 .about-us-prob-sol{
   display: flex;
 
@@ -292,7 +312,7 @@
 
   h2{
     //font-weight: 600;
-    color: #4273f0;
+    color: _palette(primary-blue);
     margin-bottom: 10px;
     font-size: 40px;
   }
@@ -308,6 +328,12 @@
     img{
       width: 75%;
       border-radius: 50%;
+    }
+    .section-border{
+      flex: 0 0 33%;
+      padding: 0 30px 20px 30px;
+      border-right: 1px solid #6b6b6b3d;
+      border-bottom: 1px solid #6b6b6b3d;
     }
     .user{
       width: 33%;

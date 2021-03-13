@@ -225,7 +225,7 @@ const Home = () => {
                     </div>
 
                     {/* Left: Content and Right:Image */}
-                    <Row className='-row-flex-center card-row bg-img'>
+                    <Row className='-row-flex-center card-row bg-img' style={{marginBottom: 150}}>
                         <Col md={24}>
                             <Row className='card-row padded-view'>
                                 <Col md={12} className="content">

@@ -1,8 +1,9 @@
 import React, {Fragment, useEffect, useState} from 'react'
-import {Button} from 'antd'
+import {Button,Row,Col} from 'antd'
 import topBg from "../assets/images/about-us-banner-3.jpg";
 import AboutUsMission  from "../assets/images/aboutus-mission.jpg"
 import AboutUsApproach from "../assets/images/about-us-approach.jpg"
+import bannerGraphic from "../assets/images/aboutUs.jpeg";
 import Gana2 from "../assets/images/gana-2.jpg"
 import Yotam from "../assets/images/yotam.png"
 import Brian from "../assets/images/brian.jpg"
@@ -29,20 +30,33 @@ const Home = (props) => {
 
     return (
         <Fragment>
-            <section
-                className='about-us-banner-section'
-                style={{background: `url(${topBg}) no-repeat center center fixed`, backgroundSize: "cover"}}
-            >
-                <div className="overlay-class" />
-                <div className="about-us-banner-content padding-20">
-                    <h2 className="base-text">We are bringing <span
-                        className="-highlighted-text">Evidence-based </span><br />Behavioral Healthcare to everyone.</h2>
-                    {/*<h4>
-                        Join us in building a healthy world
-                    </h4>
-                    <Button className="-btn-primary"> See open positions </Button>   */}
+            <div className="about-us-banner-section">
+                <div
+                    id='wrapper'
+                    className={'coach-wrapper'}
+                    style={{paddingBottom: 0}}
+                >
+                    <Row className='-row-flex-center card-row bg-image-container'>
+                        <Col md={24}>
+                            <Row className='card-row'>
+                                <Col md={12} className="content">
+                                <h3 className='bottom-space base-text program-grounded'>
+                                        We are bringing <br /><span
+                                className="-highlighted-text">Evidence-based </span><br />Behavioral Healthcare <br/> to everyone.
+                                        </h3>
+                                </Col>
+                                <Col md={12} className="-margin-right img-section" style={{textAlign: "center"}}>
+                                <img className='custom-image'
+                                            src={bannerGraphic}
+                                            alt='Therapy'/>
+                                </Col>
+                            </Row>
+                        </Col>
+                    </Row>
+
                 </div>
-            </section>
+            </div>
+    
             <section className="padding-20">
                 <div className="about-us-tabs-container padding-10">
                     <div className="about-us-tabs">
@@ -55,7 +69,7 @@ const Home = (props) => {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className="mission-bg">
                 <div className="about-us-mission-container padding-20" id="missionStatement">
                     <div className="mission-content">
                         <h2 className="base-text">Our Mission</h2>
@@ -69,12 +83,12 @@ const Home = (props) => {
                     </div>
                 </div>
             </section>
-            <section>
+            <section  className="approach-bg">
                 <div className="about-us-mission-container about-us-approach-container padding-20" id="ourApproach">
                     <div className="mission-img">
                         <img src={AboutUsApproach}/>
                     </div>
-                    <div className="mission-content">
+                    <div className="mission-content ml-2">
                         <h2 className="base-text">Our Approach</h2>
                         <div className="para-text">
                             We focus on evidence-based behavioral health care and psychoeducation, guided by experts and coaches to empower people improve their mental-health.
@@ -156,7 +170,7 @@ const Home = (props) => {
                 <h2 id="leaderTeam" className="base-text">Leadership Team</h2>
                 {/*<p>Our technologists, mental health experts, and business leaders driving the strategy behind Resiliens.</p>  */}
                 <div className="leader-section para-text">
-                    <div className="user">
+                    <div className="user section-border">
                         <img src={Gana2}/>
                         <p className="name base-text"> Gana Pemmanda </p>
                         <p className="title para-text">Co-founder & CEO</p>
@@ -170,7 +184,7 @@ const Home = (props) => {
                             Gana holds a MS in CS from the University of Missouri and a MSE/MBA from Wharton / University
                             of Pennsylvania.</p>
                     </div>
-                    <div className="user">
+                    <div className="user section-border">
                         <img src={Yotam}/>
                         <p className="name base-text">Dr. Yotam Heineberg </p>
                         <p className="title para-text">Chief Clinical Officer</p>
@@ -184,7 +198,7 @@ const Home = (props) => {
                             at Stanford University (CCARE) where he developed various programs focused on resilience,
                             team building and compassion. </p>
                     </div>
-                    {<div className="user">
+                    {<div className="user section-border">
                         <img src={Brian}/>
                         <p className="name base-text"> Brian Thomas </p>
                         <p className="title para-text">Advisor</p>
