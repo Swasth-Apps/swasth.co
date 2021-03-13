@@ -21,7 +21,7 @@ const ResilifyProgram = () => {
     const programs = useSelector(state => state.commonData.programs);
     const loading = useSelector(state => state.commonData.resilifyLoading);
 
-    let slug = typeof window !== 'undefined' ? window.location.pathname.substring('/resilify/program/'.length) : '';
+    let slug = typeof window !== 'undefined' ? window?.location?.pathname?.substring('/resilify/program/'.length) : '';
     slug = slug?.split("/")?.[0];
 
     const program = programs?.find(({slug: s}) => s === slug) || {};

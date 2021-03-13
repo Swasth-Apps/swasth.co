@@ -46,7 +46,7 @@ const CategoryPageScreen = () => {
 
     let topic = null;
 
-    let category = typeof window !== 'undefined' ? window.location.pathname.substring('/resilify/category/'.length) : 'all';
+    let category = typeof window !== 'undefined' ? window?.location?.pathname?.substring('/resilify/category/'.length) : 'all';
     category = category?.split("/")?.[0];
 
     const programs = data?.programs || [];
