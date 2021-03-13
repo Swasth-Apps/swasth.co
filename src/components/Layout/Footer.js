@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import resilienceLogo from '../../assets/images/Resiliens-footer-Logo.png'
 import unitedStates from '../../assets/images/united-states.png'
+import FBIcon from "../../assets/images/fb-icon.png";
 import {Link} from 'gatsby'
 import {Col, Row} from 'antd'
 
@@ -36,7 +37,7 @@ return(
                                 </p>
                                 <div className="media" style={{marginTop: 15}}>
                                     <a href="https://www.facebook.com/swasthco/"
-                                       target="_blank"><img src={require("../../assets/images/fb-icon.png")}/></a>
+                                       target="_blank"><img src={FBIcon}/></a>
                                     <a href="https://www.twitter.com/swasthapps/"
                                        target="_blank"><img src={require("../../assets/images/twitter-icon.png")}/></a>
                                     <a href="https://www.instagram.com/swasthapps/"
