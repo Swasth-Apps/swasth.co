@@ -7,6 +7,7 @@ import {Button, Empty, Popover} from "antd";
 import {scrollToDiv} from "./common/helper";
 import CategoryMobileTabs from "./CategoryMobileTabs";
 import Loader from "../Loader";
+import Logo from "../../assets/images/resilify/logo.png"
 
 const ResilifyProgramsScreen = () => {
     const [showMore, setShowMore] = useState(true);
@@ -32,7 +33,7 @@ const ResilifyProgramsScreen = () => {
                         style={{paddingBottom: 0}}
                     >
                         <Link to="/resilify" className="base-text product-title">
-                            <img src={require("../../assets/images/resilify/logo.png")}/> RESILIFY
+                            <img src={Logo}/> RESILIFY
                         </Link>
                         <div className="resilify-category-tabs">
                             <CategoryTabs topics={topics}/>

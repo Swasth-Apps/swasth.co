@@ -8,6 +8,12 @@ import OverviewActive from "../../assets/images/coachingTabIcons/overview-normal
 import ExpertActive from "../../assets/images/coachingTabIcons/experts-normal-icon.png";
 import EveryoneActive from "../../assets/images/coachingTabIcons/Everyone-normal-icon.png";
 import ProfessionalActive from "../../assets/images/coachingTabIcons/professional-normal-icon.png";
+import Coaching from "../../assets/images/navbar-icon/coaching.png"
+import Resilify from "../../assets/images/navbar-icon/resilify.png"
+import Clinician from "../../assets/images/navbar-icon/clinician.png"
+import AboutUsIcon from "../../assets/images/navbar-icon/about-us-icon.png"
+import PressIcon from "../../assets/images/navbar-icon/press-icon.png"
+
 
 const Header = (props) => {
     const [state, setState] = useState(false);
@@ -127,7 +133,7 @@ const Header = (props) => {
 
                                         <Link to="/coaching" className='menu-content-item'>
                                             <div className="menu-item">
-                                                <img src={require("../../assets/images/navbar-icon/coaching.png")}/>
+                                                <img src={Coaching}/>
                                                 <div className={`menu-content para-text`}>
                                                     <p>Coaching Platform</p>
                                                     <p className="para-book-text">Behavioral Health Coaching</p>
@@ -138,7 +144,7 @@ const Header = (props) => {
                                             to="/resilify"
                                             className='menu-content-item'>
                                             <div className="menu-item">
-                                                <img src={require("../../assets/images/navbar-icon/resilify.png")}/>
+                                                <img src={Resilify}/>
                                                 <div className={`menu-content para-text`}>
                                                     <p>Resilify</p>
                                                     <p className="para-book-text">Self Guided Programs </p>
@@ -148,7 +154,7 @@ const Header = (props) => {
                                         <a target="_blank" href="https://clinician.resiliens.com"
                                            className='menu-content-item'>
                                             <div className="menu-item">
-                                                <img src={require("../../assets/images/navbar-icon/clinician.png")}/>
+                                                <img src={Clinician}/>
                                                 <div className={`menu-content para-text`}>
                                                     <p>Clinician Platform</p>
                                                     <p className="para-book-text">Engage better with Clients</p>
@@ -172,7 +178,7 @@ const Header = (props) => {
                                             className='menu-content-item'>
                                             <div className="menu-item">
                                                 <img
-                                                    src={require("../../assets/images/navbar-icon/about-us-icon.png")}/>
+                                                    src={AboutUsIcon}/>
                                                 <div className={`menu-content para-text`}>
                                                     <p>About Us</p>
                                                     <p className="para-book-text">Learn more about our mission</p>
@@ -183,7 +189,7 @@ const Header = (props) => {
                                             to="/"
                                             className='menu-content-item'>
                                             <div className="menu-item">
-                                                <img src={require("../../assets/images/navbar-icon/press-icon.png")}/>
+                                                <img src={PressIcon}/>
                                                 <div className={`menu-content para-text`}>
                                                     <p>Press</p>
                                                     <p className="para-book-text">Collected press materials</p>
@@ -246,7 +252,7 @@ const Header = (props) => {
                         <div className="header-menu-submenu">
                             <Link to="/coaching" className='menu-content-item'>
                                 <div className="menu-item">
-                                    <img src={require("../../assets/images/navbar-icon/coaching.png")}/>
+                                    <img src={Coaching}/>
                                     <div className={`menu-content para-text`}>
                                         <p>Coaching Platform</p>
                                         <p className="para-book-text">Behavioral Health Coaching</p>
@@ -258,7 +264,7 @@ const Header = (props) => {
 
                                 className='menu-content-item'>
                                 <div className="menu-item">
-                                    <img src={require("../../assets/images/navbar-icon/resilify.png")}/>
+                                    <img src={Resilify}/>
                                     <div className={`menu-content para-text`}>
                                         <p>Resilify</p>
                                         <p className="para-book-text">Self Guided Programs </p>
@@ -268,7 +274,7 @@ const Header = (props) => {
                             <a target="_blank" href="https://clinician.resiliens.com"
                                className='menu-content-item'>
                                 <div className="menu-item">
-                                    <img src={require("../../assets/images/navbar-icon/clinician.png")}/>
+                                    <img src={Clinician}/>
                                     <div className={`menu-content para-text`}>
                                         <p>Clinician Platform</p>
                                         <p className="para-book-text">Engage better with Clients</p>
@@ -285,7 +291,7 @@ const Header = (props) => {
                                 to="/about-us"
                                 className='menu-content-item'>
                                 <div className="menu-item">
-                                    <img src={require("../../assets/images/navbar-icon/about-us-icon.png")}/>
+                                    <img src={AboutUsIcon}/>
                                     <div className={`menu-content para-text`}>
                                         <p>About Us</p>
                                         <p className="para-book-text">Learn more about our mission</p>
@@ -296,7 +302,7 @@ const Header = (props) => {
                                 to="/"
                                 className='menu-content-item'>
                                 <div className="menu-item">
-                                    <img src={require("../../assets/images/navbar-icon/press-icon.png")}/>
+                                    <img src={PressIcon}/>
                                     <div className={`menu-content para-text`}>
                                         <p>Press</p>
                                         <p className="para-book-text">Collected press materials</p>

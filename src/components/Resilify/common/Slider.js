@@ -1,6 +1,8 @@
 import React from "react";
 import {getItemsPerSlider} from "./helper";
 import Slider from "react-slick";
+import RightIcon from "../../../assets/images/right.png"
+import LeftIcon from "../../../assets/images/left.png"
 
 const NextArrow = (props) => {
     const { className, style, onClick } = props;
@@ -10,7 +12,7 @@ const NextArrow = (props) => {
             style={{ ...style}}
             onClick={onClick}
         >
-            <img src={require("../../../assets/images/right.png")} />
+            <img src={RightIcon} />
         </div>
     );
 };
@@ -23,7 +25,7 @@ const PrevArrow = (props) => {
             style={{ ...style}}
             onClick={onClick}
         >
-            <img src={require("../../../assets/images/left.png")} />
+            <img src={LeftIcon} />
         </div>
     );
 };

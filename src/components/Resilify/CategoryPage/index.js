@@ -8,7 +8,7 @@ import Program from "../../Program";
 import {useSelector} from "react-redux";
 import CategoryMobileTabs from "../CategoryMobileTabs";
 import Loader from "../../Loader";
-
+import Logo from "../../../assets/images/resilify/logo.png"
 
 const getCLImageUrl = image => {
     const img = getCloudIDFromImageName(
@@ -70,7 +70,7 @@ const CategoryPageScreen = () => {
                         style={{paddingBottom: 0}}
                     >
                         <Link to="/resilify" className="base-text product-title">
-                            <img src={require("../../../assets/images/resilify/logo.png")}/> RESILIFY
+                            <img src={Logo}/> RESILIFY
                         </Link>
                         <div className="resilify-category-tabs">
                             <CategoryTabs topics={topics} category={category}/>

@@ -2,6 +2,8 @@ import React from "react";
 import {Link} from "gatsby";
 import {generateRandomID} from "../helper";
 import Slider from "react-slick";
+import RightIcon from "../../../../assets/images/right.png"
+import LeftIcon from "../../../../assets/images/left.png"
 
 const CategoryTabs = (props) => {
     const topics = props?.topics || [];
@@ -37,7 +39,7 @@ const NextArrow = (props) => {
             style={{...style}}
             onClick={onClick}
         >
-            <img src={require("../../../../assets/images/right.png")}/>
+            <img src={RightIcon}/>
         </div>
     );
 };
@@ -50,7 +52,7 @@ const PrevArrow = (props) => {
             style={{...style}}
             onClick={onClick}
         >
-            <img src={require("../../../../assets/images/left.png")}/>
+            <img src={LeftIcon}/>
         </div>
     );
 };

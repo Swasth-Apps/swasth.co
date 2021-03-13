@@ -1,7 +1,16 @@
+import Anxiety from "../assets/images/programs/Anxiety.jpg"
+import Depression from "../assets/images/programs/Depression.jpg"
+import EatingDisorder from "../assets/images/programs/Eating-Disorder.jpg"
+import Insomnia from "../assets/images/programs/Insomnia.jpg"
+import PanicDisorder from "../assets/images/programs/Panic-Disorder.jpg"
+import Stress from "../assets/images/programs/Stress.jpg"
+import BipolarDisorder from "../assets/images/programs/Bipolar_Disorder.jpg"
+import SubstanceUse from "../assets/images/programs/Substance-Use.jpg"
+
 export const helpData = [
     {
         title: "Anxiety",
-        image: require("../assets/images/programs/Anxiety.jpg"),
+        image: {Anxiety},
         type: "resilify",
         slug: "anxiety",
         programs: [
@@ -15,7 +24,7 @@ export const helpData = [
         // description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     },{
         title: "Depression",
-        image: require("../assets/images/programs/Depression.jpg"),
+        image: {Depression},
         type: "resilify",
         slug: "depression",
         programs: [
@@ -30,7 +39,7 @@ export const helpData = [
 
     },{
         title: "Eating Disorders",
-        image: require("../assets/images/programs/Eating-Disorder.jpg"),
+        image: {EatingDisorder},
         type: "resilify",
         slug: "eating-disorders",
         programs: [
@@ -45,7 +54,7 @@ export const helpData = [
 
     },{
         title: "Insomnia",
-        image: require("../assets/images/programs/Insomnia.jpg"),
+        image: {Insomnia},
         type: "resilify",
         slug: "insomnia",
         programs: [
@@ -60,7 +69,7 @@ export const helpData = [
 
     },{
         title: "Panic Disorders",
-        image: require("../assets/images/programs/Panic-Disorder.jpg"),
+        image: {PanicDisorder},
         type: "resilify",
         slug: "panic-disorders",
         programs: [
@@ -75,7 +84,7 @@ export const helpData = [
     },
     {
         title: "Stress",
-        image: require("../assets/images/programs/Stress.jpg"),
+        image: {Stress},
         type: "resilify",
         slug: "stress",
         programs: [
@@ -109,7 +118,7 @@ export const helpData = [
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     },  {
         title: "Bipolar Disorders",
-        image: require("../assets/images/programs/Bipolar_Disorder.jpg"),
+        image: {BipolarDisorder},
         type: "resilify",
         slug: "bipolar-disorders",
         programs: [
@@ -123,7 +132,7 @@ export const helpData = [
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     },  {
         title: "Substance Use and Abuse",
-        image: require("../assets/images/programs/Substance-Use.jpg"),
+        image: {SubstanceUse},
         type: "resilify",
         slug: "substance-use-and-abuse",
         programs: [

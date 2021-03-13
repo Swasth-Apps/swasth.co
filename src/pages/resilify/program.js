@@ -10,6 +10,8 @@ import {getParseDetails} from "../../helper/helper";
 import {getCloudIDFromImageName, getCloudIDFromImageURL} from "../../components/Resilify/common/helper";
 import Program from "../../components/Program";
 import Loader from "../../components/Loader";
+import CoachBg from "../../assets/images/resilify/coach-bg.png"
+import VideoIcon from "../../assets/images/video.png"
 
 const {Panel} = Collapse;
 const {TabPane} = Tabs;
@@ -41,7 +43,7 @@ const ResilifyProgram = () => {
                     <div className="banner-img">
                         <div className="program-top-banner"
                              style={{
-                                 background: `url(${require("../../assets/images/resilify/coach-bg.png")}) no-repeat center center fixed`
+                                 background: `url(${CoachBg}) no-repeat center center fixed`
                              }}
                         >
                             <div className="banner-body-section">
@@ -78,7 +80,7 @@ const ResilifyProgram = () => {
                                                                             <ul>
                                                                                 {lessons?.cards?.map(({title}) =>
                                                                                     <li><img
-                                                                                        src={require("../../assets/images/video.png")}/>{title}
+                                                                                        src={VideoIcon}/>{title}
                                                                                     </li>)}
                                                                             </ul> : <ul>
                                                                                 {activities?.map(activity =>
