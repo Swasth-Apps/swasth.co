@@ -19,9 +19,9 @@ class ProfessionalPrograms extends React.Component {
                         <Col md={24} style={{width: '100%'}}>
                             <p style={{textAlign: 'center'}}
                                className='bottom-space base-text tab-view'>
-                                Stop Struggling and Start Living.
+                                Live Programs in Evidence-based modalities
                                 <br/>
-                                Build Genuine Happiness & Lasting Happiness
+                               from world's leading Experts
                             </p>
                         </Col>
                     </Row>

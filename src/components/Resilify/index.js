@@ -4,7 +4,7 @@ import TopicSection from "./TopicSection";
 import {generateRandomID, getCloudIDFromImageName} from "./common/helper";
 import FAQs from "./common/FAQs";
 import {useSelector} from "react-redux";
-import bannerGraphic from "../../assets/images/home-woman.jpeg";
+import bannerGraphic from "../../assets/images/resilify-woman.jpeg";
 import {CheckOutlined} from "@ant-design/icons";
 import Slider from "./common/Slider";
 import {Link} from "gatsby";
@@ -73,12 +73,12 @@ const ResilifyScreen = () => {
                 <div className="section">
                     <h2 className="base-text">Start learning from the best minds now</h2>
                     <ul>
-                        <li className="para-text"><CheckOutlined /> All 100 classes and categories</li>
-                        <li className="para-text"><CheckOutlined /> New classes added every month</li>
-                        <li className="para-text"><CheckOutlined /> Download and watch offline</li>
-                        <li className="para-text"><CheckOutlined /> PDF workbooks for every class</li>
+                        <li className="para-text"><CheckOutlined /> Programs across different categories</li>
+                        <li className="para-text"><CheckOutlined /> New Programs added every month</li>
+                        <li className="para-text"><CheckOutlined /> Learn and Practice at your convenience</li>
+                        <li className="para-text"><CheckOutlined /> Exercises (digitized worksheets)</li>
                         <li className="para-text"><CheckOutlined /> Watch on your desktop, phone, or TV</li>
-                        <li className="para-text"><CheckOutlined /> Available audio-only lessons</li>
+                        <li className="para-text"><CheckOutlined /> Extensive set of tools for your well-being</li>
                     </ul>
                     <RequestDemoModal btnText="Get Started" />
                 </div>
@@ -126,7 +126,7 @@ const ResilifyScreen = () => {
             </div>
             </div>*/}
 
-            <FAQs/>
+          {/*  <FAQs/> */}
         </div>
     </div>;
 

@@ -1,7 +1,7 @@
 import React from "react";
 import {Col, Row} from "antd";
 import {ArrowRightOutlined} from "@ant-design/icons";
-import bannerGraphic from "../../assets/images/home-woman.jpeg";
+import bannerGraphic from "../../assets/images/coaching-woman.jpeg";
 
 const CoachingOverview = () => {
     return (
@@ -23,7 +23,7 @@ const CoachingOverview = () => {
                                         <p className="width-90 para-text">LEARN ABOUT OUR PROGRAMS </p>
                                     </div>
 
-                                    <a href="https://coaching.resiliens.com/" target="_blank">
+                                    <a href="https://www.resiliens.com/coaching" target="_blank">
                                         <button className='request-demo-btn' style={{marginBottom: 20}}>
                                             Request a demo
                                         </button>
@@ -72,7 +72,7 @@ const CoachingOverview = () => {
                     <div className="divider"/>
                     <img src={require("../../assets/images/overview/care.jpg")} className="section-img"/>
                 </div>
-
+{/*
                 <div className="coaching-overview-choose-section">
                     <h2 className="base-text">Choose how and where to meet,<br/> based on your lifestyle</h2>
                     <div className="sequence-sections">
@@ -113,30 +113,22 @@ const CoachingOverview = () => {
                         </div>
                     </div>
                 </div>
-
+*/}
                 <div className="coaching-overview-new-skills-section">
                     <Row className='-row-flex-center card-row bg-img'>
                         <Col md={24}>
                             <Row className='card-row'>
                                 <Col md={12} className="content">
                                     <h3 className='bottom-space base-text program-grounded'>
-                                        Develop new skills to <br/>overcome daily <br/>challenges
+                                        Develop new skills to cope with your challenges
                                     </h3>
                                     <div className='para-text black-18-font margin-bottom-25'>
                                         <p className="width-90 para-text">
-                                            With Lyra, your members receive support beyond 1-1 sessions with their
-                                            provider, as they build and practice resiliency skills to meet the
-                                            challenges of their daily lives. With 24/7 access to personalized digital
-                                            exercises and direct messaging with their provider, members get better
-                                            faster
+                                            With Resiliens' coaching programs, in addition weekly sessions with the program facilitator, members receive support beyond 1-1 sessions with coaches, as they build and practice skills to meet the
+                                            challenges of their daily lives. With 24/7 access to personalized digital exercises and direct messaging with their coaches and peers from the cohort, members get better faster.
                                         </p>
                                     </div>
 
-                                    <a href="https://coaching.resiliens.com/" target="_blank">
-                                        <button className='request-demo-btn' style={{marginBottom: 20}}>
-                                            Learn more about our impact
-                                        </button>
-                                    </a>
                                 </Col>
                                 <Col md={12} className="-margin-right img-section" style={{textAlign: "center"}}>
                                     <img className='custom-image'
@@ -161,19 +153,19 @@ const CoachingOverview = () => {
                                 </Col>
                                 <Col md={12} className="content">
                                     <h3 className='bottom-space base-text program-grounded'>
-                                        Track your progress, <br/> every step of the way
+                                        Intuitive Tracking tools to measure progress
                                     </h3>
                                     <div className='para-text black-18-font margin-bottom-25'>
                                         <p className="width-90 para-text">
-                                            Members complete assessments before, during, and at the completion of care
-                                            to give providers insight into treatment progress and offer population
-                                            insights about how Lyra works for your entire workforce.
+                                            An extensive set of tracking tools for mood, emotions, gratitude checkin, reflection enables members to monitor progress. Further, members
+                                             submit standardized assessments during the program that gives program facilitators and coaches insight into how members are doing over a period of time.
                                         </p>
                                     </div>
-
+{/*
                                     <a href="https://coaching.resiliens.com/" target="_blank" className="para-text">
                                         Our Methodology <ArrowRightOutlined/>
                                     </a>
+*/}                                    
                                 </Col>
 
                             </Row>
@@ -188,7 +180,7 @@ const CoachingOverview = () => {
 
             {/* ****************** For Behavioral Health Professionals *****************  */}
 
-
+{/*
             <div className="coaching-overview-bhp-container">
                 <div
                     id='wrapper'
@@ -197,7 +189,6 @@ const CoachingOverview = () => {
                 >
                 <h2 className="base-text">For Behavioral Health Professionals</h2>
 
-                    {/* Left: Image and Right: Content*/}
                     <Row className='-row-flex-center card-row'>
                         <Col md={24}>
                             <Row className='card-row padded-view'>
@@ -229,7 +220,6 @@ const CoachingOverview = () => {
                         </Col>
                     </Row>
 
-                    {/* Left: Content and Right:Image */}
                     <Row className='-row-flex-center card-row bg-img'>
                         <Col md={24}>
                             <Row className='card-row padded-view'>
@@ -262,7 +252,6 @@ const CoachingOverview = () => {
                     </Row>
 
                     <div className="divider"/>
-                    {/* Left: Image and Right: Content*/}
                     <Row className='-row-flex-center card-row'>
                         <Col md={24}>
                             <Row className='card-row padded-view'>
@@ -294,7 +283,6 @@ const CoachingOverview = () => {
                         </Col>
                     </Row>
 
-                    {/* Left: Content and Right:Image */}
                     <Row className='-row-flex-center card-row bg-img'>
                         <Col md={24}>
                             <Row className='card-row padded-view'>
@@ -361,7 +349,7 @@ const CoachingOverview = () => {
                     </div>
                 </div>
             </div>
-
+*/}
             {/* ****************** For Behavioral Health Professionals *****************  */}
 
         </div>

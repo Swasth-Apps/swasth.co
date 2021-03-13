@@ -31,9 +31,8 @@ class ClientsPrograms extends React.Component {
                         <Col md={24} style={{width: '100%'}}>
                             <p style={{textAlign: 'center'}}
                                className='bottom-space base-text tab-view'>
-                                Stop Struggling and Start Living.
-                                <br/>
-                                Build Genuine Happiness & Lasting Happiness
+                                Programs that help you to stop struggling start living
+                                
                             </p>
                         </Col>
                     </Row>

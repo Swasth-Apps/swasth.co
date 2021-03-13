@@ -190,7 +190,7 @@ const Home = () => {
                     className={'coach-wrapper'}
                     style={{paddingBottom: 0}}
                 >
-                    <h2 className="base-text">Behavioral Health Professionals</h2>
+                    <h2 className="base-text">For Behavioral Health Professionals</h2>
 
                     <div className="home-page-overview-bhp-flex-section">
                         <div className="sequence-sections">
@@ -199,38 +199,24 @@ const Home = () => {
                                     src={require("../assets/images/Telecommuting.png")}
                                 />
 
-                                <p className="para-medium-text title">The right personalized care in just a few
-                                    clicks</p>
-                                <p className="para-text text">Expert recommendations, online scheduling, and next-day
-                                    appointments</p>
-                                <a href="https://coaching.resiliens.com/" target="_blank" className="para-text">
-                                    Our Member Experience <ArrowRightOutlined/>
-                                </a>
+                                <p className="para-medium-text title">Live Courses from leading experts in evidence-based modalities</p>
+                                <p className="para-text text">Our courses are designed to have the best learning experience for clinicians. They also teach clinicians to deliver effective treatment by combining technology with evidence based therapies. </p>
                             </div>
                             <div className="section">
                                 <img
                                     src={require("../assets/images/Click_here.png")}
                                 />
 
-                                <p className="para-medium-text title">Effective treatments for every need, from stress
-                                    to self-harm</p>
-                                <p className="para-text text">Support for mild to complex needs, including children,
-                                    adults, and couples</p>
-                                <a href="https://coaching.resiliens.com/" target="_blank" className="para-text">
-                                    Our Care Options <ArrowRightOutlined/>
-                                </a>
+                                <p className="para-medium-text title">Interactive programs to further hone your therapeutic skills</p>
+                                <p className="para-text text">These programs are designed keeping flexibility in mind. The programs have beautiful videos, activities and other tools that created by leading experts and make learning at your convenience enjoyable.</p>
                             </div>
                             <div className="section">
                                 <img
                                     src={require("../assets/images/Group_therapy.png")}
                                 />
 
-                                <p className="para-medium-text title">A superior network of available providers</p>
-                                <p className="para-text text">High-quality coaches, therapists, and physicians curated
-                                    for your workforce</p>
-                                <a href="https://coaching.resiliens.com/" target="_blank" className="para-text">
-                                    Our Network <ArrowRightOutlined/>
-                                </a>
+                                <p className="para-medium-text title">An extensive network of like-minded practictioners</p>
+                                <p className="para-text text">When you join the Resiliens network, you become a part of a community of clinicians, coaches and physicians who have a deep-rooted interest or expertise in evidence-based therapy.</p>
                             </div>
                         </div>
                     </div>
@@ -241,21 +227,18 @@ const Home = () => {
                             <Row className='card-row padded-view'>
                                 <Col md={12} className="content">
                                     <h3 className='bottom-space base-text program-grounded'>
-                                        How Brown Brothers Harriman is Changing the Conversation on Employee Mental
-                                        Health
+                                        Collaborate with us to scale your programs
                                     </h3>
                                     <div className='para-text black-18-font margin-bottom-25'>
                                         <p className="width-90 para-text">
-                                            Lack of in-network therapists and long wait times led the firm to consider
-                                            new solutions for their mental health benefits.
-                                            After partnering with Lyra, 100% of BBH members have reported being
-                                            satisfied or extremely satisfied with their care.
+                                           Create programs on our Behavioral Health Platform that enables you to deliver psychoeducation digitally to clients. These include video-guided lessons, exercises (digitized worksheets), standardized assessments. Further, you can get a 360-degree view of your program participants by having visibility to their data (tracking tools, exercises, sleep etc.) that they have shared.
                                         </p>
                                     </div>
-
-                                    <a href="https://coaching.resiliens.com/" target="_blank" className="para-text">
-                                        Read the blog post <ArrowRightOutlined/>
-                                    </a>
+                                   <Link to="/coaching" target="_blank">
+                                        <button className='request-demo-btn' style={{marginBottom: 20}}>
+                                            Get Started
+                                        </button>
+                                    </Link>
                                 </Col>
                                 <Col md={10} className="-margin-right img-section" style={{textAlign: "center"}}>
                                     <img

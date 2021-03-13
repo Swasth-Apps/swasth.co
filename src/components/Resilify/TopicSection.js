@@ -50,13 +50,13 @@ const TopicSection = props => {
                         <div className="content">
                             <div className="outer-div">
                                 <h3 className="base-text">
-                                   Acess these programs anytime / anywhere
+                                   Access these programs anytime / anywhere
                                     <div className="divider"/>
                                 </h3>
                                 <ul className="para-text">
-                                    <li className="para-text">Download and watch offline</li>
-                                    <li className="para-text">PDF workbooks for every program</li>
-                                    <li className="para-text">Watch on desktop, phone, or TV</li>
+                                    <li className="para-text">Video-guided lessons</li>
+                                    <li className="para-text">Intuitive Activities</li>
+                                    <li className="para-text">Available on desktop, iPhone or Android</li>
                                     <li className="para-text">New programs added every month</li>
                                 </ul>
                                 <div className="apps">
@@ -71,6 +71,9 @@ const TopicSection = props => {
                         </div>
                     </div>
                 </div>
+
+{/*
+                
                 <div className="member-section" style={{
                     background: `url(${require("../../assets/images/resilify/coach-bg.png")}) no-repeat center center fixed`
 
@@ -97,8 +100,10 @@ const TopicSection = props => {
                             </div>
                         </div>)}
                     </Slider>
+                  
                 </div>
-            </div>
+ */}
+            </div>            
         </div>
     )
 };
