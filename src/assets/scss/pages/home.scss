@@ -3023,6 +3023,9 @@ strong {
     background: #4273f0d9;
     padding: 50px 100px;
 
+    .ant-col{
+      margin: 10px 0;
+    }
     .content {
       h3, h6, p, li {
         color: white
@@ -3035,6 +3038,9 @@ strong {
 
       h3, h5 {
         margin-bottom: 30px;
+        @media screen and (max-width: 600px) {
+          margin-bottom: 20px;
+        }
       }
     }
   }
@@ -3049,7 +3055,7 @@ strong {
 
   .home-page-overview-bhp-container {
     margin-top: 100px;
-    padding: 100px 0 0;
+    padding: 100px 0 60px;
     background: rgba(141, 154, 223, 0.1);
     width: 100%;
 

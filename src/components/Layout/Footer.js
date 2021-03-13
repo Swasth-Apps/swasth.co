@@ -18,6 +18,7 @@ return(
             backgroundImage: `url(${TopBg})`,
             backgroundSize: "cover"
         }}
+        className={props.noFooterMargin ? "no-footer-margin": ""}
         // style={props.hideFooter ? { height: 550 } : null}
     >
         {/*<RequestDemoModal modal={modal} onClose={() => setModal(false)}/>*/}

@@ -135,6 +135,7 @@ class Layout extends React.Component {
                     show={this.props.show}
                     hideFooter={this.props.hideFooter}
                     showCustomBottom={this.props.topBg || false}
+                    noFooterMargin={this.props.noFooterMargin}
                 />
             </div>
         )

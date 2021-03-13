@@ -30,7 +30,7 @@
       margin-bottom: -50px;
       border-radius: 10px;
     }
-  
+
     .-highlighted-text{
       color: _palette(primary-blue);
       font-weight: bold;
@@ -64,9 +64,11 @@
 
 .about-us-tabs-container {
   border-bottom: 1px solid #e2e2e2;
+  background: #344356;
   width: 100%;
   text-align: center;
-
+  margin: 0 0 00px 0;
+  padding: 24px 5px;
   .about-us-tabs {
     display: flex;
     justify-content: center;
@@ -78,22 +80,23 @@
 
     h4 {
       font-size: 20px;
-      font-weight: 500;
       margin-bottom: 0;
       padding: 25px 15px;
       cursor: pointer;
       position: relative;
+      font-family: "Airbnb Cereal App Medium";
       a{
-        color: _palette(secondary-color);
+        color: white;
+        font-family: "Airbnb Cereal App Medium";
 
         &:hover{
-          color: _palette(secondary-color) !important;
+          color: white !important;
         }
       }
       &:before {
          background: _palette(secondary-color);
          bottom: 0px;
-         content: "";
+         //content: "";
          height: 5px;
          left: 0;
          opacity: 0;
@@ -123,61 +126,24 @@
   background: rgba(66, 115, 240, 0.85);
 }
   .about-us-mission-container {
-    max-width: 65em;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-    color: #FFF;
-    .mission-content {
-      width: 50%;
-
-      h2 {
-        //font-weight: 600;
-        font-size: 40px;
-        margin-bottom: 20px;
-        color: #FFF;
-      }
-
-      div {
-        font-size: 18px;
-      }
-    }
-
-    .mission-img {
-      width: 50%;
-
-      img {
-        width: 100%;
-      }
-    }
-
-    @media screen and (max-width: 767px) {
-      padding: 40px 10px;
-      display: block;
-      .mission-content {
-        margin-bottom: 10px;
-        width: 100%;
-      }
-      .mission-img{
-        width: 100%;
-      }
+    margin-top: 150px;
+    .custom-image{
+      border-radius: 10px;
     }
   }
 .approach-bg{
   background: rgba(66, 115, 240, 0.26);
-  
+
 
   .about-us-approach-container{
-   
+
   .ml-2{
     margin-left: 20px;
     .base-text{
       color: _palette(primary-blue);
     }
     .para-text{
-      color: #000;  
+      color: #000;
     }
   }
     @media screen and (max-width: 767px) {
@@ -283,17 +249,17 @@
   padding: 40px 0;
   margin-top: 20px;
   text-align: center;
-  background-color: _palette(primary-blue);
-  color: _palette(bg-color);
+  //background-color: _palette(blue-color);
   font-weight: 600;
 
   p{
     margin-bottom: 0px;
     font-size: 40px;
     letter-spacing: 0px;
+    color: #2b2b2b;
   }
   button{
-    background-color: #028598;
+    background-color: _palette(                                                                                                                                                                                       primary-blue)                                                                                                                                                                                       ;
     color: _palette(bg-color);
     font-weight: 600;
     width: 100px;
@@ -305,14 +271,9 @@
 }
 
 .about-us-leadership{
-  padding: 50px 0px;
-  max-width: 65em;
-  margin: auto;
-  margin-top: 50px;
-
   h2{
     //font-weight: 600;
-    color: _palette(primary-blue);
+    color: #2b2b2b !important;
     margin-bottom: 10px;
     font-size: 40px;
   }
@@ -328,6 +289,7 @@
     img{
       width: 75%;
       border-radius: 50%;
+      box-shadow: rgba(0,0,0,0.20) 0 8px 25px 0;
     }
     .section-border{
       flex: 0 0 33%;
@@ -337,6 +299,7 @@
     }
     .user{
       width: 33%;
+      margin-bottom: 40px;
       .name{
         color: #123243;
         //font-weight: 700;
@@ -345,15 +308,20 @@
       }
       .title {
         font-size: 16px;
+        color: _palette(primary-blue);
         //font-weight: 700;
         text-align: center ;
+        margin-bottom: 10px;
+
+      }
+      @media screen and (max-width: 900px) {
+        width: 50%;
       }
       @media screen and (max-width: 600px) {
         width: 100%;
       }
     }
     p{
-      margin-bottom: 10px;
       font-size: 16px;
       text-align: left;
       padding: 0 20px;
@@ -420,7 +388,7 @@
   h3{
     margin-bottom: 10px;
     font-size: 24px;
-    color: #123243;
+    color: _palette(blue-color);
   }
   p{
     font-size: 18px;
@@ -434,6 +402,7 @@
   }
   .support{
     flex: 0 0 45%;
+    margin-bottom: 40px;
   }
   @media screen and (max-width: 500px) {
     .support{
