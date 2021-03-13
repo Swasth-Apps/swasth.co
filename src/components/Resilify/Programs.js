@@ -43,7 +43,7 @@ const ResilifyProgramsScreen = () => {
                 </div>
             </div>
         </div>
-        <section className='coaching-programs-banner-section' style={{marginTop: 30}}>
+        <section className='coaching-programs-banner-section' style={{marginTop: 20}}>
             <Row className='-row-flex-center' id='wrapper'>
                 <Col md={24} style={{width: '100%'}}>
                     <p style={{textAlign: 'center'}}
