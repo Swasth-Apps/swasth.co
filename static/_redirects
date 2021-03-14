@@ -1,6 +1,0 @@
-
-# Primary domain forward
-/ https://resiliens.com 301!
-
-# Catch all forwards
-/* https://resiliens.com 301!
