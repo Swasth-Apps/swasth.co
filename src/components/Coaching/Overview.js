@@ -52,30 +52,36 @@ const CoachingOverview = () => {
                 style={{paddingBottom: 0}}
             >
                 <div className="coaching-overview-access-section">
-                    <h2 className="base-text">Access care through our innovative Coaching Platform</h2>
-                    <div className="divider"/>
-                    <div className="sequence-sections">
-                        <div className="section">
-                            <p className="para-medium-text title">Programs for specific conditions and lifestyle</p>
-                            <p className="para-text desc">The programs are created by experts in evidence-based therapies treating these conditions with peer-reviewed research.</p>
+                    <div>
+                        <h2 className="base-text">Access care through our innovative Coaching Platform</h2>
+                        <div className="divider"/>
+                        <div className="sequence-sections">
+                            <div className="section">
+                                <p className="para-medium-text title">Programs for specific conditions and lifestyle</p>
+                                <p className="para-text desc">The programs are created by experts in evidence-based
+                                    therapies treating these conditions with peer-reviewed research.</p>
+                            </div>
+                            <div className="section">
+                                <p className="para-medium-text title">Supported by licensed clinicians and coaches</p>
+                                <p className="para-text desc">The programs typically run between 6-14 weeks with a
+                                    weekly live session and supported by coaches for continuous support.</p>
+                            </div>
+                            <div className="section">
+                                <p className="para-medium-text title">Digital library to aid skill practice</p>
+                                <p className="para-text desc">Develop skills by accessing a comprehensive library of
+                                    video-guided lessons and exercises that accompany the sessions.</p>
+                            </div>
+                            <div className="section">
+                                <p className="para-medium-text title">Tracking tools to see how you are doing</p>
+                                <p className="para-text desc">You can measure your progress with comprehensive set of
+                                    tools and clinician assessments specific to the condition.</p>
+                            </div>
                         </div>
-                        <div className="section">
-                            <p className="para-medium-text title">Supported by licensed clinicians and coaches</p>
-                            <p className="para-text desc">The programs typically run between 6-14 weeks with a weekly live session and supported by coaches for continuous support.</p>
-                        </div>
-                        <div className="section">
-                            <p className="para-medium-text title">Digital library to aid skill practice</p>
-                            <p className="para-text desc">Develop skills by accessing a comprehensive library of video-guided lessons and exercises that accompany the sessions.</p>
-                        </div>
-                        <div className="section">
-                            <p className="para-medium-text title">Tracking tools to see how you are doing</p>
-                            <p className="para-text desc">You can measure your progress with comprehensive set of tools and clinician assessments specific to the condition.</p>
-                        </div>
+                        <div className="divider"/>
                     </div>
-                    <div className="divider"/>
                     <img src={Care} className="section-img"/>
                 </div>
-{/*
+                {/*
                 <div className="coaching-overview-choose-section">
                     <h2 className="base-text">Choose how and where to meet,<br/> based on your lifestyle</h2>
                     <div className="sequence-sections">
@@ -127,8 +133,12 @@ const CoachingOverview = () => {
                                     </h3>
                                     <div className='para-text black-18-font margin-bottom-25'>
                                         <p className="width-90 para-text">
-                                            With Resiliens' coaching programs, in addition to weekly sessions with experts, members receive support from 1-1 sessions with coaches, as they build and practice skills to meet the
-                                            challenges of their daily lives. With 24/7 access to personalized digital exercises and direct messaging with coaches and peers from the cohort, members get better faster.
+                                            With Resiliens' coaching programs, in addition to weekly sessions with
+                                            experts, members receive support from 1-1 sessions with coaches, as they
+                                            build and practice skills to meet the
+                                            challenges of their daily lives. With 24/7 access to personalized digital
+                                            exercises and direct messaging with coaches and peers from the cohort,
+                                            members get better faster.
                                         </p>
                                     </div>
 
@@ -160,15 +170,18 @@ const CoachingOverview = () => {
                                     </h3>
                                     <div className='para-text black-18-font margin-bottom-25'>
                                         <p className="width-90 para-text">
-                                            An extensive set of tracking tools for mood, emotions, gratitude checkin, reflection enables members to monitor progress. Further, members
-                                             submit standardized assessments during the program that gives program facilitators and coaches insight into how members are doing over a period of time.
+                                            An extensive set of tracking tools for mood, emotions, gratitude checkin,
+                                            reflection enables members to monitor progress. Further, members
+                                            submit standardized assessments during the program that gives program
+                                            facilitators and coaches insight into how members are doing over a period of
+                                            time.
                                         </p>
                                     </div>
-{/*
+                                    {/*
                                     <a href="https://coaching.resiliens.com/" target="_blank" className="para-text">
                                         Our Methodology <ArrowRightOutlined/>
                                     </a>
-*/}                                    
+*/}
                                 </Col>
 
                             </Row>
@@ -180,10 +193,9 @@ const CoachingOverview = () => {
             {/* *********** For Everyone ************ */}
 
 
-
             {/* ****************** For Behavioral Health Professionals *****************  */}
 
-{/*
+            {/*
             <div className="coaching-overview-bhp-container">
                 <div
                     id='wrapper'

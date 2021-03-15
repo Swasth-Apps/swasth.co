@@ -117,10 +117,6 @@
                 letter-spacing: 0.5px;
                 font-family: _font(base-font);
 
-
-                @media only screen and (max-width: 1024.5px) {
-                  font-size: 14px;
-                }
               }
 
               .ant-collapse-header {
@@ -197,10 +193,9 @@
                       margin-bottom: 10px;
                       align-items: center;
                       display: flex;
-                      flex-wrap: wrap;
                       img{
-                        width: 24px;
-                        height: 24px;
+                        width: 30px;
+                        height: 30px;
                         background: white;
                         border-radius: 50px;
                         margin-right: 10px;

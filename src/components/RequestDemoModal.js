@@ -20,11 +20,11 @@ const RequestDemoModal = props => {
             if(!err){
                 Amplify.configure({
                     API: {
-                        graphql_endpoint: graphql_endpoint.RESILIFY,
+                        graphql_endpoint: graphql_endpoint.RESILIFY_TRACKS,
                     },
                 });
                 API.graphql(graphqlOperation(requestDemo,{...values,phone: values?.phone_number?.toString()}),{
-                    "x-api-key" : graphql_endpoint.API_KEY
+                    "x-api-key" : graphql_endpoint.TRACK_APIKEY
                 })
                     .then(({ data }) => {
                         setShowSuccess(true)

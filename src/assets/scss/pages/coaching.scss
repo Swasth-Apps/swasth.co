@@ -279,7 +279,7 @@
         }
 
         .desc {
-          font-size: 16px;
+          font-size: 18px;
         }
       }
     }
@@ -295,6 +295,15 @@
     @media (max-width: 800px) {
       margin-top: 50px;
       padding: 30px;
+      display: flex;
+      flex-direction: column-reverse;
+      img{
+        margin-top: 0px !important;
+        margin-bottom: 40px;
+      }
+      .divider{
+        display: none;
+      }
       h2 {
         font-size: 36px;
         line-height: 45px;
@@ -438,7 +447,7 @@
       .card-row {
         .card-row {
           padding: 40px 0px !important;
-          flex-direction: column-reverse;
+          flex-direction: column;
         }
       }
     }

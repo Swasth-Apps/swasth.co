@@ -225,9 +225,9 @@ const Home = () => {
                     </div>
 
                     {/* Left: Content and Right:Image */}
-                    <Row className='-row-flex-center card-row bg-img' style={{marginBottom: 150}}>
+                    <Row className='-row-flex-center card-row bg-img home-bottom-section' style={{marginBottom: 150}}>
                         <Col md={24}>
-                            <Row className='card-row padded-view'>
+                            <Row className='card-row col-reverse padded-view'>
                                 <Col md={12} className="content">
                                     <h3 className='bottom-space base-text program-grounded'>
                                         Collaborate with us to scale your programs

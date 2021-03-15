@@ -36,7 +36,7 @@ const ResilifyProgram = () => {
     );
 
     return (
-        <Layout>
+        <Layout noFooterMargin>
             <div className="resilify-program-page">
                 {loading ? <Loader/> : <>
 
