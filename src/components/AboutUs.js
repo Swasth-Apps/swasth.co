@@ -12,6 +12,7 @@ import Linkedin from "../assets/images/linkedin.png"
 import Website from "../assets/images/website.png"
 import Dennis from "../assets/images/dennis.png"
 import Daniel from "../assets/images/daniel.jpeg"
+import {Link} from "gatsby";
 //import therapyGraphic from '../assets/images/Therapy-section@3x.png'
 const Home = (props) => {
     const [isMobile, setIsMobile] = useState(false);
@@ -44,34 +45,42 @@ const Home = (props) => {
                 </div>
             </section>*/}
 
-            <div className="home-page-overview-container">
-                <div className="home-page-overview">
-                    <div
-                        id='wrapper'
-                        className={'coach-wrapper'}
-                        style={{paddingBottom: 0}}
-                    >
-                        <Row className='-row-flex-center card-row bg-img'>
-                            <Col md={24}>
-                                <Row className='card-row'>
-                                    <Col md={12} className="content">
-                                        <h3 className='bottom-space base-text program-grounded margin-bottom-25'>
-                                            We are bringing Evidence-based Behavioral
-                                            Healthcare to everyone.
-                                        </h3>
+            <div className="resilify-home-page">
+                <div className="banner-img">
+                    <div className="home-top-banner">
+                        <div className="coaching-overview-container">
+                            <div className="coaching-overview">
+                                <div
+                                    id='wrapper'
+                                    className={'coach-wrapper'}
+                                    style={{paddingBottom: 0}}
+                                >
+                                    <Row className='-row-flex-center card-row bg-img'>
+                                        <Col md={24}>
+                                            <Row className='card-row'>
+                                                <Col md={24} className="content" style={{textAlign: "center"}}>
+                                                    <h3
+                                                        className='bottom-space base-text program-grounded'
+                                                        style={{
+                                                            lineHeight: "65px"
+                                                        }}
+                                                    >
+                                                        We are bringing Evidence-based Behavioral<br/>
+                                                        Healthcare to everyone.
+                                                    </h3>
+                                                </Col>
+                                                <Col md={8} className="-margin-right img-section"
+                                                     style={{textAlign: "center"}}>
+                                                    <div className="division"/>
+                                                </Col>
+                                            </Row>
+                                        </Col>
 
-                                    </Col>
-                                    <Col md={12} className="-margin-right img-section" style={{textAlign: "center"}}>
-                                        <img
-                                            className='custom-image'
-                                            src={bannerGraphic}
-                                            alt='Therapy'
-                                        />
-                                    </Col>
-                                </Row>
-                            </Col>
-                        </Row>
+                                    </Row>
 
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

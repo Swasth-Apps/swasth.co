@@ -238,10 +238,13 @@
     text-align: left;
   }
   .coaching-mobile-header{
+    border-bottom: 1px solid #6b6b6b3d;
+    width: 100%;
     a{
       display: flex !important;
       align-items: center;
       opacity: 0.8;
+      padding-left: 0px;
     }
     img{
       width: 20px;
@@ -2800,7 +2803,7 @@ strong {
       }
       .bg-img{
         img{
-          margin-bottom: 50px;
+          display: none;
         }
       }
     }

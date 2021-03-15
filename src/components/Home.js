@@ -6,13 +6,13 @@ import ComprehensiveHealth from "../assets/images/comprehensiveHealth.png";
 import programs from "../assets/images/Proven-Treatment-Methods-Img.png";
 import SelfHelpImg from "../assets/images/Self-Health-Coach-Section.png";
 import ProgramAdapts from "../assets/images/pexels-kaboompics-com-6335.jpg";
-import {ArrowRightOutlined} from "@ant-design/icons";
 import RequestDemoModal from "./RequestDemoModal";
 import MobileGraphic from "../assets/images/MobileView.png";
 import Telecommuting from "../assets/images/Telecommuting.png"
 import ClickHere from "../assets/images/Click_here.png"
 import GroupTherapy from "../assets/images/Group_therapy.png"
 import CeCredits from "../assets/images/ce-credits.jpeg"
+
 const Home = () => {
 
     const [isMobile, setIsMobile] = useState(false);

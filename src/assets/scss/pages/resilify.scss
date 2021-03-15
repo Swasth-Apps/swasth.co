@@ -44,6 +44,12 @@
         top: 0;
         left: 0;
       }
+
+      @media only screen and (max-width: 769.5px) {
+        img {
+          display: none;
+        }
+      }
     }
 
     .top-section {
@@ -103,6 +109,18 @@
       }
     }
   }
+
+  .coaching-overview-container {
+    .img-section {
+      .division {
+        min-height: 400px;
+        @media (max-width: 769.5px) {
+          display: none;
+        }
+      }
+    }
+  }
+
 }
 
 .banner-nav-btn {
@@ -1525,6 +1543,7 @@
         .custom-image {
           border-radius: 10px;
         }
+
       }
 
       &:before {
@@ -1572,6 +1591,7 @@
 .resilify-category-tabs-more {
   margin-top: -5px;
   display: none;
+
   a {
     padding: 8px 13px 8px 16px;
     color: darken(_palette(primary-blue), 10%);
@@ -1584,6 +1604,7 @@
       color: _palette(bg) !important;
     }
   }
+
   @media only screen and (max-width: 992px) {
     display: block;
   }
@@ -1594,7 +1615,8 @@
     display: flex;
     flex: 0 0 100%;
     flex-wrap: wrap;
-    a{
+
+    a {
       flex: 0 0 33%;
       font-size: 16px;
       padding: 5px;
@@ -1608,11 +1630,13 @@
         flex: 0 0 100%;
       }
     }
+
     .selected-category {
       color: #5019f4;
       background-color: rgba(115, 76, 246, 0.2);
       border-radius: 5px;
       padding: 5px 15px;
+
       &:hover {
         color: darken(_palette(primary-blue), 10%) !important;
       }

@@ -96,14 +96,6 @@ const Header = (props) => {
                                 Experts</div>
                         </a>
                     </a>
-                    <a rel="noreferrer" style={{textAlign: "initial"}}>
-                        <img
-                            className="menu-content"
-                            style={{width: 150, marginBottom: 10}}
-                            src={resilienceDarkLogo}
-                            alt='Home'
-                        />
-                    </a>
                 </>;
             case "resilify":
                 return <div/>;
