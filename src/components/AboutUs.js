@@ -291,7 +291,7 @@ const Home = (props) => {
                                     <p className="para-text social-icons">
                                         <a href="https://www.linkedin.com/in/philzimbardo/">
                                             <img src={Linkedin}/>
-                                        </a> <a href="http://www.zimbardo.com/">
+                                        </a> <a href="https://en.wikipedia.org/wiki/Philip_Zimbardo">
                                         <img src={Website}/>
                                     </a>
                                     </p>

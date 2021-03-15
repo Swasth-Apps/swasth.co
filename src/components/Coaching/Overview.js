@@ -127,8 +127,8 @@ const CoachingOverview = () => {
                                     </h3>
                                     <div className='para-text black-18-font margin-bottom-25'>
                                         <p className="width-90 para-text">
-                                            With Resiliens' coaching programs, in addition weekly sessions with the program facilitator, members receive support beyond 1-1 sessions with coaches, as they build and practice skills to meet the
-                                            challenges of their daily lives. With 24/7 access to personalized digital exercises and direct messaging with their coaches and peers from the cohort, members get better faster.
+                                            With Resiliens' coaching programs, in addition to weekly sessions with experts, members receive support from 1-1 sessions with coaches, as they build and practice skills to meet the
+                                            challenges of their daily lives. With 24/7 access to personalized digital exercises and direct messaging with coaches and peers from the cohort, members get better faster.
                                         </p>
                                     </div>
 
