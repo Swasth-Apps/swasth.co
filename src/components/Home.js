@@ -114,7 +114,7 @@ const Home = () => {
                             <Row className='card-row'>
                                 <Col md={12} className="content">
                                     <h3 className='bottom-space base-text program-grounded'>
-                                        Live Coaching for<br/>Groups and Individuals
+                                        Live Coaching for&nbsp;<br/>Groups and Individuals
                                     </h3>
                                     <p className="para-medium-text width-90" style={{fontSize: 18}}>
                                         We offer effective care programs grounded in proven treatment methods designed

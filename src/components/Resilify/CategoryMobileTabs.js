@@ -27,9 +27,9 @@ const CategoryMobileTabs = (props) => {
                         </div>
                     </div>}
                     overlayClassName='resilify-category-tabs-overlay'
-                    placement='bottomLeft'
+                    // placement='bottomLeft'
                 >
-                    <a className='base-text'>Categories</a>
+                    <p className='base-text'>Categories</p>
                 </Popover>
             </div>
     )
