@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
-import {expertsData} from "../../helper/helper";
+import {expertsData, getCloudIDFromImageName} from "../../helper/helper";
+import CLImage from "../../helper/CLImage";
 
 
 const experts = expertsData;
@@ -18,7 +19,13 @@ class Experts extends React.Component {
                         <Link to={`/expert/${expert.slug}`} className="expert-container">
                             <div className="info">
                                 <div className="img">
-                                    <img src={expert.img}/>
+                                    <CLImage
+                                        cloudId={getCloudIDFromImageName(
+                                            expert.img,
+                                            "coaching",
+                                            'png',
+                                        )}
+                                    />
                                     <div>
                                         <p className="name base-text">{expert.name}</p>
                                         <p className="expertise para-text">{expert.expertise}</p>
