@@ -2,7 +2,6 @@ import React from "react";
 import {Col, Row} from "antd";
 import TopicSection from "./TopicSection";
 import {generateRandomID, getCloudIDFromImageName} from "./common/helper";
-import FAQs from "./common/FAQs";
 import {useSelector} from "react-redux";
 import bannerGraphic from "../../assets/images/resilify-woman.jpeg";
 import {CheckOutlined} from "@ant-design/icons";

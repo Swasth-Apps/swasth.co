@@ -2,7 +2,6 @@ import React from 'react';
 import _ from "lodash";
 import ReactHtmlParser from "react-html-parser";
 import Layout from '../../components/Layout/layout';
-import FAQs from "../../components/Resilify/common/FAQs";
 import CLImage from "../../helper/CLImage";
 import {useSelector} from "react-redux";
 import {Collapse, Tabs} from "antd";
@@ -133,8 +132,8 @@ const ResilifyProgram = () => {
                         )}
                     </div>
                 </div>
-                <div style={{background: "#f9f9f9", padding: "20px 0 20px", marginTop: 50}}>
-                    <FAQs/>
+                <div style={{padding: "20px 0 20px", marginTop: 50}}>
+                    {/*<FAQs/>*/}
                 </div>
             </div>
         </Layout>
