@@ -10,7 +10,7 @@ import {getParseDetails} from "../../helper/helper";
 import {getCloudIDFromImageName, getCloudIDFromImageURL} from "../../components/Resilify/common/helper";
 import Program from "../../components/Program";
 import Loader from "../../components/Loader";
-import CoachBg from "../../assets/images/resilify/coach-bg.png"
+import CoachBg from "../../assets/images/resilify/coach-bg.jpg"
 import VideoIcon from "../../assets/images/video.png"
 
 const {Panel} = Collapse;
