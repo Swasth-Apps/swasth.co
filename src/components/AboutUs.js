@@ -225,7 +225,7 @@ const Home = (props) => {
                         <div className="user">
                             <img src={Gana2}/>
                             <p className="name base-text"> Gana Pemmanda </p>
-                            <p className="title para-text">Co-founder & CEO</p>
+                            <p className="title para-text">Founder & CEO</p>
                             <p className="para-book-text">Gana co-founded Resiliens to transform behavioral health using
                                 technology and
                                 evidence-based
@@ -243,7 +243,7 @@ const Home = (props) => {
                         <div className="user">
                             <img src={Yotam}/>
                             <p className="name base-text">Dr. Yotam Heineberg </p>
-                            <p className="title para-text">Chief Clinical Officer</p>
+                            <p className="title para-text">Co-founder / Chief Clinical Officer</p>
                             <p className="para-book-text">Yotam leads research, clinician operations and implementation
                                 of
                                 evidence-based therapy
