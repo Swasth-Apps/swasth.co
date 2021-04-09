@@ -64,6 +64,21 @@ const CBTCompanion = (props) => {
                 </Col>
               </Row>*/}
               <Row>
+                <Row
+                    className='card-row -row-flex-center store-icons'
+                    style={{ padding: '32px 0 0px', display: 'flex',flexDirection:'row',justifyContent:"flex-start" }}
+                >
+                  <Col md={6} style={{marginLeft: 0}}>
+                    <a href="https://apps.apple.com/us/app/cbt-companion/id1445499245">
+                      <img src={appStore} alt='CBT Companion on App Store'/>
+                    </a>
+                  </Col>
+                  <Col md={6}>
+                    <a href="https://play.google.com/store/apps/details?id=co.swasth.cbtcompanion">
+                      <img src={googlePay} alt='CBT Companion on Play Store'/>
+                    </a>
+                  </Col>
+                </Row>
                 <Button className="request-demo-btn" onClick={()=>setVisible(true)} style={{margin: "20px 0"}}>Watch the Video</Button>
                 <Modal
                   visible={visible}

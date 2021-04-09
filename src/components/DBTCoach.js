@@ -59,6 +59,23 @@ const Banner = (props) => {
               </Col>
             </Row>*/}
             <Row>
+
+              <Row
+                  className='card-row -row-flex-center store-icons'
+                  style={{ padding: '32px 0 0px', display: 'flex',flexDirection:'row',justifyContent:"flex-start" }}
+              >
+                <Col md={6} style={{marginLeft: 0}}>
+                  <a href="https://apps.apple.com/us/app/dbt-coach/id1452264969">
+                    <img src={appStore} alt='DBT Coach on App Store' />
+                  </a>
+
+                </Col>
+                <Col md={6}>
+                  <a href="https://play.google.com/store/apps/details?id=co.swasth.dbtcoach">
+                    <img src={googlePay} alt='DBT Coach on Play Store' />
+                  </a>
+                </Col>
+              </Row>
               <Button className="request-demo-btn" onClick={()=>setVisible(true)} style={{margin: "20px 0"}}>Watch the Video</Button>
               {/*<a style={{fontSize:'24px'}} className="base-text black-18-font" onClick={()=>setVisible(true)}><Icon type="video-camera"/> {' '}Watch the Video</a>*/}
               <Modal

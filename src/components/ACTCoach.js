@@ -59,7 +59,24 @@ const ACTCoach = (props) => {
             </Row>*/}
 
             <Row>
+              <Row
+                  className='card-row -row-flex-center store-icons'
+                  style={{ padding: '32px 0 0px', display: 'flex',flexDirection:'row',justifyContent:"flex-start" }}
+              >
+                <Col md={6} style={{marginLeft: 0}}>
+                  <a href="https://apps.apple.com/us/app/act-icoach/id1449444733" >
+                    <img src={appStore} alt='ACT Coach on App Store' />
+                  </a>
+
+                </Col>
+                <Col md={6}>
+                  <a href="https://play.google.com/store/apps/details?id=co.swasth.actcoach">
+                    <img src={googlePay} alt='ACT Coach on Play Store' />
+                  </a>
+                </Col>
+              </Row>
               <Button className="request-demo-btn" style={{margin: "20px 0"}} onClick={()=>setVisible(true)}>Watch the Video</Button>
+
               {/*<a style={{fontSize:'24px'}} onClick={()=>setVisible(true)}><Icon type="video-camera"/> {' '}Watch the Video</a>*/}
               <Modal
                 visible={visible}
