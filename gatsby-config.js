@@ -6,11 +6,13 @@ module.exports = {
   siteMetadata: {
     title: "Swasth Website",
     author: "Swasth Inc",
-    description: "Home Page of Swasth Inc."
+    description: "Home Page of Swasth Inc.",
+    siteUrl: `https://www.resiliens.com`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    'gatsby-plugin-sitemap',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
