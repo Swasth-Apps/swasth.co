@@ -4,6 +4,8 @@ import actions from '../Actions/Programs';
 const INIT_STATE = {
     programs: [],
     marketingPrograms: [],
+    organizations: [],
+    organization: {},
     topics: [],
     resilifyLoading: false,
     coachingLoading: false,
@@ -19,6 +21,16 @@ export default (state = INIT_STATE, action) => {
             return {
                 ...state,
                 marketingPrograms: action.payload.programs,
+            };
+        case actions.SET_ORGANIZATIONS:
+            return {
+                ...state,
+                organizations: action.payload.organizations,
+            };
+        case actions.SET_ORGANIZATIONS_BY_ID:
+            state.organization[action.payload.id] = action.payload.organization;
+            return {
+                ...state,
             };
         case actions.SET_TOPICS:
             return {

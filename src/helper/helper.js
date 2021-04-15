@@ -2,6 +2,7 @@ import graphql_endpoint from '../aws-appsync-url'
 import Tirch from "../assets/images/experts/tirch.jpeg"
 import Philip from "../assets/images/experts/philip.jpg"
 import Yotam from "../assets/images/experts/yotam.png"
+import {cloudinary} from "./CLImage";
 
 export const getProgramName = name => name?.split(" ")?.join("-")?.toLowerCase();
 
@@ -207,3 +208,24 @@ export const expertsData = [{
 
 export const colors = ["blue-tag","pink-tag","purple-tag"];
 export const initialBlogsCount = 6;
+export const getCLImageUrl = (image,source,type) => {
+  const img = getCloudIDFromImageName(
+      image,
+      source,
+      type,
+  );
+  let opts = {};
+  Object.assign(
+      opts,
+      {
+        crop: 'fill',
+        gravity: 'face',
+        format: 'jpg',
+        quality: 75,
+        secure: true,
+      },
+  );
+  opts.width = 1200;
+  opts.height = 800;
+  return cloudinary.url(img, opts);
+};

@@ -7,7 +7,6 @@ module.exports = {
     title: "Swasth Website",
     author: "Swasth Inc",
     description: "Home Page of Swasth Inc.",
-    siteUrl: `https://www.resiliens.com`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',

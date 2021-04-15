@@ -1,6 +1,8 @@
 const actions = {
     SET_PROGRAMS: 'SET_PROGRAMS',
     SET_MARKETING_PROGRAMS: 'SET_MARKETING_PROGRAMS',
+    SET_ORGANIZATIONS: 'SET_ORGANIZATIONS',
+    SET_ORGANIZATIONS_BY_ID: 'SET_ORGANIZATIONS_BY_ID',
     SET_TOPICS: 'SET_TOPICS',
     SET_RESILIFY_LOADING: 'SET_RESILIFY_LOADING',
     SET_COACHING_LOADING: 'SET_COACHING_LOADING'
@@ -35,6 +37,19 @@ export const setMarketingPrograms = (programs) => ({
     type: actions.SET_MARKETING_PROGRAMS,
     payload: {
         programs,
+    },
+});
+export const setOrganizations = (organizations) => ({
+    type: actions.SET_ORGANIZATIONS,
+    payload: {
+        organizations,
+    },
+});
+export const setOrganizationById = (organization,id) => ({
+    type: actions.SET_ORGANIZATIONS_BY_ID,
+    payload: {
+        organization,
+        id
     },
 });
 

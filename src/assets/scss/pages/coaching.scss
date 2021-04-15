@@ -9,7 +9,7 @@
   .coaching-product-section {
     position: absolute;
     z-index: 1;
-    top: 36px;
+    top: 24px;
     left: 0px;
     width: 100%;
 
@@ -66,14 +66,14 @@
 
     .ant-tabs-nav > div {
       display: flex;
-      padding: 24px 5px;
+      padding: 15px 5px 15px;
     }
 
     .ant-tabs-tab {
       font-size: 16px;
       z-index: 1111111;
       //border-radius: 5px;
-      //box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px;
+      //box-shadow: rgbproduct-titlea(0, 0, 0, 0.1) 0px 0px 15px;
       //background: white;
       //min-height: 100px;
       //min-width: 200px;
@@ -157,9 +157,11 @@
       flex: 0 0 100%;
     }
   }
+
   @media (max-width: 600px) {
     padding: 15px 0px;
   }
+
   .ant-tabs-nav-wrap {
     background: _palette(bg);
   }
@@ -297,11 +299,11 @@
       padding: 30px;
       display: flex;
       flex-direction: column-reverse;
-      img{
+      img {
         margin-top: 0px !important;
         margin-bottom: 40px;
       }
-      .divider{
+      .divider {
         display: none;
       }
       h2 {
@@ -620,7 +622,7 @@
 
 .clients-navigation-wrapper {
   position: relative;
-  padding: 70px 0px;
+  padding: 50px 0px;
 
   .keen-slider {
     display: flex;
@@ -630,7 +632,11 @@
 
   .keen-slider__slide {
     flex: 0 0 33%;
-    padding: 15px 10px;
+    padding: 20px;
+
+    &:nth-child(3n + 1) {
+      padding-left: 0px;
+    }
 
     .animated {
       height: 100%;
@@ -643,8 +649,10 @@
     @media only screen and (max-width: 1200px) {
       flex: 0 0 50%;
     }
+
     @media only screen and (max-width: 780px) {
       flex: 0 0 100%;
+      padding: 10px 0px 30px;
     }
 
   }
@@ -653,7 +661,8 @@
 
 // Experts Data
 .experts-navigation-wrapper {
-  margin-top: 70px;
+
+  margin: 70px 0px;
 
   .keen-slider {
     display: flex;
@@ -1074,7 +1083,411 @@
 
 
 // Programs For Professionals
+.professionals-banner-section {
+  padding: 50px 0px;
+}
 
+.coach-grid-view {
+  display: flex;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+  margin-top: 50px;
+
+  .coach-grid-view-card {
+    padding: 10px;
+    flex: 0 0 33%;
+    position: relative;
+    cursor: pointer;
+    img {
+      width: 100%;
+      height: 100%;
+      min-height: 250px;
+      border-radius: 10px;
+    }
+
+    .coach-info {
+      position: absolute;
+      bottom: 10px;
+      border-radius: 10px;
+      padding-bottom: 32px;
+      padding-top: 32px;
+      padding-left: 30px;
+      width: 100%;
+      color: _palette(bg);
+      background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+      font-size: 24px;
+      letter-spacing: 1.2px;
+      margin-bottom: -5px;
+      line-height: 26px;
+      font-family: _font(base-font);
+
+      div {
+        font-size: 16px;
+        margin-top: 5px;
+        color: _palette(base-font);
+        font-family: _font(para-font);
+      }
+    }
+
+    @media only screen and (min-width: 800.5px) {
+
+      &:nth-child(3n+1) {
+        padding-left: 0;
+
+      }
+
+      &:nth-child(3n) {
+        padding-right: 0;
+
+      }
+    }
+
+    @media only screen and (max-width: 800px) {
+      &:nth-child(2n+1) {
+        padding-left: 0;
+        padding-right: 10px;
+      }
+      &:nth-child(2n) {
+        padding-right: 0;
+      }
+      .coach-info {
+        padding-left: 20px;
+        font-size: 18px;
+
+        div {
+          font-size: 14px;
+        }
+      }
+      flex: 0 0 50%;
+    }
+    @media only screen and (max-width: 500px) {
+      flex: 0 0 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    &:hover{
+      color: inherit !important;
+    }
+
+  }
+}
+
+.professional-page-banner {
+  //padding: 50px 0;
+  height: 30em;
+
+  #wrapper {
+    text-align: left;
+
+    h1 {
+      width: 50%;
+      font-size: 36px !important;
+      text-align: left !important;
+      text-shadow: 2px 2px #353535;
+    }
+
+    p {
+      color: _palette(bg);
+      font-size: 20px;
+      text-shadow: 2px 2px #353535;
+    }
+
+    @media screen and (max-width: 900px) {
+      padding: 0 50px !important;
+      h1 {
+        width: 100%;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      padding: 0 20px !important;
+      h1 {
+        width: 100%;
+      }
+    }
+  }
+
+  @media screen and (max-width: 736px) {
+    min-height: 20em !important;
+    max-height: 20em !important;
+    top: 0px !important;
+    padding: 0px !important;
+  }
+}
+
+.home-signature-courses {
+  cursor: pointer;
+
+  .title {
+    font-size: 24px;
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+  }
+}
+
+.short-courses {
+  margin-top: 50px;
+
+  .course-card {
+    max-width: unset;
+    display: flex;
+    height: 400px;
+
+    .course-card-image {
+      width: 500px;
+      max-width: 500px;
+      overflow: visible;
+
+      img {
+        border-radius: 10px 0 0 10px;
+        height: 100%;
+        width: 500px;
+        max-width: 500px;
+      }
+    }
+
+    .course-card-content {
+      padding: 30px 30px 100px;
+      position: relative;
+      border-radius: 0 10px 10px 0;
+      overflow: hidden;
+
+      .course-basics {
+        display: flex;
+
+        p {
+          margin-right: 15px;
+        }
+      }
+
+      .desc {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        min-height: unset;
+      }
+    }
+
+    .course-card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      bottom: 40px;
+
+      .course-card-footer-coach {
+        margin-left: 10px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+
+    @media screen and (max-width: 1100px) {
+      .course-card-image {
+        width: 400px;
+        max-width: 400px;
+
+        img {
+          width: 400px;
+          max-width: 400px;
+        }
+      }
+    }
+    @media screen and (max-width: 880px) {
+      height: 300px;
+      .course-card-image {
+        width: 300px;
+        max-width: 300px;
+
+        img {
+          width: 300px;
+          max-width: 300px;
+        }
+      }
+    }
+    @media screen and (max-width: 770px) {
+      flex-direction: column;
+      height: 100%;
+      .course-card-image {
+        width: 100%;
+        max-width: 100%;
+
+        img {
+          border-radius: 10px 10px 0 0px;
+          width: 100%;
+          max-width: 100%;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+
+.organization-approach {
+  display: flex;
+  flex: 0 0 100%;
+  margin: 50px 0 100px;
+
+  &.left-approach {
+    .organization-approach-html {
+      padding-right: 40px;
+    }
+
+    @media screen and (max-width: 992.5px) {
+      flex-direction: column-reverse;
+      .organization-approach-html {
+        padding-right: 0px;
+      }
+      img {
+        margin-bottom: 30px;
+        width: 100%;
+      }
+    }
+  }
+
+  &.right-approach {
+    .organization-approach-html {
+      padding-left: 40px;
+    }
+
+    @media screen and (max-width: 992.5px) {
+      flex-direction: column;
+      .organization-approach-html {
+        padding-left: 0px;
+      }
+      .video-img {
+        margin-bottom: 30px;
+        width: 100% !important;
+      }
+    }
+  }
+
+  .video-img {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .organization-approach-html {
+    flex: 0 0 50%;
+
+    p, div, li, span {
+      font-family: _font(para-font) !important;
+      font-size: 16px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    strong, b {
+      font-weight: normal !important;
+    }
+
+    h1, h2, h3, h4, h5 {
+      font-family: _font(base-font) !important;
+
+      span {
+        font-family: _font(base-font) !important;
+      }
+
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+
+  }
+
+  img {
+    width: 50%;
+    flex: 0 0 50%;
+    border-radius: 10px;
+  }
+
+  @media screen and (max-width: 992.5px) {
+    margin-bottom: 50px;
+  }
+}
+
+.organization-members-container {
+  background: #d3d3d329;
+  padding: 100px 0;
+
+  h2 {
+    font-size: 30px;
+  }
+
+  @media screen and (max-width: 992.5px) {
+    padding: 50px 0;
+  }
+}
+
+.expert-card {
+  margin-top: 30px;
+
+  .course-card {
+    min-height: 240px;
+    height: unset;
+    padding: 50px;
+    border-radius: 10px;
+    background: white;
+
+    .course-card-image {
+      max-width: 200px;
+      min-height: 200px;
+      border-radius: 10px;
+      height: 200px;
+
+      img {
+        border-radius: 10px;
+        width: 200px;
+        max-width: 200px;
+      }
+    }
+
+    .course-card-content {
+      padding: 30px 30px 0px;
+      .desc{
+        -webkit-line-clamp: unset;
+      }
+    }
+  }
+
+  @media screen and (max-width: 880px) {
+    .course-card {
+      flex-direction: column;
+
+      .course-card-image {
+        border-radius: 50%;
+        overflow: hidden;
+
+        img {
+          height: 100%;
+        }
+      }
+
+      .course-card-content {
+        padding: 30px 0px;
+      }
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .course-card {
+      padding: 20px;
+    }
+  }
+}
+
+.organization-featured-programs {
+  padding: 50px 0 100px;
+  background: #d3d3d329;
+}
 
 // Training Approach
 .training-approach-container {
@@ -1142,27 +1555,55 @@
 
 .professional-program-tab {
   background: white;
-  margin-top: 20px;
+  border-bottom: 1px solid #e0d9d9;
 
   .ant-tabs-nav-wrap {
-    padding: 10px;
+    padding: 10px 10px 0px;
+    background: transparent;
 
     .ant-tabs-tab {
+      z-index: 11;
+
       p {
         font-size: 18px;
       }
+    }
+
+    .ant-tabs-nav > div {
+      padding: 0px 5px;
+    }
+
+    .ant-tabs-tab-active {
+      color: _palette(blue-color);
+      border-bottom: 5px solid _palette(blue-color);
     }
   }
 
   .ant-tabs-ink-bar {
     display: none !important;
   }
+
+  @media screen and (max-width: 1023.5px) {
+    border-bottom: none;
+
+  }
+  @media screen and (max-width: 1150.5px) {
+    .ant-tabs-nav {
+      justify-content: center !important;
+    }
+  }
+  @media screen and (max-width: 769.5px) {
+    .ant-tabs-nav-scroll {
+      text-align: center !important;
+      padding: 0px 10px;
+    }
+  }
 }
 
 // Individual Course Section
 .individual-course-container {
   background: _palette(bg);
-  padding-top: 50px;
+  padding: 50px 0px 0;
 
   h2 {
     font-size: 40px;
@@ -1246,6 +1687,10 @@
       }
     }
   }
+
+  @media screen and (max-width: 992.5px) {
+    padding: 0px;
+  }
 }
 
 // Course Modules
@@ -1270,7 +1715,13 @@
 
   .faq-search {
     border-radius: 50px;
-    padding-left: 20px;
+    height: 50px;
+
+    .ant-input {
+      border: 1px solid #00000021;
+      border-radius: 50px;
+      padding: 0 10px;
+    }
 
     .anticon-search {
       &:before {
@@ -1300,18 +1751,26 @@
 
       h2 {
         margin-bottom: 10px;
-        padding-left: 1.5rem;
         font-size: 20px;
       }
 
       li {
         margin-bottom: 5px;
         font-size: 16px;
+        cursor: pointer;
 
         &:hover {
           text-decoration: underline;
         }
       }
+
+      @media only screen and (max-width: 770px) {
+        flex: 0 0 100%;
+      }
     }
+  }
+
+  @media screen and (max-width: 770px) {
+    margin: 0px;
   }
 }

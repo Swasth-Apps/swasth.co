@@ -91,6 +91,7 @@ class CoachProgram extends React.Component {
                         </Col>
                     </Row>
                 </section>
+                {program?.howItWorks?
                 <section className='banner-section how-it-works'>
                     <Row className='-row-flex-center' id='wrapper'>
                         <Col md={24} style={{width: '100%'}}>
@@ -130,7 +131,7 @@ class CoachProgram extends React.Component {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> : null}
                 <ProgramSession program={program}/>
                 <div
                     id='wrapper'

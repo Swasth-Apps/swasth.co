@@ -32,6 +32,65 @@ export const getMarketingPrograms = `query {
     shortDescription
   }
 }`;
+export const getOrganizationsWithOwner = `query {
+   getOrganizationsWithOwner {
+    id
+    teamOwnerId
+    teamOwnerName
+    name
+    description
+    image
+  }
+}`;
+
+export const getOrganizationWithMembersAndPrograms = `query getOrganizationWithMembersAndPrograms($organizationId: String!){
+   getOrganizationWithMembersAndPrograms(organizationId: $organizationId) {
+    approach {
+      html
+      image
+    }
+    comprehensive {
+      html
+      video
+    }
+    description
+    id
+    image
+    name
+    programs {
+      name
+      app
+      coach {
+        name
+        picture
+      }
+      coachId
+      description
+      duration {
+        interval
+        period
+      }
+      gradient
+      id
+      image
+      isFeatured
+      isFree
+      payment
+      shortDescription
+      status
+      tags
+      type
+    }
+    teamOwnerId
+    teamOwnerName
+    teamMembers {
+      name
+      picture
+      userId
+      description
+    }
+  }
+}`;
 
 export const getProviderSlug = `query getProviderSlug($slug: String!) {
   getProviderSlug(slug: $slug) {

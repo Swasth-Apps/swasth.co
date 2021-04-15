@@ -100,6 +100,7 @@ class Layout extends React.Component {
 
     render() {
         const {children} = this.props;
+        console.log(this.props.noFooterMargin)
         return (
             <div
                 className={`body ${this.state.loading} ${this.props.hideHomeImg ? 'light-body-bg' : ''}`}
