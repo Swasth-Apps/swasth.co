@@ -4,9 +4,9 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: "Resiliens",
+    title: "Resiliens - Evidence-based Behavioral Health Platform",
     author: "Resiliens Inc",
-    description: "A platform built on evidence-based principles, delivered by licensed clinicians, coaches making care accessible, effective and scalable.",
+    description: "A comprehensive platform built on evidence-based principles, delivered by licensed clinicians, coaches making care accessible, effective and scalable.",
     siteUrl: `https://www.resiliens.com`,
   },
   plugins: [
