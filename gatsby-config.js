@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: "Swasth Website",
     author: "Swasth Inc",
-    description: "Home Page of Swasth Inc.",
+    description: "Home Page of Resiliens Inc.",
     siteUrl: `https://www.resiliens.com`,
   },
   plugins: [
