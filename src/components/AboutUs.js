@@ -226,7 +226,7 @@ const Home = (props) => {
                             <img src={Gana2}/>
                             <p className="name base-text"> Gana Pemmanda </p>
                             <p className="title para-text">Founder & CEO</p>
-                            <p className="para-book-text">Gana co-founded Resiliens to transform behavioral health using
+                            <p className="para-book-text">Gana's vision with Resiliens is to transform behavioral health using
                                 technology and
                                 evidence-based
                                 models.
