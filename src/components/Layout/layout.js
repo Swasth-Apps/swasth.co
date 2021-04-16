@@ -17,6 +17,7 @@ import {
     setResilifyLoading,
     setTopics
 } from "../../Redux/Actions/Programs";
+import {Helmet} from "react-helmet";
 
 class Layout extends React.Component {
     constructor(props) {
@@ -103,7 +104,15 @@ class Layout extends React.Component {
         return (
             <div
                 className={`body ${this.state.loading} ${this.props.hideHomeImg ? 'light-body-bg' : ''}`}
-            >
+
+            <Helmet title="Resiliens">
+                <meta charSet="utf-8" />
+                <title>Resiliens</title>
+                <meta property="og:url" content='resiliens.com' />
+                <meta property="og:type" content="website" />
+                <meta property="og:site_name" content='Resiliens' />
+                <link rel="canonical" href="http://resiliens.com/" />
+            </Helmet>
 
                 <div
                     id='coaching-header'
