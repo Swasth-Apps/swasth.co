@@ -4,9 +4,9 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: "Swasth Website",
-    author: "Swasth Inc",
-    description: "Home Page of Swasth Inc.",
+    title: "Resiliens",
+    author: "Resiliens Inc",
+    description: "A platform built on evidence-based principles, delivered by licensed clinicians, coaches making care accessible, effective and scalable.",
   },
   plugins: [
     'gatsby-plugin-react-helmet',

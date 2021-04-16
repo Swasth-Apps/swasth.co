@@ -187,13 +187,13 @@ export const lifeCoach=[
 
 
 export const expertsData = [{
-  name:"Dennis Tirch",
+  name:"Dr. Dennis Tirch",
   img:"tirch_profile.jpg",
   description:"Dr Dennis Tirch founded the USA’s Center for Compassion Focused Therapy and is current President of The Compassionate Mind Foundation USA. He is in demand for international workshops and invited speeches.",
   expertise: "Founder of The Center for Compassion Focused Therapy",
   "slug":"dennis-tirch"
 },{
-  name:"Philip Zimbardo",
+  name:"Dr. Philip Zimbardo",
   img:"philip_profile.jpg",
   description:"Dr Philip Zimbardo is one of the most well known psychologists of the second half of the twentieth century. Best known for the Stanford Prison Experiment of 1971, his research has covered the psychology of evil, cult behavior, shyness and heroism.",
   expertise: "Emeritus Professor of Psychology at Stanford University and President of the Heroic Imagination Project",
