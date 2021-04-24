@@ -123,7 +123,7 @@ const Header = (props) => {
                                 <Dropdown
                                     overlay={<div className="header-menu-submenu">
 
-                                        <Link to="/coaching" className='menu-content-item'>
+                                        <Link to="/coaching/overview" className='menu-content-item'>
                                             <div className="menu-item">
                                                 <img src={Coaching}/>
                                                 <div className={`menu-content para-text`}>
@@ -242,7 +242,7 @@ const Header = (props) => {
                         Solutions
                     </div>} key="Solutions">
                         <div className="header-menu-submenu">
-                            <Link to="/coaching" className='menu-content-item'>
+                            <Link to="/coaching/overview" className='menu-content-item'>
                                 <div className="menu-item">
                                     <img src={Coaching}/>
                                     <div className={`menu-content para-text`}>

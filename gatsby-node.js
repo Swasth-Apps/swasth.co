@@ -129,6 +129,15 @@ exports.onCreatePage = ({ page, actions }) => {
     })
   }*/
 
+
+  if(page.path.match(/^\/coaching/)){
+    createPage({
+      path: "/coaching",
+      matchPath: '/coaching/*',
+      component: path.resolve(`src/pages/coaching/index.js`)
+    })
+  }
+
   if(page.path.match(/^\/coaching\/program/)){
     createPage({
       path: "/coaching/program",
@@ -136,6 +145,7 @@ exports.onCreatePage = ({ page, actions }) => {
       component: path.resolve(`src/pages/coaching/program/index.js`)
     })
   }
+
 
   if(page.path.match(/^\/resilify\/program/)){
     createPage({

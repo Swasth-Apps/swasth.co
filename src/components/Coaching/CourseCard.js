@@ -6,7 +6,6 @@ import {getImage, getProgramName} from "../../helper/helper";
 import {Animated} from "react-animated-css";
 
 const CourseCard = ({program, className,index}) => {
-    console.log(program?.coach?.picture)
     return (
         <Link to={`/coaching/program/${getProgramName(program?.name)}?program=${program.id}`} state={{isCourseOpen: true}} className={className}>
             <Animated animationIn="zoomIn" animationInDuration={index * 500}>
@@ -53,7 +52,7 @@ const CourseCard = ({program, className,index}) => {
                             {program.description}
                         </p>
                         <div className="course-registration-info">
-                            <h3>
+                            <h3 className="base-text">
                                 {program.isFree ? "Free" : `$${parseFloat(parseInt(program.payment,10) / 100)}`}
                             </h3>
                         </div>
@@ -63,7 +62,7 @@ const CourseCard = ({program, className,index}) => {
                         </div>*/}
                     </div>
                     <div className="course-card-footer">
-                        <p className="para-text">
+                        <p className="para-text" style={{marginBottom: 0}}>
                             View Program
                             <RightOutlined/>
                         </p>

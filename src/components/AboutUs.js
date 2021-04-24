@@ -62,16 +62,17 @@ const Home = (props) => {
                                                     <h3
                                                         className='bottom-space base-text program-grounded'
                                                         style={{
-                                                            lineHeight: "65px"
+                                                            lineHeight: "65px",
+                                                            paddingTop: 30
                                                         }}
                                                     >
-                                                        We are bringing Evidence-based Behavioral<br/>
+                                                        We are bringing Evidence-based Behavioral<br style={{display: "block"}}/>
                                                         Healthcare to everyone.
                                                     </h3>
                                                 </Col>
                                                 <Col md={8} className="-margin-right img-section"
-                                                     style={{textAlign: "center"}}>
-                                                    <div className="division"/>
+                                                     style={{textAlign: "center",paddingTop: 0}}>
+                                                    <div className="division" style={{minHeight: 300}}/>
                                                 </Col>
                                             </Row>
                                         </Col>

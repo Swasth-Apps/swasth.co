@@ -23,7 +23,7 @@ const ResilifyProgram = () => {
     const loading = useSelector(state => state.commonData.resilifyLoading);
 
     let slug = typeof window !== 'undefined' ? window?.location?.pathname?.substring('/resilify/program/'.length) : '';
-    slug = slug?.split("/")?.[0];
+    slug = slug? slug?.split("/")?.[0] : "";
 
     const program = programs?.find(({slug: s}) => s === slug) || {};
 
