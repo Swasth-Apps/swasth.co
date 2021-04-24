@@ -26,7 +26,7 @@ class CoachingIndex extends React.Component {
 
     getRoute = () => {
         if(typeof window !== "undefined"){
-            const path = window.location.pathname.substring('/coaching/'.length);
+            const path = window.location.pathname && window.location.pathname.substring('/coaching/'.length);
             if(path.includes("everyone")){
                 return "everyone"
             } else if(path.includes("professionals")){
