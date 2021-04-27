@@ -107,7 +107,7 @@ class Layout extends React.Component {
 >
             <Helmet title="Resiliens">
                 <meta charSet="utf-8" />
-                <title>Resiliens</title>
+                <title>Resiliens - Behavioral health care for everyone</title>
                 <meta name="description" content="A platform built on evidence-based principles, delivered by licensed clinicians, coaches making care accessible, effective and scalable." />
                 <meta property="og:url" content='resiliens.com' />
                 <meta property="og:title" content="Resiliens" />

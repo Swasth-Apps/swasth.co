@@ -35,9 +35,9 @@ const Home = () => {
                         <Col md={24}>
                             <Row className='card-row'>
                                 <Col md={12} className="content">
-                                    <h3 className='bottom-space base-text program-grounded'>
+                                    <h1 className='bottom-space base-text program-grounded'>
                                         Behavioral health care <br/> for everyone
-                                    </h3>
+                                    </h1>
                                     <div className='para-text black-18-font margin-bottom-25'>
                                         <p className="width-90 para-text">A platform built on evidence-based principles,
                                             delivered by licensed clinicians, coaches making care accessible, effective
