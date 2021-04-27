@@ -47,14 +47,12 @@ export default class HTML extends React.Component {
                 <meta
                     name="google-site-verification"
                     content=""/>
-                /* Site Verification id is required.. */
 
 
                 <meta itemProp="image" content="/assets/images/resilience-logo.png"/>
                 <link rel="manifest" href="/manifest.json"/>
                 <link rel="icon" href="/assets/images/resilience-logo.png"/>
 
-                {/*<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63369087-1"/>*/}
 
                 <meta name="theme-color" content="#ffffff"/>
             </head>
