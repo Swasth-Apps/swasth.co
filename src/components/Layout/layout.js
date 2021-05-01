@@ -48,16 +48,6 @@ class Layout extends React.Component {
             <div
                 className={`body ${this.state.loading} ${this.props.hideHomeImg ? 'light-body-bg' : ''}`}
 >
-            <Helmet title="Resiliens">
-                <meta charSet="utf-8" />
-                <title>Resiliens - Behavioral health care for everyone</title>
-                <meta name="description" content="A platform built on evidence-based principles, delivered by licensed clinicians, coaches making care accessible, effective and scalable." />
-                <meta property="og:url" content='resiliens.com' />
-                <meta property="og:title" content="Resiliens" />
-                <meta property="og:type" content="website" />
-                <meta property="og:site_name" content='Resiliens' />
-                <link rel="canonical" href="http://resiliens.com/" />
-            </Helmet>
 
                 <div
                     id='coaching-header'

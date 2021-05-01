@@ -12,7 +12,7 @@ const INIT_STATE = {
     resilifyLoading: false,
     coachingLoading: false,
 };
-export default (state = INIT_STATE, action) => {
+const programs = (state = INIT_STATE, action) => {
     switch (action.type) {
         case actions.SET_PROGRAMS:
             return {
@@ -70,3 +70,5 @@ export default (state = INIT_STATE, action) => {
             return state;
     }
 };
+
+export default programs;

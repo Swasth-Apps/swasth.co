@@ -7,6 +7,7 @@ import {connect} from "react-redux";
 import Amplify, {API, graphqlOperation} from "aws-amplify";
 
 import {setPrograms, setResilifyLoading, setTopics} from "../../Redux/Actions/Programs";
+import {Helmet} from "react-helmet";
 
 
 class ResilifyPrograms extends React.Component {
@@ -64,6 +65,14 @@ class ResilifyPrograms extends React.Component {
     render() {
         return (
             <Layout extraHeader>
+                <Helmet title="Resiliens">
+                    <meta charSet="utf-8" />
+                    <title>Resiliens - Our evidence-based self guided programs</title>
+                    <meta
+                        name="keywords"
+                        content="Resiliens - Our evidence-based self guided programs"
+                    />
+                </Helmet>
                 <Programs />
             </Layout>
         )

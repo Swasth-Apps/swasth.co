@@ -7,6 +7,7 @@ import Amplify, {API, graphqlOperation} from "aws-amplify";
 
 import {setPrograms, setResilifyLoading, setTopics,setProgram,setRelatedProgram} from "../../Redux/Actions/Programs";
 import ResilifyProgram from "../../components/Resilify/Program";
+import {Helmet} from "react-helmet";
 
 
 class ResilifyPrograms extends React.Component {
@@ -66,8 +67,19 @@ class ResilifyPrograms extends React.Component {
 
 
     render() {
+        const { slug } = this.state;
+        const program = this.props.commonData?.program;
         return (
             <Layout noFooterMargin>
+                {program?.[slug] ?
+                <Helmet title="Resiliens">
+                    <meta charSet="utf-8" />
+                    <title>{program?.[slug]?.name}</title>
+                    <meta
+                        name="keywords"
+                        content={program?.[slug]?.name}
+                    />
+                </Helmet>:null}
                 <ResilifyProgram slug={this.state.slug}/>
             </Layout>
         )

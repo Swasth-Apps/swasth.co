@@ -213,9 +213,9 @@ export const colors = ["blue-tag","pink-tag","purple-tag"];
 export const initialBlogsCount = 6;
 
 export const getInitials = word => {
-    const fullWords = word.split(' ');
-    const initials = fullWords.shift().charAt(0) + fullWords.pop().charAt(0);
-    return initials.toUpperCase();
+    const fullWords = word?.split(' ');
+    const initials = fullWords?.shift()?.charAt(0) + fullWords?.pop()?.charAt(0);
+    return initials?.toUpperCase();
 };
 
 export const getCLImageUrl = (image,source,type) => {

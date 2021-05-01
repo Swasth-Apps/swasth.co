@@ -6,6 +6,7 @@ import {getMarketingPrograms} from "../../queries";
 import {Col, Row} from "antd";
 import {connect} from "react-redux";
 import {setMarketingLoading, setMarketingPrograms} from "../../Redux/Actions/Programs";
+import {Helmet} from "react-helmet";
 
 
 class ClientsPrograms extends React.Component {
@@ -39,6 +40,14 @@ class ClientsPrograms extends React.Component {
         const {coachingLoading,marketingPrograms} = this.props;
         return (
             <>
+                <Helmet title="Resiliens">
+                    <meta charSet="utf-8" />
+                    <title>Resiliens - Evidence Based Coaching for everyone</title>
+                    <meta
+                        name="keywords"
+                        content="Behavioral Health Coaching, Evidence Based Coaching, Life Coach, Health Coaching, Mental Health Coach, anxiety, depression, financial anxiety, experts, breathing exercise, meditation, digital mental health, guided meditation, therapist training, coach training, lasting change, motivation, reframe, PTSD, relationships, resilience, peer coaching group, perfomance coaching, CBT, DBT, ACT, CFT, Compassion, social anxiety, Bipolar, Gratitude, Well being"
+                    />
+                </Helmet>
                 <section className='coaching-programs-banner-section'>
                     <Row className='-row-flex-center' id='wrapper'>
                         <Col md={24} style={{width: '100%'}}>

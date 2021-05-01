@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import {expertsData, getCloudIDFromImageName} from "../../helper/helper";
 import CLImage from "../../helper/CLImage";
+import {Helmet} from "react-helmet";
 
 
 const experts = expertsData;
@@ -14,6 +15,14 @@ class Experts extends React.Component {
     render() {
         return (
             <div className="experts-navigation-wrapper">
+                <Helmet title="Resiliens">
+                    <meta charSet="utf-8" />
+                    <title>Resilens - Experts in Evidence Based Therapy</title>
+                    <meta
+                        name="keywords"
+                        content="Resilens - Experts in Evidence Based Therapy, DBT, CBT, ACT, CFT, Compassion, Resilience, Motivational Interviewing, Cognitive Behavioral Therapy, Dialectic Behavior Therapy, Family therapy, Interpersonal psychotherapy, Exposure Therapy, MBSR, MBCT, Functional Family Therapy"
+                    />
+                </Helmet>
                 <div className="keen-slider">
                     {experts?.map(expert =>
                         <Link to={`/expert/${expert.slug}`} className="expert-container">

@@ -49,6 +49,17 @@ const Feature = ({data}) => {
                 className={'coach-wrapper'}
                 style={{paddingBottom: 0}}
             >
+                <Helmet titleTemplate="%s | Blog">
+                    <title>{`${post?.frontmatter?.title}`}</title>
+                    <meta
+                        name="description"
+                        content={`${post?.frontmatter?.description}`}
+                    />
+                    <meta
+                        name="keywords"
+                        content={`${post?.frontmatter?.title}`}
+                    />
+                </Helmet>
                 <CategoryTemplate
                     feature={post.frontmatter}
                     content={post.html}

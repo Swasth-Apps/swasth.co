@@ -3,6 +3,7 @@ import Layout from '../components/Layout/layout'
 import Blogs from '../components/BlogLanding'
 import {graphql, StaticQuery} from 'gatsby'
 import {initialBlogsCount} from '../helper/helper'
+import {Helmet} from "react-helmet";
 
 
 class BlogIndex extends React.Component {
@@ -55,6 +56,14 @@ class BlogIndex extends React.Component {
                 topBg
                 categories={data.categories?.edges}
             >
+                <Helmet title="Resiliens">
+                    <meta charSet="utf-8" />
+                    <title>Resiliens - Blog Posts about Evidence Based Platform</title>
+                    <meta
+                        name="keywords"
+                        content="Resiliens - Blog Posts about Evidence Based Platform"
+                    />
+                </Helmet>
                 <div
                     id='wrapper'
                     className={'coach-wrapper'}

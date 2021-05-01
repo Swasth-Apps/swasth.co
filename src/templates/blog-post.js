@@ -36,6 +36,7 @@ BlogPostTemplate.propTypes = {
 
 const BlogPost = ({ data = {} }) => {
   const { markdownRemark: post,categories } = data
+    console.log(post,data)
   return (
     <Layout
       show
@@ -48,20 +49,22 @@ const BlogPost = ({ data = {} }) => {
           className={'coach-wrapper'}
           style={{paddingBottom: 0}}
       >
+          <Helmet titleTemplate="%s | Blog">
+              <title>{`${post?.frontmatter?.title}`}</title>
+              <meta
+                  name="description"
+                  content={`${post?.frontmatter?.description}`}
+              />
+              <meta
+                  name="keywords"
+                  content={`${post?.frontmatter?.title}`}
+              />
+          </Helmet>
       <BlogPostTemplate
-        content={post?.html}
+          isComponent
+          content={post?.html}
         feature={post.frontmatter}
         contentComponent={HTMLContent}
-        isComponent
-        helmet={
-          <Helmet titleTemplate="%s | Blog">
-            <title>{`${post?.frontmatter?.title}`}</title>
-            <meta
-              name="description"
-              content={`${post?.frontmatter?.description}`}
-            />
-          </Helmet>
-        }
       />
       </div>
     </Layout>

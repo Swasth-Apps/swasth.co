@@ -11,6 +11,8 @@ import {setMarketingLoading, setOrganizations,setOrganizationById} from "../../R
 import {getCloudIDFromImageName} from "../../helper/helper";
 import CLImage from "../../helper/CLImage";
 import _ from "lodash";
+import {Helmet} from "react-helmet";
+import Layout from "../Layout/layout";
 
 
 class ProfessionalPrograms extends React.Component {
@@ -87,6 +89,14 @@ class ProfessionalPrograms extends React.Component {
                 /> :
                 <>
                     <section className='coaching-programs-banner-section professionals-banner-section'>
+                        <Helmet title="Resiliens">
+                            <meta charSet="utf-8" />
+                            <title>Resiliens - Evidence Based Programs for Health Professionals</title>
+                            <meta
+                                name="keywords"
+                                content="burn out, nursing, health professionals, ce credits, icf credits, Behavioral Health Coaching, Evidence Based Coaching, Life Coach, Health Coaching, Mental Health Coach, anxiety, depression, financial anxiety, experts, breathing exercise, meditation, digital mental health, guided meditation, therapist training, coach training, lasting change, motivation, reframe, PTSD, relationships, resilience, peer coaching group, perfomance coaching, CBT, DBT, ACT, CFT, Compassion, social anxiety, Bipolar, Gratitude, Well being"
+                            />
+                        </Helmet>
                         <Row className='-row-flex-center' id='wrapper'>
                             <Col md={24} style={{width: '100%'}}>
                                 <p style={{textAlign: 'center'}}

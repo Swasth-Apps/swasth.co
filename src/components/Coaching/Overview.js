@@ -5,10 +5,20 @@ import bannerGraphic from "../../assets/images/coaching-woman.jpeg";
 import Care from "../../assets/images/overview/care.jpg"
 import Coaching from "../../assets/images/coachingProgram/coaching.png"
 import CoachingMobile from "../../assets/images/coachingProgram/coaching-mobile.png"
+import {Helmet} from "react-helmet";
+import Layout from "../Layout/layout";
 
 const CoachingOverview = () => {
     return (
         <div className="coaching-overview-container">
+            <Helmet title="Resiliens">
+                <meta charSet="utf-8" />
+                <title>Resiliens - Evidence Based Coaching</title>
+                <meta
+                    name="keywords"
+                    content="Behavioral Health Coaching, Evidence Based Coaching, Life Coach, Health Coaching, Mental Health Coach, anxiety, depression, financial anxiety, experts, breathing exercise, meditation, digital mental health, guided meditation, therapist training, coach training, lasting change, motivation, reframe, PTSD, relationships, ICF credential, CE Credits"
+                />
+            </Helmet>
             <div className="coaching-overview">
                 <div
                     id='wrapper'
