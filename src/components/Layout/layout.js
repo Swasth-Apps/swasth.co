@@ -1,5 +1,4 @@
 import React from 'react'
-import {connect} from "react-redux";
 import Header from './Header'
 import Footer from './Footer'
 import '../../assets/scss/main.scss'
@@ -7,17 +6,6 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import 'react-multi-carousel/lib/styles.css'
 import CategoryTabs from '../BreadCrum'
-import graphql_endpoint from '../../aws-appsync-url'
-import Amplify, {API, graphqlOperation} from "aws-amplify";
-import {getTopics, getTracksList} from "../../queries";
-import {
-    setMarketingLoading,
-    setMarketingPrograms,
-    setPrograms,
-    setResilifyLoading,
-    setTopics
-} from "../../Redux/Actions/Programs";
-import {Helmet} from "react-helmet";
 
 class Layout extends React.Component {
     constructor(props) {
@@ -47,7 +35,7 @@ class Layout extends React.Component {
         return (
             <div
                 className={`body ${this.state.loading} ${this.props.hideHomeImg ? 'light-body-bg' : ''}`}
->
+            >
 
                 <div
                     id='coaching-header'
