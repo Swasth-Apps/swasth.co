@@ -13,8 +13,6 @@ import ProfessionalPrograms from "./ProfessionalPrograms";
 import Logo from "../../assets/images/coachingProgram/logo.png"
 const { TabPane } = Tabs;
 const CoachingComponent = (props) => {
-
-    console.log(props.tab)
     return (
         <section className='coaching-section'>
             <div className="coaching-product-section">

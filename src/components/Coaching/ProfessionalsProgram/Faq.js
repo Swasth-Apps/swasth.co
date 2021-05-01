@@ -1,20 +1,22 @@
-import React from "react"
+import React, {useState} from "react"
+import {Input} from "antd";
 
 const FAQs = (props) => {
+  const [openFaq, setOpenFAQ] = useState(false);
   return(
     <div className="max-width-class">
       <div className="faq-section">
-        {/*<div>
+        <div>
           <Input.Search
             className="faq-search"
             placeholder="Search FAQs"
           />
-        </div>*/}
+        </div>
         <div className="faq-search-content">
           <div className="faq-content">
             <h2 className="base-text">Course Information</h2>
             <ul>
-              <li className="para-text">How much time should I be spending on the course?</li>
+              <li onClick={() => setOpenFAQ(true)} className="para-text">How much time should I be spending on the course?</li>
               <li className="para-text">How are the courses structured?</li>
               <li className="para-text">What will I have access to during a course?</li>
             </ul>

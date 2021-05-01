@@ -1,143 +1,95 @@
-import React from 'react';
-import _ from "lodash";
-import ReactHtmlParser from "react-html-parser";
-import Layout from '../../components/Layout/layout';
-import CLImage from "../../helper/CLImage";
-import {useSelector} from "react-redux";
-import {Collapse, Tabs} from "antd";
-import {getParseDetails} from "../../helper/helper";
-import {getCloudIDFromImageName, getCloudIDFromImageURL} from "../../components/Resilify/common/helper";
-import Program from "../../components/Program";
-import Loader from "../../components/Loader";
-import CoachBg from "../../assets/images/resilify/coach-bg.jpg"
-import VideoIcon from "../../assets/images/video.png"
+import React from 'react'
+import Layout from '../../components/Layout/layout'
+import graphql_endpoint from "../../aws-appsync-url";
+import {getMarketingTrackDetail, getRelatedPrograms, getTopics, getTracksList} from "../../queries";
+import {connect} from "react-redux";
+import Amplify, {API, graphqlOperation} from "aws-amplify";
 
-const {Panel} = Collapse;
-const {TabPane} = Tabs;
+import {setPrograms, setResilifyLoading, setTopics,setProgram,setRelatedProgram} from "../../Redux/Actions/Programs";
+import ResilifyProgram from "../../components/Resilify/Program";
 
-const edges = ["Lessons", "Activities"];
 
-const ResilifyProgram = () => {
+class ResilifyPrograms extends React.Component {
 
-    const programs = useSelector(state => state.commonData.programs);
-    const loading = useSelector(state => state.commonData.resilifyLoading);
+    constructor(props){
+        super(props);
+        let slug = typeof window !== 'undefined' ? window?.location?.pathname?.substring('/resilify/program/'.length) : '';
+        slug = slug? slug?.split("/")?.[0] : "";
+        this.state = {
+            slug: slug
+        }
+    }
 
-    let slug = typeof window !== 'undefined' ? window?.location?.pathname?.substring('/resilify/program/'.length) : '';
-    slug = slug? slug?.split("/")?.[0] : "";
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        if(prevProps.location !== this.props.location){
+            let slug = typeof window !== 'undefined' ? window?.location?.pathname?.substring('/resilify/program/'.length) : '';
+            slug = slug? slug?.split("/")?.[0] : "";
+            this.setState({
+                slug
+            },() => this.componentDidMount())
+        }
+    }
 
-    const program = programs?.find(({slug: s}) => s === slug) || {};
+    componentDidMount() {
+        const { slug } = this.state;
+        Amplify.configure({
+            API: {
+                graphql_endpoint: graphql_endpoint.RESILIFY_TRACKS
+            }
+        });
+        const program = this.props.commonData?.program;
+        if (slug && !program?.[slug]) {
+            this.props.setResilifyLoading(true);
 
-    const relatedPrograms = _.filter(
-        _.uniqBy(
-            programs?.filter(({topics}) => _.some(program.topics, t => topics.includes(t))),
-            "id"),
-        ({id}) => id !== program.id
-    );
+            API.graphql(graphqlOperation(getMarketingTrackDetail,{slug}), {
+                "x-api-key": graphql_endpoint.TRACK_APIKEY
+            }).then(({data}) => {
+                this.props.setProgram(data?.getMarketingTrackDetail,slug);
+                this.props.setResilifyLoading(false);
+            }).catch(error => {
+                this.props.setResilifyLoading(false);
+                console.log('error-------------', error);
+            });
 
-    return (
-        <Layout noFooterMargin>
-            <div className="resilify-program-page">
-                {loading ? <Loader/> : <>
+            API.graphql(graphqlOperation(getRelatedPrograms,{slug}), {
+                "x-api-key": graphql_endpoint.TRACK_APIKEY
+            }).then(({data}) => {
+                this.props.setRelatedProgram(data?.getRelatedPrograms, slug);
+                this.props.setResilifyLoading(false);
+            }).catch(error => {
+                this.props.setResilifyLoading(false);
+                console.log('error-------------', error);
+            });
 
-                    <div className="banner-img">
-                        <div className="program-top-banner"
-                             style={{
-                                 background: `url(${CoachBg}) no-repeat center center fixed`
-                             }}
-                        >
-                            <div className="banner-body-section">
-                                <div className="banner-inner-body">
-                                    <div className="program-title-section">
-                                        <p className="base-text program-name">{program.name}</p>
-                                    </div>
-                                    <div className="banner-program">
-                                        <div className="program-img-section">
-                                            <CLImage
-                                                className="program-img"
-                                                cloudId={getCloudIDFromImageName(
-                                                    program.marketingImage,
-                                                    "bodhi",
-                                                    'tracks',
-                                                )}
-                                                imageHeight={800}
-                                                imageWidth={1200}
-                                            />
-                                        </div>
-                                        {program?.sessions?.length ?
-                                            <div className="program-session">
-                                                <h5>{`${program?.sessions?.length} SESSIONS`}</h5>
-                                                <Collapse ghost expandIconPosition="right" accordion
-                                                          className="scrollbar">
-                                                    {program?.sessions?.map((session, i) => {
-                                                        const lessons = getParseDetails(session?.lessons?.[0]);
-                                                        const activities = session.activityGroups?.flatMap(({activities}) => activities);
-                                                        return <Panel header={`${i + 1}. ${session.name}`} key={i}>
-                                                            <Tabs className={`topic-tabs`}>
-                                                                {edges?.map(item =>
-                                                                    <TabPane tab={item} key={item}>
-                                                                        {item === "Lessons" ?
-                                                                            <ul>
-                                                                                {lessons?.cards?.map(({title}) =>
-                                                                                    <li><img
-                                                                                        src={VideoIcon}/>{title}
-                                                                                    </li>)}
-                                                                            </ul> : <ul>
-                                                                                {activities?.map(activity =>
-                                                                                    <li>
-                                                                                        <CLImage
-                                                                                            cloudId={getCloudIDFromImageURL(
-                                                                                                activity.icon || 'Behavioral-activation.png',
-                                                                                                'bodhi',
-                                                                                                'icons',
-                                                                                            )}
-                                                                                            options={{
-                                                                                                format: 'png',
-                                                                                                background: 'transparent',
-                                                                                                color:"white"
-                                                                                            }}
-                                                                                        />
-                                                                                        {activity.name}
-                                                                                    </li>)}
-                                                                            </ul>
-                                                                        }
-                                                                    </TabPane>
-                                                                )}
-                                                            </Tabs>
-                                                        </Panel>
-                                                    })}
-                                                </Collapse>
-                                            </div> : null}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="resilify-program-description">
-                        <div className="program-desc">
-                            <div className="program-desc-text">
-                                <h3 className="base-text">About This Program</h3>
-                                <p>{ReactHtmlParser(program.description)}</p>
-                            </div>
-                        </div>
-                    </div>
-                </>}
+        }
+    }
 
-                <div className="category-page-body">
-                    <div className="program-section" id={`topic-tabs`}>
-                        <h3 className="program-section-title base-text">Related Programs</h3>
-                    </div>
-                    <div className="program-wrapper">
-                        {relatedPrograms?.map(program =>
-                            <Program program={program}/>
-                        )}
-                    </div>
-                </div>
-                <div style={{padding: "20px 0 20px", marginTop: 50}}>
-                    {/*<FAQs/>*/}
-                </div>
-            </div>
-        </Layout>
-    )
-};
 
-export default ResilifyProgram;
+    render() {
+        return (
+            <Layout noFooterMargin>
+                <ResilifyProgram slug={this.state.slug}/>
+            </Layout>
+        )
+    }
+}
+
+const mapStateToProps = (state) => ({
+    commonData: state.commonData,
+});
+
+export default connect(
+    mapStateToProps,
+    (dispatch) => ({
+        setPrograms: (programs) =>
+            dispatch(setPrograms(programs)),
+        setProgram: (programs,slug) =>
+            dispatch(setProgram(programs,slug)),
+        setRelatedProgram: (programs,slug) =>
+            dispatch(setRelatedProgram(programs,slug)),
+        setTopics: (topics) =>
+            dispatch(setTopics(topics)),
+        setResilifyLoading: (loading) =>
+            dispatch(setResilifyLoading(loading)),
+    }),
+)(ResilifyPrograms);

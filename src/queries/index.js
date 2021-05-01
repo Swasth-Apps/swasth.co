@@ -4,6 +4,12 @@ export const requestDemo = `query requestDemo($message: String, $phone: String, 
   }
 }`;
 
+export const registerYourInterest = `mutation registerYourInterest($email: String!, $name: String!,$programSlug: String!, $programId: String!){
+  registerYourInterest(email: $email, name: $name,programId: $programId, programSlug: $programSlug){
+   success
+  }
+}`;
+
 
 export const getMarketingPrograms = `query {
   getMarketingPrograms {
@@ -30,6 +36,70 @@ export const getMarketingPrograms = `query {
     payment
     tags
     shortDescription
+  }
+}`;
+export const getOrganizationsWithOwner = `query {
+   getOrganizationsWithOwner {
+    id
+    teamOwnerId
+    teamOwnerName
+    name
+    description
+    image
+    slug
+  }
+}`;
+
+export const getOrganizationWithMembersAndPrograms = `query getOrganizationWithMembersAndPrograms($organizationSlug: String!){
+   getOrganizationWithMembersAndPrograms(organizationSlug: $organizationSlug) {
+    approach {
+      html
+      image
+    }
+    comprehensive {
+      html
+      video
+    }
+    description
+    id
+    slug
+    image
+    name
+    programs {
+      name
+      app
+      coach {
+        name
+        picture
+      }
+      coachId
+      description
+      marketingImg
+      marketingDescription
+      duration {
+        interval
+        period
+      }
+      gradient
+      id
+      image
+      isFeatured
+      isFree
+      payment
+      shortDescription
+      status
+      tags
+      type
+      slug
+    }
+    teamOwnerId
+    teamOwnerName
+    teamMembers {
+      name
+      picture
+      userId
+      description
+    }
   }
 }`;
 
@@ -85,6 +155,33 @@ export const getTracksList = `
             name
             sequence
             topics
+            image
+            marketingImage
+            description
+            slug
+        }
+    }
+`;
+
+export const getTopics = `
+    query getTopics {
+        getTopics {
+            id
+            name
+            sequence
+            image
+            description
+            icon
+        }
+    }
+`;
+
+export const getMarketingTrackDetail = ` query getMarketingTrackDetail($slug: String!)  {
+        getMarketingTrackDetail(slug: $slug)  {
+            id
+            name
+            sequence
+            topics
             module
             isFree
             image
@@ -115,15 +212,16 @@ export const getTracksList = `
     }
 `;
 
-export const getTopics = `
-    query getTopics {
-        getTopics {
-            id
+export const getRelatedPrograms = ` query getRelatedPrograms($slug: String!)  {
+        getRelatedPrograms(slug: $slug)  {
+           id
             name
             sequence
+            topics
             image
+            marketingImage
             description
-            icon
+            slug
         }
     }
 `;

@@ -1,7 +1,4 @@
 import graphql_endpoint from '../aws-appsync-url'
-import Tirch from "../assets/images/experts/tirch.jpeg"
-import Philip from "../assets/images/experts/philip.jpg"
-import Yotam from "../assets/images/experts/yotam.png"
 import {cloudinary} from "./CLImage";
 
 export const getProgramName = name => name?.split(" ")?.join("-")?.toLowerCase();
@@ -204,10 +201,23 @@ export const expertsData = [{
   description:"After completing his doctorate at PGSP-Stanford Consortium, he did his post-doctoral training and acted as a healthcare Fellow at Stanford University (CCARE) where he developed various programs focused on resilience, team building and compassion.",
   expertise: "Clinical psychologist and a clinical faculty member at Palo Alto University",
   "slug":"yotam-heineberg"
+},{
+  name:"Dr. Tiffany Loggins",
+  img:"tiffny_loggins_profile.jpg",
+  description:"Tiffany Loggins, Psy.D. is a licensed psychologist and mental health wellness speaker. She specializes in minority stress within BIPoC (Black, Indigenous, & People of Color) communities, emotional resilience, and eating disorders. ",
+  expertise: "Doctor of Psychology, Counseling Psychology",
+  "slug":"tiffany-loggins-psyd"
 }];
 
 export const colors = ["blue-tag","pink-tag","purple-tag"];
 export const initialBlogsCount = 6;
+
+export const getInitials = word => {
+    const fullWords = word.split(' ');
+    const initials = fullWords.shift().charAt(0) + fullWords.pop().charAt(0);
+    return initials.toUpperCase();
+};
+
 export const getCLImageUrl = (image,source,type) => {
   const img = getCloudIDFromImageName(
       image,

@@ -1,6 +1,6 @@
 import React from "react";
 import CLImage from "../../../helper/CLImage";
-import {getCloudIDFromImageName} from "../../../helper/helper";
+import {getCloudIDFromImageName, getInitials} from "../../../helper/helper";
 
 // const {Option} = Select;
 const HonorsAwards = ({provider}) => {
@@ -16,6 +16,7 @@ const HonorsAwards = ({provider}) => {
                 <div className="side-view-content">
                     {provider?.awards?.map(q =>
                         <div className="flex-content">
+                            {q.image ?
                             <CLImage
                                 className="program-img"
                                 cloudId={getCloudIDFromImageName(
@@ -23,7 +24,7 @@ const HonorsAwards = ({provider}) => {
                                     "coaching",
                                     'png',
                                 )}
-                            />
+                            /> : <div className="avatar-img program-img para-medium-text">{getInitials(q?.award)}</div>}
                             <div className="content">
                                 <p className="para-text title">{q?.award}</p>
                                 <p className="para-text subtitle">{q?.givenBy}</p>

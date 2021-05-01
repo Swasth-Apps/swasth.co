@@ -29,8 +29,8 @@ class ProfileData extends React.Component {
                 <div className="profile-data-section-2">
                     <div className="profile-section">
                         <div className="location-section">
-
                             <div className="profile-data-content">
+                                {links?.length ?
                                 <div className="profile-content-box">
                                     <p className="base-text title">
                                         Links
@@ -48,7 +48,8 @@ class ProfileData extends React.Component {
                                             </li>
                                         )}
                                     </ul>
-                                </div>
+                                </div> : null}
+                                {books?.length ?
                                 <div className="profile-content-box">
                                     <p className="base-text title">
                                         Books
@@ -80,8 +81,7 @@ class ProfileData extends React.Component {
                                             </a>
                                         )}
                                     </ul>
-                                </div>
-
+                                </div> : null}
                             </div>
                         </div>
                     </div>

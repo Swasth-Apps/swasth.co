@@ -21,8 +21,8 @@ export default class CLImage extends Component {
   renderImage() {
     let opts = {};
     Object.assign(opts, this.props.options, {
-      width: this.props.imageWidth,
-      height: this.props.imageHeight,
+        imageWidth: this.props.imageWidth,
+        imageHeight: this.props.imageHeight,
     });
     return (
         <img
@@ -46,8 +46,8 @@ export default class CLImage extends Component {
       },
       options,
     );
-    opts.width = options.width;
-    opts.height = options.height;
+    opts.width = options.imageWidth;
+    opts.height = options.imageHeight;
     let url = cloudinary.url(cloudId, opts);
     return url;
   }

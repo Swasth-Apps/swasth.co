@@ -26,12 +26,12 @@ class CoachingIndex extends React.Component {
 
     getRoute = () => {
         if(typeof window !== "undefined"){
-            const path = window.location.pathname && window.location.pathname.substring('/coaching/'.length);
-            if(path && path.includes("everyone")){
+            const path = window.location.pathname.substring('/coaching/'.length);
+            if(path.includes("everyone")){
                 return "everyone"
-            } else if(path && path.includes("professionals")){
+            } else if(path.includes("professionals")){
                 return "professionals"
-            }else if(path && path.includes("experts")){
+            }else if(path.includes("experts")){
                 return "experts"
             }else{
                 return "overview"
@@ -39,7 +39,7 @@ class CoachingIndex extends React.Component {
         }else{
             return "overview"
         }
-    };
+    }
 
     renderTab = () => {
         switch (this.state.tab) {

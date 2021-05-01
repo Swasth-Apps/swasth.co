@@ -5,13 +5,7 @@ import graphql_endpoint from '../../aws-appsync-url'
 import {getMarketingPrograms} from "../../queries";
 import {Col, Row} from "antd";
 import {connect} from "react-redux";
-import {
-    setMarketingLoading,
-    setMarketingPrograms,
-    setPrograms,
-    setResilifyLoading,
-    setTopics
-} from "../../Redux/Actions/Programs";
+import {setMarketingLoading, setMarketingPrograms} from "../../Redux/Actions/Programs";
 
 
 class ClientsPrograms extends React.Component {
@@ -19,6 +13,25 @@ class ClientsPrograms extends React.Component {
         super(props);
         this.state = {
             programs: []
+        }
+    }
+
+    componentDidMount() {
+        if (!(this.props?.marketingPrograms?.length) && !this.props.coachingLoading) {
+            this.props.setMarketingLoading(true);
+            Amplify.configure({
+                API: {
+                    graphql_endpoint: graphql_endpoint.COACHING_MARKETING,
+                },
+            });
+            API.graphql(graphqlOperation(getMarketingPrograms), {
+                "x-api-key": graphql_endpoint.COACHING_API_KEY
+            }).then(({data}) => {
+                this.props.setMarketingPrograms(data?.getMarketingPrograms);
+                this.props.setMarketingLoading(false);
+            }).catch(() => {
+                this.props.setMarketingLoading(false);
+            });
         }
     }
 
@@ -87,5 +100,10 @@ const mapStateToProps = (state) => ({
 
 export default connect(
     mapStateToProps,
-   undefined
+    (dispatch) =>({
+        setMarketingPrograms: (programs) =>
+            dispatch(setMarketingPrograms(programs)),
+        setMarketingLoading: (loading) =>
+            dispatch(setMarketingLoading(loading)),
+    })
 )(ClientsPrograms);

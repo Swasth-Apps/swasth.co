@@ -9,7 +9,7 @@ import 'react-multi-carousel/lib/styles.css'
 import CategoryTabs from '../BreadCrum'
 import graphql_endpoint from '../../aws-appsync-url'
 import Amplify, {API, graphqlOperation} from "aws-amplify";
-import {getMarketingPrograms, getTopics, getTracksList} from "../../queries";
+import {getTopics, getTracksList} from "../../queries";
 import {
     setMarketingLoading,
     setMarketingPrograms,
@@ -31,63 +31,6 @@ class Layout extends React.Component {
     }
 
     componentDidMount() {
-
-        const programs = this.props.commonData?.programs;
-        if (!programs?.length) {
-            this.props.setResilifyLoading(true);
-            Amplify.configure({
-                API: {
-                    graphql_endpoint: graphql_endpoint.RESILIFY_TRACKS
-                }
-            });
-            API.graphql(graphqlOperation(getTracksList), {
-                "x-api-key": graphql_endpoint.TRACK_APIKEY
-            }).then(({data}) => {
-                this.props.setPrograms(data?.getTracksList?.filter(({marketingImage}) => marketingImage));
-                this.props.setResilifyLoading(false)
-            }).catch(error => {
-                this.props.setResilifyLoading(false);
-                console.log('error-------------', error);
-            });
-        }
-
-        if (!this.props.commonData?.topics?.length) {
-            this.props.setResilifyLoading(true);
-            Amplify.configure({
-                API: {
-                    graphql_endpoint: graphql_endpoint.RESILIFY_TRACKS
-                }
-            });
-            API.graphql(graphqlOperation(getTopics), {
-                "x-api-key": graphql_endpoint.TRACK_APIKEY
-            }).then(({data}) => {
-                this.props.setTopics(data?.getTopics);
-                if (programs?.length) {
-                    this.props.setResilifyLoading(false)
-                }
-            }).catch(error => {
-                this.props.setResilifyLoading(false);
-                console.log('error-------------', error);
-            });
-        }
-
-        if (!(this.props.commonData?.marketingPrograms?.length)) {
-            this.props.setMarketingLoading(true);
-            Amplify.configure({
-                API: {
-                    graphql_endpoint: graphql_endpoint.COACHING_MARKETING,
-                },
-            });
-            API.graphql(graphqlOperation(getMarketingPrograms), {
-                "x-api-key": graphql_endpoint.COACHING_API_KEY
-            }).then(({data}) => {
-                this.props.setMarketingPrograms(data?.getMarketingPrograms);
-                this.props.setMarketingLoading(false);
-            }).catch(() => {
-                this.props.setMarketingLoading(false);
-            });
-        }
-
         this.timeoutId = setTimeout(() => {
             this.setState({loading: ''})
         }, 100)
@@ -153,22 +96,5 @@ class Layout extends React.Component {
     }
 }
 
-const mapStateToProps = (state) => ({
-    commonData: state.commonData,
-});
 
-export default connect(
-    mapStateToProps,
-    (dispatch) => ({
-        setPrograms: (programs) =>
-            dispatch(setPrograms(programs)),
-        setTopics: (topics) =>
-            dispatch(setTopics(topics)),
-        setMarketingPrograms: (programs) =>
-            dispatch(setMarketingPrograms(programs)),
-        setMarketingLoading: (loading) =>
-            dispatch(setMarketingLoading(loading)),
-        setResilifyLoading: (loading) =>
-            dispatch(setResilifyLoading(loading)),
-    }),
-)(Layout);
+export default Layout;
