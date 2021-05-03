@@ -1,7 +1,7 @@
 import graphql_endpoint from '../aws-appsync-url'
 import {cloudinary} from "./CLImage";
 
-export const getProgramName = name => name?.split(" ")?.join("-")?.toLowerCase();
+export const getProgramName = name => name ? name?.split(" ")?.join("-")?.toLowerCase() : "";
 
 export const getImage = img => {
   return graphql_endpoint.BUCKET_URL+img;
@@ -213,7 +213,7 @@ export const colors = ["blue-tag","pink-tag","purple-tag"];
 export const initialBlogsCount = 6;
 
 export const getInitials = word => {
-    const fullWords = word?.split(' ');
+    const fullWords = word && word?.split(' ');
     const initials = fullWords?.shift()?.charAt(0) + fullWords?.pop()?.charAt(0);
     return initials?.toUpperCase();
 };

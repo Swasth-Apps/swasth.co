@@ -47,7 +47,7 @@ const CategoryPageScreen = () => {
     let topic = null;
 
     let category = typeof window !== 'undefined' ? window?.location?.pathname?.substring('/resilify/category/'.length) : 'all';
-    category = category?.split("/")?.[0];
+    category = category && category?.split("/")?.[0];
 
     const programs = data?.programs || [];
     const topics = data?.topics || [];
@@ -55,7 +55,7 @@ const CategoryPageScreen = () => {
     if (category === "all") {
         temps = programs
     } else {
-        topic = topics?.find(({name}) => name?.split(" ")?.join("-")?.toLowerCase() === category);
+        topic = topics?.find(({name}) => name && name?.split(" ")?.join("-")?.toLowerCase() === category);
         temps = programs?.filter(({topics}) => topics?.includes(topic?.id))
     }
     const p = showMore ? temps?.filter((_, i) => i < 8) : temps;

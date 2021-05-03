@@ -14,7 +14,7 @@ class CoachProgram extends React.Component {
     }
 
     getList = (data) => {
-        return data?.split("-");
+        return data && data?.split("-");
     };
 
     render() {

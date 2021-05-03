@@ -15,7 +15,7 @@ class ResilifyPrograms extends React.Component {
     constructor(props){
         super(props);
         let slug = typeof window !== 'undefined' ? window?.location?.pathname?.substring('/resilify/program/'.length) : '';
-        slug = slug? slug?.split("/")?.[0] : "";
+        slug = slug ? slug?.split("/")?.[0] : "";
         this.state = {
             slug: slug
         }
@@ -24,7 +24,7 @@ class ResilifyPrograms extends React.Component {
     componentDidUpdate(prevProps, prevState, snapshot) {
         if(prevProps.location !== this.props.location){
             let slug = typeof window !== 'undefined' ? window?.location?.pathname?.substring('/resilify/program/'.length) : '';
-            slug = slug? slug?.split("/")?.[0] : "";
+            slug = slug ? slug?.split("/")?.[0] : "";
             this.setState({
                 slug
             },() => this.componentDidMount())

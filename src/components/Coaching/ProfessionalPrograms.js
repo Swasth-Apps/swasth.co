@@ -19,7 +19,8 @@ class ProfessionalPrograms extends React.Component {
     constructor(props) {
         super(props);
         const urlParams = typeof window !== 'undefined' ? window.location?.pathname?.split("/professionals/") : null;
-        const splittedValue = urlParams?.[1]?.split("/");
+        console.log("splittedValue =========",splittedValue);
+        const splittedValue = urlParams && urlParams[1] && urlParams?.[1]?.split("/");
         this.state = {
             programs: [],
             organizationSlug: splittedValue?.[0],
@@ -30,9 +31,8 @@ class ProfessionalPrograms extends React.Component {
 
     componentDidUpdate(prevProps, prevState, snapshot) {
         if(prevProps.location !== this.props.location){
-            console.log("}}}}}}}}}}}}]]]]]]]]]]]]]|||||||",this.state.programSlug)
             const urlParams = typeof window !== 'undefined' ? window.location?.pathname?.split("/professionals/") : null;
-            const splittedValue = urlParams?.[1]?.split("/");
+            const splittedValue = urlParams && urlParams[1] && urlParams?.[1]?.split("/");
             this.setState({
                 organizationSlug: splittedValue?.[0],
                 tab: splittedValue?.[1],

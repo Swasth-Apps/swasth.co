@@ -33,7 +33,7 @@ export function getLessonImage(image) {
 export function getCloudIDFromImageURL(image, source, type = 'lessons') {
     let path = '';
     if (image) {
-        let imagePathSplitted = image?.split('/');
+        let imagePathSplitted = image && image?.split('/');
         if (imagePathSplitted.length > 0) {
             path = imagePathSplitted[imagePathSplitted.length - 1];
             let n = path.lastIndexOf('.');
