@@ -15,7 +15,7 @@ class Profile extends React.Component {
     }
 
     componentDidMount() {
-        const path = window.location.pathname.substring('/expert/'.length);
+        const path = window.location?.pathname?.substring('/expert/'.length);
         this.setState({
             loading: true
         });

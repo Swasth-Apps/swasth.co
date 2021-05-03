@@ -46,9 +46,9 @@ class OldPrograms extends React.Component {
     }
 
     componentDidMount() {
-        const path = window.location.pathname.substring('/programs/'.length);
+        const path = window.location?.pathname?.substring('/programs/'.length);
         if (path) {
-            if(path.includes("coaching/")){
+            if(path?.includes("coaching/")){
                 this.setState({
                     loading: true
                 });
