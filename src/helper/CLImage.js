@@ -6,8 +6,8 @@ export const cloudName = 'dbt';
 export const cloudinary = CLOUDINARY.Cloudinary.new({cloud_name: cloudName});
 
 export default class CLImage extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       imageWidth: 0,
       imageHeight: 0,
@@ -19,15 +19,10 @@ export default class CLImage extends Component {
   }
 
   renderImage() {
-    let opts = {};
-    Object.assign(opts, this.props.options, {
-        imageWidth: this.props.imageWidth,
-        imageHeight: this.props.imageHeight,
-    });
     return (
         <img
             className={this.props.className}
-            src={this.imageUrl(this.props.cloudId, opts)}
+            src={this.imageUrl(this.props.cloudId, this.props.options || {})}
             style={this.props.style}
         />
     );
@@ -48,7 +43,8 @@ export default class CLImage extends Component {
     );
     opts.width = options.imageWidth;
     opts.height = options.imageHeight;
-    let url = cloudinary.url(cloudId, opts);
+      console.log(opts)
+      let url = cloudinary.url(cloudId, opts);
     return url;
   }
 }

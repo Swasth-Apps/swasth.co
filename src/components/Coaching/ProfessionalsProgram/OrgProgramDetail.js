@@ -17,14 +17,6 @@ const OrgProgramDetail = (props) => {
                         <div className="main-course-col">
                             <h2 className="base-text">{program?.name}</h2>
                         </div>
-                        <div className="course-payment-col">
-                            <div className="payment-card">
-                                {/*<h1 className="base-text">$545</h1>*/}
-                                <a>
-                                  <RegisterInterest program={program} programSlug={props.programSlug}/>
-                                </a>
-                            </div>
-                        </div>
                     </section>
                     <div style={{textAlign: "center"}}>
                         <CLImage
@@ -36,21 +28,29 @@ const OrgProgramDetail = (props) => {
                             className={"program-img"}
                         />
                     </div>
-                    <div className="course-basics">
-                        {/*<p className="para-medium-text">
+                    <div className="course-basics-info">
+                        <div className="course-basics">
+                            {/*<p className="para-medium-text">
                                     <CalendarOutlined />
                                     <span>Starts August 4</span>
                                 </p>*/}
-                        <p className="para-medium-text">
-                            <ClockCircleOutlined/>
-                            <span>
+                            <p className="para-medium-text">
+                                <ClockCircleOutlined/>
+                                <span>
                                         {`${program?.duration?.interval} ${program?.duration?.period}`}
                                     </span>
-                        </p>
-                        <p className="para-medium-text">
-                            <HighlightOutlined/>
-                            <span>For Mental Health Professionals</span>
-                        </p>
+                            </p>
+                            <p className="para-medium-text">
+                                <HighlightOutlined/>
+                                <span>For Mental Health Professionals</span>
+                            </p>
+                        </div>
+                        <div className="payment-card">
+                            {/*<h1 className="base-text">$545</h1>*/}
+                            <a>
+                                <RegisterInterest program={program} programSlug={props.programSlug}/>
+                            </a>
+                        </div>
                     </div>
                     <div className="program-description">
                         {HtmlParser(program?.marketingDescription)}

@@ -692,6 +692,10 @@
             width: 120px;
             height: 120px;
             border-radius: 50%;
+          }
+          .expert-img{
+            width: 120px;
+            height: 120px;
             margin-right: 24px;
           }
         }
@@ -1430,6 +1434,10 @@
   @media screen and (max-width: 992.5px) {
     padding: 50px 0;
   }
+
+  .course-card-content {
+    padding: 0px 30px 0px !important;
+  }
 }
 
 .expert-card {
@@ -1497,13 +1505,14 @@
     .course-card {
       margin-top: 30px;
     }
+
     &:hover {
       color: inherit !important;
     }
   }
 
   .medium-wrapper {
-    max-width: 1200px !important;
+    max-width: 1100px !important;
     @media screen and (max-width: 769.5px) {
       padding: 0px 50px !important;
     }
@@ -1638,11 +1647,33 @@
 
 // Individual Course Section
 .individual-program-container {
-  padding: 50px;
+  padding: 60px;
   @media screen and (max-width: 992.5px) {
     padding: 20px;
   }
+
+  .course-basics-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    @media screen and (max-width: 770.5px) {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      .payment-card {
+        width: 100%;
+        text-align: center;
+      }
+      button {
+        margin-top: 10px;
+      }
+    }
+
+  }
+
 }
+
 .individual-course-container {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 5px 16px 0px;
@@ -1661,7 +1692,7 @@
     flex-wrap: wrap;
 
     .main-course-col {
-      flex: 0 0 66%;
+      flex: 0 0 100%;
 
       img {
         width: 100%;
@@ -1746,7 +1777,7 @@
   .course-basics {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 10px;
+    margin: 0px;
 
     p:not(:first-child) {
       margin-left: 20px;
@@ -1758,7 +1789,7 @@
     }
 
     @media screen and (max-width: 520px) {
-      p{
+      p {
         width: 100%;
         margin-left: 0px !important;
       }
@@ -1861,7 +1892,7 @@
   }
 
   .program-img {
-    width: 66%;
+    width: 100%;
     border-radius: 10px;
     margin: 40px auto 30px;
   }

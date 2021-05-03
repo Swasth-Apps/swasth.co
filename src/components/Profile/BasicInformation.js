@@ -15,6 +15,9 @@ const BasicInformation = (props) => {
                                 "coaching",
                                 'png',
                             )}
+                            options={{
+                                imageWidth: 150,imageHeight: 150
+                            }}
                         />
                         <div className="info">
                             <p className="title base-text">
@@ -36,6 +39,9 @@ const BasicInformation = (props) => {
                                 "coaching",
                                 'png',
                             )}
+                            options={{
+                                imageWidth: 1200,imageHeight: 800
+                            }}
                         />
                         <div className="gradient"/>
                     </div>

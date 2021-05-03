@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+import {Link} from "gatsby";
 import {expertsData, getCloudIDFromImageName} from "../../helper/helper";
 import CLImage from "../../helper/CLImage";
 import {Helmet} from "react-helmet";
@@ -16,7 +16,7 @@ class Experts extends React.Component {
         return (
             <div className="experts-navigation-wrapper">
                 <Helmet title="Resiliens">
-                    <meta charSet="utf-8" />
+                    <meta charSet="utf-8"/>
                     <title>Resilens - Experts in Evidence Based Therapy</title>
                     <meta
                         name="keywords"
@@ -28,13 +28,18 @@ class Experts extends React.Component {
                         <Link to={`/expert/${expert.slug}`} className="expert-container">
                             <div className="info">
                                 <div className="img">
-                                    <CLImage
-                                        cloudId={getCloudIDFromImageName(
-                                            expert.img,
-                                            "coaching",
-                                            'png',
-                                        )}
-                                    />
+                                    <div className="expert-img">
+                                        <CLImage
+                                            cloudId={getCloudIDFromImageName(
+                                                expert.img,
+                                                "coaching",
+                                                'png',
+                                            )}
+                                            options={{
+                                                imageWidth: 150,imageHeight: 150
+                                            }}
+                                        />
+                                    </div>
                                     <div>
                                         <p className="name base-text">{expert.name}</p>
                                         <p className="expertise para-text">{expert.expertise}</p>

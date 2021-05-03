@@ -96,9 +96,10 @@ export const getOrganizationWithMembersAndPrograms = `query getOrganizationWithM
     teamOwnerName
     teamMembers {
       name
-      picture
+      marketingPicture
       userId
       description
+      picture
     }
   }
 }`;
