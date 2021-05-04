@@ -1512,7 +1512,7 @@
   }
 
   .medium-wrapper {
-    max-width: 1100px !important;
+    //max-width: 1100px !important;
     @media screen and (max-width: 769.5px) {
       padding: 0px 50px !important;
     }
@@ -1647,7 +1647,10 @@
 
 // Individual Course Section
 .individual-program-container {
-  padding: 60px;
+  padding: 120px;
+  @media screen and (max-width: 1200.5px) {
+    padding: 50px;
+  }
   @media screen and (max-width: 992.5px) {
     padding: 20px;
   }

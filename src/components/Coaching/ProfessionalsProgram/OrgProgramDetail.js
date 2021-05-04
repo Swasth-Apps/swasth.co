@@ -26,6 +26,10 @@ const OrgProgramDetail = (props) => {
                                 'png',
                             )}
                             className={"program-img"}
+                            options={{
+                                imageWidth: 1200,
+                                imageHeight: 800
+                            }}
                         />
                     </div>
                     <div className="course-basics-info">

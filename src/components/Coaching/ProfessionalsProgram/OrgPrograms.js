@@ -23,6 +23,10 @@ const   OrgProgram = ({program,noPrice = false,slug}) =>{
                             "coaching",
                             'png',
                         )}
+                        options={{
+                            imageWidth: 1200,
+                            imageHeight: 800
+                        }}
                         // className={"program-img"}
                     />
                 </div>
