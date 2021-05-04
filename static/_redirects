@@ -1,0 +1,3 @@
+/                       /
+/coaching/program/*     /coaching/program/:splat
+/coaching/*             /coaching/:splat

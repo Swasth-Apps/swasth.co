@@ -44,7 +44,7 @@ const CoachingComponent = (props) => {
                     <TabPane tab={<Link to={`/coaching/professionals`} className={`para-text tab-title ${props.tab !== "professionals" ? "unselected-tab" : ""}`}>
                         <img src={ProfessionalActive} />
                         <div className="tab-div-title">
-                            For Professionals
+                            For Health Professionals
                         </div>
                     </Link>} key="professionals">
                         <ProfessionalPrograms location={props.location}/>

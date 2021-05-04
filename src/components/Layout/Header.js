@@ -83,7 +83,7 @@ const Header = (props) => {
                         >
                             <div className="menu-content base-text">
                                 <img src={ProfessionalActive} />
-                                For Professionals</div>
+                                For Health Professionals</div>
                         </a>
 
                         <a
