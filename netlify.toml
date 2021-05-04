@@ -1,0 +1,13 @@
+[[redirects]]
+  from = "/coaching/program/*"
+  to = "/coaching/program"
+  status = 200
+  query = {path = ":path"} # apply this rule for /?path=example
+  force = true
+
+[[redirects]]
+  from = "/coaching/*"
+  to = "/coaching"
+  status = 200
+  force = true
+
