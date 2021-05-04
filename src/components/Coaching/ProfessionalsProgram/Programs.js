@@ -3,12 +3,14 @@ import OrgPrograms from "./OrgPrograms";
 import OrgProgramDetail from "./OrgProgramDetail";
 import graphql_endpoint from "../../../aws-appsync-url";
 import Amplify, {API, graphqlOperation} from 'aws-amplify'
+import ExpertCard from "./ExpertCard";
 
 const getProgramBySlug = `query getProgramBySlug($slug: String!) {
   getProgramBySlug(slug: $slug ) {
     id
     coachId 
     name
+    shortTitle
     description
     duration{
       period
@@ -24,6 +26,20 @@ const getProgramBySlug = `query getProgramBySlug($slug: String!) {
       name
       description
       startDate
+    }
+    coach{
+        name
+        marketingPicture
+        description
+        expertSlug
+        userId
+    }
+    coCoach{
+        name
+        marketingPicture
+        description
+        expertSlug
+        userId
     }
   }
 }`;
@@ -74,11 +90,11 @@ class Programs extends React.Component {
 
     render = () => {
         const {organization} = this.props;
-        const {loading} = this.state;
+        const {loading,openProgram} = this.state;
         return (
             <>
-                <div className="organization-featured-programs">
-                    {!this.state.openProgram && !this.state.programSlug ?
+                <div className={`organization-featured-programs ${openProgram ? "organization-program-detail" : ""}`}>
+                    {!openProgram && !this.state.programSlug ?
                         <div
                             id='wrapper'
                             className={'coach-wrapper'}
@@ -110,11 +126,22 @@ class Programs extends React.Component {
                                     </div>
                                 </div> :
                                 <OrgProgramDetail
-                                    program={this.state.openProgram}
+                                    program={openProgram}
                                     programSlug={this.state.programSlug}
                                 />}
                         </div>}
                 </div>
+                {openProgram ?
+                <div className="organization-members-container" style={{paddingTop: 50}}>
+                    <div id="wrapper">
+
+                        <h2 className="base-text">Program Facilitator</h2>
+                        {openProgram?.coach ?
+                            <ExpertCard member={openProgram?.coach}/> : null}
+                        {openProgram?.coCoach?.map(t =>
+                            <ExpertCard member={t}/>)}
+                    </div>
+                </div> : null}
             </>
         );
     };

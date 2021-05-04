@@ -1,10 +1,12 @@
 import React from "react";
-import {ClockCircleOutlined, HighlightOutlined, CalendarOutlined,CiOutlined} from '@ant-design/icons'
+import {CalendarOutlined, ClockCircleOutlined, HighlightOutlined} from '@ant-design/icons'
 import {Collapse} from "antd";
 import RegisterInterest from "../../RegisterInterestModal";
 import {getCloudIDFromImageName} from "../../../helper/helper";
 import CLImage from "../../../helper/CLImage";
 import HtmlParser from "react-html-parser";
+import CECredit from "../../../assets/images/ce-credits-icon.png";
+import AllDevices from "../../../assets/images/all-devices.png";
 
 const {Panel} = Collapse;
 const OrgProgramDetail = (props) => {
@@ -32,38 +34,45 @@ const OrgProgramDetail = (props) => {
                                     imageHeight: 800
                                 }}
                             />
-                            <div className="course-basics-info">
-                                <div className="course-basics">
-                                    <p className="para-medium-text">
-                                        <CalendarOutlined/>
-                                        <span>Starts June 1</span>
-                                    </p>
-                                    <p className="para-medium-text">
-                                        <ClockCircleOutlined/>
-                                        <span>
-                                        {`${program?.duration?.interval} ${program?.duration?.period}`}
-                                    </span>
-                                    </p>
-                                    <p className="para-medium-text">
-                                        <HighlightOutlined/>
-                                        <span>For Mental Health Professionals</span>
-                                    </p>
-                                    <p className="para-medium-text">
-                                        <CiOutlined/>
-                                        <span>DBT</span>
-                                    </p>
-                                </div>
-
-                            </div>
-
                         </div>
                         <div className="payment-card">
-                            <h3 className="para-text">{program?.name}</h3>
+                            <h3 className="para-text">{program?.shortTitle || program?.name}</h3>
                             <h1 className="base-text">$545</h1>
                             <a>
                                 <RegisterInterest program={program} programSlug={props.programSlug}/>
                             </a>
+                            <div className="separator-content">
+                                <p className="divider"/>
+                                <h3 className="para-text">Access across all platforms</h3>
+                                <p className="para-text">
+                                    Works seamlessly across all your devices: iPhone, iPad, Android phones and tablets, web etc.
+                                </p>
+                                <img src={AllDevices}/>
+                            </div>
                         </div>
+                    </div>
+                    <div className="course-basics-info">
+                        <div className="course-basics">
+                            <p className="para-medium-text">
+                                <CalendarOutlined/>
+                                <span>Starts 1st June</span>
+                            </p>
+                            <p className="para-medium-text">
+                                <ClockCircleOutlined/>
+                                <span>
+                                        {`${program?.duration?.interval} ${program?.duration?.period?.toLowerCase()}`}
+                                    </span>
+                            </p>
+                            <p className="para-medium-text">
+                                <HighlightOutlined/>
+                                <span>For Mental Health Professionals</span>
+                            </p>
+                            <p className="para-medium-text">
+                                <img src={CECredit}/>
+                                <span>TBA CE/CME Credits</span>
+                            </p>
+                        </div>
+
                     </div>
                     <div className="program-description">
                         {HtmlParser(program?.marketingDescription)}
@@ -97,9 +106,8 @@ const OrgProgramDetail = (props) => {
                     </div>
                 </div>
             </div>
-
         </>
     )
-}
+};
 
 export default OrgProgramDetail;

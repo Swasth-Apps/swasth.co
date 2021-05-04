@@ -100,6 +100,7 @@ export const getOrganizationWithMembersAndPrograms = `query getOrganizationWithM
       userId
       description
       picture
+      expertSlug
     }
   }
 }`;

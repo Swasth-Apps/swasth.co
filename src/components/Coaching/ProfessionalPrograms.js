@@ -7,19 +7,17 @@ import ProfessionalPage from "./ProfessionalsProgram";
 import Amplify, {API, graphqlOperation} from "aws-amplify";
 import graphql_endpoint from "../../aws-appsync-url";
 import {getOrganizationsWithOwner, getOrganizationWithMembersAndPrograms} from "../../queries";
-import {setMarketingLoading, setOrganizations,setOrganizationById} from "../../Redux/Actions/Programs";
+import {setMarketingLoading, setOrganizationById, setOrganizations} from "../../Redux/Actions/Programs";
 import {getCloudIDFromImageName} from "../../helper/helper";
 import CLImage from "../../helper/CLImage";
 import _ from "lodash";
 import {Helmet} from "react-helmet";
-import Layout from "../Layout/layout";
 
 
 class ProfessionalPrograms extends React.Component {
     constructor(props) {
         super(props);
         const urlParams = typeof window !== 'undefined' ? window.location?.pathname?.split("/professionals/") : null;
-        console.log("splittedValue =========",splittedValue);
         const splittedValue = urlParams && urlParams[1] && urlParams?.[1]?.split("/");
         this.state = {
             programs: [],

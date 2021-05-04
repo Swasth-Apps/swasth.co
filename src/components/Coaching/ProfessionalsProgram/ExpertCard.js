@@ -1,10 +1,19 @@
 import React from "react";
+import { navigate } from "gatsby";
 import {getCloudIDFromImageName, getImage} from "../../../helper/helper";
 import CLImage from "../../../helper/CLImage";
 
 const ExperCard = ({member}) => {
+
+    const redirectToExpert = async (e) => {
+        e.preventDefault();
+        if(member.expertSlug){
+            await navigate(`/expert/${member.expertSlug}`);
+        }
+    };
+
     return (
-        <div className="home-signature-courses short-courses expert-card">
+        <div className="home-signature-courses short-courses expert-card" onClick={redirectToExpert} style={{cursor: "pointer"}}>
             <div className={`course-card`}>
                 <div className="course-card-image">
                     {member?.marketingPicture ?

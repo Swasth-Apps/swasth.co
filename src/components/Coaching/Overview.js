@@ -1,12 +1,10 @@
 import React from "react";
 import {Col, Row} from "antd";
-import {ArrowRightOutlined} from "@ant-design/icons";
 import bannerGraphic from "../../assets/images/coaching-woman.jpeg";
 import Care from "../../assets/images/overview/care.jpg"
 import Coaching from "../../assets/images/coachingProgram/coaching.png"
 import CoachingMobile from "../../assets/images/coachingProgram/coaching-mobile.png"
 import {Helmet} from "react-helmet";
-import Layout from "../Layout/layout";
 
 const CoachingOverview = () => {
     return (
