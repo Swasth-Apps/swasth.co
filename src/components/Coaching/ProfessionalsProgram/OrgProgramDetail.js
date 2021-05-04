@@ -1,5 +1,5 @@
 import React from "react";
-import {ClockCircleOutlined, HighlightOutlined} from '@ant-design/icons'
+import {ClockCircleOutlined, HighlightOutlined, CalendarOutlined,CiOutlined} from '@ant-design/icons'
 import {Collapse} from "antd";
 import RegisterInterest from "../../RegisterInterestModal";
 import {getCloudIDFromImageName} from "../../../helper/helper";
@@ -18,39 +18,48 @@ const OrgProgramDetail = (props) => {
                             <h2 className="base-text">{program?.name}</h2>
                         </div>
                     </section>
-                    <div style={{textAlign: "center"}}>
-                        <CLImage
-                            cloudId={getCloudIDFromImageName(
-                                program?.marketingImg,
-                                "coaching",
-                                'png',
-                            )}
-                            className={"program-img"}
-                            options={{
-                                imageWidth: 1200,
-                                imageHeight: 800
-                            }}
-                        />
-                    </div>
-                    <div className="course-basics-info">
-                        <div className="course-basics">
-                            {/*<p className="para-medium-text">
-                                    <CalendarOutlined />
-                                    <span>Starts August 4</span>
-                                </p>*/}
-                            <p className="para-medium-text">
-                                <ClockCircleOutlined/>
-                                <span>
+                    <div className="program-img-container">
+                        <div className="program-img-section">
+                            <CLImage
+                                cloudId={getCloudIDFromImageName(
+                                    program?.marketingImg,
+                                    "coaching",
+                                    'png',
+                                )}
+                                className={"program-img"}
+                                options={{
+                                    imageWidth: 1200,
+                                    imageHeight: 800
+                                }}
+                            />
+                            <div className="course-basics-info">
+                                <div className="course-basics">
+                                    <p className="para-medium-text">
+                                        <CalendarOutlined/>
+                                        <span>Starts June 1</span>
+                                    </p>
+                                    <p className="para-medium-text">
+                                        <ClockCircleOutlined/>
+                                        <span>
                                         {`${program?.duration?.interval} ${program?.duration?.period}`}
                                     </span>
-                            </p>
-                            <p className="para-medium-text">
-                                <HighlightOutlined/>
-                                <span>For Mental Health Professionals</span>
-                            </p>
+                                    </p>
+                                    <p className="para-medium-text">
+                                        <HighlightOutlined/>
+                                        <span>For Mental Health Professionals</span>
+                                    </p>
+                                    <p className="para-medium-text">
+                                        <CiOutlined/>
+                                        <span>DBT</span>
+                                    </p>
+                                </div>
+
+                            </div>
+
                         </div>
                         <div className="payment-card">
-                            {/*<h1 className="base-text">$545</h1>*/}
+                            <h3 className="para-text">{program?.name}</h3>
+                            <h1 className="base-text">$545</h1>
                             <a>
                                 <RegisterInterest program={program} programSlug={props.programSlug}/>
                             </a>

@@ -51,9 +51,9 @@ class ProfessionalPage extends React.Component {
     };
 
     render() {
-        const {organizationSlug} = this.props;
+        const { organizationSlug } = this.props;
         let organization = this.props.organization?.[organizationSlug];
-        const teamOwner = _.find(organization?.teamMembers, ({userId}) => userId === organization.teamOwnerId)
+        const teamOwner = _.find(organization?.teamMembers, ({ userId }) => userId === organization.teamOwnerId);
         return (
             <>
                 <section
