@@ -60,7 +60,6 @@ export const getOrganizationWithMembersAndPrograms = `query getOrganizationWithM
       html
       video
     }
-    shortDescription
     id
     slug
     image
@@ -72,6 +71,7 @@ export const getOrganizationWithMembersAndPrograms = `query getOrganizationWithM
         name
         picture
       }
+          shortDescription
       coachId
       description
       marketingImg
