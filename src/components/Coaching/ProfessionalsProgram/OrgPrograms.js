@@ -57,7 +57,7 @@ const   OrgProgram = ({program,noPrice = false,slug}) =>{
                         </p>
                     </div>
                     <p className="para-text desc">
-                        {program.description}
+                        {program.shortDescription}
                     </p>
                     {!noPrice ?
                     <div className="course-registration-info">

@@ -1387,6 +1387,12 @@
       font-size: 16px;
       margin-bottom: 12px;
     }
+    a{
+      color: darken(_palette(primary-purple),10%);
+      &:hover{
+        color: darken(_palette(primary-purple),20%) !important;
+      }
+    }
 
     li {
       margin-bottom: 10px;

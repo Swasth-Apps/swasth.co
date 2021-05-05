@@ -60,7 +60,7 @@ export const getOrganizationWithMembersAndPrograms = `query getOrganizationWithM
       html
       video
     }
-    description
+    shortDescription
     id
     slug
     image
