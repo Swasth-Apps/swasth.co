@@ -1271,11 +1271,17 @@
       }
 
       .desc {
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        min-height: unset;
+        //display: -webkit-box;
+        //-webkit-line-clamp: 3;
+        //-webkit-box-orient: vertical;
+        //overflow: hidden;
+        //min-height: unset;
+        a{
+          color: _palette(primary-blue);
+          &:hover{
+            color: darken(_palette(primary-blue),10%) !important;
+          }
+        }
       }
     }
 

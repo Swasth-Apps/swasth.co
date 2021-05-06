@@ -4,6 +4,7 @@ import {ClockCircleOutlined, RightOutlined, UsergroupAddOutlined} from '@ant-des
 import {getCloudIDFromImageName, getImage} from "../../../helper/helper";
 import PlaceHolderImg from "../../../assets/images/image-placeholder.png";
 import CLImage from "../../../helper/CLImage";
+import ShowMore from 'react-show-more';
 
 const   OrgProgram = ({program,noPrice = false,slug}) =>{
     return(
@@ -57,7 +58,13 @@ const   OrgProgram = ({program,noPrice = false,slug}) =>{
                         </p>
                     </div>
                     <p className="para-text desc">
-                        {program.shortDescription}
+                        <ShowMore
+                            lines={2}
+                            more='Show more'
+                            less='Show less'
+                            anchorClass=''
+                        >{program.shortDescription}</ShowMore>
+
                     </p>
                     {!noPrice ?
                     <div className="course-registration-info">
