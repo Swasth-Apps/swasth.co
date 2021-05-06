@@ -59,7 +59,7 @@ const   OrgProgram = ({program,noPrice = false,slug}) =>{
                     </div>
                     <p className="para-text desc">
                         <ShowMore
-                            lines={2}
+                            lines={4}
                             more='Show more'
                             less='Show less'
                             anchorClass=''
