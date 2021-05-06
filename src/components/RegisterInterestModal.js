@@ -111,8 +111,8 @@ const RegisterInterestModal = props => {
                         <p className="para-text info-text">
                             Clicking subscribe means you agree to our terms & conditions. We may share your information
                             with our partners. View our {' '}
-                            <Link to="/privacy" className='base-text'>Privacy Policy</Link> and <Link to="/terms"
-                                                                                                      className="base-text">Terms
+                            <Link to="/privacy" className='para-text'>Privacy Policy</Link> and <Link to="/terms"
+                                                                                                      className="para-text">Terms
                             of Use</Link>.
                         </p>
                         <Button htmlType="submit" className="request-demo-btn base-text" loading={loading}>Subscribe</Button>

@@ -55,10 +55,12 @@ export const getOrganizationWithMembersAndPrograms = `query getOrganizationWithM
     approach {
       html
       image
+      video
     }
     comprehensive {
       html
       video
+      image
     }
     id
     slug
