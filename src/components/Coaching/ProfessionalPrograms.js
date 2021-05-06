@@ -137,7 +137,6 @@ class ProfessionalPrograms extends React.Component {
                                 </div>
                             </div> : organizations?.length ? organizations?.map(org =>
                                 <div className="coach-grid-view">
-                                    {console.log(org)}
                                     <Link to={`/coaching/professionals/${org.slug}/overview`} className="coach-grid-view-card">
                                         <div style={{position:"relative"}}>
                                         <CLImage
@@ -146,6 +145,10 @@ class ProfessionalPrograms extends React.Component {
                                                 "coaching",
                                                 'png',
                                             )}
+                                            options={{
+                                            imageWidth: 1200,
+                                                imageHeight: 800
+                                            }}
                                         />
                                         <div className="coach-info">
                                             {org.name}

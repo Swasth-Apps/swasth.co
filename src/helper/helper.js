@@ -218,7 +218,7 @@ export const getInitials = word => {
     return initials?.toUpperCase();
 };
 
-export const getCLImageUrl = (image,source,type) => {
+export const getCLImageUrl = (image,source,type,noOtions = false) => {
   const img = getCloudIDFromImageName(
       image,
       source,
@@ -231,11 +231,13 @@ export const getCLImageUrl = (image,source,type) => {
         crop: 'fill',
         gravity: 'face',
         format: 'jpg',
-        quality: 75,
+        quality: 100,
         secure: true,
       },
   );
-  opts.width = 1200;
-  opts.height = 800;
+  if(!noOtions) {
+      opts.width = 1200;
+      opts.height = 800;
+  }
   return cloudinary.url(img, opts);
 };

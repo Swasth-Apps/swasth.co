@@ -59,7 +59,10 @@ class ProfessionalPage extends React.Component {
                 <section
                     id="banner"
                     className={`major max-width-class professional-page-banner`}
-                    style={{backgroundImage: `url(${getCLImageUrl(organization?.image, "coaching", "png")})`}}
+                    style={{
+                        backgroundImage: `url(${getCLImageUrl(organization?.image, "coaching", "png",true)})`,
+                        backgroundAttachment: "unset"
+                    }}
                 >
 
                     <div
