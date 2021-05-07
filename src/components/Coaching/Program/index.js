@@ -23,7 +23,8 @@ class CoachProgram extends React.Component {
     };
 
     render() {
-        const {program} = this.props;
+        let {program} = this.props;
+        program = program || {};
         return (
             <div className="coaching-program-page">
                 <div className="programs-list-page-program-card">
@@ -37,14 +38,14 @@ class CoachProgram extends React.Component {
                                 <p className="para-medium-text back-arrow" onClick={this.handleGoBack}>
                                     <ArrowLeftOutlined/> Back to Programs</p>
                                 <h1 className="heading-32 ch-width-24 base-text">
-                                    {program.name}
+                                    {program?.name}
                                 </h1>
                                 <p className="body-18 ch-width-50 para-text html-parser" style={{marginBottom: 40}}>
-                                    {ReactHtmlParser(program.overview)}
+                                    {ReactHtmlParser(program?.overview)}
                                 </p>
                                 <div className="program-list-page-buttons tm-8">
                                     <div className="rm-16">
-                                        <RegisterInterest program={program} programSlug={program.slug}/>
+                                        <RegisterInterest program={program} programSlug={program?.slug}/>
                                     </div>
                                 </div>
                             </div>
@@ -119,7 +120,7 @@ class CoachProgram extends React.Component {
                         className={'coach-wrapper'}
                         style={{paddingBottom: 0}}
                     >
-                        {program.marketingDescription ? <>
+                        {program?.marketingDescription ? <>
                         <div className="flex-coloured-container peach-bg tm-100">
                             <div className="course-panel-text-wrapper">
                                 <h3 className="ch-width-24 overview-title" style={{marginBottom: 0}}>
@@ -128,7 +129,7 @@ class CoachProgram extends React.Component {
                             </div>
                         </div>
                         <p className="body-18 ch-width-50 para-text html-parser" style={{marginBottom: 40}}>
-                            {ReactHtmlParser(program.marketingDescription)}
+                            {ReactHtmlParser(program?.marketingDescription)}
                         </p></> : null}
 
                         {program?.objectiveGoals ? <>
@@ -140,7 +141,7 @@ class CoachProgram extends React.Component {
                                 </div>
                             </div>
                             <p className="body-18 ch-width-50 para-text html-parser" style={{marginBottom: 40}}>
-                                {ReactHtmlParser(program.objectiveGoals)}
+                                {ReactHtmlParser(program?.objectiveGoals)}
                             </p> </> : null}
 
                         {program?.sessions ? <>
@@ -152,7 +153,7 @@ class CoachProgram extends React.Component {
                                         Program Modules
                                     </h3>
                                     <p className="body-18 ch-width-50 para-text html-parser" style={{marginBottom: 40}}>
-                                        {ReactHtmlParser(program.modulesOverview)}
+                                        {ReactHtmlParser(program?.modulesOverview)}
                                     </p>
                                 </div>
                             </div>
@@ -196,7 +197,7 @@ class CoachProgram extends React.Component {
                         </> : null}
                     </div>
 
-                    {program.scheduled || program.self_placed || program.schedule_communicate ?
+                    {program?.scheduled || program?.self_placed || program?.schedule_communicate ?
                         <section className='banner-section'>
                             <Row className='-row-flex-center' id='wrapper'>
                                 <Col md={24} style={{width: '100%'}}>
@@ -210,7 +211,7 @@ class CoachProgram extends React.Component {
                                                     Scheduled
                                                 </h4>
                                                 <div className="html-parser">
-                                                    {ReactHtmlParser(program.scheduled)}
+                                                    {ReactHtmlParser(program?.scheduled)}
                                                 </div>
                                             </div>
                                         </div>
@@ -220,7 +221,7 @@ class CoachProgram extends React.Component {
                                                     Self Placed
                                                 </h4>
                                                 <div className="html-parser">
-                                                    {ReactHtmlParser(program.self_placed)}
+                                                    {ReactHtmlParser(program?.self_placed)}
                                                 </div>
                                             </div>
                                         </div>
@@ -229,7 +230,7 @@ class CoachProgram extends React.Component {
                                                 <img
                                                     src="https://uploads-ssl.webflow.com/600787feb3f344152b7cce1c/600787feb3f3444c567cce94_people-messaging-icon.svg"/>
                                                 <div className="html-parser">
-                                                    {ReactHtmlParser(program.schedule_communicate)}
+                                                    {ReactHtmlParser(program?.schedule_communicate)}
                                                 </div>
                                             </div>
                                         </div>
@@ -240,7 +241,7 @@ class CoachProgram extends React.Component {
                         </section> : null}
 
 
-                    {program.tuition ?
+                    {program?.tuition ?
                             <Row className='-row-flex-center' id='wrapper' style={{marginTop: 50}}>
                                 <Col md={24} style={{width: '100%'}}>
                                     <h3 className='bottom-space program-schedule-title'>
@@ -249,7 +250,7 @@ class CoachProgram extends React.Component {
                                     <div className="program-tuition">
                                         <div className="section">
                                                 <div className="html-parser">
-                                                    {ReactHtmlParser(program.tuition)}
+                                                    {ReactHtmlParser(program?.tuition)}
                                                 </div>
                                         </div>
                                         <div className="section">
@@ -257,7 +258,7 @@ class CoachProgram extends React.Component {
                                                 <h3 className="para-medium-text">
                                                     Ready to dive into learning some skills?
                                                 </h3>
-                                                    <RegisterInterest program={program} programSlug={program.slug}/>
+                                                    <RegisterInterest program={program} programSlug={program?.slug}/>
                                             </div>
                                         </div>
                                     </div>
