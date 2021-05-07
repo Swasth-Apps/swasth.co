@@ -95,6 +95,15 @@ const Header = (props) => {
                                 <img src={ExpertActive}/>
                                 Experts</div>
                         </a>
+                        <a
+                            rel="noreferrer"
+                            className={tab === "organizations" ? "selected-tab" : ""}
+                            onClick={() => onChangeTab("organizations")}
+                        >
+                            <div className="menu-content base-text">
+                                <img src={ExpertActive}/>
+                                Organizations</div>
+                        </a>
                     </a>
                 </>;
             case "resilify":

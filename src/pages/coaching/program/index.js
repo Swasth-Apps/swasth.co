@@ -1,117 +1,23 @@
 import React from "react";
 import Layout from "../../../components/Layout/layout";
 import CoachProgram from "../../../components/Coaching/Program";
-import Amplify, { API, graphqlOperation } from 'aws-amplify'
-import graphql_endpoint from '../../../aws-appsync-url'
+import programs from "../../../JSON/CoachProgramsForEveryone.json"
 
-const getMarketingData = `query getMarketingData($programId: ID!) {
-  getMarketingData(programId: $programId ) {
-    id
-    coachId
-    coach{
-        userId
-        name
-        email
-        picture
-    }
-    name
-    description
-    duration{
-      period
-      interval
-    }
-    documents
-    instructions
-    app
-    image
-    type
-    gradient
-    isFeatured
-    isFree
-    shortDescription
-    learningObjectives
-    featuredVideos
-    payment
-    tags
-    coachInfo{
-      bio
-      interest
-      education
-      experience
-    }
-    howItWorks{
-        description
-        cards{
-            image
-            title
-            description
-        }
-    }
-    sessions{
-      id
-      moduleId
-      coachId
-      programId
-      name
-      module
-      description
-      instructions
-      startDate
-      relativeDays
-      type
-      relativeStartDate{
-        period
-        interval
-      }
-      image
-    }
-  }
-}`;
-
-class CoachingProgram extends React.Component{
+class CoachingProgram extends React.Component {
     constructor(props) {
         super(props);
-        const urlParams = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : null;
-        const programId = urlParams?.get('program');
+        const urlParams = typeof window !== 'undefined' ? window.location?.pathname?.split("/program/") : null;
         this.state = {
-            program: {},
-            programId,
-            coachId:"",
-            loading: false
+            loading: false,
+            slug: urlParams?.[1]
         }
-    }
-
-
-    componentDidMount() {
-        const { programId } = this.state;
-        this.setState({
-            loading: true
-        });
-        Amplify.configure({
-            API: {
-                graphql_endpoint: graphql_endpoint.COACHING_MARKETING,
-            },
-        });
-        API.graphql(graphqlOperation(getMarketingData, { programId }), {
-            "x-api-key": graphql_endpoint.COACHING_API_KEY
-        }).then(({ data }) => {
-            this.setState({
-                program: data?.getMarketingData,
-                loading: false
-            })
-        }).catch(e => {
-            this.setState({
-            loading: false
-        });
-            console.log(e)
-        });
     }
 
     render() {
-        return(
-            <Layout extraHeader>
-                {this.state.loading ? null :
-                <CoachProgram program={this.state.program}/>}
+        const program = programs?.find(({slug}) => slug === this.state.slug);
+        return (
+            <Layout extraHeader noFooterMargin>
+                    <CoachProgram program={program}/>
             </Layout>
         )
     }

@@ -1,55 +1,15 @@
 import React from "react";
-import OrgPrograms from "./OrgPrograms";
-import OrgProgramDetail from "./OrgProgramDetail";
-import graphql_endpoint from "../../../aws-appsync-url";
-import Amplify, {API, graphqlOperation} from 'aws-amplify'
-import ExpertCard from "./ExpertCard";
+import professionData from "../../../JSON/CoachProgramsForProfessionals.json"
+import Program from "../../../components/Coaching/Program";
+import CourseCard from "../CourseCard";
 
-const getProgramBySlug = `query getProgramBySlug($slug: String!) {
-  getProgramBySlug(slug: $slug ) {
-    id
-    coachId 
-    name
-    shortTitle
-    description
-    duration{
-      period
-      interval
-    }
-    image
-    type
-    isFree
-    marketingImg
-    marketingDescription
-    sessions{
-      id
-      name
-      description
-      startDate
-    }
-    coach{
-        name
-        marketingPicture
-        description
-        expertSlug
-        userId
-    }
-    coCoach{
-        name
-        marketingPicture
-        description
-        expertSlug
-        userId
-    }
-  }
-}`;
 
 class Programs extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             programs: [],
-            openProgram: null,
+            openProgram: professionData?.find(({slug}) => slug === this.props.programSlug),
             programSlug: this.props.programSlug
         }
     }
@@ -58,39 +18,15 @@ class Programs extends React.Component {
         if (prevProps.programSlug !== this.props.programSlug) {
             this.setState({
                 programSlug: this.props.programSlug,
-                openProgram: null
-            }, () => this.props.programSlug && this.componentDidMount())
+                openProgram: professionData?.find(({slug}) => slug === this.props.programSlug)
+            })
         }
     }
 
 
-    componentDidMount() {
-        this.setState({
-            loading: true
-        });
-        Amplify.configure({
-            API: {
-                graphql_endpoint: graphql_endpoint.COACHING_MARKETING,
-            },
-        });
-        API.graphql(graphqlOperation(getProgramBySlug, {slug: this.state.programSlug}), {
-            "x-api-key": graphql_endpoint.COACHING_API_KEY
-        }).then(({data}) => {
-            this.setState({
-                openProgram: data?.getProgramBySlug,
-                loading: false
-            })
-        }).catch(e => {
-            this.setState({
-                loading: true
-            });
-            console.log(e)
-        });
-    }
-
     render = () => {
-        const {organization} = this.props;
-        const {loading,openProgram} = this.state;
+        const {openProgram} = this.state;
+        const programs = professionData?.filter(({isLive,organizationSlug}) => isLive && organizationSlug === this.props.organizationSlug);
         return (
             <>
                 <div className={`organization-featured-programs ${openProgram ? "organization-program-detail" : ""}`}>
@@ -100,38 +36,21 @@ class Programs extends React.Component {
                             className={'coach-wrapper'}
                             style={{paddingBottom: 0}}
                         >
-                            <h1 className="base-text">Programs</h1>
-                            {organization?.programs?.map((program, index) =>
-                                <OrgPrograms
-                                    noPrice
-                                    index={index}
-                                    program={program}
-                                    slug={organization?.slug}
-                                />
-                            )}
-                        </div> : <div
-                            id='wrapper'
-                            className={'medium-wrapper'}
-                            style={{paddingBottom: 0}}
-                        >
-                            {loading ? <div className="individual-course-container">
-                                    <div className="keen-slider">
-                                        <div className="keen-slider__slide">
-                                            <div className="card-loader">
-                                                <div className="card__image loading"/>
-                                                <div className="card__title loading"/>
-                                                <div className="card__description loading"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> :
-                                <OrgProgramDetail
-                                    program={openProgram}
-                                    programSlug={this.state.programSlug}
-                                />}
-                        </div>}
+                            <h1 className="base-text" style={{marginBottom: -20}}>Programs</h1>
+                            <div className="programs-list-page-program-card">
+                                {programs?.map((program, index) =>
+                                    <CourseCard
+                                        isProfessional
+                                        index={index}
+                                        program={program}
+                                    />
+                                )}
+                            </div>
+                        </div> : <Program
+                            program={openProgram}
+                        />}
                 </div>
-                {openProgram ?
+                {/*{openProgram ?
                 <div className="organization-members-container" style={{paddingTop: 50}}>
                     <div id="wrapper">
 
@@ -141,7 +60,7 @@ class Programs extends React.Component {
                         {openProgram?.coCoach?.map(t =>
                             <ExpertCard member={t}/>)}
                     </div>
-                </div> : null}
+                </div> : null}*/}
             </>
         );
     };

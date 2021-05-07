@@ -1,0 +1,63 @@
+[
+  {
+    "app": null,
+    "coachInfo": {
+      "name": "Dr. Yotam Heineberg",
+      "picture": "yotam_profile.jpg",
+      "title": "Collaborating Scientist & Clinical Supervisor"
+    },
+    "coCoach": [
+
+    ],
+    "description": "Participants will learn to recognize the different parts that operate within us, to acknowledge the need and benefit of soothing our anxious and angry, threat-based selves, and recognize the ways in which burnout can emerge for us.",
+    "duration": {
+      "interval": 4,
+      "period": "WEEKS"
+    },
+    "gradient": [
+      "#614385",
+      "#516395"
+    ],
+    "isFree": false,
+    "isMarketingProgram": true,
+    "learningObjectives": [
+
+    ],
+    "marketingDescription": "<p>The COVID-19 pandemic has created a broad range of global challenges, fears, and concerns. Clinical work has become even more demanding for healthcare providers. Basic assumptions about safety have been challenged, resulting in higher rates of clinician burnout and anxiety. Understandably, the realities at home and at work have become more stressful.</p><p>These conditions highlight the need for stress reduction, as well as tools for sense-making and support in maintaining productive teamwork and collaboration in professional settings. Working to support others can result in burnout for the helpers. A core focus for healthcare providers is to ensure they are also being cared for while caring for others.</p><p>In this four-week, CE-eligible course, Dr. Yotam Heineberg will offer participants skills for coping with these challenging times, including some core grounding &amp; emotional regulation techniques that focus on befriending our &lsquo;threat system&rsquo;.</p><p>Using the Compassionate Mind Training model (based on Compassion Focused Therapy, CFT) The program will address the brain's fears and blocks that can keep us from connecting with others and offer ways to overcome these difficulties.</p><p>The program will also offer a deeper understanding of friction situations at work, and provide methods to overcome conflict, and transition from competition mindset to collaborative teamwork, and improved patient satisfaction.</p><p>Participants will learn to recognize the different parts that operate within us, to acknowledge the need and benefit of soothing our anxious and angry, threat-based selves, and recognize the ways in which burnout can emerge for us.</p><p>We will practice responding to these realities by cultivating a compassionate self-identity rooted in strength, wisdom, and a caring-collaborative motivation.</p><p>This program will entail engaging presentations, as well as various applied practices and opportunities to participate in beneficial peer-to-peer interactions towards the cultivation of resilience,&nbsp;mindfulness, and compassion.</p><p><strong><em>The program will be supported by an app (both mobile and web-based) through which you can access micro-lesson videos, psychoeducation and opportunities for sharing interactive reflection exercises between sessions. </em></strong></p><p>This program will help us appreciate our innate capacities for care and resilience,&nbsp;and help us cultivate them further using meditation, interpersonal skills building, cognitive, behavioral, somatic, and team-building strategies.</p>",
+    "marketingImg": "compassionate-program.jpg",
+    "name": "Coping with Burnout in Health care Using Compassionate Mind Training",
+    "organizationId": "5fs84sfd5-541fsdfs1-21154sfddfs",
+    "payment": 49500,
+    "programSize": 20,
+    "isLive": true,
+    "shortDescription": "Participants will learn about the realities of burnout in healthcare, and about the benefits of responding to our experience with compassion.Participants will learn about the science of mindfulness and compassion training. This learning will be supported by applied opportunities to practice evidence-based skills towards reducing stress reactions, increasing compassion, and living more fulfilling lives.",
+    "shortTitle": "Coping with Burnout in Health care",
+    "slug": "coping-with-burnout-in-healthcare-using-compassionate-mind-training",
+    "status": "DRAFT",
+    "type": "INDIVIDUAL",
+    "modulesOverview": "This program is delivered in 4 sessions according to the following schedule:",
+    "objectiveGoals": "<ul><li><strong><em>Reduce</em></strong> Burnout, Stress, Depression, Anxiety, and Teamwork Friction.</li><li><strong><em>Increase </em></strong>Compassion for Self and Others, Teamwork Functioning,&nbsp;Patient Satisfaction and Overall Clinician Wellbeing.</li></ul>",
+    "scheduled": "<p class=\"body-16 semi bm-16\">1 hour/week (approx)</p><ul class=\"w-list-unstyled\" role=\"list\"><li class=\"scheduled-list-item body-16 bm-8\">Weekly live sessions led by a DBT trained skills coach</li></ul>",
+    "self_placed": "<p class=\"body-16 semi bm-16\"><div class=\"body-16 semi bm-16\">30 mins/week (approx)</p><ul class=\"w-list-unstyled\" role=\"list\"><li class=\"self-paced-list-item body-16 bm-8\">On-demand video lectures</li><li class=\"self-paced-list-item body-16 bm-8\">Reading material</li><li class=\"self-paced-list-item body-16 bm-8\">Quizzes</li><li class=\"self-paced-list-item body-16 bm-8\">Homework: Exercises, Practice ideas, Meditations, Diary Card etc</li><li class=\"self-paced-list-item body-16 bm-8\">Weekly Assessments for Programs tracking</li></ul></div>",
+    "schedule_communicate": "<div class=\"body-16 semi bm-16\"><p class=\"body-16 semi bm-16\">During the program, clients can communicate via private messaging with the members of their cohort and with their coaching team</p></div>",
+    "tuition": "<div><table border=\"1\"><tbody><tr><td><h3>Program Cost</h3></td><td><h3 style=\"text-align: right;\">$495</h3></td></tr></tbody></table><p>All programs begin with a one hour assessment session with a coach to assess your background, requirements, and goals. This session enables us to optimally match you to your hive.</p></div><div><div><div><table border=\"1\"><tbody><tr><td><h3>1:1 Coaching Session(Optional)</h3></td></tr></tbody></table><p>For clients that might have missed a live session or need additional coaching</p></div></div></div>",
+    "organizationSlug": "helping-the-helpers",
+    "sessions": [
+      {
+        "title": "Burnout, Mindfulness and compassion training",
+        "description": "<p><span style=\\\"font-weight: 400;\\\">We will offer an introduction to the realities of burnout in healthcare, the challenges, as well as inspiration points clinical work can offer. </span></p><p><span style=\\\"font-weight: 400;\\\">We will </span><span style=\\\"font-weight: 400;\\\">begin to share the core principles of mindfulness and compassion training,</span><span style=\\\"font-weight: 400;\\\">as well as outline the different applied elements of engaging with the </span><span style=\\\"font-weight: 400;\\\">program during and between sessions. </span></p>"
+      },{
+        "title": "Working with our emotions Cultivating self-compassion",
+        "description": "<p>We will learn about our three core emotional systems – Threat, Drive and Soothing. We will explore ways of responding to our threat system with self-compassion. </p><p></p><p>We will collaborate as a group to explore effective coping methods towards transitioning our mind and body from our threat system to our soothing system.&nbsp;&nbsp;</p>"
+      },{
+        "title": "Teamwork friction and our multiple selves, cultivating our compassionate self-identity",
+        "description": "<p>We will explore the dynamics of teamwork friction, in group-out group tension and the ancient conflict of competition Vs. collaboration. </p><p></p><p>We will connect these realities with our inner realities of multiple selves, notice how our angry, sad or anxious selves can damage teamwork, and how cultivating and activating our compassionate self-identify can help reduce team conflict and enhance teamwork functioning and well being, as well as improve patient satisfaction.&nbsp;</p>"
+      },{
+        "title": "The three directions of compassion, overcoming fears  blocks and resistances to giving and receiving compassion",
+        "description": "<p>We will deepen into the three directions of compassion: </p><p>1) Extending compassion to others,</p><p> 2) Receiving compassion from others, and <br></p><p>3) Practicing self-compassion. </p><p></p><p>We will recognize the challenge offears, blocks and resistances (FBRs) to compassion, and how FBRs can increase burnout. We will practice helpful ways of extending and receiving compassion as an overarching program goal.&nbsp;</p>"
+      }
+    ],
+    "overview": "<ul><li>4 week DBT Skills based Group: Delivered with weekly live session</li><li>Assessments: Weekly assessments to track your progres</li><li>1:1 Coaching (optional): For clients that might have missed a live session or need<br />additional coaching</li></ul>"
+  }
+
+]

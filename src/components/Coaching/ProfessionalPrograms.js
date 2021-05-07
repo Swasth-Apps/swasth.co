@@ -1,208 +1,157 @@
 import React from "react";
-import {Col, Row} from "antd";
-import {Link} from 'gatsby';
-import {connect} from "react-redux";
 import CourseCard from "./CourseCard";
-import ProfessionalPage from "./ProfessionalsProgram";
-import Amplify, {API, graphqlOperation} from "aws-amplify";
-import graphql_endpoint from "../../aws-appsync-url";
-import {getOrganizationsWithOwner, getOrganizationWithMembersAndPrograms} from "../../queries";
-import {setMarketingLoading, setOrganizationById, setOrganizations} from "../../Redux/Actions/Programs";
-import {getCloudIDFromImageName} from "../../helper/helper";
-import CLImage from "../../helper/CLImage";
-import _ from "lodash";
+import {Col, Row} from "antd";
 import {Helmet} from "react-helmet";
-
+import Programs from "../../JSON/CoachProgramsForProfessionals.json"
+import {Link} from "gatsby";
+import RegisterInterest from "../RegisterInterestModal";
+import CLImage from "../../helper/CLImage";
+import {getCloudIDFromImageName} from "../../helper/helper";
+import ShowMore from "react-show-more";
 
 class ProfessionalPrograms extends React.Component {
     constructor(props) {
         super(props);
-        const urlParams = typeof window !== 'undefined' ? window.location?.pathname?.split("/professionals/") : null;
-        const splittedValue = urlParams && urlParams[1] && urlParams?.[1]?.split("/");
         this.state = {
-            programs: [],
-            organizationSlug: splittedValue?.[0],
-            programSlug: splittedValue?.[2],
-            tab: splittedValue?.[1]
-        }
-    }
-
-    componentDidUpdate(prevProps, prevState, snapshot) {
-        if(prevProps.location !== this.props.location){
-            const urlParams = typeof window !== 'undefined' ? window.location?.pathname?.split("/professionals/") : null;
-            const splittedValue = urlParams && urlParams[1] && urlParams?.[1]?.split("/");
-            this.setState({
-                organizationSlug: splittedValue?.[0],
-                tab: splittedValue?.[1],
-                programSlug: splittedValue?.[2]
-
-            },() => this.componentDidMount())
-        }
-    }
-
-    componentDidMount() {
-        const { organizationSlug } = this.state;
-        Amplify.configure({
-            API: {
-                graphql_endpoint: graphql_endpoint.COACHING_MARKETING,
-            },
-        });
-        if(organizationSlug && !this.props.organization?.[organizationSlug]){
-            this.props.setMarketingLoading(true);
-
-            API.graphql(graphqlOperation(getOrganizationWithMembersAndPrograms,{organizationSlug}), {
-                "x-api-key": graphql_endpoint.COACHING_API_KEY
-            }).then(({data}) => {
-                this.props.setOrganizationById(data?.getOrganizationWithMembersAndPrograms,organizationSlug);
-                this.props.setMarketingLoading(false);
-            }).catch(() => {
-                this.props.setMarketingLoading(false);
-            });
-        }else if(!this.props.organizations?.length) {
-            this.props.setMarketingLoading(true);
-
-            API.graphql(graphqlOperation(getOrganizationsWithOwner), {
-                "x-api-key": graphql_endpoint.COACHING_API_KEY
-            }).then(({data}) => {
-                this.props.setOrganizations(data?.getOrganizationsWithOwner);
-                this.props.setMarketingLoading(false);
-            }).catch(() => {
-                this.props.setMarketingLoading(false);
-            });
+            programs: []
         }
     }
 
     render() {
-
-        const {marketingPrograms, organizations, coachingLoading} = this.props;
-        const featuredPrograms = _.filter(marketingPrograms, ({isFeatured}) => isFeatured);
-
-
-        return (this.state.organizationSlug ?
-                <ProfessionalPage
-                    programSlug={this.state.programSlug}
-                    organizationSlug={this.state.organizationSlug}
-                    organization={this.props.organization}
-                    selectedTab={this.state.tab || "overview"}
-                /> :
-                <>
-                    <section className='coaching-programs-banner-section professionals-banner-section'>
-                        <Helmet title="Resiliens">
-                            <meta charSet="utf-8" />
-                            <title>Resiliens - Evidence Based Programs for Health Professionals</title>
-                            <meta
-                                name="keywords"
-                                content="burn out, nursing, health professionals, ce credits, icf credits, Behavioral Health Coaching, Evidence Based Coaching, Life Coach, Health Coaching, Mental Health Coach, anxiety, depression, financial anxiety, experts, breathing exercise, meditation, digital mental health, guided meditation, therapist training, coach training, lasting change, motivation, reframe, PTSD, relationships, resilience, peer coaching group, perfomance coaching, CBT, DBT, ACT, CFT, Compassion, social anxiety, Bipolar, Gratitude, Well being"
-                            />
-                        </Helmet>
-                        <Row className='-row-flex-center' id='wrapper'>
-                            <Col md={24} style={{width: '100%'}}>
-                                <p style={{textAlign: 'center'}}
-                                   className='bottom-space base-text tab-view'>
-                                    Live Programs in Evidence-based modalities
-                                    <br/>
-                                    from world's leading Experts
-                                </p>
-                            </Col>
-                        </Row>
-                    </section>
+        const livedPrograms = Programs?.filter(({isLive}) => isLive);
+        const upcomingPrograms = Programs?.filter(({isLive}) => !isLive);
+        return (
+            <>
+                <Helmet title="Resiliens">
+                    <meta charSet="utf-8"/>
+                    <title>Resiliens - Evidence Based Coaching for everyone</title>
+                    <meta
+                        name="keywords"
+                        content="Behavioral Health Coaching, Evidence Based Coaching, Life Coach, Health Coaching, Mental Health Coach, anxiety, depression, financial anxiety, experts, breathing exercise, meditation, digital mental health, guided meditation, therapist training, coach training, lasting change, motivation, reframe, PTSD, relationships, resilience, peer coaching group, perfomance coaching, CBT, DBT, ACT, CFT, Compassion, social anxiety, Bipolar, Gratitude, Well being"
+                    />
+                </Helmet>
+                <section className='coaching-programs-banner-section'>
+                    <Row className='-row-flex-center' id='wrapper'>
+                        <Col md={24} style={{width: '100%'}}>
+                            <p style={{textAlign: 'center'}}
+                               className='bottom-space base-text tab-view'>
+                                Online Programs health professionals by
+                                <br/>
+                                the leaders in evidence-based therapy
+                            </p>
+                        </Col>
+                    </Row>
+                </section>
+                <div style={{paddingTop: 25}}>
                     <div
                         id='wrapper'
+                        className={'coach-wrapper'}
                         style={{paddingBottom: 0}}
                     >
-                        {coachingLoading ?
-                            <div className="clients-navigation-wrapper">
-                                <div className="keen-slider">
-                                    <div className="keen-slider__slide ">
-                                        <div className="card-loader">
-                                            <div className="card__image loading"/>
-                                            <div className="card__title loading"/>
-                                            <div className="card__description loading"/>
-                                        </div>
-                                    </div>
-                                    <div className="keen-slider__slide ">
-                                        <div className="card-loader">
-                                            <div className="card__image loading"/>
-                                            <div className="card__title loading"/>
-                                            <div className="card__description loading"/>
-                                        </div>
-                                    </div>
-                                    <div className="keen-slider__slide ">
-                                        <div className="card-loader">
-                                            <div className="card__image loading"/>
-                                            <div className="card__title loading"/>
-                                            <div className="card__description loading"/>
+                        <div className="programs-list-page-program-card">
+                            {livedPrograms?.map((program, index) =>
+                                <CourseCard
+                                    isProfessional
+                                    index={index}
+                                    program={program}
+                                    className="keen-slider__slide number-slide1"
+                                />
+                            )}
+                        </div>
+                        {upcomingPrograms?.length ?
+                            <div className="programs-list-page-upcoming-programs">
+                                <div className="width-container">
+                                    <Row className='-row-flex-center' gutter={24}>
+                                        <Col md={16} className="programs-list-page-top-section">
+                                            <h3 className='bottom-space base-text'>
+                                                More programs coming soon!
+                                            </h3>
+                                            <p className="para-text desc">
+                                                We are in the process of developing new programs based on evidence-based
+                                                treatments.
+                                                If you’re interested in any of the programs below please sign up for the
+                                                mailing list to be notified when they launch.
+                                            </p>
+                                            <p className="para-text desc" style={{marginTop: 15}}>
+                                                People who join our wait list are not obligated to take the course but
+                                                you
+                                                will receive a discount.
+                                            </p>
+                                        </Col>
+                                    </Row>
+                                    <div className="upcoming-course-panel-wrapper">
+                                        <div className="w-layout-grid upcoming-courses-grid">
+                                            {upcomingPrograms?.map(program =>
+                                                <div className="upcoming-course-panel">
+                                                    <div className="upcoming-course-details-wrapper">
+                                                        <div className="course-panel-title-wrapper"><h2
+                                                            className="heading-24 ch-width-36 bm-16 base-text">
+                                                            {program.name}
+                                                        </h2><h6
+                                                            className="heading-16 _14 steel bm-4 para-text">By</h6>
+                                                            <h5 className="heading-16 bm-8 para-medium-text">{program?.coachInfo?.name}</h5>
+                                                            <div className="body-12 bm-24 para-text">
+                                                                {program?.coachInfo?.title}
+                                                            </div>
+                                                        </div>
+                                                        <CLImage
+                                                            cloudId={getCloudIDFromImageName(
+                                                                program?.coachInfo?.picture,
+                                                                "coaching",
+                                                                'png',
+                                                            )}
+                                                            transformation={[
+                                                                {
+                                                                    gravity: "face",
+                                                                    height: 400,
+                                                                    width: 400,
+                                                                    crop: "crop"
+                                                                },
+                                                                // {radius: "max"},
+                                                                {width: 150, height: 150, crop: "scale"}
+                                                            ]}
+                                                            className="upcoming-course-creator-photo"
+                                                        />
+                                                    </div>
+                                                    <div className="upcoming-course-panel-text-wrapper">
+                                                        <p className="body-16 para-text show-more-less-desc">
+                                                            <ShowMore
+                                                                lines={4}
+                                                                more='Show more'
+                                                                less='Show less'
+                                                                anchorClass=''
+                                                            >
+                                                                {program?.shortDescription}
+                                                            </ShowMore>
+                                                        </p>
+                                                        <h5 className="body-16 bm-16 para-text">Coming Soon!</h5>
+                                                        <div className="program-list-page-buttons tm-8">
+                                                            <div className="rm-16">
+                                                                <RegisterInterest
+                                                                    program={program}
+                                                                    programSlug={program.programSlug}
+                                                                />
+                                                            </div>
+                                                            <Link to={`/coaching/program/`}
+                                                                  className="secondary-button-large w-button">Program
+                                                                Details</Link>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            )}
                                         </div>
                                     </div>
                                 </div>
-                            </div> : organizations?.length ? organizations?.map(org =>
-                                <div className="coach-grid-view">
-                                    <Link to={`/coaching/professionals/${org.slug}/overview`} className="coach-grid-view-card">
-                                        <div style={{position:"relative"}}>
-                                        <CLImage
-                                            cloudId={getCloudIDFromImageName(
-                                                org.image,
-                                                "coaching",
-                                                'png',
-                                            )}
-                                            options={{
-                                            imageWidth: 1200,
-                                                imageHeight: 800
-                                            }}
-                                        />
-                                        <div className="coach-info">
-                                            {org.name}
-                                            <div>
-                                                {'By '}{org.teamOwnerName}
-                                            </div>
-                                        </div>
-                                        </div>
-                                    </Link>
-                                </div>) : null
-
+                            </div> :
+                            <div className="programs-list-page-upcoming-programs">
+                                <div className="programs-list-page-top-section"/>
+                            </div>
                         }
                     </div>
-                    {featuredPrograms?.length ?
-                        <div className="clients-navigation-wrapper">
-                            <div
-                                id='wrapper'
-                                className={'coach-wrapper'}
-                                style={{paddingBottom: 0}}
-                            >
-                                <h2 className="base-text">Featured Programs</h2>
-
-                                <div className="keen-slider">
-                                    {featuredPrograms?.map((program, index) =>
-                                        <CourseCard
-                                            noPrice
-                                            className="keen-slider__slide number-slide1"
-                                            program={program}
-                                            index={index}
-                                        />
-                                    )}
-                                </div>
-                            </div>
-                        </div> : null}
-                </>
+                </div>
+            </>
         )
     }
 }
 
-const mapStateToProps = (state) => ({
-    marketingPrograms: state.commonData.marketingPrograms,
-    organizations: state.commonData.organizations,
-    organization: state.commonData.organization,
-    coachingLoading: state.commonData.coachingLoading,
-});
-
-export default connect(
-    mapStateToProps,
-    (dispatch) => ({
-        setMarketingLoading: (loading) =>
-            dispatch(setMarketingLoading(loading)),
-        setOrganizations: (organizations) =>
-            dispatch(setOrganizations(organizations)),
-        setOrganizationById: (organizations,id) =>
-            dispatch(setOrganizationById(organizations,id)),
-    }),
-)(ProfessionalPrograms);
+export default ProfessionalPrograms;

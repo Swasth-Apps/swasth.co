@@ -22,13 +22,13 @@ export default class CLImage extends Component {
     return (
         <img
             className={this.props.className}
-            src={this.imageUrl(this.props.cloudId, this.props.options || {})}
+            src={this.imageUrl(this.props.cloudId, this.props.options || {},this.props.transformation || [])}
             style={this.props.style}
         />
     );
   }
 
-  imageUrl(cloudId, options = {}) {
+  imageUrl(cloudId, options = {}, transformation) {
     let opts = {};
     Object.assign(
       opts,
@@ -41,9 +41,11 @@ export default class CLImage extends Component {
       },
       options,
     );
+    if(transformation){
+      opts.transformation = transformation;
+    }
     opts.width = options.imageWidth;
     opts.height = options.imageHeight;
-      console.log(opts)
       let url = cloudinary.url(cloudId, opts);
     return url;
   }

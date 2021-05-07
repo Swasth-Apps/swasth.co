@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import {Tabs} from "antd";
 import {Link} from 'gatsby';
 
@@ -7,10 +7,12 @@ import ProfessionalActive from "../../assets/images/coachingTabIcons/professiona
 import OverviewActive from "../../assets/images/coachingTabIcons/overview-active-icon.png";
 import ExpertActive from "../../assets/images/coachingTabIcons/experts-active-icon.png";
 import ClientsPrograms from "./ClientsPrograms";
+import ProfessionalPrograms from "./ProfessionalPrograms";
 import Experts from "./Experts";
 import CoachingOverview from "./Overview";
-import ProfessionalPrograms from "./ProfessionalPrograms";
+import Organizations from "./Organizations";
 import Logo from "../../assets/images/coachingProgram/logo.png"
+
 const { TabPane } = Tabs;
 const CoachingComponent = (props) => {
     return (
@@ -47,7 +49,7 @@ const CoachingComponent = (props) => {
                             For Health Professionals
                         </div>
                     </Link>} key="professionals">
-                        <ProfessionalPrograms location={props.location}/>
+                        <ProfessionalPrograms />
                     </TabPane>
                     <TabPane tab={<Link to={`/coaching/experts`} className={`para-text tab-title ${props.tab !== "experts" ? "unselected-tab" : ""}`}>
                         <img src={ExpertActive}/>
@@ -61,6 +63,13 @@ const CoachingComponent = (props) => {
                         >
                         <Experts />
                         </div>
+                    </TabPane>
+                    <TabPane tab={<Link to={`/coaching/organizations`} className={`para-text tab-title ${props.tab !== "organizations" ? "unselected-tab" : ""}`}>
+                        <img src={ExpertActive}/>
+                        <div className="tab-div-title">
+                           Organizations </div>
+                    </Link>} key="organizations">
+                        <Organizations location={props.location}/>
                     </TabPane>
                 </Tabs>
         </section>

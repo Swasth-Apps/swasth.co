@@ -3,8 +3,9 @@ import Layout from '../../components/Layout/layout'
 import CoachingComponent from "../../components/Coaching";
 import CoachingOverview from "../../components/Coaching/Overview";
 import ClientsPrograms from "../../components/Coaching/ClientsPrograms";
-import Experts from "../../components/Coaching/Experts";
 import ProfessionalPrograms from "../../components/Coaching/ProfessionalPrograms";
+import Experts from "../../components/Coaching/Experts";
+import Organizations from "../../components/Coaching/Organizations";
 
 
 class CoachingIndex extends React.Component {
@@ -33,6 +34,8 @@ class CoachingIndex extends React.Component {
                 return "professionals"
             }else if(path?.includes("experts")){
                 return "experts"
+            }else if(path?.includes("organizations")){
+                return "organizations"
             }else{
                 return "overview"
             }
@@ -48,9 +51,11 @@ class CoachingIndex extends React.Component {
             case "everyone":
                 return <ClientsPrograms/>;
             case "professionals":
-                return <ProfessionalPrograms location={this.props.location}/>;
+                return <ProfessionalPrograms />;
             case "experts":
                 return <Experts/>;
+            case "organizations":
+                return <Organizations location={this.props.location}/>;
             default:
                 return;
         }
@@ -66,6 +71,8 @@ class CoachingIndex extends React.Component {
                 return "professionals";
             case "4":
                 return "experts";
+            case "5":
+                return "Organizations";
             default:
                 return;
         }
@@ -73,11 +80,10 @@ class CoachingIndex extends React.Component {
 
 
     render() {
-        console.log(this.props)
         return (
             <Layout
                 extraHeader="coaching"
-                noFooterMargin={this.state.tab === "professionals"}
+                noFooterMargin={this.state.tab === "organizations" || this.state.tab === "professionals" }
                 onChangeTab={(t) => {
                     this.setState({
                         tab: t

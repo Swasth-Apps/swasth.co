@@ -10,7 +10,7 @@ const   OrgProgram = ({program,noPrice = false,slug}) =>{
     return(
         <Link
             className="home-signature-courses short-courses"
-            to={`/coaching/professionals/${slug}/programs/${program.slug}`}
+            to={`/coaching/organizations/${slug}/programs/${program.slug}`}
         >
             <div className={`course-card`}>
                 <div className="course-card-image"
@@ -57,7 +57,7 @@ const   OrgProgram = ({program,noPrice = false,slug}) =>{
                                 </span>
                         </p>
                     </div>
-                    <p className="para-text desc">
+                    <p className="para-text show-more-less-desc">
                         <ShowMore
                             lines={4}
                             more='Show more'

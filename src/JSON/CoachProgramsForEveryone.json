@@ -1,0 +1,146 @@
+[
+  {
+    "allowDiscussion": true,
+    "app": "DBT",
+    "closedToNewRequest": false,
+    "coachId": "d23d739366d5eb1802c087dafbb337269a160be17930cc74133a7dc98a880f0b",
+    "coachInfo": {
+      "name": "Raylene D'souza",
+      "picture": "raylene_profile.jpg",
+      "title": "DBT Trained Therapist"
+    },
+    "isLive": false,
+    "slug": "dbt-skills-training",
+    "createdAt": "2020-08-06T18:22:23+00:00",
+    "description": "A program with weekly 1 hour video sessions for all 4 modules of DBT. This program also integrates into the DBT Coach app where all the homework and lessons can be submitted.",
+    "documents": null,
+    "duration": {
+      "interval": 25,
+      "period": "WEEKS"
+    },
+    "featuredVideos": [
+      "https://youtu.be/rzqiPaAxbgo"
+    ],
+    "gradient": [
+      "#085078",
+      "#85D8CE"
+    ],
+    "hideFromSearch": false,
+    "id": "c6357fe0-d811-11ea-897a-93e58e039688",
+    "image": "d23d739366d5eb1802c087dafbb337269a160be17930cc74133a7dc98a880f0b/images/dbt-skills-training.jpg",
+    "invites": [],
+    "isFree": false,
+    "isMarketingProgram": true,
+    "learningObjectives": [
+      "Create greater self-awareness",
+      "Increase your ability to regulate your emotions",
+      "Deal with life stressors that are unbearable",
+      "Interact with people more effectively ",
+      "Know how to make changes to your life."
+    ],
+    "name": "DBT Skills Training",
+    "payment": 139900,
+    "programSize": 20,
+    "requirements": [],
+    "shortDescription": "Online learning makes it easy and affordable to begin implementing DBT (Dialectical Behavior Therapy) skills in your life without waiting. ",
+    "status": "PUBLISHED",
+    "tags": [
+      "DBT"
+    ],
+    "type": "GROUP",
+    "updatedAt": "2021-03-22T15:32:39+00:00",
+    "modulesOverview": "This program is delivered in 10 sessions according to the following schedule:",
+    "scheduled": "<p class=\"body-16 semi bm-16\">90 mins/week (approx)</p><ul class=\"w-list-unstyled\" role=\"list\"><li class=\"scheduled-list-item body-16 bm-8\">Weekly live sessions led by a DBT trained skills coach</li></ul>",
+    "self_placed": "<p class=\"body-16 semi bm-16\"><div class=\"body-16 semi bm-16\">30 mins/week (approx)</p><ul class=\"w-list-unstyled\" role=\"list\"><li class=\"self-paced-list-item body-16 bm-8\">On-demand video lectures</li><li class=\"self-paced-list-item body-16 bm-8\">Reading material</li><li class=\"self-paced-list-item body-16 bm-8\">Quizzes</li><li class=\"self-paced-list-item body-16 bm-8\">Homework: Exercises, Practice ideas, Meditations, Diary Card etc</li><li class=\"self-paced-list-item body-16 bm-8\">Weekly Assessments for Programs tracking</li></ul></div>",
+    "schedule_communicate": "<div class=\"body-16 semi bm-16\"><p class=\"body-16 semi bm-16\">During the program, clients can communicate via private messaging with the members of their cohort and with their coaching team</p></div>",
+    "tuition": "<div><table border=\"1\"><tbody><tr><td><h3>Program Cost</h3></td><td><h3 style=\"text-align: right;\">$1399</h3></td></tr></tbody></table><p>All programs begin with a one hour assessment session with a coach to assess your background, requirements, and goals. This session enables us to optimally match you to your hive.</p></div><div><div><div><table border=\"1\"><tbody><tr><td><h3>1:1 Coaching Session(Optional)</h3></td></tr></tbody></table><p>For clients that might have missed a live session or need additional coaching</p></div></div></div>",
+    "overview": "<ul><li>25 week DBT Skills based Group: Delivered with weekly live session</li><li>Assessments: Weekly assessments to track your progres</li><li>1:1 Coaching (optional): For clients that might have missed a live session or need<br />additional coaching</li></ul>"
+  },
+  {
+    "app": null,
+    "coachInfo": {
+      "name": "Dr. Tiffany Loggins",
+      "picture": "tiffny_loggins_profile.png",
+      "title": "PsyD / DBT Trained Therapist"
+    },
+    "coCoach": [],
+    "slug": "wisemind-group",
+    "createdAt": "2021-05-01T11:57:08+00:00",
+    "description": "Pain happens, but suffering is created. We often find ourselves feeling stuck, overwhelmed, or maybe even at a loss of how we feel, because yet again, we have arrived at that familiar place of ruminating self-doubt or self-defeating behaviors. Our emotional states greatly impact our daily habits, productivity, and relationships.",
+    "duration": {
+      "interval": 9,
+      "period": "WEEKS"
+    },
+    "featuredVideos": [
+    ],
+    "gradient": [
+      "#614385",
+      "#516395"
+    ],
+    "id": "5b3cc690-aa74-11eb-9ced-b59521392b80",
+    "invites": [],
+    "isAdminProgram": true,
+    "isFree": false,
+    "isLive": true,
+    "isMarketingProgram": true,
+    "learningObjectives": [],
+    "marketingDescription": "<p>Pain happens, but suffering is created. We often find ourselves feeling stuck, overwhelmed, or maybe even at a loss of how we feel, because yet again, we have arrived at that familiar place of ruminating self-doubt or self-defeating behaviors. Our emotional states greatly impact our daily habits, productivity, and relationships.&nbsp;</p><p>This is a 10 week skills-based group to help individuals improve their emotional resiliency by breaking away from old, unhelpful patterns of thinking and doing to unearth the best version of themselves. The skills taught in this group are taken and heavily influenced from DBT (Dialectical Behavior Therapy) including mindfulness, emotion regulation, distress tolerance and interpersonal skills</p><p>Individuals will learn to develop a comprehensive toolbox of coping skills to avoid suffering, increase distress tolerance, increase self-compassion and self-worth, improve ability to effectively communicate your feelings and needs with others, and improve their overall quality of life by utilizing untapped inner skills and strengths.&nbsp;</p><p>This group is not intended to replace or follow a traditional DBT group or program. The purpose of this program is to allow you to gain access to learning valuable life skills based on DBT, which can help you learn to manage your emotions and improve your quality of life.</p><p>Please note this group is psycho-educational and not clinical in nature. Participation in this online program does not mean participation in clinical psychotherapy.</p>",
+    "objectiveGoals": "<ul><li>Develop and/or broaden an extensive toolbox of coping to manage anxiety, low motivation, unhealthy habits, and interpersonal distress</li><li aria-level=\"1\">Identify connection between unhelpful thinking and behaviors patterns to learn ways to manage self-doubt and avoid self-defeating behaviors</li><li aria-level=\"1\">Learn ways to incorporate cognitive strategies to boost resiliency and restore a sense of well being</li><li aria-level=\"1\">Improve emotional intelligence by learning to label, validate, and appreciate your emotions</li><li aria-level=\"1\">Increase distress tolerance to improve emotion regulation and cope with life stressors</li><li aria-level=\"1\">Learn effective communication skills to be able to advocate and express your needs, while establish and maintaining healthy relationships&nbsp;</li><li aria-level=\"1\">Increase knowledge on the impact of stress on physical/mental health to avoid maladaptive behaviors, decrease emotional vulnerability, and develop healthy habits</li><li aria-level=\"1\">Learn strategies to get out of a crisis moment without increasing suffering</li></ul>",
+    "marketingImg": null,
+    "name": "Wisemind Skills Group",
+    "payment": 49500,
+    "programSize": 20,
+    "shortDescription": "This is a 10 week skills-based group to help individuals improve their emotional resiliency by breaking away from old, unhelpful patterns of thinking and doing to unearth the best version of themselves. The skills taught in this group are taken and heavily influenced from DBT (Dialectical Behavior Therapy) including mindfulness, emotion regulation, distress tolerance and interpersonal skills.",
+    "status": "DRAFT",
+    "type": "INDIVIDUAL",
+    "updatedAt": "2021-05-01T12:01:41+00:00",
+    "modulesOverview": "This program is delivered in 10 sessions according to the following schedule:",
+    "scheduled": "<p class=\"body-16 semi bm-16\">90 mins/week (approx)</p><ul class=\"w-list-unstyled\" role=\"list\"><li class=\"scheduled-list-item body-16 bm-8\">Weekly live sessions led by a DBT trained skills coach</li></ul>",
+    "self_placed": "<p class=\"body-16 semi bm-16\"><div class=\"body-16 semi bm-16\">30 mins/week (approx)</p><ul class=\"w-list-unstyled\" role=\"list\"><li class=\"self-paced-list-item body-16 bm-8\">On-demand video lectures</li><li class=\"self-paced-list-item body-16 bm-8\">Reading material</li><li class=\"self-paced-list-item body-16 bm-8\">Quizzes</li><li class=\"self-paced-list-item body-16 bm-8\">Homework: Exercises, Practice ideas, Meditations, Diary Card etc</li><li class=\"self-paced-list-item body-16 bm-8\">Weekly Assessments for Programs tracking</li></ul></div>",
+    "schedule_communicate": "<div class=\"body-16 semi bm-16\"><p class=\"body-16 semi bm-16\">During the program, clients can communicate via private messaging with the members of their cohort and with their coaching team</p></div>",
+    "tuition": "<div><table border=\"1\"><tbody><tr><td><h3>Program Cost</h3></td><td><h3 style=\"text-align: right;\">$495</h3></td></tr></tbody></table><p>All programs begin with a one hour assessment session with a coach to assess your background, requirements, and goals. This session enables us to optimally match you to your hive.</p></div><div><div><div><table border=\"1\"><tbody><tr><td><h3>1:1 Coaching Session(Optional)</h3></td></tr></tbody></table><p>For clients that might have missed a live session or need additional coaching</p></div></div></div>",
+    "sessions": [
+      {
+        "title": "Introduction to Wise Mind Model: Understanding and Changing Emotions",
+        "description": "<ul> <li aria-level=\"3\">Welcome to the Group </li> <li aria-level=\"3\">Goals, function, and structure of the group</li> <li aria-level=\"3\">Orient to group norms and Diary Card</li> <li aria-level=\"3\">Background and brief of orienting of DBT </li> <ul> <li aria-level=\"4\">Caveats about group</li> </ul> </ul> <ul> <li aria-level=\"3\"><strong>Introductions</strong>: name, goal, or 1 gratitude</li> <ul> <li aria-level=\"4\"> Welcome to decline to introduce yourself and/or only share what you feel comfortable to share</li> </ul> </ul> <ul> <li aria-level=\"3\"><strong>Skill of the Day:</strong> Introduction to Wise Mind Model: Understanding and Changing Emotions</li> <ul> <li aria-level=\"4\">Introduce Wise Mind Model</li> <li aria-level=\"4\">Review Understanding & Changing Emotions Model</li> </ul> </ul> <ul> <li aria-level=\"4\"><strong>Set Intentions</strong> <ul> <li aria-level=\"3\">Set weekly intention (self-care behavior) Ex: Practice mindfulness, earlier sleep time, or review homework, etc </li> </ul> </li> </ul>"
+      },
+      {
+        "title": "Mindfulness - How and What Skills",
+        "description": "<ul> <li aria-level=\"3\">Briefly review Wise Mind </li> <li aria-level=\"3\"><strong>Check-ins</strong>: name, update on intention, use of wisemind, or diary card <ul> <li aria-level=\"4\"> welcome to decline to introduce yourself and/or only share what you feel comfortable to share</li> </ul> </li> </ul> <ul> <li aria-level=\"3\"><strong>Skill of the Day:</strong> Mindfulness - How and What Skills </li> <ul> <li aria-level=\"4\">Define Mindfulness </li> <li aria-level=\"4\">Examples of everyday mindfulness </li> <li aria-level=\"4\">Metaphors of mindfulness</li> <li aria-level=\"4\">Teach how and what of practicing mindfulness</li> </ul> </ul> <ul> <li aria-level=\"4\"><strong>Set Intentions</strong> <ul> <li aria-level=\"4\">Set weekly intention (self-care behavior) Ex: Continue previously intention, Practice mindfulness, earlier sleep time, or review homework</li> </ul> </li> </ul>"
+      },
+      {
+        "title": "Distress Tolerance - STOP Skill and Pros & Cons",
+        "description": "<ul><ul><li style=\"font-weight: 400;\" aria-level=\"3\"><strong>Check-ins</strong><span style=\"font-weight: 400;\">: name, update on intention, use of wisemind, or diary card</span></li><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">&nbsp;welcome to decline to introduce yourself and/or only share what you feel comfortable to share</span></li></ul><li style=\"font-weight: 400;\" aria-level=\"3\"><strong>Skill of the Day:</strong><span style=\"font-weight: 400;\"> Distress Tolerance - STOP Skill and Pros &amp; Cons</span></li><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Introduce and teach STOP</span></li><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Ways to incorporate Pros/Cons</span></li><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Self-compassion and realistic expectations of change</span></li></ul></ul></ul><ul><li style=\"list-style-type: none;\"><ul><li aria-level=\"3\"><strong>Set Intentions</strong></li></ul></li></ul><ul><li style=\"list-style-type: none;\"><ul><li style=\"list-style-type: none;\"><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Set weekly intention (self-care behavior) Ex: Continue previously intention, Practice mindfulness, earlier sleep time, or review homework, etc&nbsp;</span></li></ul></li></ul></li></ul>"
+      },
+      {
+        "title": "Emotion Regulation - Check the Facts & Opposite Action & Problem Solving Skills ",
+        "description": "<ul><ul><li style=\"font-weight: 400;\" aria-level=\"3\"><strong>Check-ins</strong><span style=\"font-weight: 400;\">: name, update on intention, use of wisemind, or diary card</span></li><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">&nbsp;welcome to decline to introduce yourself and/or only share what you feel comfortable to share</span></li></ul><li style=\"font-weight: 400;\" aria-level=\"3\"><strong>Skill of the Day:</strong><span style=\"font-weight: 400;\"> Emotion Regulation - Check the Facts &amp; Opposite Action &amp; Problem Solving Skills&nbsp;</span></li><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Review thoughts--&gt;feelings--&gt;behaviors</span></li><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Emotions valid vs Justifiable</span></li><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Teach how to check the facts&nbsp;</span></li><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Teach Opposite Action &amp; Problem Solving skills</span></li></ul></ul></ul><ul><li style=\"list-style-type: none;\"><ul><li aria-level=\"3\"><strong>Set Intentions</strong></li></ul></li></ul><ul><li style=\"list-style-type: none;\"><ul><li style=\"list-style-type: none;\"><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Set weekly intention (self-care behavior) Ex: Continue previously intention, Practice mindfulness, earlier sleep time, or review homework, etc&nbsp;</span></li></ul></li></ul></li></ul>"
+      },
+      {
+        "title": "Emotion Regulation - PLEASE Skills ",
+        "description": "<ul><ul><li style=\"font-weight: 400;\" aria-level=\"3\"><strong>Check-ins</strong><span style=\"font-weight: 400;\">: name, update on intention, use of wisemind, or diary card</span></li><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">&nbsp;welcome to decline to introduce yourself and/or only share what you feel comfortable to share</span></li></ul><li style=\"font-weight: 400;\" aria-level=\"3\"><strong>Skill of the Day:</strong><span style=\"font-weight: 400;\"> Emotion Regulation - PLEASE Skills&nbsp;&nbsp;</span></li><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Review thoughts--&gt;feelings--&gt;behaviors</span></li><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Psychoeducation what is and the impact of stress&nbsp;</span></li><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Obstacles or factors that impact emotional vulnerability</span></li><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Introduce general areas of self-care/PLEASE&nbsp;</span></li></ul></ul></ul><ul><li style=\"list-style-type: none;\"><ul><li aria-level=\"3\"><strong>Set Intentions</strong></li></ul></li></ul><ul><li style=\"list-style-type: none;\"><ul><li style=\"list-style-type: none;\"><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Set weekly intention (self-care behavior) Ex: Continue previously intention, Practice mindfulness, earlier sleep time, or review homework, etc</span></li></ul></li></ul></li></ul>"
+      },
+      {
+        "title": "Distress Tolerance - Urge Surfing & Bridge Burning",
+        "description": "<ul><ul><li style=\"font-weight: 400;\" aria-level=\"3\"><strong>Check-ins</strong><span style=\"font-weight: 400;\">: name, update on intention, use of wisemind, or diary card</span></li><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">&nbsp;welcome to decline to introduce yourself and/or only share what you feel comfortable to share</span></li></ul><li style=\"font-weight: 400;\" aria-level=\"3\"><strong>Skill of the Day:</strong><span style=\"font-weight: 400;\"> Emotion Regulation - PLEASE Skills&nbsp;&nbsp;</span></li><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Review thoughts--&gt;feelings--&gt;behaviors</span></li><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Psychoeducation what is and the impact of stress&nbsp;</span></li><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Obstacles or factors that impact emotional vulnerability</span></li><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Introduce general areas of self-care/PLEASE&nbsp;</span></li></ul></ul></ul><ul><li style=\"list-style-type: none;\"><ul><li aria-level=\"3\"><strong>Set Intentions</strong></li></ul></li></ul><ul><li style=\"list-style-type: none;\"><ul><li style=\"list-style-type: none;\"><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Set weekly intention (self-care behavior) Ex: Continue previously intention, Practice mindfulness, earlier sleep time, or review homework, etc</span></li></ul></li></ul></li></ul>"
+      },
+      {
+        "title": "Interpersonal Effectiveness - FAST, GIVE, DEAR MAN",
+        "description": "<ul><ul><li style=\"font-weight: 400;\" aria-level=\"1\"><strong>Check-ins</strong><span style=\"font-weight: 400;\">: name, update on intention, use of wisemind, or diary card</span></li><ul><li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">&nbsp;welcome to decline to introduce yourself and/or only share what you feel comfortable to share</span></li></ul><li style=\"font-weight: 400;\" aria-level=\"1\"><strong>Skill of the Day:</strong><span style=\"font-weight: 400;\"> Interpersonal Effectiveness - FAST, GIVE, DEAR MAN</span></li><ul><li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">Why learn interpersonal skills</span></li><li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">Impact of relationships on emotional vulnerability</span></li><li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">Review FAST/Give</span></li><li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">Expectations of using DEAR MAN</span></li><li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">Teach DEAR MAN with examples</span></li></ul></ul></ul><ul><li style=\"list-style-type: none;\"><ul><li aria-level=\"1\"><strong>Set Intentions</strong></li></ul></li></ul><ul><li style=\"list-style-type: none;\"><ul><li style=\"list-style-type: none;\"><ul><li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">Set weekly intention (self-care behavior) Ex: Continue previously intention, Practice mindfulness, earlier sleep time, or review homework, etc&nbsp;</span></li></ul></li></ul></li></ul>"
+      },
+      {
+        "title": "Distress Tolerance - Radical Acceptance & Turning the Mind",
+        "description": "<ul><ul><li style=\"font-weight: 400;\" aria-level=\"3\"><strong>Check-ins</strong><span style=\"font-weight: 400;\">: name, update on intention, use of wisemind, or diary card</span></li><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">&nbsp;welcome to decline to introduce yourself and/or only share what you feel comfortable to share</span></li></ul><li style=\"font-weight: 400;\" aria-level=\"3\"><strong>Skill of the Day:</strong><span style=\"font-weight: 400;\"> Distress Tolerance - Distress Tolerance - Radical Acceptance &amp; Turning the Mind&nbsp;</span></li><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Difficulty with acceptance</span></li><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Examples of use of RA</span></li><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Define and principles of RA</span></li><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Obstacles</span></li><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">&nbsp;How to practice RA&nbsp;</span></li></ul></ul></ul><ul><li style=\"list-style-type: none;\"><ul><li aria-level=\"3\"><strong>Set Intentions</strong></li></ul></li></ul><ul><li style=\"list-style-type: none;\"><ul><li style=\"list-style-type: none;\"><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Set weekly intention (self-care behavior) Ex: Continue previously intention, Practice mindfulness, earlier sleep time, or review homework, etc</span></li></ul></li></ul></li></ul>"
+      },
+      {
+        "title": "Willingness Vs Willfulness",
+        "description": "<ul><ul><li style=\"font-weight: 400;\" aria-level=\"3\"><strong>Check-ins</strong><span style=\"font-weight: 400;\">: name, update on intention, use of wisemind, or diary card</span></li><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">&nbsp;welcome to decline to introduce yourself and/or only share what you feel comfortable to share</span></li></ul><li style=\"font-weight: 400;\" aria-level=\"3\"><strong>Skill of the Day:</strong><span style=\"font-weight: 400;\"> Willingness Vs Willfulness</span></li><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Define W &amp; W</span></li><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Metaphors of W &amp; W&nbsp;</span></li></ul></ul></ul><ul><li style=\"list-style-type: none;\"><ul><li aria-level=\"3\"><strong>Set Intentions</strong></li></ul></li></ul><ul><li style=\"list-style-type: none;\"><ul><li style=\"list-style-type: none;\"><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">Set weekly intention (self-care behavior) Ex: Continue previously intention, Practice mindfulness, earlier sleep time, or review homework, etc&nbsp;</span></li></ul></li></ul></li></ul>"
+      },
+      {
+        "title": "Skill summary and Conclusion",
+        "description": "<ul><ul><li style=\"font-weight: 400;\" aria-level=\"3\"><strong>Check-ins</strong><span style=\"font-weight: 400;\">: name, update on intention, use of wisemind, or diary card</span></li><ul><li style=\"font-weight: 400;\" aria-level=\"4\"><span style=\"font-weight: 400;\">&nbsp;welcome to decline to introduce yourself and/or only share what you feel comfortable to share</span></li></ul><li style=\"font-weight: 400;\" aria-level=\"3\"><strong>Skill review</strong></li></ul></ul><ul><li style=\"list-style-type: none;\"><ul><li aria-level=\"3\"><strong>What next?</strong></li></ul></li></ul>"
+      }
+    ],
+    "overview": "<ul><li>25 week DBT Skills based Group: Delivered with weekly live session</li><li>Assessments: Weekly assessments to track your progres</li><li>1:1 Coaching (optional): For clients that might have missed a live session or need<br />additional coaching</li></ul>"
+  }
+]

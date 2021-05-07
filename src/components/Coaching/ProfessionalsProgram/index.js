@@ -33,7 +33,7 @@ class ProfessionalPage extends React.Component {
                 />;
             case 'programs':
                 return <Programs
-                    organization={this.props.organization?.[this.props.organizationSlug]}
+                    organizationSlug={this.props.organizationSlug}
                     programSlug={this.props.programSlug}
                 />;
             case 'faqs':
@@ -84,21 +84,21 @@ class ProfessionalPage extends React.Component {
                 >
                     <TabPane tab={
                         <Link
-                            to={`/coaching/professionals/${organizationSlug}/overview`}
+                            to={`/coaching/organizations/${organizationSlug}/overview`}
                             className={`para-text tab-title`}
                         >
                             <p className="para-text">Overview</p>
                         </Link>} key="overview"/>
                     <TabPane tab={
                         <Link
-                            to={`/coaching/professionals/${organizationSlug}/programs`}
+                            to={`/coaching/organizations/${organizationSlug}/programs`}
                             className={`para-text tab-title`}
                         >
                             <p className="para-text">Programs</p>
                         </Link>} key="programs"/>
                     <TabPane tab={
                         <Link
-                            to={`/coaching/professionals/${organizationSlug}/faqs`}
+                            to={`/coaching/organizations/${organizationSlug}/faqs`}
                             className={`para-text tab-title`}
                         >
                             <p className="para-text">FAQ</p>

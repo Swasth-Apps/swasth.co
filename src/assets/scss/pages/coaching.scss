@@ -38,8 +38,14 @@
       margin: auto;
       display: flex;
       justify-content: center;
-      @media only screen and (max-width: 1150px) {
+      @media only screen and (max-width: 1400px) {
         justify-content: flex-end;
+      }
+      @media only screen and (max-width: 1150px) {
+        margin-left: 150px !important;
+        .ant-tabs-tab {
+          margin-right: 0px !important;
+        }
       }
     }
   }
@@ -62,7 +68,8 @@
   }
 
   .ant-tabs-nav-wrap {
-    background: _palette(dark-blue);
+    //background: _palette(dark-blue);
+    background: #4373f0fa;
 
     .ant-tabs-nav > div {
       display: flex;
@@ -95,7 +102,7 @@
       }
 
       .unselected-tab {
-        opacity: 0.6;
+        //opacity: 0.6;
       }
     }
 
@@ -119,7 +126,7 @@
 
 .coaching-program-collapsible {
   .ant-collapse-header {
-    p {
+    p:not(:first-child){
       color: _palette(primary-blue) !important;
     }
 
@@ -129,10 +136,10 @@
   }
 
   .ant-collapse-item-active {
-    border: 1px solid _palette(primary-blue);
+    //border: 1px solid _palette(primary-blue);
 
     .ant-collapse-content {
-      border-bottom: 1px solid _palette(primary-blue);
+      //border-bottom: 1px solid _palette(primary-blue);
     }
   }
 }
@@ -1270,27 +1277,6 @@
         }
       }
 
-      .desc {
-        //display: -webkit-box;
-        //-webkit-line-clamp: 3;
-        //-webkit-box-orient: vertical;
-        //overflow: hidden;
-        //min-height: unset;
-        br{
-          display: none !important;
-        }
-        span>span>span{
-          &:not(:first-child) {
-            padding-left: 5px;
-          }
-        }
-        a{
-          color: _palette(primary-blue);
-          &:hover{
-            color: darken(_palette(primary-blue),10%) !important;
-          }
-        }
-      }
     }
 
     .course-card-footer {
@@ -1552,7 +1538,7 @@
   }
 }
 .organization-program-detail{
-  padding: 50px 0 0px;
+  padding: 0px 0 0px;
 }
 
 // Training Approach
@@ -2096,5 +2082,28 @@
 
   @media screen and (max-width: 770px) {
     margin: 0px;
+  }
+}
+
+
+.show-more-less-desc {
+  //display: -webkit-box;
+  //-webkit-line-clamp: 3;
+  //-webkit-box-orient: vertical;
+  //overflow: hidden;
+  //min-height: unset;
+  br{
+    display: none !important;
+  }
+  span>span>span{
+    &:not(:first-child) {
+      padding-left: 5px;
+    }
+  }
+  a{
+    color: _palette(primary-blue);
+    &:hover{
+      color: darken(_palette(primary-blue),10%) !important;
+    }
   }
 }

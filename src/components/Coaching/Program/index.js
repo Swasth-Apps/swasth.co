@@ -1,203 +1,269 @@
 import React from "react";
-import {Col, Row} from "antd";
-import PlaceHolderImg from '../../../assets/images/image-placeholder.png'
 
 import ReactPlayer from 'react-player';
-import {ClockCircleOutlined, HeartOutlined, UsergroupAddOutlined} from "@ant-design/icons";
-import ProgramSession from "../../ProgramSession";
-import {getCloudIDFromImageName, getImage} from "../../../helper/helper";
+import {getCloudIDFromImageName} from "../../../helper/helper";
 import CLImage from "../../../helper/CLImage";
+import RegisterInterest from "../../RegisterInterestModal";
+import ShowMore from "react-show-more";
+import ArrowLeftOutlined from "@ant-design/icons/es/icons/ArrowLeftOutlined";
+import ReactHtmlParser from "react-html-parser";
+import SessionModulesImg from "../../../assets/images/coaching-session-modules.jpg";
+import {Col, Collapse, Row} from "antd";
+
+const {Panel} = Collapse;
 
 class CoachProgram extends React.Component {
     constructor(props) {
         super(props);
     }
 
-    getList = (data) => {
-        return data && data?.split("-");
+    handleGoBack = (e) => {
+        e.preventDefault();
+        window.history.back();
     };
 
     render() {
         const {program} = this.props;
         return (
             <div className="coaching-program-page">
-                <div
-                    id='wrapper'
-                    className={'coach-wrapper'}
-                    style={{paddingBottom: 0}}
-                >
-                    <div className="coaching-program-top-section">
-                        <Row className='-row-flex-center card-row video-section'>
-                                <Col md={8} className="content">
-                                    <h3 className='bottom-space base-text program-grounded'>
-                                        {program?.name}
-                                    </h3>
-                                    <div className='para-text black-18-font margin-bottom-25'>
-                                        <p className="width-90 para-text" style={{
-                                            color: "#4F4F4F"
-                                        }}>
-                                            {program?.description}
-                                        </p>
-                                    </div>
-                                    <div className="program-basics">
-                                        <p>
-                                            <UsergroupAddOutlined/>
-                                            <span className="para-text">{program.type}</span>
-                                        </p>
-                                        <p>
-                                            <ClockCircleOutlined/>
-                                            <span className="para-text">
-                                                    {`${program?.duration?.interval} ${program?.duration?.period}`}
-                                                </span>
-                                        </p>
-                                        <p>
-                                            <HeartOutlined/>
-                                            <span className="para-text">
-                                                    Each skill is evidence based and derived
-                                                    from Acceptance Commitment Therapy
-                                                </span>
-                                        </p>
-                                    </div>
-
-                                    <p className="program-price base-text">
-                                        {program.isFree ? "Free" : `$${parseFloat(parseInt(program.payment,10) / 100)}`}
-                                    </p>
-                                </Col>
-                                <Col md={12} className="img-section" style={{textAlign: "center"}}>
-                                    <ReactPlayer
-                                        className='video-img'
-                                        url={program?.featuredVideos?.[0] || "https://www.youtube.com/watch?v=rzqiPaAxbgo&t=97s"}
-                                        fluid={false}
-                                        resizeMode={"contain"}
-                                        controls
-                                        style={{
-                                            height: "100%"
-                                        }}
-                                    />
-                                </Col>
-                        </Row>
-                    </div>
-                </div>
-                <section className='banner-section'
-                >
-                    <Row className='-row-flex-center' id='wrapper'>
-                        <Col md={24} style={{width: '100%'}}>
-                            <p style={{textAlign: 'center'}}
-                               className='bottom-space base-text tab-view'>
-                                Stop Struggling and Start Living.
-                                <br/>
-                                Build Genuine Happiness & Lasting Happiness
-                            </p>
-                        </Col>
-                    </Row>
-                </section>
-                {program?.howItWorks?
-                <section className='banner-section how-it-works'>
-                    <Row className='-row-flex-center' id='wrapper'>
-                        <Col md={24} style={{width: '100%'}}>
-                            <p style={{textAlign: 'center'}}
-                               className='bottom-space base-text tab-view'>
-                                How it works
-                            </p>
-                            <p className="para-text desc-view">
-                                {program?.howItWorks?.description}
-                            </p>
-                        </Col>
-                    </Row>
+                <div className="programs-list-page-program-card">
                     <div
                         id='wrapper'
+                        className={'coach-wrapper'}
                         style={{paddingBottom: 0}}
                     >
-                        <div className="how-it-works-section">
-                            <div className="sequence-sections">
-                                {program?.howItWorks?.cards?.map(card =>
-                                <div className="section">
-                                    <div className="card">
-                                        <CLImage
-                                            cloudId={getCloudIDFromImageName(
-                                                card?.image,
-                                                "coaching",
-                                                'png',
-                                            )}
-                                        />
-                                        <p className="base-text title">{card?.title}</p>
-                                        <p className="para-text desc">
-                                           {card?.description}
-
-                                        </p>
+                        <div className="flex-coloured-container peach-bg tm-100">
+                            <div className="course-panel-text-wrapper">
+                                <p className="para-medium-text back-arrow" onClick={this.handleGoBack}>
+                                    <ArrowLeftOutlined/> Back to Programs</p>
+                                <h1 className="heading-32 ch-width-24 base-text">
+                                    {program.name}
+                                </h1>
+                                <p className="body-18 ch-width-50 para-text html-parser" style={{marginBottom: 40}}>
+                                    {ReactHtmlParser(program.overview)}
+                                </p>
+                                <div className="program-list-page-buttons tm-8">
+                                    <div className="rm-16">
+                                        <RegisterInterest program={program} programSlug={program.slug}/>
                                     </div>
                                 </div>
-                                )}
+                            </div>
+                            <div className="course-creator-details">
+                                <CLImage
+                                    cloudId={getCloudIDFromImageName(
+                                        program?.coachInfo?.picture,
+                                        "coaching",
+                                        'png',
+                                    )}
+                                    transformation={[
+                                        {gravity: "face", height: 800, width: 800, crop: "crop"},
+                                        // {radius: "max"},
+                                        {width: 150, height: 150, crop: "scale"}
+                                    ]}
+                                    className="image-18"
+                                />
+                                <div style={{width: "100%"}}>
+                                    <h5 className="heading-16 steel para-medium-text">By</h5>
+                                    <h3 className="heading-20 bm-8 para-medium-text">{program?.coachInfo?.name}</h3>
+                                    <p className="body-14 para-text show-more-less-desc">
+                                        <ShowMore
+                                            lines={2}
+                                            more='Show more'
+                                            less='Show less'
+                                            anchorClass=''
+                                        >{program?.coachInfo?.title}</ShowMore>
+                                    </p>
+                                    {program?.featuredVideos?.[0] ?
+                                        <ReactPlayer
+                                            className='video-img'
+                                            url={program?.featuredVideos?.[0]}
+                                            fluid={false}
+                                            resizeMode={"contain"}
+                                            controls
+                                            style={{
+                                                height: "100%"
+                                            }}
+                                        /> : null}
+                                </div>
                             </div>
                         </div>
                     </div>
-                </section> : null}
-                <ProgramSession program={program}/>
-                <div
-                    id='wrapper'
-                    className={'coach-wrapper'}
-                    style={{paddingBottom: 0}}
-                >
-                    <Row className='program-bottom-section well'>
-                        <Col md={24} className='card-col -margin-bottom'>
-                            {console.log(program?.coach?.picture)}
-                            <div className='instructor-profile margin-bottom-10'>
-                                <img
-                                    src={program?.coach?.picture ? getImage("d23d739366d5eb1802c087dafbb337269a160be17930cc74133a7dc98a880f0b/images/sarah.jpg") : PlaceHolderImg}
-                                    className='instructor-image'/>
-                                <div>
-                                    <h3 className='base-text'>{program?.coach?.name}</h3>
-                                    <p className='para-text'>
-                                        {program?.coachInfo?.bio}
+                    {/*                    <section className='banner-section'>
+                        <Row className='-row-flex-center' id='wrapper'>
+                            <Col md={24} style={{width: '100%'}}>
+                                <p style={{textAlign: 'center'}}
+                                   className='bottom-space tab-view'>
+                                    Access across all platforms
+                                    <br/>
+                                </p>
+                                <p className="para-text" style={{textAlign: "center"}}>
+                                    Works seamlessly across all your devices: iPhone, iPad, Android phones and tablets,
+                                    web etc.
+                                </p>
+                                <div className="devices-img">
+                                    <img
+                                        src={AllDevices}
+                                        className="image-18"
+                                    />
+                                    <img
+                                        src={Devices}
+                                        className="image-18"
+                                    />
+                                </div>
+                            </Col>
+
+                        </Row>
+                    </section>*/}
+                    <div
+                        id='wrapper'
+                        className={'coach-wrapper'}
+                        style={{paddingBottom: 0}}
+                    >
+                        {program.marketingDescription ? <>
+                        <div className="flex-coloured-container peach-bg tm-100">
+                            <div className="course-panel-text-wrapper">
+                                <h3 className="ch-width-24 overview-title" style={{marginBottom: 0}}>
+                                    Program Description
+                                </h3>
+                            </div>
+                        </div>
+                        <p className="body-18 ch-width-50 para-text html-parser" style={{marginBottom: 40}}>
+                            {ReactHtmlParser(program.marketingDescription)}
+                        </p></> : null}
+
+                        {program?.objectiveGoals ? <>
+                            <div className="flex-coloured-container peach-bg tm-100">
+                                <div className="course-panel-text-wrapper">
+                                    <h3 className="ch-width-24 overview-title" style={{marginBottom: 0}}>
+                                        Program Objectives
+                                    </h3>
+                                </div>
+                            </div>
+                            <p className="body-18 ch-width-50 para-text html-parser" style={{marginBottom: 40}}>
+                                {ReactHtmlParser(program.objectiveGoals)}
+                            </p> </> : null}
+
+                        {program?.sessions ? <>
+                            <div className="flex-coloured-container tm-100">
+                                <div className="course-panel-text-wrapper">
+                                    <h3
+                                        className="ch-width-24 overview-title"
+                                    >
+                                        Program Modules
+                                    </h3>
+                                    <p className="body-18 ch-width-50 para-text html-parser" style={{marginBottom: 40}}>
+                                        {ReactHtmlParser(program.modulesOverview)}
                                     </p>
                                 </div>
                             </div>
+                            <div className="program-sessions-container">
+                                <div className="img">
+                                    <img src={SessionModulesImg}/>
+                                </div>
+                                <div className="course-modules program-sessions">
+                                    <div className="max-width-class">
+                                        <Collapse
+                                            expandIconPosition="right"
+                                            accordion
+                                            bordered={false}
+                                            className="coaching-program-collapsible"
+                                        >
+                                            {program?.sessions?.map((session, index) =>
+                                                <Panel
+                                                    header={
+                                                        <div>
+                                                            <p className="body-18 ch-width-50 para-medium-text"
+                                                               style={{margin: "0px 0 10px"}}>
+                                                                {`Session ${index + 1} `}
+                                                            </p>
+                                                            <p className="para-text">
+                                                                {`${session.title}`}
+                                                            </p>
+                                                        </div>}
+                                                    key={index + 1}
+                                                >
+                                                    <div
+                                                        className="coaching-landing-page-tab coaching-program-collapse">
+                                                        <div className="sessions-section html-parser">
+                                                            {ReactHtmlParser(session.description)}
+                                                        </div>
+                                                    </div>
+                                                </Panel>)}
+                                        </Collapse>
+                                    </div>
+                                </div>
+                            </div>
+                        </> : null}
+                    </div>
 
-                            <div className="instructor-interest-education">
-                                <div className="flex-box">
-                                    <div className="box">
-                                        <div className='subtitle para-text'>
-                                            <h4 className='navy-text -font-bold base-text'>
-                                                Interests
-                                            </h4>
-                                            <p className='para-text'>
-                                                <ul>
-                                                    {this.getList(program?.coachInfo?.interest)?.map(text => text && text !== " " &&
-                                                    <li>{text}</li>)}
-                                                </ul>
-                                            </p>
+                    {program.scheduled || program.self_placed || program.schedule_communicate ?
+                        <section className='banner-section'>
+                            <Row className='-row-flex-center' id='wrapper'>
+                                <Col md={24} style={{width: '100%'}}>
+                                    <p className='bottom-space tab-view program-schedule-title'>
+                                        Program Schedule
+                                    </p>
+                                    <div className="program-schedule-section">
+                                        <div className="section">
+                                            <div>
+                                                <h4 className="para-medium-text">
+                                                    Scheduled
+                                                </h4>
+                                                <div className="html-parser">
+                                                    {ReactHtmlParser(program.scheduled)}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="section">
+                                            <div>
+                                                <h4 className="para-medium-text">
+                                                    Self Placed
+                                                </h4>
+                                                <div className="html-parser">
+                                                    {ReactHtmlParser(program.self_placed)}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="section">
+                                            <div>
+                                                <img
+                                                    src="https://uploads-ssl.webflow.com/600787feb3f344152b7cce1c/600787feb3f3444c567cce94_people-messaging-icon.svg"/>
+                                                <div className="html-parser">
+                                                    {ReactHtmlParser(program.schedule_communicate)}
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="flex-box">
-                                    <div className="box">
-                                        <div className='subtitle para-text'>
-                                            <h4 className='navy-text -font-bold base-text'>
-                                                Education
-                                            </h4>
-                                            <p className='para-text'>
-                                                <ul>
-                                                    {this.getList(program?.coachInfo?.education)?.map(text => text && text !== " " &&
-                                                    <li>{text}</li>)}
-                                                </ul>
-                                            </p>
+
+                                </Col>
+                            </Row>
+                        </section> : null}
+
+
+                    {program.tuition ?
+                            <Row className='-row-flex-center' id='wrapper' style={{marginTop: 50}}>
+                                <Col md={24} style={{width: '100%'}}>
+                                    <h3 className='bottom-space program-schedule-title'>
+                                        Program Tuition
+                                    </h3>
+                                    <div className="program-tuition">
+                                        <div className="section">
+                                                <div className="html-parser">
+                                                    {ReactHtmlParser(program.tuition)}
+                                                </div>
+                                        </div>
+                                        <div className="section">
+                                            <div>
+                                                <h3 className="para-medium-text">
+                                                    Ready to dive into learning some skills?
+                                                </h3>
+                                                    <RegisterInterest program={program} programSlug={program.slug}/>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div className='subtitle para-text box'>
-                                <h4 className='navy-text -font-bold base-text'>
-                                    Experience
-                                </h4>
-                                <p className='para-text'>
-                                    <ul className="flex-list">
-                                        {this.getList(program?.coachInfo?.experience)?.map(text => text && text !== " " &&
-                                        <li>{text}</li>)}
-                                    </ul>
-                                </p>
-                            </div>
-                        </Col>
-                    </Row>
+
+                                </Col>
+                            </Row>: null}
                 </div>
             </div>
         )
