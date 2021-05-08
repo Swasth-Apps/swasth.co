@@ -28,63 +28,66 @@ class CoachProgram extends React.Component {
         return (
             <div className="coaching-program-page">
                 <div className="programs-list-page-program-card">
-                    <div
-                        id='wrapper'
-                        className={'coach-wrapper'}
-                        style={{paddingBottom: 0}}
-                    >
-                        <div className="flex-coloured-container peach-bg tm-100">
-                            <div className="course-panel-text-wrapper">
-                                <p className="para-medium-text back-arrow" onClick={this.handleGoBack}>
-                                    <ArrowLeftOutlined/> Back to Programs</p>
-                                <h1 className="heading-32 ch-width-24 base-text">
-                                    {program?.name}
-                                </h1>
-                                <p className="body-18 ch-width-50 para-text html-parser" style={{marginBottom: 40}}>
-                                    {ReactHtmlParser(program?.overview)}
-                                </p>
-                                <div className="program-list-page-buttons tm-8">
-                                    <div className="rm-16">
-                                        <RegisterInterest program={program} programSlug={program?.slug}/>
+                    <div className="program-detail-top-bg">
+                        <div
+                            id='wrapper'
+                            className={'coach-wrapper'}
+                            style={{paddingBottom: 0}}
+                        >
+                            <div className="flex-coloured-container peach-bg tm-100">
+                                <div className="course-panel-text-wrapper">
+                                    <p className="para-medium-text back-arrow" onClick={this.handleGoBack}>
+                                        <ArrowLeftOutlined/> {this.props.isProfessional ? "Back" : "Back to Programs"}
+                                    </p>
+                                    <h1 className="heading-32 ch-width-24 base-text">
+                                        {program?.name}
+                                    </h1>
+                                    <p className="body-18 ch-width-50 para-text html-parser" style={{marginBottom: 40}}>
+                                        {ReactHtmlParser(program?.overview)}
+                                    </p>
+                                    <div className="program-list-page-buttons tm-8">
+                                        <div className="rm-16">
+                                            <RegisterInterest program={program} programSlug={program?.slug}/>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="course-creator-details">
-                                <CLImage
-                                    cloudId={getCloudIDFromImageName(
-                                        program?.coachInfo?.picture,
-                                        "coaching",
-                                        'png',
-                                    )}
-                                    transformation={[
-                                        {gravity: "face", height: 800, width: 800, crop: "crop"},
-                                        // {radius: "max"},
-                                        {width: 150, height: 150, crop: "scale"}
-                                    ]}
-                                    className="image-18"
-                                />
-                                <div style={{width: "100%"}}>
-                                    <h5 className="heading-16 steel para-medium-text">By</h5>
-                                    <h3 className="heading-20 bm-8 para-medium-text">{program?.coachInfo?.name}</h3>
-                                    <p className="body-14 para-text show-more-less-desc">
-                                        <ShowMore
-                                            lines={2}
-                                            more='Show more'
-                                            less='Show less'
-                                            anchorClass=''
-                                        >{program?.coachInfo?.title}</ShowMore>
-                                    </p>
-                                    {program?.featuredVideos?.[0] ?
-                                        <ReactPlayer
-                                            className='video-img'
-                                            url={program?.featuredVideos?.[0]}
-                                            fluid={false}
-                                            resizeMode={"contain"}
-                                            controls
-                                            style={{
-                                                height: "100%"
-                                            }}
-                                        /> : null}
+                                <div className="course-creator-details">
+                                    <CLImage
+                                        cloudId={getCloudIDFromImageName(
+                                            program?.coachInfo?.picture,
+                                            "coaching",
+                                            'experts',
+                                        )}
+                                        transformation={[
+                                            {gravity: "face", height: 800, width: 800, crop: "crop"},
+                                            // {radius: "max"},
+                                            {width: 150, height: 150, crop: "scale"}
+                                        ]}
+                                        className="image-18"
+                                    />
+                                    <div>
+                                        <h5 className="heading-16 steel para-medium-text">By</h5>
+                                        <h3 className="heading-20 bm-8 para-medium-text">{program?.coachInfo?.name}</h3>
+                                        <p className="body-14 para-text show-more-less-desc">
+                                            <ShowMore
+                                                lines={2}
+                                                more='Show more'
+                                                less='Show less'
+                                                anchorClass=''
+                                            >{program?.coachInfo?.title}</ShowMore>
+                                        </p>
+                                        {program?.featuredVideos?.[0] ?
+                                            <ReactPlayer
+                                                className='video-img'
+                                                url={program?.featuredVideos?.[0]}
+                                                fluid={false}
+                                                resizeMode={"contain"}
+                                                controls
+                                                style={{
+                                                    height: "100%"
+                                                }}
+                                            /> : null}
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -121,16 +124,16 @@ class CoachProgram extends React.Component {
                         style={{paddingBottom: 0}}
                     >
                         {program?.marketingDescription ? <>
-                        <div className="flex-coloured-container peach-bg tm-100">
-                            <div className="course-panel-text-wrapper">
-                                <h3 className="ch-width-24 overview-title" style={{marginBottom: 0}}>
-                                    Program Description
-                                </h3>
+                            <div className="flex-coloured-container peach-bg tm-100">
+                                <div className="course-panel-text-wrapper">
+                                    <h3 className="ch-width-24 overview-title" style={{marginBottom: 0}}>
+                                        Program Description
+                                    </h3>
+                                </div>
                             </div>
-                        </div>
-                        <p className="body-18 ch-width-50 para-text html-parser" style={{marginBottom: 40}}>
-                            {ReactHtmlParser(program?.marketingDescription)}
-                        </p></> : null}
+                            <p className="body-18 ch-width-50 para-text html-parser" style={{marginBottom: 40}}>
+                                {ReactHtmlParser(program?.marketingDescription)}
+                            </p></> : null}
 
                         {program?.objectiveGoals ? <>
                             <div className="flex-coloured-container peach-bg tm-100">
@@ -159,7 +162,17 @@ class CoachProgram extends React.Component {
                             </div>
                             <div className="program-sessions-container">
                                 <div className="img">
-                                    <img src={SessionModulesImg}/>
+                                    {program?.programModuleImage ?
+                                        <CLImage
+                                            cloudId={getCloudIDFromImageName(
+                                                program?.programModuleImage,
+                                                "coaching",
+                                                'programs',
+                                            )}
+                                            className="image-18"
+                                        />
+                                        :
+                                        <img src={SessionModulesImg}/>}
                                 </div>
                                 <div className="course-modules program-sessions">
                                     <div className="max-width-class">
@@ -242,6 +255,7 @@ class CoachProgram extends React.Component {
 
 
                     {program?.tuition ?
+                        <div className="program-tuition-top-bg">
                             <Row className='-row-flex-center' id='wrapper' style={{marginTop: 50}}>
                                 <Col md={24} style={{width: '100%'}}>
                                     <h3 className='bottom-space program-schedule-title'>
@@ -249,22 +263,23 @@ class CoachProgram extends React.Component {
                                     </h3>
                                     <div className="program-tuition">
                                         <div className="section">
-                                                <div className="html-parser">
-                                                    {ReactHtmlParser(program?.tuition)}
-                                                </div>
+                                            <div className="html-parser">
+                                                {ReactHtmlParser(program?.tuition)}
+                                            </div>
                                         </div>
                                         <div className="section">
                                             <div>
                                                 <h3 className="para-medium-text">
                                                     Ready to dive into learning some skills?
                                                 </h3>
-                                                    <RegisterInterest program={program} programSlug={program?.slug}/>
+                                                <RegisterInterest program={program} programSlug={program?.slug}/>
                                             </div>
                                         </div>
                                     </div>
 
                                 </Col>
-                            </Row>: null}
+                            </Row>
+                        </div> : null}
                 </div>
             </div>
         )

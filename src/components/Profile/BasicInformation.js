@@ -13,7 +13,7 @@ const BasicInformation = (props) => {
                             cloudId={getCloudIDFromImageName(
                                 provider?.profileImg,
                                 "coaching",
-                                'png',
+                                'experts',
                             )}
                             options={{
                                 imageWidth: 150,imageHeight: 150
@@ -37,7 +37,7 @@ const BasicInformation = (props) => {
                             cloudId={getCloudIDFromImageName(
                                 provider?.coverImg,
                                 "coaching",
-                                'png',
+                                'experts',
                             )}
                             options={{
                                 imageWidth: 1200,imageHeight: 800

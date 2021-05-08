@@ -6,6 +6,7 @@ import EveryoneActive from "../../assets/images/coachingTabIcons/Everyone-active
 import ProfessionalActive from "../../assets/images/coachingTabIcons/professional-active-icon.png";
 import OverviewActive from "../../assets/images/coachingTabIcons/overview-active-icon.png";
 import ExpertActive from "../../assets/images/coachingTabIcons/experts-active-icon.png";
+import Organization from "../../assets/images/coachingTabIcons/organization.png";
 import ClientsPrograms from "./ClientsPrograms";
 import ProfessionalPrograms from "./ProfessionalPrograms";
 import Experts from "./Experts";
@@ -65,7 +66,7 @@ const CoachingComponent = (props) => {
                         </div>
                     </TabPane>
                     <TabPane tab={<Link to={`/coaching/organizations`} className={`para-text tab-title ${props.tab !== "organizations" ? "unselected-tab" : ""}`}>
-                        <img src={ExpertActive}/>
+                        <img src={Organization}/>
                         <div className="tab-div-title">
                            Organizations </div>
                     </Link>} key="organizations">

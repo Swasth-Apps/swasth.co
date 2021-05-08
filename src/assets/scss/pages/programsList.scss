@@ -386,12 +386,15 @@
 // Program Detail Page
 .coaching-program-page {
   position: relative;
-  padding-top: 100px;
   //background-color: _palette(light-blue);
   background-color: white;
 
-  @media screen and (max-width: 950px) {
-    padding-top: 50px;
+  .program-detail-top-bg {
+    padding-top: 100px;
+    //padding-bottom: 50px;
+    @media screen and (max-width: 950px) {
+      padding-top: 50px;
+    }
   }
 
   .peach-bg {
@@ -422,10 +425,13 @@
     .course-creator-details {
       margin-right: 0px;
       width: 30%;
-
+      align-items: center;
       .video-img {
         width: 100% !important;
         height: 200px !important;
+      }
+      .image-18{
+        align-self: unset;
       }
     }
 
@@ -545,7 +551,7 @@
       width: 40%;
       position: sticky;
       align-self: flex-start;
-      top: 0;
+      top: 20px;
 
       img {
         width: 100%;
@@ -553,7 +559,7 @@
         border-radius: 10px;
         position: sticky;
         align-self: flex-start;
-        top: 0;
+        top: 20px;
       }
     }
 
@@ -569,10 +575,11 @@
         flex: 0 0 100%;
         margin-bottom: 20px;
         position: relative;
-
+        top: 0px;
         img {
           width: 75%;
           position: relative;
+          top: 0px;
         }
       }
       .program-sessions {

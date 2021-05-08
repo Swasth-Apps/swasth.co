@@ -9,7 +9,7 @@ import {Link} from "gatsby";
 
 const {TabPane} = Tabs;
 
-class ProfessionalPage extends React.Component {
+class OrganizationPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -60,7 +60,7 @@ class ProfessionalPage extends React.Component {
                     id="banner"
                     className={`major max-width-class professional-page-banner`}
                     style={{
-                        backgroundImage: `url(${getCLImageUrl(organization?.image, "coaching", "png",true)})`,
+                        backgroundImage: `url(${getCLImageUrl(organization?.image, "coaching", "organizations",true)})`,
                         backgroundAttachment: "unset"
                     }}
                 >
@@ -76,7 +76,7 @@ class ProfessionalPage extends React.Component {
                 </section>
                 <Tabs
                     activeKey={this.state.selectedTab}
-                    className="professional-program-tab"
+                    className="organization-program-tab"
                     onChange={(e) => this.setState({
                         selectedTab: e,
                         isCourseOpen: false
@@ -110,4 +110,4 @@ class ProfessionalPage extends React.Component {
     }
 }
 
-export default ProfessionalPage;
+export default OrganizationPage;
