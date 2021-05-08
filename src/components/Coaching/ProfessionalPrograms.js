@@ -35,7 +35,7 @@ class ProfessionalPrograms extends React.Component {
                         <Col md={24} style={{width: '100%'}}>
                             <p style={{textAlign: 'center'}}
                                className='bottom-space base-text tab-view'>
-                                Online Programs health professionals by
+                                Online Programs health for professionals by
                                 <br/>
                                 the leaders in evidence-based therapy
                             </p>
