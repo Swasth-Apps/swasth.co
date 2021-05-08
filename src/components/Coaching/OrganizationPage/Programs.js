@@ -47,6 +47,7 @@ class Programs extends React.Component {
                                 )}
                             </div>
                         </div> : <Program
+                            isProfessional
                             program={openProgram}
                         />}
                 </div>

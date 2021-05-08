@@ -3,7 +3,7 @@ import {Col, Row} from "antd";
 import {Link} from 'gatsby';
 import {connect} from "react-redux";
 import CourseCard from "./CourseCard";
-import ProfessionalPage from "./ProfessionalsProgram";
+import OrganizationPage from "./OrganizationPage";
 import Amplify, {API, graphqlOperation} from "aws-amplify";
 import graphql_endpoint from "../../aws-appsync-url";
 import {getOrganizationsWithOwner, getOrganizationWithMembersAndPrograms} from "../../queries";
@@ -80,7 +80,7 @@ class Organizations extends React.Component {
 
 
         return (this.state.organizationSlug ?
-                <ProfessionalPage
+                <OrganizationPage
                     programSlug={this.state.programSlug}
                     organizationSlug={this.state.organizationSlug}
                     organization={this.props.organization}
@@ -144,7 +144,7 @@ class Organizations extends React.Component {
                                             cloudId={getCloudIDFromImageName(
                                                 org.image,
                                                 "coaching",
-                                                'png',
+                                                'organizations',
                                             )}
                                             options={{
                                             imageWidth: 1200,

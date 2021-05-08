@@ -94,6 +94,7 @@
     "status": "DRAFT",
     "type": "INDIVIDUAL",
     "updatedAt": "2021-05-01T12:01:41+00:00",
+    "programModuleImage": "tiffny-program-modules.jpg",
     "modulesOverview": "This program is delivered in 10 sessions according to the following schedule:",
     "scheduled": "<p class=\"body-16 semi bm-16\">90 mins/week (approx)</p><ul class=\"w-list-unstyled\" role=\"list\"><li class=\"scheduled-list-item body-16 bm-8\">Weekly live sessions led by a DBT trained skills coach</li></ul>",
     "self_placed": "<p class=\"body-16 semi bm-16\"><div class=\"body-16 semi bm-16\">30 mins/week (approx)</p><ul class=\"w-list-unstyled\" role=\"list\"><li class=\"self-paced-list-item body-16 bm-8\">On-demand video lectures</li><li class=\"self-paced-list-item body-16 bm-8\">Reading material</li><li class=\"self-paced-list-item body-16 bm-8\">Quizzes</li><li class=\"self-paced-list-item body-16 bm-8\">Homework: Exercises, Practice ideas, Meditations, Diary Card etc</li><li class=\"self-paced-list-item body-16 bm-8\">Weekly Assessments for Programs tracking</li></ul></div>",

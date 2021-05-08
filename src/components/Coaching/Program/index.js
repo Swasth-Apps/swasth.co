@@ -36,7 +36,7 @@ class CoachProgram extends React.Component {
                         <div className="flex-coloured-container peach-bg tm-100">
                             <div className="course-panel-text-wrapper">
                                 <p className="para-medium-text back-arrow" onClick={this.handleGoBack}>
-                                    <ArrowLeftOutlined/> Back to Programs</p>
+                                    <ArrowLeftOutlined/> {this.props.isProfessional ? "Back" : "Back to Programs"}</p>
                                 <h1 className="heading-32 ch-width-24 base-text">
                                     {program?.name}
                                 </h1>
@@ -54,7 +54,7 @@ class CoachProgram extends React.Component {
                                     cloudId={getCloudIDFromImageName(
                                         program?.coachInfo?.picture,
                                         "coaching",
-                                        'png',
+                                        'experts',
                                     )}
                                     transformation={[
                                         {gravity: "face", height: 800, width: 800, crop: "crop"},
@@ -63,7 +63,7 @@ class CoachProgram extends React.Component {
                                     ]}
                                     className="image-18"
                                 />
-                                <div style={{width: "100%"}}>
+                                <div>
                                     <h5 className="heading-16 steel para-medium-text">By</h5>
                                     <h3 className="heading-20 bm-8 para-medium-text">{program?.coachInfo?.name}</h3>
                                     <p className="body-14 para-text show-more-less-desc">
@@ -159,7 +159,17 @@ class CoachProgram extends React.Component {
                             </div>
                             <div className="program-sessions-container">
                                 <div className="img">
-                                    <img src={SessionModulesImg}/>
+                                    {program?.programModuleImage ?
+                                        <CLImage
+                                            cloudId={getCloudIDFromImageName(
+                                                program?.programModuleImage,
+                                                "coaching",
+                                                'programs',
+                                            )}
+                                            className="image-18"
+                                        />
+                                        :
+                                    <img src={SessionModulesImg}/>}
                                 </div>
                                 <div className="course-modules program-sessions">
                                     <div className="max-width-class">

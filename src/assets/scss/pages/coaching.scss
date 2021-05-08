@@ -62,7 +62,12 @@
 
 
 .coaching-landing-page-tab {
-  .ant-tabs-bar {
+
+  @media only screen and (min-width: 769.5px) {
+    overflow: unset;
+  }
+
+    .ant-tabs-bar {
     border-bottom: none;
     margin-bottom: 0px;
   }
@@ -1605,7 +1610,7 @@
 }
 
 
-.professional-program-tab {
+.organization-program-tab {
   background: white;
   border-bottom: 1px solid #e0d9d9;
 

@@ -21,7 +21,7 @@ const ExperCard = ({member}) => {
                             cloudId={getCloudIDFromImageName(
                                 member?.marketingPicture,
                                 "coaching",
-                                'png',
+                                'experts',
                             )}
                             options={{
                                 imageWidth: 500, imageHeight: 500

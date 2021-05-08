@@ -33,7 +33,7 @@ class Experts extends React.Component {
                                             cloudId={getCloudIDFromImageName(
                                                 expert.img,
                                                 "coaching",
-                                                'png',
+                                                'experts',
                                             )}
                                             options={{
                                                 imageWidth: 150,imageHeight: 150

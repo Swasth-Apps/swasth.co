@@ -58,7 +58,10 @@ export const cloudinaryPaths = {
     tools: 'tools/',
   },
   coaching:{
-    png: 'png/'
+    png: 'png/',
+    programs: 'png/programs/',
+    experts: 'png/experts/',
+    organizations: 'png/organizations/',
   }
 };
 

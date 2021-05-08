@@ -42,6 +42,7 @@
     "schedule_communicate": "<div class=\"body-16 semi bm-16\"><p class=\"body-16 semi bm-16\">During the program, clients can communicate via private messaging with the members of their cohort and with their coaching team</p></div>",
     "tuition": "<div><table border=\"1\"><tbody><tr><td><h3>Program Cost</h3></td><td><h3 style=\"text-align: right;\">$495</h3></td></tr></tbody></table><p>All programs begin with a one hour assessment session with a coach to assess your background, requirements, and goals. This session enables us to optimally match you to your hive.</p></div><div><div><div><table border=\"1\"><tbody><tr><td><h3>1:1 Coaching Session(Optional)</h3></td></tr></tbody></table><p>For clients that might have missed a live session or need additional coaching</p></div></div></div>",
     "organizationSlug": "helping-the-helpers",
+    "programModuleImage": "yotam-program-modules.jpg",
     "sessions": [
       {
         "title": "Burnout, Mindfulness and compassion training",
