@@ -386,12 +386,15 @@
 // Program Detail Page
 .coaching-program-page {
   position: relative;
-  padding-top: 100px;
   //background-color: _palette(light-blue);
   background-color: white;
 
-  @media screen and (max-width: 950px) {
-    padding-top: 50px;
+  .program-detail-top-bg {
+    padding-top: 100px;
+    //padding-bottom: 50px;
+    @media screen and (max-width: 950px) {
+      padding-top: 50px;
+    }
   }
 
   .peach-bg {
