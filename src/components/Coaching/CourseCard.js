@@ -108,7 +108,7 @@ const CourseCard = ({program,isProfessional = false}) => {
                     cloudId={getCloudIDFromImageName(
                         program?.coachInfo?.picture,
                         "coaching",
-                        'png',
+                        'experts',
                     )}
                     transformation={[
                             {gravity: "face", height: 800, width: 800, crop: "crop"},
