@@ -130,7 +130,7 @@ const CourseCard = ({program,isProfessional = false}) => {
 
                     </p>
                     <div className="course-price">
-                        <div className="div-block-35"><h6 className="body-16 steel bm-0 para-medium-text">Program Cost</h6>
+                        <div className="div-block-35"><h6 className="body-16 steel bm-0 para-medium-text">Program Fee</h6>
                             <h1 className="body-16 semi bm-0 base-text">{program?.isFree ? "FREE" : `$${program?.payment / 100}`}</h1></div>
                     </div>
                 </div>
