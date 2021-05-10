@@ -36,11 +36,13 @@ const Header = (props) => {
 
     const onScroll = () => {
         const header = document.getElementById("coaching-header");
-        const sticky = header.offsetTop;
-        if (state || (window.pageYOffset > (sticky + 100) )) {
-            header.classList.add("sticky-header");
-        } else {
-            header.classList.remove("sticky-header");
+        if(header) {
+            const sticky = header.offsetTop;
+            if (state || (window.pageYOffset > (sticky + 100))) {
+                header.classList.add("sticky-header");
+            } else {
+                header.classList.remove("sticky-header");
+            }
         }
     };
 
