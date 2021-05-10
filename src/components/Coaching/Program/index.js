@@ -8,6 +8,7 @@ import ShowMore from "react-show-more";
 import ArrowLeftOutlined from "@ant-design/icons/es/icons/ArrowLeftOutlined";
 import ReactHtmlParser from "react-html-parser";
 import SessionModulesImg from "../../../assets/images/coaching-session-modules.jpg";
+import ChartIcon from "../../../assets/images/chart-icon.png";
 import {Col, Collapse, Row} from "antd";
 
 const {Panel} = Collapse;
@@ -241,7 +242,8 @@ class CoachProgram extends React.Component {
                                         <div className="section">
                                             <div>
                                                 <img
-                                                    src="https://uploads-ssl.webflow.com/600787feb3f344152b7cce1c/600787feb3f3444c567cce94_people-messaging-icon.svg"/>
+                                                    src={ChartIcon}
+                                                />
                                                 <div className="html-parser">
                                                     {ReactHtmlParser(program?.schedule_communicate)}
                                                 </div>

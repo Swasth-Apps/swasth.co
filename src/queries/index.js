@@ -196,21 +196,11 @@ export const getMarketingTrackDetail = ` query getMarketingTrackDetail($slug: St
             slug
             price
             sessions{
+                id
                 name
                 sequence
-                lessons
-                activityGroups {
-                    id
-                    name
-                    sequence
-                    activities {
-                        details
-                        id
-                        name
-                        icon
-                        type
-                    }
-                }
+                lessonsOverview
+                activitiesOverview
             }
         }
     }

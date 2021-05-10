@@ -4,12 +4,10 @@ import ReactHtmlParser from "react-html-parser";
 import CLImage from "../../../helper/CLImage";
 import {useSelector} from "react-redux";
 import {Collapse, Tabs} from "antd";
-import {getParseDetails} from "../../../helper/helper";
-import {getCloudIDFromImageName, getCloudIDFromImageURL} from "./../common/helper";
+import {getCloudIDFromImageName} from "./../common/helper";
 import Program from "../../../components/Program";
 import Loader from "../../../components/Loader";
 import CoachBg from "../../../assets/images/resilify/coach-bg.jpg"
-import VideoIcon from "../../../assets/images/video.png"
 
 const {Panel} = Collapse;
 const {TabPane} = Tabs;
@@ -65,36 +63,17 @@ const ResilifyProgram = (props) => {
                                                 <Collapse ghost expandIconPosition="right" accordion
                                                           className="scrollbar">
                                                     {program?.sessions?.map((session, i) => {
-                                                        const lessons = getParseDetails(session?.lessons?.[0]);
-                                                        const activities = session.activityGroups?.flatMap(({activities}) => activities);
                                                         return <Panel header={`${i + 1}. ${session.name}`} key={i}>
                                                             <Tabs className={`topic-tabs`}>
                                                                 {edges?.map(item =>
                                                                     <TabPane tab={item} key={item}>
                                                                         {item === "Lessons" ?
-                                                                            <ul>
-                                                                                {lessons?.cards?.map(({title}) =>
-                                                                                    <li><img
-                                                                                        src={VideoIcon}/>{title}
-                                                                                    </li>)}
-                                                                            </ul> : <ul>
-                                                                                {activities?.map(activity =>
-                                                                                    <li>
-                                                                                        <CLImage
-                                                                                            cloudId={getCloudIDFromImageURL(
-                                                                                                activity.icon || 'Behavioral-activation.png',
-                                                                                                'bodhi',
-                                                                                                'icons',
-                                                                                            )}
-                                                                                            options={{
-                                                                                                format: 'png',
-                                                                                                background: 'transparent',
-                                                                                                color:"white"
-                                                                                            }}
-                                                                                        />
-                                                                                        {activity.name}
-                                                                                    </li>)}
-                                                                            </ul>
+                                                                            <p className="para-text white-text" style={{fontSize: 16}}>
+                                                                                {session.lessonsOverview}
+                                                                            </p>:
+                                                                            <p className="para-text white-text" style={{fontSize: 16}}>
+                                                                                {session.activitiesOverview}
+                                                                            </p>
                                                                         }
                                                                     </TabPane>
                                                                 )}

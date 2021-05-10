@@ -45,22 +45,19 @@ class ResilifyPrograms extends React.Component {
             API.graphql(graphqlOperation(getMarketingTrackDetail,{slug}), {
                 "x-api-key": graphql_endpoint.TRACK_APIKEY
             }).then(({data}) => {
+                this.props.setResilifyLoading(false);
                 this.props.setProgram(data?.getMarketingTrackDetail,slug);
+                API.graphql(graphqlOperation(getRelatedPrograms,{slug}), {
+                    "x-api-key": graphql_endpoint.TRACK_APIKEY
+                }).then(({data}) => {
+                    this.props.setRelatedProgram(data?.getRelatedPrograms, slug);
+                }).catch(() => {
+                    this.props.setResilifyLoading(false);
+                });
+            }).catch(() => {
                 this.props.setResilifyLoading(false);
-            }).catch(error => {
-                this.props.setResilifyLoading(false);
-                console.log('error-------------', error);
             });
 
-            API.graphql(graphqlOperation(getRelatedPrograms,{slug}), {
-                "x-api-key": graphql_endpoint.TRACK_APIKEY
-            }).then(({data}) => {
-                this.props.setRelatedProgram(data?.getRelatedPrograms, slug);
-                this.props.setResilifyLoading(false);
-            }).catch(error => {
-                this.props.setResilifyLoading(false);
-                console.log('error-------------', error);
-            });
 
         }
     }

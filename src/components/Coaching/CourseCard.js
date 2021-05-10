@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'gatsby';
-import {Animated} from "react-animated-css";
 import ShowMore from 'react-show-more';
 
 import RegisterInterest from "../RegisterInterestModal";
