@@ -211,7 +211,7 @@ class CoachProgram extends React.Component {
                         </> : null}
                     </div>
 
-                    {program?.scheduled || program?.self_placed || program?.schedule_communicate ?
+                    {program?.scheduled || program?.self_paced || program?.schedule_communicate ?
                         <section className='banner-section'>
                             <Row className='-row-flex-center' id='wrapper'>
                                 <Col md={24} style={{width: '100%'}}>
@@ -232,10 +232,10 @@ class CoachProgram extends React.Component {
                                         <div className="section">
                                             <div>
                                                 <h4 className="para-medium-text">
-                                                    Self Placed
+                                                    Self Paced
                                                 </h4>
                                                 <div className="html-parser">
-                                                    {ReactHtmlParser(program?.self_placed)}
+                                                    {ReactHtmlParser(program?.self_paced)}
                                                 </div>
                                             </div>
                                         </div>
