@@ -8,6 +8,8 @@ import ShowMore from "react-show-more";
 import ArrowLeftOutlined from "@ant-design/icons/es/icons/ArrowLeftOutlined";
 import ReactHtmlParser from "react-html-parser";
 import SessionModulesImg from "../../../assets/images/coaching-session-modules.jpg";
+import TopBanner from "../../../assets/images/program_detail_banner.png";
+import BottomBanner from "../../../assets/images/program_detail_bottom_banner.png";
 import ChartIcon from "../../../assets/images/chart-icon.png";
 import {Col, Collapse, Row} from "antd";
 
@@ -29,7 +31,15 @@ class CoachProgram extends React.Component {
         return (
             <div className="coaching-program-page">
                 <div className="programs-list-page-program-card">
-                    <div className="program-detail-top-bg">
+                    <div
+                        className="program-detail-top-bg"
+                        style={{
+                            backgroundImage: `url(${TopBanner})`,
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                        }}
+                    >
                         <div
                             id='wrapper'
                             className={'coach-wrapper'}
@@ -259,8 +269,16 @@ class CoachProgram extends React.Component {
 
 
                     {program?.tuition ?
-                        <div className="program-tuition-top-bg">
-                            <Row className='-row-flex-center' id='wrapper' style={{marginTop: 50}}>
+                        <div
+                            className="program-tuition-top-bg"
+                            style={{
+                                backgroundImage: `url(${BottomBanner})`,
+                                backgroundSize: "cover",
+                                backgroundPosition: "center",
+                                backgroundRepeat: "no-repeat",
+                            }}
+                        >
+                            <Row className='-row-flex-center' id='wrapper' style={{paddingTop: 50}}>
                                 <Col md={24} style={{width: '100%'}}>
                                     <h3 className='bottom-space program-schedule-title'>
                                         Program Tuition
