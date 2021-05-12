@@ -1,7 +1,7 @@
 import React from "react";
 
 import ReactPlayer from 'react-player';
-import {getCloudIDFromImageName} from "../../../helper/helper";
+import {getCloudIDFromImageName, getCoachingVideo} from "../../../helper/helper";
 import CLImage from "../../../helper/CLImage";
 import RegisterInterest from "../../RegisterInterestModal";
 import ShowMore from "react-show-more";
@@ -80,7 +80,9 @@ class CoachProgram extends React.Component {
                                         {program?.featuredVideos?.[0] ?
                                             <ReactPlayer
                                                 className='video-img'
-                                                url={program?.featuredVideos?.[0]}
+                                                url={program?.featuredVideos?.[0]?.includes("http") ?
+                                                    program?.featuredVideos?.[0] : getCoachingVideo(program?.featuredVideos?.[0])
+                                                }
                                                 fluid={false}
                                                 resizeMode={"contain"}
                                                 controls

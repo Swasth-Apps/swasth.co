@@ -215,6 +215,13 @@ export const expertsData = [{
 export const colors = ["blue-tag","pink-tag","purple-tag"];
 export const initialBlogsCount = 6;
 
+
+export const CONTENT_PATH = 'https://d2ot3z5xcrn0h2.cloudfront.net/';
+
+export const getCoachingVideo = (filename) => {
+    return `${CONTENT_PATH}videos/coaching/${filename}`;
+};
+
 export const getInitials = word => {
     const fullWords = word && word?.split(' ');
     const initials = fullWords?.shift()?.charAt(0) + fullWords?.pop()?.charAt(0);
