@@ -100,9 +100,7 @@ class Organizations extends React.Component {
                             <Col md={24} style={{width: '100%'}}>
                                 <p style={{textAlign: 'center'}}
                                    className='bottom-space base-text tab-view'>
-                                    Online Programs in Evidence-based modalities
-                                    <br/>
-                                    from world's leading Experts
+                                    Leaders in Evidence-based Therapy
                                 </p>
                             </Col>
                         </Row>
