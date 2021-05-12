@@ -37,7 +37,7 @@ class ProfessionalPrograms extends React.Component {
                                className='bottom-space base-text tab-view'>
                                 Online Programs health for professionals by
                                 <br/>
-                                the leaders in evidence-based therapy
+                                leaders in evidence-based therapy
                             </p>
                         </Col>
                     </Row>
