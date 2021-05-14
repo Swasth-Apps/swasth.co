@@ -84,7 +84,7 @@ class Organizations extends React.Component {
                     programSlug={this.state.programSlug}
                     organizationSlug={this.state.organizationSlug}
                     organization={this.props.organization}
-                    selectedTab={this.state.tab || "overview"}
+                    selectedTab={this.state.tab || "home"}
                 /> :
                 <>
                     <section className='coaching-programs-banner-section professionals-banner-section'>
@@ -136,7 +136,7 @@ class Organizations extends React.Component {
                                 </div>
                             </div> : organizations?.length ? organizations?.map(org =>
                                 <div className="coach-grid-view">
-                                    <Link to={`/coaching/organizations/${org.slug}/overview`} className="coach-grid-view-card">
+                                    <Link to={`/coaching/organizations/${org.slug}/home`} className="coach-grid-view-card">
                                         <div style={{position:"relative"}}>
                                         <CLImage
                                             cloudId={getCloudIDFromImageName(

@@ -26,7 +26,7 @@ class OrganizationPage extends React.Component {
     getContent = () => {
 
         switch (this.state.selectedTab) {
-            case 'overview':
+            case 'home':
                 return <Overview
                     onClick={this.handleCourseClick}
                     organization={this.props.organization?.[this.props.organizationSlug]}
@@ -84,11 +84,11 @@ class OrganizationPage extends React.Component {
                 >
                     <TabPane tab={
                         <Link
-                            to={`/coaching/organizations/${organizationSlug}/overview`}
+                            to={`/coaching/organizations/${organizationSlug}/home`}
                             className={`para-text tab-title`}
                         >
-                            <p className="para-text">Overview</p>
-                        </Link>} key="overview"/>
+                            <p className="para-text">Home</p>
+                        </Link>} key="home"/>
                     <TabPane tab={
                         <Link
                             to={`/coaching/organizations/${organizationSlug}/programs`}

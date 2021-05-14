@@ -45,11 +45,11 @@ class CoachProgram extends React.Component {
                             className={'coach-wrapper'}
                             style={{paddingBottom: 0}}
                         >
+                            <p className="para-medium-text back-arrow" onClick={this.handleGoBack}>
+                                <ArrowLeftOutlined/> {this.props.isProfessional ? "Back" : "Back to Programs"}
+                            </p>
                             <div className="flex-coloured-container peach-bg tm-100">
                                 <div className="course-panel-text-wrapper">
-                                    <p className="para-medium-text back-arrow" onClick={this.handleGoBack}>
-                                        <ArrowLeftOutlined/> {this.props.isProfessional ? "Back" : "Back to Programs"}
-                                    </p>
                                     <h1 className="heading-32 ch-width-24 base-text">
                                         {program?.name}
                                     </h1>
