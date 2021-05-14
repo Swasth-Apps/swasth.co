@@ -21,9 +21,12 @@ const Program = props => {
             <div className="program-detail">
                 <div className="program-info">
                     <h3 className="base-text">{program.name}</h3>
-                    <p className="para-text">
+                    <div className="program-tags">
+                        {program?.tags?.map(tag => <p className="tag">{tag}</p>)}
+                    </div>
+                   {/* <p className="para-text">
                         {HtmlParser(program.description)}
-                    </p>
+                    </p>*/}
                 </div>
             </div>
         </Link>

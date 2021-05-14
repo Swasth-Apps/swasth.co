@@ -1,11 +1,11 @@
 import React from 'react'
 import Layout from '../../components/Layout/layout'
 import graphql_endpoint from "../../aws-appsync-url";
-import {getMarketingTrackDetail, getRelatedPrograms, getTopics, getTracksList} from "../../queries";
+import {getMarketingTrackDetail, getRelatedPrograms} from "../../queries";
 import {connect} from "react-redux";
 import Amplify, {API, graphqlOperation} from "aws-amplify";
 
-import {setPrograms, setResilifyLoading, setTopics,setProgram,setRelatedProgram} from "../../Redux/Actions/Programs";
+import {setProgram, setPrograms, setRelatedProgram, setResilifyLoading, setTopics} from "../../Redux/Actions/Programs";
 import ResilifyProgram from "../../components/Resilify/Program";
 import {Helmet} from "react-helmet";
 

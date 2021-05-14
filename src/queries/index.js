@@ -161,8 +161,8 @@ export const getTracksList = `
             topics
             image
             marketingImage
-            description
             slug
+            tags
         }
     }
 `;

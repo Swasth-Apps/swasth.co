@@ -8,6 +8,8 @@ import RegisterInterest from "../RegisterInterestModal";
 import CLImage from "../../helper/CLImage";
 import {getCloudIDFromImageName} from "../../helper/helper";
 import ShowMore from "react-show-more";
+import MobileGraphic from "../../assets/images/MobileView.png";
+import CoachBanner from "../../assets/images/coach_banner_animation.gif";
 
 class ClientsPrograms extends React.Component {
     constructor(props) {
@@ -30,9 +32,14 @@ class ClientsPrograms extends React.Component {
                         content="Behavioral Health Coaching, Evidence Based Coaching, Life Coach, Health Coaching, Mental Health Coach, anxiety, depression, financial anxiety, experts, breathing exercise, meditation, digital mental health, guided meditation, therapist training, coach training, lasting change, motivation, reframe, PTSD, relationships, resilience, peer coaching group, perfomance coaching, CBT, DBT, ACT, CFT, Compassion, social anxiety, Bipolar, Gratitude, Well being"
                     />
                 </Helmet>
-                <section className='coaching-programs-banner-section'>
+                <section className='coaching-programs-banner-section no-banner'>
                     <Row className='-row-flex-center' id='wrapper'>
-                        <Col md={24} style={{width: '100%'}}/>
+                        <img
+                            className='custom-image'
+                            src={CoachBanner}
+                            alt='Therapy'
+                        />
+                        {/*<Col md={24} style={{width: '100%'}}/>*/}
                     </Row>
                 </section>
                 <div style={{paddingTop: 50}}>

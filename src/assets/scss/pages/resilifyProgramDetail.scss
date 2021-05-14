@@ -84,6 +84,10 @@
             width: 500px;
             height: 100%;
             margin-top: 20px;
+            background: rgba(0,0,0,0.1);
+            border-radius: 10px;
+            padding: 20px;
+
 
             h5 {
               color: _palette(bg);
@@ -95,10 +99,13 @@
             .ant-collapse {
               margin-bottom: 15px;
               margin-left: 0px;
-              max-height: 400px;
+              max-height: 360px;
               overflow-y: auto;
               background: transparent;
               border: none;
+              &::-webkit-scrollbar {
+                width: 0px !important;
+              }
               .ant-collapse-item{
                 border-bottom: none;
                 .ant-collapse-content{
@@ -305,7 +312,8 @@
         p, li {
           font-family: _font(para-book-font);
           color: #344356;
-          font-size: 18px;
+          font-size: 16px;
+          margin-bottom: 16px;
         }
 
         li {
