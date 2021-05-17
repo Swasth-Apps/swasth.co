@@ -109,10 +109,15 @@ class ClientsPrograms extends React.Component {
                                                         cloudId={getCloudIDFromImageName(
                                                             program?.coachInfo?.picture,
                                                             "coaching",
-                                                            'png',
+                                                            'experts',
                                                         )}
                                                         transformation={[
-                                                            {gravity: "face", height: 400, width: 400, crop: "crop"},
+                                                            {
+                                                                gravity: "face",
+                                                                height: 400,
+                                                                width: 400,
+                                                                crop: "crop"
+                                                            },
                                                             // {radius: "max"},
                                                             {width: 150, height: 150, crop: "scale"}
                                                         ]}

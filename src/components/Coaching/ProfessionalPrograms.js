@@ -98,7 +98,7 @@ class ProfessionalPrograms extends React.Component {
                                                             cloudId={getCloudIDFromImageName(
                                                                 program?.coachInfo?.picture,
                                                                 "coaching",
-                                                                'png',
+                                                                'experts',
                                                             )}
                                                             transformation={[
                                                                 {
