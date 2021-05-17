@@ -5,6 +5,8 @@ import Care from "../../assets/images/overview/care.jpg"
 import Coaching from "../../assets/images/coachingProgram/coaching.png"
 import CoachingMobile from "../../assets/images/coachingProgram/coaching-mobile.png"
 import {Helmet} from "react-helmet";
+import RequestDemoModal from "../RequestDemoModal";
+import {Link} from "gatsby";
 
 const CoachingOverview = () => {
     return (
@@ -34,11 +36,9 @@ const CoachingOverview = () => {
                                         <p className="width-90 para-text">LEARN ABOUT OUR PROGRAMS </p>
                                     </div>
 
-                                    <a href="https://www.resiliens.com/coaching" target="_blank">
-                                        <button className='request-demo-btn' style={{marginBottom: 20}}>
-                                            Request a demo
-                                        </button>
-                                    </a>
+                                    <div style={{marginBottom: 20}}>
+                                        <RequestDemoModal/>
+                                    </div>
                                 </Col>
                                 <Col md={12} className="-margin-right img-section" style={{textAlign: "center"}}>
                                     <img className='custom-image'

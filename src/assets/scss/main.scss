@@ -61,6 +61,10 @@
   }
 }
 
+.ant-modal-wrap{
+  z-index: 1111111111;
+}
+
 // Base.
 @import "pages/home";
 @import 'base/page';
