@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import {Col, Row} from "antd";
 import {Link} from "gatsby";
 import bannerGraphic from "../assets/images/home-woman.jpeg";
-import ComprehensiveHealth from "../assets/images/comprehensiveHealth.gif";
+import ComprehensiveHealth from "../assets/images/comprehensiveHealth.png";
 import programs from "../assets/images/Proven-Treatment-Methods-Img.png";
 import SelfHelpImg from "../assets/images/Self-Health-Coach-Section.png";
 import ProgramAdapts from "../assets/images/pexels-kaboompics-com-6335.jpg";
