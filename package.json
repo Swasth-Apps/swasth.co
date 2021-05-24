@@ -60,8 +60,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "GATSBY_ENV=production gatsby clean && gatsby build",
-    "develop": "GATSBY_ENV=development gatsby clean && gatsby develop",
+    "build": "set GATSBY_ENV=production gatsby build",
+    "develop": "set GATSBY_ENV=development gatsby clean && gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "npx -n \"-r dotenv/config\" gatsby-plugin-s3 deploy  s",

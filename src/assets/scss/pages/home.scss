@@ -2782,6 +2782,10 @@ strong {
         //background: _palette(extra-dark-blue);
         background-color: #4273f0;
         text-transform: none;
+
+        &:hover{
+          background-color: _palette(bg);
+        }
       }
 
     }

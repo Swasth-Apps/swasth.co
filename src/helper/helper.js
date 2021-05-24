@@ -207,9 +207,15 @@ export const expertsData = [{
 },{
   name:"Dr. Tiffany Loggins",
   img:"tiffny_loggins_profile.jpg",
-  description:"Tiffany Loggins, Psy.D. is a licensed psychologist and mental health wellness speaker. She specializes in minority stress within BIPoC (Black, Indigenous, & People of Color) communities, emotional resilience, and eating disorders. ",
+  description:"Tiffany Loggins, Psy.D. is a licensed psychologist and mental health wellness speaker. She specializes in minority stress within BIPoC (Black, Indigenous, & People of Color) communities, emotional resilience, and eating disorders.",
   expertise: "Doctor of Psychology, Counseling Psychology",
   "slug":"tiffany-loggins-psyd"
+},{
+  name:"Deirdre Fay",
+  img:"d-fay_profile.jpg",
+  description:"Deirdre Fay, MSW, works with people who have had crummy histories to develop an inner platform to get their needs met and have success in all areas of life.  With over 30 years of experience as a psychotherapist and educator, Deirdre brings together modern science with ancient wisdom traditions in exploring the Transformational Journey of life.",
+  expertise: "Psychotherapist and Educator and Founder of Becoming Safely Embodied skills groups",
+  "slug":"deirdre-fay"
 }];
 
 export const colors = ["blue-tag","pink-tag","purple-tag"];

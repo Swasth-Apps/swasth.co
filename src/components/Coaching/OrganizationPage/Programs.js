@@ -1,15 +1,16 @@
 import React from "react";
-import professionData from "../../../JSON/CoachProgramsForProfessionals.json"
+import professionalData from "../../../JSON/CoachProgramsForProfessionals.json";
+import everyoneData from "../../../JSON/CoachProgramsForEveryone.json";
 import Program from "../../../components/Coaching/Program";
 import CourseCard from "../CourseCard";
 
-
+const data = [...everyoneData,...professionalData];
 class Programs extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             programs: [],
-            openProgram: professionData?.find(({slug}) => slug === this.props.programSlug),
+            openProgram: data?.find(({slug}) => slug === this.props.programSlug),
             programSlug: this.props.programSlug
         }
     }
@@ -18,7 +19,7 @@ class Programs extends React.Component {
         if (prevProps.programSlug !== this.props.programSlug) {
             this.setState({
                 programSlug: this.props.programSlug,
-                openProgram: professionData?.find(({slug}) => slug === this.props.programSlug)
+                openProgram: data?.find(({slug}) => slug === this.props.programSlug)
             })
         }
     }
@@ -26,7 +27,7 @@ class Programs extends React.Component {
 
     render = () => {
         const {openProgram} = this.state;
-        const programs = professionData?.filter(({isLive,organizationSlug}) => isLive && organizationSlug === this.props.organizationSlug);
+        const programs = data?.filter(({isLive,organizationSlug}) => isLive && organizationSlug === this.props.organizationSlug);
         return (
             <>
                 <div className={`organization-featured-programs ${openProgram ? "organization-program-detail" : ""}`}>
