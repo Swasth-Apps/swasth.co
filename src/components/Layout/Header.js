@@ -214,11 +214,11 @@ const Header = (props) => {
                                         Blog
                                     </div>
                                 </Link>
-                                <a rel="noreferrer" hidden={state}
-                                   style={{display: 'flex', alignItems: 'center', padding: 0}}
-                                   className='header-content'>
-                                    <RequestDemoModal/>
-                                </a>
+                                {!state ?
+                                    <RequestDemoModal
+                                        linkClass="header-content"
+                                        linkStyle={{display: 'flex', alignItems: 'center', padding: 0}}
+                                    /> : null}
                             </> : ''}
                         <a
                             className={`menu-fold-icon ${state ? "menu-close-icon" : ""}`}
@@ -324,9 +324,9 @@ const Header = (props) => {
                 <a href="/blog">
                     <div className="menu-content base-text">Blog</div>
                 </a>
-                <Link to="/" style={{borderBottom: "none"}}>
+                <a rel="noreferrer" style={{borderBottom: "none"}}>
                     <RequestDemoModal/>
-                </Link>
+                </a>
                 {/*<a href="/download">*/}
                 {/*<div className="menu-content">Download App</div>*/}
                 {/*</a>*/}
