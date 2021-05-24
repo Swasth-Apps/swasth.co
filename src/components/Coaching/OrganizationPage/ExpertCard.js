@@ -16,10 +16,10 @@ const ExperCard = ({member}) => {
         <div className="home-signature-courses short-courses expert-card" onClick={redirectToExpert} style={{cursor: "pointer"}}>
             <div className={`course-card`}>
                 <div className="course-card-image">
-                    {member?.marketingPicture ?
+                    {member?.picture ?
                         <CLImage
                             cloudId={getCloudIDFromImageName(
-                                member?.marketingPicture,
+                                member?.picture,
                                 "coaching",
                                 'experts',
                             )}

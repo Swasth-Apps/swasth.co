@@ -73,7 +73,7 @@ class ProfessionalPrograms extends React.Component {
                                                 mailing list to be notified when they launch.
                                             </p>
                                             <p className="para-text desc" style={{marginTop: 15}}>
-                                                People who join our wait list are not obligated to take the course but
+                                                People who join our wait list are not obligated to take the program but
                                                 you
                                                 will receive a discount.
                                             </p>

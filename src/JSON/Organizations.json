@@ -1,0 +1,54 @@
+[
+  {
+    "approach": {
+      "html": "<p><span style=\"font-weight: 400;\">Dr. Yotam Heineberg is a licensed clinical psychologist and a clinical faculty member at Palo Alto University, where he not only teaches but also offers clinical and group training in resilience-oriented approaches to healing and growth such as Compassion Focused Therapy (CFT). Yotam is also the Chief Clinical Officer at Resiliens where he leads research, clinician operations and implementation of evidence-based programs.</span></p><p><span style=\"font-weight: 400;\">Yotam completed his doctorate at the PGSP-Stanford Psy.D. Consortium. He did his postdoctoral training and acted as a healthcare Fellow at Stanford University with the Center for Compassion and Altruism, Research and Education (CCARE), where he developed various programs focused on resilience, team building and compassion.</span></p><p><span style=\"font-weight: 400;\">He also designs and delivers programs and workshops for stress & burnout reduction, as well as employee retention and collaboration, in support of specific audiences such as nurses, clinicians, and executives in for-profit and non-for-profit settings. Yotam lives in San Francisco, runs a private practice and works with clients and organizations nationally and internationally.</span></p>",
+      "video": "https://youtu.be/DWLEUHhcIws?t=2"
+    },
+    "comprehensive": {
+      "html": "",
+      "video": ""
+    },
+    "createdAt": "2021-04-14T16:29:58+00:00",
+    "description": "New York’s home for mindfulness and compassion focused cognitive behavioral therapy",
+    "id": "5fs84sfd5-541fsdfs1-21154sfddfs",
+    "image": "helping-helpers.jpg",
+    "name": "Helping the Helpers",
+    "slug": "helping-the-helpers",
+    "teamOwnerName": "Dr. Yotam Heineberg",
+    "teamMembers": [
+      {
+        "picture": "yotam_profile.jpg",
+        "name": "Dr. Yotam Heineberg",
+        "description": "Yotam is a licensed clinical psychologist and a clinical faculty member at Palo Alto University, where he not only teaches, but also offers clinical and group trainings in resilience oriented approaches to healing and growth such as Compassion Focused Therapy (CFT). Yotam is also the Chief Clinical Officer at Resiliens  where he leads research, clinician operations and implementation of evidence-based programs.",
+        "expertSlug": "yotam-heineberg",
+        "isTeamOwner": true
+      }
+    ]
+  },
+  {
+    "approach": {
+      "html": "<p>Deirdre Fay, MSW, works with people who have had crummy histories to develop an inner platform to get their needs met and have success in all areas of life.</p><p>With over 30 years of experience as a psychotherapist and educator, Deirdre brings together modern science with ancient wisdom traditions in exploring the Transformational Journey of life which has been called a radically positive approach to healing trauma.</p><p>Deirdre&rsquo;s message resonates deeply with those who may look successful on the surface, but internally feel plagued by shame, anxiety, distress, depression &ndash; wondering why they&rsquo;re stuck in repeating relational and life patterns. Her third book Becoming Safely Embodied (2021) became a best-seller before it was published.</p>",
+      "video": "https://vimeo.com/430174449"
+    },
+    "comprehensive": {
+      "html": "<p>Deirdre has decades of experience exploring the intersection of trauma, attachment, yoga and meditation, and teaches &ldquo;a radically positive approach to healing trauma&rdquo;.</p><p>Deirdre founded the Becoming Safely Embodied skills groups, the basis for her latest book, and is the author of <strong>Attachment-Based Yoga &amp; Meditation for Trauma Recovery and co-author of Attachment Disturbances for Adults</strong>, as well as the co-author of chapters in Neurobiological Treatments of Traumatic Dissociation.</p><p>A former supervisor at The Trauma Center, Sensorimotor Psychotherapy Institute trainer from 2000&ndash;2008, certified in Internal Family Therapy, qualified trainer in Mindful Self-Compassion, former board member of the New England Society for the Study of Trauma and Dissociation, and trained in Self-Awakening Yoga and LifeForce Yoga, Deirdre is a respected international teacher and mentor for working safely with the body. She currently resides with her husband in Nice, France.</p>",
+      "video": "https://vimeo.com/401701967"
+    },
+    "createdAt": "2021-05-24T16:29:58+00:00",
+    "description": "",
+    "id": "6e596-566cfh-579v-r46fyh-57vdc",
+    "image": "safely-embodied.jpg",
+    "name": "Safely Embodied",
+    "slug": "safely-embodied",
+    "teamOwnerName": "Deirdre Fay",
+    "teamMembers": [
+      {
+        "picture": "d-fay_profile.jpg",
+        "name": "Deirdre Fay",
+        "description": "Deirdre Fay, MSW, works with people who have had crummy histories to develop an inner platform to get their needs met and have success in all areas of life.  With over 30 years of experience as a psychotherapist and educator, Deirdre brings together modern science with ancient wisdom traditions in exploring the Transformational Journey of life.",
+        "expertSlug": "deirdre-fay",
+        "isTeamOwner": true
+      }
+    ]
+  }
+]
