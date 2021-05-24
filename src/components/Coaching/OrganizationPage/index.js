@@ -71,7 +71,7 @@ class OrganizationPage extends React.Component {
                     >
                         <h1 className="base-text" style={{marginTop: "-2em", color: "white", textAlign: "center"}}>
                             {organization?.name}</h1>
-                        <p className="para-text">By {teamOwner?.name}</p>
+                        <p className="para-text">{teamOwner?.name}</p>
                     </div>
                 </section>
                 <Tabs

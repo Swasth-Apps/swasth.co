@@ -118,7 +118,7 @@ class Organizations extends React.Component {
                                             <div className="coach-info">
                                                 {org.name}
                                                 <div>
-                                                    {'By '}{org.teamOwnerName}
+                                                    {org.teamOwnerName}
                                                 </div>
                                             </div>
                                         </div>
