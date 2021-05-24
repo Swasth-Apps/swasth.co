@@ -1378,7 +1378,8 @@
 .organization-approach {
   display: flex;
   flex: 0 0 100%;
-  margin: 50px 0 100px;
+  margin: 50px 0 0px;
+  padding-bottom: 100px;
 
   &.left-approach {
     .organization-approach-html {
@@ -1425,6 +1426,7 @@
   .video-img {
     border-radius: 10px;
     overflow: hidden;
+
   }
 
   .organization-approach-html {
@@ -1476,10 +1478,12 @@
   }
 
   @media screen and (max-width: 992.5px) {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
   }
 }
-
+.player{
+  height: 100% !important;
+}
 .organization-members-container {
   background: #d3d3d329;
   padding: 100px 0;
@@ -1653,6 +1657,9 @@
   background: white;
   border-bottom: 1px solid #e0d9d9;
 
+  .ant-tabs-nav {
+    justify-content: center !important;
+  }
   .ant-tabs-nav-wrap {
     padding: 10px 10px 0px;
     background: transparent;

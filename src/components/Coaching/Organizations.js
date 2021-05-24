@@ -134,8 +134,8 @@ class Organizations extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                            </div> : organizations?.length ? organizations?.map(org =>
-                                <div className="coach-grid-view">
+                            </div> :                                 <div className="coach-grid-view">
+                                {organizations?.length ? organizations?.map(org =>
                                     <Link to={`/coaching/organizations/${org.slug}/home`} className="coach-grid-view-card">
                                         <div style={{position:"relative"}}>
                                         <CLImage
@@ -157,7 +157,7 @@ class Organizations extends React.Component {
                                         </div>
                                         </div>
                                     </Link>
-                                </div>) : null
+                                ) : null}</div>
 
                         }
                     </div>
