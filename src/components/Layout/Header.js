@@ -222,7 +222,7 @@ const Header = (props) => {
                             </> : ''}
                         <a
                             className={`menu-fold-icon ${state ? "menu-close-icon" : ""}`}
-                            href='javascript:void(0)'
+                            rel="noreferrer"
                             onClick={() => {
                                 setState(!state);
                             }}>
