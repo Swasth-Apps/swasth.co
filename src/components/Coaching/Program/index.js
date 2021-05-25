@@ -94,9 +94,11 @@ class CoachProgram extends React.Component {
                                                     program?.featuredVideos?.[0] : getCoachingVideo(program?.featuredVideos?.[0])
                                                 }
                                                 fluid={false}
-                                                width='auto'
-                                                height='auto'
+                                                resizeMode={"contain"}
                                                 controls
+                                                style={{
+                                                    height: "100%"
+                                                }}
                                             /> : null}
                                     </div>
                                 </div>
