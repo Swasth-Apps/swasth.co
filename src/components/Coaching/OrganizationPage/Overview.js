@@ -60,7 +60,7 @@ const Overview = (props) => {
                     <div className="organization-members-container">
                         <div id="wrapper">
 
-                            <h2 className="base-text">Team Members</h2>
+                            <h2 className="base-text">Team</h2>
                             {organization?.teamMembers?.map(t =>
                                 <ExpertCard member={t}/>)}
                         </div>
