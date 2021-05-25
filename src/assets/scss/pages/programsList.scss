@@ -89,6 +89,14 @@
 }
 
 .programs-list-page-program-card {
+  .program-detail-top-bg{
+    .flex-coloured-container{
+      padding-bottom: 40px;
+      .course-creator-details{
+        margin-bottom: 0px;
+      }
+    }
+  }
   .flex-coloured-container {
     position: relative;
     display: flex;
@@ -106,7 +114,6 @@
       margin-left: 6%;
       flex: 0 0 50%;
       align-self: center;
-
       .body-18 {
         margin-top: 0px;
         margin-bottom: 32px;
@@ -210,6 +217,10 @@
       @media screen and (max-width: 950px) {
         width: 100%;
       }
+
+      & > div {
+        width: 100%;
+      }
     }
 
     @media screen and (max-width: 950px) {
@@ -218,6 +229,9 @@
         margin-right: 0px;
         margin-bottom: 0px;
         padding: 40px;
+        .image-18{
+          margin-top: -80px;
+        }
       }
       .course-panel-text-wrapper {
         margin-left: 0px;
@@ -430,6 +444,7 @@
       margin-right: 0px;
       width: 30%;
       align-items: center;
+      margin-top: -50px;
 
       .video-img {
         width: auto !important;
@@ -438,11 +453,21 @@
         video {
           border-radius: 10px;
         }
+
+        iframe {
+          width: 426px !important;
+          height: 240px !important;
+        }
       }
 
       .image-18 {
-        align-self: unset;
+        align-self: flex-start !important;
       }
+
+      @media screen and (max-width: 992px) {
+        margin-top: -20px;
+      }
+
     }
 
     @media screen and (max-width: 1024px) {
@@ -463,9 +488,10 @@
         padding: 40px 0px;
 
         .image-18 {
-          align-self: center;
+          align-self: center !important;
         }
-        &>div{
+
+        & > div {
           text-align: center;
         }
       }

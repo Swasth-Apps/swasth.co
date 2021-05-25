@@ -1657,6 +1657,9 @@
   background: white;
   border-bottom: 1px solid #e0d9d9;
 
+  .ant-tabs-bar{
+    margin-bottom: 0px;
+  }
   .ant-tabs-nav {
     justify-content: center !important;
   }
@@ -1693,7 +1696,6 @@
       }
     }
   }
-
   .ant-tabs-ink-bar {
     display: none !important;
   }

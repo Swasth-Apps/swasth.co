@@ -87,8 +87,7 @@ class ProfessionalPrograms extends React.Component {
                                                         <div className="course-panel-title-wrapper"><h2
                                                             className="heading-24 ch-width-36 bm-16 base-text">
                                                             {program.name}
-                                                        </h2><h6
-                                                            className="heading-16 _14 steel bm-4 para-text">By</h6>
+                                                        </h2>
                                                             <h5 className="heading-16 bm-8 para-medium-text">{program?.coachInfo?.name}</h5>
                                                             <div className="body-12 bm-24 para-text">
                                                                 {program?.coachInfo?.title}
