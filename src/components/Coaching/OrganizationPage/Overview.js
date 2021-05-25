@@ -29,9 +29,8 @@ const Overview = (props) => {
                                     fluid={false}
                                     resizeMode={"contain"}
                                     controls
-                                    style={{
-                                        height: "100%"
-                                    }}
+                                    width='100%'
+                                    height='auto'
                                 />}
                         </div> : null}
                     {organization?.comprehensive?.html ?
@@ -43,9 +42,8 @@ const Overview = (props) => {
                                     fluid={false}
                                     resizeMode={"contain"}
                                     controls
-                                    style={{
-                                        height: "100%"
-                                    }}
+                                    width='100%'
+                                    height='auto'
                                 /> : <CLImage
                                     cloudId={getCloudIDFromImageName(
                                         organization?.approach?.image,
