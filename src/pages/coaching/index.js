@@ -12,15 +12,13 @@ class CoachingIndex extends React.Component {
 
     constructor(props) {
         super(props);
-        console.log("====== Constructor ====");
         this.state = {
             tab: this.getRoute()
         }
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
-        if(JSON.stringify(prevProps.location) !== JSON.stringify(this.props.location)){
-            console.log("======== Component Did Update =-======")
+        if (prevProps.location !== this.props.location) {
             this.setState({
                 tab: this.getRoute()
             })
@@ -28,43 +26,37 @@ class CoachingIndex extends React.Component {
     }
 
     componentDidMount() {
-        console.log("====== Component Did Mount ====");
         this.setState({
             tab: this.getRoute()
         })
     }
 
     getRoute = () => {
-        console.log("====== --Window ----==========",window);
-        if(typeof window !== "undefined"){
-            let path = window.location?.pathname?.substring('/coaching/'.length);
-            console.log("=======", path);
-            path = path?.endsWith('/') ? path?.substr(0, path.length - 1) : path;
-            if(path?.includes("everyone")){
+        if (typeof window !== "undefined" && window.location?.pathname) {
+            const path = window.location?.pathname?.substring('/coaching/'.length);
+            if (path?.includes("everyone")) {
                 return "everyone"
-            } else if(path?.includes("professionals")){
+            } else if (path?.includes("professionals")) {
                 return "professionals"
-            }else if(path?.includes("experts")){
+            } else if (path?.includes("experts")) {
                 return "experts"
-            }else if(path?.includes("organizations")){
+            } else if (path?.includes("organizations")) {
                 return "organizations"
-            }else{
+            } else {
                 return "overview"
             }
-        }else{
-            return "overview"
         }
+        return null;
     }
 
     renderTab = () => {
-        console.log("====== RenderTab ====", this.state.tab);
         switch (this.state.tab) {
             case "overview":
                 return <CoachingOverview/>;
             case "everyone":
                 return <ClientsPrograms/>;
             case "professionals":
-                return <ProfessionalPrograms />;
+                return <ProfessionalPrograms/>;
             case "experts":
                 return <Experts/>;
             case "organizations":
@@ -75,7 +67,6 @@ class CoachingIndex extends React.Component {
     };
 
     getTab = (key) => {
-        console.log("====== Key ====", key);
         switch (key) {
             case "1":
                 return "overview";
@@ -94,24 +85,27 @@ class CoachingIndex extends React.Component {
 
 
     render() {
-        console.log("--- Render Component ---",this.state.tab)
+        if (typeof window !== "undefined" && window.location.pathname && !this.state.tab){
+            this.componentDidMount();
+        }
         return (
             <Layout
                 extraHeader="coaching"
-                noFooterMargin={this.state.tab === "organizations" || this.state.tab === "professionals" }
+                noFooterMargin={this.state.tab === "organizations" || this.state.tab === "professionals"}
                 onChangeTab={(t) => {
                     this.setState({
                         tab: t
                     })
                 }}
             >
-                <CoachingComponent
-                tab={this.state.tab}
-                location={this.props.location}
-                />
+                {this.state.tab ?<>
+                    <CoachingComponent
+                        tab={this.state.tab}
+                        location={this.props.location}
+                    />
                 <div className="coaching-mobile-section">
                     {this.renderTab()}
-                </div>
+                </div></>:null}
             </Layout>
         )
     }
