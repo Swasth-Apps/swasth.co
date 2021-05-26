@@ -19,13 +19,21 @@ class CoachingIndex extends React.Component {
 
     componentDidUpdate(prevProps, prevState, snapshot) {
         if(JSON.stringify(prevProps.location) !== JSON.stringify(this.props.location)){
+            console.log("======== In heere =-======")
             this.setState({
                 tab: this.getRoute()
             })
         }
     }
 
+    componentDidMount() {
+        this.setState({
+            tab: this.getRoute()
+        })
+    }
+
     getRoute = () => {
+        console.log("====== --Window ----==========",window);
         if(typeof window !== "undefined"){
             let path = window.location?.pathname?.substring('/coaching/'.length);
             path = path?.endsWith('/') ? path?.substr(0, path.length - 1) : path;
