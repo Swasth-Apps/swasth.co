@@ -12,6 +12,7 @@ class CoachingIndex extends React.Component {
 
     constructor(props) {
         super(props);
+        console.log("====== Constructor ====");
         this.state = {
             tab: this.getRoute()
         }
@@ -19,7 +20,7 @@ class CoachingIndex extends React.Component {
 
     componentDidUpdate(prevProps, prevState, snapshot) {
         if(JSON.stringify(prevProps.location) !== JSON.stringify(this.props.location)){
-            console.log("======== In heere =-======")
+            console.log("======== Component Did Update =-======")
             this.setState({
                 tab: this.getRoute()
             })
@@ -27,6 +28,7 @@ class CoachingIndex extends React.Component {
     }
 
     componentDidMount() {
+        console.log("====== Component Did Mount ====");
         this.setState({
             tab: this.getRoute()
         })
@@ -55,6 +57,7 @@ class CoachingIndex extends React.Component {
     }
 
     renderTab = () => {
+        console.log("====== RenderTab ====", this.state.tab);
         switch (this.state.tab) {
             case "overview":
                 return <CoachingOverview/>;
@@ -72,6 +75,7 @@ class CoachingIndex extends React.Component {
     };
 
     getTab = (key) => {
+        console.log("====== Key ====", key);
         switch (key) {
             case "1":
                 return "overview";
@@ -90,6 +94,7 @@ class CoachingIndex extends React.Component {
 
 
     render() {
+        console.log("--- Render Component ---",this.state.tab)
         return (
             <Layout
                 extraHeader="coaching"
