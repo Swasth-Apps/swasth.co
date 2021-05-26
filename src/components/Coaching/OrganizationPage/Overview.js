@@ -46,7 +46,7 @@ const Overview = (props) => {
                                     height='auto'
                                 /> : <CLImage
                                     cloudId={getCloudIDFromImageName(
-                                        organization?.approach?.image,
+                                        organization?.comprehensive?.image || organization?.approach?.image,
                                         "coaching",
                                         'png',
                                     )}
