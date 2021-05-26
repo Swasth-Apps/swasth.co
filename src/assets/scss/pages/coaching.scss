@@ -1476,6 +1476,7 @@
     width: 50%;
     flex: 0 0 50%;
     border-radius: 10px;
+    height: min-content;
   }
 
   @media screen and (max-width: 992.5px) {
