@@ -18,30 +18,35 @@ class CoachingIndex extends React.Component {
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
-        if(prevProps.location !== this.props.location){
+        if (prevProps.location !== this.props.location) {
             this.setState({
                 tab: this.getRoute()
             })
         }
     }
 
+    componentDidMount() {
+        this.setState({
+            tab: this.getRoute()
+        })
+    }
+
     getRoute = () => {
-        if(typeof window !== "undefined"){
+        if (typeof window !== "undefined" && window.location?.pathname) {
             const path = window.location?.pathname?.substring('/coaching/'.length);
-            if(path?.includes("everyone")){
+            if (path?.includes("everyone")) {
                 return "everyone"
-            } else if(path?.includes("professionals")){
+            } else if (path?.includes("professionals")) {
                 return "professionals"
-            }else if(path?.includes("experts")){
+            } else if (path?.includes("experts")) {
                 return "experts"
-            }else if(path?.includes("organizations")){
+            } else if (path?.includes("organizations")) {
                 return "organizations"
-            }else{
+            } else {
                 return "overview"
             }
-        }else{
-            return "overview"
         }
+        return null;
     }
 
     renderTab = () => {
@@ -51,7 +56,7 @@ class CoachingIndex extends React.Component {
             case "everyone":
                 return <ClientsPrograms/>;
             case "professionals":
-                return <ProfessionalPrograms />;
+                return <ProfessionalPrograms/>;
             case "experts":
                 return <Experts/>;
             case "organizations":
@@ -80,23 +85,27 @@ class CoachingIndex extends React.Component {
 
 
     render() {
+        if (typeof window !== "undefined" && window.location.pathname && !this.state.tab){
+            this.componentDidMount();
+        }
         return (
             <Layout
                 extraHeader="coaching"
-                noFooterMargin={this.state.tab === "organizations" || this.state.tab === "professionals" }
+                noFooterMargin={this.state.tab === "organizations" || this.state.tab === "professionals"}
                 onChangeTab={(t) => {
                     this.setState({
                         tab: t
                     })
                 }}
             >
-                <CoachingComponent
-                tab={this.state.tab}
-                location={this.props.location}
-                />
+                {this.state.tab ?<>
+                    <CoachingComponent
+                        tab={this.state.tab}
+                        location={this.props.location}
+                    />
                 <div className="coaching-mobile-section">
                     {this.renderTab()}
-                </div>
+                </div></>:null}
             </Layout>
         )
     }
