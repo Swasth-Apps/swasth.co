@@ -131,7 +131,12 @@ const RequestDemoModal = props => {
             </Form>
             </div>
         </Modal>
-            <a href="https://calendly.com/resiliens-inc/informational-session" target="_blank">
+            <a
+                target="_blank"
+                className={props.linkClass}
+                style={props.linkStyle}
+                href="https://calendly.com/resiliens-inc/informational-session"
+            >
             <Button
                 className={`request-demo-btn ${props.className}`}
                 // onClick={() => setOpenModal(true)}

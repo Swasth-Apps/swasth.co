@@ -1,5 +1,80 @@
 [
   {
+    "app": null,
+    "coachInfo": {
+      "name": "Dr. Dennis Tirch",
+      "picture": "dennis-tirch-profile.png",
+      "title": "The Founder of The Center for Compassion Focused Therapy"
+    },
+    "coCoach": [],
+    "slug": "free-mind-releasing-anxiety",
+    "description": "<p>Drawing on 20 years of research and centuries of meditation traditions, this program will give you all of the tools and knowledge you need to begin to take your life back from anxiety, worry and fear. You will learn how to open your heart and free your mind. </p><p>The state of the art of psychological science continues to show us how training the brain in mindfulness, acceptance and self-compassion, using evidence-based techniques, can allow us to release anxiety and step forward to reclaim our lives and our world.</p>",
+    "duration": {
+      "interval": 7,
+      "period": "WEEKS"
+    },
+    "featuredVideos": [""],
+    "gradient": [
+      "#614385",
+      "#516395"
+    ],
+    "id": "8rfh-wery72340sdf234-234234e-4r",
+    "invites": [],
+    "isAdminProgram": true,
+    "isFree": false,
+    "isLive": true,
+    "isMarketingProgram": true,
+    "learningObjectives": [],
+    "marketingDescription": "<p>All over the world, people are reporting struggles with anxiety, worry and fear at record levels. We are living with unprecedented stress, and many of us can&rsquo;t find an effective way to deal with it.</p><p>Even though your anxious thoughts and feelings might seem out of control or disabling, you have a path to a better life available to you, and it involves the power of loving-kindness, self-compassion and a secret courage you were born to embody.</p><p>Drawing on 20 years of research and centuries of meditation traditions, this program will give you all of the tools and knowledge you need to begin to take your life back from anxiety, worry and fear. You will learn how to open your heart and free your mind. </p><p>The state of the art of psychological science continues to show us how training the brain in mindfulness, acceptance and self-compassion, using evidence-based techniques, can allow us to release anxiety and step forward to reclaim our lives and our world.</p><p>This program is taught by Dr. Dennis Tirch, an internationally recognized leader in the behavioral science of self-compassion, author of 6 books, Buddhist meditation teacher, social media presence, and founder of <strong>The Center for Compassion Focused Therapy</strong> in New York.</p><p>In this program, you will work with Dr. Tirch as you would a close friend, gradually learning how to free yourself from the grip of anxiety, worry and fear. Step by step, you will grasp the basics of mindfulness, acceptance and self-compassion training, and move towards mastery of how to open your heart and free your mind.</p><p>The methods and techniques in this program are drawn from Compassion Focused Therapy, Acceptance and Commitment Therapy and Buddhist Psychology, all supported by scientific research. </p><p>If you are struggling with anxiety problems, are a mental health practitioner, a student, or if you would just like to learn how to better free yourself from your fears to live a life worth loving, this program is meant for you.</p>",
+    "objectiveGoals": "<ul><li><span style=\"font-weight: 400;\">Open your heart and free your mind: You will learn how the science of mindfulness, acceptance and compassion can lead you to greater courage, psychological flexibility and freedom from fear.</span></li><li><span style=\"font-weight: 400;\"> Cultivating present moment focused sensitivity &ndash; You will learn how mindful awareness and concentrated focus lead to liberation</span></li><li><span style=\"font-weight: 400;\"> Losing ourselves in love &ndash; You will learn how we can shift perspective out of our small, threat focused, and ego driven programming to deepen our observing mind, and get unstuck from anxiety, worry and fear in the process</span></li><li><span style=\"font-weight: 400;\"> What love can bear &ndash; You will learn how we can use self-compassion and willingness to better accept frightening feelings and tolerate distress.</span></li><li><span style=\"font-weight: 400;\"> Freeing the mind from our stories &ndash; You will learn how we can dis-identify with the inner monologues, stories, worries and imaginary catastrophes that show up with anxiety, worry and fear. With practice you can master this new approach to liberation from anxious and self-critical thinking, seeing through the illusions and stories that your mind weaves, while having the wisdom to see reality with a new clarity.</span></li><li><span style=\"font-weight: 400;\"> Opening your heart to what matters most &ndash; You will learn a program of values, authorship and emotional deepening techniques, all designed to help you establish personal aims that lead to a life of meaning, purpose and vitality. You can use this new roadmap for a purpose-driven life to live in a way that is less pushed by anxiety and more pulled by the promise of personal realization.</span></li><li><span style=\"font-weight: 400;\"> Walking the path with confidence and strength &ndash; You will learn state of the art behavior change and personal management techniques to consistently dedicate yourself to committed action, opening your heart, freeing your mind, and living a life worth loving.</span></li></ul>",
+    "marketingImg": null,
+    "name": "Free Your Mind, Reclaim Your Life, Releasing Anxiety with Mindfulness, Acceptance and Self-Compassion",
+    "organizationId": "763fbj-fhrf-wefhrt4-sdf812",
+    "organizationSlug": "center-compassion-focused-therapy",
+    "payment": 49500,
+    "programSize": 20,
+    "shortDescription": "In this program, you will work with Dr. Tirch as you would a close friend, gradually learning how to free yourself from the grip of anxiety, worry and fear. Step by step, you will grasp the basics of mindfulness, acceptance and self-compassion training, and move towards mastery of how to open your heart and free your mind.",
+    "status": "DRAFT",
+    "type": "INDIVIDUAL",
+    "programModuleImage": "free-mind-release-anxiety-module.png",
+    "modulesOverview": "This program is delivered in 7 sessions according to the following schedule:",
+    "scheduled": "<p class=\"body-16 semi bm-16\">2 hour/week (approx) for 7 weeks</p><ul class=\"w-list-unstyled\" role=\"list\"><li class=\"scheduled-list-item body-16 bm-8\">Weekly live sessions led by a trauma &amp; attachment expert</li></ul>",
+    "self_paced": "<p class=\"body-16 semi bm-16\"><div class=\"body-16 semi bm-16\">30 mins/week (approx)</p><ul class=\"w-list-unstyled\" role=\"list\"><li class=\"self-paced-list-item body-16 bm-8\">On-demand video lectures</li><li class=\"self-paced-list-item body-16 bm-8\">Homework: Exercises, Practice ideas, Meditations etc</li><li class=\"self-paced-list-item body-16 bm-8\">Weekly Assessments for Progress tracking</li></ul></div>",
+    "schedule_communicate": "<div class=\"body-16 semi bm-16\"><p class=\"body-16 semi bm-16\">During the program, clients can communicate via private messaging with the members of their cohort and the coaching team.</p></div>",
+    "tuition": "<div><table border=\"1\"><tbody><tr><td><h3>Program Fee</h3></td><td><h3 style=\"color: rgb(66, 115, 240);\">$495</h3></td></tr></tbody></table><p>For clients that might have missed a live session or need additional coaching</p></div>",
+    "sessions": [
+      {
+        "title": "Open your heart and free your mind",
+        "description": "<p><span style=\"font-weight: 400;\">You will learn how the science of mindfulness, acceptance and compassion can lead you to greater courage, psychological flexibility and freedom from fear.</span></p>"
+      },
+      {
+        "title": "Cultivating present moment focused sensitivity",
+        "description": "<p><span style=\"font-weight: 400;\">You will learn how mindful awareness and concentrated focus lead to liberation.</span></p>"
+      },
+      {
+        "title": "Losing ourselves in love",
+        "description": "<p><span style=\"font-weight: 400;\">You will learn how we can shift perspective out of our small, threat focused, and ego driven programming to deepen our observing mind, and get unstuck from anxiety, worry and fear in the process.</span></p>"
+      },
+      {
+        "title": "What love can bear",
+        "description": "<p><span style=\"font-weight: 400;\">You will learn how we can use self-compassion and willingness to better accept frightening feelings and tolerate distress.</span></p>"
+      },
+      {
+        "title": "Freeing the mind from our stories",
+        "description": "<p><span style=\"font-weight: 400;\">You will learn how we can dis-identify with the inner monologues, stories, worries and imaginary catastrophes that show up with anxiety, worry and fear.</span></p><p><span style=\"font-weight: 400;\">With practice you can master this new approach to liberation from anxious and self-critical thinking, seeing through the illusions and stories that your mind weaves, while having the wisdom to see reality with a new clarity.</span></p>"
+      },
+      {
+        "title": "Opening your heart to what matters most",
+        "description": "<p><span style=\"font-weight: 400;\">You will learn a program of values, authorship and emotional deepening techniques, all designed to help you establish personal aims that lead to a life of meaning, purpose and vitality.</span></p><p><span style=\"font-weight: 400;\">You can use this new roadmap for a purpose-driven life to live in a way that is less pushed by anxiety and more pulled by the promise of personal realization.</span></p>"
+      },
+      {
+        "title": "Walking the path with confidence and strength",
+        "description": "<p><span style=\"font-weight: 400;\">You will learn state of the art behavior change and personal management techniques to consistently dedicate yourself to committed action, opening your heart, freeing your mind, and living a life worth loving.</span></p>"
+      }
+    ],
+    "overview": "<ul><li>7 Week Program Delivered with weekly live session</li><li>On-demand video lessons, reading material, exercises</li></ul>"
+  },
+  {
     "allowDiscussion": true,
     "app": "DBT",
     "closedToNewRequest": false,
@@ -11,7 +86,6 @@
     },
     "isLive": false,
     "slug": "dbt-skills-training",
-    "createdAt": "2020-08-06T18:22:23+00:00",
     "description": "A program with weekly 1 hour video sessions for all 4 modules of DBT. This program also integrates into the DBT Coach app where all the homework and lessons can be submitted.",
     "documents": null,
     "duration": {
@@ -53,7 +127,7 @@
     "scheduled": "<p class=\"body-16 semi bm-16\">90 mins/week (approx)</p><ul class=\"w-list-unstyled\" role=\"list\"><li class=\"scheduled-list-item body-16 bm-8\">Weekly live sessions led by a DBT trained skills coach</li></ul>",
     "self_paced": "<p class=\"body-16 semi bm-16\"><div class=\"body-16 semi bm-16\">30 mins/week (approx)</p><ul class=\"w-list-unstyled\" role=\"list\"><li class=\"self-paced-list-item body-16 bm-8\">On-demand video lectures</li><li class=\"self-paced-list-item body-16 bm-8\">Reading material</li><li class=\"self-paced-list-item body-16 bm-8\">Quizzes</li><li class=\"self-paced-list-item body-16 bm-8\">Homework: Exercises, Practice ideas, Meditations, Diary Card etc</li><li class=\"self-paced-list-item body-16 bm-8\">Weekly Assessments for Progress tracking</li></ul></div>",
     "schedule_communicate": "<div class=\"body-16 semi bm-16\"><p class=\"body-16 semi bm-16\">During the program, clients can communicate via private messaging with the members of their cohort and with their coaching team</p></div>",
-    "tuition": "<div><table border=\"1\"><tbody><tr><td><h3>Program Fee</h3></td><td><h3 style=\"text-align: right;\">$1399</h3></td></tr></tbody></table><p>The fee for the program is due at the time of signing up for the course.</p></div><div><div><div><table border=\"1\"><tbody><tr><td><h3>1:1 Coaching Session(Optional)</h3></td></tr></tbody></table><p>For clients that might have missed a live session or need additional coaching</p></div></div></div>",
+    "tuition": "<div><table border=\"1\"><tbody><tr><td><h3>Program Fee</h3></td><td><h3 style=\"text-align: right;color: rgb(66, 115, 240);\">$1399</h3></td></tr></tbody></table><p>The fee for the program is due at the time of signing up for the course.</p></div><div><div><div><table border=\"1\"><tbody><tr><td><h3>1:1 Coaching Session(Optional)</h3></td></tr></tbody></table><p>For clients that might have missed a live session or need additional coaching</p></div></div></div>",
     "overview": "<ul><li>25 week DBT Skills based Group: Delivered with weekly live session</li><li>Assessments: Weekly assessments to track your progres</li><li>1:1 Coaching (optional): For clients that might have missed a live session or need<br />additional coaching</li></ul>"
   },
   {
@@ -65,7 +139,6 @@
     },
     "coCoach": [],
     "slug": "wisemind-group",
-    "createdAt": "2021-05-01T11:57:08+00:00",
     "description": "Pain happens, but suffering is created. We often find ourselves feeling stuck, overwhelmed, or maybe even at a loss of how we feel, because yet again, we have arrived at that familiar place of ruminating self-doubt or self-defeating behaviors. Our emotional states greatly impact our daily habits, productivity, and relationships.",
     "duration": {
       "interval": 9,
@@ -99,7 +172,7 @@
     "scheduled": "<p class=\"body-16 semi bm-16\">90 mins/week (approx)</p><ul class=\"w-list-unstyled\" role=\"list\"><li class=\"scheduled-list-item body-16 bm-8\">Weekly live sessions led by a DBT trained skills coach</li></ul>",
     "self_paced": "<p class=\"body-16 semi bm-16\"><div class=\"body-16 semi bm-16\">30 mins/week (approx)</p><ul class=\"w-list-unstyled\" role=\"list\"><li class=\"self-paced-list-item body-16 bm-8\">On-demand video lectures</li><li class=\"self-paced-list-item body-16 bm-8\">Reading material</li><li class=\"self-paced-list-item body-16 bm-8\">Quizzes</li><li class=\"self-paced-list-item body-16 bm-8\">Homework: Exercises, Practice ideas, Meditations, Diary Card etc</li><li class=\"self-paced-list-item body-16 bm-8\">Weekly Assessments for Progress tracking</li></ul></div>",
     "schedule_communicate": "<div class=\"body-16 semi bm-16\"><p class=\"body-16 semi bm-16\">During the program, clients can communicate via private messaging with the members of their cohort and with their coaching team</p></div>",
-    "tuition": "<div><table border=\"1\"><tbody><tr><td><h3>Program Fee</h3></td><td><h3 style=\"text-align: right;\">$495</h3></td></tr></tbody></table><p>The fee for the program is due at the time of signing up for the course.</p></div><div><div><div><table border=\"1\"><tbody><tr><td><h3>1:1 Coaching Session(Optional)</h3></td></tr></tbody></table><p>For clients that might have missed a live session or need additional coaching</p></div></div></div>",
+    "tuition": "<div><table border=\"1\"><tbody><tr><td><h3>Program Fee</h3></td><td><h3 style=\"text-align: right;color: rgb(66, 115, 240);\">$495</h3></td></tr></tbody></table><p>The fee for the program is due at the time of signing up for the course.</p></div><div><div><div><table border=\"1\"><tbody><tr><td><h3>1:1 Coaching Session(Optional)</h3></td></tr></tbody></table><p>For clients that might have missed a live session or need additional coaching</p></div></div></div>",
     "sessions": [
       {
         "title": "Introduction to Wise Mind Model: Understanding and Changing Emotions",
@@ -114,11 +187,11 @@
         "description": "<ul><li aria-level=\"3\"><strong>Check-ins</strong>: name, update on intention, use of wisemind, or diary card</li><ul><li aria-level=\"4\">Welcome to decline to introduce yourself and/or only share what you feel comfortable to share</li></ul></ul> <ul><li aria-level=\"3\"><strong>Skill of the Day:</strong> Distress Tolerance - STOP Skill and Pros &amp; Cons</li><ul><li aria-level=\"4\">Introduce and teach STOP</li><li aria-level=\"4\">Ways to incorporate Pros/Cons</li><li aria-level=\"4\">Self-compassion and realistic expectations of change</li></ul></ul><ul><li><strong>Set Intentions</strong></li><ul><li>Set weekly intention (self-care behavior) Ex: Continue previously intention, Practice mindfulness, earlier sleep time, or review homework, etc.</li></ul></ul>"
       },
       {
-        "title": "Emotion Regulation - Check the Facts & Opposite Action & Problem Solving Skills ",
+        "title": "Emotion Regulation - Check the Facts & Opposite Action & Problem Solving Skills",
         "description": "<ul><li aria-level=\"3\"><strong>Check-ins</strong>: name, update on intention, use of wisemind, or diary card</li><ul><li aria-level=\"4\">Welcome to decline to introduce yourself and/or only share what you feel comfortable to share</li></ul></ul><ul><li aria-level=\"3\"><strong>Skill of the Day:</strong> Emotion Regulation - Check the Facts &amp; Opposite Action &amp; Problem Solving Skills</li><ul><li aria-level=\"4\">Review thoughts--&gt;feelings--&gt;behaviors</li><li aria-level=\"4\">Emotions valid vs Justifiable</li><li aria-level=\"4\">Teach how to check the facts&nbsp;</li><li aria-level=\"4\">Teach Opposite Action &amp; Problem Solving skills</li></ul></ul><ul><li><strong>Set Intentions</strong></li><ul><li>Set weekly intention (self-care behavior) Ex: Continue previously intention, Practice mindfulness, earlier sleep time, or review homework, etc.</li></ul></ul>"
       },
       {
-        "title": "Emotion Regulation - PLEASE Skills ",
+        "title": "Emotion Regulation - PLEASE Skills",
         "description": "<ul><li aria-level=\"3\"><strong>Check-ins</strong>: name, update on intention, use of wisemind, or diary card</li><ul><li aria-level=\"4\">Welcome to decline to introduce yourself and/or only share what you feel comfortable to share</li></ul></ul> <ul><li aria-level=\"3\"><strong>Skill of the Day:</strong> Emotion Regulation - PLEASE Skills&nbsp;&nbsp;</li><ul><li aria-level=\"4\">Review thoughts--&gt;feelings--&gt;behaviors</li><li aria-level=\"4\">Psychoeducation what is and the impact of stress&nbsp</li><li aria-level=\"4\">Obstacles or factors that impact emotional vulnerability</li><li aria-level=\"4\">Introduce general areas of self-care/PLEASE&nbsp;</li></ul></ul><ul><li><strong>Set Intentions</strong></li><ul><li>Set weekly intention (self-care behavior) Ex: Continue previously intention, Practice mindfulness, earlier sleep time, or review homework, etc</li></ul></ul>"
       },
       {
@@ -143,5 +216,72 @@
       }
     ],
     "overview": "<ul><li>10 week DBT Skills based Group: Delivered with weekly live session</li><li>Assessments: Weekly assessments to track your progress</li><li>1:1 Coaching (optional): For clients that might have missed a live session or need<br />additional coaching</li></ul>"
+  },
+  {
+    "app": null,
+    "coachInfo": {
+      "name": "Deirdre Fay",
+      "picture": "d-fay_profile.png",
+      "title": "Psychotherapist and Educator"
+    },
+    "coCoach": [],
+    "slug": "resolving-triggers",
+    "description": "<p>Getting triggered is one of the unfortunate by products of life.  This course explores a radically positive approach, based on cutting edge integration of attachment theory, trauma treatment and wisdom traditions to Resolving Triggers. The course is designed to provide teaching as well as experiential growth through practices and discussion.</p><p>This is not a clinical program, and it is not psychotherapy. Rather, lessons in this program are presented in the format of a psycho-educational format, integrating self-reflection and practice to increase awareness of the topic as well as ways to pivot when triggered by life circumstances.</p>",
+    "duration": {
+      "interval": 5,
+      "period": "WEEKS"
+    },
+    "featuredVideos": ["https://vimeo.com/427955474"],
+    "gradient": [
+      "#614385",
+      "#516395"
+    ],
+    "id": "5cd05454-347349rgd0r46s-dfwe723h74",
+    "invites": [],
+    "isAdminProgram": true,
+    "isFree": false,
+    "isLive": true,
+    "isMarketingProgram": true,
+    "learningObjectives": [],
+    "marketingDescription": "<p><span style=\"font-weight: 400;\">When something in the here &amp; now happens the neurons and synapses in the brain instantaneously find things in the past to correspond to.&nbsp; That material (collection of thoughts, feelings, sensations, or memories) surges up and we &ldquo;remember&rdquo; stuff from the past.&nbsp; When something in the moment corresponds to something in the past that was unpleasant, horrible, disturbing, frightening, repulsive, we call that being triggered.&nbsp;</span></p><p><span style=\"font-weight: 400;\">Whatever in the moment is triggering something from one of those time capsules, those time capsules explode with the experience </span><span style=\"font-weight: 400;\">exactly </span><em><span style=\"font-weight: 400;\">as it was </span></em><span style=\"font-weight: 400;\">encoded That&rsquo;s the key thing here.&nbsp; Whatever is held in that time capsule is loaded exactly as you were experiencing it </span><em><span style=\"font-weight: 400;\">back then.&nbsp; </span></em><span style=\"font-weight: 400;\">&nbsp;When it&rsquo;s good things it feels nice to remember it, we like it, and the time boundary is maintained.&nbsp; </span></p><p><span style=\"font-weight: 400;\">If however, and this is where the mind is absolutely amazing, if it was something that we didn&rsquo;t like, didn&rsquo;t want, the mind has all kinds of ways to shut out, cordon off the material so that we don&rsquo;t have to deal with it.&nbsp; It gets put aside, psychologically undigested, in one of these time capsules.&nbsp;</span></p><p><span style=\"font-weight: 400;\">Getting triggered is one of the unfortunate by products of life.&nbsp; This course explores a radically positive approach, based on cutting edge integration of attachment theory, trauma treatment and wisdom traditions to Resolving Triggers. The course is designed to provide teaching as well as experiential growth through practices and discussion.</span></p>",
+    "objectiveGoals": "<ul><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Increase awareness of what a trigger is and how they happen</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Improve capacity to slow down the physiological reaction</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Make step-by-step change in reactivity</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Compare present moment with past</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Discover how shame is an attachment wound</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Contact the 7 Foundational Attachment Needs (Fay, 2015)</span></li></ul>",
+    "marketingImg": null,
+    "name": "Resolving Triggers",
+    "organizationId": "6e596-566cfh-579v-r46fyh-57vdc",
+    "organizationSlug": "safely-embodied",
+    "payment": 49500,
+    "programSize": 20,
+    "shortDescription": "This program explores a radically positive approach, based on cutting edge integration of attachment theory, trauma treatment and wisdom traditions to Resolving Triggers. The lessons are integrating self-reflection and practice to increase awareness of the topic as well as ways to pivot when triggered by life circumstances.",
+    "status": "DRAFT",
+    "type": "INDIVIDUAL",
+    "programModuleImage": "resolving-triggers-module.png",
+    "modulesOverview": "This program is delivered in 5 sessions according to the following schedule:",
+    "scheduled": "<p class=\"body-16 semi bm-16\">1 hour/week (approx) for 5 weeks</p><ul class=\"w-list-unstyled\" role=\"list\"><li class=\"scheduled-list-item body-16 bm-8\">Weekly live sessions led by a trauma &amp; attachment expert</li></ul>",
+    "self_paced": "<p class=\"body-16 semi bm-16\"><div class=\"body-16 semi bm-16\">30 mins/week (approx)</p><ul><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">On-demand video lectures</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Reading material</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Quizzes</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Homework: exercises, practice ideas, meditations</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Trigger Log</span></li></ul>",
+    "schedule_communicate": "<div class=\"body-16 semi bm-16\"><p class=\"body-16 semi bm-16\">During the program, clients can communicate via private messaging with the members of their cohort and the coaching team.</p></div>",
+    "tuition": "<div><table border=\"1\"><tbody><tr><td><h3>Program Fee</h3></td><td><h3 style=\"color: rgb(66, 115, 240);\">$495</h3></td></tr></tbody></table><p>The fee for the program is due at registration for the course.</p></div>",
+    "sessions": [
+      {
+        "title": "Why and How We Get Triggered",
+        "description": "<p><span style=\"font-weight: 400;\">Using a Transformational Model designed to teach an integration of attachment theory and yogic psychology we look at triggers as a result of unmet needs.</span></p><p><span style=\"font-weight: 400;\">The Pyramid of Triggers will be introduced to help people see the layers of triggers, creating distinctions in experience.&nbsp; In addition we&rsquo;ll use the contemporary practices of self-compassion as a way to mitigate the intensity of affects.&nbsp;</span></p><p><span style=\"font-weight: 400;\">Participants will be able to:</span></p><ul><li><span style=\"font-weight: 400;\">Describe a definition of psychological triggers</span></li><li><span style=\"font-weight: 400;\">Learn the 5 Phases of Transformational Attachment Model</span></li><li><span style=\"font-weight: 400;\">Identify the three main layers of the Pyramid of Triggers</span></li><li><span style=\"font-weight: 400;\">Utilize a body based practice of grounding in the spine </span></li></ul>"
+      },
+      {
+        "title": "Reactive Cycles and Response Cycles",
+        "description": "<p><span style=\"font-weight: 400;\">By identifying the individual Reactivity Cycle participants develop awareness and ways to slow down that reactivity, increasing their ability to mindfully respond.&nbsp; They will learn how to track the trigger through their body.&nbsp; That awareness allows participants choice.&nbsp; This is especially true as they recognize the thoughts, feelings, and body sensations that propel them into reactivity.&nbsp;&nbsp;</span></p><p><span style=\"font-weight: 400;\">Participants will be able to:</span></p><ul><li><span style=\"font-weight: 400;\">Utilize the power of slowing down reactivity</span></li><li><span style=\"font-weight: 400;\">Develop awareness of body sensations and body responses</span></li><li><span style=\"font-weight: 400;\">Describe what thoughts and feelings and impulses create the complicated Reactivity Cycle</span></li><li><span style=\"font-weight: 400;\">Introduce the Nourishing Opposite as a way to move away from Reactivity&nbsp;</span></li></ul><p><span style=\"font-weight: 400;\">&ldquo;</span><span style=\"font-weight: 400;\">After starting with a meditation, Deirdre went deeply into what happens when we enter a Reactive Cycle.&nbsp; Despite how complicated it can feel to get out of it, Deirdre walked us through, step by step, how to intervene in the process and create a new Response Cycle, one that can be more nourishing and sustaining for living</span><span style=\"font-weight: 400;\">.&rdquo;</span></p>"
+      },
+      {
+        "title": "Attunement",
+        "description": "<p><span style=\"font-weight: 400;\">Recognizing the basic anatomy of the brain, how tricky it is especially in dealing with our threat responses, and moving towards soothing &ndash;&nbsp; </span><span style=\"font-weight: 400;\">Our reactivity &ndash; for the most part &ndash; comes from the triggered signals in our own system, based on the perceptual lens that we see the world through.</span></p><p><span style=\"font-weight: 400;\">The more we orient internally instead of sending our triggered responses externally, looking for the source out there, the less likely we are to fight, create more stress. Attending to ourselves, attuning to our needs allows our systems to ease. Sending feedback loops into our brain that we&rsquo;re okay.</span></p><p><span style=\"font-weight: 400;\">Participants will be able to:</span></p><ul><li><span style=\"font-weight: 400;\">Describe our natural orientation towards threat reactions focused on keeping us safe</span></li><li><span style=\"font-weight: 400;\">Practices will involve training the body and mind to slow down</span></li><li><span style=\"font-weight: 400;\">Tracking the response cycle to see how its different in nature from Reactive Cycle</span></li><li><span style=\"font-weight: 400;\">Apply practices to externalize fears, blocks, resistances, anxieties and worries</span></li><li><span style=\"font-weight: 400;\">Utilize interventions into their ongoing psychotherapy practice</span></li></ul>"
+      },
+      {
+        "title": "Seven Foundational Attachment Needs",
+        "description": "<p><span style=\"font-weight: 400;\">Recognizing how the attachment research of John Bowlby and James Robertson on separation distress is key to understanding the Reactivity Cycle.&nbsp; </span></p><p><span style=\"font-weight: 400;\">In addition we&rsquo;ll review the 7 Fundamental Attachment Needs that are native and natural in the development of a self.&nbsp; Recognizing the Developmental Task of an Adult which is different from the Developmental Task of a Child. </span></p><p><span style=\"font-weight: 400;\">Here we started the exploration of what happens when any of our seven attachment needs are triggered.&nbsp; Yet, we do not need to despair -- we can repair those needs and build a solid, secure, inner self.</span></p><p><span style=\"font-weight: 400;\">Participants will be able to:</span></p><ul><li><span style=\"font-weight: 400;\">Describe the 7 Fundamental Attachment Needs as it shows up in clinical work in particular.</span></li><li><span style=\"font-weight: 400;\">Apply the framework of Bowlby and Robertson&rsquo;s research on separation distress in their own lives and in psychotherapy process.</span></li><li><span style=\"font-weight: 400;\">Utilize these perspectives into their ongoing psychotherapy practice</span></li><li><span style=\"font-weight: 400;\">Describe the difference of the Developmental Tasks of an Adult from those of a child.</span></li></ul>"
+      },
+      {
+        "title": "Putting it All Together",
+        "description": "<p><span style=\"font-weight: 400;\">Embodiment of Learnings and program consolidation &ndash; Recognizing the benefits of developing a Response Cycle to reduce the intensity of the Reactivity Cycle.</span></p><p><span style=\"font-weight: 400;\">We&rsquo;ll do this through active engagement with the development of applied interoception. Recognizing the importance of attachment theory in self awareness, self development.&nbsp;</span></p><p><span style=\"font-weight: 400;\">Participants will be able to:</span></p><ul><li><span style=\"font-weight: 400;\">Describe the importance of embodiment in general and interoception, proprioception and&nbsp;</span><span style=\"font-weight: 400;\">sensory awareness in particular, as it relates to everyday life as well as clinical work.&nbsp;</span></li><li><span style=\"font-weight: 400;\">Apply methods to orient themselves and their clients towards mindful embodied awareness of their internal process, and link said awareness to emotional states, towards increased resilience.&nbsp;</span></li><li><span style=\"font-weight: 400;\">Describe the ways a positive approach to resolving triggers allows less compounded triggering.</span></li><li><span style=\"font-weight: 400;\">Utilize these perspectives into their ongoing psychotherapy practice</span></li></ul>"
+      }
+    ],
+    "overview": "<ul><li>5 Week/Module Program Delivered with weekly live session</li><li>On-demand video lessons, reading material, exercises</li></ul>"
   }
 ]

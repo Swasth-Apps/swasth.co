@@ -80,7 +80,7 @@ const OrgProgramDetail = (props) => {
 
                     <div className="course-modules program-sessions">
                         <div className="max-width-class">
-                            <h3 className="base-text">Course Modules</h3>
+                            <h3 className="base-text">Program Modules</h3>
                             <Collapse expandIconPosition="right" accordion bordered={false}
                                       className="coaching-program-collapsible">
                                 {program?.sessions?.map((session, index) =>

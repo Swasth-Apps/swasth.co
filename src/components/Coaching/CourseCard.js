@@ -117,7 +117,6 @@ const CourseCard = ({program,isProfessional = false}) => {
                     className="image-18"
                 />
                 <div style={{width: "100%"}}>
-                    <h5 className="heading-16 steel para-medium-text">By</h5>
                     <h3 className="heading-20 bm-8 para-medium-text">{program?.coachInfo?.name}</h3>
                     <p className="body-14 para-text show-more-less-desc">
                         <ShowMore

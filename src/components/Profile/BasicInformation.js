@@ -26,9 +26,10 @@ const BasicInformation = (props) => {
                             <p className="subtitle para-text">
                                 {provider?.bio}
                             </p>
+                            {provider?.address?.city ||  provider?.address.state || provider?.address.country ?
                             <p className="address para-text">
                                {provider?.address.city + ", "+ provider?.address.state + ", "+ provider?.address.country}
-                            </p>
+                            </p> : null}
                         </div>
                     </div>
                     <div className="cover-img-section">

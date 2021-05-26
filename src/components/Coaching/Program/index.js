@@ -58,7 +58,10 @@ class CoachProgram extends React.Component {
                                     </p>
                                     <div className="program-list-page-buttons tm-8">
                                         <div className="rm-16">
-                                            <RegisterInterest program={program} programSlug={program?.slug}/>
+                                            <RegisterInterest
+                                                program={program}
+                                                programSlug={program?.slug}
+                                            />
                                         </div>
                                     </div>
                                 </div>
@@ -77,7 +80,6 @@ class CoachProgram extends React.Component {
                                         className="image-18"
                                     />
                                     <div>
-                                        <h5 className="heading-16 steel para-medium-text">By</h5>
                                         <h3 className="heading-20 bm-8 para-medium-text">{program?.coachInfo?.name}</h3>
                                         <p className="body-14 para-text show-more-less-desc">
                                             <ShowMore

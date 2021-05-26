@@ -84,7 +84,7 @@ class ClientsPrograms extends React.Component {
                                             mailing list to be notified when they launch.
                                         </p>
                                         <p className="para-text desc" style={{marginTop: 15}}>
-                                            People who join our wait list are not obligated to take the course but you
+                                            People who join our wait list are not obligated to take the program but you
                                             will receive a discount.
                                         </p>
                                     </Col>
@@ -97,8 +97,7 @@ class ClientsPrograms extends React.Component {
                                                     <div className="course-panel-title-wrapper"><h2
                                                         className="heading-24 ch-width-36 bm-16 base-text">
                                                         {program.name}
-                                                    </h2><h6
-                                                        className="heading-16 _14 steel bm-4 para-text">By</h6>
+                                                    </h2>
                                                         <h5 className="heading-16 bm-8 para-medium-text">{program?.coachInfo?.name}</h5>
                                                         <div className="body-12 bm-24 para-text">
                                                             {program?.coachInfo?.title}

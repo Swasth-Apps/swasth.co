@@ -4,9 +4,7 @@ import {Link} from 'gatsby';
 import {connect} from "react-redux";
 import CourseCard from "./CourseCard";
 import OrganizationPage from "./OrganizationPage";
-import Amplify, {API, graphqlOperation} from "aws-amplify";
-import graphql_endpoint from "../../aws-appsync-url";
-import {getOrganizationsWithOwner, getOrganizationWithMembersAndPrograms} from "../../queries";
+import OrganizationsData from "../../JSON/Organizations.json";
 import {setMarketingLoading, setOrganizationById, setOrganizations} from "../../Redux/Actions/Programs";
 import {getCloudIDFromImageName} from "../../helper/helper";
 import CLImage from "../../helper/CLImage";
@@ -19,7 +17,6 @@ class Organizations extends React.Component {
         super(props);
         const urlParams = typeof window !== 'undefined' ? window.location?.pathname?.split("/organizations/") : null;
         const splittedValue = urlParams && urlParams[1] && urlParams?.[1]?.split("/");
-        console.log(splittedValue)
         this.state = {
             programs: [],
             organizationSlug: splittedValue?.[0],
@@ -29,7 +26,7 @@ class Organizations extends React.Component {
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
-        if(prevProps.location !== this.props.location){
+        if (prevProps.location !== this.props.location) {
             const urlParams = typeof window !== 'undefined' ? window.location?.pathname?.split("/organizations/") : null;
             const splittedValue = urlParams && urlParams[1] && urlParams?.[1]?.split("/");
             this.setState({
@@ -37,59 +34,27 @@ class Organizations extends React.Component {
                 tab: splittedValue?.[1],
                 programSlug: splittedValue?.[2]
 
-            },() => this.componentDidMount())
-        }
-    }
-
-    componentDidMount() {
-        const { organizationSlug } = this.state;
-        Amplify.configure({
-            API: {
-                graphql_endpoint: graphql_endpoint.COACHING_MARKETING,
-            },
-        });
-        if(organizationSlug && !this.props.organization?.[organizationSlug]){
-            this.props.setMarketingLoading(true);
-
-            API.graphql(graphqlOperation(getOrganizationWithMembersAndPrograms,{organizationSlug}), {
-                "x-api-key": graphql_endpoint.COACHING_API_KEY
-            }).then(({data}) => {
-                this.props.setOrganizationById(data?.getOrganizationWithMembersAndPrograms,organizationSlug);
-                this.props.setMarketingLoading(false);
-            }).catch(() => {
-                this.props.setMarketingLoading(false);
-            });
-        }else if(!this.props.organizations?.length) {
-            this.props.setMarketingLoading(true);
-
-            API.graphql(graphqlOperation(getOrganizationsWithOwner), {
-                "x-api-key": graphql_endpoint.COACHING_API_KEY
-            }).then(({data}) => {
-                this.props.setOrganizations(data?.getOrganizationsWithOwner);
-                this.props.setMarketingLoading(false);
-            }).catch(() => {
-                this.props.setMarketingLoading(false);
-            });
+            })
         }
     }
 
     render() {
 
-        const {marketingPrograms, organizations, coachingLoading} = this.props;
+        const {marketingPrograms, coachingLoading} = this.props;
         const featuredPrograms = _.filter(marketingPrograms, ({isFeatured}) => isFeatured);
 
-
+        const organization = OrganizationsData?.find(({slug}) => this.state.organizationSlug === slug);
         return (this.state.organizationSlug ?
                 <OrganizationPage
                     programSlug={this.state.programSlug}
                     organizationSlug={this.state.organizationSlug}
-                    organization={this.props.organization}
+                    organization={organization}
                     selectedTab={this.state.tab || "home"}
                 /> :
                 <>
                     <section className='coaching-programs-banner-section professionals-banner-section'>
                         <Helmet title="Resiliens">
-                            <meta charSet="utf-8" />
+                            <meta charSet="utf-8"/>
                             <title>Resiliens - Evidence Based Programs for Health Professionals</title>
                             <meta
                                 name="keywords"
@@ -134,30 +99,31 @@ class Organizations extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                            </div> : organizations?.length ? organizations?.map(org =>
-                                <div className="coach-grid-view">
-                                    <Link to={`/coaching/organizations/${org.slug}/home`} className="coach-grid-view-card">
-                                        <div style={{position:"relative"}}>
-                                        <CLImage
-                                            cloudId={getCloudIDFromImageName(
-                                                org.image,
-                                                "coaching",
-                                                'organizations',
-                                            )}
-                                            options={{
-                                            imageWidth: 1200,
-                                                imageHeight: 800
-                                            }}
-                                        />
-                                        <div className="coach-info">
-                                            {org.name}
-                                            <div>
-                                                {'By '}{org.teamOwnerName}
+                            </div> : <div className="coach-grid-view">
+                                {OrganizationsData?.length ? OrganizationsData?.map(org =>
+                                    <Link to={`/coaching/organizations/${org.slug}/home`}
+                                          className="coach-grid-view-card">
+                                        <div style={{position: "relative"}}>
+                                            <CLImage
+                                                cloudId={getCloudIDFromImageName(
+                                                    org.image,
+                                                    "coaching",
+                                                    'organizations',
+                                                )}
+                                                options={{
+                                                    imageWidth: 1200,
+                                                    imageHeight: 800
+                                                }}
+                                            />
+                                            <div className="coach-info">
+                                                {org.name}
+                                                <div>
+                                                    {org.teamOwnerName}
+                                                </div>
                                             </div>
                                         </div>
-                                        </div>
                                     </Link>
-                                </div>) : null
+                                ) : null}</div>
 
                         }
                     </div>
@@ -201,7 +167,7 @@ export default connect(
             dispatch(setMarketingLoading(loading)),
         setOrganizations: (organizations) =>
             dispatch(setOrganizations(organizations)),
-        setOrganizationById: (organizations,id) =>
-            dispatch(setOrganizationById(organizations,id)),
+        setOrganizationById: (organizations, id) =>
+            dispatch(setOrganizationById(organizations, id)),
     }),
 )(Organizations);

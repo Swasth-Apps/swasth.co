@@ -29,7 +29,7 @@ class OrganizationPage extends React.Component {
             case 'home':
                 return <Overview
                     onClick={this.handleCourseClick}
-                    organization={this.props.organization?.[this.props.organizationSlug]}
+                    organization={this.props.organization}
                 />;
             case 'programs':
                 return <Programs
@@ -52,8 +52,8 @@ class OrganizationPage extends React.Component {
 
     render() {
         const { organizationSlug } = this.props;
-        let organization = this.props.organization?.[organizationSlug];
-        const teamOwner = _.find(organization?.teamMembers, ({ userId }) => userId === organization.teamOwnerId);
+        let organization = this.props.organization;
+        const teamOwner = _.find(organization?.teamMembers, ({ isTeamOwner }) => isTeamOwner);
         return (
             <>
                 <section
@@ -71,7 +71,7 @@ class OrganizationPage extends React.Component {
                     >
                         <h1 className="base-text" style={{marginTop: "-2em", color: "white", textAlign: "center"}}>
                             {organization?.name}</h1>
-                        <p className="para-text">By {teamOwner?.name}</p>
+                        <p className="para-text">{teamOwner?.name}</p>
                     </div>
                 </section>
                 <Tabs
