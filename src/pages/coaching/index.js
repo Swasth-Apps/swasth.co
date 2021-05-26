@@ -111,4 +111,4 @@ class CoachingIndex extends React.Component {
     }
 }
 
-export default CoachingIndex
+export default CoachingIndex;
