@@ -199,6 +199,12 @@ export const expertsData = [{
   expertise: "Emeritus Professor of Psychology at Stanford University and President of the Heroic Imagination Project",
   "slug":"philip-zimbardo"
 },{
+  name:"Dr Stan Steindl",
+  img:"stan-profile.jpg",
+  description:"Dr Stan Steindl is an Australian clinical psychologist with over 20 years experience as a therapist, supervisor, trainer and researcher. He is passionate about motivational interviewing and compassion focused therapy and presents on these topics around the world.",
+  expertise: "Director of Psychology Consultants Pvt Ltd and Adjunct Associate Professor at School of Psychology, University of Queensland",
+  "slug":"stan-steindl"
+},{
   name:"Dr. Yotam Heineberg",
   img:"yotam_profile.jpg",
   description:"After completing his doctorate at PGSP-Stanford Consortium, he did his post-doctoral training and acted as a healthcare Fellow at Stanford University (CCARE) where he developed various programs focused on resilience, team building and compassion.",
@@ -216,12 +222,6 @@ export const expertsData = [{
   description:"Deirdre Fay, MSW, works with people who have had crummy histories to develop an inner platform to get their needs met and have success in all areas of life.  With over 30 years of experience as a psychotherapist and educator, Deirdre brings together modern science with ancient wisdom traditions in exploring the Transformational Journey of life.",
   expertise: "Psychotherapist and Educator and Founder of Becoming Safely Embodied skills groups",
   "slug":"deirdre-fay"
-},{
-  name:"Dr Stan Steindl",
-  img:"stan-profile.jpg",
-  description:"Dr Stan Steindl is an Australian clinical psychologist with over 20 years experience as a therapist, supervisor, trainer and researcher. He is passionate about motivational interviewing and compassion focused therapy and presents on these topics around the world.",
-  expertise: "Director of Psychology Consultants Pty Ltd and Adjunct Associate Professor at School of Psychology, University of Queensland",
-  "slug":"stan-steindl"
 }];
 
 export const colors = ["blue-tag","pink-tag","purple-tag"];

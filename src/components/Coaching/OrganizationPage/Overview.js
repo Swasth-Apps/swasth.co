@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import ExpertCard from "./ExpertCard";
 import ReactHtmlParser from "react-html-parser";
 import ReactPlayer from "react-player";
@@ -13,9 +13,6 @@ const Overview = (props) => {
                 <div id="wrapper">
                     {organization?.approach?.html ?
                         <div className="organization-approach left-approach">
-                            <div className="organization-approach-html">
-                                {ReactHtmlParser(organization?.approach?.html)}
-                            </div>
                             {organization?.approach?.image ?
                                 <CLImage
                                     cloudId={getCloudIDFromImageName(
@@ -26,12 +23,15 @@ const Overview = (props) => {
                                 /> : <ReactPlayer
                                     className='video-img'
                                     url={organization?.approach?.video}
-                                    fluid={false}
-                                    resizeMode={"contain"}
+                                    resizeMode={"cover"}
                                     controls
                                     width='100%'
                                     height='auto'
                                 />}
+                            <div className="organization-approach-html">
+                                {ReactHtmlParser(organization?.approach?.html)}
+                            </div>
+
                         </div> : null}
                     {organization?.comprehensive?.html ?
                         <div className="organization-approach right-approach">
@@ -40,7 +40,7 @@ const Overview = (props) => {
                                     className='video-img'
                                     url={organization?.comprehensive?.video}
                                     fluid={false}
-                                    resizeMode={"contain"}
+                                    resizeMode={"cover"}
                                     controls
                                     width='100%'
                                     height='auto'
