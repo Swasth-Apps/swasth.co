@@ -36,6 +36,7 @@ class CoachingIndex extends React.Component {
         console.log("====== --Window ----==========",window);
         if(typeof window !== "undefined"){
             let path = window.location?.pathname?.substring('/coaching/'.length);
+            console.log("=======", path);
             path = path?.endsWith('/') ? path?.substr(0, path.length - 1) : path;
             if(path?.includes("everyone")){
                 return "everyone"
