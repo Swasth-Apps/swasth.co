@@ -3,11 +3,11 @@ templateKey: blog-post
 title: A look into the Future of ACT
 username: Rusha
 date: 2020-06-27T00:00:00.000Z
-description: The ACT-based intervention aims to promote individuals' new health
+description: "The ACT-based intervention aims to promote individuals' new health
   behavior patterns through the improvement of the key construct of
   psychological flexibility, which is defined as the ability to contact the
   present moment more fully with acceptance and mindfulness as a conscious human
-  being.
+  being.  "
 featuredpost: true
 image: /img/future-of-act.jpg
 squareimage: /img/future-square.jpg
