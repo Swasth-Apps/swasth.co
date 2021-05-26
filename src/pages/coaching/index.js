@@ -18,7 +18,7 @@ class CoachingIndex extends React.Component {
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
-        if(prevProps.location !== this.props.location){
+        if(JSON.stringify(prevProps.location) !== JSON.stringify(this.props.location)){
             this.setState({
                 tab: this.getRoute()
             })
