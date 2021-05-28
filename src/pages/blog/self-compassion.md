@@ -29,7 +29,7 @@ tags:
 
 ![Save yourself](/img/meditate-potrait.jpg "Save yourself")
 
-Self-compassion basically entails treating your inner-self the same way you would treat a friend of yours who is having a hard time even if he/she is just feeling insufficient to take up a task or facing a tough life challenge. We are no stranger to being all king to our family, friends and relatives. Why not give a try to treating ourselves better? Self-compassion is an exercise which we learn to befriend our  inner selves in. Although we never even look forward to becoming an inner ally but this is what we teach you here in RESILIENCE.
+Self-compassion basically entails treating your inner-self the same way you would treat a friend of yours who is having a hard time even if he/she is just feeling insufficient to take up a task or facing a tough life challenge. We are no stranger to being all king to our family, friends and relatives. Why not give a try to treating ourselves better? Self-compassion is an exercise which we learn to befriend our  inner selves in. Although we never even look forward to becoming an inner ally but this is what we teach you here in RESILIENS.
 
 **THE THREE ELEMENTS OF SELF-COMPASSION**
 
@@ -93,4 +93,4 @@ You maybe feel a bit uncomfortable at first but as you know that every start has
 
 ![You](/img/cbt-anxiety.jpg "You")
 
-It is not even awkward to ask if you can really climb up the hill that we talked about earlier because it is the tendency of human to feel low of himself. We oftentimes evaluate ourselves as a lowly energetic person but that's not true actually. Criticizing ourselves nonstop can have a negative impact on our mentality of being not worthy enough to tackle something. Practicing self-compassion can surely make you overcome your low self-care and the habit of looking low at yourself. It is for certain tough to enter into the gate of self-compassion though but the endless advantages will surely pull you up to the top. The only you need is to break the taboos and shake hands with the RESILIENCE family to fight your way through the troubles.
+It is not even awkward to ask if you can really climb up the hill that we talked about earlier because it is the tendency of human to feel low of himself. We oftentimes evaluate ourselves as a lowly energetic person but that's not true actually. Criticizing ourselves nonstop can have a negative impact on our mentality of being not worthy enough to tackle something. Practicing self-compassion can surely make you overcome your low self-care and the habit of looking low at yourself. It is for certain tough to enter into the gate of self-compassion though but the endless advantages will surely pull you up to the top. The only you need is to break the taboos and shake hands with the RESILIENS family to fight your way through the troubles.
