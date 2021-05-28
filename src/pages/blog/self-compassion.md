@@ -35,15 +35,45 @@ Self-compassion basically entails treating your inner-self the same way you woul
 
 **3. *Mindfulness:*** Mindfulness incorporates being clear about moment-to-moment practice and experience in a balanced way. It says to be open to assimilate all thoughts, reality of present , and sensation without any limitation.
 
+**WHY IS SELF-COMPASSION IMPORTANT**
+
+Though it is difficult to mention all the benefits one experience through self-compassion, but we will try our level best to get you familiar with some of its advantages. Let's check them out down in the blog:
+
+1. Evolutionary Importance: We beings have a heavy requirement to be loved. We usually feel that our selves should be taken care of but we seemingly forget that the same love cannot only be felt by external comfort but by internal too. Why we neglect our own need and care? Here we teach you how can you show affection towards your inner being which is equally and extremely significant.
+
+2. Self-compassion and psychological well-being: Studies have presented several episodes between self-compassion and mental well-being. Compassion activates the flow of love hormones through blood vessels. This is activated even when the love is directed inwards that is towards oneself. Self-compassion is linked with higher levels of satisfaction, happiness, joy and a lot more. It is related to emotional intelligence, feelings of social connectedness, optimism which are all necessary to live a joyful and satisfied life.
+
+3. Balancing our emotions: Our emotions are driven by three systems namely threat system, drive system and soothe system. Each of these play their separate roles in balancing our emotions, the elaboration of which you will find on our app. 
+
 **OUR PROGRAM**
 
 *The pessimist sees difficulty in every opportunity and the optimist does the opposite. This is your high time to be a little self-compassionate and head to RESILIENCE to let all your troubles be ours and our happiness be yours.*
 
 Mental well-being has ever been our concern and cognitive health maintenance is our motive. We provide the worldwide channel of best experts of cognitive health where you find the maestros of SELF-COMPASSION who guide your way through your overall journey with Resilience. Not only that, we give the opportunity to have one-to-one conversation with our health experts that allows the path to be in continuous contact with the practitioners. We have a completely separate platform to boost your cognitive health through number of sessions, activities ,lessons and exercises that empowers your inner-self.
 
-**THE STRATEGIES THAT GIVE YOU A PUSH**
+**THE STRATEGIES THAT GIVE YOU A PUSH THROUGH RESILIFY APP**
 
-Not to mention that our program gives a boost to whole another level by incorporating large number of skills within you to counter what goes not your way to success. We have been working all the way up to here so as to serve you the best of the best so that you feel yourself to be one of a kind. Numerous sessions in our program not only jerk you forth but also have you your will and self-compassion handy. Sessions such as Understanding self-compassion, barriers, preparation, thinking, feelings just to name a few are way more beneficial than you already think. You maybe feel a bit uncomfortable at first but as you know that every start has some difficulty so as it has. But facing them nonstop leads you  to climb up the hill.
+Not to mention that our program gives a boost to whole another level by incorporating large number of skills within you to counter what goes not your way to success. We have been working all the way up to here so as to serve you the best of the best so that you feel yourself to be one of a kind. Apart from giving the best guidance through the worldwide coaches, we offer you numerous sessions in our program not only jerk you forth but also have you your will and self-compassion handy.
+
+ The app provides different sessions under this program which you are supposed to finish up within a week. The sessions will change by default once you move past the preceding week. Also, you are given access to a URL where you can change your sessions from in accordance with yourself. We serve you a good number of sessions to help you be self-compassionate.  The sessions we offer you are as mentioned below:
+
+Session 1: Understanding self-compassion
+
+Session 2: Barriers to self-compassion
+
+Session 3: Preparing to be self-compassionate
+
+Session 4: Self compassion imagery
+
+Session 5: Self-compassionate thinking
+
+Session 6: Feelings and self-compassion
+
+Session 7: Self-compassionate behavior
+
+Session 8: Self-compassionate living
+
+You maybe feel a bit uncomfortable at first but as you know that every start has some difficulty so as it has. But facing them nonstop leads you  to climb up the hill.
 
 **HOW CAN YOU CATCH UP?**
 
