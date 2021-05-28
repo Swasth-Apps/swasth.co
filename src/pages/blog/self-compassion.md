@@ -17,6 +17,8 @@ relatedpost:
   blog:
     - title: Mindfulness
       slug: admin/#/collections/blog/entries/what-is-mindfulness
+    - slug: admin/#/collections/blog/entries/emotion-regulation
+      title: Emotion-Regulation
 tags:
   - Mentalhealth
   - Selfcare
@@ -35,14 +37,12 @@ Self-compassion basically entails treating your inner-self the same way you woul
 
 **3. *Mindfulness:*** Mindfulness incorporates being clear about moment-to-moment practice and experience in a balanced way. It says to be open to assimilate all thoughts, reality of present , and sensation without any limitation.
 
-**WHY IS SELF-COMPASSION IMPORTANT**
+**WHY IS SELF-COMPASSION IMPORTANT?**
 
 Though it is difficult to mention all the benefits one experience through self-compassion, but we will try our level best to get you familiar with some of its advantages. Let's check them out down in the blog:
 
 1. Evolutionary Importance: We beings have a heavy requirement to be loved. We usually feel that our selves should be taken care of but we seemingly forget that the same love cannot only be felt by external comfort but by internal too. Why we neglect our own need and care? Here we teach you how can you show affection towards your inner being which is equally and extremely significant.
-
 2. Self-compassion and psychological well-being: Studies have presented several episodes between self-compassion and mental well-being. Compassion activates the flow of love hormones through blood vessels. This is activated even when the love is directed inwards that is towards oneself. Self-compassion is linked with higher levels of satisfaction, happiness, joy and a lot more. It is related to emotional intelligence, feelings of social connectedness, optimism which are all necessary to live a joyful and satisfied life.
-
 3. Balancing our emotions: Our emotions are driven by three systems namely threat system, drive system and soothe system. Each of these play their separate roles in balancing our emotions, the elaboration of which you will find on our app. 
 
 **OUR PROGRAM**
