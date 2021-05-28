@@ -27,6 +27,8 @@ tags:
 
 *"Through self-compassion beings become more of an inner companion instead of an inner foe".*
 
+![]()
+
 Self-compassion basically entails treating your inner-self the same way you would treat a friend of yours who is having a hard time even if he/she is just feeling insufficient to take up a task or facing a tough life challenge. We are no stranger to being all king to our family, friends and relatives. Why not give a try to treating ourselves better? Self-compassion is an exercise which we learn to befriend our  inner selves in. Although we never even look forward to becoming an inner ally but this is what we teach you here in RESILIENCE.
 
 **THE THREE ELEMENTS OF SELF-COMPASSION**
