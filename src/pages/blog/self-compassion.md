@@ -27,11 +27,15 @@ tags:
 
 *"Through self-compassion beings become more of an inner companion instead of an inner foe".*
 
-![](/img/self-compassion-1.png)
+![Save yourself](/img/meditate-potrait.jpg "Save yourself")
 
 Self-compassion basically entails treating your inner-self the same way you would treat a friend of yours who is having a hard time even if he/she is just feeling insufficient to take up a task or facing a tough life challenge. We are no stranger to being all king to our family, friends and relatives. Why not give a try to treating ourselves better? Self-compassion is an exercise which we learn to befriend our  inner selves in. Although we never even look forward to becoming an inner ally but this is what we teach you here in RESILIENCE.
 
 **THE THREE ELEMENTS OF SELF-COMPASSION**
+
+![Calmness](/img/relax.jpg "Calmness")
+
+![]()
 
 **1.*Self-Kindness:*** When we attempt to step forth but fail miserably in some way, we are more likely to either stop attempting newer tasks or block our own track to move ahead. Self-Kindness is all about having a supportive you to keep a broad support shoulder for yourselves. You might have seen generous people that could be you as well, breaking themselves apart in order save others. Self-kindness counters the tendency to being ignorant towards ourselves.
 
@@ -41,7 +45,7 @@ Self-compassion basically entails treating your inner-self the same way you woul
 
 **WHY IS SELF-COMPASSION IMPORTANT?**
 
-![](/img/personal-control.jpg)
+![Relaxation](/img/personal-control.jpg "Relaxation")
 
 Though it is difficult to mention all the benefits one experience through self-compassion, but we will try our level best to get you familiar with some of its advantages. Let's check them out down in the blog:
 
@@ -55,11 +59,13 @@ Though it is difficult to mention all the benefits one experience through self-c
 
 *The pessimist sees difficulty in every opportunity and the optimist does the opposite. This is your high time to be a little self-compassionate and head to RESILIENCE to let all your troubles be ours and our happiness be yours.*
 
+![Expert](/img/mindful-attention.jpeg "Expert")
+
 Mental well-being has ever been our concern and cognitive health maintenance is our motive. We provide the worldwide channel of best experts of cognitive health where you find the maestros of SELF-COMPASSION who guide your way through your overall journey with Resilience. Not only that, we give the opportunity to have one-to-one conversation with our health experts that allows the path to be in continuous contact with the practitioners. We have a completely separate platform to boost your cognitive health through number of sessions, activities ,lessons and exercises that empowers your inner-self.
 
 **THE STRATEGIES THAT GIVE YOU A PUSH THROUGH RESILIFY APP**
 
-![](/img/mobile-usage.jpg)
+![App](/img/mobile-usage.jpg "App")
 
 Not to mention that our program gives a boost to whole another level by incorporating large number of skills within you to counter what goes not your way to success. We have been working all the way up to here so as to serve you the best of the best so that you feel yourself to be one of a kind. Apart from giving the best guidance through the worldwide coaches, we offer you numerous sessions in our program not only jerk you forth but also have you your will and self-compassion handy.
 
@@ -84,5 +90,7 @@ Session 8: Self-compassionate living
 You maybe feel a bit uncomfortable at first but as you know that every start has some difficulty so as it has. But facing them nonstop leads you  to climb up the hill.
 
 **HOW CAN YOU CATCH UP?**
+
+![You](/img/cbt-anxiety.jpg "You")
 
 It is not even awkward to ask if you can really climb up the hill that we talked about earlier because it is the tendency of human to feel low of himself. We oftentimes evaluate ourselves as a lowly energetic person but that's not true actually. Criticizing ourselves nonstop can have a negative impact on our mentality of being not worthy enough to tackle something. Practicing self-compassion can surely make you overcome your low self-care and the habit of looking low at yourself. It is for certain tough to enter into the gate of self-compassion though but the endless advantages will surely pull you up to the top. The only you need is to break the taboos and shake hands with the RESILIENCE family to fight your way through the troubles.
