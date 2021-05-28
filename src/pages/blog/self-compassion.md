@@ -27,7 +27,7 @@ tags:
 
 *"Through self-compassion beings become more of an inner companion instead of an inner foe".*
 
-![]()
+![](/img/self-compassion-1.png)
 
 Self-compassion basically entails treating your inner-self the same way you would treat a friend of yours who is having a hard time even if he/she is just feeling insufficient to take up a task or facing a tough life challenge. We are no stranger to being all king to our family, friends and relatives. Why not give a try to treating ourselves better? Self-compassion is an exercise which we learn to befriend our  inner selves in. Although we never even look forward to becoming an inner ally but this is what we teach you here in RESILIENCE.
 
@@ -41,6 +41,8 @@ Self-compassion basically entails treating your inner-self the same way you woul
 
 **WHY IS SELF-COMPASSION IMPORTANT?**
 
+![](/img/personal-control.jpg)
+
 Though it is difficult to mention all the benefits one experience through self-compassion, but we will try our level best to get you familiar with some of its advantages. Let's check them out down in the blog:
 
 1. Evolutionary Importance: We beings have a heavy requirement to be loved. We usually feel that our selves should be taken care of but we seemingly forget that the same love cannot only be felt by external comfort but by internal too. Why we neglect our own need and care? Here we teach you how can you show affection towards your inner being which is equally and extremely significant.
@@ -49,11 +51,15 @@ Though it is difficult to mention all the benefits one experience through self-c
 
 **OUR PROGRAM**
 
+![]()
+
 *The pessimist sees difficulty in every opportunity and the optimist does the opposite. This is your high time to be a little self-compassionate and head to RESILIENCE to let all your troubles be ours and our happiness be yours.*
 
 Mental well-being has ever been our concern and cognitive health maintenance is our motive. We provide the worldwide channel of best experts of cognitive health where you find the maestros of SELF-COMPASSION who guide your way through your overall journey with Resilience. Not only that, we give the opportunity to have one-to-one conversation with our health experts that allows the path to be in continuous contact with the practitioners. We have a completely separate platform to boost your cognitive health through number of sessions, activities ,lessons and exercises that empowers your inner-self.
 
 **THE STRATEGIES THAT GIVE YOU A PUSH THROUGH RESILIFY APP**
+
+![](/img/mobile-usage.jpg)
 
 Not to mention that our program gives a boost to whole another level by incorporating large number of skills within you to counter what goes not your way to success. We have been working all the way up to here so as to serve you the best of the best so that you feel yourself to be one of a kind. Apart from giving the best guidance through the worldwide coaches, we offer you numerous sessions in our program not only jerk you forth but also have you your will and self-compassion handy.
 
