@@ -51,7 +51,15 @@ Though it is difficult to mention all the benefits one experience through self-c
 
 1. Evolutionary Importance: We beings have a heavy requirement to be loved. We usually feel that our selves should be taken care of but we seemingly forget that the same love cannot only be felt by external comfort but by internal too. Why we neglect our own need and care? Here we teach you how can you show affection towards your inner being which is equally and extremely significant.
 2. Self-compassion and psychological well-being: Studies have presented several episodes between self-compassion and mental well-being. Compassion activates the flow of love hormones through blood vessels. This is activated even when the love is directed inwards that is towards oneself. Self-compassion is linked with higher levels of satisfaction, happiness, joy and a lot more. It is related to emotional intelligence, feelings of social connectedness, optimism which are all necessary to live a joyful and satisfied life.
-3. Balancing our emotions: Our emotions are driven by three systems namely threat system, drive system and soothe system. Each of these play their separate roles in balancing our emotions, the elaboration of which you will find on our app. 
+3. Balancing our emotions: Our emotions are driven by three systems namely threat system, drive system and soothe system.
+
+   1. Threat system: Threat system keeps us on alert as many of us look for potential dangers and consecutively protect ourselves.
+
+   2. Drive system: It comes into affect when we attempt to try something new or head towards our goals. But when we fail, we automatically turn to threat system.
+
+   3. Soothe system: The system has a relaxing effect on both the above mentioned systems. It helps to calm us down when the other two systems are overly active.
+
+     Each of these play their separate roles in balancing our emotions, the elaboration of which you will find on our app. 
 
 **OUR PROGRAM**
 
