@@ -35,7 +35,7 @@ export default class CLImage extends Component {
       {
         crop: 'fill',
         gravity: 'face',
-        format: 'jpg',
+        format: 'png',
         quality: 75,
         secure: true,
       },
