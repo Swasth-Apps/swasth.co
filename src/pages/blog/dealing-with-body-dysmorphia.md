@@ -24,4 +24,8 @@ tags:
   - BodyImage
   - InferiorityComplex
 ---
-mmm
+**UNDERSTANDING BODY IMAGE**
+
+Body image isn't how we actually look, rather it is the perception of how we look and our outer appearance. Body image is basically known to have 4 elements, first is, how we see our body, that is our noncognitive body image, but this isn't the actual representation of our body. Second is, the way we feel about our body which is an effective body image. Thirdly, how we think of our body which is basically the perceptual aspect. Fourthly, the behaviors we acquire as a result of above three, popularly known as behavioral body image.
+
+![Body image](/img/future-of-act.jpg "Body image")
