@@ -24,8 +24,48 @@ tags:
   - BodyImage
   - InferiorityComplex
 ---
+
+
+
+
 **UNDERSTANDING BODY IMAGE**
 
 Body image isn't how we actually look, rather it is the perception of how we look and our outer appearance. Body image is basically known to have 4 elements, first is, how we see our body, that is our noncognitive body image, but this isn't the actual representation of our body. Second is, the way we feel about our body which is an effective body image. Thirdly, how we think of our body which is basically the perceptual aspect. Fourthly, the behaviors we acquire as a result of above three, popularly known as behavioral body image.
 
 ![Body image](/img/future-of-act.jpg "Body image")
+
+**WHAT IS BODY DYSMORPHIA?**
+
+![](/img/cbt-main-imp.jpg)
+
+Body dysmorphia is a disorder in which the people face issues with his/her own physical appearance. People with the disorder see themselves as the most unattractive, monstrous, flawed, ugly, etc. They get way too bothered about their looks most of the times. They spend almost half of their time in front of the mirror and evaluate themselves per the standards they have already set in their mind. Here in RESILIENS we offer the best programs to tackle such problems and break through them in no time. The app we have launched is the cure to all such bothering that gets you on track with the help of the world's best practitioners in our contact.
+
+**DIFFERENCE BETWEEN BDD AND GENERAL DISSATISFACTION**
+
+![](/img/radi.jpg)
+
+Before jumping into conclusion, it is rather more important to know what exactly our problem is. Sometimes we may confuse general dissatisfaction with BDD while Body dysmorphia is not just a dissatisfaction but a condition which is most commonly linked with distress, depression, anxiety just to name a few. Those with the disorder remain all disturbed throughout the day with their minds preoccupied with the feeling of shame. Such people may also escape from social gatherings like family function or just a get together. Thus, it becomes so important to check on what you are actually going through. Our cognitive health experts help you in your journey with RESILIENS to stand by your side and gain confidence within yourself. 
+
+**WHY IS IT SO IMPORTANT TO GET RID OFF BODY DYSMORPHIA?**
+
+![](/img/cbt-vs-dbt.jpg)
+
+Body dysmorphia can be rooted in different forms depending upon the individual.  In most of the cases, a particular part of the body is the zone of concern, while some may perceive flaws in some other forms causing them to get distressed. Several elements play big roles when it comes to full body appearance. Usually just like other cognitive health issues, body dysmorphia also preoccupies your brain as a result of early life experiences and triggers. But knowing the cause and working on it isn't something that can be achieved without an expert's help. You need to come out of your sphere to stir the cause with the company of an expert who can lead your way through the darkest to the brightest. This is what we provide you with. The only you need is to join hands with RESILIENS and follow our lead.
+
+**WE CAN BE AT GREAT HELP**
+
+![](/img/personal-control.jpg)
+
+Apart from the access to talk to our mental health experts personally, we offer multiple sessions and lessons in our program called DEALING WITH BODY DYSMORPHIA on RESILIFY APP. Where you can find numerous exercises, causes and helps to cure the mental disorder. The app is the only place where you get in touch with our experts as well. We are 24/7 ready to serve you the best of all because your happiness is our concern. You also get various meditation tasks from different professionals to help calm your mind. The exercises we offer keep you engaged and active through your time spent with RESILIENS. Not only that, you are supposed to clear your given session within a week whilst the app sends reminders until you complete the particular session. The sessions include:
+
+Session 1: What is body image?, What is poor body image?, What is body Dysmorphia?, Prevalence, Do I have BDD?, Negative impacts of BDD, How does BDD help?
+
+Session 2: a- Forms; which comprises of
+
+Muscle of dysmorphia, BDD by proxy, types of insecurities.
+
+b-Risk Factors; that consists of 
+
+Genetic factors, Temperament, Childhood adversity, Sociocultural factors and Vicious cycle
+
+" Keep telling yourself that you are a human being, an imperfect sculpture of God who's not made to look like a doll".
