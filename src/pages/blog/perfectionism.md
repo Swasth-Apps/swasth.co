@@ -20,6 +20,8 @@ tags:
   - Ideology
   - Self-Analysis
 ---
+<!--StartFragment-->
+
 ## **UNDERSTANDING PERFECTIONISM**
 
 Perfectionism is a tool required to give a boost to your functions some way or the other. But overly engrossing yourself into something leads you to the darkest shore of life where all the roots of mental illnesses start from. In order to overcome your extreme desire to become a perfectionist, we need to know what it actually is. perfectionism includes three aspects as follows:
@@ -73,8 +75,6 @@ DO NOT HESITATE AND DO SCROLL DOWN!
 ##  TREATMENT AT RESILIENS
 
 Understanding all the aspects of perfectionism well, we have designed a super program to help you get rid off all your problems related to it and get you on tract as soon as possible. Problem with unrealistic goals, self-doubting, and negative thinking styles are the rooted problem. Thus, we have arranged a wide network of professionals to lead your way through the journey with Resiliens. Not only that, we are all ready to provide the best program to help you overcome these problems
-
-<!--StartFragment-->
 
 The sessions that make up the program are: 
 
