@@ -35,3 +35,15 @@ Here we will explore the roots, causes and problems of the disorder. In addition
 " Perfectionism is a self-destructive behavior that fuels your unnecessary thoughts".
 
 DON'T WAIT! LET'S GET GOING!
+
+## **TYPES OF PERFECTIONISM**
+
+One may experience different kinds of facets of perfectionism but if you see yourself as a perfectionist then you may find yourself trying hard especially for three standards. These are:
+
+PERFECT CONTEXT: This is the sort of perfectionism you acquire when you strive for perfect situation to perform your actions, and it is most likely to lessen the number of situation in which you will perform.
+
+PERFECT QUALITY: People with type of perfectionism strive for perfect quality desire for an imaginary standard, and think about them continuously that can be seen when it comes to cleanliness at workplace and home.
+
+PERFECT QUANTITY: It refers to being all unsatisfied with a performance when it doesn't match the expected level. This is the most common kind of perfectionism found in people, and look low at themselves if they fail to achieve the decided standard.
+
+" Person striving for flawlessness in himself and setting heavily high performance standards, accompanied by overly optimal evaluations is a perfectionist".
