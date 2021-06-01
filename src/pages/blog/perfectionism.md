@@ -20,4 +20,18 @@ tags:
   - Ideology
   - Self-Analysis
 ---
-.
+## **UNDERSTANDING PERFECTIONISM**
+
+Perfectionism is a tool required to give a boost to your functions some way or the other. But overly engrossing yourself into something leads you to the darkest shore of life where all the roots of mental illnesses start from. In order to overcome your extreme desire to become a perfectionist, we need to know what it actually is. perfectionism includes three aspects as follows:
+
+1. Nonstop striving for achieving high standards.
+
+2. Judging yourself if you are worthy enough to achieve what you seek for. And,
+
+3. Negative results of such expectations, and still continuing to reach those already set standards.
+
+Here we will explore the roots, causes and problems of the disorder. In addition to that, we get to know how RESILIENS and the RESILIFY can help you deal with perfectionism.
+
+" Perfectionism is a self-destructive behavior that fuels your unnecessary thoughts".
+
+DON'T WAIT! LET'S GET GOING!
