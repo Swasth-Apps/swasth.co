@@ -46,4 +46,30 @@ PERFECT QUALITY: People with type of perfectionism strive for perfect quality de
 
 PERFECT QUANTITY: It refers to being all unsatisfied with a performance when it doesn't match the expected level. This is the most common kind of perfectionism found in people, and look low at themselves if they fail to achieve the decided standard.
 
-" Person striving for flawlessness in himself and setting heavily high performance standards, accompanied by overly optimal evaluations is a perfectionist".
+" Person striving for flawlessness in himself and setting heavily high performance standards, accompanied by overly optimal evaluations is a perfectionist". 
+
+## **HOW BAD IS IT TO BE A PERFECTIONIST?**
+
+This cannot be denied that people take pride in calling themselves perfectionists, and the same feeling makes you feel super-efficient and valuable at the same time. Striving for something high may seem to help us loads to reach our goals but the actuality is, they act as a blockage on our track of happiness. Therefore, perfectionism is a destructive and irrational trait that can be a slow poison in disguise. It can have people suffer from anxiety and stress but still not being aware of the consequences. Some of its common consequences can be:
+
+ **Being lowly happy as well as depressed**: When you do not catch up with what you have already expected once, you may start feeling stressed and unhappy.
+
+**Self-Harming**: Some people even face severe urge to harm themselves if they do not achieve their decided goal such as cutting their veins or indulging in self-poisoning.
+
+**Unhelpful Behavior**: These behaviors may include characteristics such as,
+
+Avoidance:  This occurs from the fear of failure and eventually leading us to ignoring various situations.
+
+Procrastination: This basically happens because of you being extremely optimal at doing the things perfectly instead of just doing it well within time.
+
+Performance checking: People with perfectionism often face challenges of checking deeply as they are much afraid of doing something inappropriately.
+
+Counterproductive behavior:  We sometimes engage ourselves in some situations which we feel will help us but they actually do the opposite and turn us upside down.
+
+Thus, we see perfectionism has various negative impacts since setting realistic goals isn't unhelpful but imaginary goals obviously are. But there is no way we are letting you suffer in any way. We as a family offer the best program to tackle all your problems along with the help of world's best health experts.
+
+DO NOT HESITATE AND DO SCROLL DOWN!
+
+##  TREATMENT AT RESILIENS
+
+Understanding all the aspects of perfectionism well, we have designed a super program to help you get rid off all your problems related to it and get you on tract as soon as possible. Problem with unrealistic goals, self-doubting, and negative thinking styles are the rooted problem. Thus, we have arranged a wide network of professionals to lead your way through the journey with Resiliens. Not only that, we are all ready to provide the best program to help you overcome these problems.
