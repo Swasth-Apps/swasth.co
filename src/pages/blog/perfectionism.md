@@ -72,4 +72,32 @@ DO NOT HESITATE AND DO SCROLL DOWN!
 
 ##  TREATMENT AT RESILIENS
 
-Understanding all the aspects of perfectionism well, we have designed a super program to help you get rid off all your problems related to it and get you on tract as soon as possible. Problem with unrealistic goals, self-doubting, and negative thinking styles are the rooted problem. Thus, we have arranged a wide network of professionals to lead your way through the journey with Resiliens. Not only that, we are all ready to provide the best program to help you overcome these problems.
+Understanding all the aspects of perfectionism well, we have designed a super program to help you get rid off all your problems related to it and get you on tract as soon as possible. Problem with unrealistic goals, self-doubting, and negative thinking styles are the rooted problem. Thus, we have arranged a wide network of professionals to lead your way through the journey with Resiliens. Not only that, we are all ready to provide the best program to help you overcome these problems
+
+<!--StartFragment-->
+
+The sessions that make up the program are: 
+
+Session 1: Understanding perfectionism
+
+Session 2: Letting go of unrealistic expectations
+
+Session 3: Overcoming Self-Doubt
+
+Session 4: Fighting fear of failure
+
+Session 5: Dealing with errors in thinking
+
+Session 6: Practicing Resilience
+
+Session 7: Maintaining gains with compassion
+
+Every session comes up with a duration to complete it. You are supposed to complete your session within a week as the app continuously gives you reminders to get done with your present session. Also, you are served with a facility to set your current session using the URL we provide.
+
+You may also contact our professional advisers and be in touch with them for as long as you want through your on-going journey with us. They not only help you overcome your problems but also suggest ways to tackle them by your own if needed even in the future. 
+
+So, ARE YOU STILL WAITING? **GO GET YOUR SUBSCRIPTION BEFORE IT'S TOO LATE!**
+
+
+
+<!--EndFragment-->
