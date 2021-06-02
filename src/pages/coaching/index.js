@@ -85,7 +85,7 @@ class CoachingIndex extends React.Component {
 
 
     render() {
-        if (typeof window !== "undefined" && window.location.pathname && !this.state.tab){
+        if (typeof window !== "undefined" && window.location.pathname && !this.state.tab) {
             this.componentDidMount();
         }
         return (
@@ -98,14 +98,18 @@ class CoachingIndex extends React.Component {
                     })
                 }}
             >
-                {this.state.tab ?<>
-                    <CoachingComponent
-                        tab={this.state.tab}
-                        location={this.props.location}
-                    />
-                <div className="coaching-mobile-section">
-                    {this.renderTab()}
-                </div></>:null}
+                {this.state.tab ?
+                    <>
+                        <CoachingComponent
+                            tab={this.state.tab}
+                            location={this.props.location}
+                        />
+
+                        <div className="coaching-mobile-section">
+                            {this.renderTab()}
+                        </div>
+
+                    </> : null}
             </Layout>
         )
     }
