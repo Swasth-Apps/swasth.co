@@ -50,3 +50,17 @@ Knowing the cause and where the thing actually came from makes it way better in 
 ## **Factors that keep social anxiety going**
 
 Having understood what anxiety is, it becomes important to know what factors keep the behavior awake. Let's know:
+
+**Perception of social threat:** We are most likely to develop anxiety when we perceive social threats. These threats result in heavy disaster if not cured. Therefore, whenever you seem to accumulate threats , you may develop fear, nervousness as response along with physical abnormalities such as heart palpitation, trembling, nausea and sweating.
+
+**Negative thoughts:** A number of thoughts occupy our mind upon perceiving threats and these thoughts, most of the times, stay biased. The thoughts might include disturbing images, uncommon belief and entangled words. People usually indulge in self-criticism and unknowingly look so low at themselves.
+
+**Core beliefs:** We are no stranger to our childhood teachings of what is good and all are bad. These significant life experiences shape our beliefs and your way of thinking about self, others and the society. Core beliefs aren't general thoughts but beliefs that carve our mind, thus influencing social anxiety behavior.
+
+**Avoidance:** In order to avoid situation where they fear they might face humiliation or criticism, people try not to head over to such places. The social fear of persists as the underlying perception which are either not tested or challenged. Sadly, the behavior of avoidance only results in even more increment in anxiety.
+
+**Safety behavior:** These are subtle avoidance behavior which make us feel a bit comfortable in social situations. You may feel that adapting to such behavior can help in long long run but the truth is, they are maladaptive. They stop us from learning that fear is not permanent and we can overcome them.
+
+All these factors discussed above work together to maintain fear and retain anxiety. They make us feel uncomfortable in social situations. 
+
+IN OUR PROGRAM, WE WILL DIVE DEEP INTO ALL THE FACTORS AND HOW WE CAN TACKLE THEM EFFORTLESSLY. SO, DO NOT HESITATE AND GRAB THE OPPORTUNITY TO BE A PART OF RESILIENS.
