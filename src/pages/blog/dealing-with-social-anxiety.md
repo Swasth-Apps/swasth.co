@@ -27,4 +27,26 @@ tags:
   - Societal-fear
   - Imperfections
 ---
-t
+## **A glance at understanding SOCIAL ANXIETY**
+
+Social anxiety is a term that is often used to describe fear, nervousness, and trouble at social situations. The behavior can be found in both, the shy ones as well as not so shy ones. This mental fluctuation from ideal state has you believe in others judging you negatively all the time. Although judgement is something that helps us improve our qualities and make us self-aware, but socially anxious people believe that they might fall into an aura of awkwardness once they start interacting with others as the only thing people going to do is judge or criticize them without any cause. The fear of getting rejected or humiliated prohibit us from getting open to others. The most likely situations could be going out for dating, shopping, parties or any other sort of social gatherings or even a proper one to one talk. Such behavior eventually lands us into isolation and get us lose confidence. 
+
+BUT ARE WORRYING? NO NEED! GET ABOARD WITH US!
+
+##  Does Anxiety come by itself?
+
+Knowing the cause and where the thing actually came from makes it way better in understanding and dealing with the problem and parallelly finding the solutions on the other side. A combinations of elements play a vital role in getting you stuck with anxious mind. Let us find out what they are:
+
+**Evolutionary Factors:** Anxiety benefitted many of our ancestors as it kept them aware of upcoming troubles. So, they spend enough time in being cautious and thinking of tackling the threats. This could one reason why someone adapts anxiety.
+
+**Biological Factors:** Genes can another factor triggering your anxiety hormones as if you look at your family-tree, you may find a few of your forefathers having the same kind of behavior as you have.
+
+**Past childhood experiences:** Growing up in a particular surrounding plays a significant role in our traits, behavior and lifestyle. Similarly, your anxiety can be an aftereffects of your past experiences, most likely your childhood memories.
+
+**Significant life events:** All of us face some or the other kinds of life events where we could have gone through positive or negative changes in our lives as in break up, family, friends and a lot more. All this mold our life in some way and may trigger anxiety.
+
+*BUT HERE WE ARE! TO HELP YOU AND TO STAND BY YOU AS OUR PROGRAM NOT ONLY HELPS YOU GET IN TOUCH WITH OUR EXPERTS BUT ALSO HAS YOU GET RID OFF IRREGULARITIES.*
+
+## **Factors that keep social anxiety going**
+
+Having understood what anxiety is, it becomes important to know what factors keep the behavior awake. Let's know:
