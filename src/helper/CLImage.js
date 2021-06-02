@@ -19,6 +19,7 @@ export default class CLImage extends Component {
   }
 
   renderImage() {
+    console.log(this.props)
     return (
         <img
             className={this.props.className}
@@ -35,7 +36,6 @@ export default class CLImage extends Component {
       {
         crop: 'fill',
         gravity: 'face',
-        format: 'jpg',
         quality: 75,
         secure: true,
       },

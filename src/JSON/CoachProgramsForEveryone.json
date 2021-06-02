@@ -283,5 +283,80 @@
       }
     ],
     "overview": "<ul><li>5 Week/Module Program Delivered with weekly live session</li><li>On-demand video lessons, reading material, exercises</li></ul>"
+  },
+  {
+    "app": null,
+    "coachInfo": {
+      "name": "Dr Stan Steindl",
+      "picture": "stan-profile.jpg",
+      "title": "Director of Psychology Consultants Pty Ltd and Adjunct Associate Professor at School of Psychology, University of Queensland"
+    },
+    "coCoach": [],
+    "slug": "motivation-changes",
+    "description": "<p>The program will help you create a safe space in which to explore both your reservations about change, as well as your motivations to change, and then ultimately arriving at a carefully identified and planned commitment that feels right for you.</p>",
+    "duration": {
+      "interval": 7,
+      "period": "WEEKS"
+    },
+    "featuredVideos": [""],
+    "gradient": [
+      "#614385",
+      "#516395"
+    ],
+    "id": "954gwer-ged94fwso2685",
+    "invites": [],
+    "isAdminProgram": true,
+    "isFree": false,
+    "isLive": true,
+    "isMarketingProgram": true,
+    "learningObjectives": [],
+    "marketingDescription": "<p><span style=\"font-weight: 400;\">Behaviour change is difficult!&nbsp;</span></p><p><span style=\"font-weight: 400;\">All of us can struggle to find the motivation we need to make changes in our lives, even when we know it would be in our own best interests to do so.&nbsp;</span></p><p><span style=\"font-weight: 400;\">You know the usual suspects: stop smoking or drinking, start exercising or eating healthily. And beyond that there might be chores to do, tasks to complete, or habits to change.&nbsp;</span></p><p><span style=\"font-weight: 400;\">Or perhaps you feel like it would be a good idea to change how you communicate with your spouse, partner or some other family member or friend. Or your procrastination is really setting in and making it harder for you in your work or study. Or, in fact, it might be time for you to start managing your stress better, or you mood.&nbsp;</span></p><p><span style=\"font-weight: 400;\">There are many possible changes we could make that would bring us closer to living a good life. But how do we find the motivation to do so?</span></p><p><span style=\"font-weight: 400;\">Motivational Interviewing (MI) is a science-backed approach to helping people discover their own inherent building blocks of motivation. While we can feel very stuck sometimes, the motivation to change is embedded within each and everyone one of us.&nbsp;</span></p><p><span style=\"font-weight: 400;\">We can stop and reflect: what would I like to change, why would I want to change it, what makes this change truly important to me, and how might I go about it?</span></p><p><span style=\"font-weight: 400;\">In this program, you will work with Dr Stan Steindl, clinical psychologist and experienced therapist and trainer, who will help you create a safe space in which to explore both your reservations about change, as well as your motivations to change, and then ultimately arriving at a carefully identified and planned commitment that feels right for you.</span></p><p><span style=\"font-weight: 400;\">Whether there is just a niggling feeling that perhaps it&rsquo;s time for something to change, or you know by now that the time has come, this program is meant for you!</span></p>",
+    "objectiveGoals": "<ul><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Understand the challenges of behaviour change, including how ambivalence can really make us feel stuck.</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Become clear about the myths of motivation, especially how we can feel the urge to resist when we are told by someone else what we should change.</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Start to create a sense of safeness and calmness, and create a sense of partnership with oneself so as to make wise and compassionate choices that are right for you.</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Arrive at a target behaviour for change, and then start to explore all the arguments against change, and then the arguments for change.</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Understand and explore the multidimensional nature of motivation, and how these different dimensions might apply to you.</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Focus specifically on the things that make change important for you, and how can you feel more confident to achieve it.</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Arrive at a strong commitment to change, one that is important to you and you feel confident to achieve, and then see how you go.</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">From there, you will have a chance to create further plans for the future to increase the chances that your changes will be maintained.</span></li></ul>",
+    "marketingImg": null,
+    "name": "Find the motivation to make the changes that are right for you!",
+    "organizationId": "784-hfe-61gr34-4ydj3-354f",
+    "organizationSlug": "stan-Steindl",
+    "payment": 49500,
+    "programSize": 20,
+    "shortDescription": "This program will help you create a safe space in which to explore both your reservations about change, as well as your motivations to change, and then ultimately arriving at a carefully identified and planned commitment that feels right for you.",
+    "status": "DRAFT",
+    "type": "INDIVIDUAL",
+    "programModuleImage": "motivation-program-module.png",
+    "modulesOverview": "This program is delivered in 7 sessions according to the following schedule:",
+    "scheduled": "<p class=\"body-16 semi bm-16\">2 hour/week (approx) for 7 weeks</p><ul class=\"w-list-unstyled\" role=\"list\"><li class=\"scheduled-list-item body-16 bm-8\">Sessions are facilitated live by Dr Stan Steindl, clinical psychologist</li><li class=\"scheduled-list-item body-16 bm-8\">Includes weekly sessions for six weeks, with a seventh session for follow-up a month later</li></ul>",
+    "self_paced": "<p class=\"body-16 semi bm-16\"><div class=\"body-16 semi bm-16\">30 mins/week (approx)</p><ul class=\"w-list-unstyled\" role=\"list\"><li class=\"self-paced-list-item body-16 bm-8\">Live video lectures</li></ul></div>",
+    "schedule_communicate": "<div class=\"body-16 semi bm-16\"><p class=\"body-16 semi bm-16\">During the program, clients can communicate via private messaging with the members of their cohort and the coaching team.</p></div>",
+    "tuition": "<div><table border=\"1\"><tbody><tr><td><h3>Program Fee</h3></td><td><h3 style=\"color: rgb(66, 115, 240);\">$495</h3></td></tr></tbody></table><p>For clients that might have missed a live session or need additional coaching</p></div>",
+    "sessions": [
+      {
+        "title": "An Introduction to the challenges and opportunities of behaviour change",
+        "description": "<ul><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">The challenges of health behaviour change</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Self-reflection exercise</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">The myths of motivation</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Ambivalence</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Introducing motivational interviewing (MI)</span></li></ul>"
+      },
+      {
+        "title": "Creating the kind of relationship with yourself to prepare for change",
+        "description": "<ul><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">The importance of feeling safe</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Calming the mind and body</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Being your own partner in health</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Accept and respect yourself</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Cultivating self-compassion</span></li></ul>"
+      },
+      {
+        "title": "Identifying a target behaviour on which to focus",
+        "description": "<ul><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">The importance of focusing</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Creating a chart with circles</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">A menu of change</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Establishing priorities</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Identifying a behaviour to focus on</span></li></ul>"
+      },
+      {
+        "title": "Bringing awareness to our own arguments against and for change",
+        "description": "<ul><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Reservations are ok!</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Exploring arguments against change</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">What are yours?</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Exploring arguments for change</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Bringing awareness to ambivalence</span></li></ul>"
+      },
+      {
+        "title": "Change Talk! Elaborating on our desire, ability reasons and need for change",
+        "description": "<ul><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Elaborating on Change Talk</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Desire change talk</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Ability change talk</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Reasons change talk</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Need change talk</span></li></ul>"
+      },
+      {
+        "title": "When you’re ready, let’s make a commitment",
+        "description": "<ul><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Commitment language</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Strengthening commitment</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Building confidence</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Building importance</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Making a commitment</span></li></ul>"
+      },
+      {
+        "title": "Reflect and review, and planning ahead",
+        "description": "<ul><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Reviewing Motivation Kickstarter!</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Your experience of change</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Troubleshooting challenges</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Celebrating successes</span></li><li style=\"font-weight: 400;\" aria-level=\"3\"><span style=\"font-weight: 400;\">Relapse prevention</span></li></ul>"
+      }
+    ],
+    "overview": "<ul><li>7 Week Program Delivered with weekly live session</li><li>Live Sessions are facilitated</li></ul>"
   }
 ]
