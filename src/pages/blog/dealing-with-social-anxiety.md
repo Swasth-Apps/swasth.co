@@ -27,6 +27,8 @@ tags:
   - Societal-fear
   - Imperfections
 ---
+<!--StartFragment-->
+
 ## **A glance at understanding SOCIAL ANXIETY**
 
 Social anxiety is a term that is often used to describe fear, nervousness, and trouble at social situations. The behavior can be found in both, the shy ones as well as not so shy ones. This mental fluctuation from ideal state has you believe in others judging you negatively all the time. Although judgement is something that helps us improve our qualities and make us self-aware, but socially anxious people believe that they might fall into an aura of awkwardness once they start interacting with others as the only thing people going to do is judge or criticize them without any cause. The fear of getting rejected or humiliated prohibit us from getting open to others. The most likely situations could be going out for dating, shopping, parties or any other sort of social gatherings or even a proper one to one talk. Such behavior eventually lands us into isolation and get us lose confidence. 
@@ -68,3 +70,23 @@ IN OUR PROGRAM, WE WILL DIVE DEEP INTO ALL THE FACTORS AND HOW WE CAN TACKLE THE
 ## **OVERCOME ANXIETY**
 
 As we just now discussed above, several factors that push us to fall into the ocean of anxiety. Fortunately, there are some elements which can help us combat these factors. In this program we will be helping you deal with all such factors with the help of world-known experts. Our program are so designed that every aspects of all these factors will be zoom-viewed, thereby helping you overcome your fear and ultimately make you fight your insecurities and social anxiety. Our use a step-by-step approach to get use overcome this cognitive abnormality. Studies have also proved how efficient CBT( Cognitive Behavioral Therapy) is, in dealing with anxiety. The technique has been found beneficial for the ones with interaction-fear as well.
+
+The sessions that make up the program are: 
+
+Session 2: Dealing with negative thinking
+
+Session 3: Understanding origin of thoughts
+
+Session 4: Overcoming Avoidance 
+
+Session 5: Dealing with safety behaviors 
+
+Session 6: Calm your mind 
+
+Session 7: Maintaining gains and dealing with setbacks
+
+Although, it is up to you if this program is proved beneficial for you but to a great extent we try our level best to lead your tract throughout your stay at RESILIENS. To get the best result out of the program, you are advised to complete all your sessions in time and remain cautious if you miss on any session any week. You will get a gentle reminder everyday though. Finish each oh the sessions within the given time which most likely remains a week. You are also provided with a URL to change the session par your choice but the time limits still remains the same. As you know WHEN THERE IS A WILL, THERE IS  WAY and so is your self-strength that helps you maintain the track of life.
+
+**DO NOT THINK MUCH! COME ALONG, FIGHTING!!!**
+
+<!--EndFragment-->
