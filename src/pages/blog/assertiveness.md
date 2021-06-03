@@ -102,4 +102,28 @@ LET'S WORL TOGETHER!
 
 If you are still confused if you should take this program them let's have a look at the structure of the program that we offer. 
 
+ This program will help you deal with various aspects of assertiveness as you move through each session.
+
+The sessions that make up the program are: 
+
+Session 1: Understanding assertiveness and recognizing assertive behavior
+
+Session 2: Prepare to assert yourself
+
+Session 3: Adopting assertive thinking and behavior
+
+Session 4: Refusing and Requesting
+
+Session 5:  Dealing assertively with criticism
+
+Session 6: Learn to deal with disappointments assertively
+
+Session 7: Give and receive compliments assertively
+
+Session 8: Adopting new ways of living
+
+ All these sessions help you combat your fear and insecurities, and lead your way through the program until you stay at RESILIENS. These program are supposed to be completed within 7 days and then you will move to the next session by default or may also also change the session the URL we provide par your choice. The app notifies you of the session you have left undone. Not only that, we have a community of experts who can guide you through your journey. Also, we are 24/7 available to look after your needs and guide you whenever you feel low.
+
+DO NOT JUST THINK, TAKE A STEP AHEAD AND JOIN US!
+
 <!--EndFragment-->
