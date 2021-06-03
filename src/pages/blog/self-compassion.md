@@ -23,6 +23,8 @@ tags:
   - Mental-health
   - Selfcare
 ---
+<!--StartFragment-->
+
 **WHAT IS SELF-COMPASSION?**
 
 *"Through self-compassion beings become more of an inner companion instead of an inner foe".*
@@ -54,9 +56,7 @@ Though it is difficult to mention all the benefits one experience through self-c
 3. Balancing our emotions: Our emotions are driven by three systems namely threat system, drive system and soothe system.
 
    1. Threat system: Threat system keeps us on alert as many of us look for potential dangers and consecutively protect ourselves.
-
    2. Drive system: It comes into affect when we attempt to try something new or head towards our goals. But when we fail, we automatically turn to threat system.
-
    3. Soothe system: The system has a relaxing effect on both the above mentioned systems. It helps to calm us down when the other two systems are overly active.
 
      Each of these play their separate roles in balancing our emotions, the elaboration of which you will find on our app. 
@@ -101,4 +101,6 @@ You maybe feel a bit uncomfortable at first but as you know that every start has
 
 ![You](/img/cbt-anxiety.jpg "You")
 
-It is not even awkward to ask if you can really climb up the hill that we talked about earlier because it is the tendency of human to feel low of himself. We oftentimes evaluate ourselves as a lowly energetic person but that's not true actually. Criticizing ourselves nonstop can have a negative impact on our mentality of being not worthy enough to tackle something. Practicing self-compassion can surely make you overcome your low self-care and the habit of looking low at yourself. It is for certain tough to enter into the gate of self-compassion though but the endless advantages will surely pull you up to the top. The only you need is to break the taboos and shake hands with the RESILIENS family to fight your way through the troubles.
+It is not even awkward to ask if you can really climb up the hill that we talked about earlier because it is the tendency of human to feel low of himself. We oftentimes evaluate ourselves as a lowly energetic person but that's not true actually. Criticizing ourselves nonstop can have a negative impact on our mentality of being not worthy enough to tackle something. Practicing self-compassion can surely make you overcome your low self-care and the habit of looking low at yourself. It is for certain tough to enter into the gate of self-compassion though but the endless advantages will surely pull you up to the top. The only you need is to break the taboos and shake hands with the RESILIENS family to fight your way through the troubles. 
+
+<!--EndFragment-->
