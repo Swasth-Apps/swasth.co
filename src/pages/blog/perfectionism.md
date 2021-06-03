@@ -16,6 +16,8 @@ relatedpost:
   blog:
     - slug: admin/#/collections/blog/entries/how-to-practice-radical-acceptance
       title: Radical Acceptance
+    - slug: admin/#/collections/category/entries/happiness
+      title: Happiness
 tags:
   - Ideology
   - Self-Analysis
