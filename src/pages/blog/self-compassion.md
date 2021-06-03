@@ -20,7 +20,7 @@ relatedpost:
     - slug: admin/#/collections/blog/entries/emotion-regulation
       title: Emotion-Regulation
 tags:
-  - Mentalhealth
+  - Mental-health
   - Selfcare
 ---
 **WHAT IS SELF-COMPASSION?**
