@@ -88,4 +88,6 @@ b-Risk Factors; that consists of
 
 Genetic factors, Temperament, Childhood adversity, Sociocultural factors and Vicious cycle
 
-" Keep telling yourself that you are a human being, an imperfect sculpture of God who's not made to look like a doll".
+" Keep telling yourself that you are a human being, an imperfect sculpture of God who's not made to look like a doll". 
+
+<!--EndFragment-->
