@@ -27,9 +27,7 @@ tags:
 Perfectionism is a tool required to give a boost to your functions some way or the other. But overly engrossing yourself into something leads you to the darkest shore of life where all the roots of mental illnesses start from. In order to overcome your extreme desire to become a perfectionist, we need to know what it actually is. perfectionism includes three aspects as follows:
 
 1. Nonstop striving for achieving high standards.
-
 2. Judging yourself if you are worthy enough to achieve what you seek for. And,
-
 3. Negative results of such expectations, and still continuing to reach those already set standards.
 
 Here we will explore the roots, causes and problems of the disorder. In addition to that, we get to know how RESILIENS and the RESILIFY can help you deal with perfectionism.
@@ -72,9 +70,9 @@ Thus, we see perfectionism has various negative impacts since setting realistic 
 
 DO NOT HESITATE AND DO SCROLL DOWN!
 
-##  TREATMENT AT RESILIENS
+## TREATMENT AT RESILIENS
 
-Understanding all the aspects of perfectionism well, we have designed a super program to help you get rid off all your problems related to it and get you on tract as soon as possible. Problem with unrealistic goals, self-doubting, and negative thinking styles are the rooted problem. Thus, we have arranged a wide network of professionals to lead your way through the journey with Resiliens. Not only that, we are all ready to provide the best program to help you overcome these problems
+Understanding all the aspects of perfectionism well, we have designed a super program to help you get rid off all your problems related to it and get you on track as soon as possible. Problem with unrealistic goals, self-doubting, and negative thinking styles are the rooted problem. Thus, we have arranged a wide network of professionals to lead your way through the journey with Resiliens. Not only that, we are all ready to provide the best program to help you overcome these problems
 
 The sessions that make up the program are: 
 
@@ -97,7 +95,5 @@ Every session comes up with a duration to complete it. You are supposed to compl
 You may also contact our professional advisers and be in touch with them for as long as you want through your on-going journey with us. They not only help you overcome your problems but also suggest ways to tackle them by your own if needed even in the future. 
 
 So, ARE YOU STILL WAITING? **GO GET YOUR SUBSCRIPTION BEFORE IT'S TOO LATE!**
-
-
 
 <!--EndFragment-->
