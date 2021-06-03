@@ -100,6 +100,6 @@ LET'S WORL TOGETHER!
 
 ##  OUR PROGRAM
 
-
+If you are still confused if you should take this program them let's have a look at the structure of the program that we offer. 
 
 <!--EndFragment-->
