@@ -31,7 +31,7 @@ tags:
 
 ## **A glance at understanding SOCIAL ANXIETY**
 
-Social anxiety is a term that is often used to describe fear, nervousness, and trouble at social situations. The behavior can be found in both, the shy ones as well as not so shy ones. Social anxiety has you believe in others judging you negatively all the time. Although judgement is something that helps us improve our qualities and make us self-aware, but socially anxious people believe that they might fall into an aura of awkwardness once they start interacting with others as the only thing people going to do is judge or criticize them without any cause. The fear of getting humiliated prohibit us from being open to others. Most likely the feared situations could be going out for dating, shopping, parties or any other sort of social gatherings or even a proper one to one talk. Such behavior eventually lands us into isolation and get us lose confidence. 
+Social anxiety is a term that is often used to describe fear, nervousness, and trouble at social situations. The behavior can be found in both, the shy ones as well as not so shy ones. Social anxiety has you believe in others judging you negatively all the time. Although judgement is something that helps us improve our qualities and make us self-aware, but socially anxious people believe that they might fall into an aura of awkwardness once they start interacting with others as if the only thing people are going to do is judge or criticize them without any cause. The fear of getting humiliated prohibit us from being open to others. Most likely the feared situations could be going out for dating, shopping, parties or any other sort of social gatherings or even a proper one to one talk. Such behavior eventually lands us into isolation and get us lose confidence. 
 
 BUT ARE YOU WORRYING? NO NEED! GET ABOARD WITH US!
 
@@ -43,7 +43,7 @@ Knowing the cause and where the thing actually came from makes it way better in 
 
 **Biological Factors:** Genes can another factor triggering your anxiety hormones as if you look at your family-tree, you may find a few of your forefathers having the same kind of behavior as you have.
 
-**Past childhood experiences:** Growing up in a particular surrounding plays a significant role in our traits, behavior and lifestyle. Similarly, your anxiety can be an aftereffects of your past experiences, most likely your childhood memories.
+**Past childhood experiences:** Growing up in a particular surrounding plays a significant role in our traits, behavior and lifestyle. Similarly, your anxiety can be an aftereffect of your past experiences, most likely your childhood memories.
 
 **Significant life events:** All of us face some or the other kinds of life events where we could have gone through positive or negative changes in our lives as in break up, dispute with family members or even friends and a lot more. All this mold our life in some way and may trigger anxiety.
 
@@ -57,11 +57,11 @@ Having understood what anxiety is, it becomes important to know what factors kee
 
 **Negative thoughts:** A number of thoughts occupy our mind upon perceiving threats and these thoughts, most of the times, stay biased. The thoughts might include disturbing images, uncommon belief and entangled words. People usually indulge in self-criticism and unknowingly look so low at themselves.
 
-**Core beliefs:** We are no stranger to our childhood teachings of what is good and all are bad. These significant life experiences shape our beliefs and your way of thinking about self, others and the society. Core beliefs aren't general thoughts but beliefs that carve our mind, thus influencing social anxiety behavior.
+**Core beliefs:** We are no stranger to our childhood teachings of what is good and what all are bad. These significant life experiences shape our beliefs and your way of thinking about self, others and the society. Core beliefs aren't general thoughts but beliefs that carve our mind, thus influencing social anxiety behavior.
 
 **Avoidance:** In order to avoid situation where they fear they might face humiliation or criticism, people try not to head over to such places. The social fear of persists as the underlying perception which are either not tested or challenged. Sadly, the behavior of avoidance only results in even more increment in anxiety.
 
-**Safety behavior:** These are subtle avoidance behavior which make us feel a bit comfortable in social situations. You may feel that adapting to such behavior can help in long long run but the truth is, they are maladaptive. They stop us from learning that fear is not permanent and we can overcome them.
+**Safety behavior:** These are subtle avoidance behavior which make us feel a bit comfortable in social situations. You may feel that adapting to such behavior can help in long run but the truth is, they are maladaptive. They stop us from learning that fear is not permanent and we can overcome them.
 
 All these factors discussed above work together to maintain fear and retain anxiety. They make us feel uncomfortable in social situations. 
 
