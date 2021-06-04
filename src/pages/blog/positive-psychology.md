@@ -71,6 +71,15 @@ Do you perhaps feel uneasy thinking about unpleasing events of your life? Or, do
 
 Apart from these elements, this negativity bias can also help us know why we usually:
 
+* Remember and think about insults more than compliments
+* Behave more emotionally and physically and respond more to aversive stimuli
+* Dwell on unpleasant or traumatic occurrences more than pleasant ones
+* Pay our attention faster on negative rather than positive things.
+
+Although it has many positive effects in our life, but negativity bias can cause us to emphasize purely bad thing that ever happened. It can get us count on uncomfortable past that had some bad effects on our mind, and we start bothering ourselves thinking of negative events. It also lead our way to a few aspects of life. By turning our attention more towards positive events and feelings, we begin focusing on distortion of negativity bias but it requires regular practice. 
+
+Such practices involve,
+
 
 
 
