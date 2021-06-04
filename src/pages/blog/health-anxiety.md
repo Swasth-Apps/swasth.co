@@ -38,17 +38,11 @@ Did you ever think why some people get seriously sick or develop an illness? You
 Health anxiety is sometimes called HYPOCHONDRIA when you spend much time being all engrossed in the thought that you are suffering from some chronic or life-threatening disease, and that it will start taking your life. To check if you are having health anxiety, let's look into its symptoms mentioned below.
 
 1. Continuously bothering yourself thinking about your health
-
 2. Frequently checking your body for the symptoms of sickness or disease.
-
 3. Asking people for reassurance that are not sick
-
 4. Worrying quite much thinking that the doctor or medical test might have missed something
-
 5. Being obsessive about checking health information on internet.
-
 6. Avoiding anything related to illnesses such TV programs
-
 7. Act as if you are too ill as in avoiding physical exercises
 
 In our program on health anxiety, we are going to look into the causes, symptoms and treatment of health anxiety with the help of worldwide experts. For now, let's go ahead.
@@ -60,18 +54,41 @@ We sometimes become too worried at some points for our health and get way too mu
 Health anxiety varies its form from being adaptive to being maladaptive to the extent that it persuades us to seek treatment when it is adaptive. Worrying becomes maladaptive when it comes out of generally considered concern and hits high degree of thought upon health risks. We all know that too much of anything is bad and so is health anxiety since such imbalance can damage our functioning. Thus, health anxiety becomes problematic when:
 
 1. Health related worries enlarge to the extent that it drags us away from thinking normally about our body and health.
-
 2. You see consistent health concerns even after assurance from medical practitioners.
-
 3. One keeps on being engaged in unhelpful approaches and behavior such as checking the body all the time, seeking reassurance time-to-time or avoiding check-ups.
-
 4. Health concerns cause high level of stress and it impairs your daily functioning.
 
 This way, a normal health concern turns into health anxiety without us knowing. Let's just not worry if you see such symptoms because we are always out there for you. COME ON! Let's work it out together with the help of our program.
 
 ## **IMPACTS OF HEALTH ANXIETY**
 
+These are loads of impacts that health anxiety could have in our lives. Let's find out a few of them,
 
+Relationship with family/friends
+
+As health anxiety leads to continuous worrying about our own health, we remain completely occupied by such thoughts and seldom give time to our family and friends. Our close ones might get enough irritated by such a behavior and get frustrated of our constant worry even after reassurance from doctors. It is highly probable that we may feel annoyed and lash our family/friends out causing a knot in the relation.
+
+Work/Study
+
+People with health anxiety are mostly indulged in checking behavior and looking for signs like that of illnesses and disease. Such a behavior diverts our attention from our most important works like work and study. Also, a good span of time is wasted in checking yourself out.
+
+Life Satisfaction
+
+ Health anxiety causes us to feel stressed and look negatively at ourselves. We may also start ignoring pleasing activities or the activities which help us achieve our goals or socialize with people.
+
+Relationship with health care workers
+
+It is quite common in those with health anxiety to avoid interaction with doctors or remain highly dissatisfied with them. You might feel that the doctor is not understanding your problem or giving false claims. In rare cases health care workers also get so frustrated that they refuse to treat such a person who doubts them.
+
+Financial Problems
+
+Medical check-ups are not for free that whenever you want you simply go and get yourself checked. Check-ups cost a lot at a time and cut our pockets. At times, our health anxiety may lead to low financial status.
+
+ARE YOU STILL CONFUSED IF YOU SHOULD JOIN HANDS WITH US? THEN THROW THAT THOUGHT AWAY AND COME ALONG
+
+## **HOW CAN OUR PROGRAM HELP?**
+
+Our program will help you deal with health anxiety. This program uses a step-by-step approach to treat health anxiety and is based on Cognitive Behavioral Therapy. CBT is the idea of interpreting situations and influencing our feelings. Therefore, we add sessions to cure maladaptive thoughts and move ahead sequentially to help you overcome this problem.
 
 
 
