@@ -26,6 +26,38 @@ tags:
 ---
 <!--StartFragment-->
 
+## **WHAT IS POSITIVE PSYCHOLOGY?**
+
+Positive psychology is a kind of psychology describing the traits of strengths and behavior which motivates the individuals to live a meaningful life. Studies show that this area seeks to know the factors of a happening life. Positive psychology puts emphasis on the concept of true meaning of satisfaction, and this field discovered the involvement of different types of positive living, including positive emotions, flow states and a sense of richness.
+
+Positive psychology is pretty different from from other branches of psychology as it focuses more on well being rather than just revolving around causes. Because of its interest in positivity, it helps us stay away from negative mindsets and problematic ideas. Knowing the characteristics and strengths such as honesty or justice, is considered to be a crucial move in the direction of healthy lifestyle. Positive psychology has its eyes fixed on positive experiences and influences in your life. These include happiness, love, inspiration and positive behavior.
+
+A few of the topics that help us know positive psychology in the way it is supposed to be learnt are:
+
+Strengths and weaknesses
+
+life satisfaction
+
+Happiness
+
+wellbeing
+
+Gratitude
+
+Compassion
+
+Hope
+
+Optimism
+
+These topics help us understand how we can modify our day to day life to construct the optimum version of ourselves. Assessing these topics help us know certain practices grounded in positive psychology. People who are into flourishing themselves and their surrounding can count these factors in and strive to achieve a peaceful state of mind.
+
+## **ADVANTAGES OF POSITIVE PSYCHOLOGY**
+
+The pros of positive psychology without any doubt, includes an improvement in self-esteem and self-confidence, interpersonal relationships, and a broader outlook of life. Practicing the factors related to positive psychology such as gratitude can enhance social and mental happiness. Positive psychology also helps in exploring factors like hope, strengths, positivity as well as a good sense of what life actually is. Some of the other potential benefits could be:
+
+
+
 
 
 <!--EndFragment-->
