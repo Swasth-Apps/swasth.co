@@ -56,6 +56,21 @@ These topics help us understand how we can modify our day to day life to constru
 
 The pros of positive psychology without any doubt, includes an improvement in self-esteem and self-confidence, interpersonal relationships, and a broader outlook of life. Practicing the factors related to positive psychology such as gratitude can enhance social and mental happiness. Positive psychology also helps in exploring factors like hope, strengths, positivity as well as a good sense of what life actually is. Some of the other potential benefits could be:
 
+* Improved sense of justice
+* Change in perspective
+* Greater self-esteem
+* Improved relationships
+* Higher productivity
+* Better Concentration
+* Proper work-life balance
+* Greater success
+
+## **NEGATIVITY BIAS AND WAYS TO OVERCOME IT**
+
+Do you perhaps feel uneasy thinking about unpleasing events of your life? Or, do you feel like forcing yourself to go for triggering or negative articles?  Since we are all humans and it is not strange to think like that at some point of time in our life. But sometimes we get too affected by such events that they start threatening us all the time. This negativity bias can affect how we behave, perceive, or think. Negativity bias refers to " pay attention to, learn from, and apply negative information way more than the positive one". 
+
+Apart from these elements, this negativity bias can also help us know why we usually:
+
 
 
 
