@@ -64,23 +64,23 @@ This way, a normal health concern turns into health anxiety without us knowing. 
 
 These are loads of impacts that health anxiety could have in our lives. Let's find out a few of them,
 
-Relationship with family/friends
+**Relationship with family/friends**
 
 As health anxiety leads to continuous worrying about our own health, we remain completely occupied by such thoughts and seldom give time to our family and friends. Our close ones might get enough irritated by such a behavior and get frustrated of our constant worry even after reassurance from doctors. It is highly probable that we may feel annoyed and lash our family/friends out causing a knot in the relation.
 
-Work/Study
+**Work/Study**
 
 People with health anxiety are mostly indulged in checking behavior and looking for signs like that of illnesses and disease. Such a behavior diverts our attention from our most important works like work and study. Also, a good span of time is wasted in checking yourself out.
 
-Life Satisfaction
+**Life Satisfaction**
 
  Health anxiety causes us to feel stressed and look negatively at ourselves. We may also start ignoring pleasing activities or the activities which help us achieve our goals or socialize with people.
 
-Relationship with health care workers
+**Relationship with health care workers**
 
 It is quite common in those with health anxiety to avoid interaction with doctors or remain highly dissatisfied with them. You might feel that the doctor is not understanding your problem or giving false claims. In rare cases health care workers also get so frustrated that they refuse to treat such a person who doubts them.
 
-Financial Problems
+**Financial Problems**
 
 Medical check-ups are not for free that whenever you want you simply go and get yourself checked. Check-ups cost a lot at a time and cut our pockets. At times, our health anxiety may lead to low financial status.
 
@@ -90,6 +90,26 @@ ARE YOU STILL CONFUSED IF YOU SHOULD JOIN HANDS WITH US? THEN THROW THAT THOUGHT
 
 Our program will help you deal with health anxiety. This program uses a step-by-step approach to treat health anxiety and is based on Cognitive Behavioral Therapy. CBT is the idea of interpreting situations and influencing our feelings. Therefore, we add sessions to cure maladaptive thoughts and move ahead sequentially to help you overcome this problem.
 
+The sessions that make up the program are: 
 
+Session 1: Understanding health anxiety
+
+Session 2: How health anxiety is developed and maintained?
+
+Session 3: Re- training your focus on health symptoms
+
+Session 4: Dealing with anxiety provoking thoughts
+
+Session 5: Adjusting health related rules and assumptions 
+
+Session 6: Reducing checking and reassurance seeking behaviors
+
+Session 7: Challenging avoidance and safety behaviors
+
+Session 8: Self- management
+
+These sessions come a time limit of 7 days as you need to complete each session within a week. Later you will land into another session by default. Also, you get the facility of URL to change the sessions as per your choice but here again the time limit remains the same. Apart from these sessions, we have a panel of experts whom you can contact anytime throughout your journey with RESILIENS. We work as a team to help you out 24/7. 
+
+SO DO NOT HESITATE AND GRAB THE PROGRAM!
 
 <!--EndFragment-->
