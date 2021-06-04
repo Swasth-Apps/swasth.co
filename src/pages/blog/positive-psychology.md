@@ -80,7 +80,25 @@ Although it has many positive effects in our life, but negativity bias can cause
 
 Such practices involve,
 
+**Focusing on the present and Avoiding Negative Self-Talk**
 
+**Mindfulness and Meditation**
+
+**Relish the Positive Moments**
+
+## **HEALING WITH POSITIVE PSYCHOLOGY**
+
+In the therapy, there is a shift of focus from body and pain to a clear emphasis on thoughts, strengths and inspiration. The medical experts do not seem to assess the health of the client, they rather focus their attention on how to make the patient use his/her strength to a good extent.
+
+Practitioners recognize the perspective of the clients and try to turn them into reality. The idea is based on recognition of positive aspects, and emotions of individuals. The goal of such a treatment is to get you live your life with all your strength rather than simply lingering around painful events.
+
+Positive Psychology explains that unpleasing events should be forgotten and one should focus more on how to cope with fear, stress, sadness, anxiety and hatred. On the other side, positivity helps us live happily with joy, gratitude, hope and desire.
+
+IF YOU STILL FEEL THAT YOU HAVE TO GO LONG WAY TO ACQUIRE SUCH QUALITIES THEN NO NEED TO WORRY. JOIN OUR PROGRAM AND RUN ALONG!
+
+## **OUR PROGRAM**
+
+RESILIENS offer an outstanding program to help you deal with negativity and combat them with positivity. Our one and only goal is to work for you people all day and offer you the best of the best. We provide you with a number of sessions to work along and attain positivity. The only you need is, complete the sessions in time, that is, 7 days and similarly head over to the next session which gets changed by default. Our app even reminds you of the incomplete session everyday so that you do not miss out on them. You can even use the URL provided to change the session as per your choice but the time limit still doesn't change. These sessions are as follows: 
 
 
 
