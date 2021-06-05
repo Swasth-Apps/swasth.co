@@ -62,7 +62,38 @@ There can be a number of causes of a chronic pain but the most common of them ar
 
   Chronic pain not only affects your health and body but also your social life and mental wellbeing. The pain can generate other symptoms such as,
 
-   
+  * Anxiety
+  * Depression
+  * Poor sleep
+  * Feeling very tired or wiped out
+  * Irritability
+  * Guilt
+  * Loss of interest in sex
+  * Drug or alcohol abuse
+  * Marriage or family problems
+  * Job loss
+  * Suicidal thoughts
+
+  Chronic pain can be severe or mind and may continue for a long time or can even come and go frequently. The signs could be as follows,
+
+  * A dull ache
+  * Throbbing
+  * Burning
+  * Shooting
+  * Squeezing
+  * Stinging
+  * Soreness
+  * Stiffness
+
+    People with chronic pain require more care and medication to manage the throbbing pain but at the same time, they might get addicted to these drugs. Chronic pain affects the people of all ages but the ones who are the most affected are those with some kind of serious injury or surgery, females and obese.
+
+    ## **HOW CAN WE TREAT CHRONIC PAIN**
+
+     The actual motive of the treatment is to lessen the sensation of pain and boost immunity. The frequency, length and sensation of pain depends upon the individuals who are facing the problem. Thus, therapists create pain management plans which are specific to individuals. The pain management plan is based on the severity, symptoms and duration of your suffering. Cognitive Behavioral Therapy (CBT) together with other remedies can be at great help. To treat such severe pains, CBT is the most widely used therapy to treat patients. other therapy include weight loss, medications, physical therapy, massage and in rare cases, surgery. 
+
+    Cognitive Behavioral Therapy serves pain relief by different techniques which can be seen below:
+
+
 
 
 
