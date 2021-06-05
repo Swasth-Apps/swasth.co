@@ -93,6 +93,16 @@ There can be a number of causes of a chronic pain but the most common of them ar
 
     Cognitive Behavioral Therapy serves pain relief by different techniques which can be seen below:
 
+    **Encourages a problem-solving attitude:** CBT helps you take some step towards the cure instead of sitting and doing absolutely nothing to get rid off your pain.
+
+    **Involves homework:** Homework may include keeping track of thoughts and feelings linked with your pain.
+
+    **Fosters life skills:** CBT gives patients coping skills that they may use in their daily life while tackling the pain. You can use the learnt tactics to deal with your unbearable pain. 
+
+    **Allows you to do it yourself:** CBT allows you to cure the pain by yourself without the help of a therapist and can easily be applied to self-help.
+
+    ## **OUR PROGRAM**
+
 
 
 
