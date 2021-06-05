@@ -43,6 +43,12 @@ Procrastination is characterized as involving active and passive phases. In the 
 
 It becomes important to know all the patterns of procrastination so as to overcome it. A few of the patterns are mentioned below:
 
+**SOCIAL PROCRASTINATION**
 
+
+
+**PERSONAL PROCRASTINATION**
+
+**THE SOCIAL-PERSONAL CONNECTION**
 
 <!--EndFragment-->
