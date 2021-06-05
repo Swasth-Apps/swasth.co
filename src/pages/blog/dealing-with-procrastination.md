@@ -33,7 +33,11 @@ Procrastination varies depending on the level of severity of the behavior. It is
 
 ## **THE TWO-STAGE PROCESS OF PROCRASTINATION**
 
+Procrastination is a process that includes acts and patterns. Procrastination acts are general and random, and are inconsistent. Procrastination delays are intentional and there is no involvement of forgetfulness. It involves a sequence which initially involves feeling of discomfort about a task and then aimlessly travelling to another irrelevant task. In most cases, procrastination can be simple avoidance of an activity but usually it is a two-stage process.
 
+The first stage involves an urge to avoid a task for sometime or postpone it which does not come by itself but get stirred out of negative mood, discomfort, imagined condition or threat. The second stage also almost follows the first as you start reassuring yourself that the next is better since you simply tell yourself that nothing is at all wrong in delaying the task and you just need a warm-up.
+
+Procrastination is characterized as involving active and passive phases. In the active phase, individuals are into daydreaming and napping instead of completing the task. While passive phase includes making excuses and giving false justifications.
 
 
 
