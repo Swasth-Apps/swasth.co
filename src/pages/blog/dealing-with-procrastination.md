@@ -39,6 +39,10 @@ The first stage involves an urge to avoid a task for sometime or postpone it whi
 
 Procrastination is characterized as involving active and passive phases. In the active phase, individuals are into daydreaming and napping instead of completing the task. While passive phase includes making excuses and giving false justifications.
 
+## **PATTERNS OF PROSCRASTINATION**
+
+It becomes important to know all the patterns of procrastination so as to overcome it. A few of the patterns are mentioned below:
+
 
 
 <!--EndFragment-->
