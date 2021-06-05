@@ -89,8 +89,6 @@ Altering a Self-Doubt View: Two basic challenges arise when procrastination resu
 
 Apart from the access to talk to our mental health experts personally, we offer multiple sessions and lessons in our program called PROCRASTINATION. Where you can find numerous exercises, causes and helps to cure the mental disorder. The app is the only place where you get in touch with our experts as well. We are 24/7 ready to serve you the best of all because your happiness is our concern. You also get various meditation tasks from different professionals to help calm your mind. The exercises we offer keep you engaged and active through your time spent with RESILIENS. Not only that, you are supposed to clear your given session within a week whilst the app sends reminders until you complete the particular session. The sessions include:
 
-
-
 Session 1 - Introduction
 
 Session 2 - A Scientific approach to overcome Procrastination
