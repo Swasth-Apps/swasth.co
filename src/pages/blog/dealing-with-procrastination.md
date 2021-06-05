@@ -57,4 +57,8 @@ Personal and social procrastinations are much interlinked as your social behavio
 
 The consequences of such behaviors push you into deep thinking where you only find yourself regretting on your life decisions and feeling sorry for what you have done so far. Thus, such patterns not only affect you but also your personal as well as professional lives.
 
+## **CAUSES OF PROCRASTINATION**
+
+
+
 <!--EndFragment-->
