@@ -32,19 +32,19 @@ Body image isn't how we actually look, rather it is the perception of how we loo
 
 ![Body image](/img/future-of-act.jpg "Body image")
 
-**WHAT IS BODY DYSMORPHIA?**
+## **WHAT IS BODY DYSMORPHIA?**
 
 ![](/img/cbt-main-imp.jpg)
 
 Body dysmorphia is a disorder in which the people face issues with his/her own physical appearance. People with the disorder see themselves as the most unattractive, monstrous, flawed, ugly, etc. They get way too bothered about their looks most of the times. They spend almost half of their time in front of the mirror and evaluate themselves per the standards they have already set in their mind. Here in RESILIENS we offer the best programs to tackle such problems and break through them in no time. The app we have launched is the cure to all such bothering that gets you on track with the help of the world's best practitioners in our contact.
 
-**DIFFERENCE BETWEEN BDD AND GENERAL DISSATISFACTION**
+## **DIFFERENCE BETWEEN BDD AND GENERAL DISSATISFACTION**
 
 ![](/img/radi.jpg)
 
 Before jumping into conclusion, it is rather more important to know what exactly our problem is. Sometimes we may confuse general dissatisfaction with BDD while Body dysmorphia is not just a dissatisfaction but a condition which is most commonly linked with distress, depression, anxiety just to name a few. Those with the disorder remain all disturbed throughout the day with their minds preoccupied with the feeling of shame. Such people may also escape from social gatherings like family function or just a get together. Thus, it becomes so important to check on what you are actually going through. Our cognitive health experts help you in your journey with RESILIENS to stand by your side and gain confidence within yourself. 
 
-**WHY IS IT SO IMPORTANT TO GET RID OFF BODY DYSMORPHIA?**
+## **WHY IS IT SO IMPORTANT TO GET RID OFF BODY DYSMORPHIA?**
 
 ![](/img/cbt-vs-dbt.jpg)
 
@@ -72,7 +72,7 @@ Fear of future: *"soon I will be bald":* This form usually makes people pretty w
 
  But knowing the cause and working on it isn't something that can be achieved without an expert's help. You need to come out of your sphere to stir the cause with the company of an expert who can lead your way through the darkest to the brightest. This is what we provide you with. The only you need is to join hands with RESILIENS and follow our lead.
 
-**WE CAN BE AT GREAT HELP**
+## **WE CAN BE AT GREAT HELP**
 
 ![](/img/personal-control.jpg)
 
