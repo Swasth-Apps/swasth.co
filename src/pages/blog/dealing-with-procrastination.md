@@ -25,4 +25,12 @@ tags:
 ---
 <!--StartFragment-->
 
+## **WHAT IS PROCRASTINATION**
+
+If we trace back to the origin of the word " Procrastination", we find that it is taken from two LATIN words, pro and crastinate, which mean forward and tomorrow respectively. We often come across people say, " there is always a tomorrow to have wonders" and then they feel a tint of relief by thinking that they can complete the task tomorrow. The hidden meaning is based on the behavior of practicing a negative cycle. Once you attain procrastination, you start believing that delays won't cause any sort of harm or even if it does, it's not like it will affect your future in some way. You in fact begin postponing your plans or indulge in substituting an alternative activity.
+
+Procrastination varies depending on the level of severity of the behavior.  
+
+
+
 <!--EndFragment-->
