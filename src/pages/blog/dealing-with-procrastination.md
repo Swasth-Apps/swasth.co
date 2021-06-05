@@ -59,6 +59,34 @@ The consequences of such behaviors push you into deep thinking where you only fi
 
 ## **CAUSES OF PROCRASTINATION**
 
+Procrastination has been found to be linked with plenty of causes which could be considered as driving forces of procrastination. Some of these causes are:
+
+**Low Frustration Tolerance and Discomfort Dodging**
+
+Frustration is a part of our lives which cannot be fully avoided as it comes and goes by itself but managing frustration can be a challenging task to some people. Low frustration tolerance is a common trigger for discomfort dodging:
+
+ 1. you feel uncomfortable as you predict dealing with an unwanted situation;
+
+ 2. you realize the signs of discomfort, over-focus on them, and distract yourself from the task;
+
+ 3. You concentrate only on the tension, and this intensifies your feelings of stress.
+
+*Dealing with Low-Frustration-Tolerance Self-Talk -* The best way to deal with procrastination is self-talking as you get to know very well what exactly you did and how you can improve yourself.
+
+
+
+**Self-Doubt Procrastination** 
+
+Some people tend to doubt themselves and underestimate their strengths, and thus hesitate. This behavior results in a number of failures as people get afraid of taking risks and challenges until there is some sort of assurance that you can succeed.
+
+Altering a Self-Doubt View: Two basic challenges arise when procrastination results in self-doubting.
+
+ 1. to generate a belief system based on facts about yourself;
+
+ 2. To be assertive and firm to commit to a task and avoid the delay thus developing self-regulating skills and a sense of self-efficacy.
+
+## **OUR PROGRAM AND THE TREATMENT**
+
 
 
 <!--EndFragment-->
