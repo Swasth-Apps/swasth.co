@@ -84,7 +84,7 @@ Session 2:
 
  **Forms**; which comprises of
 
-Muscle of dysmorphia: Those with muscle dysmorphia may feel that their body is too small or not muscular enough.
+Muscle dysmorphia: Those with muscle dysmorphia may feel that their body is too small or not muscular enough.
 
  BDD by proxy: People with BDD by proxy may worry constantly about others' appearance.
 
