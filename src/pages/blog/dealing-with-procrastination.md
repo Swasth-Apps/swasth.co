@@ -45,10 +45,16 @@ It becomes important to know all the patterns of procrastination so as to overco
 
 **SOCIAL PROCRASTINATION**
 
-
+Procrastination can have some serious affects on your social life especially your work. You try to find excuses for your delay in the task and come up with some or the other justifications. This may cause a tug-of-war within yourself as you find it difficult to catch up with all the activities around you or remain under stress since you postponed your work and another task is already up. You may get fired or penalized after a few warnings.
 
 **PERSONAL PROCRASTINATION**
 
+This pattern of procrastination arises when you delay your personal development or self-improvement continuously. You may also start avoiding your dear ones or might taking risks related to achieving goals which ultimately turns you into someone who runs away from quitting some seriously bad habits.
+
 **THE SOCIAL-PERSONAL CONNECTION**
+
+Personal and social procrastinations are much interlinked as your social behavior somehow affects your personal life and vice versa. The person who avoids or delays his/her work at office or his/her respective workplace seem to lose a significant amount of money as a pay cut which badly affects our financial status. Similarly, personal avoidance at some level impacts your professional life. For example, not completing the homework within the given time might cause your teacher to look down upon you.
+
+The consequences of such behaviors push you into deep thinking where you only find yourself regretting on your life decisions and feeling sorry for what you have done so far. Thus, such patterns not only affect you but also your personal as well as professional lives.
 
 <!--EndFragment-->
