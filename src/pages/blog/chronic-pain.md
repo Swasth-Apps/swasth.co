@@ -29,4 +29,18 @@ tags:
 ---
 <!--StartFragment-->
 
+## **UNDERSTANDING CHRONIC PAIN**
+
+As you already know that a pain is any sort of response of body towards the injury or trauma caused, It is an indication that something is off. Generally, your body lose the sense of the pain as your body starts to combat against it. In some cases, the pain remains as long as an year or it may even get cured after a short-term treatment within a week. So, when it goes above a time span of 3 months or so, it is called as chronic pain. Consequently, you see negative effects on your emotional and physical wellbeing.
+
+Chronic pain is different from other kinds of pain as your body feels the pain for a long duration which is not common. This kind of pain may affect your day-to-day life and cognitive wellness. The sensation grows and can be felt when ir passes through your nervous system. The communication of different parts related to the nervous system start right from there which eventually reaches your nerve and then the cerebrum. Normally, the sensation comes to a halt when your body fixes the injury or trauma, but the nerve cells might get activated any time even after your recovery.
+
+Over 25% of the population with chronic pain suffers from a condition called CHRONIC PAIN SYNDROME which occurs when individuals face more problems apart from pain alone. Although, chronic pain is difficult to treat but it can certainly be reduced to its minimum with the help of different  techniques and therapies.
+
+## **CAUSES OF CHRONIC PAIN**
+
+There can be a number of causes of a chronic pain but the most common of them are as follows:
+
+ 
+
 <!--EndFragment-->
