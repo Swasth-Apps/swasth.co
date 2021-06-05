@@ -103,8 +103,28 @@ There can be a number of causes of a chronic pain but the most common of them ar
 
     ## **OUR PROGRAM**
 
+    Our program will help you deal with CHRONIC PAIN. This program uses a step-by-step approach to treat chronic pain and is based on Cognitive Behavioral Therapy. CBT is the idea of interpreting situations and influencing our feelings. Therefore, we add sessions to cure maladaptive thoughts and move ahead sequentially to help you overcome this problem.
 
+    The sessions that make up the program are: 
 
+SESSION 1: INTRODUCTION
 
+SESSION 2: LINK WITH MENTAL HEALTH
+
+SESSION 3: CBT MODEL 
+
+SESSION 4: COGNITIVE RESTRUCTURING
+
+SESSION 5: THOUGHT BLOCKING
+
+SESSION 6: MINDFULNESS AND RELAXATION
+
+SESSION 7: Guided Imagery 
+
+SESSION 8: SOCIAL SKILLS TO COMBAT CHRONIC PAIN 
+
+These sessions come with a time limit of 7 days and you are supposed to complete each session within a week, although you may complete them later in case of some urgency. After completing one session you will land into another session by default. Also, you get the facility of URL to change the sessions as per your choice but here again the time limit remains the same. Apart from these sessions, we have a panel of experts whom you can contact anytime throughout your journey with RESILIENS. We work as a team to help you out 24/7. 
+
+SO DO NOT HESITATE AND GRAB THE PROGRAM!
 
 <!--EndFragment-->
