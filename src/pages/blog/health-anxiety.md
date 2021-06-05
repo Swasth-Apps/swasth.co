@@ -108,7 +108,7 @@ Session 7: Challenging avoidance and safety behaviors
 
 Session 8: Self- management
 
-These sessions come a time limit of 7 days as you need to complete each session within a week. Later you will land into another session by default. Also, you get the facility of URL to change the sessions as per your choice but here again the time limit remains the same. Apart from these sessions, we have a panel of experts whom you can contact anytime throughout your journey with RESILIENS. We work as a team to help you out 24/7. 
+These sessions come a time limit of 7 days as you need to complete each session within a week. Later you will land into another session by default, although you may complete the session later in case of some urgency. Also, you get the facility of URL to change the sessions as per your choice but here again the time limit remains the same. Apart from these sessions, we have a panel of experts whom you can contact anytime throughout your journey with RESILIENS. We work as a team to help you out 24/7. 
 
 SO DO NOT HESITATE AND GRAB THE PROGRAM!
 
