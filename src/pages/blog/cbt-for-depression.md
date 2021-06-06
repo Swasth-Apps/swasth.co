@@ -65,6 +65,20 @@ Depression has never been a choice but it just comes by itself. It comes with a 
 
 ## **CBT VS. OTHER TREATMENT APPROACHES**
 
-CBT is the therapy that combats depression through all the ways. CBT focuses on the relation among our thoughts, emotions and actions. In its actual form, it shows how modifying the thoughts can help you overcome depression.
+CBT is the therapy that combats depression through all the ways. CBT focuses on the relation among our thoughts, emotions and actions. In its actual form, it shows how modifying the thoughts can help you overcome depression. Some of the benefits of using CBT over other methods could be as follows:
+
+1. CBT is based on the concept that our thoughts, feelings, physical sensations and actions are interlinked, and that negative thoughts and feelings can trap you in a vicious cycle.
+
+2. CBT aims to help you deal with overwhelming problems in a positive way by breaking them down into smaller parts.
+
+3. You're shown how to change these negative patterns to improve the way you feel about particular things.
+
+4. Unlike some other talking treatments, CBT deals with your current problems, rather than focusing on issues from your past, that helps you as a back-support.
+
+5. It looks for practical ways to improve your state of mind.
+
+## **TREATMENT THROUGH OUR PROGRAM**
+
+
 
 <!--EndFragment-->
