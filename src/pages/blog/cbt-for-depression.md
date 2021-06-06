@@ -79,6 +79,37 @@ CBT is the therapy that combats depression through all the ways. CBT focuses on 
 
 ## **TREATMENT THROUGH OUR PROGRAM**
 
+There are some elements which can help us combat these factors which cause depression. In this program we will be helping you deal with all such factors with the help of world-known experts. Our program is so designed that every aspects of all these factors will be zoom-viewed, thereby helping you overcome depression. We use a step-by-step approach to overcome this conduct. Studies have also proved how efficient CBT( Cognitive Behavioral Therapy) is, in depression. 
 
+The sessions that make up the program are: 
+
+Session 1: What is depression?
+
+ Session 2 Thoughts, Actions and Emotions
+
+Session 3 Thought record
+
+ Session 4 What is cognitive restructuring?
+
+Session 5 Relaxation
+
+Session 6: Black and White Thinking 
+
+Session 7: Jumping to Conclusions 
+
+Session 8: What is Behavioral Activation? 
+
+Session 9: Importance of maintaining routine in depression
+
+Session 10: Importance of social relationships in depression
+
+Session 11: Social skills
+
+Session 12:  What is Relaxation? 
+
+Although, to a great extent, it is up to you if this program is proved beneficial for you but to a great extent we try our level best to lead your tract throughout your stay at RESILIENS. To get the best result out of the program, you are advised to complete all your sessions in time and remain cautious if you miss on any session any week. You will get a gentle reminder everyday though. Finish each of the sessions within the given time which most likely remains a week. You are also provided with a URL to change the session par your choice but the time limits still remains the same. As you know WHEN THERE IS A WILL, THERE IS  WAY and so is your self-strength that helps you maintain the track of life.
+
+\
+**COME ON! FIGHTING!**
 
 <!--EndFragment-->
