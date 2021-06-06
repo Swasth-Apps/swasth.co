@@ -63,6 +63,8 @@ Depression has never been a choice but it just comes by itself. It comes with a 
 * **Death or a loss.** Sadness or [grief](https://www.webmd.com/balance/normal-grieving-and-stages-of-grief) after the death or loss of a loved one, though natural, can increase the risk of depression.
 * **Gender.** Women are about twice as likely as men to become depressed. No one's sure why. The hormonal changes that women go through at different times of their lives may play a role
 
+## **CBT VS. OTHER TREATMENT APPROACHES**
 
+CBT is the therapy that combats depression through all the ways. CBT focuses on the relation among our thoughts, emotions and actions. In its actual form, it shows how modifying the thoughts can help you overcome depression.
 
 <!--EndFragment-->
