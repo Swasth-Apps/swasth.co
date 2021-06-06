@@ -40,6 +40,16 @@ This is the optimum place where you have eventually landed. So, do not panic and
 
 Basically, depression consists of a clinical condition that includes a number of symptoms, both psychological and physical. Some of these symptoms are:
 
+* Persistent low mood
+* Little to no interest in the things that we have previously enjoyed
+* Uncharacteristically decreased or increased appetite
+* Consistent fatigue or lack of energy
+* Poor sleep (insomnia) or sleeping too much (hypersomnia)
+* Reduced ability to concentrate
+* Consistent feelings of guilt or worthlessness
+* Feelings of restlessness or a reduction of physical movement
+* Recurrent thoughts of death, sometimes including suicidal plans or urges
 
+But depression varies from simple sadness which is naturally occurs to long lasting triggers. But most commonly, depression persists for a long period of time.
 
 <!--EndFragment-->
