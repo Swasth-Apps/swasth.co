@@ -52,4 +52,17 @@ Basically, depression consists of a clinical condition that includes a number of
 
 But depression varies from simple sadness which is naturally occurs to long lasting triggers. But most commonly, depression persists for a long period of time.
 
+## **WHY AM I DEPRESSED?**
+
+Depression has never been a choice but it just comes by itself. It comes with a train of emotions and frequent mood swings that often requires counseling. It is believed  that depression symbolizes a combination of biology, environment, and personality, and the way we look at a situation or trigger tends to carve our emotional response. We are aware of the feelings and thoughts that reside in our subconscious, but once we are supposed to pay attention to them.
+
+* **Abuse.** Physical, sexual, or emotional abuse can make you more vulnerable to depression later in life.
+* **Age.** People who are elderly are at higher risk of depression. That can be made worse by other factors, such as living alone and having a lack of social support.
+* **Certain [medications](https://www.webmd.com/drugs/index-drugs.aspx).** Some drugs, such as [isotretinoin](https://www.webmd.com/drugs/2/drug-6662/isotretinoin+oral/details) (used to treat [acne](https://www.webmd.com/skin-problems-and-treatments/acne/default.htm)), the antiviral drug [interferon](https://www.webmd.com/drugs/2/drug-37/interferon+alfa-2b+injection/details)-alpha, and corticosteroids, can increase your risk of depression.
+* **Conflict.** Depression in someone who has the biological vulnerability to it may result from personal conflicts or disputes with family members or friends.
+* **Death or a loss.** Sadness or [grief](https://www.webmd.com/balance/normal-grieving-and-stages-of-grief) after the death or loss of a loved one, though natural, can increase the risk of depression.
+* **Gender.** Women are about twice as likely as men to become depressed. No one's sure why. The hormonal changes that women go through at different times of their lives may play a role
+
+
+
 <!--EndFragment-->
