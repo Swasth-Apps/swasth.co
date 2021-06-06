@@ -69,7 +69,7 @@ IN OUR PROGRAM, WE WILL DIVE DEEP INTO ALL THE FACTORS AND WILL SEE HOW WE CAN T
 
 ## **OVERCOME ANXIETY**
 
-As we just now discussed above, several factors that push us to fall into the ocean of anxiety. Fortunately, there are some elements which can help us combat these factors. In this program we will be helping you deal with all such factors with the help of world-known experts. Our program are so designed that every aspects of all these factors will be zoom-viewed, thereby helping you overcome your fear and ultimately make you fight your insecurities and social anxiety. We use a step-by-step approach to overcome this conduct. Studies have also proved how efficient CBT( Cognitive Behavioral Therapy) is, in dealing with anxiety. The technique has been found beneficial for the ones with interaction-fear as well.
+As we just now discussed above, several factors that push us to fall into the ocean of anxiety. Fortunately, there are some elements which can help us combat these factors. In this program we will be helping you deal with all such factors with the help of world-known experts. Our program is so designed that every aspects of all these factors will be zoom-viewed, thereby helping you overcome your fear and ultimately make you fight your insecurities and social anxiety. We use a step-by-step approach to overcome this conduct. Studies have also proved how efficient CBT( Cognitive Behavioral Therapy) is, in dealing with anxiety. The technique has been found beneficial for the ones with interaction-fear as well.
 
 The sessions that make up the program are: 
 
@@ -87,7 +87,7 @@ Session 6: Calm your mind 
 
 Session 7: Maintaining gains and dealing with setbacks
 
-Although, it is up to you if this program is proved beneficial for you but to a great extent we try our level best to lead your tract throughout your stay at RESILIENS. To get the best result out of the program, you are advised to complete all your sessions in time and remain cautious if you miss on any session any week. You will get a gentle reminder everyday though. Finish each of the sessions within the given time which most likely remains a week. You are also provided with a URL to change the session par your choice but the time limits still remains the same. As you know WHEN THERE IS A WILL, THERE IS  WAY and so is your self-strength that helps you maintain the track of life.
+Although, it is up to you if this program is proved beneficial for you but to a great extent we try our level best to lead your tract throughout your stay at RESILIENS. To get the best result out of the program, you are advised to complete all your sessions in time and remain cautious if you miss on any session any week. You will get a gentle reminder everyday though. Finish each of the sessions within the given time which most likely remains a week. You are also provided with a URL to change the session par your choice but the time limits still remains the same. As you know WHEN THERE IS A WILL, THERE IS A WAY and so is your self-strength that helps you maintain the track of life.
 
 **DO NOT THINK MUCH! COME ALONG, FIGHTING!!!**
 
