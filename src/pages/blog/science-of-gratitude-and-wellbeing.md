@@ -96,6 +96,22 @@ For groups:
 
 Gratitude helps us find ways to express how grateful we are to have the support and to have the people themselves with us.
 
+## **HOW TO MEASURE WELL -BEING**
+
+What is satisfaction?
+
+According to a Dutch happiness expert Veenhoven, it refers to “the degree to which a person evaluates the overall quality of his or her present life-as-a-whole positively”.
+
+Instant satisfaction is a passing, often sensory experience of life aspects – examples include listening to a great piece of music or eating a delicious piece of pie.
+
+Domain satisfaction is all about enduring, continued appreciation of a life domain – being satisfied with your academic career, or your marriage.
+
+Top Experience describes passing satisfaction with your life all in all; short-lived but intense, as “a moment of happiness”.
+
+Finally, Core Meaning/Happiness refers to enduring, overall satisfaction with life. It is considered as ‘durable’ and authentically described as ‘life satisfaction.
+
+If we summarize the facts, we find that satisfaction is actually associated with subjective well-being
+
 
 
 <!--EndFragment-->
