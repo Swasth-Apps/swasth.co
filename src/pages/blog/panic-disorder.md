@@ -79,4 +79,41 @@ Considering the studies so far with respect to gender, it has been found out tha
 
 While a report states that individuals may also feel like they may faint anytime while having an attack. However, this statement cannot be true as the biological system related to fainting is exactly opposite to that of the one which produces panic attacks.
 
+## **CAUSES OF PANIC ATTACKS**
+
+**TEMPERAMENTAL CAUSES**
+
+Factors identified for the onset of panic attacks are negative affectivity which is proneness to experiencing negative emotions, and anxiety sensitivity, that is, the disposition to believe that symptoms of anxiety are harmful. Although their risk status for the diagnosis of panic disorder is unknown. Due to this, the person has an increased focus on bodily sensations such as tightness in the chest, breathlessness, dizziness, sweating because they are worried about having a panic attack.
+
+**ENVIRONMENTAL CAUSES**
+
+* Chronic physical illnesses such as cancer
+* Experiencing a significant personal loss, including break-up with a romantic partner
+* Significant life changes such as losing a job, becoming a parent, and moving house
+* ‘Maintaining’ behavior such as avoiding panic-provoking situations or environments, anxious/negative self-talk, dysfunctional beliefs, and feelings.
+
+**PHYSIOLOGICAL CAUSES**
+
+* Chronic ***stress***
+* An existing mental health condition such as ***anxiety**, **depression**, **obsessive compulsive disorder (OCD)**, or **post-traumatic stress disorder (PTSD)***
+* ***Phobias*** - people may experience panic attacks as a direct result of exposure to a phobic object or situation
+* Lack of assertiveness - a growing body of evidence supports the idea that those who suffer from panic attacks engage in a passive style of communication or interactions with others
+* Low self-esteem
+
+## **TREATMENT UNDER OUR PROGRAM**
+
+**Cognitive behavioral therapy (CBT)** 
+
+Can help people with panic disorder learn new ways of thinking and reacting to anxiety-provoking situations. As part of the CBT process, therapists help clients identify and challenge negative or unhelpful patterns of thinking and replace these thoughts with more realistic and helpful ways of thinking.
+
+Our program will help you deal with health anxiety. This program uses a step-by-step approach to treat health anxiety and is based on Cognitive Behavioral Therapy. CBT is the idea of interpreting situations and influencing our feelings. Therefore, we add sessions to cure maladaptive thoughts and move ahead sequentially to help you overcome this problem.
+
+The sessions that make up the program are: 
+
+
+
+These sessions come a time limit of 7 days as you need to complete each session within a week. Later you will land into another session by default, although you may complete the session later in case of some urgency. Also, you get the facility of URL to change the sessions as per your choice but here again the time limit remains the same. Apart from these sessions, we have a panel of experts whom you can contact anytime throughout your journey with RESILIENS. We work as a team to help you out 24/7. 
+
+**THIS TIME, DO TAKE THE COURAGE TO PICK THE RIGHTEST! DON'T PANIC! JOIN RESILINS!**
+
 <!--EndFragment-->
