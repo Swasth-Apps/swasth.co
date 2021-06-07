@@ -82,6 +82,12 @@ Depressive Disorders
 
   ## **CAUSES OF BIPOLAR DISORDER**
 
+  Bipolar disorder appears from a combination of factors.
 
+  **Genetic factors**: Bipolar disorder is more common in those who have a family member with the condition. A number of [genetic features](https://www.medicalnewstoday.com/articles/324436) may be involved.
 
-<!--EndFragment-->
+  **Biological traits**: Research suggests that imbalances in neurotransmitters or hormones that affect the brain may play a role.
+
+  **Environmental factors**: Life events, such as abuse, mental [stress](https://www.medicalnewstoday.com/articles/145855.php "Why stress happens and how to manage it"), a “significant loss,” or another traumatic event, may trigger an initial episode in a susceptible person
+
+  Bipolar disorder is a relatively common but serious mental health condition that involves changes in mood, energy levels, and attention, alongside other symptoms. It can severely disrupt a person’s life, but treatment can drastically improve the outlook. Treatment may not eliminate mood changes entirely, but working closely with a doctor can make symptoms more manageable and maximize quality of life.
