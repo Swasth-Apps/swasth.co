@@ -33,4 +33,50 @@ Panic disorder is a type of [anxiety disorder](https://medlineplus.gov/anxiety.
 
 Considering the studies so far with respect to gender, it has been found out that women are more prone to panic disorder, almost twice or thrice more likely to be affected than men. The cause of such a difference could be mental instability because of separation or divorce.
 
+## **CHARACTERISTICS FEATURES OF PANIC DISORDER**
+
+**Panic Attack Symptoms** 
+
+• Skipping, racing or pounding heart
+
+• Sweating 
+
+• Trembling or shaking 
+
+• Shortness of breath or difficulty breathing 
+
+• Choking sensations 
+
+• Chest pain, pressure or discomfort 
+
+• Nausea, stomach problems or sudden diarrhea 
+
+• Dizziness, lightheadedness, feeling faint 
+
+• Tingling or numbness in parts of your body 
+
+• Chills or heat sensations 
+
+• Feeling things around you are strange, unreal, detached, unfamiliar, or feeling detached from body 
+
+• Thoughts of losing control or going crazy 
+
+• Fear of dying 
+
+**Characteristics of a Panic Attack** 
+
+• It peaks quickly - between 1 to 10 minutes 
+
+• The apex of the panic attack lasts for approximately 5 to 10 minutes (unless constantly rekindled) 
+
+• The initial attack is usually described as “coming out of the blue” and not consistently associated with a specific situation, although with time panics can become associated with specific situations 
+
+• The attack is not linked to marked physical exertion 
+
+• The attacks are recurrent over time 
+
+• During an attack the person experiences a strong urge to escape to safety 
+
+While a report states that individuals may also feel like they may faint anytime while having an attack. However, this statement cannot be true as the biological system related to fainting is exactly opposite to that of the one which produces panic attacks.
+
 <!--EndFragment-->
