@@ -91,3 +91,30 @@ Depressive Disorders
   **Environmental factors**: Life events, such as abuse, mental [stress](https://www.medicalnewstoday.com/articles/145855.php "Why stress happens and how to manage it"), a “significant loss,” or another traumatic event, may trigger an initial episode in a susceptible person
 
   Bipolar disorder is a relatively common but serious mental health condition that involves changes in mood, energy levels, and attention, alongside other symptoms. It can severely disrupt a person’s life, but treatment can drastically improve the outlook. Treatment may not eliminate mood changes entirely, but working closely with a doctor can make symptoms more manageable and maximize quality of life.
+
+  ## **TREATMENT AT RESILIENS**
+
+  RESILIENS offer an outstanding program to help you deal with Bipolar disorder and combat them with positivity. Our one and only goal is to work for you people all day and offer you the best of the best. We provide you with a number of sessions to work along and attain positivity. The only you need is, complete the sessions in time, that is, 7 days and similarly head over to the next session which gets changed by default. Our app even reminds you of the incomplete session everyday so that you do not miss out on them. You can even use the URL provided to change the session as per your choice but the time limit still doesn't change. These sessions are as follows: 
+
+  SESSION 1: Introduction
+
+  SESSION 2 : CBT as an approach for Bipolar
+
+  SESSION 3 : Cognitive Restructuring
+
+  SESSION 4 : Cognitive strategies for bipolar disorder
+
+  SESSION 5 - Behavioral Strategies/Techniques
+
+  SESSION 6 : Relaxation Training
+
+  SESSION 7: Visualization and Imagery
+
+  SESSION 8: Coping with relapse
+
+  Not only that, but we also have a panel of experts of mental health who help you out throughout your stay at RESILIENS. You can get into interaction with them whenever you want. They are available all the time to support you and and help you strengthen your weaknesses.
+
+  \
+  **LEAVE EVERYTHING UPON US! GET ABOARD RESILIENS!**
+
+  <!--EndFragment-->
