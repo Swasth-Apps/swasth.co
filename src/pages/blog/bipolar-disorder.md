@@ -33,6 +33,23 @@ Mood disorders are at times referred to as affective disorder which is a tern th
 
 ## **TYPES OF MOOD DISORDERS**
 
+Bipolar and related disorders
+
+* Bipolar I Disorder
+* Bipolar II Disorder
+* Cyclothymia
+* Bipolar Disorder caused due to substance/medication
+
+Depressive Disorders
+
+* Major Depressive Disorder (MDD)on
+* Persistent Depressive Disorder (PDD)Dysthymia
+* Disruptive Mood Dysregulation Disorder
+* Premenstrual dysphoric disorder (PMDD)
+* Depressive Disorder caused due to substance/medication
+
+  ## UNDERSTANDING BIPOLAR DISORDER
+
 
 
 <!--EndFragment-->
