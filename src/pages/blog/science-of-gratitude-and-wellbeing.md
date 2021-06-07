@@ -66,6 +66,36 @@ By consciously practicing gratitude, we can train the brain to attend selectivel
 
  By displacing our attention from problems to solutions, gratitude practices hit the serotonin, dopamine, and oxytocin – neurotransmitters that make us feel good. With the surge of these chemicals in the brain, the apathy gets healed, and we revive the motivation that depression had sucked away.
 
+## **BENEFITS OF GRATITUDE**
+
+. Some of the significant benefits of gratitude are:
+
+* Gratitude relieves us from toxic emotions.
+* Gratitude helps even if the other person does not acknowledge it.
+* Gratitude has positive effects on the brain and body.
+
+For the individual:
+
+* increased happiness and positive mood
+* more satisfaction with life
+* less materialistic
+* less likely to experience burnout
+* better physical health
+* better sleep
+* less fatigue
+* lower levels of cellular inflammation
+* greater resiliency
+* encourages the development of patience, humility, and wisdom.
+
+For groups:
+
+* increases prosocial behaviors
+* strengthens relationships
+* may help employees’ effectiveness
+* may increase job satisfaction.
+
+Gratitude helps us find ways to express how grateful we are to have the support and to have the people themselves with us.
+
 
 
 <!--EndFragment-->
