@@ -26,6 +26,12 @@ tags:
 ---
 <!--StartFragment-->
 
+## **UNDERSTANDING GRATITUDE**
+
+Gratitude is a thought when you are undergoing any sort of anxiety or stress. A gratitude formula can help you recognize and admire positive elements of your everyday life. If we dive deep into the meaning of gratitude, we find that it is derived from Latin word, gratia, which means graciousness or gratefulness. Gratitude is an acknowledgement for something tangible as well as intangible.
+
+ People who regularly practice gratitude by spending time to notice and reflect upon the things they're thankful for experience more positive emotions, feel more alive, sleep better, express more compassion and kindness, and even have stronger immune systems. And gratitude doesn't need to be reserved only for momentous occasions: Sure, you might express gratitude after receiving a promotion at work, but you can also be thankful for something as simple as a delicious piece of pie.
+
 
 
 <!--EndFragment-->
