@@ -50,6 +50,10 @@ Depressive Disorders
 
   ## UNDERSTANDING BIPOLAR DISORDER
 
+  Bipolar disorders are common, disabling, recurrent mental health conditions. Onset often occurs in late childhood or early adolescence. Patients with bipolar disorders have higher rates of other mental health disorders and general medical conditions. The term Bipolar disorder means to have dual poles which refers to different emotional states of patients. It is categorized by the experience of changes in moods from extremely high to super low sensation of a particular emotion. These sudden changes in moods can significantly affect the social, mental and personal life of the person suffering from mood swings. Also, it is crucial to take into account that all the individuals suffering from this disorder do not always have the same experience. They are all different in their own ways.  Active management of body weight reduces complications and improves lipid control. Patients and their support systems should be educated about mood relapse, suicidal ideation, and the effectiveness of early intervention to reduce complications.
+
+
+
 
 
 <!--EndFragment-->
