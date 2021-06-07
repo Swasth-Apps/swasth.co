@@ -25,4 +25,14 @@ tags:
 ---
 <!--StartFragment-->
 
+## **WHAT IS MOOD DISORDER?**
+
+Mood disorders may include depression only (also known as “unipolar depression”) or they may include manic episodes (as in bipolar disorder, which is widely known as “manic depressive illness”). Individuals with mood disorders suffer significant distress and impairment in social, occupational, educational and other important areas of functioning. Individuals with depression feel worthless, sad and empty to the extent that these feelings impair effective functioning. They may also lose interest in their usual activities, experience a change in appetite, suffer from disturbed sleep or have decreased energy. Individuals with mania are overly energetic and may do things that are out of character, such as spending very freely and acquiring debt, breaking the law or showing lack of judgement in sexual behavior. These symptoms are severe and last for several weeks, interfering with relations and social life.
+
+Mood disorders are at times referred to as affective disorder which is a tern that is further classified as depressive disorders, bipolar disorders, and other related disorders. The mood of a person can quickly change from depressed to sad, empty to euphoric, sad to happy and a lot more. 
+
+## **TYPES OF MOOD DISORDERS**
+
+
+
 <!--EndFragment-->
