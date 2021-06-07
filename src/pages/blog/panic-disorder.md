@@ -106,11 +106,23 @@ Factors identified for the onset of panic attacks are negative affectivity which
 
 Can help people with panic disorder learn new ways of thinking and reacting to anxiety-provoking situations. As part of the CBT process, therapists help clients identify and challenge negative or unhelpful patterns of thinking and replace these thoughts with more realistic and helpful ways of thinking.
 
-Our program will help you deal with health anxiety. This program uses a step-by-step approach to treat health anxiety and is based on Cognitive Behavioral Therapy. CBT is the idea of interpreting situations and influencing our feelings. Therefore, we add sessions to cure maladaptive thoughts and move ahead sequentially to help you overcome this problem.
+Our program will help you deal with panic disorder. This program uses a step-by-step approach to treat the disorder and is based on Cognitive Behavioral Therapy. CBT is the idea of interpreting situations and influencing our feelings. Therefore, we add sessions to cure maladaptive thoughts and move ahead sequentially to help you overcome this problem.
 
 The sessions that make up the program are: 
 
+Session 1 - Introduction to Panic Disorder
 
+Session 2 - CBT as an approach for Panic Disorder
+
+Session 3 - Unhelpful Thinking Styles and Modification
+
+Session 4 : Cognitive Restructuring (Challenging Your Style of Thinking)
+
+Session 5 -  Exposure to Internal Sensations
+
+Session 6 - Relaxation Training
+
+Session 7 - Coping with relapse
 
 These sessions come a time limit of 7 days as you need to complete each session within a week. Later you will land into another session by default, although you may complete the session later in case of some urgency. Also, you get the facility of URL to change the sessions as per your choice but here again the time limit remains the same. Apart from these sessions, we have a panel of experts whom you can contact anytime throughout your journey with RESILIENS. We work as a team to help you out 24/7. 
 
