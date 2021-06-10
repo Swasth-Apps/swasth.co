@@ -82,25 +82,13 @@ In some cases, chronic pain may even be triggered by sleep disorders. 
 
 It can be difficult for you to fall asleep or to stay asleep if you are stressing about something. Nightmares, sleep talking, or sleepwalking are some of the common symptoms in such cases.
 
-
-
-Vicious Cycle of Insomnia and Poor Mental Health
-
-
-
-Insomnia can directly affect our state of mind. Prolonged grief, anxiety and stress often disrupts our sleep patterns, which is why we often tend to stay awake when we are sad or stressed. 
+## **Vicious Cycle of Insomnia and Poor Mental Health**
 
 
 
-Infact, insomnia can cause mental health problems like depression, addiction issues etc. which in turn exacerbates insomnia. This is a vicious cycle.
+ Although many health care professionals as well as the public may minimize its importance, but insomnia may have short- and long-term consequences. At the very least, insomnia results in daytime fatigue, decreased mood, and general malaise. In more severe cases it may cause impaired occupational and social functioning. In addition, there is substantial evidence that insomnia dramatically increases risks for medical complaints, alcohol and drug abuse, and serious psychiatric illnesses. Moreover, insomnia alone contributes to increased health costs and utilization among affected individuals and, in turn, escalates health care costs for society in general.
 
-
-
-It's important to consult your doctor when you experience sleep problems to make sure any underlying medical condition isn't disrupting your sleep. Some people take the help of medicines to recover from insomnia and that can be useful, in the short term. 
-
-
-
-But here is some good news. There is an effective and long-term solution to your sleep disorder that works without medication - Cognitive behavioral Therapy for Insomnia.  
+Insomnia can straight up affect our state of mind. Long-term grief, anxiety and stress often disrupts our sleep patterns, which is why we often tend to stay awake when we are sad or stressed. Insomnia can cause mental health problems like depression, addiction issues etc. which in turn exacerbates insomnia. This is a vicious cycle. It's important to consult your doctor when you experience sleep problems to make sure any underlying medical condition isn't disrupting your sleep. Some people take the help of medicines to recover from insomnia and that can be useful, in the short term. 
 
 
 
