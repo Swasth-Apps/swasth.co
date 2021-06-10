@@ -31,4 +31,26 @@ tags:
 ---
 <!__StartFragment-->
 
+## **UNDERSTANDING SELF-HARM**
+
+ Self-harm, often simply called self-injury, is the act of deliberately harming your own body, such as cutting or burning yourself. It's typically not meant as a suicide attempt. Rather, this type of self-injury is a harmful way to cope with emotional pain, intense anger and frustration.
+
+While self-injury may bring a momentary sense of calm and a release of tension, it's usually followed by guilt and shame and the return of painful emotions. Although life-threatening injuries are usually not intended, with self-injury comes the possibility of more-serious and even fatal self-aggressive actions. Getting appropriate treatment can help you learn healthier ways to cope. Self-harm usually comes into effect sneakily and at the place where people barely go and is done the way so that it naturally leaves a mark on the body. Some of such examples include:
+
+* Cutting (cuts or severe scratches with a sharp object)
+* Scratching
+* Burning (with lit matches, cigarettes or heated, sharp objects such as knives)
+* Carving words or symbols on the skin
+* Self-hitting, punching or head banging
+* Piercing the skin with sharp objects
+* Inserting objects under the skin
+
+Mostly, hands, legs and torso are primarily targeted to harm oneself, but any other area of the body could also be used. People with the mindset of self-harm can injure themselves at different parts of the body.
+
+## **SYMPTOMS OF SELF-HARM**
+
+
+
+<!--EndFragment-->
+
 <!--EndFragment-->
