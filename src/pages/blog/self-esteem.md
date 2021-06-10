@@ -43,6 +43,34 @@ When you have low self-esteem, you tend to see yourself, the world, and your fut
 
 Nobody is born with low self-esteem – it develops as a result of the experiences we have throughout our lives. At the center of low self-esteem are the beliefs and opinions we hold about ourselves. We tell ourselves stories about who we are and form conclusions about ourselves. These opinions can get fixed as thoughts that they are ‘truths’ for all time. In reality, they are just stories or labels, and they don’t capture the full truth of who we are.
 
-<
+## **DEVELOPMENT OF LOW SELF-ESTEEM**
+
+Self-esteem is the factor that defines how we feel about ourselves in a positive manner or negative manner and we form some beliefs about ourselves. Although these beliefs are not formed within seconds, they take a period. The beliefs start growing within ourselves since childhood which may continue till adulthood. Thus, our views about ourselves could be either positive or negative as both of them construct our mind. A few examples of developments of negative beliefs about ourselves could involve the following;
+
+PUNISHMENT, NEGLECTION, ABUSE
+
+Maltreatment, punishment and neglect, abandonment and being abused in various forms leaves deep seated emotional and psychological effects. Development of low self-esteem may also come from the trauma received by parents for a long time. Being bullied or humiliated by colleagues could be another add on.
+
+NOT FITTING AT HOME OR AT SCHOOL
+
+It is quite difficult for a few people to break the standards of ODD ONE OUT for themselves which may cause some serious mental disfunction causing them to acquire low self-esteem and continue the same lifelong.
+
+DIFFICULTY IN MEETING PEER GROUP STANDARDS
+
+This difficulty usually arises during the period of adolescence when our parents or relatives, in fact, even teachers compare us with those students with high standards at anything, be it study, sports, drawing or other activities. Not being able to match their level causes mental trauma.
+
+BEING ON RECEIVING END OF PEOPLE'S STRESS
+
+During childhood most of us experience being on the receiving ends of the frustration of people. People release all their stress on a particular person who seem weak to them. This especially happens in the family when all the family members lash the one out who doesn't speak up. This way the children usually suffer mentally as well as physically.
+
+YOUR FAMILY'S PLACE IN SOCIETY
+
+You are treated accordingly depending upon the status of your family in the society. Assume you are not reach as per others in your locality of relations, you are most likely to get maltreated someway or the other. This treatment of injustice leaves a traumatizing effect on the brain of children which grows into low self-esteem later.
+
+## **TREATMENT OF LOW SELF-ESTEEM**
+
+
+
+
 
 <!--EndFragment-->
