@@ -17,8 +17,8 @@ relatedpost:
   blog:
     - slug: admin/#/collections/blog/entries/dealing-with-body-dysmorphia?ref=workflow
       title: Dealing with Body Dysmorphia
-    - slug: admin/#/collections/category/entries/dealing-with-social-anxiety?ref=workflow
-      title: Dealing with Social Anxiety
+    - slug: admin/#/collections/blog/entries/dealing-with-social-anxiety?ref=workflow
+      title: Dealing with social Anxiety
 tags:
   - Eating
   - Body-shape
