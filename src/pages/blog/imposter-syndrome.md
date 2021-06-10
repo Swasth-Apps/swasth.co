@@ -37,6 +37,27 @@ Impostor syndrome, the notion that you’ve only succeeded due to luck, and not 
 
 ## **CHARACTERISTICS OF IMPOSTER SYNDROME**
 
+Imposter syndrome can be manifested in several ways but its manifestation occurs in the person suffering from it. People around may never be able to know about it as imposter syndrome barely shows any outside behavior which can affect others. Although it is difficult to  find out about the signs of the syndrome but some can be interpreted which are mentioned below:
+
+* Attributing success to external factors
+* Self -doubting your overall self and each capability.
+* Always being dissatisfied with the task at hand and your role.
+* Fear that you would fail to live up to expectations
+* Always trying to overachieve
+* Sabotaging your own success
+* An inability to realistically assess your competence and skills
+
+A person suffering from imposter syndrome can also face some serious mental problems such as:
+
+* anxiety
+* depression
+* frustration
+* lack of self-confidence
+
+After all such troubles, people still believe in not getting caught as a fraudster or they feel like they might lose their position which leads to a vicious cycle of the syndrome.
+
+## **CAUSES OF IMPOSTER SYNDROME**
+
 
 
 <!--EndFragment-->
