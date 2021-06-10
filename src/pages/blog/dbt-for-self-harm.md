@@ -79,12 +79,69 @@ Some of the symptoms of self-harm could be as follows:
 
   There are a lot of things that are associated with self-harming behavior and are related to the people who injure themselves. Self-harm is barely understood by people and they make perceptions themselves in regards to those who are suffering from such a critical mental sickness. Let us now look at some of those myths.
 
+  ##### Myth : Self-harm is an attention-seeking behavior.
+
+  While some people may believe that self-harming is a method of seeking attention, this is often not the case. There is shame surrounding self-harm, and those who engage in this behavior will often cover their injuries with bandages or by wearing long sleeves so that others do not notice. In this way, self-harm is not attention-seeking.
+
+  ##### Myth : Self-harm is a suicide attempt.
+
+  Individuals who self-harm often do not intend to end their lives. Instead, they are using self-harm to cope with emotions or trauma. Self-harming behaviors can actually release endorphins, which can improve mood and relieve pain. Other people may find that self-harming is a way for them to experience some sort of emotion if they have been feeling devoid of emotions.
+
+  ##### Myth 8: People self-injure as a way to pretend
+
+  It is a common misconception that people self-injure as a form of pretension. However, pretension is typically not the primary intent of self-harming behavior. Self-harm is for stress relief, according to experts.
+
+  **MYTH: ‘Only girls self-harm’**
+
+  It is often assumed that women are more likely to self-harm than men, however it isn’t clear if this is true. People usually self-harm to find an escape route from their ongoing troubles, and anybody can face distressing emotions, irrespective of sex.
+
+  **MYTH: ‘People who self-harm must enjoy it’**
+
+  Some think that people who self-harm take pleasure in the pain or risk associated in such a dangerous action. However, the truth is anyone who harms themselves can endure terrible pain. For some, depression has made them numb and they want to feel anything to remind themselves of their own presence. Some have described this pain as punishment. 
+
+  ## **USING DBT FOR TREATMENT**
+
+  DBT offers strategies to get hold of yourself whenever you feel like hurting yourself. DBT offers a large range of methods to overcome such painful attempts and live normally just like others do. DBT helps the patients keep an eye on what they do and be cautious enough to avoid such behaviors. Some of the benefits to choose DBT are:
+
+  * Mindfulness: Development of awareness of thoughts, feelings, and urges
+  * Distress Tolerance: Learn techniques to counteract maladaptive coping behaviors
+  * Emotion Regulation: Learn how to regulate emotions
+  * Interpersonal Effectiveness: Set boundaries for self and others.
+
+  There are some factors which can help us combat the risk  factors and causes of self-harming behavior. In this program we will be helping you deal with all such factors with the help of world-known experts. Our program is so designed that every aspects of all these factors will be zoom-viewed, thereby helping you overcome depression. We use a step-by-step approach to overcome this conduct. Studies have also proved how efficient CBT( Cognitive Behavioral Therapy) is, in depression. 
+
+  The sessions that make up the program are: 
+
+  SESSION 1 - UNDERSTANDING SELF-HARM 
+
+  SESSION 2 - WHAT INFLUENCES SELF-HARM?
+
+  SESSION 3 - VULNERABILITY FACTORS
+
+  SESSION 4 - CHAIN ANALYSIS AND DIALECTICAL THINKING 
+
+  SESSION 5 - DISTRESS TOLERANCE
+
+  SESSION 6 - MINDFULNESS
+
+  SESSION 7- COPING WITH SELF-HARM URGES
+
+  SESSION 8 - STAYING ON TRACK
 
 
 
+  <!--EndFragment-->
 
-<!--EndFragment-->
+  <!--EndFragment-->
 
-<!--EndFragment-->
+  <!--EndFragment-->
+
+  <!--EndFragment-->
+
+  <!--EndFragment-->
+
+  <!--EndFragment-->
+
+  <!--EndFragment-->
 
 <!--EndFragment-->
