@@ -58,6 +58,28 @@ After all such troubles, people still believe in not getting caught as a fraudst
 
 ## **CAUSES OF IMPOSTER SYNDROME**
 
+There can be some causes of the imposter syndrome which leads to development of the syndrome. These causes could be as follows:
 
+**UNDESERVED PRAISE**
+
+If your parents or other significant adults in your life, for example, a grandparent, a family friend, a much older sibling has praised you for things and at times when you did not expect or think to deserve them, you might have become instilled with the sense that you were a phony and you were getting overly praised.
+
+**NO PRAISE AT ALL**
+
+Not having received praise at all could make you feel inadequate and rarely get up to the mark. Everyone, from a small child to the mature adult, could feel motivated and perhaps requires praise in order to nurture their self-esteem and sense of self-worth. 
+
+**LACK OF ENTITLEMENT**
+
+Being constantly judged and evaluated according to conditions of worth can foster the development of a troubled personality. Being compared and rewarded on the basis of meeting expectations of others can make you lose confidence in yourself and you might get stuck in a cycle of self-doubt. For example, being exposed to statements like.
+
+**FAMILY LABELS**
+
+If you grew up with siblings, you may have identified with a certain role in the family, like the “smart one,” the “sensitive one,” the “competitive one” and so on. The negative side of those family labels is that it can be hard to get rid of them even if a child’s behavior and disposition adapt away from that describing perception.
+
+## **TYPES OF IMPOSTER SYNDROME**
+
+<!--EndFragment-->
+
+<!--EndFragment-->
 
 <!--EndFragment-->
