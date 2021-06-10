@@ -69,8 +69,30 @@ You are treated accordingly depending upon the status of your family in the soci
 
 ## **TREATMENT OF LOW SELF-ESTEEM**
 
+No one person is less worthy than the next person, and no one is deemed more important. Knowing this detail is crucial. To feel more confident and have healthy self-esteem, it helps to put aside fears of being worth less than others. At the base of  motivational pyramid lies physiological needs, such as the air we breathe and the food we consume. Once those needs are met, it is possible to pursue needs for safety, love and belonging, and self-worth.
 
+If you are still confused if you should take this program them let's have a look at the structure of the program that we offer. 
 
+ This program will help you deal with various aspects of assertiveness as you move through each session.
 
+The sessions that make up the program are: 
+
+Session 1 - Introduction to Self Esteem
+
+Session 2 - Thought Process and Self Esteem
+
+Session 3 - Low Self - Esteem in Day - to - Day Life
+
+Session 4 - Modification of Unhelpful Rules and Beliefs
+
+Session 5 - Developing the Self
+
+Session 6 - Caring for the Mind and Body
+
+Session 7 - Coping with relapse
+
+ All these sessions help you combat your fear and insecurities, and lead your way through the program until you stay at RESILIENS. These program are supposed to be completed within 7 days and then you will move to the next session by default or may also change the session the URL we provide par your choice. The app notifies you of the session you have left undone. Not only that, we have a community of experts who can guide you through your journey. Also, we are 24/7 available to look after your needs and guide you whenever you feel low.
+
+**COME ON! FIGHING!**
 
 <!--EndFragment-->
