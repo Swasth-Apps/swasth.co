@@ -78,7 +78,39 @@ If you grew up with siblings, you may have identified with a certain role in the
 
 ## **TYPES OF IMPOSTER SYNDROME**
 
-<!--EndFragment-->
+## 1. The Perfectionist
+
+ Perfectionists set extremely high goals for themselves, and when they fail to reach a goal, they experience major self-doubt and worry about measuring up. Whether they realize it or not, this group can also be control freaks, feeling like if they want something done right, they have to do it themselves.
+
+## 2. The Superhero
+
+Since people who experience this phenomenon are convinced that they’re phonies amongst r colleagues, they often push themselves to work harder and harder to catch up. But this is just a false cover-up for their insecurities, and the work overload may harm not only their own mental health, but also their relationships with others.
+
+## 3. The natural genius
+
+Imposters set their internal limit impossibly high, just like perfectionists. But they don’t just judge themselves based on ridiculous expectations, they also judge themselves based on getting things right on the first try. When they’re not able to do something quickly or fluently, their alarm sounds.
+
+## 4.The Soloist
+
+Sufferers who feel as though asking for help reveals their phoniness are what Young calls Soloists. It’s OK to be independent, but not to the extent that you refuse assistance so that you can prove your worth.
+
+## 5. The Expert
+
+Experts measure their competence based on 'what' and 'how much' they know or can do. Believing they will never know *enough*, they fear being exposed as inexperienced or unknowledgeable.
+
+## **TREATMENT OF IMPOSTER SYNDROME**
+
+**CBT for Imposter Syndrome**
+
+In the case of impostor syndrome, CBT would help to target problems such as - 
+
+* Generalized anxiety, which is observed in physiological signs – clammy palms, fiddling, tension, headaches, distraction-seeking, etc.
+* Obsessive and paranoid thoughts – worrying about what people think, exaggerating small problems to large ones, and so on. This is especially true when receiving criticism from others.
+* Strong shifts in mood when receiving praise – going quickly from over-excitement to strong self-doubt. This one was particularly challenging since joining Intercom because there’s a strong feedback culture.
+
+Opening up with a mental health professional may enable a person to identify the reason for their feelings, giving them the chance to tackle the underlying causes. Thus, we have designed an absolute program to help you get rid of the syndrome along with being in contact with our experts. The program consists of number of session which you are supposed to complete within a week. These sessions are follows:
+
+
 
 <!--EndFragment-->
 
