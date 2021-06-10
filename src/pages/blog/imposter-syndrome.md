@@ -108,10 +108,24 @@ In the case of impostor syndrome, CBT would help to target problems such as - 
 * Obsessive and paranoid thoughts – worrying about what people think, exaggerating small problems to large ones, and so on. This is especially true when receiving criticism from others.
 * Strong shifts in mood when receiving praise – going quickly from over-excitement to strong self-doubt. This one was particularly challenging since joining Intercom because there’s a strong feedback culture.
 
-Opening up with a mental health professional may enable a person to identify the reason for their feelings, giving them the chance to tackle the underlying causes. Thus, we have designed an absolute program to help you get rid of the syndrome along with being in contact with our experts. The program consists of number of session which you are supposed to complete within a week. These sessions are follows:
+Opening up with a mental health professional may enable a person to identify the reason for their feelings, giving them the chance to tackle the underlying causes. Thus, we have designed an absolute program to help you get rid of the syndrome plus you remain in direct contact with our experts. The program consists of number of sessions which you are supposed to complete within a week. These sessions are follows:
 
+Session 1 - Introduction
 
+Session 2 - Thought Process and Emotional States
 
-<!--EndFragment-->
+Session 3 - Changing Your Negative Thinking
+
+Session 4 - Developing the Self
+
+Session 5 - Relaxation to reduce Stress
+
+Session 6 - Self-Management
+
+Session 7 - Dealing with Setbacks
+
+Every session comes up with a duration to complete it. You are supposed to complete your session within 7 days as the app gives you reminders to complete your current session. Also, you are served with a facility to set your current session using the URL we provide. Else, the session changes by default.
+
+**ARE YOU STILL WAITING? DON'T! JOIN US!**
 
 <!--EndFragment-->
