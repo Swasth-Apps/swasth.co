@@ -37,6 +37,73 @@ Lack of sleep and too much sleep are linked to many chronic health problems, suc
 
 ## **WHAT IS INSOMNIA?**
 
+Insomnia is described by the recurring difficulty to fall or remain asleep despite motivation and other similar means. People with insomnia also experience excessive daytime sleepiness and other cognitive impairments while they are awake. Insomnia is considered a chronic condition when patients exhibit symptoms at least three times per week for at least three months.
 
+People with insomnia face some serious problems and they affect their overall mental and physical health. The problems apart from difficulty in sleeping are:
+
+• Depression
+
+• Poor concentration
+
+• Irritation
+
+• Loss of appetite
+
+• Impaired work or school performance. 
+
+Insomnia is most prevalent among older adults and women.
+
+## **CAUSES OF INSOMNIA**
+
+There could be several factors that cause insomnia but the most common ones are as follows:
+
+1. **Allergies and breathlessness**
+
+Allergies, colds, and upper respiratory infections can make it difficult to breathe at night. The inability to breathe through your nose can also cause sleeping problems.
+
+2.**Nocturia**
+
+Nocturia, or frequent urination, can disturb your sleep by causing you to wake up during the night. 
+
+3. **Chronic pain**
+
+Chronic pain can make it highly challenging for anyone to fall asleep. It can wake you up even after you fall asleep. Some of the most common causes of chronic pain involve:
+
+* Arthritis
+* Excessive fatigue
+* Fibromyalgia
+* Irrational bowel syndrome
+* Continuous headaches
+* Persistent lower back pain
+
+In some cases, chronic pain may even be triggered by sleep disorders. 
+
+4. **Stress and anxiety**
+
+It can be difficult for you to fall asleep or to stay asleep if you are stressing about something. Nightmares, sleep talking, or sleepwalking are some of the common symptoms in such cases.
+
+
+
+Vicious Cycle of Insomnia and Poor Mental Health
+
+
+
+Insomnia can directly affect our state of mind. Prolonged grief, anxiety and stress often disrupts our sleep patterns, which is why we often tend to stay awake when we are sad or stressed. 
+
+
+
+Infact, insomnia can cause mental health problems like depression, addiction issues etc. which in turn exacerbates insomnia. This is a vicious cycle.
+
+
+
+It's important to consult your doctor when you experience sleep problems to make sure any underlying medical condition isn't disrupting your sleep. Some people take the help of medicines to recover from insomnia and that can be useful, in the short term. 
+
+
+
+But here is some good news. There is an effective and long-term solution to your sleep disorder that works without medication - Cognitive behavioral Therapy for Insomnia.  
+
+
+
+<!--EndFragment-->
 
 <!--EndFragment-->
