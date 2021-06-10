@@ -122,7 +122,7 @@ Session 7: Give and receive compliments assertively
 
 Session 8: Adopting new ways of living
 
- All these sessions help you combat your fear and insecurities, and lead your way through the program **until you stay at RESILIEN**S. These program are supposed to be completed within 7 days and then you will move to the next session by default or may **also change the session the URL we provide par your choice.** The app notifies you of the session you **have left undone**. Not only that, we have a community of experts who can guide you through your journey. Also, we are 24/7 available to look after your needs and guide you whenever you feel low.
+ All these sessions help you combat your fear and insecurities, and lead your way through the program until you stay at RESILIENS. These program are supposed to be completed within 7 days and then you will move to the next session by default or may also change the session the URL we provide par your choice. The app notifies you of the session you have left undone. Not only that, we have a community of experts who can guide you through your journey. Also, we are 24/7 available to look after your needs and guide you whenever you feel low.
 
 DO NOT JUST THINK, TAKE A STEP AHEAD AND JOIN US!
 
