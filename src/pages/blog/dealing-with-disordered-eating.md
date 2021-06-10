@@ -81,9 +81,12 @@ There are two subtypes of anorexia nervosa:
 
   Studies have shown that changes include a number of stages as follows:
 
+  * Precontemplation stage: A person who is not ready and willing to change can be characterized to be on this stage. For example, a woman who has lost weight but doesn’t recognize it to be problematic.
+  * Contemplation stage: Here, the person acknowledges the problem but doesn’t take any action to change it. For example, a woman realizes that she has a problem and lost weight but doesn’t seek help as he fears gaining weight.
+  * Preparation stage: In this stage the person prepares in order to make changes. For example, a woman takes a number of local clinics but hasn’t called up yet.
+  * Action stage: Here the person is actively involved in change. For example, women are completely involved and engaged in treatment.
 
-
-  <!--EndFragment-->
+    Analyze different stages and try to to figure out which stage you are at. It may take a good time to realize that you are a disordered eater but as it is said, THE SOONER THE BETTER, why wait for the right time when it's already up. Brace yourself and join us for further help.
 
   ## **TREATMENT AT RESILIENS**
 
@@ -93,6 +96,34 @@ There are two subtypes of anorexia nervosa:
 
   The sessions that make up the program are: 
 
+  Session 1: What is an eating disorder?
 
+  Session 2: How are eating disorders maintained?
+
+  Session 3: Self-monitoring
+
+  Session 4: Dealing with unhelpful thinking styles
+
+  Session 5: Dealing with eating disorder mindsets
+
+  Session 6: Binge eating, purging and driven exercise
+
+  Session 7: Dealing with mood intolerance
+
+  Session 8: Dietary rules
+
+  Session 9: Challenging dietary rules
+
+  Session 10: Body checking and avoidance
+
+  Session 11: Dealing with low self-esteem
+
+  Session 12: Dealing with barriers and maintaining change
+
+  Every session comes up with a duration to complete it. You are supposed to complete your session within a week as the app continuously gives you reminders to get done with your present session. Also, you are served with a facility to set your current session using the URL we provide.
+
+  You may also contact our professional advisers and be in touch with them for as long as you want through your on-going journey with us. They not only help you overcome your problems but also suggest ways to tackle them by your own if needed even in the future.
+
+  **HURRY UP! GRAB THE OPPORTUNITY!**
 
 <!--EndFragment-->
