@@ -59,14 +59,16 @@ There are two subtypes of anorexia nervosa:
 
   Avoidant/restrictive food intake disorder (ARFID) is a recently defined eating disorder that involves a disturbance in eating resulting in persistent failure to meet nutritional needs and extreme picky eating. 
 
-  <!--EndFragment-->
+  ## **IMPACTS OF EATING DISORDERS**
 
-  <!--EndFragment-->
+  ## **TREATMENT AT RESILIENS**
 
-  <!--EndFragment-->
+  If you believe you may have an eating disorder or if you have a friend or family member who might, then it’s important to take action as soon as you can. Many eating disorders can rise to the level of being a life-threatening condition if they’re allowed to go untreated, so there’s no reason to delay. Please call for help getting in touch with resources and programs  that specialize in the diagnosis and treatment of eating disorders. The line is always open with a trained professional waiting to answer your questions at any time. Do not keep your queries unanswered, get our help.
 
-  <!--EndFragment-->
+  Understanding all the aspects of the disorder well, we have designed a super program to help you get rid off all your problems related to it and get you on track as soon as possible. Unrealistic goals, self-doubting, and negative thinking styles are the rooted problem. Thus, we have arranged a wide network of professionals to lead your way through the journey with Resiliens. Not only that, we are all ready to provide the best program to help you overcome these problems
 
-<!--EndFragment-->
+  The sessions that make up the program are: 
+
+
 
 <!--EndFragment-->
