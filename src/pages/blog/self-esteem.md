@@ -37,6 +37,12 @@ We also have an idea of total self-esteem that refers to the fact that we are as
 
 ## **UNDERSTANDING LOW SELF-ESTEEM**
 
+Self-esteem is the opinion you have of yourself. When you have healthy self-esteem, you tend to think positively about yourself, and optimistically about life in general. When you encounter challenges, you feel confident that you will be up to the task. People with healthy self-esteem know that they are valuable and will be able to name at least some of their positive characteristics such as “I am a good friend”, “I am kind”, “I am honest”, or “I am a good father”.
 
+When you have low self-esteem, you tend to see yourself, the world, and your future more negatively and critically. When you encounter challenges, you doubt whether you will be able to rise to them, and you might avoid them. You might talk to yourself harshly in your mind, such as telling yourself “You’re stupid”, “You’ll never manage this”, or “I don’t amount to anything”. You might feel anxious, sad, low, or unmotivated.
+
+Nobody is born with low self-esteem – it develops as a result of the experiences we have throughout our lives. At the center of low self-esteem are the beliefs and opinions we hold about ourselves. We tell ourselves stories about who we are and form conclusions about ourselves. These opinions can get fixed as thoughts that they are ‘truths’ for all time. In reality, they are just stories or labels, and they don’t capture the full truth of who we are.
+
+<
 
 <!--EndFragment-->
