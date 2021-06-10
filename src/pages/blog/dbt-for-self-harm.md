@@ -49,7 +49,25 @@ Mostly, hands, legs and torso are primarily targeted to harm oneself, but any ot
 
 ## **SYMPTOMS OF SELF-HARM**
 
+Some of the symptoms of self-harm could be as follows:
 
+* Scars, often in specific patterns
+* Fresh cuts, burns, bruises, bite marks or other wounds
+* Excessive rubbing of an area to create a burn
+* Keeping sharp objects on hand
+* Wearing long sleeves or long pants, even in hot weather, as a mode of hiding bruises
+* Frequent events of accidental injury
+* Difficulties in interpersonal relationships
+* Behavioral and emotional instability, impulsivity and intense reactions
+* Statements of helplessness, hopelessness or worthlessness
+
+  So, if you are hurting yourself even in a minor way, reach out to a therapist as you are into the cognitive dysfunction of self-harm. Any sort of self-injury is a sign of self-harming behavior. 
+
+  ## **RISK FACTORS**
+
+
+
+<!--EndFragment-->
 
 <!--EndFragment-->
 
