@@ -61,6 +61,30 @@ There are two subtypes of anorexia nervosa:
 
   ## **IMPACTS OF EATING DISORDERS**
 
+  **Physical changes**
+
+  Without an adequate intake of food, and often in the face of excessive daily exercise, patients can suffer physical health repercussion from eating disorders rather quickly. The physical symptoms may initially manifest as stomach cramps, dizziness, fainting spells, dry skin, brittle nails, and muscle weakness. Weight loss may not actually be immediately noticeable, but will likely become obvious as the eating disorder progresses in severity.
+
+  **Emotional and behavioral changes**
+
+   Eating disorders can have an incredibly negative impact on mental health. Eating disorder symptoms and behaviors can reinforce disordered thought patterns, leading to the constant degradation of self-esteem. Already low self-esteem levels may plummet as the disordered thought patterns and compulsive behaviors serve to reinforce each other. Furthermore, the disordered thoughts urges, and behaviors caused by eating disorders can lead to depression and anxiety.
+
+  **Impact on work life**
+
+  A mind full of foods and stuffs makes it difficult to work and fatigue out of inadequate intake of food adds to the problem, ultimately leading your way to a worse work life as you might get panelized for not showing enough concern towards your work.
+
+  **Impact on social life**
+
+  Binge eating and other symptoms may arise a feeling of shame inside the individuals and they start avoiding their dear ones causing them a miserable life without close friends and family members.
+
+  ## **ARE YOU READY FOR CHANGE?**
+
+  Studies have shown that changes include a number of stages as follows:
+
+
+
+  <!--EndFragment-->
+
   ## **TREATMENT AT RESILIENS**
 
   If you believe you may have an eating disorder or if you have a friend or family member who might, then it’s important to take action as soon as you can. Many eating disorders can rise to the level of being a life-threatening condition if they’re allowed to go untreated, so there’s no reason to delay. Please call for help getting in touch with resources and programs  that specialize in the diagnosis and treatment of eating disorders. The line is always open with a trained professional waiting to answer your questions at any time. Do not keep your queries unanswered, get our help.
