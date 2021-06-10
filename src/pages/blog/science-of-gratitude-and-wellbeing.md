@@ -28,7 +28,7 @@ tags:
 
 ## **UNDERSTANDING GRATITUDE**
 
-Gratitude is a thought when you are undergoing any sort of anxiety or stress. A gratitude formula can help you recognize and admire positive elements of your everyday life. If we dive deep into the meaning of gratitude, we find that it is derived from Latin word, gratia, which means graciousness or gratefulness. Gratitude is an acknowledgement for something tangible as well as intangible.
+Gratitude is a **thought when you are undergoing any sort of anxiety or stress.** A gratitude formula can help you recognize and admire positive elements of your everyday life. If we dive deep into the meaning of gratitude, we find that it is derived from Latin word, gratia, which means graciousness or gratefulness. Gratitude is an acknowledgement for something tangible as well as intangible.
 
  People who regularly practice gratitude by spending time to notice and reflect upon the things they're thankful for experience more positive emotions, feel more alive, sleep better, express more compassion and kindness, and even have stronger immune systems. And gratitude doesn't need to be reserved only for momentous occasions: Sure, you might express gratitude after receiving a promotion at work, but you can also be thankful for something as simple as a delicious piece of pie.
 
@@ -36,15 +36,15 @@ Gratitude is a thought when you are undergoing any sort of anxiety or stress. A 
 
 **GRATITUDE JOURNALING**
 
-Writing about the things you are even a bit thankful for on a daily basis is more than enough to help you develop a positive outlook of life. For this, a gratitude journal can be at help when you mention about the people or things you are grateful for so far.
+Writing about the things you are even a bit thankful for on a daily basis is more than enough to help you develop a positive outlook of life. For this, a gratitude journal can be helpful in which you mention about the people or things you are grateful for so far.
 
 **SAVORING WALKS**
 
-Take the time to appreciate your surrounding environment like innocent animals, the vivid blue sky or evergreen trees. This is a 20-minute weekly walk that you can initiate all by yourself, enjoying your own company and experiencing an inner peace, via a different route each time. The idea is to pay attention during the walk to as many positive sights, sounds, and smells.
+Take the time to appreciate your surrounding environment like innocent animals, the vivid blue sky or evergreen trees. This is a 20-minute walk that you can initiate all by yourself, enjoying your own company and experiencing an inner peace, via a different route each time. The idea is to pay attention during the walk to as many positive sights, sounds, and smells.
 
 **A LETTER OF THANKS**
 
-Write a letter to the person who has had a positive or changing effect in your life, be it at any point so far. You can even write this letter to he person whom you have been not in much contact with.
+Write a letter to the person who has had a positive or changing effect in your life, be it at any point so far. You can even write this letter to the person whom you have been not in much contact with.
 
 **MAKE IT A ROUTINE**
 
@@ -68,7 +68,7 @@ By consciously practicing gratitude, we can train the brain to attend selectivel
 
 ## **BENEFITS OF GRATITUDE**
 
-. Some of the significant benefits of gratitude are:
+Some of the significant benefits of gratitude are:
 
 * Gratitude relieves us from toxic emotions.
 * Gratitude helps even if the other person does not acknowledge it.
@@ -108,13 +108,13 @@ Domain satisfaction is all about enduring, continued appreciation of a life doma
 
 Top Experience describes passing satisfaction with your life all in all; short-lived but intense, as “a moment of happiness”.
 
-Finally, Core Meaning/Happiness refers to enduring, overall satisfaction with life. It is considered as ‘durable’ and authentically described as ‘life satisfaction.
+Finally, Core Meaning/Happiness refers to enduring, overall satisfaction with life. It is considered as ‘durable’ and authentically described as ‘life satisfaction.'
 
 If we summarize the facts, we find that satisfaction is actually associated with subjective well-being
 
 ## **DEVELOP GRATITUDE AND ART OF WELL-BEING THROUGH OUR PROGRAM**
 
-Understanding all the aspects of gratitude and well-being well, we have designed a super program to help you get rid off all your problems related to it and get you on track as soon as possible. We have arranged a wide network of professionals to lead your way through the journey with Resiliens. Not only that, we are all ready to provide the best program to help you overcome these problems
+Understanding all the aspects of gratitude and well-being well, we have designed a program to help you get rid off all your problems related to it and get you on track as soon as possible. We have arranged a wide network of professionals to lead your way through the journey with Resiliens. Not only that, we are all ready to provide the best program to help you overcome these problems
 
 The sessions that make up the program are: 
 
