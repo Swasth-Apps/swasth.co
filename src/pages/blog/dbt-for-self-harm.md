@@ -65,6 +65,22 @@ Some of the symptoms of self-harm could be as follows:
 
   ## **RISK FACTORS**
 
+  The people who are indulged in self-harm the most, are the adolescents and young adults since emotions are overly active during such periods and people face loads of psychological issues. There are certain factors that may elevate the risks of self-injury, such as:
+
+  **Having friends who self-injure.** People who have friends who harm themselves are knowingly, are more likely to begin self-harming.
+
+  **Life issues.** Some people who injure themselves were ignored intentionally, were sexually, physically or emotionally harassed, or experienced some traumatic events. They may have grown up and still remain in an unhealthy family environment, or they may be young people questioning their personal identity. Some people who self-injure are socially isolated.
+
+  **Mental health issues.** People who self-harm are more likely to be highly self-critical. Additionally, self-injury is commonly associated with certain mental disorders, such as borderline personality disorder, depression, anxiety disorders, post-traumatic stress disorder and eating disorders.
+
+  **Alcohol or drug use.** People who harm self-injure often do so while under the influence of alcohol or recreational drugs.
+
+  ## BREAKING DOWN THE SETTLED MYTHS
+
+  There are a lot of things that are associated with self-harming behavior and are related to the people who injure themselves. Self-harm is barely understood by people and they make perceptions themselves in regards to those who are suffering from such a critical mental sickness. Let us now look at some of those myths.
+
+
+
 
 
 <!--EndFragment-->
