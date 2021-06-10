@@ -90,8 +90,29 @@ It can be difficult for you to fall asleep or to stay asleep if you are stressin
 
 Insomnia can straight up affect our state of mind. Long-term grief, anxiety and stress often disrupts our sleep patterns, which is why we often tend to stay awake when we are sad or stressed. Insomnia can cause mental health problems like depression, addiction issues etc. which in turn exacerbates insomnia. This is a vicious cycle. It's important to consult your doctor when you experience sleep problems to make sure any underlying medical condition isn't disrupting your sleep. Some people take the help of medicines to recover from insomnia and that can be useful, in the short term. 
 
+## **CBT FOR INSOMNIA**
 
+ Cognitive and behavioral treatments for sleep difficulties aim to improve sleep by changing poor sleep habits and challenging negative thoughts attitudes and beliefs about sleep. More specifically, the cognitive-behavioral component aims to change incorrect beliefs and attitudes about sleep (e.g., unrealistic expectations, misconceptions, amplifying consequences of sleeplessness); techniques include reattribution training (i.e., goal setting and planning coping responses),  reappraisal, and attention shifting. Thus, CBT attempts to alter patterns of negative thoughts and dysfunctional attitudes in order to foster more healthy and adaptive thoughts, emotions, and actions.
 
-<!--EndFragment-->
+If you’ve tried a variety of self-help remedies without success, get help from our expert-designed program.  We have designed a program to help you get rid off all your problems related to it and get you on track as soon as possible. We have arranged a wide network of professionals to lead your way through the journey with Resiliens. Not only that, we are all ready to provide the best program to help you overcome these problems
 
-<!--EndFragment-->
+The sessions that make up the program are: 
+
+SESSION 1: SLEEP DISORDERS
+
+SESSION 2: ASSESSMENT
+
+SESSION 3: SLEEP HYGIENE 
+
+SESSION 4: STIMULUS CONTROL 
+
+SESSION-5: COGNITIVE DISTORTIONS AFFECTING SLEEP 
+
+SESSION - 6: Thought Restriction 
+
+SESSION-8 : Constructive Worry
+
+\
+Every session comes up with a duration to complete it. You are supposed to complete your session within a week as the app continuously gives you reminders to get done with your present session. Also, you are served with a facility to set your current session using the URL we provide. If you are determined to help yourself then count us in. Hop on and let's break free from troubles.
+
+**DO NOT WAIT! KEEP THE OPPORTUNITY HANDY**
