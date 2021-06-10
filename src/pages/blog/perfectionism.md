@@ -74,7 +74,7 @@ DO NOT HESITATE AND DO SCROLL DOWN!
 
 ## TREATMENT AT RESILIENS
 
-Understanding all the aspects of perfectionism well, we have designed a super program to help you get rid off all your problems related to it and get you on track as soon as possible. Problem with unrealistic goals, self-doubting, and negative thinking styles are the rooted problem. Thus, we have arranged a wide network of professionals to lead your way through the journey with Resiliens. Not only that, we are all ready to provide the best program to help you overcome these problems
+Understanding all the aspects of perfectionism well, we have designed a super program to help you get rid off all your problems related to it and get you on track as soon as possible. Unrealistic goals, self-doubting, and negative thinking styles are the rooted problem. Thus, we have arranged a wide network of professionals to lead your way through the journey with Resiliens. Not only that, we are all ready to provide the best program to help you overcome these problems
 
 The sessions that make up the program are: 
 
