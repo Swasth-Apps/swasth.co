@@ -39,5 +39,6 @@ collections:
       - {label: "Categories", name: "categories", widget: object, fields: [{label: "category", name: "category", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
       - {label: "Related Posts", name: "relatedpost", widget: object, fields: [{label: "blog", name: "blog", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
       - {label: "Tags", name: "tags", widget: "list"}
+      - { label: "Link", name: "link", widget: "string" }
 
 
