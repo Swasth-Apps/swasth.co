@@ -11,8 +11,8 @@ image: /img/assessments.png
 squareimage: /img/future.jpeg
 categories:
   category:
-    - slug: admin/#/collections/category/entries/dealing-with-procrastination
-      title: Dealing with Procrastination
+    - slug: evidence-based-therapy
+      title: EBT
 relatedpost:
   blog:
     - slug: perfectionism?ref=workflow
