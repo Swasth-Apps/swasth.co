@@ -10,8 +10,10 @@ image: /img/dbt-1.jpg
 squareimage: /img/act-future-2.jpg
 categories:
   category:
-    - slug: admin/#/collections/category/entries/perfectionism?ref=workflow
-      title: Perfectionism
+    - slug: tech
+      title: tech
+    - slug: evidence-based-therapy
+      title: evidence-based-therapy
 relatedpost:
   blog:
     - slug: how-to-practice-radical-acceptance
