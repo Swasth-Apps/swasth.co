@@ -16,13 +16,14 @@ categories:
       slug: admin/#/collections/category/entries/positive-psychology?ref=workflow
 relatedpost:
   blog:
-    - slug: admin/#/collections/blog/entries/what-is-mindfulness
+    - slug: what-is-mindfulness
       title: What is mindfulness?
-    - slug: admin/#/collections/blog/entries/how-to-practice-radical-acceptance
+    - slug: how-to-practice-radical-acceptance
       title: How to practice Radical Acceptance
 tags:
   - Positivity
   - Happiness
+link: https://resiliens.com/resilify/program/positive-psychology
 ---
 <!--StartFragment-->
 
