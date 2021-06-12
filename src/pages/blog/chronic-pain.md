@@ -5,7 +5,7 @@ username: Tanya Tripti
 date: 2021-06-05
 description: "Chronic pain is a kind of pain that lasts weeks to years. This
   pain arises as a result of inflammation in the body or dysfunctional nerves.
-  Usually it is self-diagnosable, and medium term pain can be cured within
+  Usually, it is self-diagnosable, and medium-term pain can be cured within
   months and lab tests or imaging is rarely required. Most people get back to
   the normal state after treatment of the pain but sometimes the pain carries on
   for longer due to some medical history or injury. "
@@ -32,15 +32,15 @@ link: https://resiliens.com/resilify/program/dealing-with-chronic-pain-with-cbt
 
 ## **UNDERSTANDING CHRONIC PAIN**
 
-As you already know that a pain is any sort of response of body towards the injury or trauma caused, It is an indication that something is off. Generally, your body lose the sense of the pain as your body starts to combat against it. In some cases, the pain remains as long as an year or it may even get cured after a short-term treatment within a week. So, when it goes above a time span of 3 months or so, it is called as chronic pain. Consequently, you see negative effects on your emotional and physical wellbeing.
+As you already know that pain is any sort of response of the body towards the injury or trauma caused, It is an indication that something is off. Generally, your body loses the sense of the pain as your body starts to combat it. In some cases, the pain remains as long as a year or it may even get cured after a short-term treatment within a week. So, when it goes above a time span of 3 months or so, it is called chronic pain. Consequently, you see negative effects on your emotional and physical wellbeing.
 
 Chronic pain is different from other kinds of pain as your body feels the pain for a long duration which is not common. This kind of pain may affect your day-to-day life and cognitive wellness. The sensation grows and can be felt when ir passes through your nervous system. The communication of different parts related to the nervous system start right from there which eventually reaches your nerve and then the cerebrum. Normally, the sensation comes to a halt when your body fixes the injury or trauma, but the nerve cells might get activated any time even after your recovery.
 
-Over 25% of the population with chronic pain suffers from a condition called CHRONIC PAIN SYNDROME which occurs when individuals face more problems apart from pain alone. Although, chronic pain is difficult to treat but it can certainly be reduced to its minimum with the help of different  techniques and therapies.
+Over 25% of the population with chronic pain suffers from a condition called CHRONIC PAIN SYNDROME which occurs when individuals face more problems apart from pain alone. Although chronic pain is difficult to treat, it can certainly be reduced to its minimum with the help of different techniques and therapies.
 
 ## **CAUSES OF CHRONIC PAIN**
 
-There can be a number of causes of a chronic pain but the most common of them are as follows:
+There can be a number of causes of chronic pain but the most common of them are as follows:
 
 \*   Headaches
 
@@ -57,7 +57,7 @@ There can be a number of causes of a chronic pain but the most common of them ar
 * Endometriosis, when tissue in the uterus grows outside of it
 * Surgery
 
-  The base of chronic pain could either be physical or mental as some professionals even believe that problem in nervous system and glands can also be a big cause of such pain. While some experts believe that pain is a learnt response which your body sustains even after the pain is completely gone for real. Chronic pain affects both the genders but is more common in females.
+  The base of chronic pain could either be physical or mental as some professionals even believe that problems in the nervous system and glands can also be a big cause of such pain. While some experts believe that pain is a learned response which your body sustains even after the pain is completely gone for real. Chronic pain affects both genders but is more common in females.
 
   ## **SYMPTOMS OF CHRONIC PAIN**
 
@@ -86,19 +86,19 @@ There can be a number of causes of a chronic pain but the most common of them ar
   * Soreness
   * Stiffness
 
-    People with chronic pain require more care and medication to manage the throbbing pain but at the same time, they might get addicted to these drugs. Chronic pain affects the people of all ages but the ones who are the most affected are those with some kind of serious injury or surgery, females and obese.
+    People with chronic pain require more care and medication to manage the throbbing pain but at the same time, they might get addicted to these drugs. Chronic pain affects people of all ages but the ones who are the most affected are those with some kind of serious injury or surgery, females, and obese.
 
     ## **HOW CAN WE TREAT CHRONIC PAIN**
 
-     The actual motive of the treatment is to lessen the sensation of pain and boost immunity. The frequency, length and sensation of pain depends upon the individuals who are facing the problem. Thus, therapists create pain management plans which are specific to individuals. The pain management plan is based on the severity, symptoms and duration of your suffering. Cognitive Behavioral Therapy (CBT) together with other remedies can be at great help. To treat such severe pains, CBT is the most widely used therapy to treat patients. other therapy include weight loss, medications, physical therapy, massage and in rare cases, surgery. 
+     The actual motive of the treatment is to lessen the sensation of pain and boost immunity. The frequency, length, and sensation of pain depend upon the individuals who are facing the problem. Thus, therapists create pain management plans which are specific to individuals. The pain management plan is based on the severity, symptoms, and duration of your suffering. Cognitive Behavioral Therapy (CBT) together with other remedies can be a great help. To treat such severe pains, CBT is the most widely used therapy to treat patients. other therapies include weight loss, medications, physical therapy, massage, and in rare cases, surgery. 
 
     Cognitive Behavioral Therapy serves pain relief by different techniques which can be seen below:
 
-    **Encourages a problem-solving attitude:** CBT helps you take some step towards the cure instead of sitting and doing absolutely nothing to get rid off your pain.
+    **Encourages a problem-solving attitude:** CBT helps you take some step towards the cure instead of sitting and doing absolutely nothing to get rid of your pain.
 
     **Involves homework:** Homework may include keeping track of thoughts and feelings linked with your pain.
 
-    **Fosters life skills:** CBT gives patients coping skills that they may use in their daily life while tackling the pain. You can use the learnt tactics to deal with your unbearable pain. 
+    **Fosters life skills:** CBT gives patients coping skills that they may use in their daily life while tackling the pain. You can use the learned tactics to deal with your unbearable pain. 
 
     **Allows you to do it yourself:** CBT allows you to cure the pain by yourself without the help of a therapist and can easily be applied to self-help.
 
@@ -124,7 +124,7 @@ SESSION 7: Guided Imagery 
 
 SESSION 8: SOCIAL SKILLS TO COMBAT CHRONIC PAIN 
 
-These sessions come with a time limit of 7 days and you are supposed to complete each session within a week, although you may complete them later in case of some urgency. After completing one session you will land into another session by default. Also, you get the facility of URL to change the sessions as per your choice but here again the time limit remains the same. Apart from these sessions, we have a panel of experts whom you can contact anytime throughout your journey with RESILIENS. We work as a team to help you out 24/7. 
+These sessions come with a time limit of 7 days and you are supposed to complete each session within a week, although you may complete them later in case of some urgency. After completing one session you will land into another session by default. Also, you get the facility of URL to change the sessions as per your choice but here again, the time limit remains the same. Apart from these sessions, we have a panel of experts whom you can contact anytime throughout your journey with RESILIENS. We work as a team to help you out 24/7. 
 
 SO DO NOT HESITATE AND GRAB THE PROGRAM!
 
