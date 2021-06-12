@@ -11,8 +11,12 @@ image: /img/binge-eating.jpg
 squareimage: /img/dbt-1.jpg
 categories:
   category:
-    - title: "Dealing with Disordered Eating "
-      slug: admin/#/collections/category/entries/dealing-with-disordered-eating
+    - title: stress
+      slug: stress
+    - slug: depression
+      title: depression
+    - slug: dialectical-behavior-therapy-dbt
+      title: DBT
 relatedpost:
   blog:
     - slug: dealing-with-body-dysmorphia?ref=workflow
