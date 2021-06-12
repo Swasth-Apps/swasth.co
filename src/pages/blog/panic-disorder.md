@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Panic Disorder
+title: CBT for Panic Disorder
 username: Tanya Tripti
 date: 2021-06-07
 description: Panic disorder is more common in women than men. It usually starts
@@ -15,13 +15,14 @@ categories:
       title: Panic Disorder
 relatedpost:
   blog:
-    - slug: admin/#/collections/blog/entries/bipolar-disorder?ref=workflow
+    - slug: bipolar-disorder?ref=workflow
       title: Bipolar Disorder
-    - slug: admin/#/collections/blog/entries/dealing-with-social-anxiety?ref=workflow
+    - slug: dealing-with-social-anxiety?ref=workflow
       title: Dealing with social Anxiety
 tags:
   - Panic
   - Anxiety
+link: https://resiliens.com/resilify/program/cbt-for-panic-disorder
 ---
 <!--StartFragment-->
 
@@ -95,7 +96,7 @@ Factors identified for the onset of panic attacks are negative affectivity which
 **PHYSIOLOGICAL CAUSES**
 
 * Chronic ***stress***
-* An existing mental health condition such as ***anxiety**, **depression**, **obsessive compulsive disorder (OCD)**, or **post-traumatic stress disorder (PTSD)***
+* An existing mental health condition such as **\*anxiety**, **depression**, **obsessive compulsive disorder (OCD)**, or **post-traumatic stress disorder (PTSD)***
 * ***Phobias*** - people may experience panic attacks as a direct result of exposure to a phobic object or situation
 * Lack of assertiveness - a growing body of evidence supports the idea that those who suffer from panic attacks engage in a passive style of communication or interactions with others
 * Low self-esteem
@@ -126,6 +127,6 @@ Session 7 - Coping with relapse
 
 These sessions come a time limit of 7 days as you need to complete each session within a week. Later you will land into another session by default, although you may complete the session later in case of some urgency. Also, you get the facility of URL to change the sessions as per your choice but here again the time limit remains the same. Apart from these sessions, we have a panel of experts whom you can contact anytime throughout your journey with RESILIENS. We work as a team to help you out 24/7. 
 
-**THIS TIME, DO TAKE THE COURAGE TO PICK THE RIGHTEST! DON'T PANIC! JOIN RESILINS!**
+**THIS TIME, DO TAKE THE COURAGE TO PICK THE RIGHTEST! DON'T PANIC! JOIN RESILIENS!**
 
 <!--EndFragment-->
