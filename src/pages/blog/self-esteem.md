@@ -15,13 +15,14 @@ categories:
       title: Self-esteem
 relatedpost:
   blog:
-    - slug: admin/#/collections/blog/entries/positive-psychology?ref=workflow
+    - slug: positive-psychology?ref=workflow
       title: Positive Psychology
-    - slug: admin/#/collections/blog/entries/assertiveness?ref=workflow
+    - slug: assertiveness?ref=workflow
       title: Assertiveness
 tags:
   - Self-esteem
   - Positivity
+link: https://resiliens.com/resilify/program/self-esteem
 ---
 <!--StartFragment-->
 
