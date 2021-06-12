@@ -12,8 +12,10 @@ image: /img/bed-meditation.jpeg
 squareimage: /img/interpersonal-effectiveness-skills02.png
 categories:
   category:
-    - slug: admin/#/collections/category/entries/science-of-gratitude-and-wellbeing
-      title: Science of Gratitude and Wellbeing
+    - slug: happiness
+      title: happiness
+    - slug: mindfulness
+      title: mindfulness
 relatedpost:
   blog:
     - slug: self-compassion?ref=workflow
