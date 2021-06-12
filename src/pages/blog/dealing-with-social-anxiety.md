@@ -14,8 +14,10 @@ image: /img/anxiety-3.jpg
 squareimage: /img/anxiety.jpeg
 categories:
   category:
-    - slug: admin/#/collections/category/entries/dealing-with-social-anxiety?ref=workflow
-      title: Dealing with Social Anxiety
+    - slug: anxiety
+      title: " Anxiety"
+    - slug: depression
+      title: Depression
 relatedpost:
   blog:
     - slug: act-for-anxiety
