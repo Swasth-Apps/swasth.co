@@ -11,8 +11,12 @@ image: /img/interpersonal-effectiveness-skills01.png
 squareimage: /img/mindful-attention.jpeg
 categories:
   category:
-    - slug: admin/#/collections/category/entries/self-esteem
-      title: Self-esteem
+    - slug: mindfulness
+      title: mindfulness
+    - slug: love-and-relationships
+      title: Relationships
+    - slug: happiness
+      title: happiness
 relatedpost:
   blog:
     - slug: positive-psychology?ref=workflow
