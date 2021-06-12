@@ -13,8 +13,8 @@ image: /img/anxiety.jpeg
 squareimage: /img/bpd-square.jpg
 categories:
   category:
-    - title: Chronic Pain
-      slug: admin/#/collections/category/entries/chronic-pain?ref=workflow
+    - title: CBT
+      slug: cognitive-behavioral-therapy
 relatedpost:
   blog:
     - slug: act-for-post-traumatic-stress
