@@ -17,14 +17,15 @@ categories:
       slug: admin/#/collections/category/entries/assertiveness
 relatedpost:
   blog:
-    - title: Mindfulness
-      slug: admin/#/collections/category/entries/mindfulness
-    - slug: admin/#/collections/category/entries/happiness
-      title: Happiness
+    - title: What is Mindfulness?
+      slug: what-is-mindfulness
+    - slug: how-to-cope-with-mental-health-issues-at-workplace
+      title: How to cope with mental health issues at workplace?
 tags:
   - Self-assuring
   - Confidence
   - Positivity
+link: https://resiliens.com/resilify/program/the-science-of-resilience-and-coping
 ---
 <!--StartFragment-->
 
