@@ -11,8 +11,8 @@ image: /img/acceptance.jpg
 squareimage: /img/mindfulness-in-dbt02.png
 categories:
   category:
-    - title: Self-Compassion
-      slug: admin/#/collections/category/entries/self-compassion
+    - title: Happiness
+      slug: happiness
 relatedpost:
   blog:
     - title: Mindfulness
