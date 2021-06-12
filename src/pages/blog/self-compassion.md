@@ -16,12 +16,13 @@ categories:
 relatedpost:
   blog:
     - title: Mindfulness
-      slug: admin/#/collections/blog/entries/what-is-mindfulness
-    - slug: admin/#/collections/blog/entries/emotion-regulation
+      slug: what-is-mindfulness
+    - slug: emotion-regulation
       title: Emotion-Regulation
 tags:
   - Mental-health
   - Selfcare
+link: https://resiliens.com/resilify/program/self-compassion
 ---
 <!--StartFragment-->
 
