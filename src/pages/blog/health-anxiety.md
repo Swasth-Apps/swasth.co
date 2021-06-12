@@ -12,8 +12,10 @@ image: /img/anxiety-sqaure.jpg
 squareimage: /img/anxiety-landscape.jpg
 categories:
   category:
-    - title: Health Anxiety
-      slug: admin/#/collections/category/entries/health-anxiety?ref=workflow
+    - title: Anxiety
+      slug: anxiety
+    - slug: stress
+      title: stress
 relatedpost:
   blog:
     - slug: dealing-with-social-anxiety?ref=workflow
