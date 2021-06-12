@@ -17,15 +17,16 @@ categories:
       slug: admin/#/collections/category/entries/chronic-pain?ref=workflow
 relatedpost:
   blog:
-    - slug: admin/#/collections/blog/entries/act-for-post-traumatic-stress
+    - slug: act-for-post-traumatic-stress
       title: ACT for Post-Traumatic stress
-    - slug: admin/#/collections/blog/entries/can-post-traumatic-disorder-be-cured-with-dialectical-behavior-therapy
+    - slug: can-post-traumatic-disorder-be-cured-with-dialectical-behavior-therapy
       title: "Can Post-traumatic Disorder be cured with Dialectical Behavior therapy?
         "
 tags:
   - Pain
   - Injury
   - Treatment
+link: https://resiliens.com/resilify/program/dealing-with-chronic-pain-with-cbt
 ---
 <!--StartFragment-->
 
