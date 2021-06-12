@@ -16,13 +16,14 @@ categories:
       title: CBT for Depression
 relatedpost:
   blog:
-    - slug: admin/#/collections/blog/entries/tools-and-techniques-used-in-cbt
+    - slug: tools-and-techniques-used-in-cbt
       title: Tools and Techniques used in CBT
-    - slug: admin/#/collections/blog/entries/does-dbt-work-for-depression
+    - slug: does-dbt-work-for-depression
       title: Does DBT work for depression?
 tags:
   - CBT
   - Depression
+link: https://resiliens.com/resilify/program/cbt-for-depression
 ---
 <!--StartFragment-->
 
