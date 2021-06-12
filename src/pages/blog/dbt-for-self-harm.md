@@ -16,8 +16,8 @@ image: /img/bpd-1.jpg
 squareimage: /img/emotional.jpg
 categories:
   category:
-    - slug: admin/#/collections/category/entries/dbt-for-self-harm
-      title: DBT for Self-Harm
+    - slug: dialectical-behavior-therapy-dbt
+      title: DBT
 relatedpost:
   blog:
     - slug: panic-disorder?ref=workflow
