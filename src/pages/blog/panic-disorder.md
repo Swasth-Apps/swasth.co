@@ -28,17 +28,17 @@ link: https://resiliens.com/resilify/program/cbt-for-panic-disorder
 
 ## **WHAT IS PANIC DISORDER?**
 
-Panic disorder includes recurrent panic attacks about an  anticipated increase in number of future attacks. The person changes his/her behavior in an unacceptable way out of panic attacks. The panic attacks are associated with abrupt surges of intense fear or uneasiness that reaches the topmost point within a few seconds, along with some cognitive fluctuations. Panic attacks may arise due to a feared situation or unexpected reasons.
+The Panic disorder includes recurrent panic attacks about an anticipated increase in the number of future attacks. The person changes his/her behavior in an unacceptable way out of panic attacks. The panic attacks are associated with abrupt surges of intense fear or uneasiness that reaches the topmost point within a few seconds, along with some cognitive fluctuations. Panic attacks may arise due to a feared situation or unexpected reasons.
 
-Panic disorder is a type of [anxiety disorder](https://medlineplus.gov/anxiety.html). It causes panic attacks, which are sudden feelings of terror when there is no real danger. You may feel as if you are losing control. Panic attacks can happen anytime, anywhere, and without warning. You may live in fear of another attack and may avoid places where you have had an attack. For some people, fear takes over their lives and they cannot leave their homes.
+Panic disorder is a type of anxiety disorder. It causes panic attacks, which are sudden feelings of terror when there is no real danger. You may feel as if you are losing control. Panic attacks can happen anytime, anywhere, and without warning. You may live in fear of another attack and may avoid places where you have had an attack. For some people, fear takes over their lives and they cannot leave their homes.
 
-Considering the studies so far with respect to gender, it has been found out that women are more prone to panic disorder, almost twice or thrice more likely to be affected than men. The cause of such a difference could be mental instability because of separation or divorce.
+Considering the studies so far concerning gender, it has been found out that women are more prone to panic disorder, almost twice or thrice more likely to be affected than men. The cause of such a difference could be mental instability because of separation or divorce.
 
 ## **CHARACTERISTICS FEATURES OF PANIC DISORDER**
 
 **Panic Attack Symptoms** 
 
-• Skipping, racing or pounding heart
+• Skipping, racing, or pounding heart
 
 • Sweating 
 
@@ -48,9 +48,9 @@ Considering the studies so far with respect to gender, it has been found out tha
 
 • Choking sensations 
 
-• Chest pain, pressure or discomfort 
+• Chest pain, pressure, or discomfort 
 
-• Nausea, stomach problems or sudden diarrhea 
+• Nausea, stomach problems, or sudden diarrhea 
 
 • Dizziness, lightheadedness, feeling faint 
 
@@ -58,7 +58,7 @@ Considering the studies so far with respect to gender, it has been found out tha
 
 • Chills or heat sensations 
 
-• Feeling things around you are strange, unreal, detached, unfamiliar, or feeling detached from body 
+• Feeling things around you are strange, unreal, detached, unfamiliar, or feeling detached from the body 
 
 • Thoughts of losing control or going crazy 
 
@@ -78,32 +78,32 @@ Considering the studies so far with respect to gender, it has been found out tha
 
 • During an attack the person experiences a strong urge to escape to safety 
 
-While a report states that individuals may also feel like they may faint anytime while having an attack. However, this statement cannot be true as the biological system related to fainting is exactly opposite to that of the one which produces panic attacks.
+While a report states that individuals may also feel like they may faint anytime while having an attack. However, this statement cannot be true as the biological system related to fainting is exactly the opposite of the one that produces panic attacks.
 
 ## **CAUSES OF PANIC ATTACKS**
 
 **TEMPERAMENTAL CAUSES**
 
-Factors identified for the onset of panic attacks are negative affectivity which is proneness to experiencing negative emotions, and anxiety sensitivity, that is, the disposition to believe that symptoms of anxiety are harmful. Although their risk status for the diagnosis of panic disorder is unknown. Due to this, the person has an increased focus on bodily sensations such as tightness in the chest, breathlessness, dizziness, sweating because they are worried about having a panic attack.
+Factors identified for the onset of panic attacks are negative affectivity which is a proneness to experiencing negative emotions, and anxiety sensitivity, that is, the disposition to believe that symptoms of anxiety are harmful. Although their risk status for the diagnosis of panic disorder is unknown. Due to this, the person has an increased focus on bodily sensations such as tightness in the chest, breathlessness, dizziness, sweating because they are worried about having a panic attack.
 
 **ENVIRONMENTAL CAUSES**
 
 * Chronic physical illnesses such as cancer
-* Experiencing a significant personal loss, including break-up with a romantic partner
+* Experiencing a significant personal loss, including a break-up with a romantic partner
 * Significant life changes such as losing a job, becoming a parent, and moving house
 * ‘Maintaining’ behavior such as avoiding panic-provoking situations or environments, anxious/negative self-talk, dysfunctional beliefs, and feelings.
 
 **PHYSIOLOGICAL CAUSES**
 
 * Chronic ***stress***
-* An existing mental health condition such as **\*anxiety**, **depression**, **obsessive compulsive disorder (OCD)**, or **post-traumatic stress disorder (PTSD)***
+* An existing mental health condition such as **\*anxiety**, **depression**, **obsessive-compulsive disorder (OCD)**, or **post-traumatic stress disorder (PTSD)***
 * ***Phobias*** - people may experience panic attacks as a direct result of exposure to a phobic object or situation
 * Lack of assertiveness - a growing body of evidence supports the idea that those who suffer from panic attacks engage in a passive style of communication or interactions with others
 * Low self-esteem
 
 ## **TREATMENT UNDER OUR PROGRAM**
 
-**Cognitive behavioral therapy (CBT)** 
+**Cognitive-behavioral therapy (CBT)** 
 
 Can help people with panic disorder learn new ways of thinking and reacting to anxiety-provoking situations. As part of the CBT process, therapists help clients identify and challenge negative or unhelpful patterns of thinking and replace these thoughts with more realistic and helpful ways of thinking.
 
@@ -117,7 +117,7 @@ Session 2 - CBT as an approach for Panic Disorder
 
 Session 3 - Unhelpful Thinking Styles and Modification
 
-Session 4 : Cognitive Restructuring (Challenging Your Style of Thinking)
+Session 4: Cognitive Restructuring (Challenging Your Style of Thinking)
 
 Session 5 -  Exposure to Internal Sensations
 
@@ -125,7 +125,7 @@ Session 6 - Relaxation Training
 
 Session 7 - Coping with relapse
 
-These sessions come a time limit of 7 days as you need to complete each session within a week. Later you will land into another session by default, although you may complete the session later in case of some urgency. Also, you get the facility of URL to change the sessions as per your choice but here again the time limit remains the same. Apart from these sessions, we have a panel of experts whom you can contact anytime throughout your journey with RESILIENS. We work as a team to help you out 24/7. 
+These sessions come with a time limit of 7 days as you need to complete each session within a week. Later you will land into another session by default, although you may complete the session later in case of some urgency. Also, you get the facility of URL to change the sessions as per your choice but here again, the time limit remains the same. Apart from these sessions, we have a panel of experts whom you can contact anytime throughout your journey with RESILIENS. We work as a team to help you out 24/7. 
 
 **THIS TIME, DO TAKE THE COURAGE TO PICK THE RIGHTEST! DON'T PANIC! JOIN RESILIENS!**
 
