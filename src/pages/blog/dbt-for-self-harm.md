@@ -18,6 +18,8 @@ categories:
   category:
     - slug: dialectical-behavior-therapy-dbt
       title: DBT
+    - slug: depression
+      title: depression
 relatedpost:
   blog:
     - slug: panic-disorder?ref=workflow
