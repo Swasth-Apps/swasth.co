@@ -11,8 +11,8 @@ image: /img/anxious-landscape.jpg
 squareimage: /img/emotional-disregulation-square.jpg
 categories:
   category:
-    - slug: admin/#/collections/category/entries/panic-disorder
-      title: Panic Disorder
+    - slug: cognitive-behavioral-therapy
+      title: CBT
 relatedpost:
   blog:
     - slug: bipolar-disorder?ref=workflow
