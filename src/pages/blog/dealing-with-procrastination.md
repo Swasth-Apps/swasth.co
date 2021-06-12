@@ -15,13 +15,14 @@ categories:
       title: Dealing with Procrastination
 relatedpost:
   blog:
-    - slug: admin/#/collections/blog/entries/perfectionism?ref=workflow
+    - slug: perfectionism?ref=workflow
       title: Perfectionism
-    - slug: admin/#/collections/blog/entries/assertiveness?ref=workflow
+    - slug: assertiveness?ref=workflow
       title: Assertiveness
 tags:
   - Ignorance
   - Laziness
+link: https://resiliens.com/resilify/program/dealing-with-procrastination
 ---
 <!--StartFragment-->
 
