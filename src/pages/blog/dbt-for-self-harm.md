@@ -20,14 +20,15 @@ categories:
       title: DBT for Self-Harm
 relatedpost:
   blog:
-    - slug: admin/#/collections/blog/entries/panic-disorder?ref=workflow
+    - slug: panic-disorder?ref=workflow
       title: Panic Disorder
-    - slug: admin/#/collections/blog/entries/cbt-for-depression?ref=workflow
+    - slug: cbt-for-depression?ref=workflow
       title: CBT for depression
 tags:
   - Self-harm
   - depression
   - suicide
+link: https://resiliens.com/resilify/program/coping-with-self-harming-behaviors-with-dbt
 ---
 <!__StartFragment-->
 
@@ -131,19 +132,5 @@ Some of the symptoms of self-harm could be as follows:
   To get the best result out of the program, you are advised to complete all your sessions in time and remain cautious if you miss on any session any week. You will get a gentle reminder everyday though. Finish each of the sessions within the given time which most likely remains a week. You are also provided with a URL to change the session par your choice but the time limits still remains the same. As you know WHEN THERE IS A WILL, THERE IS A WAY and so is your self-strength that helps you maintain the track of life.
 
   **NO WORRIES, JUST HOP ON!**
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
 
 <!--EndFragment-->
