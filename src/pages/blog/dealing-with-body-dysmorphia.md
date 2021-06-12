@@ -16,13 +16,14 @@ categories:
       slug: admin/#/collections/category/entries/body-dysmorphia?ref=workflow
 relatedpost:
   blog:
-    - slug: admin/#/collections/blog/entries/emotion-regulation
+    - slug: emotion-regulation
       title: Emotion Regulation
-    - slug: admin/#/collections/blog/entries/dbt-for-emotional-dysregulation
+    - slug: dbt-for-emotional-dysregulation
       title: DBT for Emotional Dysregulation
 tags:
   - BodyImage
   - InferiorityComplex
+link: https://resiliens.com/resilify/program/dealing-with-body-dysmorphia
 ---
 <!--StartFragment-->
 
