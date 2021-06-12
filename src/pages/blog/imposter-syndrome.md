@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Imposter Syndrome
 username: Tanya Tripti
-date: 2021-06-10
+date: 2021-06-11
 description: Impostor Syndrome can be related to other feelings of self-doubt,
   such as fear of success , fear of rejection , or fear of failure . But it's
   not exactly an another symptom of low self-esteem, or excessive humility. It
@@ -11,8 +11,10 @@ image: /img/how-to-overcome-loneliness-02.png
 squareimage: /img/distress-tolerance-skills01.png
 categories:
   category:
-    - slug: admin/#/collections/category/entries/imposter-syndrome
-      title: Imposter Syndrome
+    - slug: mindfulness
+      title: mindfulness
+    - slug: stress
+      title: stress
 relatedpost:
   blog:
     - slug: positive-psychology?ref=workflow
