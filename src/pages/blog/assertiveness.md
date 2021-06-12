@@ -97,7 +97,7 @@ We even feel lonely and unworthy to the point that we underrate ourselves which 
 
 Those who lack assertiveness are more likely to develop social anxiety and start feeling that people judge them negatively and will be evaluated by others. Thus, they avoid social gatherings. **Those who are assertive are less depressive, this is what researchers show.** 
 
-Developing assertiveness within yourself might look difficult at first but gradually you develop the quality by putting a little bit of effort.
+Developing assertiveness within yourself might look difficult at first but gradually you develop the quality by putting in a little bit of effort.
 
 LET'S WORL TOGETHER!
 
