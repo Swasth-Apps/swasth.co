@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Bipolar Disorder
+title: CBT for Bipolar Disorder
 username: Tanya Tripti
 date: 2021-06-07
 description: Bipolar disorder, is a mental condition that brings severe high and
@@ -15,13 +15,14 @@ categories:
       slug: admin/#/collections/category/entries/bipolar-disorder
 relatedpost:
   blog:
-    - slug: admin/#/collections/blog/entries/10-common-cognitive-distortions
+    - slug: 10-common-cognitive-distortions
       title: 10 common cognitive distortions
-    - slug: admin/#/collections/blog/entries/dbt-for-emotional-dysregulation
+    - slug: dbt-for-emotional-dysregulation
       title: DBT for emotional dysregulation
 tags:
   - Mood-swings
   - Emotions
+link: https://resiliens.com/resilify/program/cbt-for-bipolar-disorder
 ---
 <!--StartFragment-->
 
@@ -116,5 +117,3 @@ Depressive Disorders
 
   \
   **LEAVE EVERYTHING UPON US! GET ABOARD RESILIENS!**
-
-  <!--EndFragment-->
