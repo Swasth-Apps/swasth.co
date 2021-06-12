@@ -11,8 +11,8 @@ image: /img/bpd-square-times-of-india-source.jpg
 squareimage: /img/bpd-square.jpg
 categories:
   category:
-    - title: Bipolar Disorder
-      slug: admin/#/collections/category/entries/bipolar-disorder
+    - title: CBT
+      slug: cognitive-behavioral-therapy
 relatedpost:
   blog:
     - slug: 10-common-cognitive-distortions
