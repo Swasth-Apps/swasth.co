@@ -13,8 +13,10 @@ image: /img/bed-meditation.jpeg
 squareimage: /img/reselience-2.jpg
 categories:
   category:
-    - title: Assertiveness
-      slug: admin/#/collections/category/entries/assertiveness
+    - title: mindfulness
+      slug: mindfulness
+    - slug: tech
+      title: tech
 relatedpost:
   blog:
     - title: What is Mindfulness?
