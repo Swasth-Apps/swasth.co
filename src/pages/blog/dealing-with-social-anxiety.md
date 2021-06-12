@@ -18,14 +18,15 @@ categories:
       title: Dealing with Social Anxiety
 relatedpost:
   blog:
-    - slug: admin/#/collections/blog/entries/act-for-anxiety
+    - slug: act-for-anxiety
       title: ACT for Anxiety
-    - slug: admin/#/collections/blog/entries/cognitive-behavior-therapy-cbt-for-anxiety
+    - slug: cognitive-behavior-therapy-cbt-for-anxiety
       title: Cognitive behavior therapy for Anxiety
 tags:
   - Anxiety
   - Societal-fear
   - Imperfections
+link: https://resiliens.com/resilify/program/dealing-with-social-anxiety
 ---
 <!--StartFragment-->
 
