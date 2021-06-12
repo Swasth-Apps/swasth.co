@@ -15,13 +15,14 @@ categories:
       title: CBT for Sleep Disorder
 relatedpost:
   blog:
-    - slug: admin/#/collections/blog/entries/panic-disorder?ref=workflow
+    - slug: panic-disorder?ref=workflow
       title: Panic Disorder
-    - slug: admin/#/collections/blog/entries/dealing-with-disordered-eating?ref=workflow
+    - slug: dealing-with-disordered-eating?ref=workflow
       title: Dealing with Disordered Eating
 tags:
   - Disorder
   - Sleep
+link: https://resiliens.com/resilify/program/cbt-for-insomnia
 ---
 <!--StartFragment-->
 
