@@ -14,6 +14,8 @@ categories:
   category:
     - title: Stress
       slug: stress
+    - slug: anxiety
+      title: Anxiety
 relatedpost:
   blog:
     - slug: emotion-regulation
