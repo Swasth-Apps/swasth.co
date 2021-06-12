@@ -16,14 +16,15 @@ categories:
       slug: admin/#/collections/category/entries/health-anxiety?ref=workflow
 relatedpost:
   blog:
-    - slug: admin/#/collections/blog/entries/dealing-with-social-anxiety?ref=workflow
+    - slug: dealing-with-social-anxiety?ref=workflow
       title: Dealing with Social Anxiety
-    - slug: admin/#/collections/blog/entries/act-for-anxiety
+    - slug: act-for-anxiety
       title: ACT for Anxiety
 tags:
   - Anxiety
   - Health
   - Body
+link: https://resiliens.com/resilify/program/dealing-with-health-anxiety
 ---
 <!--StartFragment-->
 
