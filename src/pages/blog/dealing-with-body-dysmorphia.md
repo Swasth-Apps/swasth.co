@@ -12,8 +12,8 @@ image: /img/bpd-2.jpg
 squareimage: /img/anxiety-landscape.jpg
 categories:
   category:
-    - title: Body Dysmorphia
-      slug: admin/#/collections/category/entries/body-dysmorphia?ref=workflow
+    - title: Stress
+      slug: stress
 relatedpost:
   blog:
     - slug: emotion-regulation
