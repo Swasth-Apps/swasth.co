@@ -15,13 +15,14 @@ categories:
       title: Imposter Syndrome
 relatedpost:
   blog:
-    - slug: admin/#/collections/blog/entries/positive-psychology?ref=workflow
+    - slug: positive-psychology?ref=workflow
       title: Positive Psychology
-    - slug: admin/#/collections/blog/entries/self-esteem?ref=workflow
+    - slug: self-esteem?ref=workflow
       title: Self-Esteem
 tags:
   - Belief
   - Self-doubting
+link: https://resiliens.com/resilify/program/overcoming-imposter-syndrome
 ---
 <!--StartFragment-->
 
