@@ -16,13 +16,14 @@ categories:
       title: Science of Gratitude and Wellbeing
 relatedpost:
   blog:
-    - slug: admin/#/collections/category/entries/self-compassion?ref=workflow
+    - slug: self-compassion?ref=workflow
       title: Self-Compassion
-    - slug: admin/#/collections/blog/entries/positive-psychology?ref=workflow
+    - slug: positive-psychology?ref=workflow
       title: Positive Psychology
 tags:
   - Gratitude
   - Happiness
+link: https://resiliens.com/resilify/program/the-science-of-gratitude-and-well-being
 ---
 <!--StartFragment-->
 
