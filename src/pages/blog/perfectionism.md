@@ -14,13 +14,14 @@ categories:
       title: Perfectionism
 relatedpost:
   blog:
-    - slug: admin/#/collections/blog/entries/how-to-practice-radical-acceptance
+    - slug: how-to-practice-radical-acceptance
       title: Radical Acceptance
-    - slug: admin/#/collections/category/entries/happiness
-      title: Happiness
+    - slug: dbt-for-treating-borderline-personality-disorder
+      title: DBT for treating borderline Personality Disorder
 tags:
   - Ideology
   - Self-Analysis
+link: https://resiliens.com/resilify/program/how-to-overcome-perfectionism
 ---
 <!--StartFragment-->
 
