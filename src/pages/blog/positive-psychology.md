@@ -12,8 +12,10 @@ image: /img/bed-meditation.jpeg
 squareimage: /img/interpersonal-effectiveness-skills01.png
 categories:
   category:
-    - title: Positive Psychology
-      slug: admin/#/collections/category/entries/positive-psychology?ref=workflow
+    - title: happiness
+      slug: happiness
+    - slug: mindfulness
+      title: mindfulness
 relatedpost:
   blog:
     - slug: what-is-mindfulness
