@@ -11,8 +11,8 @@ image: /img/cbt-main-imp.jpg
 squareimage: /img/er-2.jpeg
 categories:
   category:
-    - slug: admin/#/collections/category/entries/cbt-for-sleep-disorders
-      title: CBT for Sleep Disorder
+    - slug: cognitive-behavioral-therapy
+      title: CBT
 relatedpost:
   blog:
     - slug: panic-disorder?ref=workflow
