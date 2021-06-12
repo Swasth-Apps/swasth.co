@@ -12,8 +12,10 @@ image: /img/depressed-square.jpg
 squareimage: /img/missing-link-landscape.jpg
 categories:
   category:
-    - slug: admin/#/collections/category/entries/cbt-for-depression
-      title: CBT for Depression
+    - slug: depression
+      title: depression
+    - slug: cognitive-behavioral-therapy
+      title: CBT
 relatedpost:
   blog:
     - slug: tools-and-techniques-used-in-cbt
