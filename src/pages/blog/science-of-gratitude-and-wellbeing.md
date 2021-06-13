@@ -8,8 +8,8 @@ description: Experiencing gratitude tends to impart positive feelings, which in
   gratitude produces better mental health by shifting one's attention away from
   toxic emotions. Research shows that being grateful increases our happiness and
   gives us a greater sense of wellbeing.
-image: /img/bed-meditation.jpeg
-squareimage: /img/interpersonal-effectiveness-skills02.png
+image: static/img/pos4.jfif
+squareimage: static/img/pos5.jpg.crdownload
 categories:
   category:
     - slug: happiness
@@ -36,6 +36,8 @@ Gratitude is a thought when you are undergoing any sort of anxiety or stress**.*
  People who regularly practice gratitude by spending time to notice and reflect upon the things they're thankful for experience more positive emotions feel more alive, sleep better, express more compassion and kindness, and even have stronger immune systems. And gratitude doesn't need to be reserved only for momentous occasions: Sure, you might express gratitude after receiving a promotion at work, but you can also be thankful for something as simple as a delicious piece of the pie.
 
 ## **HOW TO PRACTICE GRATITUDE**
+
+![](static/img/pos6.jfif)
 
 **GRATITUDE JOURNALING**
 
