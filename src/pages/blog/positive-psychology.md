@@ -8,8 +8,8 @@ description: "Positive Psychology is a relatively new area of psychology that
   strengths, optimistic feelings, and a constructive approach. The theory of
   positive psychology is based upon the belief that happiness is derived from
   emotional as well as mental factors.  "
-image: /img/bed-meditation.jpeg
-squareimage: /img/interpersonal-effectiveness-skills01.png
+image: static/img/pos1.jfif
+squareimage: static/img/pos2.jfif
 categories:
   category:
     - title: happiness
@@ -30,6 +30,8 @@ link: https://resiliens.com/resilify/program/positive-psychology
 <!--StartFragment-->
 
 ## **WHAT IS POSITIVE PSYCHOLOGY?**
+
+![](static/img/pos3.jpg)
 
 Positive psychology is a kind of psychology describing the traits of strengths and behavior which motivates individuals to live a meaningful life. Studies show that this area seeks to know the factors of happening life. Positive psychology puts emphasis on the concept of the true meaning of satisfaction, and this field discovered the involvement of different types of positive living, including positive emotions, flow states, and a sense of richness.
 
