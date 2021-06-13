@@ -8,8 +8,8 @@ description: Anxiety arises at times when we think something bad may happen. The
   happen to their health thus may suffer from health anxiety. If you respond to
   health issues or symptoms, seeking reassurance and comfort, or avoiding
   particular situations, then health anxiety may cause serious problems.
-image: /img/anxiety-sqaure.jpg
-squareimage: /img/anxiety-landscape.jpg
+image: static/img/health1.jfif
+squareimage: static/img/health2.jfif
 categories:
   category:
     - title: Anxiety
@@ -35,6 +35,8 @@ link: https://resiliens.com/resilify/program/dealing-with-health-anxiety
 Before knowing about health, let us first look at what health is. It is a general assumption that we are healthy if we are not sick, thus health is eyed as a medical condition when there is a total absence of disease, injury, and any sort of disability from your body. Though the concept of health can vary as per the individual, generally health is considered to be a state of mental, physical, social, and mental fitness. Mental health and physical health are two broad topics of science but they are interrelated somehow. Therefore, it becomes significant to see health holistically rather than just in a black and white approach where you can watch only either presence or absence of disease. 
 
 ## **UNDERSTANDING HEALTH ANXIETY**
+
+![](static/img/anxiety8.jfif)
 
 Did you ever think why some people get seriously sick or develop an illness? You would have probably experienced the same with yourself. In that case, did you visit your doctor numerous times to check if you are seriously diseased? Being preoccupied with health concerns all the time may cause distress and damage your everyday functioning. If you are seeing such symptoms within yourself, then you are possibly suffering from health anxiety. Health anxiety is an obsessive and irrational behavior in which people are way too concerned about their health and worry about having a serious medical condition.
 
