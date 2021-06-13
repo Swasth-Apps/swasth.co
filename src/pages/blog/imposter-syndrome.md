@@ -7,8 +7,8 @@ description: Impostor Syndrome can be related to other feelings of self-doubt,
   such as fear of success, fear of rejection, or fear of failure. But it's not
   exactly another symptom of low self-esteem or excessive humility. It involves
   a constant fear of exposure, isolation, and rejection.
-image: /img/how-to-overcome-loneliness-02.png
-squareimage: /img/distress-tolerance-skills01.png
+image: static/img/imp1.jpg
+squareimage: static/img/imp2.jfif
 categories:
   category:
     - slug: mindfulness
@@ -39,6 +39,8 @@ These feelings can inspire you to work hard but only sometimes as you feel like 
 Impostor syndrome, the notion that you’ve only succeeded due to luck, and not because of your talent or qualifications—was first identified in 1978 by psychologists Pauline Rose Clance and Suzanne Imes. They theorized that women were uniquely affected by impostor syndrome.
 
 ## **CHARACTERISTICS OF IMPOSTER SYNDROME**
+
+![](static/img/imp3.jpg)
 
 Imposter syndrome can be manifested in several ways but its manifestation occurs in the person suffering from it. People around may never be able to know about it as imposter syndrome barely shows any outside behavior which can affect others. Although it is difficult to  find out about the signs of the syndrome some can be interpreted which are mentioned below:
 
