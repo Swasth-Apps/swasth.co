@@ -8,8 +8,8 @@ description: "Body Dysmorphia is a term that is used to describe a specific type
   of their bodies and remain engrossed in a negative world. The methods
   discussed below help you overcome this problem and eliminate body-related
   insecurities. "
-image: /img/bpd-2.jpg
-squareimage: /img/anxiety-landscape.jpg
+image: static/img/body1.jpg
+squareimage: static/img/body2.jfif
 categories:
   category:
     - title: Stress
@@ -29,7 +29,7 @@ link: https://resiliens.com/resilify/program/dealing-with-body-dysmorphia
 ---
 <!--StartFragment-->
 
-**UNDERSTANDING BODY IMAGE**
+## **UNDERSTANDING BODY IMAGE**
 
 Body image isn't how we actually look, rather it is the perception of how we look and our outer appearance. Body image is basically known to have 4 elements, first is, how we see our body, which is our noncognitive body image, but this isn't the actual representation of our body. The second is, the way we feel about our body which is an effective body image. Thirdly, how we think of our body is basically the perceptual aspect. Fourthly, the behaviors we acquire as a result of the above three, popularly known as behavioral body image.
 
@@ -37,7 +37,7 @@ Body image isn't how we actually look, rather it is the perception of how we loo
 
 ## **WHAT IS BODY DYSMORPHIA?**
 
-![](/img/cbt-main-imp.jpg)
+![](static/img/body4.jfif)
 
 Body dysmorphia is a disorder in which people face issues with his/her own physical appearance. People with the disorder see themselves as the most unattractive, monstrous, flawed, ugly, etc. They get way too bothered about their looks most of the time. They spend almost half of their time in front of the mirror and evaluate themselves per the standards they have already set in their mind. Here in RESILIENS we offer the best programs to tackle such problems and breakthrough them in no time. The app we have launched is the cure to all such bothering that gets you on track with the help of the world's best practitioners in our contact.
 
@@ -49,7 +49,7 @@ Before jumping to a conclusion, it is rather more important to know what exactly
 
 ## **WHY IS IT SO IMPORTANT TO GET RID OF BODY DYSMORPHIA?**
 
-![](/img/cbt-vs-dbt.jpg)
+![](static/img/body3.jfif)
 
 Body dysmorphia can be rooted in different forms depending upon the individual.  In most cases, a particular part of the body is the zone of concern, while some may perceive flaws in some other forms causing them to get distressed. Several elements play big roles when it comes to full body appearance. Usually, just like other cognitive health issues, body dysmorphia also preoccupies your brain as a result of early life experiences and triggers.
 
