@@ -8,8 +8,8 @@ description: Depression is a mental disorder that can affect a person's
   Cognitive Behavioral Therapy (CBT), is a common type of therapy used to treat
   depression if depression is mind or moderate. It can be effective in severe
   cases as well only if the therapist is highly skilled.
-image: /img/depressed-square.jpg
-squareimage: /img/missing-link-landscape.jpg
+image: static/img/depressed1.jfif
+squareimage: static/img/depressed2.jfif
 categories:
   category:
     - slug: depression
@@ -36,6 +36,8 @@ CBT is a form of psychological treatment that has been found to be effective for
 It is important to emphasize that advances in CBT have been made on the basis of both research and clinical practice. Indeed, CBT is an approach for which there is adequate scientific evidence that the methods that have been developed actually produce change. In this manner, CBT differs from many other forms of psychological treatment.
 
 ## **UNDERSTANDING DEPRESSION**
+
+![](static/img/depressed3.jpeg)
 
 Do you often find yourself struggling to find peace or happiness? Do you do the activities that you would enjoy feel not so enjoyable? You might have spent ample time finding out the real reason behind your change in activities but sadly you couldn't. Right? You only yourself all engrossed in negative thoughts instead. There is a high chance that you are probably suffering from depression. But, WAIT UP!
 
