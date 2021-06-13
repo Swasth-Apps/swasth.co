@@ -7,8 +7,8 @@ description: Self-esteem refers to a person's beliefs about their own worth and
   importance. It also involves the feelings people experience that follows from
   their sense of worthiness or unworthiness. Self-esteem is important because it
   heavily influences people's choices and decisions.
-image: /img/interpersonal-effectiveness-skills01.png
-squareimage: /img/mindful-attention.jpeg
+image: static/img/self-esteem-1610363680.jpg
+squareimage: static/img/self-esteem-vs.-self-confidence.png
 categories:
   category:
     - slug: mindfulness
@@ -31,6 +31,8 @@ link: https://resiliens.com/resilify/program/self-esteem
 <!--StartFragment-->
 
 ## **WHAT IS SELF-ESTEEM?**
+
+![](static/img/20151020124625-pride-confidence-hubris-woman.jpeg)
 
 Self-esteem is one's value as a human being is a precious psychological resource and generally a highly positive factor in life; it is correlated with achievement, good relationships, and satisfaction. Possessing little self-regard can lead people to become depressed, fall short of their potential, or tolerate abusive relationships and situations.
 
