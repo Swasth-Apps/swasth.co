@@ -6,8 +6,8 @@ date: 2021-06-01
 description: Perfectionism is the restless struggle to gain an extremely high
   level of standards. It is basically the existence of a will that generates the
   optimal quality of mental, physical, spiritual, or materialistic behavior.
-image: /img/dbt-1.jpg
-squareimage: /img/act-future-2.jpg
+image: static/img/perfectionism1.jpg
+squareimage: static/img/perf2.jfif
 categories:
   category:
     - slug: tech
@@ -54,6 +54,8 @@ PERFECT QUANTITY: It refers to being all unsatisfied with a performance when it 
 " Person striving for flawlessness in himself and setting heavily high-performance standards, accompanied by overly optimal evaluations is a perfectionist". 
 
 ## **HOW BAD IS IT TO BE A PERFECTIONIST?**
+
+![](static/img/perfneg3.jfif)
 
 This cannot be denied that people take pride in calling themselves perfectionists, and the same feeling makes you feel super-efficient and valuable at the same time. Striving for something high may seem to help us loads to reach our goals but the actuality is, they act as a blockage on our track of happiness. Therefore, perfectionism is a destructive and irrational trait that can be a slow poison in disguise. It can have people suffer from anxiety and stress but still not being aware of the consequences. Some of its common consequences can be:
 
