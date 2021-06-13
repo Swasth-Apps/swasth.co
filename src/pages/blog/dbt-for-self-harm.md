@@ -12,8 +12,8 @@ description: Self-harm, and suicidal thoughts and behaviors, are transdiagnostic
   the behavioral consequence of distressing thoughts and emotions. Individuals
   who self-harm may be experiencing high levels of effect and often have few or
   ineffective coping strategies.
-image: /img/bpd-1.jpg
-squareimage: /img/emotional.jpg
+image: static/img/harm1.jfif
+squareimage: static/img/harm2.jpg
 categories:
   category:
     - slug: dialectical-behavior-therapy-dbt
@@ -35,6 +35,8 @@ link: https://resiliens.com/resilify/program/coping-with-self-harming-behaviors-
 <!__StartFragment-->
 
 ## **UNDERSTANDING SELF-HARM**
+
+![](static/img/harm3.jfif)
 
  Self-harm, often simply called self-injury, is the act of deliberately harming your own body, such as cutting or burning yourself. It's typically not meant as a suicide attempt. Rather, this type of self-injury is a harmful way to cope with emotional pain, intense anger, and frustration.
 
