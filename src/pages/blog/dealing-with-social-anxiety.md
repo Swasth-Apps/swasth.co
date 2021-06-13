@@ -10,8 +10,8 @@ description: Social anxiety is a mental health condition in which social
   start avoiding the situations. Here in this blog, we will find the causes,
   types, help, treatment, and ways to deal with the condition. We will also see,
   how our program can be of great help.
-image: /img/anxiety-3.jpg
-squareimage: /img/anxiety.jpeg
+image: static/img/anxiety1.jpg
+squareimage: static/img/anxiety2.jpg
 categories:
   category:
     - slug: anxiety
@@ -33,6 +33,8 @@ link: https://resiliens.com/resilify/program/dealing-with-social-anxiety
 <!--StartFragment-->
 
 ## **A glance at understanding SOCIAL ANXIETY**
+
+![](static/img/anxiety3.jfif)
 
 Social anxiety is a term that is often used to describe fear, nervousness, and trouble in social situations. The behavior can be found in both, the shy ones as well as not-so-shy ones. Social anxiety has you believe in others judging you negatively all the time. Although judgment is something that helps us improve our qualities and make us self-aware, socially anxious people believe that they might fall into an aura of awkwardness once they start interacting with others as if the only thing people are going to do is judge or criticize them without any cause. The fear of getting humiliated prohibits us from being open to others. The Most common feared situations could be going out for dating, shopping, parties, or any other sort of social gatherings or even a proper one-to-one talk. Such behavior eventually lands us in isolation and get us to lose confidence. 
 
