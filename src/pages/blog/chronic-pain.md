@@ -9,8 +9,8 @@ description: "Chronic pain is a kind of pain that lasts weeks to years. This
   months and lab tests or imaging is rarely required. Most people get back to
   the normal state after treatment of the pain but sometimes the pain carries on
   for longer due to some medical history or injury. "
-image: /img/anxiety.jpeg
-squareimage: /img/bpd-square.jpg
+image: static/img/chronic1.jfif
+squareimage: static/img/chronic2.jfif
 categories:
   category:
     - title: CBT
@@ -31,6 +31,8 @@ link: https://resiliens.com/resilify/program/dealing-with-chronic-pain-with-cbt
 <!--StartFragment-->
 
 ## **UNDERSTANDING CHRONIC PAIN**
+
+![](static/img/chronic3.jfif)
 
 As you already know that pain is any sort of response of the body towards the injury or trauma caused, It is an indication that something is off. Generally, your body loses the sense of the pain as your body starts to combat it. In some cases, the pain remains as long as a year or it may even get cured after a short-term treatment within a week. So, when it goes above a time span of 3 months or so, it is called chronic pain. Consequently, you see negative effects on your emotional and physical wellbeing.
 
