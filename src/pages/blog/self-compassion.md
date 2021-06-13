@@ -7,8 +7,8 @@ description: Learning to embrace yourself and your imperfections gives you the
   RESILIENCE needed to thrive. Self-Compassion originates from the depth of the
   heart that pushes you up to an all mindful personality and gets you to drop
   your moments of suffering.
-image: /img/acceptance.jpg
-squareimage: /img/mindfulness-in-dbt02.png
+image: static/img/self1.jpg
+squareimage: static/img/self2.jfif
 categories:
   category:
     - title: Happiness
@@ -30,7 +30,7 @@ link: https://resiliens.com/resilify/program/self-compassion
 
 *"Through self-compassion beings become more of an inner companion instead of an inner foe".*
 
-![Save yourself](/img/meditate-potrait.jpg "Save yourself")
+![Save yourself](static/img/self3.jpg "Save yourself")
 
 Self-compassion basically entails treating your inner-self the same way you would treat a friend of yours who is having a hard time even if he/she is just feeling insufficient to take up a task or facing a tough life challenge. We are no stranger to being all king to our family, friends, and relatives. Why not give a try to treating ourselves better? Self-compassion is an exercise in which we learn to befriend our inner selves in. Although we never even look forward to becoming an inner ally, this is what we teach you here in RESILIENS.
 
@@ -48,7 +48,7 @@ Self-compassion basically entails treating your inner-self the same way you woul
 
 **WHY IS SELF-COMPASSION IMPORTANT?**
 
-![Relaxation](/img/personal-control.jpg "Relaxation")
+![]()
 
 Though it is difficult to mention all the benefits one experiences through self-compassion, we will try our level best to get you familiar with some of its advantages. Let's check them out down in the blog:
 
