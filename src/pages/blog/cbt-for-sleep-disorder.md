@@ -7,8 +7,8 @@ description: The term sleep disorder refers to the conditions that affect sleep
   quality, timing, or duration and impact a person’s ability to properly
   function while they are awake. These disorders can contribute to other medical
   problems, and some may also be symptoms of underlying mental health issues.
-image: /img/cbt-main-imp.jpg
-squareimage: /img/er-2.jpeg
+image: static/img/sleep1.jfif
+squareimage: static/img/sleep2.jfif
 categories:
   category:
     - slug: cognitive-behavioral-therapy
@@ -27,6 +27,8 @@ link: https://resiliens.com/resilify/program/cbt-for-insomnia
 <!--StartFragment-->
 
 ## **KNOWING SLEEP DISORDERS**
+
+![](static/img/sleep3.jfif)
 
 Sleep disorders involve problems with the quality, timing, and amount of sleep, which result in daytime distress and difficulty in functioning. Sleep disorders often occur along with medical conditions or other mental health conditions, such as depression, anxiety, or cognitive disorders.
 
