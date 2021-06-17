@@ -39,5 +39,21 @@ collections:
       - {label: "Categories", name: "categories", widget: object, fields: [{label: "category", name: "category", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
       - {label: "Related Posts", name: "relatedpost", widget: object, fields: [{label: "blog", name: "blog", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
       - {label: "Tags", name: "tags", widget: "list"}
+      - { label: "Link", name: "link", widget: "string" }
+
+  - name: "resilifyProgram"
+    label: "Resilify Programs"
+    folder: "src/pages/resilify/program"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "resilify-program"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "string"}
+      - {label: "Program Overview", name: "overview", widget: "markdown"}
+      - {label: "Categories", name: "categories", widget: object, fields: [{label: "category", name: "category", widget: list, fields: [{label: Title, name: title, widget: string}]}]}
+      - {label: "Sessions", name: "sessions", widget: object, fields: [{label: "Session", name: "session", widget: list, fields: [{label: Title, name: title, widget: string},{label: Session Overview, name: overview, widget: text},{label: Activity Overview, name: activityOverview, widget: text}]}]}
+      - {label: "Related Posts", name: "relatedpost", widget: object, fields: [{label: "program", name: "program", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
+      - {label: "Tags", name: "tags", widget: "list"}
 
 
