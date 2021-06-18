@@ -69,7 +69,7 @@ const ResilifyProgram = (props) => {
                                                                     <TabPane tab={item} key={item}>
                                                                         {item === "Lessons" ?
                                                                             <p className="para-text white-text" style={{fontSize: 16}}>
-                                                                                {session.lessonsOverview}
+                                                                                {session.sessionsOverview}
                                                                             </p>:
                                                                             <p className="para-text white-text" style={{fontSize: 16}}>
                                                                                 {session.activitiesOverview}
