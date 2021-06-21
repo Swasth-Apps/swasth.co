@@ -78,4 +78,36 @@ sessions:
         through respective assertiveness.
       activityOverview: Use the activities in this session to help you manage conflict
         and practice putting your social skills to the test.
+relatedpost:
+  program:
+    - title: CBT for Bipolar Disorder
+      slug: cbt-for-bipolar-disorder
+    - title: Coping with IBS (CBT)
+      slug: coping-with-ibs-(cbt)
+    - title: Dealing with Body Dysmorphia
+      slug: dealing-with-body-dysmorphia
+    - title: Dealing with Chronic Pain with CBT
+      slug: dealing-with-chronic-pain-with-cbt
+    - title: Overcoming Imposter Syndrome
+      slug: overcoming-imposter-syndrome
+    - title: How to overcome Perfectionism
+      slug: how-to-overcome-perfectionism
+    - title: CBT for Addiction and Substance Use
+      slug: cbt-for-addiction-and-substance-use
+    - title: CBT for Panic Disorder
+      slug: cbt-for-panic-disorder
+    - title: CBT for Insomnia
+      slug: cbt-for-insomnia
+    - title: Dealing with Social Anxiety
+      slug: dealing-with-social-anxiety
+    - title: Dealing with Health Anxiety
+      slug: dealing-with-health-anxiety
+    - title: Self Compassion
+      slug: self-compassion
+    - title: Overcoming Disordered Eating
+      slug: overcoming-disordered-eating
+    - title: Coping with Self-harming Behaviors with DBT
+      slug: coping-with-self-harming-behaviors-with-dbt
+    - slug: enhancing-self-esteem
+      title: Enhancing Self Esteem
 ---
