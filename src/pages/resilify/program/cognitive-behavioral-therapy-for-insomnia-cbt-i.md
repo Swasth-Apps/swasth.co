@@ -78,4 +78,36 @@ sessions:
         constructive worrying to see if it improves your sleep. Continue to
         engage with these activities for improved and higher quality sleep
         overall.
+relatedpost:
+  program:
+    - slug: cbt-for-bipolar-disorder
+      title: CBT for Bipolar Disorder
+    - slug: coping-with-ibs-(cbt)
+      title: Coping with IBS (CBT)
+    - slug: dealing-with-body-dysmorphia
+      title: Dealing with Body Dysmorphia
+    - slug: dealing-with-chronic-pain-with-cbt
+      title: Dealing with Chronic Pain with CBT
+    - slug: overcoming-imposter-syndrome
+      title: Overcoming Imposter Syndrome
+    - title: How to overcome Perfectionism
+      slug: how-to-overcome-perfectionism
+    - slug: cbt-for-addiction-and-substance-use
+      title: CBT for Addiction and Substance Use
+    - slug: cbt-for-panic-disorder
+      title: CBT for Panic Disorder
+    - slug: dealing-with-social-anxiety
+      title: Dealing with Social Anxiety
+    - slug: dealing-with-health-anxiety
+      title: Dealing with Health Anxiety
+    - title: Self Compassion
+      slug: self-compassion
+    - slug: overcoming-disordered-eating
+      title: Overcoming Disordered Eating
+    - slug: coping-with-self-harming-behaviors-with-dbt
+      title: Coping with Self-harming Behaviors with DBT
+    - slug: enhancing-self-esteem
+      title: Enhancing Self Esteem
+    - title: CBT for Depression
+      slug: cbt-for-depression
 ---
