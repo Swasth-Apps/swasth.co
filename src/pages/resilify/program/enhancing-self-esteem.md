@@ -63,4 +63,6 @@ sessions:
         setbacks and what to do if it does happen to you.
       activityOverview: Use the activities to manage how you can continue to develop
         these skills and practices in the future.
+relatedpost:
+  program: []
 ---
