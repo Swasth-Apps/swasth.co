@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: Self Compassion
 image: self-compasssion.png
+sequence: 120
 overview: <p>Self-Compassion means that when we notice that we are distressed or
   in pain, we treat ourselves with kindness, gentle care, and understanding. In
   addition, Self-Compassion invites personal action with the goal to alleviate
