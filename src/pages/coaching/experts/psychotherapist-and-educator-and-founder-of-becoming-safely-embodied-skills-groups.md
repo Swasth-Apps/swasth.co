@@ -1,6 +1,7 @@
 ---
 templateKey: coaching-experts
 name: Deirdre Fay
+slug: deirdre-fay
 profileImage: d-fay_profile.jpg
 coverImage: d-fay_cover.jpg
 location: " "
