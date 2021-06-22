@@ -27,10 +27,10 @@ relatedpost:
       slug: cbt-for-panic-disorder
     - title: CBT for Insomnia
       slug: cbt-for-insomnia
-    - title: Dealing with Social Anxiety
-      slug: dealing-with-social-anxiety
     - title: Dealing with Health Anxiety
       slug: dealing-with-health-anxiety
+    - title: Dealing with Social Anxiety
+      slug: dealing-with-social-anxiety
     - title: Self Compassion
       slug: self-compassion
     - title: Overcoming Disordered Eating
