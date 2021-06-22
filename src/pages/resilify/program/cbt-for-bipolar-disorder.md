@@ -16,6 +16,16 @@ overview: <p>Bipolar disorder comes under the mood disorder spectrum and refers
 categories:
   category:
     - title: Mental Health
+sessions:
+  session:
+    - title: Introduction
+    - title: CBT as an approach for Bipolar
+    - title: Cognitive Restructuring
+    - title: Cognitive strategies for bipolar disorder
+    - title: Behavioral Strategies/Techniques
+    - title: Relaxation Training
+    - title: Visualization and Imagery
+    - title: Coping with relapse
 relatedpost:
   program:
     - title: Dealing with Chronic Pain with CBT
