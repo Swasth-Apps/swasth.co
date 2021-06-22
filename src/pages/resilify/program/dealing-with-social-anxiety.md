@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: Dealing with Social Anxiety
 image: social-anxiety.png
+sequence: 117
 overview: >-
   <p><span style="font-weight: 400;">Whenever we want to change an aspect of our
   lives such as our emotions, maladaptive thoughts or behavior, one can start

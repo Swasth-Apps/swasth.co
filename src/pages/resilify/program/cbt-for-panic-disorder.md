@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: CBT for Panic Disorder
 image: panic-disorder.jpg
+sequence: 107
 overview: >-
   <p>Panic disorder involves recurrent unexpected panic attacks and concerns
   about an anticipated increase in the number of future panic attacks. Thus the
