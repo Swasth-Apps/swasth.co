@@ -36,7 +36,6 @@ ResilifyProgramTemplate.propTypes = {
 
 const BlogPost = ({ data = {} }) => {
   const { markdownRemark: post,programs } = data
-  console.log("feature",data)
   return (
     <Layout
         noFooterMargin
@@ -123,8 +122,14 @@ export const pageQuery = graphql`
             image
             tags
             title
-            sequence
+            sequence    
             overview
+            slug
+            sessions{
+                session{
+                    title
+                }
+            }
           }
         }
       }

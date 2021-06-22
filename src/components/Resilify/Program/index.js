@@ -16,7 +16,7 @@ const ResilifyProgram = (props) => {
 
     const sessions = program?.sessions?.session;
     return (
-            <div className="resilify-program-page">
+            <div className="resilify-program-page" style={{marginTop: 2}}>
                 <h3 className="program-section-title base-text">{program.title}</h3>
 
                 <div className="program-detail-section">
@@ -50,7 +50,7 @@ const ResilifyProgram = (props) => {
                     </div>
                     <div className="program-overview-container">
                         <div className="program-overview-section scrollbar">
-                            <h4 className="base-text">Sessions</h4>
+                            <h4 className="base-text" style={{fontSize: 24}}>Sessions</h4>
                             <div className="faqs">
                                 <Collapse
                                     accordion

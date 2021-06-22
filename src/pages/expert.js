@@ -7,6 +7,7 @@ const ExpertComponent = props => {
 
     const { experts } = props.data;
     const path = typeof window !== "undefined" ? window?.location?.pathname?.substring('/expert/'.length) : "";
+    console.log(experts)
     const expert = experts?.edges?.find(({node}) => node?.fields?.slug?.includes(path));
     return (
         <Layout>
@@ -45,31 +46,8 @@ export const pageQuery = graphql`
             }
             books{
                 title
-                shore
+                shortDescription
                 link
-            }
-            awards{
-                title
-                givenBy
-                year
-                image
-            }
-            name
-            sequence
-          }
-        }
-      }
-    }
-  }
-`
-tDescription
-                image
-                link
-            }
-            awards{
-                title
-                givenBy
-                year
                 image
             }
             name

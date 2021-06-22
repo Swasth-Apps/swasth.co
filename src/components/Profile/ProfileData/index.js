@@ -43,7 +43,7 @@ class ProfileData extends React.Component {
                                                     target="_blank"
                                                     href={l.link}
                                                 >
-                                                    {l.title}
+                                                    {l.text}
                                                 </a>
                                             </li>
                                         )}

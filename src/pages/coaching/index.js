@@ -7,6 +7,7 @@ import ProfessionalPrograms from "../../components/Coaching/ProfessionalPrograms
 import Experts from "../../components/Coaching/Experts";
 import Organizations from "../../components/Coaching/Organizations";
 import {graphql} from "gatsby";
+import _ from "lodash";
 
 
 class CoachingIndex extends React.Component {
@@ -52,7 +53,6 @@ class CoachingIndex extends React.Component {
 
     renderTab = () => {
         const { experts } = this.props.data;
-
         switch (this.state.tab) {
             case "overview":
                 return <CoachingOverview/>;
@@ -106,6 +106,7 @@ class CoachingIndex extends React.Component {
                         <CoachingComponent
                             tab={this.state.tab}
                             location={this.props.location}
+                            experts={this.props.data?.experts}
                         />
 
                         <div className="coaching-mobile-section">

@@ -65,6 +65,7 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "coaching-experts"}
       - {label: "Name", name: "name", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Profile Image", name: "profileImage", widget: "string"}
       - {label: "Cover Image", name: "coverImage", widget: "string"}
       - {label: "Location", name: "location", widget: "string"}

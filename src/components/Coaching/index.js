@@ -13,6 +13,7 @@ import Experts from "./Experts";
 import CoachingOverview from "./Overview";
 import Organizations from "./Organizations";
 import Logo from "../../assets/images/coachingProgram/logo.png"
+import _ from "lodash";
 
 const { TabPane } = Tabs;
 const CoachingComponent = (props) => {
@@ -62,7 +63,7 @@ const CoachingComponent = (props) => {
                             className={'coach-wrapper'}
                             style={{paddingBottom: 0}}
                         >
-                        <Experts />
+                        <Experts experts={_.sortBy(props.experts?.edges,({node:{frontmatter}}) => frontmatter.sequence)}/>
                         </div>
                     </TabPane>
                     <TabPane tab={<Link to={`/coaching/organizations`} className={`para-text tab-title ${props.tab !== "organizations" ? "unselected-tab" : ""}`}>
