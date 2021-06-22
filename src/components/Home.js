@@ -2,12 +2,12 @@ import React, {useEffect, useState} from "react";
 import {Col, Row} from "antd";
 import {Link} from "gatsby";
 import bannerGraphic from "../assets/images/home-woman.jpeg";
-import ComprehensiveHealth from "../assets/images/comprehensiveHealth.png";
+import ComprehensiveHealth from "../assets/images/comprehensiveHealth.jpg";
 import programs from "../assets/images/Proven-Treatment-Methods-Img.png";
 import SelfHelpImg from "../assets/images/Self-Health-Coach-Section.png";
 import ProgramAdapts from "../assets/images/pexels-kaboompics-com-6335.jpg";
 import RequestDemoModal from "./RequestDemoModal";
-import MobileGraphic from "../assets/images/MobileView.png";
+import MobileGraphic from "../assets/images/MobileView.jpg";
 import Telecommuting from "../assets/images/Telecommuting.png"
 import ClickHere from "../assets/images/Click_here.png"
 import GroupTherapy from "../assets/images/Group_therapy.png"

@@ -342,7 +342,7 @@
 
     .slick-arrow {
       display: block !important;
-      background: #272c3391;
+      background: #272c33;
       width: 40px;
       height: 40px;
       border-radius: 50px;
@@ -490,7 +490,7 @@
       }
 
       .slick-arrow {
-        background: #272c3391;
+        background: #272c33;
 
         &:before {
           display: none;
@@ -726,12 +726,12 @@
         ul {
           list-style-type: none;
           margin: 40px 0 20px;
-
+          padding-left: 0px;
           li {
             font-size: 18px;
             padding-bottom: 10px;
             margin-top: 15px;
-
+            padding-left: 0px;
             &:not(:last-child) {
               border-bottom: 1px solid #a8a7ab40;
             }
@@ -1218,7 +1218,7 @@
 
     .slick-arrow {
       display: block;
-      background: #272c3391;
+      background: #272c33;
       width: 40px;
       height: 40px;
       border-radius: 50px;
@@ -1359,7 +1359,7 @@
       }
 
       .slick-arrow {
-        background: #272c3391;
+        background: #272c33;
 
         &:before {
           display: none;
@@ -1504,7 +1504,7 @@
 
     .slick-arrow {
       display: block;
-      background: #272c3391;
+      background: #272c33;
       width: 40px;
       height: 40px;
       border-radius: 50px;

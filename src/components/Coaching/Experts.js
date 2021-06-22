@@ -3,6 +3,7 @@ import {Link} from "gatsby";
 import {expertsData, getCloudIDFromImageName} from "../../helper/helper";
 import CLImage from "../../helper/CLImage";
 import {Helmet} from "react-helmet";
+import {Col, Row} from "antd";
 
 
 const experts = expertsData;
@@ -23,6 +24,14 @@ class Experts extends React.Component {
                         content="Resilens - Experts in Evidence Based Therapy, DBT, CBT, ACT, CFT, Compassion, Resilience, Motivational Interviewing, Cognitive Behavioral Therapy, Dialectic Behavior Therapy, Family therapy, Interpersonal psychotherapy, Exposure Therapy, MBSR, MBCT, Functional Family Therapy"
                     />
                 </Helmet>
+                <Row className='-row-flex-center'>
+                    <Col md={24} style={{width: '100%'}}>
+                        <h1 style={{textAlign: 'center'}}
+                           className='base-text experts-title-text'>
+                            World's leading experts in Evidence Based Therapy
+                        </h1>
+                    </Col>
+                </Row>
                 <div className="keen-slider">
                     {experts?.map(expert =>
                         <Link to={`/expert/${expert.slug}`} className="expert-container">
@@ -36,17 +45,18 @@ class Experts extends React.Component {
                                                 'experts',
                                             )}
                                             options={{
-                                                imageWidth: 150,imageHeight: 150
+                                                imageWidth: 800,imageHeight: 800
                                             }}
                                         />
+                                        <div className="expert-info-section">
+                                            <p className="name base-text">{expert.name}</p>
+                                            <p className="expertise para-text">{expert.expertise}</p>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <p className="name base-text">{expert.name}</p>
-                                        <p className="expertise para-text">{expert.expertise}</p>
-                                    </div>
+
                                 </div>
 
-                                <p className="description para-text">{expert.description}</p>
+                                {/*<p className="description para-text">{expert.description}</p>*/}
                             </div>
                         </Link>
                     )}

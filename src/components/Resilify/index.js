@@ -79,10 +79,10 @@ const ResilifyScreen = () => {
                         <li className="para-text"><CheckOutlined /> Watch on your desktop, phone, or TV</li>
                         <li className="para-text"><CheckOutlined /> Extensive set of tools for your well-being</li>
                     </ul>
-                    <RequestDemoModal btnText="Get Started" />
+                    <RequestDemoModal className={"white-btn"} btnText="Get Started" />
                 </div>
             </div>
-            <div className="explore-more">
+           {/* <div className="explore-more">
                 <h2 className="base-text">Explore More</h2>
                 <Slider className="program-wrapper" key={generateRandomID()}>
                     {topics?.map((t) => {
@@ -103,7 +103,7 @@ const ResilifyScreen = () => {
                         )
                     })}
                 </Slider>
-            </div>
+            </div>*/}
         </div>
         <div className="home-bottom-bg">
            {/* <div className="generalized-sections">

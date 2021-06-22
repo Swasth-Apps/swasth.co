@@ -197,15 +197,17 @@
 
       .course-price {
         display: flex;
-        padding: 12px 24px;
+        padding: 12px 36px;
         border-radius: 10px;
-        background-color: #fffaf7;
-
+        background-color: #6D8FE4;
+        width: fit-content;
         .body-16 {
           margin-top: 0px;
-          color: #2d3d4b;
-          font-size: 1.1rem;
+          color: #fff;
+          font-size: 1.3rem;
           line-height: 1.6;
+          margin-bottom: 0px;
+          text-align: center;
         }
 
         h1 {

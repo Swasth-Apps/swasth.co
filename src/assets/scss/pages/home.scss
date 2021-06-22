@@ -2741,6 +2741,7 @@ strong {
 // Update Home page Design
 .home-page-overview-container {
   z-index: 1111111;
+  overflow: hidden;
   .health-coaching-text {
     font-size: 40px;
     line-height: 50px;
@@ -3152,7 +3153,8 @@ strong {
     }
 
     .bg-img {
-      background: #754af630;
+      //background: #754af630;
+      background: #DAE3F3;
       border-radius: 10px;
     }
 
