@@ -13,6 +13,15 @@ overview: >-
 categories:
   category:
     - title: Mental Health
+sessions:
+  session:
+    - title: Understanding Perfectionism
+    - title: Letting go of unrealistic expectations
+    - title: Overcoming Self-Doubt
+    - title: Fighting fear of failure
+    - title: Dealing with errors in thinking
+    - title: Practicing Resilience
+    - title: Maintaining gains with compassion
 relatedpost:
   program:
     - title: Dealing with Chronic Pain with CBT
