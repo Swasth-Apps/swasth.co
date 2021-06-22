@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: Coping with Self-harming Behaviors with DBT
 image: self-harm.png
+sequence: 108
 overview: >-
   <p><span style="font-weight: 400;">Self-harm is a common challenge that many
   people face. Sometimes, we can experience events, thoughts, and feelings that
