@@ -95,10 +95,10 @@ relatedpost:
       title: CBT for Addiction and Substance Use
     - slug: cbt-for-panic-disorder
       title: CBT for Panic Disorder
-    - slug: dealing-with-social-anxiety
-      title: Dealing with Social Anxiety
     - slug: dealing-with-health-anxiety
       title: Dealing with Health Anxiety
+    - slug: dealing-with-social-anxiety
+      title: Dealing with Social Anxiety
     - title: Self Compassion
       slug: self-compassion
     - slug: overcoming-disordered-eating
