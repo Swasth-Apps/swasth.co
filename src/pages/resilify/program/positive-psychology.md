@@ -19,6 +19,14 @@ categories:
 sessions:
   session:
     - title: Introduction to Positive Psychology
+    - title: Optimism and Mindset
+    - title: Happiness and Character Strengths
+    - title: Gratitude and Happiness
+    - title: Resilience and Coping
+    - title: Mindfulness
+    - title: Compassion- Interrelated Therapy
+    - title: Body Mind Integration
+    - title: Constructive Responding
 relatedpost:
   program:
     - title: The Science of Resilience and Coping
