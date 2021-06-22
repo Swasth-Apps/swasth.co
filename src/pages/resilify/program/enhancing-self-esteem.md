@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: Enhancing Self-Esteem
 image: self-esteem.png
+sequence: 106
 overview: >-
   <p><span style="font-weight: 400;">Self-esteem, or how we evaluate our
   personal worth, relates to how we view and think about ourselves. Often, we
