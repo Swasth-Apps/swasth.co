@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: CBT for Bipolar Disorder
 image: bipolar-disorder.jpg
+sequence: 115
 overview: <p>Bipolar disorder comes under the mood disorder spectrum and refers
   to the experience of abnormal moods or exaggerated mood swings. The
   characteristic nature of this condition involves experiencing extremely “high”
