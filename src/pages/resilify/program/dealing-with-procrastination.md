@@ -20,10 +20,14 @@ relatedpost:
   program:
     - title: Dealing with Health Anxiety
       slug: dealing-with-health-anxiety
-    - slug: the-science-of-gratitude-and-well-being
-      title: The Science of Gratitude and Well-Being
-    - title: Self Compassion
-      slug: self-compassion
-    - title: Overcoming Disordered Eating
-      slug: overcoming-disordered-eating
+    - slug: how-to-overcome-perfectionism
+      title: How to overcome Perfectionism
+    - title: Improving your Assertiveness
+      slug: improving-your-assertiveness
+    - title: The Science of Gratitude and Well-Being
+      slug: the-science-of-gratitude-and-well-being
+    - slug: self-compassion
+      title: Self Compassion
+    - slug: overcoming-disordered-eating
+      title: Overcoming Disordered Eating
 ---
