@@ -32,8 +32,8 @@ class Experts extends React.Component {
                     </Col>
                 </Row>
                 <div className="keen-slider">
-                    {experts?.map(({node:{frontmatter,fields}}) =>
-                        <Link to={`/expert/${fields.slug}`} className="expert-container">
+                    {experts?.map(({node:{frontmatter}}) =>
+                        <Link to={`/expert/${frontmatter.slug}`} className="expert-container">
                             <div className="info">
                                 <div className="img">
                                     <div className="expert-img">

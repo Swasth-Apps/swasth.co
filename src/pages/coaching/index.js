@@ -134,6 +134,7 @@ export const pageQuery = graphql`
             profileImage
             title
             name
+            slug
             sequence
           }
         }
