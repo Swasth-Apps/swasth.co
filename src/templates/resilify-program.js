@@ -5,6 +5,7 @@ import Content, { HTMLContent } from '../components/Content'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout/layout'
 import ResilifyProgram from "../components/Resilify/Program";
+import _ from "lodash";
 
 export const ResilifyProgramTemplate = ({
   feature,
@@ -60,7 +61,7 @@ const BlogPost = ({ data = {} }) => {
           content={post?.html}
         feature={post.frontmatter}
         contentComponent={HTMLContent}
-          allPrograms={programs?.edges}
+          allPrograms={_.sortBy(programs?.edges,({node:{frontmatter}}) => frontmatter.sequence)}
       />
       </div>
     </Layout>
@@ -122,6 +123,7 @@ export const pageQuery = graphql`
             image
             tags
             title
+            sequence
             overview
           }
         }

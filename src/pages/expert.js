@@ -1,14 +1,82 @@
 import React from "react";
 import Profile from "../components/Profile";
 import Layout from "../components/Layout/layout";
+import {graphql} from "gatsby";
 
 const ExpertComponent = props => {
 
+    const { experts } = props.data;
+    const path = typeof window !== "undefined" ? window?.location?.pathname?.substring('/expert/'.length) : "";
+    const expert = experts?.edges?.find(({node}) => node?.fields?.slug?.includes(path));
     return (
         <Layout>
-            <Profile/>
+            <Profile expert={expert}/>
         </Layout>
     )
 };
 
 export default ExpertComponent;
+export const pageQuery = graphql`
+  query ExpertDatas {
+      experts: allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "coaching-experts" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            parent
+            profileImage
+            coverImage
+            location
+            title
+            about
+            qualifications{
+                certification
+                school
+                year
+                image
+            }
+            links{
+                text
+                link
+            }
+            books{
+                title
+                shore
+                link
+            }
+            awards{
+                title
+                givenBy
+                year
+                image
+            }
+            name
+            sequence
+          }
+        }
+      }
+    }
+  }
+`
+tDescription
+                image
+                link
+            }
+            awards{
+                title
+                givenBy
+                year
+                image
+            }
+            name
+            sequence
+          }
+        }
+      }
+    }
+  }
+`

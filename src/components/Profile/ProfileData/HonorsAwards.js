@@ -24,9 +24,9 @@ const HonorsAwards = ({provider}) => {
                                     "coaching",
                                     'png',
                                 )}
-                            /> : <div className="avatar-img program-img para-medium-text">{getInitials(q?.award)}</div>}
+                            /> : <div className="avatar-img program-img para-medium-text">{getInitials(q?.title)}</div>}
                             <div className="content">
-                                <p className="medium-text title">{q?.award}</p>
+                                <p className="medium-text title">{q?.title}</p>
                                 <p className="book-text subtitle">{q?.givenBy}</p>
                                 <p className="light-text year">{q?.year}</p>
                             </div>

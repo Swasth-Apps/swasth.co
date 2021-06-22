@@ -1,12 +1,10 @@
 import React from "react";
 import {Link} from "gatsby";
-import {expertsData, getCloudIDFromImageName} from "../../helper/helper";
+import {getCloudIDFromImageName} from "../../helper/helper";
 import CLImage from "../../helper/CLImage";
 import {Helmet} from "react-helmet";
 import {Col, Row} from "antd";
 
-
-const experts = expertsData;
 
 class Experts extends React.Component {
     constructor(props) {
@@ -14,6 +12,7 @@ class Experts extends React.Component {
     }
 
     render() {
+        const experts = this.props.experts;
         return (
             <div className="experts-navigation-wrapper">
                 <Helmet title="Resiliens">
@@ -33,14 +32,14 @@ class Experts extends React.Component {
                     </Col>
                 </Row>
                 <div className="keen-slider">
-                    {experts?.map(expert =>
-                        <Link to={`/expert/${expert.slug}`} className="expert-container">
+                    {experts?.map(({node:{frontmatter,fields}}) =>
+                        <Link to={`/expert/${fields.slug}`} className="expert-container">
                             <div className="info">
                                 <div className="img">
                                     <div className="expert-img">
                                         <CLImage
                                             cloudId={getCloudIDFromImageName(
-                                                expert.img,
+                                                frontmatter.profileImage,
                                                 "coaching",
                                                 'experts',
                                             )}
@@ -49,8 +48,8 @@ class Experts extends React.Component {
                                             }}
                                         />
                                         <div className="expert-info-section">
-                                            <p className="name base-text">{expert.name}</p>
-                                            <p className="expertise medium-text">{expert.expertise}</p>
+                                            <p className="name base-text">{frontmatter.name}</p>
+                                            <p className="expertise medium-text">{frontmatter.title}</p>
                                         </div>
                                     </div>
 

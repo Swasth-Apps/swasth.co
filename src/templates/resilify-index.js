@@ -3,6 +3,7 @@ import Layout from '../components/Layout/layout'
 import ResilifyScreen from '../components/Resilify'
 import {graphql, StaticQuery} from 'gatsby'
 import {Helmet} from "react-helmet";
+import _ from "lodash";
 
 
 class ResilifyIndex extends React.Component {
@@ -11,7 +12,7 @@ class ResilifyIndex extends React.Component {
         super(props);
         this.state = {
             active: 0,
-            programs: props.data?.programs?.edges || []
+            programs: _.sortBy(props.data?.programs?.edges,({node:{frontmatter}}) => frontmatter.sequence) || []
         }
     }
 
@@ -49,6 +50,7 @@ export default (props) => (
               frontmatter {
                 overview
                 title
+                sequence
                 sessions {
                   session {
                     activityOverview

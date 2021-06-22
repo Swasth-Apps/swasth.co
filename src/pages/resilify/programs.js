@@ -3,6 +3,7 @@ import Layout from '../../components/Layout/layout'
 import Programs from "../../components/Resilify/Programs";
 import {Helmet} from "react-helmet";
 import {graphql} from "gatsby";
+import _ from "lodash";
 
 
 class ResilifyPrograms extends React.Component {
@@ -27,7 +28,7 @@ class ResilifyPrograms extends React.Component {
                         content="Resiliens - Our evidence-based self guided programs"
                     />
                 </Helmet>
-                <Programs programs={resilifyPrograms?.edges}/>
+                <Programs programs={_.sortBy(resilifyPrograms?.edges,({node:{frontmatter}}) => frontmatter.sequence)}/>
             </Layout>
         )
     }
@@ -51,6 +52,7 @@ export const pageQuery = graphql`
             tags
             title
             overview
+            sequence
             sessions{
             session{
                 title

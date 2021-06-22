@@ -27,7 +27,7 @@ const Education = ({provider}) => {
                             <div className="content">
                                 <p className="medium-text title">{q?.certification}</p>
                                 <p className="book-text subtitle">{q?.school}</p>
-                                <p className="light-text year">{q?.qualification_year}</p>
+                                <p className="light-text year">{q?.year}</p>
                             </div>
                         </div>
                     )}

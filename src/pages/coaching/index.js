@@ -6,6 +6,7 @@ import ClientsPrograms from "../../components/Coaching/ClientsPrograms";
 import ProfessionalPrograms from "../../components/Coaching/ProfessionalPrograms";
 import Experts from "../../components/Coaching/Experts";
 import Organizations from "../../components/Coaching/Organizations";
+import {graphql} from "gatsby";
 
 
 class CoachingIndex extends React.Component {
@@ -50,6 +51,8 @@ class CoachingIndex extends React.Component {
     }
 
     renderTab = () => {
+        const { experts } = this.props.data;
+
         switch (this.state.tab) {
             case "overview":
                 return <CoachingOverview/>;
@@ -58,7 +61,7 @@ class CoachingIndex extends React.Component {
             case "professionals":
                 return <ProfessionalPrograms/>;
             case "experts":
-                return <Experts/>;
+                return <Experts experts={_.sortBy(experts?.edges,({node:{frontmatter}}) => frontmatter.sequence)}/>;
             case "organizations":
                 return <Organizations location={this.props.location}/>;
             default:
@@ -116,3 +119,24 @@ class CoachingIndex extends React.Component {
 }
 
 export default CoachingIndex;
+export const pageQuery = graphql`
+  query ExpertsList {
+      experts: allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "coaching-experts" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            profileImage
+            title
+            name
+            sequence
+          }
+        }
+      }
+    }
+  }
+`

@@ -13,8 +13,8 @@ class ProfileData extends React.Component {
 
     render() {
         const {provider} = this.props;
-        const links = provider?.resources?.filter(r => r.type === "link");
-        const books = provider?.resources?.filter(r => r.type === "book");
+        const links = provider?.links;
+        const books = provider?.books;
         return (
             <div className="profile-data">
 
@@ -41,7 +41,7 @@ class ProfileData extends React.Component {
                                                 <a
                                                     className="book-text"
                                                     target="_blank"
-                                                    href={l.resource}
+                                                    href={l.link}
                                                 >
                                                     {l.title}
                                                 </a>
@@ -56,7 +56,8 @@ class ProfileData extends React.Component {
                                     </p>
                                     <ul style={{paddingLeft: 0, paddingTop: 10,}} className="books">
                                         {books?.map(book =>
-                                            <a href={book.resource} className="para-text">
+                                            <a href={book.link} className="para-text">
+                                                {book?.image ?
                                                 <CLImage
                                                     className="program-img"
                                                     cloudId={getCloudIDFromImageName(
@@ -64,7 +65,7 @@ class ProfileData extends React.Component {
                                                         "coaching",
                                                         'png',
                                                     )}
-                                                />
+                                                /> : null}
                                                 <div style={{marginBottom: 30,marginTop: 10}}>
                                                     <a
                                                         className="book-text"
@@ -75,7 +76,7 @@ class ProfileData extends React.Component {
                                                         {book.title}
                                                     </a>
                                                     <p className="light-text">
-                                                        {book.description}
+                                                        {book.shortDescription}
                                                     </p>
                                                 </div>
                                             </a>
