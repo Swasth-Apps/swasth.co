@@ -20,7 +20,7 @@ const Program = props => {
             />
             {program?.sessions?.session?.length ?
             <div className="sessions-length roman-text">
-               {`Sessions ${program?.sessions?.session?.length}`}
+               {`${program?.sessions?.session?.length} Sessions`}
             </div> : null}
             <div className="program-detail">
                 <div className="program-info">
