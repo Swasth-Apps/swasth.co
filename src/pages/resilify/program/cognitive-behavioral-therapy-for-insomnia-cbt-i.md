@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: Cognitive Behavioral Therapy for Insomnia (CBT-I)
 image: Insomnia.png
+sequence: 102
 overview: >-
   <p><span style="font-weight: 400;">Getting good, quality sleep can be
   difficult, especially for those with busy schedules and who may be in
