@@ -1,6 +1,7 @@
 ---
 templateKey: coaching-experts
 name: Philip Zimbardo
+slug: philip-zimbardo
 profileImage: philip_profile.jpg
 coverImage: philip_cover.jpg
 location: San Francisco, CA, USA-94107
