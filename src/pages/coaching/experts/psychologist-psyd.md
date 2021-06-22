@@ -1,6 +1,7 @@
 ---
 templateKey: coaching-experts
 name: Tiffany Loggins, PsyD
+slug: tiffany-loggins-psyd
 profileImage: tiffny_loggins_profile.jpg
 coverImage: tiffny_loggins_cover.jpg
 location: 101 Quintara, San Francisco, CA, USA-94116
