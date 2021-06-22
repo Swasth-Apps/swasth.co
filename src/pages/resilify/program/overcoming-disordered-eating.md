@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: Overcoming Disordered Eating
 image: disordered-eating.png
+sequence: 121
 overview: <p>An eating disorder is a serious mental illness characterized by
   extreme concerns about weight, shape, eating and/or body image. </p><p>People
   with eating disorders usually experience considerable physical, emotional and
