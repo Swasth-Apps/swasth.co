@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: Coping with IBS (CBT)
 image: ibs.png
+sequence: 109
 overview: <p>This is a program based on Cognitive Behavioral Therapy for people
   suffering from Irritable Bowel Syndrome(IBS).</p>
 categories:
