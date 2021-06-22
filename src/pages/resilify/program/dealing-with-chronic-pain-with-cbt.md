@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: Dealing with Chronic Pain with CBT
 image: chronic-pain.jpg
+sequence: 105
 overview: <p>This is a program built for people suffering from Chronic Pain to
   help them heal with Cognitive Behavioral Therapy(CBT).</p>
 categories:
