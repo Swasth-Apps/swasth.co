@@ -124,7 +124,6 @@ export const pageQuery = graphql`
             title
             sequence    
             overview
-            slug
             sessions{
                 session{
                     title
