@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: Dealing with Health Anxiety
 image: health-anxiety.png
+sequence: 119
 overview: <p>Health anxiety basically refers to the experience of thinking that
   there may be a threat to your health, which consequently triggers your anxiety
   response. Such anxiety can impact on us in numerous negative ways. Below are
