@@ -95,6 +95,7 @@ const Home = () => {
                                     (Dialectical Behavior Therapy / DBT, Cognitive Behavioral Therapy / CBT,
                                     Acceptance and Committment Therapy / ACT etc.) with nutritional psychology,
                                     sleep psychology, Heart Rate / HRV-biofeedback and Health Psychology.</p>
+                                <br />
                                 <p className="book-text"> This holistic approach to behavioral health helps our program participants
                                     to gain long-lasting transformational results.</p>
                             </div>

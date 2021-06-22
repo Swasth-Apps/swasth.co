@@ -45,7 +45,7 @@ class Experts extends React.Component {
                                                 'experts',
                                             )}
                                             options={{
-                                                imageWidth: 800,imageHeight: 800
+                                                imageWidth: 400,imageHeight: 500
                                             }}
                                         />
                                         <div className="expert-info-section">

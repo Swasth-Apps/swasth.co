@@ -1,13 +1,10 @@
 import React from "react";
 import {Col, Row} from "antd";
 import TopicSection from "./TopicSection";
-import {generateRandomID, getCloudIDFromImageName} from "./common/helper";
 import {useSelector} from "react-redux";
 import bannerGraphic from "../../assets/images/resilify-woman.jpeg";
 import {CheckOutlined} from "@ant-design/icons";
-import Slider from "./common/Slider";
 import {Link} from "gatsby";
-import CLImage from "../../helper/CLImage";
 import RequestDemoModal from "../RequestDemoModal";
 
 const ResilifyScreen = (props) => {

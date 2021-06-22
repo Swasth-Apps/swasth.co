@@ -6,7 +6,7 @@ import Program from "../Program";
 import {Link} from "gatsby";
 import AppStoreIcon from "../../assets/images/app-store.png"
 import PlayStoreIcon from "../../assets/images/play-store.png"
-import ResiliensWithDevices from "../../assets/images/resiliens_with_devices.jpg"
+import ResiliensWithDevices from "../../assets/images/resiliens_with_devices.png"
 
 const TopicSection = props => {
     const [key, setKey] = useState("All");

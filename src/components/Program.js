@@ -6,7 +6,6 @@ import CLImage from "../helper/CLImage";
 
 const Program = props => {
     const program = props.program;
-    console.log("========",program.sessions)
     return (
         <Link className="keen-slider__slide program-card" to={`${props.slug}`}>
             <CLImage
@@ -21,7 +20,7 @@ const Program = props => {
             />
             {program?.sessions?.session?.length ?
             <div className="sessions-length roman-text">
-               Sessions {' '} {program?.sessions?.session?.length}
+               {`Sessions ${program?.sessions?.session?.length}`}
             </div> : null}
             <div className="program-detail">
                 <div className="program-info">

@@ -473,17 +473,17 @@
     display: flex;
     flex: 0 0 100%;
     flex-wrap: wrap;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
     .program-overview-container {
-      padding: 30px 20px;
+      padding: 0px 20px;
       flex: 0 0 50%;
       height: auto;
 
       .program-overview-section {
         background: white;
-        box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
-        border-radius: 10px;
-        padding: 30px;
-        max-height: calc(100vh - 250px);
+        padding: 20px;
         height: 100%;
         overflow: auto;
 
