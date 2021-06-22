@@ -10,6 +10,16 @@ categories:
   category:
     - title: Mental Health
     - title: Personal Growth
+sessions:
+  session:
+    - title: Understanding self- compassion
+    - title: Barriers to self-compassion
+    - title: Preparing to be self- compassionate
+    - title: Self compassion imagery
+    - title: Self compassionate thinking
+    - title: Feelings and self- compassion
+    - title: Self- compassionate behavior
+    - title: Self-compassionate living
 relatedpost:
   program:
     - title: How to overcome Perfectionism
