@@ -10,6 +10,16 @@ categories:
   category:
     - title: Mental Health
     - title: Personal Growth
+sessions:
+  session:
+    - title: Understanding Health anxiety
+    - title: How health anxiety is developed and maintained?
+    - title: Re- training your focus on health symptoms
+    - title: Dealing with anxiety provoking thoughts
+    - title: Adjusting health related rules and assumptions
+    - title: Reducing checking and reassurance seeking behaviors
+    - title: Challenging avoidance and safety behaviors
+    - title: Self- management
 relatedpost:
   program:
     - title: How to overcome Perfectionism

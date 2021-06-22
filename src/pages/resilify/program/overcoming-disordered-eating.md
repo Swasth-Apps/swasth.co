@@ -10,6 +10,20 @@ categories:
   category:
     - title: Mental Health
     - title: Personal Growth
+sessions:
+  session:
+    - title: What is an eating disorder?
+    - title: How are eating disorders maintained?
+    - title: Self-monitoring
+    - title: Dealing with unhelpful thinking styles
+    - title: Dealing with eating disorder mindsets
+    - title: Binge eating, purging and driven exercise
+    - title: Dealing with mood intolerance
+    - title: Dietary rules
+    - title: Challenging dietary rules
+    - title: Body checking and avoidance
+    - title: Dealing with low self-esteem
+    - title: Dealing with barriers and maintaining change
 relatedpost:
   program:
     - title: How to overcome Perfectionism

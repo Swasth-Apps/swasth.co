@@ -15,6 +15,15 @@ categories:
     - title: Mental Health
     - title: Family
     - title: Relationship
+sessions:
+  session:
+    - title: Understanding Social Anxiety
+    - title: Dealing with negative thinking
+    - title: Understanding origin of thoughts
+    - title: Overcoming Avoidance
+    - title: Dealing with safety behaviors
+    - title: Calm your mind
+    - title: Maintaining gains and dealing with setbacks
 relatedpost:
   program:
     - title: The Science of Gratitude and Well-Being

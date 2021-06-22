@@ -9,6 +9,15 @@ overview: '<p><span style="font-weight: 400;">This program introduces the
 categories:
   category:
     - title: Mental Health
+sessions:
+  session:
+    - title: Understanding Body Dysmorphia
+    - title: What keeps BDD going?
+    - title: Dealing with Appearance preoccupation
+    - title: Reducing Checking & Reassurance Seeking
+    - title: Overcoming Negative Predictions, Avoidance & Safety Behaviors
+    - title: Adjusting Appearance Assumptions
+    - title: Self Management
 relatedpost:
   program:
     - title: Coping with IBS (CBT)

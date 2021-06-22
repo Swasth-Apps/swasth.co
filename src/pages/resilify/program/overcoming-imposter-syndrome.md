@@ -14,6 +14,15 @@ overview: <p>Think of your greatest achievements. Do you feel proud of what
 categories:
   category:
     - title: Mental Health
+sessions:
+  session:
+    - title: Introduction
+    - title: Thought Process and Emotional States
+    - title: Changing Your Negative Thinking
+    - title: Developing the Self
+    - title: Relaxation to reduce Stress
+    - title: Self-Management
+    - title: Dealing with Setbacks
 relatedpost:
   program:
     - title: Coping with IBS (CBT)

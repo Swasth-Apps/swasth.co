@@ -12,6 +12,16 @@ categories:
     - title: Family
     - title: Relationship
     - title: Personal Growth
+sessions:
+  session:
+    - title: Understanding assertiveness and recognizing assertive behavior
+    - title: Prepare to assert yourself
+    - title: Adopting assertive thinking and behavior
+    - title: Learn to say ‘No’
+    - title: Dealing assertively with criticism
+    - title: Learn to deal with disappointments assertively
+    - title: Give and receive compliments assertively
+    - title: Adopting new ways of living
 relatedpost:
   program:
     - title: Dealing with Procrastination
