@@ -9,6 +9,17 @@ overview: <p>This is a program designed for people suffering from addiction and
 categories:
   category:
     - title: Mental Health
+sessions:
+  session:
+    - title: Introduction
+    - title: Link with Thoughts
+    - title: CBT for Addiction
+    - title: Cognitive Restructuring
+    - title: Relaxation Techniques
+    - title: Cognitive Distortions
+    - title: Visualization
+    - title: Thought Restriction
+    - title: Behavioral Activation
 relatedpost:
   program:
     - title: Coping with IBS (CBT)
