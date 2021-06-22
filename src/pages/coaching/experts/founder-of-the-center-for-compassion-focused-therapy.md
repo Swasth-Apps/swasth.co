@@ -5,7 +5,7 @@ profileImage: tirch_profile.png
 coverImage: tirch_cover.jpg
 location: New York City, NY, USA-94107.
 title: Founder of the center for compassion focused therapy
-sequence: -1
+sequence: 1
 about: "<p>Dr. Tirch is the Founder of The Center for Compassion Focused
   Therapy, the first clinical training center for Compassion Focused Therapy
   (CFT) in the USA.</p><p>Dr. Tirch is also the President of The Compassionate
