@@ -12,6 +12,14 @@ overview: >-
 categories:
   category:
     - title: Mental Health
+sessions:
+  session:
+    - title: Introduction to Panic Disorder
+    - title: CBT as an approach for Panic Disorder
+    - title: Unhelpful Thinking Styles and Modification
+    - title: Exposure to Internal Sensations
+    - title: Relaxation Training
+    - title: Coping with relapse
 relatedpost:
   program:
     - title: CBT for Bipolar Disorder
