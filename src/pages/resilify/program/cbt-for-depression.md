@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: CBT for Depression
 image: Depression.png
+sequence: 114
 overview: >-
   <p><span style="font-weight: 400;">Do you find yourself grappling with
   feelings of depression, like millions of others across the globe? This program
