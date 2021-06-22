@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: Dealing with Procrastination
 image: procrastination.jpg
+sequence: 104
 overview: >-
   <p>Procrastination can be considered to be a process involving acts and
   patterns. "Procrastination acts" are random and inconsistent, specific to
