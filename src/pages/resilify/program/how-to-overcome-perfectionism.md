@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: How to overcome Perfectionism
 image: perfectionism.png
+sequence: 116
 overview: >-
   <p><span>Each one of us sets certain goals for ourselves and try our best to
   achieve them. However, there is a difference between the healthy pursuit of
