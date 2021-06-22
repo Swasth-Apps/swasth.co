@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: Positive Psychology
 image: Positive-Psychology.png
+sequence: 101
 overview: "<p>Positive Psychology has three central components: positive
   experiences, positive individual traits, and positive institutions. This
   program will focus on the first two components - positive experiences and
