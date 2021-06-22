@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: The Science of Resilience and Coping
 image: resilience-image-1.jpg
+sequence: 113
 overview: <p>The science of resilience and coping enables us to build positive
   emotions that broaden our awareness and allow us to solve problems easily.</p>
 categories:
