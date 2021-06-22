@@ -17,7 +17,8 @@ categories:
   category:
     - title: Resilience
 sessions:
-  session: []
+  session:
+    - title: Introduction to Positive Psychology
 relatedpost:
   program:
     - title: The Science of Resilience and Coping
