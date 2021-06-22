@@ -1,6 +1,7 @@
 ---
 templateKey: coaching-experts
 name: Dennis Tirch
+slug: dennis-tirch
 profileImage: tirch_profile.png
 coverImage: tirch_cover.jpg
 location: New York City, NY, USA-94107.
