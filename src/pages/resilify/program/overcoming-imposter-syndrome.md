@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: Overcoming Imposter Syndrome
 image: imposter-syndrome.png
+sequence: 111
 overview: <p>Think of your greatest achievements. Do you feel proud of what
   you've accomplished? Or do you feel like a fraud? Does each raise, promotion
   or accomplishment bring joy? Or is it accompanied by the dread that, one day,
