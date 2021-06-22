@@ -50,7 +50,7 @@ class Experts extends React.Component {
                                         />
                                         <div className="expert-info-section">
                                             <p className="name base-text">{expert.name}</p>
-                                            <p className="expertise para-text">{expert.expertise}</p>
+                                            <p className="expertise medium-text">{expert.expertise}</p>
                                         </div>
                                     </div>
 

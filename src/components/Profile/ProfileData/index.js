@@ -39,7 +39,7 @@ class ProfileData extends React.Component {
                                         {links?.map(l =>
                                             <li className="para-text">
                                                 <a
-                                                    className="para-text"
+                                                    className="book-text"
                                                     target="_blank"
                                                     href={l.resource}
                                                 >
@@ -67,14 +67,14 @@ class ProfileData extends React.Component {
                                                 />
                                                 <div style={{marginBottom: 30,marginTop: 10}}>
                                                     <a
-                                                        className="para-text"
+                                                        className="book-text"
                                                         style={{fontSize: 18}}
                                                         href={book.resource}
                                                         target="_blank"
                                                     >
                                                         {book.title}
                                                     </a>
-                                                    <p className="para-text">
+                                                    <p className="light-text">
                                                         {book.description}
                                                     </p>
                                                 </div>

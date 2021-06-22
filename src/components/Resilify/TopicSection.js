@@ -4,11 +4,9 @@ import Slider from "./common/Slider";
 import {generateRandomID} from "./common/helper";
 import Program from "../Program";
 import {Link} from "gatsby";
-import {useSelector} from "react-redux";
-import Loader from "../Loader";
 import AppStoreIcon from "../../assets/images/app-store.png"
 import PlayStoreIcon from "../../assets/images/play-store.png"
-import ResiliensWithDevices from "../../assets/images/resiliens_with_devices.png"
+import ResiliensWithDevices from "../../assets/images/resiliens_with_devices.jpg"
 
 const TopicSection = props => {
     const [key, setKey] = useState("All");

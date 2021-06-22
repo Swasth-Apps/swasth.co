@@ -23,11 +23,11 @@ const BasicInformation = (props) => {
                             <p className="title base-text">
                                 {provider?.name?.full}
                             </p>
-                            <p className="subtitle para-text">
+                            <p className="subtitle medium-text">
                                 {provider?.bio}
                             </p>
                             {provider?.address?.city ||  provider?.address?.state || provider?.address?.country ?
-                            <p className="address para-text">
+                            <p className="address light-text">
                                {provider?.address.city + ", "+ provider?.address?.state + ", "+ provider?.address?.country}
                             </p> : null}
                         </div>

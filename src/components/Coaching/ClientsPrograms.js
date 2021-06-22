@@ -50,10 +50,10 @@ class ClientsPrograms extends React.Component {
                         <Row className='-row-flex-center' gutter={24}>
                             <Col md={16} className="programs-list-page-top-section">
                                 <p className="para-medium-text small-title">Our Programs</p>
-                                <h3 className='bottom-space base-text'>
+                                <h3 className='bottom-space heavy-text'>
                                     Programs that boost your mental health and resilience.
                                 </h3>
-                                <p className="para-text desc">
+                                <p className="light-text desc">
                                     Our programs are online and follow a blended
                                     learning approach with on-demand curriculum, assessments,
                                     live group sessions, progress tracking, supported by 1:1
@@ -77,13 +77,13 @@ class ClientsPrograms extends React.Component {
                                         <h3 className='bottom-space base-text'>
                                             More programs coming soon!
                                         </h3>
-                                        <p className="para-text desc">
+                                        <p className="light-text desc">
                                             We are in the process of developing new programs based on evidence-based
                                             treatments.
                                             If you’re interested in any of the programs below please sign up for the
                                             mailing list to be notified when they launch.
                                         </p>
-                                        <p className="para-text desc" style={{marginTop: 15}}>
+                                        <p className="light-text desc" style={{marginTop: 15}}>
                                             People who join our wait list are not obligated to take the program but you
                                             will receive a discount.
                                         </p>
@@ -98,8 +98,8 @@ class ClientsPrograms extends React.Component {
                                                         className="heading-24 ch-width-36 bm-16 base-text">
                                                         {program.name}
                                                     </h2>
-                                                        <h5 className="heading-16 bm-8 para-medium-text">{program?.coachInfo?.name}</h5>
-                                                        <div className="body-12 bm-24 para-text">
+                                                        <h5 className="heading-16 bm-8 medium-text">{program?.coachInfo?.name}</h5>
+                                                        <div className="body-12 bm-24 roman-text">
                                                             {program?.coachInfo?.title}
                                                         </div>
                                                     </div>
@@ -123,16 +123,8 @@ class ClientsPrograms extends React.Component {
                                                     />
                                                 </div>
                                                 <div className="upcoming-course-panel-text-wrapper">
-                                                    <p className="body-16 para-text show-more-less-desc">
-                                                        <ShowMore
-                                                            lines={4}
-                                                            more='Show more'
-                                                            less='Show less'
-                                                            anchorClass=''
-                                                        >
-                                                            {program?.shortDescription}
-                                                        </ShowMore>
-
+                                                    <p className="body-16 light-text">
+                                                        {program?.shortDescription}
                                                     </p>
                                                     <h5 className="body-16 bm-16 para-text">Coming Soon!</h5>
                                                     <div className="program-list-page-buttons tm-8">

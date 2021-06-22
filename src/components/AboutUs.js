@@ -60,7 +60,7 @@ const Home = (props) => {
                                             <Row className='card-row'>
                                                 <Col md={24} className="content" style={{textAlign: "center"}}>
                                                     <h3
-                                                        className='bottom-space base-text program-grounded'
+                                                        className='bottom-space heavy-text program-grounded'
                                                         style={{
                                                             lineHeight: "65px",
                                                             paddingTop: 30
@@ -102,10 +102,10 @@ const Home = (props) => {
                                              alt='Therapy'/>
                                     </Col>
                                     <Col md={12} className="content">
-                                        <h3 className='bottom-space base-text program-grounded'>
+                                        <h3 className='bottom-space heavy-text program-grounded'>
                                             Our Mission
                                         </h3>
-                                        <p className="para-medium-text width-90" style={{fontSize: 18}}>
+                                        <p className="book-text width-90" style={{fontSize: 18}}>
                                             Our mission is to transform behavioral health care through technology,
                                             evidence-based
                                             therapy and give everyone the tools, resources and clinical support when
@@ -121,10 +121,10 @@ const Home = (props) => {
                             <Col md={24}>
                                 <Row className='card-row'>
                                     <Col md={12} className="content">
-                                        <h3 className='bottom-space base-text program-grounded'>
+                                        <h3 className='bottom-space heavy-text program-grounded'>
                                             Our Approach
                                         </h3>
-                                        <p className="para-text width-90" style={{fontSize: 18}}>
+                                        <p className="book-text width-90" style={{fontSize: 18}}>
                                             We focus on evidence-based behavioral health care and psychoeducation,
                                             guided by experts and coaches to empower people improve their mental-health.
                                             <p style={{marginBottom: 10}}/>
@@ -220,14 +220,14 @@ const Home = (props) => {
                 style={{paddingBottom: 0}}
             >
                 <section className="about-us-leadership" style={{marginTop: 100}}>
-                    <h2 id="leaderTeam" className="base-text">Leadership Team</h2>
+                    <h2 id="leaderTeam" className="heavy-text">Leadership Team</h2>
                     {/*<p>Our technologists, mental health experts, and business leaders driving the strategy behind Resiliens.</p>  */}
-                    <div className="leader-section para-text">
+                    <div className="leader-section medium-text">
                         <div className="user">
                             <img src={Gana2}/>
-                            <p className="name base-text"> Gana Pemmanda </p>
-                            <p className="title para-text">Founder & CEO</p>
-                            <p className="para-book-text">Gana's vision with Resiliens is to transform behavioral health using
+                            <p className="name heavy-text"> Gana Pemmanda </p>
+                            <p className="title medium-text">Founder & CEO</p>
+                            <p className="book-text">Gana's vision with Resiliens is to transform behavioral health using
                                 technology and
                                 evidence-based
                                 models.
@@ -243,9 +243,9 @@ const Home = (props) => {
                         </div>
                         <div className="user">
                             <img src={Yotam}/>
-                            <p className="name base-text">Dr. Yotam Heineberg </p>
-                            <p className="title para-text">Co-founder / Chief Clinical Officer</p>
-                            <p className="para-book-text">Yotam leads research, clinician operations and implementation
+                            <p className="name heavy-text">Dr. Yotam Heineberg </p>
+                            <p className="title medium-text">Co-founder / Chief Clinical Officer</p>
+                            <p className="book-text">Yotam leads research, clinician operations and implementation
                                 of
                                 evidence-based therapy
                                 models at Resiliens.
@@ -259,9 +259,9 @@ const Home = (props) => {
                         </div>
                         {<div className="user">
                             <img src={Brian}/>
-                            <p className="name base-text"> Brian Thomas </p>
-                            <p className="title para-text">Advisor</p>
-                            <p className="para-book-text">Brian spent fourteen years as a corporate executive at Equinix
+                            <p className="name heavy-text"> Brian Thomas </p>
+                            <p className="title medium-text">Advisor</p>
+                            <p className="book-text">Brian spent fourteen years as a corporate executive at Equinix
                                 where he
                                 served as Chief of Staff in the Office of the CEO, Vice President of Global Corporate
                                 Planning, and Executive Sponsor
@@ -282,14 +282,14 @@ const Home = (props) => {
                         style={{paddingBottom: 0}}
                     >
                         <section className="about-us-leadership">
-                            <h2 id="boardTeam" className="base-text">Board of Directors and Advisors</h2>
+                            <h2 id="boardTeam" className="heavy-text">Board of Directors and Advisors</h2>
                             {/*<p>Our technologists, mental health experts, and business leaders driving the strategy behind Resiliens.</p>  */}
-                            <div className="leader-section board-member-section para-text">
+                            <div className="leader-section board-member-section medium-text">
                                 <div className="user">
                                     <img src={Zimbardo}/>
-                                    <p className="name base-text">Dr. Philip Zimbardo </p>
-                                    <p className="title para-text">Professor Emeritus @ Stanford</p>
-                                    <p className="para-text social-icons">
+                                    <p className="name heavy-text">Dr. Philip Zimbardo </p>
+                                    <p className="title medium-text">Professor Emeritus @ Stanford</p>
+                                    <p className="medium-text social-icons">
                                         <a href="https://www.linkedin.com/in/philzimbardo/">
                                             <img src={Linkedin}/>
                                         </a> <a href="https://en.wikipedia.org/wiki/Philip_Zimbardo">
@@ -299,9 +299,9 @@ const Home = (props) => {
                                 </div>
                                 <div className="user">
                                     <img src={Dennis}/>
-                                    <p className="name base-text">Dr. Dennis Tirch </p>
-                                    <p className="title para-text">Founder @ Center for Compassion Focused Therapy </p>
-                                    <p className="para-text social-icons">
+                                    <p className="name heavy-text">Dr. Dennis Tirch </p>
+                                    <p className="title medium-text">Founder @ Center for Compassion Focused Therapy </p>
+                                    <p className="medium-text social-icons">
                                         <a href="https://www.linkedin.com/in/dennis-tirch-663420b/">
                                             <img src={Linkedin}/>
                                         </a> <a href="http://www.mindfulcompassion.com/dr-dennis-tirch">
@@ -311,9 +311,9 @@ const Home = (props) => {
                                 </div>
                                 {/*                    <div className="user">
                         <img src={require("../assets/images/image-placeholder.png")}/>
-                        <p className="name base-text">TBA</p>
-                        <p className="title para-text">TBA</p>
-                        <p className="para-text social-icons">
+                        <p className="name heavy-text">TBA</p>
+                        <p className="title medium-text">TBA</p>
+                        <p className="medium-text social-icons">
                             <a href="">
                                 <img src={Linkedin}/>
                             </a>
@@ -321,9 +321,9 @@ const Home = (props) => {
                     </div>
                     <div className="user">
                         <img src={require("../assets/images/image-placeholder.png")}/>
-                        <p className="name base-text">TBA</p>
-                        <p className="title para-text">TBA</p>
-                        <p className="para-text social-icons">
+                        <p className="name heavy-text">TBA</p>
+                        <p className="title medium-text">TBA</p>
+                        <p className="medium-text social-icons">
                             <a href="">
                                 <img src={require("../assets/images/linkedin.png")}/>
                             </a>
@@ -331,9 +331,9 @@ const Home = (props) => {
                     </div> */}
                                 <div className="user">
                                     <img src={Brian}/>
-                                    <p className="name base-text">Brian Thomas</p>
-                                    <p className="title para-text">Business Executive</p>
-                                    <p className="para-text social-icons">
+                                    <p className="name heavy-text">Brian Thomas</p>
+                                    <p className="title medium-text">Business Executive</p>
+                                    <p className="medium-text social-icons">
                                         <a href="https://www.linkedin.com/in/brianthomas70/">
                                             <img src={Linkedin}/>
                                         </a>
@@ -341,9 +341,9 @@ const Home = (props) => {
                                 </div>
                                 <div className="user">
                                     <img src={Daniel}/>
-                                    <p className="name base-text">Daniel Blanaru</p>
-                                    <p className="title para-text">Executive @ Hippo Insurance</p>
-                                    <p className="para-text social-icons">
+                                    <p className="name heavy-text">Daniel Blanaru</p>
+                                    <p className="title medium-text">Executive @ Hippo Insurance</p>
+                                    <p className="medium-text social-icons">
                                         <a href="https://www.linkedin.com/in/danielblanaru/">
                                             <img src={Linkedin}/>
                                         </a>
@@ -351,9 +351,9 @@ const Home = (props) => {
                                 </div>
                                 {/*                     <div className="user">
                         <img src={require("../assets/images/image-placeholder.png")}/>
-                        <p className="name base-text">TBA</p>
-                        <p className="title para-text">TBA</p>
-                        <p className="para-text social-icons">
+                        <p className="name heavy-text">TBA</p>
+                        <p className="title medium-text">TBA</p>
+                        <p className="medium-text social-icons">
                             <a href="">
                                 <img src={require("../assets/images/linkedin.png")}/>
                             </a>
@@ -361,9 +361,9 @@ const Home = (props) => {
                     </div> */}
                                 <div className="user">
                                     <img src={Gana2}/>
-                                    <p className="name base-text"> Gana Pemmanda </p>
-                                    <p className="title para-text">Co-founder & CEO</p>
-                                    <p className="para-text social-icons">
+                                    <p className="name heavy-text"> Gana Pemmanda </p>
+                                    <p className="title medium-text">Co-founder & CEO</p>
+                                    <p className="medium-text social-icons">
                                         <a href="https://www.linkedin.com/in/ganapemmanda/">
                                             <img src={Linkedin}/>
                                         </a>
@@ -371,9 +371,9 @@ const Home = (props) => {
                                 </div>
                                 <div className="user">
                                     <img src={Yotam}/>
-                                    <p className="name base-text">Dr. Yotam Heineberg </p>
-                                    <p className="title para-text">Chief Clinical Officer</p>
-                                    <p className="para-text social-icons">
+                                    <p className="name heavy-text">Dr. Yotam Heineberg </p>
+                                    <p className="title medium-text">Chief Clinical Officer</p>
+                                    <p className="medium-text social-icons">
                                         <a href="">
                                             <img src={Linkedin}/>
                                         </a>
@@ -382,9 +382,9 @@ const Home = (props) => {
 
                                 {/*                   <div className="user">
                         <img src={require("../assets/images/image-placeholder.png")}/>
-                        <p className="name base-text">TBA</p>
-                        <p className="title para-text">TBA</p>
-                        <p className="para-text social-icons">
+                        <p className="name heavy-text">TBA</p>
+                        <p className="title medium-text">TBA</p>
+                        <p className="medium-text social-icons">
                             <a href="">
                                 <img src={require("../assets/images/linkedin.png")}/>
                             </a>
@@ -398,7 +398,7 @@ const Home = (props) => {
 
             <section className="about-us-join-team">
                 <div id="joinTeam">
-                    <p className="base-text">Ready to join our team?</p>
+                    <p className="heavy-text">Ready to join our team?</p>
                     <a href="mailto:jobs@resiliens.com">
                         <Button className="request-demo-btn" style={{margin: "20px 0"}}>Email Us</Button>
                     </a>
@@ -406,34 +406,34 @@ const Home = (props) => {
             </section>
             <section className="about-us-contact-us padding-20">
                 <div className="support">
-                    <h3 className="base-text">
+                    <h3 className="medium-text">
                         Members
                     </h3>
-                    <p className="para-text">
+                    <p className="book-text">
                         Contact our support team at <a>help@resiliens.com</a>.
                     </p>
                 </div>
                 <div className="support">
-                    <h3 className="base-text">
+                    <h3 className="medium-text">
                         Sales
                     </h3>
-                    <p className="para-text">
+                    <p className="book-text">
                         Contact our partnerships team at <a>info@resiliens.com.</a>
                     </p>
                 </div>
                 <div className="support">
-                    <h3 className="base-text">
+                    <h3 className="medium-text">
                         Providers
                     </h3>
-                    <p className="para-text">
+                    <p className="book-text">
                         Contact the provider relations team at <a>providers@resiliens.com.</a>
                     </p>
                 </div>
                 <div className="support">
-                    <h3 className="base-text">
+                    <h3 className="medium-text">
                         Press
                     </h3>
-                    <p className="para-text">
+                    <p className="book-text">
                         For press and media inquires, please contact us at <a>media@resiliens.com.</a>
                     </p>
                 </div>

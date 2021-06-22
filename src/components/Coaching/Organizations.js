@@ -115,9 +115,9 @@ class Organizations extends React.Component {
                                                     imageHeight: 800
                                                 }}
                                             />
-                                            <div className="coach-info">
+                                            <div className="coach-info medium-text">
                                                 {org.name}
-                                                <div>
+                                                <div className="roman-text">
                                                     {org.teamOwnerName}
                                                 </div>
                                             </div>

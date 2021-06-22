@@ -11,6 +11,43 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Avenir Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Book'), url('AvenirLTPro-Book.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Avenir Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Black'), url('AvenirLTPro-Black.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Avenir Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Roman'), url('AvenirLTPro-Roman.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Avenir Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Medium'), url('AvenirLTPro-Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Avenir Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Light'), url('AvenirLTPro-Light.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Avenir Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Heavy'), url('AvenirLTPro-Heavy.otf') format('opentype');
+}
+
 
 @font-face {
     font-family: 'Avenir';
@@ -19,18 +56,6 @@
     src: local('Avenir'), url('Avenir-LT-65-Medium.ttf') format('truetype');
 }
 
-@font-face {
-    font-family: 'Avenir Book';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Avenir Book'), url('AvenirLTStd-Book.otf') format('opentype');
-}
-@font-face {
-    font-family: 'Avenir Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Avenir Bold'), url('AvenirLTStd-Black.otf') format('opentype');
-}
 @font-face {
     font-family: 'Airbnb Cereal App Book';
     font-style: normal;

@@ -26,9 +26,9 @@ const HonorsAwards = ({provider}) => {
                                 )}
                             /> : <div className="avatar-img program-img para-medium-text">{getInitials(q?.award)}</div>}
                             <div className="content">
-                                <p className="para-text title">{q?.award}</p>
-                                <p className="para-text subtitle">{q?.givenBy}</p>
-                                <p className="para-text year">{q?.year}</p>
+                                <p className="medium-text title">{q?.award}</p>
+                                <p className="book-text subtitle">{q?.givenBy}</p>
+                                <p className="light-text year">{q?.year}</p>
                             </div>
                         </div>
                     )}

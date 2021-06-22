@@ -30,11 +30,11 @@ const ResilifyScreen = (props) => {
                                 <Col md={24}>
                                     <Row className='card-row'>
                                         <Col md={12} className="content">
-                                            <h3 className='bottom-space base-text program-grounded'>
+                                            <h3 className='bottom-space heavy-text program-grounded'>
                                                 Self-guided Programs<br/>
                                             </h3>
                                             <div className='para-text black-18-font margin-bottom-25'>
-                                                <p className="width-90 para-text">
+                                                <p className="width-90 light-text">
                                                    Our Resilify Platform offers self-guided programs based on evidence-based treatment modalities that last anywhere from 6-12 weeks.
                                                 </p>
                                             </div>
@@ -71,12 +71,12 @@ const ResilifyScreen = (props) => {
                 <div className="section">
                     <h2 className="base-text">Start learning from the best minds now</h2>
                     <ul>
-                        <li className="para-text"><CheckOutlined /> Programs across different categories</li>
-                        <li className="para-text"><CheckOutlined /> New Programs added every month</li>
-                        <li className="para-text"><CheckOutlined /> Learn and Practice at your convenience</li>
-                        <li className="para-text"><CheckOutlined /> Exercises (digitized worksheets)</li>
-                        <li className="para-text"><CheckOutlined /> Watch on your desktop, phone, or TV</li>
-                        <li className="para-text"><CheckOutlined /> Extensive set of tools for your well-being</li>
+                        <li className="book-text"><CheckOutlined /> Programs across different categories</li>
+                        <li className="book-text"><CheckOutlined /> New Programs added every month</li>
+                        <li className="book-text"><CheckOutlined /> Learn and Practice at your convenience</li>
+                        <li className="book-text"><CheckOutlined /> Exercises (digitized worksheets)</li>
+                        <li className="book-text"><CheckOutlined /> Watch on your desktop, phone, or TV</li>
+                        <li className="book-text"><CheckOutlined /> Extensive set of tools for your well-being</li>
                     </ul>
                     <RequestDemoModal className={"white-btn"} btnText="Get Started" />
                 </div>

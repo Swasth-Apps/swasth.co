@@ -25,9 +25,9 @@ const Education = ({provider}) => {
                                     )}
                                 /> : <div className="avatar-img program-img para-medium-text">{getInitials(q?.certification)}</div>}
                             <div className="content">
-                                <p className="para-text title">{q?.certification}</p>
-                                <p className="para-text subtitle">{q?.school}</p>
-                                <p className="para-text year">{q?.qualification_year}</p>
+                                <p className="medium-text title">{q?.certification}</p>
+                                <p className="book-text subtitle">{q?.school}</p>
+                                <p className="light-text year">{q?.qualification_year}</p>
                             </div>
                         </div>
                     )}

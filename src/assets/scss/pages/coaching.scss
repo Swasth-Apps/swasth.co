@@ -793,7 +793,7 @@
               .name {
                 color: white;
                 margin-bottom: 10px;
-                font-size: 18px;
+                font-size: 20px;
               }
 
               .expertise {
@@ -1236,7 +1236,6 @@
       letter-spacing: 1.2px;
       margin-bottom: -5px;
       line-height: 26px;
-      font-family: _font(base-font);
 
       div {
         font-size: 16px;
@@ -1524,7 +1523,7 @@
     flex: 0 0 50%;
 
     p, div, li, span {
-      font-family: _font(para-book-font) !important;
+      font-family: _font(light-font) !important;
       font-size: 16px;
       margin-bottom: 12px;
     }
@@ -2252,6 +2251,9 @@
     display: none !important;
   }
 
+  span{
+    font-family: "Avenir Roman", 'Avenir', Helvetica !important;
+  }
   span > span > span {
     &:not(:first-child) {
       padding-left: 5px;

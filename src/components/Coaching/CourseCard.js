@@ -91,7 +91,7 @@ const CourseCard = ({program,isProfessional = false}) => {
                 <h1 className="heading-32 ch-width-24 base-text">
                     {program.name}
                 </h1>
-                <p className="body-18 ch-width-50 para-text">
+                <p className="body-18 ch-width-50 light-text">
                     {program.shortDescription || program.description}
                 </p>
                 <div className="program-list-page-buttons tm-8">
@@ -117,18 +117,18 @@ const CourseCard = ({program,isProfessional = false}) => {
                     className="image-18"
                 />
                 <div style={{width: "100%"}}>
-                    <h3 className="heading-20 bm-8 para-medium-text">{program?.coachInfo?.name}</h3>
+                    <h3 className="heading-20 bm-8 medium-text">{program?.coachInfo?.name}</h3>
                     <p className="body-14 para-text show-more-less-desc">
                         <ShowMore
                             lines={2}
                             more='Show more'
                             less='Show less'
-                            anchorClass=''
+                            anchorClass='roman-text'
                         >{program?.coachInfo?.title}</ShowMore>
 
                     </p>
                     <div className="course-price">
-                        <div className="div-block-35"><h6 className="body-16 steel bm-0 para-medium-text">Program Fee</h6>
+                        <div className="div-block-35"><h6 className="body-16 steel bm-0 base-text">Program Fee</h6>
                             <h1 className="body-16 semi bm-0 base-text">{program?.isFree ? "FREE" : `$${program?.payment / 100}`}</h1></div>
                     </div>
                 </div>

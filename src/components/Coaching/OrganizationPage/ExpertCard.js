@@ -32,7 +32,7 @@ const ExperCard = ({member}) => {
                 </div>
                 <div className="course-card-content">
                     <h3 className="base-text">{member.name}</h3>
-                    <p className="para-text desc">
+                    <p className="light-text desc">
                         {member.description}
                     </p>
                 </div>
