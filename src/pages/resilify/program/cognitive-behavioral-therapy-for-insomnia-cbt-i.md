@@ -66,8 +66,7 @@ sessions:
         progressive muscle relaxation and diaphragmatic breathing."
       activityOverview: Try these skills out before sleep as they can be effective
         ways to reduce stress and anxiety.
-    - title: Constructive Worry, Problem Solving Skills, and How to Stay on Track
-        after Cognitive Behavioral Therapy
+    - title: Review and Conclusion
       overview: Learn about the process of constructive worry to set aside time
         designated for worrying. Explore problem solving skills and strategies
         to help ensure an effective and beneficial way to address your problems.
