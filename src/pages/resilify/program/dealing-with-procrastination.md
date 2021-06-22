@@ -16,6 +16,15 @@ overview: >-
 categories:
   category:
     - title: Personal Growth
+sessions:
+  session:
+    - title: Introduction
+    - title: A Scientific approach to overcome Procrastination
+    - title: Behavioral Manifestation of Procrastination
+    - title: Overcoming Procrastination using Rebt
+    - title: Challenging Procrastination Excuses
+    - title: Behavioral Techniques to overcome Procrastination
+    - title: Keeping up with Progress
 relatedpost:
   program:
     - title: Dealing with Health Anxiety
