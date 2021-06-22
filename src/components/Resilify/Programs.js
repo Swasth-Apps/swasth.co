@@ -1,26 +1,22 @@
 import React, {useState} from "react";
-import {useSelector} from "react-redux";
 import {Link} from "gatsby";
 import CategoryTabs from "./common/CategoryTabs";
 import Program from "../Program";
-import {Button, Col, Empty, Popover, Row} from "antd";
+import {Button, Col, Empty, Row} from "antd";
 import {scrollToDiv} from "./common/helper";
 import CategoryMobileTabs from "./CategoryMobileTabs";
-import Loader from "../Loader";
 import Logo from "../../assets/images/resilify/logo.png"
+import _ from "lodash";
 
-const ResilifyProgramsScreen = () => {
+const ResilifyProgramsScreen = (props) => {
     const [showMore, setShowMore] = useState(true);
-    const loading = useSelector(state => state.commonData.resilifyLoading);
-
-    const data = useSelector(state => state.commonData);
 
     const toggleMore = () => {
         setShowMore(!showMore)
     };
 
-    const programs = data?.programs || [];
-    const topics = data?.topics || [];
+    const programs = props?.programs || [];
+    const topics = _.map(_.uniqBy(props?.programs?.flatMap(({node:{frontmatter}}) => frontmatter?.categories?.category),"title"),"title") || [];
 
     const p = showMore ? programs?.filter((_, i) => i < 8) : programs;
     return <div className="resilify-category-page">
@@ -57,11 +53,11 @@ const ResilifyProgramsScreen = () => {
             <div className="program-section" id={`topic-tabs`}>
                 <h3 className="program-section-title base-text">Programs</h3>
             </div>
-            {loading ? <Loader /> : <>
+            { <>
 
                 <div className="program-wrapper">
                 {p?.map(program =>
-                    <Program program={program} onReload={() => this.forceUpdate()}/>
+                    <Program program={program.node?.frontmatter} slug={program.node?.fields?.slug} onReload={() => this.forceUpdate()}/>
                 )}
             </div>
             {p?.length ? null : <Empty description="No Programs available for this category."/>}

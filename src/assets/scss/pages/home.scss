@@ -3337,3 +3337,35 @@ strong {
   }
 
 }
+
+
+.html-parser-description{
+  font-family: _font(para-font) !important;
+  font-size: 16px !important;
+  margin-bottom: 15px;
+  h1,h2,h3,h4,h5,h6{
+    font-family: _font(para-font);
+    margin-bottom: 12px;
+    span,strong{
+      font-family: _font(para-font) !important;
+    }
+
+  }
+
+  a{
+    font-family: _font(para-font);
+  }
+  p,li,span,div{
+    font-family: _font(para-font);
+    font-size: 16px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+  }
+
+  b,strong{
+    font-family: _font(para-font);
+    font-weight: normal;
+  }
+
+}
+

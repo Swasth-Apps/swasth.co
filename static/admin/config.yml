@@ -53,7 +53,7 @@ collections:
       - {label: "Program Overview", name: "overview", widget: "markdown"}
       - {label: "Categories", name: "categories", widget: object, fields: [{label: "category", name: "category", widget: list, fields: [{label: Title, name: title, widget: string}]}]}
       - {label: "Sessions", name: "sessions", widget: object, fields: [{label: "Session", name: "session", widget: list, fields: [{label: Title, name: title, widget: string},{label: Session Overview, name: overview, widget: text},{label: Activity Overview, name: activityOverview, widget: text}]}]}
-      - {label: "Related Posts", name: "relatedpost", widget: object, fields: [{label: "program", name: "program", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
+      - {label: "Related Programs", name: "relatedpost", widget: object, fields: [{label: "program", name: "program", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
       - {label: "Tags", name: "tags", widget: "list"}
 
 

@@ -164,6 +164,12 @@
     @media (max-width: 769px) {
       padding: 50px 0;
     }
+    .slick-slide{
+      height: auto;
+      &>div{
+        height: 100%;
+      }
+    }
   }
 
   .program-section {
@@ -229,7 +235,7 @@
   .program-wrapper {
     //padding: 0px 20px;
     max-width: 1400px;
-    margin: 20px auto;
+    margin: 20px auto 40px;
 
     .slick-list {
       padding: 0px 5px;
@@ -262,13 +268,14 @@
         border-radius: 0 0 10px 10px;
 
         .program-info {
-          h3 {
+          h4 {
             color: _palette(dark-blue);
             font-size: 18px;
             margin-bottom: 5px;
             display: flex;
             min-height: 56px;
             align-items: center;
+            text-align: left;
           }
 
      /*     & > span, & > p, & > p > p {
@@ -609,12 +616,17 @@
       }
 
       p {
-        font-size: 18px;
+        font-size: 14px;
         color: #000000b0;
+      }
+      h4{
+        font-size: 18px;
+        margin-bottom: 5px;
       }
 
       .ant-collapse-arrow {
-        top: 24px !important;
+        top: 50% !important;
+        transform: translateY(-50%);
         font-size: 16px !important;
         color: #000000b0 !important;
         @media only screen and (max-width: 460px) {
@@ -661,7 +673,7 @@
 .home-discover-section {
   padding: 80px;
   background: rgba(66, 115, 240, 0.09);
-  margin-top: 80px;
+  //margin-top: 80px;
   border-radius: 10px 10px 0 0;
 
   .home-discover-inner-section {
@@ -1060,6 +1072,9 @@
       .selected-category {
         background: _palette(primary-purple);
         color: _palette(bg);
+        &:hover {
+          color: _palette(bg) !important;
+        }
       }
 
       @media only screen and (max-width: 768px) {
@@ -1131,7 +1146,7 @@
         border-radius: 0 0 10px 10px;
 
         .program-info {
-          h3 {
+          h4 {
             color: _palette(dark-blue);
             font-size: 20px;
             margin-bottom: 5px;

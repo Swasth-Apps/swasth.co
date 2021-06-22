@@ -1,40 +1,104 @@
 import React from 'react';
-import _ from "lodash";
 import ReactHtmlParser from "react-html-parser";
 import CLImage from "../../../helper/CLImage";
-import {useSelector} from "react-redux";
 import {Collapse, Tabs} from "antd";
-import {getCloudIDFromImageName} from "./../common/helper";
+import {getCloudIDFromImageName} from "../../../helper/helper";
 import Program from "../../../components/Program";
-import Loader from "../../../components/Loader";
-import CoachBg from "../../../assets/images/resilify/coach-bg.jpg"
 
 const {Panel} = Collapse;
 const {TabPane} = Tabs;
 
-const edges = ["Lessons", "Activities"];
+const edges = ["Overview", "Activities"];
 
 const ResilifyProgram = (props) => {
+    const  program = props?.program || [];
+    const relatedPrograms = props.program?.relatedpost?.program;
 
-    const tempProgram = useSelector(state => state.commonData.program);
-    const loading = useSelector(state => state.commonData.resilifyLoading);
-
-    const slugProgram = tempProgram?.[props.slug];
-    const  program = slugProgram?.program || {};
-    const  programs = slugProgram?.relatedPrograms || [];
-    const relatedPrograms = _.filter(
-        _.uniqBy(
-            programs?.filter(({topics}) => _.some(program.topics, t => topics.includes(t))),
-            "id"),
-        ({id}) => id !== program.id
-    );
-
+    const sessions = program?.sessions?.session;
     return (
             <div className="resilify-program-page">
-                {loading ? <Loader/> : <>
+                <h3 className="program-section-title base-text">{program.title}</h3>
 
-                    <div className="banner-img">
-                        <div className="program-top-banner"
+                <div className="program-detail-section">
+                    <div className="program-overview-container">
+                        <div className="program-overview-section scrollbar">
+                            <div style={{textAlign: "center"}}>
+                                <CLImage
+                                    cloudId={getCloudIDFromImageName(
+                                        program.image,
+                                        "bodhi",
+                                        'characters',
+                                    )}
+                                    imageHeight={800}
+                                    imageWidth={1200}
+                                    className="track-detail-img"
+                                />
+                            </div>
+                            <div>
+                                <div className="program-overview-container">
+                                    <div className="row">
+                                        <img src={require("../../../assets/images/note.png")}/>
+                                        <p className="medium-text">
+                                            {sessions?.length}{' Sessions'}
+                                        </p>
+                                    </div>
+                                    <div className="row">
+                                        <img src={require("../../../assets/images/clock-time.png")}/>
+                                        <p className="medium-text">
+                                            {sessions?.length}{' Hours'}
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="html-parser-description" style={{textAlign: "left"}}>
+                                    {ReactHtmlParser(program.overview)}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="program-overview-container">
+                        <div className="program-overview-section scrollbar">
+                            <h4 className="base-text">Sessions</h4>
+                            <div className="faqs">
+                                <Collapse
+                                    accordion
+                                    bordered={false}
+                                    expandIconPosition="right"
+                                >
+                                    {sessions?.map((session, i) => (
+                                        <Collapse.Panel
+                                            header={
+                                                <>
+                                                    <h4 className="roman-text">{session.title}</h4>
+                                                    <p className="book-text">Session {i + 1}</p>
+                                                </>
+                                            }
+
+                                            key={i + 1}>
+                                            <Tabs className={`topic-tabs`}>
+                                                {edges?.map(item =>
+                                                    <TabPane tab={item} key={item}>
+                                                        {item === "Overview" ?
+                                                            <p className="para-text" style={{fontSize: 16}}>
+                                                                {session.overview}
+                                                            </p>:
+                                                            <p className="para-text" style={{fontSize: 16}}>
+                                                                {session.activityOverview}
+                                                            </p>
+                                                        }
+                                                    </TabPane>
+                                                )}
+                                            </Tabs>
+                                        </Collapse.Panel>))}
+                                </Collapse>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                {/*<div className="banner-img">*/}
+                       {/* <div className="program-top-banner"
                              style={{
                                  background: `url(${CoachBg}) no-repeat center center fixed`
                              }}
@@ -42,37 +106,37 @@ const ResilifyProgram = (props) => {
                             <div className="banner-body-section">
                                 <div className="banner-inner-body">
                                     <div className="program-title-section">
-                                        <p className="base-text program-name">{program.name}</p>
+                                        <p className="base-text program-name">{program.title}</p>
                                     </div>
                                     <div className="banner-program">
                                         <div className="program-img-section">
                                             <CLImage
                                                 className="program-img"
                                                 cloudId={getCloudIDFromImageName(
-                                                    program.marketingImage,
+                                                    program.image,
                                                     "bodhi",
-                                                    'tracks',
+                                                    'characters',
                                                 )}
                                                 imageHeight={800}
                                                 imageWidth={1200}
                                             />
                                         </div>
-                                        {program?.sessions?.length ?
+                                        {program?.sessions?.session?.length ?
                                             <div className="program-session">
-                                                <h5>{`${program?.sessions?.length} SESSIONS`}</h5>
+                                                <h5>{`${program?.sessions?.session?.length} SESSIONS`}</h5>
                                                 <Collapse ghost expandIconPosition="right" accordion
                                                           className="scrollbar">
-                                                    {program?.sessions?.map((session, i) => {
-                                                        return <Panel header={`${i + 1}. ${session.name}`} key={i}>
+                                                    {program?.sessions?.session?.map((session, i) => {
+                                                        return <Panel header={`${i + 1}. ${session.title}`} key={i}>
                                                             <Tabs className={`topic-tabs`}>
                                                                 {edges?.map(item =>
                                                                     <TabPane tab={item} key={item}>
-                                                                        {item === "Lessons" ?
+                                                                        {item === "Overview" ?
                                                                             <p className="para-text white-text" style={{fontSize: 16}}>
-                                                                                {session.sessionsOverview}
+                                                                                {session.overview}
                                                                             </p>:
                                                                             <p className="para-text white-text" style={{fontSize: 16}}>
-                                                                                {session.activitiesOverview}
+                                                                                {session.activityOverview}
                                                                             </p>
                                                                         }
                                                                     </TabPane>
@@ -91,24 +155,22 @@ const ResilifyProgram = (props) => {
                         <div className="program-desc">
                             <div className="program-desc-text">
                                 <h3 className="base-text">About This Program</h3>
-                                <p>{ReactHtmlParser(program.description)}</p>
+                                <p>{ReactHtmlParser(program.overview)}</p>
                             </div>
                         </div>
-                    </div>
-                </>}
+                    </div>*/}
 
-                <div className="category-page-body">
+                <div className="category-page-body resilify-home-page-body">
                     <div className="program-section" id={`topic-tabs`}>
                         <h3 className="program-section-title base-text">Related Programs</h3>
                     </div>
                     <div className="program-wrapper">
-                        {relatedPrograms?.map(program =>
-                            <Program program={program}/>
+                        {relatedPrograms?.map((p) => {
+                            const program = props.allPrograms?.find(a => a?.node?.fields?.slug?.includes(p.slug));
+                             return(   program ? <Program program={program?.node?.frontmatter} slug={program?.node?.fields?.slug}/> : null )
+                            }
                         )}
                     </div>
-                </div>
-                <div style={{padding: "20px 0 20px", marginTop: 50}}>
-                    {/*<FAQs/>*/}
                 </div>
             </div>
     )

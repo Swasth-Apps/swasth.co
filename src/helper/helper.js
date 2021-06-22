@@ -56,6 +56,7 @@ export const cloudinaryPaths = {
     community: 'community/',
     assessments: 'assessments/',
     tools: 'tools/',
+    characters: 'characters/',
   },
   coaching:{
     png: 'png/',

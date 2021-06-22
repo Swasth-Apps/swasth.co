@@ -10,10 +10,11 @@ import {Link} from "gatsby";
 import CLImage from "../../helper/CLImage";
 import RequestDemoModal from "../RequestDemoModal";
 
-const ResilifyScreen = () => {
+const ResilifyScreen = (props) => {
     const p = useSelector(state => state.commonData);
     const topics = p?.topics;
-    const programs = p?.programs;
+    const programs = props?.programs;
+
 
     return <div className="resilify-home-page">
         <div className="banner-img">
@@ -60,8 +61,6 @@ const ResilifyScreen = () => {
         </div>
         <TopicSection
             programs={programs}
-            topics={topics}
-            itemsPerSlider={programs?.itemsPerSlider}
         />
         <div
             id='wrapper'
@@ -105,8 +104,8 @@ const ResilifyScreen = () => {
                 </Slider>
             </div>*/}
         </div>
-        <div className="home-bottom-bg">
-           {/* <div className="generalized-sections">
+{/*        <div className="home-bottom-bg">
+            <div className="generalized-sections">
                 <div className="sections">
                     <div className="section">
                         <h3 className="base-text"> 50+ Programs</h3>
@@ -123,10 +122,10 @@ const ResilifyScreen = () => {
                     <p className="para-text">Average per lesson</p>
                 </div>
             </div>
-            </div>*/}
+            </div>
 
-          {/*  <FAQs/> */}
-        </div>
+            <FAQs/>
+        </div>*/}
     </div>;
 
 }
