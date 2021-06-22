@@ -7,6 +7,16 @@ overview: <p>This is a program based on Cognitive Behavioral Therapy for people
 categories:
   category:
     - title: Mental Health
+sessions:
+  session:
+    - title: Introduction to IBS
+    - title: CBT Model
+    - title: Stress Management
+    - title: Cognitive Restructuring
+    - title: Relaxation Techniques
+    - title: Cognitive Distortions
+    - title: Visualization
+    - title: Thought Restriction
 relatedpost:
   program:
     - title: CBT for Bipolar Disorder
