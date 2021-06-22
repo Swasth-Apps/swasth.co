@@ -77,14 +77,14 @@ relatedpost:
   program:
     - slug: the-science-of-resilience-and-coping
       title: The Science of Resilience and Coping
-    - title: Improving your Assertiveness
-      slug: improving-your-assertiveness
-    - slug: dealing-with-procrastination
-      title: Dealing with Procrastination
-    - title: Dealing with Social Anxiety
-      slug: dealing-with-social-anxiety
+    - title: Dealing with Procrastination
+      slug: dealing-with-procrastination
+    - slug: improving-your-assertiveness
+      title: Improving your Assertiveness
     - title: Dealing with Health Anxiety
       slug: dealing-with-health-anxiety
+    - title: Dealing with Social Anxiety
+      slug: dealing-with-social-anxiety
     - title: Positive Psychology
       slug: positive-psychology
     - title: Self Compassion
