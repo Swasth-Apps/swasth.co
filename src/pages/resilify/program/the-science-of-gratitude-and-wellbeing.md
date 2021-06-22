@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: The Science of Gratitude and Wellbeing
 image: Gratitude-well-being.jpg
+sequence: 99
 overview: >-
   <p><span style="font-weight: 400;">We all want a happy life, but when we are
   built to always seek out the next best thing, how often do we spare a minute
