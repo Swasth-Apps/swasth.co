@@ -38,13 +38,13 @@ const ResilifyProgram = (props) => {
                                 <div className="program-overview-container">
                                     <div className="row">
                                         <img src={require("../../../assets/images/note.png")}/>
-                                        <p className="medium-text">
+                                        <p className="para-text">
                                             {sessions?.length}{' Sessions'}
                                         </p>
                                     </div>
                                     <div className="row">
                                         <img src={require("../../../assets/images/clock-time.png")}/>
-                                        <p className="medium-text">
+                                        <p className="para-text">
                                             {sessions?.length}{' Hours'}
                                         </p>
                                     </div>
@@ -68,8 +68,8 @@ const ResilifyProgram = (props) => {
                                         <Collapse.Panel
                                             header={
                                                 <>
-                                                    <h4 className="roman-text">{session.title}</h4>
-                                                    <p className="book-text">Session {i + 1}</p>
+                                                    <h4 className="para-text">{session.title}</h4>
+                                                    <p className="para-text">Session {i + 1}</p>
                                                 </>
                                             }
 

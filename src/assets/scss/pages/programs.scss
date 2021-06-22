@@ -106,8 +106,9 @@
     .program-card {
       border-radius: 10px;
       box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
-      height: fit-content;
+      height: auto;
       margin-bottom: 20px;
+      overflow: hidden;
       //margin-right: 20px;
       //max-width: 400px !important;
       //min-width: unset !important;
@@ -137,34 +138,15 @@
             text-align: left;
           }
 
-          & > span, & > p {
-            color: #344356 !important;
-            font-family: _font(para-book-font) !important;
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            font-size: 14px !important;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            margin-bottom: 5px;
-            text-align: left;
+        }
 
-            span:first-child, p:first-child {
-              color: #344356 !important;
-              font-family: _font(para-book-font) !important;
-              display: -webkit-box;
-              -webkit-line-clamp: 3;
-              font-size: 14px !important;
-              -webkit-box-orient: vertical;
-              overflow: hidden;
-              margin-bottom: 5px;
-              text-align: left;
-            }
-          ;
-
-            p:not(:first-child), span:not(:first-child) {
-              display: none;
-            }
-          }
+        .html-parser-description{
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          font-size: 14px !important;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-align: left !important;
         }
 
         .program-user-info {
@@ -189,6 +171,11 @@
           }
         }
       }
+
+      &:hover{
+        color: inherit !important;
+      }
+
 
       @media only screen and (max-width: 600px) {
         max-width: 100% !important;

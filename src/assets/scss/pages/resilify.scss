@@ -165,7 +165,7 @@
       padding: 50px 0;
     }
     .slick-slide{
-      height: auto;
+      height: 100%;
       &>div{
         height: 100%;
       }
@@ -256,6 +256,7 @@
       .program-img {
         width: 100%;
         border-radius: 10px 10px 0 0;
+        height: 60%;
       }
 
       .program-detail {
@@ -340,6 +341,18 @@
             }
           }
         }
+        .html-parser-description{
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          font-size: 14px !important;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-align: left !important;
+        }
+      }
+
+      &:hover{
+        color: inherit !important;
       }
 
       @media only screen and (max-width: 600px) {
@@ -621,7 +634,7 @@
       }
       h4{
         font-size: 18px;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
       }
 
       .ant-collapse-arrow {
@@ -1125,7 +1138,7 @@
     .program-card {
       border-radius: 10px;
       box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
-      height: fit-content;
+      height: auto;
       margin-bottom: 20px;
       //margin-right: 20px;
       //max-width: 400px !important;
@@ -1134,6 +1147,7 @@
       .program-img {
         width: 100%;
         border-radius: 10px 10px 0 0;
+        height: 60%;
       }
 
       .program-detail {

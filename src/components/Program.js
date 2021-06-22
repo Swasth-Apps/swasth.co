@@ -6,6 +6,7 @@ import CLImage from "../helper/CLImage";
 
 const Program = props => {
     const program = props.program;
+    console.log(program)
     return (
         <Link className="keen-slider__slide program-card" to={`${props.slug}`}>
             <CLImage
@@ -15,18 +16,18 @@ const Program = props => {
                     "bodhi",
                     'characters',
                 )}
-                imageHeight={800}
-                imageWidth={1200}
+                imageHeight={400}
+                imageWidth={600}
             />
             <div className="program-detail">
                 <div className="program-info">
                     <h4 className="base-text">{program.title}</h4>
-                    <div className="program-tags">
+                    {/*<div className="program-tags">
                         {program?.tags?.map(tag => <p className="tag">{tag}</p>)}
-                    </div>
-                  {/*  <p className="para-text">
+                    </div>*/}
+                    <p className="html-parser-description" >
                         {HtmlParser(program.overview)}
-                    </p>*/}
+                    </p>
                 </div>
             </div>
         </Link>
