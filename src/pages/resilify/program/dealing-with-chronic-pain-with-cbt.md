@@ -8,7 +8,15 @@ categories:
   category:
     - title: Mental Health
 sessions:
-  session: []
+  session:
+    - title: Introduction to Chronic Pain and Cognitive Behavioral Therapy
+    - title: "Chronic Pain Cycle: Breaking the Cycle"
+    - title: " Exercise & Pacing "
+    - title: " Relaxation Training"
+    - title: Behavioral Activation
+    - title: Cognitive Restructuring
+    - title: Sleep
+    - title: Communication & Social Support
 relatedpost:
   program:
     - title: CBT for Bipolar Disorder
