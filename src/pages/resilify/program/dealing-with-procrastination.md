@@ -18,8 +18,6 @@ categories:
     - title: Personal Growth
 relatedpost:
   program:
-    - title: Dealing with Social Anxiety
-      slug: dealing-with-social-anxiety
     - title: Dealing with Health Anxiety
       slug: dealing-with-health-anxiety
     - slug: the-science-of-gratitude-and-well-being
