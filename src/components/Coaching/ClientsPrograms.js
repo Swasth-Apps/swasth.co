@@ -7,7 +7,6 @@ import {Link} from "gatsby";
 import RegisterInterest from "../RegisterInterestModal";
 import CLImage from "../../helper/CLImage";
 import {getCloudIDFromImageName} from "../../helper/helper";
-import ShowMore from "react-show-more";
 import CoachBanner from "../../assets/images/coach_banner_animation.gif";
 
 class ClientsPrograms extends React.Component {
