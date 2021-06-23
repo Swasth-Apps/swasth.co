@@ -256,7 +256,6 @@
       .program-img {
         width: 100%;
         border-radius: 10px 10px 0 0;
-        height: 60%;
       }
 
       .program-detail {
@@ -348,6 +347,8 @@
           -webkit-box-orient: vertical;
           overflow: hidden;
           text-align: left !important;
+          max-height: 76px;
+          line-height: 24px !important;
         }
       }
 
@@ -1148,7 +1149,6 @@
       .program-img {
         width: 100%;
         border-radius: 10px 10px 0 0;
-        height: 60%;
       }
 
       .program-detail {
