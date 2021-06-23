@@ -31,7 +31,7 @@ link: https://resiliens.com/resilify/program/the-science-of-gratitude-and-well-b
 
 ## **UNDERSTANDING GRATITUDE**
 
-Gratitude is a thought when you are undergoing any sort of anxiety or stress**.** A gratitude formula can help you recognize and admire positive elements of your everyday life. If we dive deep into the meaning of gratitude, we find that it is derived from a Latin word, which means graciousness or gratefulness. Gratitude is an acknowledgment of something tangible as well as intangible.
+Gratitude is the feeling of being grateful or of wanting to give your thanks to somebody**.** A gratitude formula can help you recognize and admire positive elements of your everyday life. If we dive deep into the meaning of gratitude, we find that it is derived from a Latin word, which means graciousness or gratefulness. Gratitude is an acknowledgment of something tangible as well as intangible.
 
  People who regularly practice gratitude by spending time to notice and reflect upon the things they're thankful for experience more positive emotions feel more alive, sleep better, express more compassion and kindness, and even have stronger immune systems. And gratitude doesn't need to be reserved only for momentous occasions: Sure, you might express gratitude after receiving a promotion at work, but you can also be thankful for something as simple as a delicious piece of the pie.
 
@@ -103,7 +103,11 @@ Gratitude helps us find ways to express how grateful we are to have the support 
 
 ## **HOW TO MEASURE WELL-BEING**
 
-What is satisfaction?
+**What is well-being?**
+
+Well-being is the experience of health, happiness, and prosperity. It includes having good mental health, high life satisfaction, a sense of meaning or purpose, and the ability to manage stress
+
+**What is satisfaction?**
 
 According to a Dutch happiness expert Veenhoven, it refers to “the degree to which a person evaluates the overall quality of his or her present life-as-a-whole positively”.
 
@@ -139,6 +143,6 @@ Every session comes up with a duration to complete it. You are supposed to compl
 
 You may also contact our professional advisers and be in touch with them for as long as you want through your ongoing journey with us. They not only help you overcome your problems but also suggest ways to tackle them on your own if needed even in the future. 
 
-**QUIT BEING SHY! EXPRESS YOUR GRATITUDE!**
+**STAY HAPPY! EXPRESS YOUR GRATITUDE!**
 
 <!--EndFragment-->
