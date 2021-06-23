@@ -51,19 +51,19 @@ It clearly offers us the path to be self-reliant.
 
 We all are riders of our own vehicles and it totally depends on us how we want to veer across the road. Thus, reducing helplessness reduces depression.
 
-**In spite of all such benefits through acquiring assertiveness, we stay engrossed in aggressive behavior which is going to us in no way.**
+**In spite of all such benefits of acquiring assertiveness, we stay engrossed in aggressive behavior which is going to help us in no way.**
 
-LET'S GET STARTED WITH RESILIENS TO STRAT YOUR OWN JOURNEY OF ASSERTIVENESS
+LET'S GET STARTED WITH RESILIENS TO START YOUR OWN JOURNEY OF ASSERTIVENESS
 
 ## **TYPES OF BEHAVIOR**
 
 As we discussed earlier, we saw a number of advantages of assertive behavior then why don't we strive to achieve this trait? Let's review the types of behaviors to identify which behavior we engage in the most:
 
-**PASSIVE BEHAVIOR:** It is well known that we work hard to please others no matter what, not considering our own **wanting**. Such characteristic makes us weak and stop us from **thinking rightly.** We basically are afraid to take responsibility for our feelings and behavior which prevent us from facing challenges. **Even if someone tries to approach us for some sort of help, we refuse to take it.**
+**PASSIVE BEHAVIOR:** We work hard to please others no matter what, not considering our own wants. Such characteristic makes us weak and stop us from thinking right**.** We basically are afraid to take responsibility for our feelings and behavior which prevent us from facing challenges. Even if someone tries to approach us for some sort of help, we refuse to take it.
 
-**DIRECT AGGRESSION:** We often confuse aggression for assertion while the main characteristic of an aggressive person is not listening to others plus doing what one wants to do. Here, we do not see any kind of negotiation or compromise **and is often made equal to losing.** Whenever a challenging situation occurs, we deal it with physical or verbal strengths. 
+**DIRECT AGGRESSION:** We often confuse aggression for assertion while the main characteristic of an aggressive person is that he/she does not listen to others plus does what pleases him. He does not see any kind of negotiation or compromise and is often made equal to losing. Whenever a challenging situation occurs, we deal it with physical or verbal strengths. 
 
-**INDIRECT AGGRESSION:** Indirect aggression is a subtle form of aggression and it is actually the fear of being overly aggressive. Its effects are as bad as direct aggression, though it is difficult to find out if someone is **suffering from such behavior**. Those who suffer from this type of aggression faces low self-confidence and self-esteem just like those with direct aggression.   
+**INDIRECT AGGRESSION:** Indirect aggression is a subtle form of aggression and it is actually the fear of being overly aggressive. Its effects are as bad as direct aggression, though it is difficult to find out if someone is suffering from such behavior. Those who suffer from this type of aggression faces low self-confidence and self-esteem just like those with direct aggression.   
 
 Thus, we see four types of behavior including assertiveness. So, recognize the kind of behavior you are engaged in so that you can help yourself out along with RESILIENS. Our app guides you to achieve optimum assertiveness. So, get ready and  **FIGHT**! 
 
@@ -83,9 +83,9 @@ Reality: Being assertive does not necessarily mean that you will be able to acco
 
 Reality: Assertiveness does not refer to changing ourselves completely, rather it helps us keep being aware of our rights and prioritize our needs. It also helps us know our limits and league and also making others know about them.
 
-4. **There is no need to be assertive with close friends**
+4. There is no need to be assertive with close friends and relatives
 
-Reality: We often think like our friends and family are pretty close to us so we do not need to be assertive with them while the truth is even our **close ones do not many of our needs, I**n order to make them know what we want, we must behave assertively even with them.
+Reality: We often think like our friends and family are pretty close to us so we do not need to be assertive with them while the truth is even our close ones do not many of our needs, in order to make them know what we want, we must behave assertively even with them.
 
 5. Others will love you only when you are passive:
 
@@ -97,7 +97,7 @@ A big consequence of not being assertive could be a low sense of self-worth. By 
 
 We even feel lonely and unworthy to the point that we underrate ourselves which can result in issues with many kinds of relationships. In addition to such results, we see that aggressive people usually get cut off from their circle as people do not tend to like such people. They start losing friends and people don't respect them.
 
-Those who lack assertiveness are more likely to develop social anxiety and start feeling that people judge them negatively and will be evaluated by others. Thus, they avoid social gatherings. **Those who are assertive are less depressive, this is what researchers show.** 
+Those who lack assertiveness are most likely to develop social anxiety and start feeling that people judge them negatively and they will be evaluated by others. Thus, they avoid social gatherings. Those who are assertive are less depressed, this is what researchers show. 
 
 Developing assertiveness within yourself might look difficult at first but gradually you develop the quality by putting in a little bit of effort.
 
