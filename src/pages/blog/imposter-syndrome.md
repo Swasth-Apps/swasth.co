@@ -3,10 +3,11 @@ templateKey: blog-post
 title: Imposter Syndrome
 username: Tanya Tripti
 date: 2021-06-11
-description: Impostor Syndrome can be related to other feelings of self-doubt,
-  such as fear of success, fear of rejection, or fear of failure. But it's not
-  exactly another symptom of low self-esteem or excessive humility. It involves
-  a constant fear of exposure, isolation, and rejection.
+description: Impostor Syndrome is a psychological pattern in which individuals
+  doubt their skills, talents, or accomplishments and have a persistent
+  internalized fear of being exposed as a "fraud". But it's not exactly another
+  symptom of low self-esteem or excessive humility. It involves a constant fear
+  of exposure, isolation, and rejection.
 image: static/img/imp1.jpg
 squareimage: static/img/imp2.jfif
 categories:
@@ -75,7 +76,7 @@ Not having received praise at all could make you feel inadequate and rarely get 
 
 **LACK OF ENTITLEMENT**
 
-Being constantly judged and evaluated according to conditions of worth can foster the development of a troubled personality. Being compared and rewarded on the basis of meeting the expectations of others can make you lose confidence in yourself and you might get stuck in a cycle of self-doubt. For example, being exposed to statements like.
+Being constantly judged and evaluated according to conditions of worth can foster the development of a troubled personality. Being compared and rewarded on the basis of meeting the expectations of others can make you lose confidence in yourself and you might get stuck in a cycle of self-doubt. For example, being exposed to statements like, “Your brother deserves to sit up front because he ate his food and you didn’t,” or “You don’t deserve to have dessert because you didn’t clean your room”.
 
 **FAMILY LABELS**
 
@@ -89,7 +90,7 @@ If you grew up with siblings, you may have identified with a certain role in the
 
 ## 2. The Superhero
 
-Since people who experience this phenomenon are convinced that they’re phonies amongst r colleagues, they often push themselves to work harder and harder to catch up. But this is just a false cover-up for their insecurities, and the work overload may harm not only their own mental health but also their relationships with others.
+Since people who experience this phenomenon are convinced that they’re phonies amongst colleagues, they often push themselves to working harder and harder to catch up. But this is just a false cover-up for their insecurities, and the workload may harm not only their own mental health but also their relationships with others.
 
 ## 3. The natural genius
 
@@ -105,7 +106,7 @@ Experts measure their competence based on 'what' and how much they know or can d
 
 ## **TREATMENT OF IMPOSTER SYNDROME**
 
-**CBT for Imposter Syndrome**
+**CBT**
 
 In the case of impostor syndrome, CBT would help to target problems such as - 
 
@@ -113,7 +114,7 @@ In the case of impostor syndrome, CBT would help to target problems such as - 
 * Obsessive and paranoid thoughts – worrying about what people think, exaggerating small problems to large ones, and so on. This is especially true when receiving criticism from others.
 * Strong shifts in the mood when receiving praise – going quickly from over-excitement to strong self-doubt. This one was particularly challenging since joining Intercom because there’s a strong feedback culture.
 
-Opening up with a mental health professional may enable a person to identify the reason for their feelings, giving them the chance to tackle the underlying causes. Thus, we have designed an absolute program to help you get rid of the syndrome plus you remain in direct contact with our experts. The program consists of several sessions that you are supposed to complete within a week. These sessions are as follows:
+Opening up with a mental health professional may enable a person to identify the reason for their feelings, giving them the chance to tackle the underlying causes. Thus, we have designed an absolute program to help you get rid of the syndrome plus you remain in direct contact with our experts. The program consists of several sessions as follows:
 
 Session 1 - Introduction
 
