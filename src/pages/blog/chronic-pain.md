@@ -3,12 +3,13 @@ templateKey: blog-post
 title: Chronic Pain
 username: Tanya Tripti
 date: 2021-06-05
-description: "Chronic pain is a kind of pain that lasts weeks to years. This
+description: "Chronic pain is a kind of pain that may lasts weeks to years. This
   pain arises as a result of inflammation in the body or dysfunctional nerves.
   Usually, it is self-diagnosable, and medium-term pain can be cured within
   months and lab tests or imaging is rarely required. Most people get back to
   the normal state after treatment of the pain but sometimes the pain carries on
   for longer due to some medical history or injury. "
+featuredpost: true
 image: static/img/chronic1.jfif
 squareimage: static/img/chronic2.jfif
 categories:
@@ -34,9 +35,9 @@ link: https://resiliens.com/resilify/program/dealing-with-chronic-pain-with-cbt
 
 ![](static/img/chronic3.jfif)
 
-As you already know that pain is any sort of response of the body towards the injury or trauma caused, It is an indication that something is off. Generally, your body loses the sense of the pain as your body starts to combat it. In some cases, the pain remains as long as a year or it may even get cured after a short-term treatment within a week. So, when it goes above a time span of 3 months or so, it is called chronic pain. Consequently, you see negative effects on your emotional and physical wellbeing.
+As you already know that pain is any sort of response of the body towards the injury or trauma caused, It is an indication that something is off. Generally, your body loses the sense of the pain as your body starts to combat it. In some cases, the pain remains as long as a year or it may even get cured with  a short-term treatment within a week. So, when it goes above a time span of 3 months or so, it is called chronic pain. Consequently, you see negative effects on your emotional and physical wellbeing.
 
-Chronic pain is different from other kinds of pain as your body feels the pain for a long duration which is not common. This kind of pain may affect your day-to-day life and cognitive wellness. The sensation grows and can be felt when ir passes through your nervous system. The communication of different parts related to the nervous system start right from there which eventually reaches your nerve and then the cerebrum. Normally, the sensation comes to a halt when your body fixes the injury or trauma, but the nerve cells might get activated any time even after your recovery.
+Chronic pain is different from other kinds of pain as your body feels the pain for a long duration which is not common. This kind of pain may affect your day-to-day life and cognitive wellness. The sensation grows and can be felt when it passes through your nervous system. The communication of different parts related to the nervous system start right from there which eventually reaches your nerve and then the cerebrum. Normally, the sensation comes to a halt when your body fixes the injury or trauma, but the nerve cells might get activated any time even after your recovery.
 
 Over 25% of the population with chronic pain suffers from a condition called CHRONIC PAIN SYNDROME which occurs when individuals face more problems apart from pain alone. Although chronic pain is difficult to treat, it can certainly be reduced to its minimum with the help of different techniques and therapies.
 
