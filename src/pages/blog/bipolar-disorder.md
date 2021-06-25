@@ -67,7 +67,7 @@ Depressive Disorders
 
   RAPID FLOW OF IDEAS: Persons suffering from mania may often process thoughts easily and throw them quickly without much thinking and interpretation. They usually seem to jump from one idea to another pretty fast and their ideas do not seem logical most of the time. Such behavior makes the communication irritating for the person in front.
 
-  GRANDIOSE IDEAS: People with mania may feel as if they are having high-quality skills and seen to be with overly high self-esteem. They may also believe that they are exceptionally gifted by god.
+  GRANDIOSE IDEAS: People with mania may feel as if they are having exceptional talents, skills, etc. and have a high sense of self-esteem. They may also believe that they are exceptionally gifted by god.
 
   ALTERED JUDGEMENT: A person may experience difficulty in making decisions while in a manic episode. They might say or do stuff that is out of their character and would never ever otherwise do if they were not suffering from a manic episode.
 
