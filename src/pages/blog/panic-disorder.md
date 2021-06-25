@@ -34,7 +34,7 @@ The Panic disorder includes recurrent panic attacks about an anticipated increas
 
 Panic disorder is a type of anxiety disorder. It causes panic attacks, which are sudden feelings of terror when there is no real danger. You may feel as if you are losing control. Panic attacks can happen anytime, anywhere, and without warning. You may live in fear of another attack and may avoid places where you have had an attack. For some people, fear takes over their lives and they cannot leave their homes.
 
-Considering the studies so far concerning gender, it has been found out that women are more prone to panic disorder, almost twice or thrice more likely to be affected than men. The cause of such a difference could be mental instability because of separation or divorce.
+Considering the studies so far concerning gender, it has been found  that women are more prone to panic disorder, almost twice or thrice more likely to be affected than men. The cause of such a difference could be mental instability because of separation or divorce.
 
 ## **CHARACTERISTICS FEATURES OF PANIC DISORDER**
 
@@ -92,8 +92,8 @@ Factors identified for the onset of panic attacks are negative affectivity which
 
 * Chronic physical illnesses such as cancer
 * Experiencing a significant personal loss, including a break-up with a romantic partner
-* Significant life changes such as losing a job, becoming a parent, and moving house
-* ‘Maintaining’ behavior such as avoiding panic-provoking situations or environments, anxious/negative self-talk, dysfunctional beliefs, and feelings.
+* Significant life changes such as losing a job, becoming a parent, moving house, etc.
+* ‘Maintaining’ behaviors such as avoiding panic-provoking situations or environments, anxious/negative self-talk, dysfunctional beliefs, and feelings.
 
 **PHYSIOLOGICAL CAUSES**
 
