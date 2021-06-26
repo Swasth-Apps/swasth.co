@@ -53,7 +53,7 @@ class CoachProgram extends React.Component {
                                     <h1 className="heading-32 ch-width-24 base-text">
                                         {program?.name}
                                     </h1>
-                                    <p className="body-18 ch-width-50 para-text html-parser" style={{marginBottom: 40}}>
+                                    <p className="body-18 ch-width-50 light-text html-parser" style={{marginBottom: 40}}>
                                         {ReactHtmlParser(program?.overview)}
                                     </p>
                                     <div className="program-list-page-buttons tm-8">
@@ -80,7 +80,7 @@ class CoachProgram extends React.Component {
                                         className="image-18"
                                     />
                                     <div>
-                                        <h3 className="heading-20 bm-8 para-medium-text">{program?.coachInfo?.name}</h3>
+                                        <h3 className="heading-20 bm-8 medium-text">{program?.coachInfo?.name}</h3>
                                         <p className="body-14 para-text show-more-less-desc">
                                             <ShowMore
                                                 lines={2}
@@ -141,24 +141,24 @@ class CoachProgram extends React.Component {
                         {program?.marketingDescription ? <>
                             <div className="flex-coloured-container peach-bg tm-100">
                                 <div className="course-panel-text-wrapper">
-                                    <h3 className="ch-width-24 overview-title" style={{marginBottom: 0}}>
+                                    <h3 className="ch-width-24 overview-title medium-text" style={{marginBottom: 0}}>
                                         Program Description
                                     </h3>
                                 </div>
                             </div>
-                            <p className="body-18 ch-width-50 para-text html-parser" style={{marginBottom: 40}}>
+                            <p className="body-18 ch-width-50 light-text html-parser" style={{marginBottom: 40}}>
                                 {ReactHtmlParser(program?.marketingDescription)}
                             </p></> : null}
 
                         {program?.objectiveGoals ? <>
                             <div className="flex-coloured-container peach-bg tm-100">
                                 <div className="course-panel-text-wrapper">
-                                    <h3 className="ch-width-24 overview-title" style={{marginBottom: 0}}>
+                                    <h3 className="ch-width-24 overview-title medium-text" style={{marginBottom: 0}}>
                                         Program Objectives
                                     </h3>
                                 </div>
                             </div>
-                            <p className="body-18 ch-width-50 para-text html-parser" style={{marginBottom: 40}}>
+                            <p className="body-18 ch-width-50 light-text html-parser" style={{marginBottom: 40}}>
                                 {ReactHtmlParser(program?.objectiveGoals)}
                             </p> </> : null}
 
@@ -166,7 +166,7 @@ class CoachProgram extends React.Component {
                             <div className="flex-coloured-container tm-100">
                                 <div className="course-panel-text-wrapper">
                                     <h3
-                                        className="ch-width-24 overview-title"
+                                        className="ch-width-24 overview-title medium-text"
                                     >
                                         Program Modules
                                     </h3>
@@ -201,11 +201,11 @@ class CoachProgram extends React.Component {
                                                 <Panel
                                                     header={
                                                         <div>
-                                                            <p className="body-18 ch-width-50 para-medium-text"
+                                                            <p className="body-18 ch-width-50 book-text"
                                                                style={{margin: "0px 0 10px"}}>
                                                                 {`Session ${index + 1} `}
                                                             </p>
-                                                            <p className="para-text">
+                                                            <p className="para-medium-text">
                                                                 {`${session.title}`}
                                                             </p>
                                                         </div>}
@@ -229,7 +229,7 @@ class CoachProgram extends React.Component {
                         <section className='banner-section'>
                             <Row className='-row-flex-center' id='wrapper'>
                                 <Col md={24} style={{width: '100%'}}>
-                                    <p className='bottom-space tab-view program-schedule-title'>
+                                    <p className='bottom-space tab-view program-schedule-title heavy-text'>
                                         Program Schedule
                                     </p>
                                     <div className="program-schedule-section">
@@ -282,7 +282,7 @@ class CoachProgram extends React.Component {
                         >
                             <Row className='-row-flex-center' id='wrapper' style={{paddingTop: 50}}>
                                 <Col md={24} style={{width: '100%'}}>
-                                    <h3 className='bottom-space program-schedule-title'>
+                                    <h3 className='bottom-space program-schedule-title heavy-text'>
                                         Program Tuition
                                     </h3>
                                     <div className="program-tuition">
@@ -293,7 +293,7 @@ class CoachProgram extends React.Component {
                                         </div>
                                         <div className="section">
                                             <div>
-                                                <h3 className="para-medium-text">
+                                                <h3 className="book-text">
                                                     Ready to dive into learning some skills?
                                                 </h3>
                                                 <RegisterInterest program={program} programSlug={program?.slug}/>

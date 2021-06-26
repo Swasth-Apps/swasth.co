@@ -62,9 +62,9 @@ return(
                                         <h5 className="white-text base-text">Resiliens</h5>
 
                                         <ul className="list-unstyled iconlist ml-0">
-                                            <li><Link to="/about-us" className="para-text">About Us </Link></li>
-                                            <li><a href="https://clinician.resiliens.com" className="para-text">Clinicians</a></li>
-                                            <li><a href="#" className="para-text">Employers</a></li>
+                                            <li><Link to="/about-us" className="book-text">About Us </Link></li>
+                                            <li><a href="https://clinician.resiliens.com" className="book-text">Clinicians</a></li>
+                                            <li><a href="#" className="book-text">Employers</a></li>
                                         </ul>
 
                                     </div>
@@ -77,11 +77,11 @@ return(
                                         <h5 className="white-text base-text">Products</h5>
 
                                         <ul className="list-unstyled iconlist ml-0">
-                                            <li><Link to="/coaching" className="para-text">Coaching</Link></li>
-                                            <li><Link to="/resilify" className="para-text">Resilify</Link></li>
-                                            <li><Link to="/dbt-coach" className="para-text">DBT Coach</Link></li>
-                                            <li><Link to="/cbt-companion" className="para-text">CBT Companion</Link></li>
-                                            <li><Link to="/act-coach" className="para-text">ACT Coach</Link></li>
+                                            <li><Link to="/coaching" className="book-text">Coaching</Link></li>
+                                            <li><Link to="/resilify" className="book-text">Resilify</Link></li>
+                                            <li><Link to="/dbt-coach" className="book-text">DBT Coach</Link></li>
+                                            <li><Link to="/cbt-companion" className="book-text">CBT Companion</Link></li>
+                                            <li><Link to="/act-coach" className="book-text">ACT Coach</Link></li>
                                         </ul>
 
                                     </div>
@@ -96,7 +96,7 @@ return(
                                             {/*                                            <li><Link className="para-text" to="/">Resources</Link></li>
                                             <li><Link className="para-text" to="/">Webinars</Link></li>
                                             <li><Link className="para-text" to="/">Coronavirus</Link></li>*/}
-                                            <li><Link className="para-text" to="/blog">Blog</Link></li>
+                                            <li><Link className="book-text" to="/blog">Blog</Link></li>
                                         </ul>
 
                                     </div>
@@ -115,14 +115,14 @@ return(
                 <div className="container clearfix">
 
                     <div className="col_half">
-                        <div className="copyright-links -highlighted-secondary-text">
-                            <Link to='/terms'>Terms of Use</Link> {'    |    '}
-                            <Link to='/privacy'>Privacy
+                        <div className="copyright-links white-text">
+                            <Link to='/terms' className="medium-text">Terms of Use</Link> {'    |    '}
+                            <Link to='/privacy' className="medium-text">Privacy
                                 Policy</Link></div>
-                        <div className="white-text">
+                        <div className="white-text book-text">
                             Copyrights © 2021 All Rights Reserved by Resiliens Inc.
                         </div>
-                        <div className='-highlighted-secondary-text'
+                        <div className='white-text'
                              style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                             <img style={{position: 'initial', width: '24px', marginRight: '10px'}} src={unitedStates}/>
                             {' '}English

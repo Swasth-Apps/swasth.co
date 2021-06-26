@@ -199,7 +199,7 @@ export const getMarketingTrackDetail = ` query getMarketingTrackDetail($slug: St
                 id
                 name
                 sequence
-                lessonsOverview
+                sessionsOverview
                 activitiesOverview
             }
         }

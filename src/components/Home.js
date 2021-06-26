@@ -2,12 +2,12 @@ import React, {useEffect, useState} from "react";
 import {Col, Row} from "antd";
 import {Link} from "gatsby";
 import bannerGraphic from "../assets/images/home-woman.jpeg";
-import ComprehensiveHealth from "../assets/images/comprehensiveHealth.png";
+import ComprehensiveHealth from "../assets/images/comprehensiveHealth.jpg";
 import programs from "../assets/images/Proven-Treatment-Methods-Img.png";
 import SelfHelpImg from "../assets/images/Self-Health-Coach-Section.png";
 import ProgramAdapts from "../assets/images/pexels-kaboompics-com-6335.jpg";
 import RequestDemoModal from "./RequestDemoModal";
-import MobileGraphic from "../assets/images/MobileView.png";
+import MobileGraphic from "../assets/images/MobileView.jpg";
 import Telecommuting from "../assets/images/Telecommuting.png"
 import ClickHere from "../assets/images/Click_here.png"
 import GroupTherapy from "../assets/images/Group_therapy.png"
@@ -35,11 +35,11 @@ const Home = () => {
                         <Col md={24}>
                             <Row className='card-row'>
                                 <Col md={12} className="content">
-                                    <h1 className='bottom-space base-text program-grounded'>
+                                    <h1 className='bottom-space heavy-text program-grounded'>
                                         Behavioral health care <br/> for everyone
                                     </h1>
                                     <div className='para-text black-18-font margin-bottom-25'>
-                                        <p className="width-90 para-text">A platform built on evidence-based principles,
+                                        <p className="width-90 book-text">A platform built on evidence-based principles,
                                             delivered by licensed clinicians, coaches making care accessible, effective
                                             and scalable.</p>
                                     </div>
@@ -68,9 +68,9 @@ const Home = () => {
             >
 
                 <div className="home-page-content-section">
-                    <h3 className="base-text center margin-bottom-25 comprehensive-text">A Comprehensive Behavioral
+                    <h3 className="heavy-text center margin-bottom-25 comprehensive-text">A Comprehensive Behavioral
                         Health Platform</h3>
-                    <p className="para-book-text center" style={{fontSize: 18}}> Resiliens's Digital Health Platform
+                    <p className="book-text center" style={{fontSize: 18}}> Resiliens's Digital Health Platform
                         offers treatment programs for Anxiety,
                         Depression, Eating Disorders, Borderline Personality Disorder, PTSD, SUDs, etc.
                         The Platform
@@ -85,17 +85,18 @@ const Home = () => {
                     </Row>
                     <Row className='section-gap program-row-adapts'>
                         <Col md={12} className="program-adapts">
-                            <p className='bottom-space base-text'>
+                            <p className='bottom-space heavy-text'>
                                 <span className='-highlighted-text'>Personalized Programs</span>
                                 <br/>
                                 for Specific Conditions
                             </p>
-                            <div className='para-text black-18-font'>
-                                <p>Our treatment programs combines evidence-based therapy modalities
+                            <div className='book-text black-18-font'>
+                                <p className="book-text">Our treatment programs combines evidence-based therapy modalities
                                     (Dialectical Behavior Therapy / DBT, Cognitive Behavioral Therapy / CBT,
                                     Acceptance and Committment Therapy / ACT etc.) with nutritional psychology,
                                     sleep psychology, Heart Rate / HRV-biofeedback and Health Psychology.</p>
-                                <p> This holistic approach to behavioral health helps our program participants
+                                <br />
+                                <p className="book-text"> This holistic approach to behavioral health helps our program participants
                                     to gain long-lasting transformational results.</p>
                             </div>
                         </Col>
@@ -107,30 +108,30 @@ const Home = () => {
 
                 </div>
 
-                <h3 className="base-text center margin-bottom-25 health-coaching-text">Behavioral Health Coaching</h3>
+                <h3 className="heavy-text center margin-bottom-25 health-coaching-text">Behavioral Health Coaching</h3>
                 <div className="home-page-overview-new-skills-section home-page-improvement-section">
                     <Row className='-row-flex-center card-row bg-img'>
                         <Col md={24}>
                             <Row className='card-row'>
                                 <Col md={12} className="content">
-                                    <h3 className='bottom-space base-text program-grounded'>
+                                    <h3 className='bottom-space heavy-text program-grounded'>
                                         Live Coaching for&nbsp;<br/>Groups and Individuals
                                     </h3>
-                                    <p className="para-medium-text width-90" style={{fontSize: 18}}>
+                                    <p className="book-text width-90" style={{fontSize: 18}}>
                                         We offer effective care programs grounded in proven treatment methods designed
                                         by clinical experts and grounded in evidence-based practices that are proven to
                                         work.
                                     </p>
-                                    <div className='para-text' style={{marginTop: 40}}>
-                                        <p className="para-text para-medium-text">
+                                    <div className='book-text' style={{marginTop: 40}}>
+                                        <p className="book-text para-medium-text">
                                             The programs focus on :
                                         </p>
                                         <ul>
-                                            <li className="para-book-text">Goal-focused treatment</li>
-                                            <li className="para-book-text">New skill development</li>
-                                            <li className="para-book-text">Practice between sessions</li>
-                                            <li className="para-book-text">Track progress toward goals</li>
-                                            <li className="para-book-text">Short-term and long-lasting results</li>
+                                            <li className="book-text">Goal-focused treatment</li>
+                                            <li className="book-text">New skill development</li>
+                                            <li className="book-text">Practice between sessions</li>
+                                            <li className="book-text">Track progress toward goals</li>
+                                            <li className="book-text">Short-term and long-lasting results</li>
                                         </ul>
                                     </div>
 
@@ -160,10 +161,10 @@ const Home = () => {
                                          alt='Therapy'/>
                                 </Col>
                                 <Col md={12} className="content">
-                                    <h3 className='bottom-space base-text program-grounded'>
+                                    <h3 className='bottom-space heavy-text program-grounded'>
                                         Self Guided Programs
                                     </h3>
-                                    <p className="para-text width-90" style={{fontSize: 18}}>
+                                    <p className="book-text width-90" style={{fontSize: 18}}>
                                         Finding effective behavioral healthcare is hard. Through our self-guided app
                                         (Resilify), you have access to over 50+ self-guided programs, organized by
                                         symptoms / conditions, treatment modalities.
@@ -193,7 +194,7 @@ const Home = () => {
                     className={'coach-wrapper'}
                     style={{paddingBottom: 0}}
                 >
-                    <h2 className="base-text">For Behavioral Health Professionals</h2>
+                    <h2 className="heavy-text">For Behavioral Health Professionals</h2>
 
                     <div className="home-page-overview-bhp-flex-section">
                         <div className="sequence-sections">
@@ -202,24 +203,24 @@ const Home = () => {
                                     src={Telecommuting}
                                 />
 
-                                <p className="para-medium-text title">Live Courses from leading experts in evidence-based modalities</p>
-                                <p className="para-text text">Our courses are designed to have the best learning experience for clinicians. They also teach clinicians to deliver effective treatment by combining technology with evidence based therapies. </p>
+                                <p className="medium-text title">Live Courses from leading experts in evidence-based modalities</p>
+                                <p className="book-text text">Our courses are designed to have the best learning experience for clinicians. They also teach clinicians to deliver effective treatment by combining technology with evidence based therapies. </p>
                             </div>
                             <div className="section">
                                 <img
                                     src={ClickHere}
                                 />
 
-                                <p className="para-medium-text title">Interactive programs to further hone your therapeutic skills</p>
-                                <p className="para-text text">These programs are designed keeping flexibility in mind. The programs have beautiful videos, activities and other tools that created by leading experts and make learning at your convenience enjoyable.</p>
+                                <p className="medium-text title">Interactive programs to further hone your therapeutic skills</p>
+                                <p className="book-text text">These programs are designed keeping flexibility in mind. The programs have beautiful videos, activities and other tools that created by leading experts and make learning at your convenience enjoyable.</p>
                             </div>
                             <div className="section">
                                 <img
                                     src={GroupTherapy}
                                 />
 
-                                <p className="para-medium-text title">An extensive network of like-minded practictioners</p>
-                                <p className="para-text text">When you join the Resiliens network, you become a part of a community of clinicians, coaches and physicians who have a deep-rooted interest or expertise in evidence-based therapy.</p>
+                                <p className="medium-text title">An extensive network of like-minded practictioners</p>
+                                <p className="book-text text">When you join the Resiliens network, you become a part of a community of clinicians, coaches and physicians who have a deep-rooted interest or expertise in evidence-based therapy.</p>
                             </div>
                         </div>
                     </div>
@@ -229,11 +230,11 @@ const Home = () => {
                         <Col md={24}>
                             <Row className='card-row col-reverse padded-view'>
                                 <Col md={12} className="content">
-                                    <h3 className='bottom-space base-text program-grounded'>
+                                    <h3 className='bottom-space heavy-text program-grounded'>
                                         Collaborate with us to scale your programs
                                     </h3>
                                     <div className='para-text black-18-font margin-bottom-25'>
-                                        <p className="width-90 para-text">
+                                        <p className="width-90 book-text">
                                            Create programs on our Behavioral Health Platform that enables you to deliver psychoeducation digitally to clients. These include video-guided lessons, exercises (digitized worksheets), standardized assessments. Further, you can get a 360-degree view of your program participants by having visibility to their data (tracking tools, exercises, sleep etc.) that they have shared.
                                         </p>
                                     </div>

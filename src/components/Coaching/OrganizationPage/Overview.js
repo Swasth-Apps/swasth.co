@@ -20,6 +20,14 @@ const Overview = (props) => {
                                         "coaching",
                                         'png',
                                     )}
+                                    transformation={[
+                                        {
+                                            gravity: "face",
+                                            height: 800,
+                                            width: 800,
+                                            crop: "crop"
+                                        },
+                                    ]}
                                 /> : <ReactPlayer
                                     className='video-img'
                                     url={organization?.approach?.video}

@@ -71,7 +71,7 @@ class OrganizationPage extends React.Component {
                     >
                         <h1 className="base-text" style={{marginTop: "-2em", color: "white", textAlign: "center"}}>
                             {organization?.name}</h1>
-                        <p className="para-text">{teamOwner?.name}</p>
+                        <p className="medium-text">{teamOwner?.name}</p>
                     </div>
                 </section>
                 <Tabs
@@ -87,21 +87,21 @@ class OrganizationPage extends React.Component {
                             to={`/coaching/organizations/${organizationSlug}/home`}
                             className={`para-text tab-title`}
                         >
-                            <p className="para-text">Home</p>
+                            <p className="medium-text">Home</p>
                         </Link>} key="home"/>
                     <TabPane tab={
                         <Link
                             to={`/coaching/organizations/${organizationSlug}/programs`}
-                            className={`para-text tab-title`}
+                            className={`medium-text tab-title`}
                         >
-                            <p className="para-text">Programs</p>
+                            <p className="medium-text">Programs</p>
                         </Link>} key="programs"/>
                     <TabPane tab={
                         <Link
                             to={`/coaching/organizations/${organizationSlug}/faqs`}
-                            className={`para-text tab-title`}
+                            className={`medium-text tab-title`}
                         >
-                            <p className="para-text">FAQ</p>
+                            <p className="medium-text">FAQ</p>
                         </Link>} key="faqs"/>
                 </Tabs>
                 {this.getContent()}

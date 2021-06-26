@@ -4,20 +4,16 @@ import Slider from "./common/Slider";
 import {generateRandomID} from "./common/helper";
 import Program from "../Program";
 import {Link} from "gatsby";
-import {useSelector} from "react-redux";
-import Loader from "../Loader";
 import AppStoreIcon from "../../assets/images/app-store.png"
 import PlayStoreIcon from "../../assets/images/play-store.png"
 import ResiliensWithDevices from "../../assets/images/resiliens_with_devices.png"
 
 const TopicSection = props => {
-    const loading = useSelector(state => state.commonData.resilifyLoading);
     const [key, setKey] = useState("All");
     const [count, setCount] = useState(0);
 
-    let programs = key === "All" ? props.programs : props?.programs?.filter(({topics}) => topics?.includes(key));
+    let programs = key === "All" ? props.programs : props?.programs?.filter(({node: {frontmatter}}) => frontmatter?.categories?.includes(key));
 
-    programs = programs?.filter(({marketingImage}) => marketingImage);
     return (
         <div className="resilify-home-page-body">
             <div
@@ -25,23 +21,31 @@ const TopicSection = props => {
                 className={'coach-wrapper'}
                 style={{paddingBottom: 0}}
             >
-            <div className="resilify-program-section">
-                <div className="program-section" id={`topic-tabs`}>
-                    <h3 className="program-section-title base-text">Programs</h3>
+                <div className="resilify-program-section">
+
+                    <div className="program-section" id={`topic-tabs`}>
+                        <h3 className="program-section-title base-text">Programs</h3>
+                    </div>
+
+                    {programs?.length ?
+                        <Slider className="program-wrapper" key={generateRandomID()}>
+
+                            {programs?.map(({node: {frontmatter, fields}}) => <Program
+                                program={frontmatter}
+                                slug={fields.slug}
+                                onReload={() => setCount(count + 1)}
+                            />)}
+
+                        </Slider> :
+                        <Empty description="No programs available for this categories"/>}
+
+                    <div style={{textAlign: "center", marginTop: 20}}>
+                        <Link to={`/resilify/programs`}>
+                            <Button className="request-demo-btn base-text">More
+                                Programs</Button>
+                        </Link>
+                    </div>
                 </div>
-                {loading ? <Loader /> : <>
-                {programs?.length ?
-                    <Slider className="program-wrapper" key={generateRandomID()}>
-                        {programs?.map((program) => <Program program={program} onReload={() => setCount(count + 1)}/>)}
-                    </Slider> : <Empty description="No programs available for this categories"/>}
-                <div style={{textAlign: "center", marginTop: 20}}>
-                    <Link to={`/resilify/programs`}>
-                        <Button className="request-demo-btn base-text">More
-                            Programs</Button>
-                    </Link>
-                </div>
-                </>}
-            </div>
             </div>
             <div
                 id='wrapper'
@@ -53,7 +57,7 @@ const TopicSection = props => {
                         <div className="content">
                             <div className="outer-div">
                                 <h3 className="base-text">
-                                   Access these programs anytime / anywhere
+                                    Access these programs anytime / anywhere
                                     <div className="divider"/>
                                 </h3>
                                 <ul className="para-text">
@@ -75,8 +79,8 @@ const TopicSection = props => {
                     </div>
                 </div>
 
-{/*
-                
+                {/*
+
                 <div className="member-section" style={{
                     background: `url(${require("../../assets/images/resilify/coach-bg.png")}) no-repeat center center fixed`
 
@@ -103,10 +107,10 @@ const TopicSection = props => {
                             </div>
                         </div>)}
                     </Slider>
-                  
+
                 </div>
  */}
-            </div>            
+            </div>
         </div>
     )
 };

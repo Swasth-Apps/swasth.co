@@ -74,21 +74,29 @@ exports.createPages = ({actions, graphql}) => {
                 blogList: result.data.blogs.edges,
             },
         });
+
+        /******** for Resilify Programs index page starts *********/
+        createPage({
+            path: "/resilify",
+            component: path.resolve('src/templates/resilify-index.js'),
+        });
         /******** for Infinite scroll in blog index page ends *********/
 
         posts.forEach(edge => {
             const id = edge.node.id;
-            createPage({
-                path: edge.node.fields.slug,
-                tags: edge.node.frontmatter.tags,
-                component: path.resolve(
-                    `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-                ),
-                // additional data can be passed via context
-                context: {
-                    id,
-                },
-            })
+            if(edge.node.frontmatter.templateKey !== "coaching-experts") {
+                createPage({
+                    path: edge.node.fields.slug,
+                    tags: edge.node.frontmatter.tags,
+                    component: path.resolve(
+                        `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+                    ),
+                    // additional data can be passed via context
+                    context: {
+                        id,
+                    },
+                })
+            }
         })
 
         // // Tag pages:
@@ -142,15 +150,6 @@ exports.onCreatePage = ({page, actions}) => {
             path: "/coaching/program",
             matchPath: '/coaching/program/*',
             component: path.resolve(`src/pages/coaching/program/index.js`)
-        })
-    }
-
-
-    if (page.path.match(/^\/resilify\/program/)) {
-        createPage({
-            path: "/resilify/program",
-            matchPath: '/resilify/program/*',
-            component: path.resolve(`src/pages/resilify/program.js`)
         })
     }
 

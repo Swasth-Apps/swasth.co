@@ -56,6 +56,7 @@ export const cloudinaryPaths = {
     community: 'community/',
     assessments: 'assessments/',
     tools: 'tools/',
+    characters: 'characters/',
   },
   coaching:{
     png: 'png/',
@@ -199,6 +200,18 @@ export const expertsData = [{
   expertise: "Emeritus Professor of Psychology at Stanford University and President of the Heroic Imagination Project",
   "slug":"philip-zimbardo"
 },{
+  name:"Deirdre Fay",
+  img:"d-fay_profile.jpg",
+  description:"Deirdre Fay, MSW, works with people who have had crummy histories to develop an inner platform to get their needs met and have success in all areas of life.  With over 30 years of experience as a psychotherapist and educator, Deirdre brings together modern science with ancient wisdom traditions in exploring the Transformational Journey of life.",
+  expertise: "Psychotherapist and Educator and Founder of Becoming Safely Embodied skills groups",
+  "slug":"deirdre-fay"
+},{
+  name:"Dr. Tiffany Loggins",
+  img:"tiffny_loggins_profile.jpg",
+  description:"Tiffany Loggins, Psy.D. is a licensed psychologist and mental health wellness speaker. She specializes in minority stress within BIPoC (Black, Indigenous, & People of Color) communities, emotional resilience, and eating disorders.",
+  expertise: "Doctor of Psychology, Counseling Psychology",
+  "slug":"tiffany-loggins-psyd"
+},{
   name:"Dr Stan Steindl",
   img:"stan-profile.jpg",
   description:"Dr Stan Steindl is an Australian clinical psychologist with over 20 years experience as a therapist, supervisor, trainer and researcher. He is passionate about motivational interviewing and compassion focused therapy and presents on these topics around the world.",
@@ -210,6 +223,7 @@ export const expertsData = [{
   description:"After completing his doctorate at PGSP-Stanford Consortium, he did his post-doctoral training and acted as a healthcare Fellow at Stanford University (CCARE) where he developed various programs focused on resilience, team building and compassion.",
   expertise: "Clinical psychologist and a clinical faculty member at Palo Alto University",
   "slug":"yotam-heineberg"
+<<<<<<< HEAD
 },{
   name:"Dr. Tiffany Loggins",
   img:"tiffny_loggins_profile.jpg",
@@ -230,6 +244,9 @@ export const expertsData = [{
   "slug":"tara-deliberto"
 }
 ];
+=======
+},];
+>>>>>>> cf6c62d05a7bf1eabe6dede9d983f4667c549eea
 
 export const colors = ["blue-tag","pink-tag","purple-tag"];
 export const initialBlogsCount = 6;

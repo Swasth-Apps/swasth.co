@@ -11,7 +11,7 @@ const BasicInformation = (props) => {
                         <CLImage
                             className="program-img"
                             cloudId={getCloudIDFromImageName(
-                                provider?.profileImg,
+                                provider?.profileImage,
                                 "coaching",
                                 'experts',
                             )}
@@ -21,14 +21,14 @@ const BasicInformation = (props) => {
                         />
                         <div className="info">
                             <p className="title base-text">
-                                {provider?.name?.full}
+                                {provider?.name}
                             </p>
-                            <p className="subtitle para-text">
-                                {provider?.bio}
+                            <p className="subtitle medium-text">
+                                {provider?.title}
                             </p>
-                            {provider?.address?.city ||  provider?.address?.state || provider?.address?.country ?
-                            <p className="address para-text">
-                               {provider?.address.city + ", "+ provider?.address?.state + ", "+ provider?.address?.country}
+                            {provider?.location ?
+                            <p className="address light-text">
+                               {provider?.location}
                             </p> : null}
                         </div>
                     </div>
@@ -36,7 +36,7 @@ const BasicInformation = (props) => {
                         <CLImage
                             className="cover-img"
                             cloudId={getCloudIDFromImageName(
-                                provider?.coverImg,
+                                provider?.coverImage,
                                 "coaching",
                                 'experts',
                             )}

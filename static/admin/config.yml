@@ -39,5 +39,41 @@ collections:
       - {label: "Categories", name: "categories", widget: object, fields: [{label: "category", name: "category", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
       - {label: "Related Posts", name: "relatedpost", widget: object, fields: [{label: "blog", name: "blog", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
       - {label: "Tags", name: "tags", widget: "list"}
+      - { label: "Link", name: "link", widget: "string" }
 
+  - name: "resilifyProgram"
+    label: "Resilify Programs"
+    folder: "src/pages/resilify/program"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "resilify-program"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "string"}
+      - {label: "Sequence", name: "sequence", widget: "number"}
+      - {label: "Program Overview", name: "overview", widget: "markdown"}
+      - {label: "Categories", name: "categories", widget: object, fields: [{label: "category", name: "category", widget: list, fields: [{label: Title, name: title, widget: string}]}]}
+      - {label: "Sessions", name: "sessions", widget: object, fields: [{label: "Session", name: "session", widget: list, fields: [{label: Title, name: title, widget: string},{label: Session Overview, name: overview, widget: text,required: false},{label: Activity Overview, name: activityOverview, widget: text,required: false}]}]}
+      - {label: "Related Programs", name: "relatedpost", widget: object, fields: [{label: "program", name: "program", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
+      - {label: "Tags", name: "tags", widget: "list"}
+
+  - name: "coachingExperts"
+    label: "Coaching Experts"
+    folder: "src/pages/coaching/experts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "coaching-experts"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Profile Image", name: "profileImage", widget: "string"}
+      - {label: "Cover Image", name: "coverImage", widget: "string"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Title(Bio)", name: "title", widget: "string"}
+      - {label: "Sequence", name: "sequence", widget: "number"}
+      - {label: "About", name: "about", widget: "markdown"}
+      - {label: "Education", name: "qualifications", widget: list, fields: [{label: Certification, name: certification, widget: string},{label: School, name: school, widget: string},{label: Year, name: year, widget: string},{label: Image, name: image, widget: string,required: false}]}
+      - {label: "Links", name: "links", widget: list, fields: [{label: Text, name: text, widget: string},{label: Link, name: link, widget: string}]}
+      - {label: "Books", name: "books", widget: list, fields: [{label: Title, name: title, widget: string},{label: Short Description, name: shortDescription, widget: string},{label: Link, name: link, widget: string},{label: Image, name: image, widget: string,required: false}]}
+      - {label: "Honors & Awards", name: "awards", widget: list, fields: [{label: Title, name: title, widget: string},{label: Given By, name: givenBy, widget: string},{label: Year, name: year, widget: string},{label: Image, name: image, widget: string,required: false}]}
 

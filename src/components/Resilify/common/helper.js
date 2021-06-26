@@ -30,59 +30,6 @@ export function getLessonImage(image) {
     return 'https://d2ot3z5xcrn0h2.cloudfront.net/images/module_content/' + image;
 }
 
-export function getCloudIDFromImageURL(image, source, type = 'lessons') {
-    let path = '';
-    if (image) {
-        let imagePathSplitted = image && image?.split('/');
-        if (imagePathSplitted.length > 0) {
-            path = imagePathSplitted[imagePathSplitted.length - 1];
-            let n = path.lastIndexOf('.');
-            switch (type) {
-            }
-            path =
-                `${source?.toLowerCase()}/${
-                    cloudinaryPaths[source?.toLowerCase()]?.[type]
-                }` + path.slice(0, n);
-        }
-    }
-    return path;
-}
-
-export function getCloudIDFromImageName(image, source, type = 'lessons') {
-    let path = '';
-    if (image) {
-        let n = image.lastIndexOf('.');
-        path =
-            `${source?.toLowerCase()}/${
-                cloudinaryPaths[source?.toLowerCase()]?.[type]
-            }` + image.slice(0, n);
-    }
-    return path;
-}
-
-export const cloudinaryPaths = {
-    dbt: {
-        exercises: 'png/exercises/',
-        lessons: 'png/lessons/',
-    },
-    cbt: {
-        exercises: 'png/exercises/',
-        lessons: 'png/lessons/',
-    },
-    act: {
-        exercises: 'exercises/',
-        lessons: 'lessons/',
-    },
-    bodhi: {
-        activities: 'activities/',
-        lessons: 'lessons/',
-        tracks: 'tracks/',
-        community: 'community/',
-        assessments: 'assessments/',
-        tools: 'tools/',
-        icons: 'icons/',
-    },
-};
 
 export const omitDeep = (obj, key) => {
     if (Array.isArray(obj)) return omitDeepArrayWalk(obj, key);

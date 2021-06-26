@@ -77,7 +77,7 @@
   {
     "approach": {
       "html": "<p>Dr Stan Steindl is an Australian clinical psychologist with over 20 years experience as a therapist, supervisor, trainer and researcher. He is passionate about motivational interviewing and compassion focused therapy and presents on these topics around the world.</p><p>Dr Stan Steindl is a Clinical Psychologist in private practice at Psychology Consultants Pty Ltd, and an Adjunct Associate Professor at School of Psychology, University ofQueensland, Brisbane, Australia. He is also co-director of the UQ Compassionate Mind Research Group.</p><p>Stan has over 20 years experience as a therapist, supervisor, trainer and researcher, and works with clients from motivational interviewing and compassion focused therapy perspectives.</p><p>Dr Stan Steindl's PhD examined combat-related posttraumatic stress disorder and comorbid alcohol dependency, and he continues to work in the areas of trauma and addiction, as well as having a general clinical practice.</p><p>Stan&rsquo;s research interests are in the areas of motivation, behaviour change, compassion and compassion-based interventions, and especially the role of cultivating compassion and self-compassion in the context of trauma, shame, self-criticism and clinical disorders, as well as promotingpsychological wellbeing.</p><p>He is the author three books and several book chapters and research publications. His books include <strong>Compassion in a T-Shirt: The First 35 Scripts </strong>(2020), <strong>The Gifts of Compassion: How to Understand and Overcome Suffering</strong> (2020), and <strong>The Gifts of Compassion: Personal Practice Workbook</strong> (2021).</p>",
-      "image": "stan1.jpg"
+      "image": "stan2.png"
     },
     "comprehensive": {
       "html": "",
@@ -87,14 +87,14 @@
     "id": "784-hfe-61gr34-4ydj3-354f",
     "image": "Stan-cover.jpg",
     "name": "Dr Stan Steindl",
-    "slug": "stan-Steindl",
+    "slug": "stan-steindl",
     "teamOwnerName": "Dr Stan Steindl",
     "teamMembers": [
       {
         "picture": "stan-profile.jpg",
         "name": "Dr Stan Steindl",
-        "description": "Dr Stan Steindl is the Director of Psychology Consultants Pty Ltd and Adjunct Associate Professor at School of Psychology, University of Queensland",
-        "expertSlug": "stan-Steindl",
+        "description": "Dr Stan Steindl is an Australian clinical psychologist with over 20 years experience as a therapist, supervisor, trainer and researcher. He is passionate about motivational interviewing and compassion focused therapy and presents on these topics around the world.",
+        "expertSlug": "stan-steindl",
         "isTeamOwner": true
       }
     ]

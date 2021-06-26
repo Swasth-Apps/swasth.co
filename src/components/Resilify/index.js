@@ -1,19 +1,17 @@
 import React from "react";
 import {Col, Row} from "antd";
 import TopicSection from "./TopicSection";
-import {generateRandomID, getCloudIDFromImageName} from "./common/helper";
 import {useSelector} from "react-redux";
 import bannerGraphic from "../../assets/images/resilify-woman.jpeg";
 import {CheckOutlined} from "@ant-design/icons";
-import Slider from "./common/Slider";
 import {Link} from "gatsby";
-import CLImage from "../../helper/CLImage";
 import RequestDemoModal from "../RequestDemoModal";
 
-const ResilifyScreen = () => {
+const ResilifyScreen = (props) => {
     const p = useSelector(state => state.commonData);
     const topics = p?.topics;
-    const programs = p?.programs;
+    const programs = props?.programs;
+
 
     return <div className="resilify-home-page">
         <div className="banner-img">
@@ -29,11 +27,11 @@ const ResilifyScreen = () => {
                                 <Col md={24}>
                                     <Row className='card-row'>
                                         <Col md={12} className="content">
-                                            <h3 className='bottom-space base-text program-grounded'>
+                                            <h3 className='bottom-space heavy-text program-grounded'>
                                                 Self-guided Programs<br/>
                                             </h3>
                                             <div className='para-text black-18-font margin-bottom-25'>
-                                                <p className="width-90 para-text">
+                                                <p className="width-90 light-text">
                                                    Our Resilify Platform offers self-guided programs based on evidence-based treatment modalities that last anywhere from 6-12 weeks.
                                                 </p>
                                             </div>
@@ -60,8 +58,6 @@ const ResilifyScreen = () => {
         </div>
         <TopicSection
             programs={programs}
-            topics={topics}
-            itemsPerSlider={programs?.itemsPerSlider}
         />
         <div
             id='wrapper'
@@ -72,17 +68,17 @@ const ResilifyScreen = () => {
                 <div className="section">
                     <h2 className="base-text">Start learning from the best minds now</h2>
                     <ul>
-                        <li className="para-text"><CheckOutlined /> Programs across different categories</li>
-                        <li className="para-text"><CheckOutlined /> New Programs added every month</li>
-                        <li className="para-text"><CheckOutlined /> Learn and Practice at your convenience</li>
-                        <li className="para-text"><CheckOutlined /> Exercises (digitized worksheets)</li>
-                        <li className="para-text"><CheckOutlined /> Watch on your desktop, phone, or TV</li>
-                        <li className="para-text"><CheckOutlined /> Extensive set of tools for your well-being</li>
+                        <li className="book-text"><CheckOutlined /> Programs across different categories</li>
+                        <li className="book-text"><CheckOutlined /> New Programs added every month</li>
+                        <li className="book-text"><CheckOutlined /> Learn and Practice at your convenience</li>
+                        <li className="book-text"><CheckOutlined /> Exercises (digitized worksheets)</li>
+                        <li className="book-text"><CheckOutlined /> Watch on your desktop, phone, or TV</li>
+                        <li className="book-text"><CheckOutlined /> Extensive set of tools for your well-being</li>
                     </ul>
-                    <RequestDemoModal btnText="Get Started" />
+                    <RequestDemoModal className={"white-btn"} btnText="Get Started" />
                 </div>
             </div>
-            <div className="explore-more">
+           {/* <div className="explore-more">
                 <h2 className="base-text">Explore More</h2>
                 <Slider className="program-wrapper" key={generateRandomID()}>
                     {topics?.map((t) => {
@@ -103,10 +99,10 @@ const ResilifyScreen = () => {
                         )
                     })}
                 </Slider>
-            </div>
+            </div>*/}
         </div>
-        <div className="home-bottom-bg">
-           {/* <div className="generalized-sections">
+{/*        <div className="home-bottom-bg">
+            <div className="generalized-sections">
                 <div className="sections">
                     <div className="section">
                         <h3 className="base-text"> 50+ Programs</h3>
@@ -123,10 +119,10 @@ const ResilifyScreen = () => {
                     <p className="para-text">Average per lesson</p>
                 </div>
             </div>
-            </div>*/}
+            </div>
 
-          {/*  <FAQs/> */}
-        </div>
+            <FAQs/>
+        </div>*/}
     </div>;
 
 }

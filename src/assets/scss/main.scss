@@ -1,23 +1,49 @@
 // Airbnb font
 .base-text {
-  font-family: 'Airbnb Cereal App Bold', Helvetica;
+  font-family: 'Avenir Heavy', Helvetica;
+  letter-spacing: inherit !important;
 }
 
 // Avenir Book font
 .para-text {
-  font-family: 'Avenir Book', Helvetica;
+  font-family: 'Avenir Light', Helvetica;
 }
 
 
 // Avenir Medium font
 .para-medium-text {
-  font-family: 'Avenir', Helvetica;
+  font-family: 'Avenir Medium', Helvetica;
+  letter-spacing: inherit !important;
 }
 
 // Avenir Book
 .para-book-text{
   font-family: "Avenir Book",'Avenir', Helvetica;
 }
+
+
+
+
+.heavy-text{
+  font-family: 'Avenir Heavy', Helvetica;
+  letter-spacing: inherit !important;
+}
+.roman-text{
+  font-family: 'Avenir Roman', Helvetica;
+}
+
+.medium-text{
+  font-family: 'Avenir Medium', Helvetica;
+  letter-spacing: inherit !important;
+}
+.book-text{
+  font-family: 'Avenir Book', Helvetica;
+}
+
+.light-text{
+  font-family: 'Avenir Light', Helvetica;
+}
+
 
 @import 'libs/vars';
 @import 'libs/functions';

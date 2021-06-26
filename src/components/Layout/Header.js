@@ -138,7 +138,7 @@ const Header = (props) => {
                                             <div className="menu-item">
                                                 <img src={Coaching}/>
                                                 <div className={`menu-content para-text`}>
-                                                    <p>Coaching Platform</p>
+                                                    <p className="medium-text">Coaching Platform</p>
                                                     <p className="para-book-text">Behavioral Health Coaching</p>
                                                 </div>
                                             </div>
@@ -149,7 +149,7 @@ const Header = (props) => {
                                             <div className="menu-item">
                                                 <img src={Resilify}/>
                                                 <div className={`menu-content para-text`}>
-                                                    <p>Resilify</p>
+                                                    <p className="medium-text">Resilify</p>
                                                     <p className="para-book-text">Self Guided Programs </p>
                                                 </div>
                                             </div>
@@ -159,7 +159,7 @@ const Header = (props) => {
                                             <div className="menu-item">
                                                 <img src={Clinician}/>
                                                 <div className={`menu-content para-text`}>
-                                                    <p>Clinician Platform</p>
+                                                    <p className="medium-text">Clinician Platform</p>
                                                     <p className="para-book-text">Engage better with Clients</p>
                                                 </div>
                                             </div>
@@ -169,7 +169,7 @@ const Header = (props) => {
                                     arrow
                                 >
                                     <a className='margin-right-25 header-content'>
-                                        <div className={`menu-content base-text`}>
+                                        <div className={`menu-content`}>
                                             Solutions
                                         </div>
                                     </a>
@@ -183,7 +183,7 @@ const Header = (props) => {
                                                 <img
                                                     src={AboutUsIcon}/>
                                                 <div className={`menu-content para-text`}>
-                                                    <p>About Us</p>
+                                                    <p className="medium-text">About Us</p>
                                                     <p className="para-book-text">Learn more about our mission</p>
                                                 </div>
                                             </div>
@@ -194,7 +194,7 @@ const Header = (props) => {
                                             <div className="menu-item">
                                                 <img src={PressIcon}/>
                                                 <div className={`menu-content para-text`}>
-                                                    <p>Press</p>
+                                                    <p className="medium-text">Press</p>
                                                     <p className="para-book-text">Collected press materials</p>
                                                 </div>
                                             </div>
@@ -204,7 +204,7 @@ const Header = (props) => {
                                     arrow
                                 >
                                     <a className='margin-right-25 header-content'>
-                                        <div className={`menu-content base-text`}>
+                                        <div className={`menu-content`}>
                                             Company
                                         </div>
                                     </a>
@@ -249,7 +249,7 @@ const Header = (props) => {
                     className="folded-menu-collapse"
                     expandIconPosition="right"
                 >
-                    <Collapse.Panel header={<div className={`menu-content base-text`}>
+                    <Collapse.Panel header={<div className={`menu-content`}>
                         Solutions
                     </div>} key="Solutions">
                         <div className="header-menu-submenu">
@@ -257,7 +257,7 @@ const Header = (props) => {
                                 <div className="menu-item">
                                     <img src={Coaching}/>
                                     <div className={`menu-content para-text`}>
-                                        <p>Coaching Platform</p>
+                                        <p className="medium-text">Coaching Platform</p>
                                         <p className="para-book-text">Behavioral Health Coaching</p>
                                     </div>
                                 </div>
@@ -269,7 +269,7 @@ const Header = (props) => {
                                 <div className="menu-item">
                                     <img src={Resilify}/>
                                     <div className={`menu-content para-text`}>
-                                        <p>Resilify</p>
+                                        <p className="medium-text">Resilify</p>
                                         <p className="para-book-text">Self Guided Programs </p>
                                     </div>
                                 </div>
@@ -279,14 +279,14 @@ const Header = (props) => {
                                 <div className="menu-item">
                                     <img src={Clinician}/>
                                     <div className={`menu-content para-text`}>
-                                        <p>Clinician Platform</p>
+                                        <p className="medium-text">Clinician Platform</p>
                                         <p className="para-book-text">Engage better with Clients</p>
                                     </div>
                                 </div>
                             </a>
                         </div>
                     </Collapse.Panel>
-                    <Collapse.Panel header={<div className={`menu-content base-text`}>
+                    <Collapse.Panel header={<div className={`menu-content`}>
                         Company
                     </div>} key="Company">
                         <div className="header-menu-submenu">
@@ -296,7 +296,7 @@ const Header = (props) => {
                                 <div className="menu-item">
                                     <img src={AboutUsIcon}/>
                                     <div className={`menu-content para-text`}>
-                                        <p>About Us</p>
+                                        <p className="medium-text">About Us</p>
                                         <p className="para-book-text">Learn more about our mission</p>
                                     </div>
                                 </div>
@@ -307,7 +307,7 @@ const Header = (props) => {
                                 <div className="menu-item">
                                     <img src={PressIcon}/>
                                     <div className={`menu-content para-text`}>
-                                        <p>Press</p>
+                                        <p className="medium-text">Press</p>
                                         <p className="para-book-text">Collected press materials</p>
                                     </div>
                                 </div>
@@ -322,7 +322,7 @@ const Header = (props) => {
                             <div className="menu-content">Coaching</div>
                         </a>*/}
                 <a href="/blog">
-                    <div className="menu-content base-text">Blog</div>
+                    <div className="menu-content">Blog</div>
                 </a>
                 <a rel="noreferrer" style={{borderBottom: "none"}}>
                     <RequestDemoModal/>

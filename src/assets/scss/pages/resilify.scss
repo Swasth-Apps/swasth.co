@@ -164,13 +164,19 @@
     @media (max-width: 769px) {
       padding: 50px 0;
     }
+    .slick-slide{
+      height: 100%;
+      &>div{
+        height: 100%;
+      }
+    }
   }
 
   .program-section {
     .program-section-title {
       //color: _palette(dark-blue);
       font-size: 36px;
-      margin-bottom: 60px;
+      margin-top: 30px;
       letter-spacing: 0.38px;
       padding: 0 20px;
 
@@ -229,7 +235,7 @@
   .program-wrapper {
     //padding: 0px 20px;
     max-width: 1400px;
-    margin: 20px auto;
+    margin: 20px auto 40px;
 
     .slick-list {
       padding: 0px 5px;
@@ -262,13 +268,14 @@
         border-radius: 0 0 10px 10px;
 
         .program-info {
-          h3 {
+          h4 {
             color: _palette(dark-blue);
             font-size: 18px;
             margin-bottom: 5px;
             display: flex;
             min-height: 56px;
             align-items: center;
+            text-align: left;
           }
 
      /*     & > span, & > p, & > p > p {
@@ -333,6 +340,20 @@
             }
           }
         }
+        .html-parser-description{
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          font-size: 14px !important;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-align: left !important;
+          max-height: 76px;
+          line-height: 24px !important;
+        }
+      }
+
+      &:hover{
+        color: inherit !important;
       }
 
       @media only screen and (max-width: 600px) {
@@ -342,7 +363,7 @@
 
     .slick-arrow {
       display: block !important;
-      background: #272c3391;
+      background: #272c33;
       width: 40px;
       height: 40px;
       border-radius: 50px;
@@ -490,7 +511,7 @@
       }
 
       .slick-arrow {
-        background: #272c3391;
+        background: #272c33;
 
         &:before {
           display: none;
@@ -609,12 +630,18 @@
       }
 
       p {
-        font-size: 18px;
+        font-size: 14px;
         color: #000000b0;
+      }
+      h4{
+        font-size: 18px;
+        margin-bottom: 0px;
+        padding: 0px !important;
       }
 
       .ant-collapse-arrow {
-        top: 24px !important;
+        top: 50% !important;
+        transform: translateY(-50%);
         font-size: 16px !important;
         color: #000000b0 !important;
         @media only screen and (max-width: 460px) {
@@ -661,7 +688,7 @@
 .home-discover-section {
   padding: 80px;
   background: rgba(66, 115, 240, 0.09);
-  margin-top: 80px;
+  //margin-top: 80px;
   border-radius: 10px 10px 0 0;
 
   .home-discover-inner-section {
@@ -669,7 +696,7 @@
     flex: 0 0 100%;
     max-width: 1400px;
     margin: auto;
-
+    align-items: center;
     .content {
       flex: 0 0 50%;
     }
@@ -726,12 +753,12 @@
         ul {
           list-style-type: none;
           margin: 40px 0 20px;
-
+          padding-left: 0px;
           li {
             font-size: 18px;
             padding-bottom: 10px;
             margin-top: 15px;
-
+            padding-left: 0px;
             &:not(:last-child) {
               border-bottom: 1px solid #a8a7ab40;
             }
@@ -1060,6 +1087,9 @@
       .selected-category {
         background: _palette(primary-purple);
         color: _palette(bg);
+        &:hover {
+          color: _palette(bg) !important;
+        }
       }
 
       @media only screen and (max-width: 768px) {
@@ -1110,7 +1140,7 @@
     .program-card {
       border-radius: 10px;
       box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
-      height: fit-content;
+      height: auto;
       margin-bottom: 20px;
       //margin-right: 20px;
       //max-width: 400px !important;
@@ -1131,7 +1161,7 @@
         border-radius: 0 0 10px 10px;
 
         .program-info {
-          h3 {
+          h4 {
             color: _palette(dark-blue);
             font-size: 20px;
             margin-bottom: 5px;
@@ -1218,7 +1248,7 @@
 
     .slick-arrow {
       display: block;
-      background: #272c3391;
+      background: #272c33;
       width: 40px;
       height: 40px;
       border-radius: 50px;
@@ -1359,7 +1389,7 @@
       }
 
       .slick-arrow {
-        background: #272c3391;
+        background: #272c33;
 
         &:before {
           display: none;
@@ -1504,7 +1534,7 @@
 
     .slick-arrow {
       display: block;
-      background: #272c3391;
+      background: #272c33;
       width: 40px;
       height: 40px;
       border-radius: 50px;
@@ -1593,6 +1623,11 @@
       }
     }
   }
+  .coaching-programs-banner-section{
+     &:before{
+       background: none;
+     }
+  }
 }
 
 
@@ -1679,5 +1714,20 @@
     }
 
 
+  }
+}
+
+.program-card {
+  position: relative;
+  .sessions-length {
+    position: absolute;
+    background: #4273f0;
+    color: white;
+    top: 20px;
+    left: -2px;
+    border-radius: 0px 5px 5px 0;
+    padding: 5px 10px;
+    font-size: 16px;
+    min-width: 120px;
   }
 }

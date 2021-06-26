@@ -225,8 +225,7 @@
 
     .widget {
       > h5 {
-        font-weight: bold;
-        font-size: 16px;
+        font-size: 18px;
       }
 
       ul {
@@ -240,7 +239,7 @@
           a{
             border-bottom: none;
             color: white;
-            font-size: 14px;
+            font-size: 15px;
             &:hover{
               color: _palette(primary-color) !important;
             }

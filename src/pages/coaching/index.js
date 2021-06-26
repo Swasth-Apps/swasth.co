@@ -6,6 +6,8 @@ import ClientsPrograms from "../../components/Coaching/ClientsPrograms";
 import ProfessionalPrograms from "../../components/Coaching/ProfessionalPrograms";
 import Experts from "../../components/Coaching/Experts";
 import Organizations from "../../components/Coaching/Organizations";
+import {graphql} from "gatsby";
+import _ from "lodash";
 
 
 class CoachingIndex extends React.Component {
@@ -50,6 +52,7 @@ class CoachingIndex extends React.Component {
     }
 
     renderTab = () => {
+        const { experts } = this.props.data;
         switch (this.state.tab) {
             case "overview":
                 return <CoachingOverview/>;
@@ -58,7 +61,7 @@ class CoachingIndex extends React.Component {
             case "professionals":
                 return <ProfessionalPrograms/>;
             case "experts":
-                return <Experts/>;
+                return <Experts experts={_.sortBy(experts?.edges,({node:{frontmatter}}) => frontmatter.sequence)}/>;
             case "organizations":
                 return <Organizations location={this.props.location}/>;
             default:
@@ -85,7 +88,7 @@ class CoachingIndex extends React.Component {
 
 
     render() {
-        if (typeof window !== "undefined" && window.location.pathname && !this.state.tab){
+        if (typeof window !== "undefined" && window.location.pathname && !this.state.tab) {
             this.componentDidMount();
         }
         return (
@@ -98,17 +101,44 @@ class CoachingIndex extends React.Component {
                     })
                 }}
             >
-                {this.state.tab ?<>
-                    <CoachingComponent
-                        tab={this.state.tab}
-                        location={this.props.location}
-                    />
-                <div className="coaching-mobile-section">
-                    {this.renderTab()}
-                </div></>:null}
+                {this.state.tab ?
+                    <>
+                        <CoachingComponent
+                            tab={this.state.tab}
+                            location={this.props.location}
+                            experts={this.props.data?.experts}
+                        />
+
+                        <div className="coaching-mobile-section">
+                            {this.renderTab()}
+                        </div>
+
+                    </> : null}
             </Layout>
         )
     }
 }
 
 export default CoachingIndex;
+export const pageQuery = graphql`
+  query ExpertsList {
+      experts: allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "coaching-experts" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            profileImage
+            title
+            name
+            slug
+            sequence
+          }
+        }
+      }
+    }
+  }
+`

@@ -197,15 +197,17 @@
 
       .course-price {
         display: flex;
-        padding: 12px 24px;
+        padding: 12px 36px;
         border-radius: 10px;
-        background-color: #fffaf7;
-
+        background-color: #6D8FE4;
+        width: fit-content;
         .body-16 {
           margin-top: 0px;
-          color: #2d3d4b;
-          font-size: 1.1rem;
+          color: #fff;
+          font-size: 1.3rem;
           line-height: 1.6;
+          margin-bottom: 0px;
+          text-align: center;
         }
 
         h1 {
@@ -345,7 +347,7 @@
         margin-top: 0px;
         margin-bottom: 32px;
         color: #2d3d4b;
-        font-size: 1rem;
+        font-size: 1.125rem;
         line-height: 1.6;
         font-weight: 400;
       }
@@ -435,7 +437,6 @@
         margin-bottom: 20px;
         font-size: 30px !important;
         color: _palette(fg-bold) !important;
-        font-family: _font(base-medium-font);
         //font-size: 24px;
       }
     }
@@ -515,10 +516,6 @@
     margin-bottom: 0px;
 
     p {
-      &:first-child {
-        font-family: _font(base-medium-font);
-      }
-
       color: _palette(fg-bold) !important;
     }
 
@@ -634,7 +631,6 @@
 
   .program-schedule-title {
     font-size: 30px !important;
-    font-family: _font(base-medium-font) !important;
   }
 
   .program-tuition {

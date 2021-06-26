@@ -9,6 +9,7 @@ import {useSelector} from "react-redux";
 import CategoryMobileTabs from "../CategoryMobileTabs";
 import Loader from "../../Loader";
 import Logo from "../../../assets/images/resilify/logo.png"
+import _ from "lodash";
 
 const getCLImageUrl = image => {
     const img = getCloudIDFromImageName(
@@ -32,31 +33,30 @@ const getCLImageUrl = image => {
     return cloudinary.url(img, opts);
 };
 
-const CategoryPageScreen = () => {
+const CategoryPageScreen = (props) => {
     const [showMore, setShowMore] = useState(true);
-    const loading = useSelector(state => state.commonData.resilifyLoading);
-    const data = useSelector(state => state.commonData);
 
     const toggleMore = () => {
         setShowMore(!showMore)
     };
 
 
+    let topic = null;
     let temps = [];
 
-    let topic = null;
+    let topics = _.map(_.uniqBy(props?.programs?.flatMap(({node:{frontmatter}}) => frontmatter?.categories?.category),"title"),"title") || [];
+
 
     let category = typeof window !== 'undefined' ? window?.location?.pathname?.substring('/resilify/category/'.length) : 'all';
     category = category && category?.split("/")?.[0];
 
-    const programs = data?.programs || [];
-    const topics = data?.topics || [];
+    const programs = props?.programs || [];
 
     if (category === "all") {
         temps = programs
     } else {
-        topic = topics?.find(({name}) => name && name?.split(" ")?.join("-")?.toLowerCase() === category);
-        temps = programs?.filter(({topics}) => topics?.includes(topic?.id))
+        topic = topics?.find((name) => name && name?.split(" ")?.join("-")?.toLowerCase() === category);
+        temps = props?.programs?.filter(({node:{frontmatter}}) => _.some(frontmatter?.categories?.category,({title}) => title === topic))
     }
     const p = showMore ? temps?.filter((_, i) => i < 8) : temps;
 
@@ -78,53 +78,18 @@ const CategoryPageScreen = () => {
                         <CategoryMobileTabs topics={topics} category={category}/>
                     </div>
                 </div>
-                {/*      <div className="coaching-overview-container">
-                    <div className="coaching-overview">
-                        <div
-                            id='wrapper'
-                            className={'coach-wrapper'}
-                            style={{paddingBottom: 0}}
-                        >
-                            <Row className='-row-flex-center card-row bg-img'>
-                                <Col md={24}>
-                                    <Row className='card-row'>
-                                        <Col md={12} className="content">
-                                            <h3 className='bottom-space base-text program-grounded'>
-                                                {topic ? topic.name : "All Categories"}
-                                            </h3>
-                                            <div className='para-text black-18-font margin-bottom-25'>
-                                                <p className="width-90 para-text">
-                                                    {topic?.description}
-                                                </p>
-                                            </div>
-                                        </Col>
-                                        <Col md={12} className="-margin-right img-section"
-                                             style={{textAlign: "center"}}>
-                                            <img
-                                                className='custom-image'
-                                                src={getCLImageUrl(topic?.image) || require("../../../assets/images/resilify/all-categories.jpg")}
-                                                alt='Therapy'
-                                                style={{maxWidth: "100%"}}
-                                            />
-                                        </Col>
-                                    </Row>
-                                </Col>
-                            </Row>
-
-                        </div>
-                    </div>
-                </div>*/}
             </div>
         </div>
         <div className="category-page-body">
-            <div className="program-section" id={`topic-tabs`}>
+ {/*           <div className="program-section" id={`topic-tabs`}>
                 <h3 className="program-section-title base-text">Programs</h3>
-            </div>
-            {loading ? <Loader/> : <>
+            </div>*/}
+            {<>
 
                 <div className="program-wrapper">
                     {p?.map(program =>
-                        <Program program={program} onReload={() => this.forceUpdate()}/>
+                        <Program program={program.node?.frontmatter} slug={program.node?.fields?.slug} onReload={() => this.forceUpdate()}/>
+
                     )}
                 </div>
                 {p?.length ? null : <Empty description="No Programs available for this category."/>}

@@ -2741,6 +2741,7 @@ strong {
 // Update Home page Design
 .home-page-overview-container {
   z-index: 1111111;
+  overflow: hidden;
   .health-coaching-text {
     font-size: 40px;
     line-height: 50px;
@@ -2764,7 +2765,7 @@ strong {
         h3,h1 {
           margin-bottom: 20px;
           font-size: 50px;
-          line-height: 60px;
+          line-height: 50px;
           color: _palette(blue-color);
         }
 
@@ -3152,7 +3153,8 @@ strong {
     }
 
     .bg-img {
-      background: #754af630;
+      //background: #754af630;
+      background: #DAE3F3;
       border-radius: 10px;
     }
 
@@ -3289,7 +3291,7 @@ strong {
     margin-bottom: 0px;
   }
   p,span,li{
-    font-family: _font(para-book-font) !important;
+    font-family: _font(light-font) !important;
     font-size: 18px;
     margin-bottom: 24px;
     color: _palette(fg-bold) !important;
@@ -3298,7 +3300,7 @@ strong {
     margin-bottom: 0px;
   }
   li{
-    font-family: _font(para-book-font) !important;
+    font-family: _font(light-font) !important;
     //font-size: 16px;
     margin-bottom: 5px;
     color: _palette(fg-bold) !important;
@@ -3314,7 +3316,7 @@ strong {
   }
 
   h1,h2{
-    font-family: _font(base-font);
+    font-family: _font(medium-font);
   }
 
   h1,h2{
@@ -3325,13 +3327,45 @@ strong {
   h3,h4{
     font-size: 24px;
     margin-bottom: 16px;
-    font-family: _font(para-font);
+    font-family: _font(medium-font);
   }
 
   h5,h6{
     font-size: 20px;
     margin-bottom: 16px;
-    font-family: _font(para-font);
+    font-family: _font(para-book-font);
   }
 
 }
+
+
+.html-parser-description{
+  font-family: _font(light-font) !important;
+  font-size: 16px !important;
+  margin-bottom: 15px;
+  h1,h2,h3,h4,h5,h6{
+    font-family: _font(heavy-font);
+    margin-bottom: 12px;
+    span,strong{
+      font-family: _font(light-font) !important;
+    }
+
+  }
+
+  a{
+    font-family: _font(light-font);
+  }
+  p,li,span,div{
+    font-family: _font(light-font);
+    font-size: 16px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+  }
+
+  b,strong{
+    font-family: _font(heavy-font);
+    font-weight: normal;
+  }
+
+}
+

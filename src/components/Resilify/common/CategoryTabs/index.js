@@ -7,6 +7,7 @@ import LeftIcon from "../../../../assets/images/left.png"
 
 const CategoryTabs = (props) => {
     const topics = props?.topics || [];
+    console.log(topics, props)
     return (
 
             <SliderComponent className="categories-wrapper" key={generateRandomID()}>
@@ -17,12 +18,12 @@ const CategoryTabs = (props) => {
                     All Categories
                 </Link>
                 {topics?.map(topic => {
-                        const slug = topic?.name?.split(" ")?.join("-")?.toLowerCase();
+                        const slug = topic?.split(" ")?.join("-")?.toLowerCase();
                         return (<Link
                             to={`/resilify/category/${slug}/`}
                             className={`category-tab base-text ${props.category === slug ? "selected-category" : ""}`}
                         >
-                            {topic.name}
+                            {topic}
                         </Link> )
                     }
                 )}

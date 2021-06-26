@@ -15,12 +15,12 @@ const CategoryMobileTabs = (props) => {
                                 All Categories
                             </Link>
                             {props.topics?.map(topic => {
-                                    const slug = topic?.name?.split(" ")?.join("-")?.toLowerCase();
+                                    const slug = topic?.split(" ")?.join("-")?.toLowerCase();
                                     return (<Link
                                         to={`/resilify/category/${slug}/`}
                                         className={`category-tab para-medium-text ${props.category === slug ? "selected-category" : ""}`}
                                     >
-                                        {topic.name}
+                                        {topic}
                                     </Link>)
                                 }
                             )}
