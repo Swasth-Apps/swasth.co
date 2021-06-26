@@ -222,7 +222,14 @@ export const expertsData = [{
   description:"Deirdre Fay, MSW, works with people who have had crummy histories to develop an inner platform to get their needs met and have success in all areas of life.  With over 30 years of experience as a psychotherapist and educator, Deirdre brings together modern science with ancient wisdom traditions in exploring the Transformational Journey of life.",
   expertise: "Psychotherapist and Educator and Founder of Becoming Safely Embodied skills groups",
   "slug":"deirdre-fay"
-}];
+},{
+  name:"Tara Deliberto, PhD",
+  img:"tara-profile.jpg",
+  description:"Tara Deliberto, PhD, is a clinical psychologist and the primary author of the book Treating Eating Disorders in Adolescents, published by New Harbinger.  Dr. Deliberto currently maintains a private practice while providing education about body image and eating disorders. She also serves as a senior advisor at Equip, an innovate health company.",
+  expertise: "Founder and Director of Integrated Treatment LLC,  author of Treating Eating Disorders in Adolescents, consultant at Equip Health, founder and former director of New York Presbyterian Hospital’s Eating Disorders Partial Hospitalization Program, former assistant professor at Weill Cornell Medicine",
+  "slug":"tara-deliberto"
+}
+];
 
 export const colors = ["blue-tag","pink-tag","purple-tag"];
 export const initialBlogsCount = 6;
