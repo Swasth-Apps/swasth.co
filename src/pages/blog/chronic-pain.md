@@ -35,7 +35,7 @@ link: https://resiliens.com/resilify/program/dealing-with-chronic-pain-with-cbt
 
 ![](static/img/chronic3.jfif)
 
-As you already know that pain is any sort of response of the body towards the injury or trauma caused, It is an indication that something is off. Generally, your body loses the sense of the pain as your body starts to combat it. In some cases, the pain remains as long as a year or it may even get cured with  a short-term treatment within a week. So, when it goes above a time span of 3 months or so, it is called chronic pain. Consequently, you see negative effects on your emotional and physical wellbeing.
+As you already know that pain is any sort of response of the body towards the injury or trauma caused, It is an indication that something is off. Generally, your body loses the sense of the pain as your body starts to combat it. In some cases, the pain remains as long as a year or it may even get cured with a short-term treatment within a week. So, when it goes above a time span of 3 months or so, it is called chronic pain. Consequently, you see negative effects on your emotional and physical wellbeing.
 
 Chronic pain is different from other kinds of pain as your body feels the pain for a long duration which is not common. This kind of pain may affect your day-to-day life and cognitive wellness. The sensation grows and can be felt when it passes through your nervous system. The communication of different parts related to the nervous system start right from there which eventually reaches your nerve and then the cerebrum. Normally, the sensation comes to a halt when your body fixes the injury or trauma, but the nerve cells might get activated any time even after your recovery.
 
@@ -103,8 +103,6 @@ There can be a number of causes of chronic pain but the most common of them are 
 
     **Fosters life skills:** CBT gives patients coping skills that they may use in their daily life while tackling the pain. You can use the learned tactics to deal with your unbearable pain. 
 
-    **Allows you to do it yourself:** CBT allows you to cure the pain by yourself without the help of a therapist and can easily be applied to self-help.
-
     ## **OUR PROGRAM**
 
     Our program will help you deal with CHRONIC PAIN. This program uses a step-by-step approach to treat chronic pain and is based on Cognitive Behavioral Therapy. CBT is the idea of interpreting situations and influencing our feelings. Therefore, we add sessions to cure maladaptive thoughts and move ahead sequentially to help you overcome this problem.
@@ -123,11 +121,11 @@ SESSION 5: THOUGHT BLOCKING
 
 SESSION 6: MINDFULNESS AND RELAXATION
 
-SESSION 7: Guided Imagery 
+SESSION 7: GUIDED IMAGERY 
 
 SESSION 8: SOCIAL SKILLS TO COMBAT CHRONIC PAIN 
 
-These sessions come with a time limit of 7 days and you are supposed to complete each session within a week, although you may complete them later in case of some urgency. After completing one session you will land into another session by default. Also, you get the facility of URL to change the sessions as per your choice but here again, the time limit remains the same. Apart from these sessions, we have a panel of experts whom you can contact anytime throughout your journey with RESILIENS. We work as a team to help you out 24/7. 
+These sessions come with a time limit of 7 days and you are suggested to complete each session within a week, although you may complete them later in case of some urgency. After completing one session you will land into another session by default. Also, you get the facility of URL to change the sessions as per your choice but here again, the time limit remains the same. We work as a team to help you out 24/7. 
 
 SO DO NOT HESITATE AND GRAB THE PROGRAM!
 
