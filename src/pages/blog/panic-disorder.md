@@ -34,7 +34,7 @@ The Panic disorder includes recurrent panic attacks about an anticipated increas
 
 Panic disorder is a type of anxiety disorder. It causes panic attacks, which are sudden feelings of terror when there is no real danger. You may feel as if you are losing control. Panic attacks can happen anytime, anywhere, and without warning. You may live in fear of another attack and may avoid places where you have had an attack. For some people, fear takes over their lives and they cannot leave their homes.
 
-Considering the studies so far concerning gender, it has been found  that women are more prone to panic disorder, almost twice or thrice more likely to be affected than men. The cause of such a difference could be mental instability because of separation or divorce.
+Considering the studies so far concerning gender, it has been found that women are more prone to panic disorder, almost twice or thrice more likely to be affected than men. The cause of such a difference could be stress because of separation or divorce.
 
 ## **CHARACTERISTICS FEATURES OF PANIC DISORDER**
 
@@ -79,8 +79,6 @@ Considering the studies so far concerning gender, it has been found  that women 
 • The attacks are recurrent over time 
 
 • During an attack the person experiences a strong urge to escape to safety 
-
-While a report states that individuals may also feel like they may faint anytime while having an attack. However, this statement cannot be true as the biological system related to fainting is exactly the opposite of the one that produces panic attacks.
 
 ## **CAUSES OF PANIC ATTACKS**
 
@@ -127,7 +125,7 @@ Session 6 - Relaxation Training
 
 Session 7 - Coping with relapse
 
-These sessions come with a time limit of 7 days as you need to complete each session within a week. Later you will land into another session by default, although you may complete the session later in case of some urgency. Also, you get the facility of URL to change the sessions as per your choice but here again, the time limit remains the same. Apart from these sessions, we have a panel of experts whom you can contact anytime throughout your journey with RESILIENS. We work as a team to help you out 24/7. 
+These sessions come with a time limit of 7 days as you need to complete each session within a week. Later you will land into another session by default, although you may complete the session later in case of some urgency. Also, you get the facility of URL to change the sessions as per your choice but here again, the time limit remains the same. We work as a team to help you out 24/7. 
 
 **THIS TIME, DO TAKE THE COURAGE TO PICK THE RIGHTEST! DON'T PANIC! JOIN RESILIENS!**
 
