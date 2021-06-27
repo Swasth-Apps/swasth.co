@@ -97,7 +97,7 @@ Depressive Disorders
 
   ## **TREATMENT AT RESILIENS**
 
-  RESILIENS offers an outstanding program to help you deal with Bipolar disorder and combat them with positivity. Our one and only goal are to work for you people all day and offer you the best of the best. We provide you with a number of sessions to work along and attain positivity. The only you need is, complete the sessions in time, that is, 7 days, and similarly head over to the next session which gets changed by default. Our app even reminds you of incomplete sessions every day so that you do not miss out on them. You can even use the URL provided to change the session as per your choice but the time limit still doesn't change. These sessions are as follows: 
+  RESILIENS offers an outstanding program to help you deal with Bipolar disorder and combat them with positivity. Our only goal is to work for you people all day and offer you the best of the best. We provide you with a number of sessions to work along and attain positivity. The only thing you need to do is, completing the sessions in time, then head over to the next session which gets changed by default. Our app even reminds you of incomplete sessions every day so that you do not miss out on them. You can even use the URL provided to change the session as per your choice but the time limit still doesn't change. These sessions are as follows: 
 
   SESSION 1: Introduction
 
@@ -114,8 +114,6 @@ Depressive Disorders
   SESSION 7: Visualization and Imagery
 
   SESSION 8: Coping with relapse
-
-  Not only that, but we also have a panel of experts of mental health who help you out throughout your stay at RESILIENS. You can get into interaction with them whenever you want. They are available all the time to support you and help you strengthen your weaknesses.
 
   \
   **LEAVE EVERYTHING UPON US! GET ABOARD RESILIENS!**
