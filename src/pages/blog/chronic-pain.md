@@ -3,12 +3,12 @@ templateKey: blog-post
 title: Chronic Pain
 username: Tanya Tripti
 date: 2021-06-05
-description: "Chronic pain is a kind of pain that may lasts weeks to years. This
-  pain arises as a result of inflammation in the body or dysfunctional nerves.
-  Usually, it is self-diagnosable, and medium-term pain can be cured within
-  months and lab tests or imaging is rarely required. Most people get back to
-  the normal state after treatment of the pain but sometimes the pain carries on
-  for longer due to some medical history or injury. "
+description: "Chronic pain is a kind of pain that may last weeks to years.
+  Chronic pain arises as a result of inflammation in our body. Usually, it is
+  self-diagnosable, and medium-term pain can be cured within months and lab
+  tests or imaging is rarely required. Most people get back to the normal state
+  after treatment of the pain but sometimes the pain carries on for longer due
+  to some medical history or injury. "
 featuredpost: true
 image: static/img/chronic1.jfif
 squareimage: static/img/chronic2.jfif
