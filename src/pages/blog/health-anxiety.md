@@ -4,10 +4,11 @@ title: Health Anxiety
 username: Tanya Tripti
 date: 2021-06-04
 description: Anxiety arises at times when we think something bad may happen. The
-  people who worry constantly become heavily concerned that something might
-  happen to their health thus may suffer from health anxiety. If you respond to
-  health issues or symptoms, seeking reassurance and comfort, or avoiding
-  particular situations, then health anxiety may cause serious problems.
+  people who continuously worry about their health might become heavily
+  concerned that something may happen to their health, consequently, they suffer
+  from health anxiety. If you respond to health issues or symptoms, seeking
+  reassurance and comfort, or avoiding particular situations, then health
+  anxiety may cause serious problems.
 image: static/img/health1.jfif
 squareimage: static/img/health2.jfif
 categories:
@@ -67,11 +68,11 @@ This way, a normal health concern turns into health anxiety and we might not eve
 
 ## **IMPACTS OF HEALTH ANXIETY**
 
-These are loads of impacts that health anxiety could have in our lives. Let's find out a few of them,
+There are some impacts that health anxiety could have on our lives. Let's find out a few of them,
 
 **Relationship with family/friends**
 
-As health anxiety leads to continuous worrying about our own health, we remain completely occupied by such thoughts and seldom give time to our family and friends. Our close ones might get irritated by such behavior and get frustrated by our constant worry even after reassurance from doctors. It is highly probable that we may feel annoyed and lash our family/friends out causing a knot in the relation.
+As health anxiety leads to worrying about our health, we remain all occupied by such thoughts and seldom give time to our family and friends. Our close ones may get distant from us by such behavior. It is highly probable that we may feel annoyed and lash our family/friends out which causes a knot in the relation.
 
 **Work/Study**
 
@@ -101,9 +102,9 @@ Session 1: Understanding health anxiety
 
 Session 2: How health anxiety is developed and maintained?
 
-Session 3: Re- training your focus on health symptoms
+Session 3: Re-training your focus on health symptoms
 
-Session 4: Dealing with anxiety provoking thoughts
+Session 4: Dealing with anxiety-provoking thoughts
 
 Session 5: Adjusting health-related rules and assumptions 
 
@@ -113,7 +114,7 @@ Session 7: Challenging avoidance and safety behaviors
 
 Session 8: Self-management
 
-These sessions come with a time limit of 7 days as you need to complete each session within a week. Later you will land into another session by default, although you may complete the session later in case of some urgency. Also, you get the facility of URL to change the sessions as per your choice but here again the time limit remains the same. Apart from these sessions, we have a panel of experts whom you can contact anytime throughout your journey with RESILIENS. We work as a team to help you out 24/7. 
+These sessions come with a time limit of 7 days as you are suggested to complete each session within a week. Later you will land into another session by default, although you may complete the session later in case of some urgency. Also, you get the facility of URL to change the sessions as per your choice but here again, the time limit remains the same. Apart from these sessions, we have a panel of experts whom you can contact anytime throughout your journey with RESILIENS. We work as a team to help you out 24/7. 
 
 SO DO NOT HESITATE AND GRAB THE PROGRAM!
 
