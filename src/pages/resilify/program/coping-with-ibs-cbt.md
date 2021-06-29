@@ -10,14 +10,14 @@ categories:
     - title: Mental Health
 sessions:
   session:
-    - title: Introduction to IBS
-    - title: CBT Model
-    - title: Stress Management
-    - title: Cognitive Restructuring
-    - title: Relaxation Techniques
-    - title: Cognitive Distortions
-    - title: Visualization
-    - title: Thought Restriction
+    - title: Understanding Irritable Bowel Syndrome
+    - title: Exploring mind-body connection
+    - title: Calming your mind
+    - title: How does stress affect IBS?
+    - title: Calming your body
+    - title: How do I deal with pain?
+    - title: Develop healthy eating habits
+    - title: Road towards optimal health
 relatedpost:
   program:
     - title: CBT for Bipolar Disorder
