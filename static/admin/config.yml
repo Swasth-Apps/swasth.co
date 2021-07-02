@@ -64,12 +64,12 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "coaching-experts"}
-      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Name", name: "title", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Profile Image", name: "profileImage", widget: "string"}
       - {label: "Cover Image", name: "coverImage", widget: "string"}
       - {label: "Location", name: "location", widget: "string"}
-      - {label: "Title(Bio)", name: "title", widget: "string"}
+      - {label: "Title(Bio)", name: "titleBio", widget: "string"}
       - {label: "Sequence", name: "sequence", widget: "number"}
       - {label: "About", name: "about", widget: "markdown"}
       - {label: "Education", name: "qualifications", widget: list, fields: [{label: Certification, name: certification, widget: string},{label: School, name: school, widget: string},{label: Year, name: year, widget: string},{label: Image, name: image, widget: string,required: false}]}

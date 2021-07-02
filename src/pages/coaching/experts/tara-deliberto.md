@@ -1,11 +1,11 @@
 ---
 templateKey: coaching-experts
-name: Tara Deliberto, PhD
+title: Tara Deliberto, PhD
 slug: tara-deliberto
 profileImage: tara-profile.jpg
 coverImage: tara-cover.jpg
 location: San Diego, CA, USA / New York, NY, USA
-title: Founder and Director of Integrated Treatment LLC,  author of Treating
+titleBio: Founder and Director of Integrated Treatment LLC,  author of Treating
   Eating Disorders in Adolescents, consultant at Equip Health, founder and
   former director of New York Presbyterian Hospital’s Eating Disorders Partial
   Hospitalization Program, former assistant professor at Weill Cornell Medicine

@@ -21,10 +21,10 @@ const BasicInformation = (props) => {
                         />
                         <div className="info">
                             <p className="title base-text">
-                                {provider?.name}
+                                {provider?.title}
                             </p>
                             <p className="subtitle medium-text">
-                                {provider?.title}
+                                {provider?.titleBio}
                             </p>
                             {provider?.location ?
                             <p className="address light-text">

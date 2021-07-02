@@ -1,11 +1,11 @@
 ---
 templateKey: coaching-experts
-name: Tiffany Loggins, PsyD
+title: Tiffany Loggins, PsyD
 slug: tiffany-loggins-psyd
 profileImage: tiffny_loggins_profile.jpg
 coverImage: tiffny_loggins_cover.jpg
 location: 101 Quintara, San Francisco, CA, USA-94116
-title: Psychologist, PsyD
+titleBio: Psychologist, PsyD
 sequence: 4
 about: <p>Tiffany Loggins, Psy.D. is a licensed psychologist and mental health
   wellness speaker. She specializes in minority stress within BIPoC (Black,

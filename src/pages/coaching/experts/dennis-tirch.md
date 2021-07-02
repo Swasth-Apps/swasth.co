@@ -1,11 +1,11 @@
 ---
 templateKey: coaching-experts
-name: Dennis Tirch
+title: Dennis Tirch
 slug: dennis-tirch
 profileImage: tirch_profile.png
 coverImage: tirch_cover.jpg
 location: New York City, NY, USA-94107.
-title: Founder of the center for compassion focused therapy
+titleBio: Founder of the center for compassion focused therapy
 sequence: 1
 about: "<p>Dr. Tirch is the Founder of The Center for Compassion Focused
   Therapy, the first clinical training center for Compassion Focused Therapy

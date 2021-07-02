@@ -133,7 +133,7 @@ export const pageQuery = graphql`
           frontmatter {
             profileImage
             title
-            name
+            titleBio
             slug
             sequence
           }

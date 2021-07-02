@@ -1,11 +1,11 @@
 ---
 templateKey: coaching-experts
-name: Dr Stan Steindl
+title: Dr Stan Steindl
 slug: stan-steindl
 profileImage: stan-profile.jpg
 coverImage: Stan-cover.jpg
 location: Brisbane, Queensland, Australia
-title: Director of Psychology Consultants Pty Ltd and Adjunct Associate
+titleBio: Director of Psychology Consultants Pty Ltd and Adjunct Associate
   Professor at School of Psychology, University of Queensland
 sequence: 5
 about: "<p>Dr Stan Steindl is an Australian Clinical Psychologist in private

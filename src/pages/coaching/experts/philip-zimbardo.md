@@ -1,11 +1,11 @@
 ---
 templateKey: coaching-experts
-name: Philip Zimbardo
+title: Philip Zimbardo
 slug: philip-zimbardo
 profileImage: philip_profile.jpg
 coverImage: philip_cover.jpg
 location: San Francisco, CA, USA-94107
-title: Emeritus Professor of Psychology at Stanford University and President of
+titleBio: Emeritus Professor of Psychology at Stanford University and President of
   the Heroic Imagination Project
 sequence: 2
 about: <p>Dr Philip Zimbardo's long and illustrious career has left an indelible

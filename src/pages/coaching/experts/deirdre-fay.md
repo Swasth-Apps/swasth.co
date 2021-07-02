@@ -1,11 +1,11 @@
 ---
 templateKey: coaching-experts
-name: Deirdre Fay
+title: Deirdre Fay
 slug: deirdre-fay
 profileImage: d-fay_profile.jpg
 coverImage: d-fay_cover.jpg
 location: " "
-title: Psychotherapist and Educator and Founder of Becoming Safely Embodied
+titleBio: Psychotherapist and Educator and Founder of Becoming Safely Embodied
   skills groups
 sequence: 3
 about: '<p><span style=\"font-weight: 400;\">Deirdre Fay, MSW, works with people

@@ -1,11 +1,11 @@
 ---
 templateKey: coaching-experts
-name: Dr. Yotam Heineberg
+title: Dr. Yotam Heineberg
 slug: yotam-heineberg
 profileImage: yotam_profile.png
 coverImage: yotam_cover_1.jpg
 location: San Francisco, CA, USA-94110
-title: Clinical Faculty and Chief Clinical Officer
+titleBio: Clinical Faculty and Chief Clinical Officer
 sequence: 6
 about: <p><span>Dr. Yotam Heineberg is a licensed clinical psychologist and a
   clinical faculty member at Palo Alto University, where he not only teaches but
