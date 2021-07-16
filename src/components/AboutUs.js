@@ -362,7 +362,7 @@ const Home = (props) => {
                                 <div className="user">
                                     <img src={Gana2}/>
                                     <p className="name heavy-text"> Gana Pemmanda </p>
-                                    <p className="title medium-text">Co-founder & CEO</p>
+                                    <p className="title medium-text">Founder & CEO</p>
                                     <p className="medium-text social-icons">
                                         <a href="https://www.linkedin.com/in/ganapemmanda/">
                                             <img src={Linkedin}/>
