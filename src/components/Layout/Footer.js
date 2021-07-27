@@ -82,6 +82,7 @@ return(
                                             <li><Link to="/dbt-coach" className="book-text">DBT Coach</Link></li>
                                             <li><Link to="/cbt-companion" className="book-text">CBT Companion</Link></li>
                                             <li><Link to="/act-coach" className="book-text">ACT Coach</Link></li>
+                                            <li><Link to="/mi-coach" className="book-text">MI Coach</Link></li>
                                         </ul>
 
                                     </div>
