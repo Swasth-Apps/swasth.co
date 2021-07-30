@@ -8,8 +8,8 @@ description: Impostor Syndrome is a psychological pattern in which individuals
   internalized fear of being exposed as a "fraud". But it's not exactly another
   symptom of low self-esteem or excessive humility. It involves a constant fear
   of exposure, isolation, and rejection.
-image: static/img/imp1.jpg
-squareimage: static/img/imp2.jfif
+image: static/img/pschology-behind-optimism.png
+squareimage: static/img/imposter-syndrome.png
 categories:
   category:
     - slug: mindfulness
@@ -31,6 +31,8 @@ link: https://resiliens.com/resilify/program/overcoming-imposter-syndrome
 
 ## **MEANING OF IMPOSTER SYNDROME**
 
+![](static/img/how-to-develop-resilience.png)
+
 Impostor Syndrome is the overwhelming feeling that you don't deserve your success. It convinces you that you're not as intelligent, creative, talented, or skilled as you may seem. It is the suspicion that your achievements are down to luck, good timing, or just being in the “right place at the right time.” And it is accompanied by the fear that, one day, you'll be exposed as a fraud.
 
 Impostor Syndrome often strikes at moments of success: starting a new job, receiving an award or promotion, or taking on extra responsibility such as teaching others, starting your own business, or becoming a first-time parent.
@@ -41,7 +43,7 @@ Impostor syndrome, the notion that you’ve only succeeded due to luck, and not 
 
 ## **CHARACTERISTICS OF IMPOSTER SYNDROME**
 
-![](static/img/imp3.jpg)
+![](static/img/cp_cognitive-restructuring.png)
 
 Imposter syndrome can be manifested in several ways but its manifestation occurs in the person suffering from it. People around may never be able to know about it as imposter syndrome barely shows any outside behavior which can affect others. Although it is difficult to  find out about the signs of the syndrome some can be interpreted which are mentioned below:
 
