@@ -7,8 +7,8 @@ description: Panic disorder is more common in women than men. It usually starts
   when people are young adults. Sometimes it starts when a person is under a lot
   of stress. Most people get better with treatment. Therapy can show you how to
   recognize and change your thinking patterns before they lead to panic.
-image: static/img/panic2.jfif
-squareimage: static/img/panic1.jfif
+image: static/img/panic-disorder.png
+squareimage: static/img/afraid.png
 categories:
   category:
     - slug: cognitive-behavioral-therapy
@@ -28,7 +28,7 @@ link: https://resiliens.com/resilify/program/cbt-for-panic-disorder
 
 ## **WHAT IS PANIC DISORDER?**
 
-![](static/img/anxiety5.jpg "panic")
+![](static/img/cp_behavioural-act.png "panic")
 
 The Panic disorder includes recurrent panic attacks about an anticipated increase in the number of future attacks. The person changes his/her behavior in an unacceptable way out of panic attacks. The panic attacks are associated with abrupt surges of intense fear or uneasiness that reaches the topmost point within a few seconds, along with some cognitive fluctuations. Panic attacks may arise due to a feared situation or unexpected reasons.
 
