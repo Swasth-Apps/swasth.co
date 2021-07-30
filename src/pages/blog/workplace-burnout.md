@@ -21,7 +21,7 @@ relatedpost:
 tags:
   - Exhaution
   - stress
-link: https://docs.google.com/document/d/1TCGYDZPjPGLgv7LD2VGeIBItGximm6Yf/edit
+link: https://resiliens.com/resilify/program/cbt-for-depression/
 ---
 <!--StartFragment-->
 
