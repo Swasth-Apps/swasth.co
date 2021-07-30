@@ -12,8 +12,8 @@ description: Self-harm, and suicidal thoughts and behaviors, are transdiagnostic
   the behavioral consequence of distressing thoughts and emotions. Individuals
   who self-harm may be experiencing high levels of effect and often have few or
   ineffective coping strategies.
-image: static/img/harm1.jfif
-squareimage: static/img/harm2.jpg
+image: static/img/self-harm.png
+squareimage: static/img/worst-outcome.png
 categories:
   category:
     - slug: dialectical-behavior-therapy-dbt
@@ -36,7 +36,7 @@ link: https://resiliens.com/resilify/program/coping-with-self-harming-behaviors-
 
 ## **UNDERSTANDING SELF-HARM**
 
-![](static/img/harm3.jfif)
+![](static/img/cp-symptoms.png)
 
  Self-harm, often simply called self-injury, is the act of deliberately harming your own body, such as cutting or burning yourself. It's typically not meant as a suicide attempt. Rather, this type of self-injury is a harmful way to cope with emotional pain, intense anger, and frustration.
 
@@ -69,6 +69,8 @@ Some of the symptoms of self-harm could be as follows:
   So, if you are hurting yourself even in a minor way, reach out to a therapist as you are into the cognitive dysfunction of self-harm. Any sort of self-injury is a sign of self-harming behavior. 
 
   ## **RISK FACTORS**
+
+  ![](static/img/about-cp.png)
 
   The people who are indulged in self-harm the most, are adolescents and young adults since emotions are overly active during such periods and people face loads of psychological issues. There are certain factors that may elevate the risks of self-injury, such as:
 
