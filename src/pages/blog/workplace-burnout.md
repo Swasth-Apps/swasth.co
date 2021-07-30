@@ -16,6 +16,8 @@ relatedpost:
   blog:
     - title: What is Cognitive Behavioral Therapy
       slug: what-is-cognitive-behavioral-therapy
+    - slug: how-to-practice-radical-acceptance
+      title: Radical Acceptance
 tags:
   - Exhaution
   - stress
