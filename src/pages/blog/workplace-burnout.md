@@ -95,7 +95,7 @@ To cope with stress effectively, one must recognize:
   # \
   TREATMENT UNDER OUR PROGRAM
 
-  This program will help you explore various ways in which you can effectively manage workplace burnout. This program will help you deal with various aspects of burnout as you move through each session as follows:
+  This program will help you explore various ways in which you can effectively manage workplace burnout. This program helps you deal with various aspects of burnout as you move through each session as follows:
 
   Session 1: Burnout and Stress
 
