@@ -1,13 +1,13 @@
 ---
 templateKey: blog-post
-title: Workplace Burnout
+title: Managing Workplace Burnout and stress
 username: Tanya Tripti
 date: 2021-07-30
 description: Burnout is a state of emotional, physical, and mental exhaustion
   caused by excessive and prolonged stress. It occurs when you feel overwhelmed,
   emotionally drained, and unable to meet constant demands.
-image: /img/10-common-distortions.png
-squareimage: /img/20151020124625-pride-confidence-hubris-woman.jpeg
+image: static/img/sad.png
+squareimage: static/img/bd-and-other-coexisting-conditions.png
 categories:
   category:
     - title: CBT
@@ -24,6 +24,8 @@ link: https://docs.google.com/document/d/1TCGYDZPjPGLgv7LD2VGeIBItGximm6Yf/edit
 <!--StartFragment-->
 
 # Understanding burnout
+
+![](static/img/review-cognitive-restructuring.png)
 
 Many of us know someone who has had to take a break from work due to burnout. But what exactly is this set of symptoms? And what's the difference between burnout and "normal" exhaustion.
 
@@ -64,11 +66,11 @@ To cope with stress effectively, one must recognize:
 
   Organizations often push their workers to get maximum work done beyond what they can sustain. Workload involves how much you do and what you do.
 
-  Work is more intense- Downsizing and other strategies increase productivity and fewer people do more work.
+  1. Work is more intense- Downsizing and other strategies increase productivity and fewer people do more work.
 
-  Work demands more time- Long and hectic workweek is exhausting as people work for long periods of time but are still unable to meet the overwhelming demands.
+  2. Work demands more time- Long and hectic workweek is exhausting as people work for long periods of time but are still unable to meet the overwhelming demands.
 
-  Work is getting complex- With downsizing, every individual is taking more than one role and thus jobs are becoming more complex.
+  3. Work is getting complex- With downsizing, every individual is taking more than one role and thus jobs are becoming more complex.
 
   #### Lack of control
 
