@@ -11,7 +11,7 @@ description: Self-harm, and suicidal thoughts and behaviors, are transdiagnostic
   and reducing reactivity to triggers for self-harm. DBT states, self-harm is
   the behavioral consequence of distressing thoughts and emotions. Individuals
   who self-harm may be experiencing high levels of effect and often have few or
-  ineffective coping strategies..
+  ineffective coping strategies.
 image: static/img/harm1.jfif
 squareimage: static/img/harm2.jpg
 categories:
