@@ -7,8 +7,8 @@ description: Procrastination is the act of delaying something or putting the
   tasks off till the last moment, or even past the deadline. Some studies show
   that procrastination is a form of failure in self-regulation described by
   unnecessary delay in tasks despite potentially negative consequences.
-image: static/img/procras2.jfif
-squareimage: static/img/procras1.jfif
+image: static/img/procrastination-1-.png
+squareimage: static/img/sleep-enhancement.png
 categories:
   category:
     - slug: evidence-based-therapy
@@ -28,7 +28,7 @@ link: https://resiliens.com/resilify/program/dealing-with-procrastination
 
 ## **WHAT IS PROCRASTINATION**
 
-![](static/img/procras3.png "Delay")
+![](static/img/activity-scheduling.png "Delay")
 
 If we trace back to the origin of the word " Procrastination", we find that it is taken from two LATIN words, which mean forward and tomorrow respectively. We often come across people saying, " there is always a tomorrow to have wonders" and then they feel a tint of relief by thinking that they can complete the task tomorrow. The hidden meaning is based on the behavior of practicing a negative cycle. Once you attain procrastination, you start believing that delays won't cause any sort of harm or even if it does, it's not like it will affect your future in some way. You in fact begin postponing your plans or indulge in substituting an alternative activity.
 
@@ -58,9 +58,11 @@ This pattern of procrastination arises when you delay your personal development 
 
 Personal and social procrastinations are much interlinked as your social behavior somehow affects your personal life and vice versa. The person who avoids or delays his/her work at the office or his/her respective workplace seems to lose a significant amount of money as a pay cut which badly affects our financial status. Similarly, personal avoidance at some level impacts your professional life. For example, not completing the homework within the given time might cause your teacher to look down upon you.
 
-The consequences of such behaviors push you into deep thinking where you only find yourself regretting on your life decisions and feeling sorry for what you have done so far. Thus, such patterns not only affect you but also your personal as well as professional lives.
+The consequences of such behaviors push you into deep thinking where you only find yourself regretting your life decisions and feeling sorry for what you have done so far. Thus, such patterns not only affect you but also your personal as well as professional lives.
 
 ## **CAUSES OF PROCRASTINATION**
+
+![](static/img/automatic-thought-rules.png)
 
 Procrastination has been found to be linked with plenty of causes that could be considered as driving forces of procrastination. Some of these causes are:
 
