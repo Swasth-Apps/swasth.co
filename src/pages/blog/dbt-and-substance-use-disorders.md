@@ -104,6 +104,8 @@ We could explore a few of the symptoms of substance abuse as follows:
 
   # TREATMENT FOR SUBSTANCE USE
 
+  ![](static/img/cbt-what-is.png)
+
   ### CBT FOR SUBSTANCE USE DISORDERS :
 
   CBT helps patients overcome drug addiction and alcoholism by:
@@ -128,7 +130,51 @@ We could explore a few of the symptoms of substance abuse as follows:
 
   We have put forth a number of sessions under the program to help you fight drug addiction. We have developed our program in such a way so as to get into the depth of every bit of the addiction and tried to dig it out from the root. The sessions are as follows:
 
+  SESSION 1: INTRODUCTION
 
+  SESSION 2: OVERCOMING ADDICTIVE BEHAVIORS
+
+  SESSION 3: APPLYING DBT SKILLS
+
+  SESSION 4: DBT MINDFULNESS SKILLS PART I
+
+  SESSION 5: DBT MINDFULNESS SKILLS PART II.
+
+  SESSION 6:  DBT EMOTIONAL REGULATION SKILLS
+
+  SESSION 7: EMOTIONAL REGULATION SKILLS PART II
+
+  SESSION 8: DISTRESS TOLERANCE SKILLS PART I
+
+  SESSION 9: DISTRESS TOLERANCE SKILLS PART-II
+
+  SESSION 10: INTERPERSONAL EFFECTIVENESS SKILLS PART 1
+
+  SESSION 11: INTERPERSONAL SKILLS PART II
+
+   The only thing you need is, complete the sessions in time, that is, 7 days, and similarly head over to the next session which gets changed by default. Our app even reminds you of incomplete sessions every day so that you do not miss out on them. You can even use the URL provided to change the session as per your choice but the time limit still doesn't change.
+
+  **DO NOT ONLY THINK! GO GRAB YOUR PROGRAM!**
+
+  <!--EndFragment-->
+
+  <!--EndFragment-->
+
+  <!--EndFragment-->
+
+  <!--EndFragment-->
+
+  <!--EndFragment-->
+
+  <!--EndFragment-->
+
+  <!--EndFragment-->
+
+  <!--EndFragment-->
+
+  <!--EndFragment-->
+
+  <!--EndFragment-->
 
   <!--EndFragment-->
 
