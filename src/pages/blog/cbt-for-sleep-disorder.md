@@ -7,8 +7,8 @@ description: The term sleep disorder refers to the conditions that affect sleep
   quality, timing, or duration and impact a person’s ability to properly
   function while they are awake. These disorders can contribute to other medical
   problems, and some may also be symptoms of underlying mental health issues.
-image: static/img/sleep1.jfif
-squareimage: static/img/sleep2.jfif
+image: static/img/insomnia.png
+squareimage: static/img/sleep-goals.png
 categories:
   category:
     - slug: cognitive-behavioral-therapy
@@ -28,7 +28,7 @@ link: https://resiliens.com/resilify/program/cbt-for-insomnia
 
 ## **KNOWING SLEEP DISORDERS**
 
-![](static/img/sleep3.jfif)
+![](static/img/way-accomplish-goal.png)
 
 Sleep disorders involve problems with the quality, timing, and amount of sleep, which result in daytime distress and difficulty in functioning. Sleep disorders often occur along with medical conditions or other mental health conditions, such as depression, anxiety, or cognitive disorders.
 
@@ -58,13 +58,15 @@ Insomnia is most prevalent among older adults and women.
 
 ## **CAUSES OF INSOMNIA**
 
+![](static/img/use-bed-for-sleep.png)
+
 There could be several factors that cause insomnia but the most common ones are as follows:
 
 1. **Allergies and breathlessness**
 
 Allergies, colds, and upper respiratory infections can make it difficult to breathe at night. The inability to breathe through your nose can also cause sleeping problems.
 
-2.**Nocturia**
+\    2.**Nocturia**
 
 Nocturia, or frequent urination, can disturb your sleep by causing you to wake up during the night. 
 
@@ -95,7 +97,7 @@ Insomnia can straight up affect our state of mind. Long-term grief, anxiety, and
 
  Cognitive and behavioral treatments for sleep difficulties aim to improve sleep by changing poor sleep habits and challenging negative thoughts attitudes and beliefs about sleep. More specifically, the cognitive-behavioral component aims to change incorrect beliefs and attitudes about sleep (e.g., unrealistic expectations, misconceptions, amplifying consequences of sleeplessness); techniques include reattribution training (i.e., goal setting and planning coping responses),  reappraisal, and attention shifting. Thus, CBT attempts to alter patterns of negative thoughts and dysfunctional attitudes to foster more healthy and adaptive thoughts, emotions, and actions.
 
-If you’ve tried a variety of self-help remedies without success, get help from our expert-designed program.  We have designed a program to help you get rid of all your problems related to it and get you on track as soon as possible. We have arranged a wide network of professionals to lead your way through the journey with Resiliens. Not only that, we are all ready to provide the best program to help you overcome these problems
+If you’ve tried a variety of self-help remedies without success, get help from our expert-designed program.  We have designed a program to help you get rid of all your problems related to it and get you on track as soon as possible. Not only that, we are all ready to provide the best program to help you overcome these problems
 
 The sessions that make up the program are: 
 
