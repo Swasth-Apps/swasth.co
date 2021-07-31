@@ -61,7 +61,52 @@ Occasional drugs or alchol are not potentially dangerous, but certain situations
 
 These could be some possible reasons for your addiction or substance abuse that made you vulnerable.
 
+# Signs and Symptoms
 
+We could explore a few of the symptoms of substance abuse as follows:
+
+#### Tolerance
+
+* You need to use more alcohol or drugs to feel the desired effect.
+* The same amount of alcohol or drugs does not do what it used to.
+
+#### Withdrawal
+
+* You are physically or emotionally uncomfortable when you do not have alcohol or drugs,
+* You have used alcohol or another substance to help make yourself feel better when you were coming down from alcohol or drugs.
+
+#### Craving
+
+* You think about drugs or alcohol frequently.
+* Until you have acted on an urge by drinking or using, it is extremely hard to get it out of your head.
+
+#### Loss of Control
+
+* You have found yourself drinking or using more than you had planned to or for a longer period than you meant to.
+* You have used alcohol or drugs when you were feeling upset or angry with someone.
+* You have used one or more drugs without knowing what it was or how it would affect you.
+
+#### Legal Problems
+
+* You have been detained or had other legal problems because of drinking or using drugs.
+* You have stolen money to pay for alcohol or drugs.
+
+#### Problems in Social or Occupational Functioning
+
+* You have made mistakes at work or school because of your use of drugs or alcohol.
+* You have lost interest in hobbies or things you used to enjoy (such as spending time with friends or family) while increasing the time you spend drinking or using.
+* You have entered unnecessary arguments or fights under the influence of alcohol or drugs.
+
+#### Persistent Use Despite Negative Consequences
+
+* You have not taken good care of yourself (for example, not eating well or not practicing good hygiene) because of your alcohol or drug use.
+* Drinking or using drugs has caused or worsened existing psychological or medical problems (such as depression, anxiety, or cardiovascular disease).
+
+
+
+
+
+<!--EndFragment-->
 
 <!--EndFragment-->
 
