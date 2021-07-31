@@ -85,11 +85,11 @@ Although it has many positive effects in our life, negativity bias can cause us 
 
 Such practices involve,
 
-**Focusing on the present and Avoiding Negative Self-Talk**
+1. Focusing on the present and Avoiding Negative Self-Talk
 
-**Mindfulness and Meditation**
+2. Mindfulness and Meditation
 
-**Relish the Positive Moments**
+3. Relish the Positive Moments
 
 ## **HEALING WITH POSITIVE PSYCHOLOGY**
 
@@ -103,7 +103,7 @@ IF YOU STILL FEEL THAT YOU HAVE TO GO A LONG WAY TO ACQUIRE SUCH QUALITIES THEN 
 
 ## **OUR PROGRAM**
 
-RESILIENS offers an outstanding program to help you deal with negativity and combat them with positivity. Our one and only goal are to work for you people all day and offer you the best of the best. We provide you with a number of sessions to work along and attain positivity. The only you need is, complete the sessions in time, that is, 7 days, and similarly head over to the next session which gets changed by default. Our app even reminds you of incomplete sessions every day so that you do not miss out on them. You can even use the URL provided to change the session as per your choice but the time limit still doesn't change. These sessions are as follows: 
+RESILIENS offers an outstanding program to help you deal with negativity and combat them with positivity. Our one and only goal are to work for you people all day and offer you the best of the best. We provide you with a number of sessions to work along and attain positivity. The only thing you need is, complete the sessions in time, that is, 7 days, and similarly head over to the next session which gets changed by default. Our app even reminds you of incomplete sessions every day so that you do not miss out on them. You can even use the URL provided to change the session as per your choice but the time limit still doesn't change. These sessions are as follows: 
 
 SESSION 1: INTRODUCTION
 
@@ -120,8 +120,6 @@ SESSION 6: MOTIVATION 
 SESSION 7: RESILIENCE AND COPING
 
 SESSION 8: MINDFULNESS
-
-Not only that, but we also have a panel of experts of mental health who help you out throughout your stay at RESILIENS. You can get into interaction with them whenever you want. They are available all the time to support you and help you strengthen your weaknesses.
 
 DO NOT THINK MUCH AND JOIN RESILIENS! 
 
