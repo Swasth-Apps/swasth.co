@@ -135,7 +135,7 @@ Some of the symptoms of self-harm could be as follows:
 
   SESSION 8 - STAYING ON TRACK
 
-  To get the best result out of the program, you are advised to complete all your sessions in time and remain cautious if you miss any session any week.  Although you will get a gentle reminder every day. Finish each of the sessions within the given time which most likely remains a week. You are also provided with a URL to change the session par your choice but the time limits still remain the same. As you know WHEN THERE IS A WILL, THERE IS A WAY and so is your self-strength that helps you maintain the track of life.
+  To get the best result out of the program, you are advised to complete all your sessions in time and remain cautious if you miss any session any week.  Although you will get a gentle reminder every day. Finish each of the sessions within the given time which most likely remains for a week. You are also provided with a URL to change the session par your choice but the time limits still remain the same. As you know WHEN THERE IS A WILL, THERE IS A WAY and so is your self-strength that helps you maintain the track of life.
 
   **NO WORRIES, JUST HOP ON!**
 
