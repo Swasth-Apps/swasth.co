@@ -34,7 +34,7 @@ link: https://resiliens.com/resilify/program/self-esteem
 
 ![](static/img/encouraging-contact-with-others.png)
 
-Self-esteem is one's value as a human being is a precious psychological resource and generally a highly positive factor in life; it is correlated with achievement, good relationships, and satisfaction. Possessing little self-regard can lead people to become depressed, fall short of their potential, or tolerate abusive relationships and situations.
+Self-esteem is one's value as a human being is a precious psychological resource and is generally a highly positive factor in life; it is correlated with achievement, good relationships, and satisfaction. Possessing little self-regard can lead people to become depressed, fall short of their potential, or tolerate abusive relationships and situations.
 
 Too much self-love, on the other hand, results in an off-putting sense of entitlement and an inability to learn from failures. It can also be a sign of clinical [](https://www.psychologytoday.com/us/basics/narcissism "Psychology Today looks at narcissism")arrogance, in which individuals may behave in a self-centered, arrogant, and manipulative manner. Perhaps no other self-help topic has spawned so much advice and so many (often conflicting) theories.
 
@@ -56,23 +56,23 @@ Nobody is born with low self-esteem – it develops as a result of the experienc
 
 Self-esteem is the factor that defines how we feel about ourselves in a positive manner or negative manner and we form some beliefs about ourselves. Although these beliefs are not formed within seconds, they take a period. The beliefs start growing within ourselves since childhood which may continue till adulthood. Thus, our views about ourselves could be either positive or negative as both of them construct our minds. A few examples of developments of negative beliefs about ourselves could involve the following;
 
-PUNISHMENT, NEGLECTION, ABUSE
+**PUNISHMENT, NEGLECTION, ABUSE**
 
 Maltreatment, punishment and neglect, abandonment, and being abused in various forms leave deep-seated emotional and psychological effects. Development of low self-esteem may also come from the trauma received by parents for a long time. Being bullied or humiliated by colleagues could be another add-on.
 
-NOT FITTING AT HOME OR AT SCHOOL
+**NOT FITTING AT HOME OR AT SCHOOL**
 
 It is quite difficult for a few people to break the standards of ODD ONE OUT for themselves which may cause some serious mental disfunction causing them to acquire low self-esteem and continue the same lifelong.
 
-DIFFICULTY IN MEETING PEER GROUP STANDARDS
+**DIFFICULTY IN MEETING PEER GROUP STANDARDS**
 
 This difficulty usually arises during the period of adolescence when our parents or relatives, in fact, even teachers compare us with those students with high standards at anything, be it study, sports, drawing, or other activities. Not being able to match their level causes mental trauma.
 
-BEING ON RECEIVING END OF PEOPLE'S STRESS
+**BEING ON RECEIVING END OF PEOPLE'S STRESS**
 
 During childhood, most of us experience being on the receiving end of the frustration of people. People release all their stress on a particular person who seems weak to them. This especially happens in the family when all the family members lash the one out who doesn't speak up. This way the children usually suffer mentally as well as physically.
 
-YOUR FAMILY'S PLACE IN SOCIETY
+**YOUR FAMILY'S PLACE IN SOCIETY**
 
 You are treated accordingly depending upon the status of your family in society. Assume you are not reaching as per others in your locality of relations, you are most likely to get maltreated some way or the other. This treatment of injustice leaves a traumatizing effect on the brain of children which grows into low self-esteem later.
 
@@ -100,7 +100,7 @@ Session 6 - Caring for the Mind and Body
 
 Session 7 - Coping with relapse
 
- All these sessions help you combat your fear and insecurities and lead your way through the program until you stay at RESILIENS. These sessions are supposed to be completed within 7 days and then you will move to the next session by default or may also change the session the URL we provide par your choice. The app notifies you of the session you have left undone. Not only that, we have a community of experts who can guide you through your journey. Also, we are 24/7 available to look after your needs and guide you whenever you feel low.
+ All these sessions help you combat your fear and insecurities and lead your way through the program until you stay at RESILIENS. These sessions are expected to be completed within 7 days and then you will move to the next session by default or may also change the session the URL we provide par your choice. The app notifies you of the session you have left undone. 
 
 **COME ON! FIGHING!**
 
