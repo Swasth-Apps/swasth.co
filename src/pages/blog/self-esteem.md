@@ -7,8 +7,8 @@ description: Self-esteem refers to a person's beliefs about their own worth and
   importance. It also involves the feelings people experience that follows from
   their sense of worthiness or unworthiness. Self-esteem is important because it
   heavily influences people's choices and decisions.
-image: static/img/self-esteem-1610363680.jpg
-squareimage: static/img/self-esteem-vs.-self-confidence.png
+image: static/img/self-esteem.png
+squareimage: static/img/keep-to-a-balanced-routine-lifestyle.png
 categories:
   category:
     - slug: mindfulness
@@ -32,7 +32,7 @@ link: https://resiliens.com/resilify/program/self-esteem
 
 ## **WHAT IS SELF-ESTEEM?**
 
-![](static/img/20151020124625-pride-confidence-hubris-woman.jpeg)
+![](static/img/encouraging-contact-with-others.png)
 
 Self-esteem is one's value as a human being is a precious psychological resource and generally a highly positive factor in life; it is correlated with achievement, good relationships, and satisfaction. Possessing little self-regard can lead people to become depressed, fall short of their potential, or tolerate abusive relationships and situations.
 
@@ -43,6 +43,8 @@ Self-esteem is an individual's subjective evaluation of their own worth. Self-es
 We also have an idea of total self-esteem that refers to the fact that we are as worthy as anyone else. Thus, on one hand, we believe that we are dignified which is popularly called Intrinsic worth. This suggests that we must be grateful and humble keeping in mind that all are equal. There is no way that we are going to be successful ignoring the people around us or being all arrogant 24/7.
 
 ## **UNDERSTANDING LOW SELF-ESTEEM**
+
+![](static/img/defensive-pessimism.png)
 
 Self-esteem is the opinion you have of yourself. When you have healthy self-esteem, you tend to think positively about yourself, and optimistically about life in general. When you encounter challenges, you feel confident that you will be up to the task. People with healthy self-esteem know that they are valuable and will be able to name at least some of their positive characteristics such as “I am a good friend”, “I am kind”, “I am honest”, or “I am a good father”.
 
