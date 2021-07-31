@@ -116,6 +116,6 @@ SESSION - 6: Thought Restriction 
 SESSION-7: Constructive Worry
 
 \
-Every session comes up with a duration to complete it. You are supposed to complete your session within a week as the app continuously gives you reminders to get done with your present session. Also, you are served with a facility to set your current session using the URL we provide. If you are determined to help yourself then count us in. Hop on and let's break free from troubles.
+Every session comes up with a duration to complete it. You are advised to complete your session within a week as the app continuously gives you reminders to get done with your present session. Also, you are served with a facility to set your current session using the URL we provide. If you are determined to help yourself then count us in. Hop on and let's break free from troubles.
 
 **DO NOT WAIT! KEEP THE OPPORTUNITY HANDY**
