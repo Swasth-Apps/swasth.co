@@ -38,8 +38,33 @@ It usually starts with drinking or taking drugs for one of three reasons:
 
 • They helped you to feel better when you were not feeling well (for example, when you were in physical pain or discomfort, or when you were experiencing negative emotions such as sadness, anxiety, or anger).
 
-• They enhance your performance at something (for example, sports or the ability to work long hours without getting tired). 
+• They enhance your performance at something (for example, sports or the ability to work long hours without getting tired. 
+
+# What makes you vulnerable?
+
+Occasional drugs or alchol are not potentially dangerous, but certain situations make you more vulnerable, and you are likely to develop substance dependence.
+
+<!--StartFragment-->
+
+* You have at least one family member who suffers from addiction.
+* You have had depression, anxiety, post-traumatic stress disorder, or other psychological problems.
+* Your parents or other role models used alcohol or drugs excessively around you when you were growing up.
+* Your parents or other role models engaged in criminal behavior consistently when you were growing up.
+* You had friends and acquaintances at school who were using drugs and alcohol when you were in your teens.
+* You had trouble in school as a child (for example, a learning disability or poor grades).
+* You had difficulty making or keeping friends or feeling like you “fit in” with your peers when you were growing up.
+* There was a lot of chaos and conflict at home when you were growing up (for example, lots of fighting between the adults in your home).
+* You were physically or sexually abused.
+* You started experimenting with alcohol or drugs as a child or in your early teen years.
+* You have smoked or injected drugs.
+* You had some traumatic experiences in your life before starting to use alcohol or drugs excessively.
+
+These could be some possible reasons for your addiction or substance abuse that made you vulnerable.
 
 
+
+<!--EndFragment-->
+
+<!--EndFragment-->
 
 <!--EndFragment-->
