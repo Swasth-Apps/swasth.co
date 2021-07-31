@@ -26,8 +26,20 @@ link: https://resiliens.com/resilify/program/cbt-for-addiction-and-substance-use
 ---
 # UNDERSTANDING SUBSTANCE USE DISORDER
 
-Substance use disorder (SUD) is a complex condition in which there is uncontrolled use of a substance despite harmful consequence. People with SUD have an intense focus on using a certain substances such as alcohol, tobacco, or illicit drugs, to the point where the person’s ability to function in day to day life becomes impaired. People keep using the substance even when they know it is causing or will cause problems. The most severe SUDs are sometimes called addictions.
+Substance use disorder (SUD) is a complex condition in which there is uncontrolled use of a substance despite harmful consequences. People with SUD have an intense focus on using certain substances such as alcohol, tobacco, or illicit drugs, to the point where the person’s ability to function in day-to-day life becomes impaired. People keep using the substance even when they know it is causing or will cause problems. The most severe SUDs are sometimes called addictions.
 
 People with a substance use disorder may have distorted thinking and behaviors. Changes in the brain’s structure and function are what cause people to have intense cravings, changes in personality, abnormal movements, and other behaviors. Brain imaging studies show changes in the areas of the brain that relate to judgment, decision making, learning, memory, and behavioral control.
 
-Repeated substance use can cause changes in how the brain functions. These changes can last long after the immediate effects of the substance wears off, or in other words, after the period of intoxication. Intoxication is the intense pleasure, euphoria, calm, increased perception and sense, and other feelings that are caused by the substance. Intoxication symptoms are different for each substance.
+Repeated substance use can cause changes in how the brain functions. These changes can last long after the immediate effects of the substance wear off, or in other words, after the period of intoxication. Intoxication is the intense pleasure, euphoria, calm, increased perception and sense, and other feelings that are caused by the substance. Intoxication symptoms are different for each substance.
+
+It usually starts with drinking or taking drugs for one of three reasons:
+
+• Alcohol or drugs made you feel really good.
+
+• They helped you to feel better when you were not feeling well (for example, when you were in physical pain or discomfort, or when you were experiencing negative emotions such as sadness, anxiety, or anger).
+
+• They enhance your performance at something (for example, sports or the ability to work long hours without getting tired). 
+
+
+
+<!--EndFragment-->
