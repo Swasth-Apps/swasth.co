@@ -112,7 +112,7 @@ Session 11: Social skills
 
 Session 12:  What is Relaxation? 
 
-Although to a great extent, it is up to you if this program is proved beneficial for you but to a great extent we try our level best to lead your tract throughout your stay at RESILIENS. To get the best result out of the program, you are advised to complete all your sessions in time and remain cautious if you miss any session any week. You will get a gentle reminder every day though. Finish each of the sessions within the given time which most likely remains a week. You are also provided with a URL to change the session par your choice but the time limits still remain the same. As you know WHEN THERE IS A WILL, THERE IS A WAY and so is your self-strength that helps you maintain the track of life.
+Although to a great extent, it is up to you if this program is proved beneficial for you but to a great extent we try our level best to lead your tract throughout your stay at RESILIENS. To get the best result out of the program, you are advised to complete all your sessions in time and remain cautious if you miss any session any week. You will get a gentle reminder every day though. Finish each of the sessions within the given time which most likely remains for a week. You are also provided with a URL to change the session par your choice but the time limits still remain the same. As you know WHEN THERE IS A WILL, THERE IS A WAY and so is your self-strength that helps you maintain the track of life.
 
 \
 **COME ON! FIGHTING!**
