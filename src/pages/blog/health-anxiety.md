@@ -9,8 +9,8 @@ description: Anxiety arises at times when we think something bad may happen. The
   from health anxiety. If you respond to health issues or symptoms, seeking
   reassurance and comfort, or avoiding particular situations, then health
   anxiety may cause serious problems.
-image: static/img/health1.jfif
-squareimage: static/img/health2.jfif
+image: static/img/health-anxiety.png
+squareimage: static/img/gave-up-this-thought.png
 categories:
   category:
     - title: Anxiety
@@ -37,7 +37,7 @@ Before knowing about health anxiety, let us first look at what health is. It is 
 
 ## **UNDERSTANDING HEALTH ANXIETY**
 
-![](static/img/anxiety8.jfif)
+![](static/img/unhelpful-thought-now.png)
 
 Did you ever think why some people get seriously sick or develop an illness? You would have probably experienced the same yourself. In that case, did you visit your doctor numerous times to check if you are seriously ill? Being preoccupied with health concerns all the time causes significant distress and interferes with your everyday functioning. If you are seeing such symptoms within yourself, then you are possibly suffering from health anxiety. Health anxiety is an obsessive and irrational behavior in which people are way too concerned about their health and worry about having a serious medical condition.
 
@@ -55,18 +55,20 @@ In our program on health anxiety, we are going to look into the causes, symptoms
 
 ## **WHEN DOES HEALTH ANXIETY BECOME A PROBLEM?**
 
-We sometimes become too worried about our health and get way too much concerned once we undergo any kind of health-related test. A health test is something that we all face some or the other time in our life. But when does this simple thing become so complicated that it starts creating problems for us?
+We sometimes become too worried about our health and get way too concerned once we undergo any kind of health-related test. A health test is something that we all face at some or other time in our life. But when does this simple thing become so complicated that it starts creating problems for us?
 
 Health anxiety varies form from being adaptive to being maladaptive to the extent that it persuades us to seek treatment when it is adaptive. Worrying becomes maladaptive when it comes out of the generally considered concern and hits a high degree of thought upon health risks. We all know that too much of anything is bad and so is health concerns since such imbalance can damage our functioning. Thus, health anxiety becomes problematic when:
 
 1. Health-related worries enlarge to the extent that it drags us away from thinking normally about our body and health.
 2. You see consistent health concerns even after assurance from medical practitioners.
-3. One keeps on being engaged in unhelpful approaches and behavior such as checking the body all the time, seeking reassurance time-to-time or avoiding check-ups.
+3. One keeps on being engaged in unhelpful approaches and behavior such as checking the body all the time, seeking reassurance time-to-time, or avoiding check-ups.
 4. Health concerns cause a high level of stress and it impairs your daily functioning.
 
-This way, a normal health concern turns into health anxiety and we might not even realise. But don’t worry if you see such symptoms because we are always out there for you. COME ON! Let's work it out together with the help of our program.
+This way, a normal health concern turns into health anxiety and we might not even realize. But don’t worry if you see such symptoms because we are always out there for you. COME ON! Let's work it out together with the help of our program.
 
 ## **IMPACTS OF HEALTH ANXIETY**
+
+![](static/img/thout-moniter.png)
 
 There are some impacts that health anxiety could have on our lives. Let's find out a few of them,
 
@@ -88,7 +90,7 @@ It is quite common for those with health anxiety to avoid interaction with docto
 
 **Financial Problems**
 
-Medical check-ups are not for free. They cost a lot at a time and cut our pockets. At times, our health anxiety may lead to financial crisis. 
+Medical check-ups are not for free. They cost a lot at a time and cut our pockets. At times, our health anxiety may lead to a financial crisis. 
 
 Do you too face these problems due to excessive health concerns? Then what are you waiting for?  COME ALONG AND JOIN HANDS WITH RESILIENS!!
 
