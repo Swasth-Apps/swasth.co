@@ -54,8 +54,27 @@ When you are going through a tough experience, it can be hard to find reasons to
 
 When we are faced with hardships and unfortunate life circumstances, it may be helpful to connect to a support network. Support networks can include friends, family, community resources, therapists, etc. Gaining support from trusted individuals not only helps you build resiliency, but also helps you feel supported in the moments when supporting yourself feels difficult. 
 
-<!--EndFragment-->
+# The Connection between Resilience and Emotion
 
-<!--EndFragment-->
+Resilience can help protect you from various mental health conditions, such as depression and anxiety. Resilience can also help offset factors that increase the risk of mental health conditions, such as being bullied or previous trauma.
+
+Resilient individuals have built skills to help cope with experiences that could negatively impact their mental health, such as being bullied. For example, if you are frequently in a state of crisis and it is affecting your relationships, work-life, and personal life, it could be difficult to identify positive emotions. It is in these moments when you should explore different activities that elicit positive emotions, such as sticking to your gym routine, making home-cooked meals, taking your dog to a park, etc. Building resiliency involves working through difficult times by utilizing your resources, individual strengths, support network, and practicing acceptance.  
+
+# Five Benefits of Resiliency 
+
+Every day we face different challenges in our lives and we need to have the strength to fight the same. It is natural to feel anger and anxiety if caught in a traumatizing situation.
+
+Resiliency can be beneficial for the following reasons: 
+
+* Improved self-perception. Building skills towards resilience betters our self-perception because we are able to acknowledge and accept that we can overcome and move through tough situations. We are able to prove to ourselves that we can survive hardships, thus making us more resilient.
+* Improved working memory. Our working memory is our short term memory where we store thoughts that help with reasoning, thinking, decision-making, judging, and language comprehension. An example of working memory is storing an address in your mind while trying to listen to instructions about how to get there. Researchers have shown that working memory processes promote resilience-enabling behaviors, such as finding possible solutions to adverse or difficult circumstances.
+* Health benefits (e.g., improved rest, lower rates of depression, greater satisfaction with life). Building skills towards resiliency can lead to health benefits, such as improved rest, lower rates of depression, and greater overall life satisfaction. 
+* Improved ability to cope with stress and adapt. Resiliency helps us cope with stressful situations because we are better able to adapt.
+
+# TREATMENT UNDER OUR PROGRAM
+
+![](static/img/cbt_as_a_treatment.png)
+
+
 
 <!--EndFragment-->
