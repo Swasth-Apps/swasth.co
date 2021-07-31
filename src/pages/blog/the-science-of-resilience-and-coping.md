@@ -75,6 +75,44 @@ Resiliency can be beneficial for the following reasons: 
 
 ![](static/img/cbt_as_a_treatment.png)
 
+We offer one of the best programs to help you gather strength on your own to combat any difficult situation. We offer you numerous sessions in our program not only to jerk you forth but also to have you your will and self-compassion handy.
 
+ The app provides different sessions under this program which you are supposed to finish up within a week. The sessions will change by default once you move past the preceding week. Also, you are given access to a URL where you can change your sessions in accordance with yourself. We serve you a good number of sessions to help you be self-compassionate.  The sessions we offer you are as mentioned below:
+
+SESSION 1: INTRODUCTION TO RESILIENCE 
+
+SESSION 2: COGNITIVE APPROACHES TO RESILIENCE
+
+SESSION 3: GRATITUDE
+
+SESSION 4: CHARACTER STRENGTHS
+
+SESSION 5: STRENGTHS AND VIRTUES
+
+SESSION 6: OPTIMISM
+
+SESSION 7: COPING
+
+SESSION 8: MINDFULNESS
+
+Do not forget to join our program and give a push to your speedy recovery.
+
+**Do not miss the program! GO GRAB IT!**
+
+<!--EndFragment-->
+
+<!--EndFragment-->
+
+<!--EndFragment-->
+
+<!--EndFragment-->
+
+<!--EndFragment-->
+
+<!--EndFragment-->
+
+<!--EndFragment-->
+
+<!--EndFragment-->
 
 <!--EndFragment-->
