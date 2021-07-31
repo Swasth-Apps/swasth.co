@@ -76,7 +76,7 @@ Mental well-being has ever been our concern and cognitive health maintenance is 
 
 ![App](/img/mobile-usage.jpg "App")
 
-Not to mention that our program gives a boost to whole another level by incorporating a large number of skills within you to counter what goes not your way to success. We have been working all the way up to here so as to serve you the best of the best so that you feel yourself to be one of a kind. Apart from giving the best guidance through the worldwide coaches, we offer you numerous sessions in our program not only to jerk you forth but also to have you your will and self-compassion handy.
+Not to mention that our program gives a boost to whole another level by incorporating a large number of skills within you to counter what goes not your way to success. We have been working all the way up to here so as to serve you the best of the best so that you feel yourself to be one of a kind. We offer you numerous sessions in our program not only to jerk you forth but also to have you your will and self-compassion handy.
 
  The app provides different sessions under this program which you are supposed to finish up within a week. The sessions will change by default once you move past the preceding week. Also, you are given access to a URL where you can change your sessions from in accordance with yourself. We serve you a good number of sessions to help you be self-compassionate.  The sessions we offer you are as mentioned below:
 
@@ -86,7 +86,7 @@ Session 2: Barriers to self-compassion
 
 Session 3: Preparing to be self-compassionate
 
-Session 4: Self compassion imagery
+Session 4: Self-compassion imagery
 
 Session 5: Self-compassionate thinking
 
