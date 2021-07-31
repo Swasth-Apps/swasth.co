@@ -8,8 +8,8 @@ description: Depression is a mental disorder that can affect a person's
   Cognitive Behavioral Therapy (CBT), is a common type of therapy used to treat
   depression if depression is mind or moderate. It can be effective in severe
   cases as well only if the therapist is highly skilled.
-image: static/img/depressed1.jfif
-squareimage: static/img/depressed2.jfif
+image: static/img/depression.png
+squareimage: static/img/worst-outcome-2-.png
 categories:
   category:
     - slug: depression
@@ -37,7 +37,7 @@ It is important to emphasize that advances in CBT have been made on the basis of
 
 ## **UNDERSTANDING DEPRESSION**
 
-![](static/img/depressed3.jpeg)
+![]()
 
 Do you often find yourself struggling to find peace or happiness? Do you do the activities that you would enjoy feel not so enjoyable? You might have spent ample time finding out the real reason behind your change in activities but sadly you couldn't. Right? You only yourself all engrossed in negative thoughts instead. There is a high chance that you are probably suffering from depression. But, WAIT UP!
 
@@ -70,6 +70,8 @@ Depression has never been a choice but it just comes by itself. It comes with a 
 
 ## **CBT VS. OTHER TREATMENT APPROACHES**
 
+![](static/img/relaxation-depression.png)
+
 CBT is the therapy that combats depression in all ways. CBT focuses on the relationships among our thoughts, emotions, and actions. In its actual form, it shows how modifying the thoughts can help you overcome depression. Some of the benefits of using CBT over other methods could be as follows:
 
 1. CBT is based on the concept that our thoughts, feelings, physical sensations, and actions are interlinked, and that negative thoughts and feelings can trap you in a vicious cycle.
@@ -79,6 +81,8 @@ CBT is the therapy that combats depression in all ways. CBT focuses on the relat
 5. It looks for practical ways to improve your state of mind.
 
 ## **TREATMENT THROUGH OUR PROGRAM**
+
+![](static/img/how-to-practice-mindfulness-pp.png)
 
 There are some elements that can help us combat these factors which cause depression. In this program, we will be helping you deal with all such factors with the help of world-known experts. Our program is so designed that every aspect of all these factors will be zoom-viewed, thereby helping you overcome depression. We use a step-by-step approach to overcome this conduct. Studies have also proved how efficient CBT( Cognitive Behavioral Therapy) is, in depression. 
 
