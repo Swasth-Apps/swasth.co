@@ -24,9 +24,11 @@ tags:
   - cbt
 link: https://resiliens.com/resilify/program/cbt-for-addiction-and-substance-use/
 ---
+<!--StartFragment-->
+
 # UNDERSTANDING SUBSTANCE USE DISORDER
 
-Substance use disorder (SUD) is a complex condition in which there is uncontrolled use of a substance despite harmful consequences. People with SUD have an intense focus on using certain substances such as alcohol, tobacco, or illicit drugs, to the point where the person’s ability to function in day-to-day life becomes impaired. People keep using the substance even when they know it is causing or will cause problems. The most severe SUDs are sometimes called addictions.
+Substance use disorder (SUD) is a complex condition in which there is an uncontrolled use of a substance despite harmful consequences. People with SUD have an intense focus on using certain substances such as alcohol, tobacco, or illicit drugs, to the point where the person’s ability to function in day-to-day life becomes impaired. People keep using the substance even when they know it is causing or will cause problems. The most severe SUDs are sometimes called addictions.
 
 People with a substance use disorder may have distorted thinking and behaviors. Changes in the brain’s structure and function are what cause people to have intense cravings, changes in personality, abnormal movements, and other behaviors. Brain imaging studies show changes in the areas of the brain that relate to judgment, decision making, learning, memory, and behavioral control.
 
@@ -155,41 +157,5 @@ We could explore a few of the symptoms and signs of substance abuse that are as 
    The only thing you need is, complete the sessions in time, that is, 7 days, and similarly head over to the next session which gets changed by default. Our app even reminds you of incomplete sessions every day so that you do not miss out on them. You can even use the URL provided to change the session as per your choice but the time limit still doesn't change.
 
   **DO NOT ONLY THINK! GO GRAB YOUR PROGRAM!**
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
-
-  <!--EndFragment-->
-
-
-
-  <!--EndFragment-->
-
-
-
-
-
-<!--EndFragment-->
-
-<!--EndFragment-->
-
-<!--EndFragment-->
 
 <!--EndFragment-->
