@@ -63,7 +63,7 @@ These could be some possible reasons for your addiction or substance abuse that 
 
 # Signs and Symptoms
 
-We could explore a few of the symptoms of substance abuse as follows:
+We could explore a few of the symptoms and signs of substance abuse that are as follows:
 
 #### Tolerance
 
