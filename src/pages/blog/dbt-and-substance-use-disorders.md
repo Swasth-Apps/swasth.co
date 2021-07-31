@@ -102,6 +102,40 @@ We could explore a few of the symptoms of substance abuse as follows:
 * You have not taken good care of yourself (for example, not eating well or not practicing good hygiene) because of your alcohol or drug use.
 * Drinking or using drugs has caused or worsened existing psychological or medical problems (such as depression, anxiety, or cardiovascular disease).
 
+  # TREATMENT FOR SUBSTANCE USE
+
+  ### CBT FOR SUBSTANCE USE DISORDERS :
+
+  CBT helps patients overcome drug addiction and alcoholism by:
+
+  * Helping to dismiss false beliefs and insecurities that lead to substance abuse
+  * Providing self-help tools to better their moods
+  * Teaching effective communication skills
+
+  ### DBT FOR SUBSTANCE USE DISORDERS:
+
+  DBT has the ways to help people combat addiction by:
+
+  • Alleviating physical discomfort associated with abstinence and/or withdrawal.
+
+  • Diminishing urges, cravings, and temptations to abuse.
+
+  • Avoiding opportunities and cues to abuse, for example by burning bridges to persons, places, and things associated with drug abuse and by destroying the telephone numbers of drug contacts, getting a new telephone number, and throwing away drug paraphernalia
+
+  • Reducing behaviors conducive to drug abuse, such as momentarily giving up the goal to get off drugs and instead functioning as if the use of drugs cannot be avoided; and
+
+  # OUR PROGRAM
+
+  We have put forth a number of sessions under the program to help you fight drug addiction. We have developed our program in such a way so as to get into the depth of every bit of the addiction and tried to dig it out from the root. The sessions are as follows:
+
+
+
+  <!--EndFragment-->
+
+
+
+  <!--EndFragment-->
+
 
 
 
