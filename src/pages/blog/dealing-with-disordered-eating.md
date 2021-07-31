@@ -7,8 +7,8 @@ description: Eating Disorders describe sicknesses that are characterized by
   irregular eating habits and critical distress or concern about body weight or
   shape. Eating disturbances may include inappropriate or excessive food intake
   which can ultimately damage an individual's well-being.
-image: static/img/disordered1.jfif
-squareimage: static/img/disordered2.jfif
+image: static/img/disordered-eating.png
+squareimage: static/img/tastes.png
 categories:
   category:
     - title: stress
@@ -33,7 +33,7 @@ link: https://resiliens.com/resilify/program/dealing-with-body-dysmorphia
 
 ## **UNDERSTANDING EATING DISORDERS**
 
-![](static/img/disordered3.jfif)
+![](static/img/lifestyle.png)
 
  Evidence suggests that genes and heritability play a part in why some people are at higher risk for an eating disorder, but these disorders can also afflict those with no family history of the condition. Treatment should address psychological, behavioral, nutritional, and other medical complications. The latter can include consequences of malnutrition or of purging behaviors including, heart and gastrointestinal problems as well as other potentially fatal conditions. Ambivalence towards treatment, denial of a problem with eating and weight, or anxiety about changing eating patterns is not uncommon. With proper medical care, however, those with eating disorders can resume healthy eating habits, and recover their emotional and psychological health.
 
@@ -85,6 +85,8 @@ There are two subtypes of anorexia nervosa:
   Binge eating and other symptoms may arise a feeling of shame inside the individuals and they start avoiding their dear ones causing them a miserable life without close friends and family members.
 
   ## **ARE YOU READY FOR CHANGE?**
+
+  ![](static/img/keep_to_a_balanced_and_routine_lifestyle.png)
 
   Studies have shown that changes include a number of stages as follows:
 
