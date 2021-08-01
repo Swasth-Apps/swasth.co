@@ -10,8 +10,8 @@ description: Social anxiety is a mental health condition in which social
   start avoiding the situations. Here in this blog, we will find the causes,
   types, help, treatment, and ways to deal with the condition. We will also see,
   how our program can be of great help.
-image: static/img/anxiety1.jpg
-squareimage: static/img/anxiety2.jpg
+image: static/img/social-anxiety.png
+squareimage: static/img/maintain-healthy-social-professional-network.png
 categories:
   category:
     - slug: anxiety
@@ -34,9 +34,9 @@ link: https://resiliens.com/resilify/program/dealing-with-social-anxiety
 
 ## **A glance at understanding SOCIAL ANXIETY**
 
-![](static/img/anxiety3.jfif)
+![](static/img/review-social-supprort.png)
 
-Social anxiety is a term that is often used to describe fear, nervousness, and trouble in social situations. The behavior can be found in both, the shy ones as well as not-so-shy ones. Social anxiety has you believe in others judging you negatively all the time. Although judgment is something that helps us improve our qualities and make us self-aware, socially anxious people believe that they might fall into an aura of awkwardness once they start interacting with others as if the only thing people are going to do is judge or criticize them without any cause. The fear of getting humiliated prohibits us from being open to others. The Most common feared situations could be going out for dating, shopping, parties, or any other sort of social gatherings or even a proper one-to-one talk. Such behavior eventually lands us in isolation and get us to lose confidence. 
+Social anxiety is a term that is often used to describe fear, nervousness, and trouble in social situations. The behavior can be found in both, the shy ones as well as not-so-shy ones. Social anxiety has you believe in others judging you negatively all the time. Although judgment is something that helps us improve our qualities and make us self-aware, socially anxious people believe that they might fall into an aura of awkwardness once they start interacting with others as if the only thing people are going to do is judge or criticize them without any cause. The fear of getting humiliated prohibits us from being open to others. The Most common feared situations could be going out for dating, shopping, parties, or any other sort of social gatherings or even a proper one-to-one talk. Such behavior eventually lands us in isolation and gets us to lose confidence. 
 
 BUT ARE YOU WORRYING? NO NEED! GET ABOARD WITH US!
 
@@ -46,7 +46,7 @@ Knowing the cause and where the thing actually came from makes it way better in 
 
 **Evolutionary Factors:** Anxiety benefitted many of our ancestors as it kept them aware of upcoming troubles. So, they spend enough time being cautious and thinking of tackling the threats. This could one reason why someone adapts to anxiety.
 
-**Biological Factors:** Genes can another factor triggering your anxiety hormones as if you look at your family tree, you may find a few of your forefathers having the same kind of behavior as you have.
+**Biological Factors:** Genes can be another factor triggering your anxiety hormones as if you look at your family tree, you may find a few of your forefathers having the same kind of behavior as you have.
 
 **Past childhood experiences:** Growing up in a particular surrounding plays a significant role in our traits, behavior, and lifestyle. Similarly, your anxiety can be an aftereffect of your past experiences, most likely your childhood memories.
 
@@ -56,9 +56,11 @@ Knowing the cause and where the thing actually came from makes it way better in 
 
 ## **Factors that keep social anxiety going**
 
+![](static/img/cp_social-support.png)
+
 Having understood what anxiety is, it becomes important to know what factors keep the behavior awake. Let's know:
 
-**Perception of social threat:** We are most likely to develop anxiety when we perceive social threats. These threats result in heavy disaster if not cured. Therefore, whenever you seem to accumulate threats, you may develop the fear, nervousness as a response along with physical abnormalities such as heart palpitation, trembling, nausea and sweating.
+**Perception of social threat:** We are most likely to develop anxiety when we perceive social threats. These threats result in heavy disaster if not cured. Therefore, whenever you seem to accumulate threats, you may develop fear, nervousness as a response along with physical abnormalities such as heart palpitation, trembling, nausea and sweating.
 
 **Negative thoughts:** A thoughts occupy our mind upon perceiving threats and these thoughts, most of the time, stay biased. The thoughts might include disturbing images, uncommon beliefs, and entangled words. People usually indulge in self-criticism and unknowingly look so low at themselves.
 
@@ -74,7 +76,7 @@ IN OUR PROGRAM, WE WILL DIVE DEEP INTO ALL THE FACTORS AND WILL SEE HOW WE CAN T
 
 ## **OVERCOME ANXIETY**
 
-As we just now discussed above, several factors push us to fall into the ocean of anxiety. Fortunately, some elements can help us combat these factors. In this program, we will be helping you deal with all such factors with the help of world-known experts. Our program is so designed that every aspect of all these factors will be zoom-viewed, thereby helping you overcome your fear and ultimately make you fight your insecurities and social anxiety. We use a step-by-step approach to overcome this conduct. Studies have also proved how efficient CBT( Cognitive Behavioral Therapy) is, in dealing with anxiety. The technique has been found beneficial for the ones with interaction fear as well.
+As we just now discussed above, several factors push us to fall into the ocean of anxiety. Fortunately, some elements can help us combat these factors. Our program is so designed that every aspect of all these factors will be zoom-viewed, thereby helping you overcome your fear and ultimately make you fight your insecurities and social anxiety. We use a step-by-step approach to overcome this conduct. Studies have also proved how efficient CBT( Cognitive Behavioral Therapy) is, in dealing with anxiety. The technique has been found beneficial for the ones with interaction fear as well.
 
 The sessions that make up the program are: 
 
