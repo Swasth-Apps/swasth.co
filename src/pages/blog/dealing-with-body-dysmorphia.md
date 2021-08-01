@@ -8,8 +8,8 @@ description: "Body Dysmorphia is a term that is used to describe a specific type
   of their bodies and remain engrossed in a negative world. The methods
   discussed below help you overcome this problem and eliminate body-related
   insecurities. "
-image: static/img/body1.jpg
-squareimage: static/img/body2.jfif
+image: static/img/body-dysmorphia.png
+squareimage: static/img/adding-positives.png
 categories:
   category:
     - title: Stress
@@ -33,17 +33,17 @@ link: https://resiliens.com/resilify/program/dealing-with-body-dysmorphia
 
 Body image isn't how we actually look, rather it is the perception of how we look and our outer appearance. Body image is basically known to have 4 elements, first is, how we see our body, which is our noncognitive body image, but this isn't the actual representation of our body. The second is, the way we feel about our body which is an effective body image. Thirdly, how we think of our body is basically the perceptual aspect. Fourthly, the behaviors we acquire as a result of the above three, popularly known as behavioral body image.
 
-![Body image](/img/future-of-act.jpg "Body image")
+![Body image](static/img/responses-to-stimulation.png "Body image")
 
 ## **WHAT IS BODY DYSMORPHIA?**
 
-![](static/img/body4.jfif)
+![](static/img/what-is-emotional-health.png)
 
 Body dysmorphia is a disorder in which people face issues with his/her own physical appearance. People with the disorder see themselves as the most unattractive, monstrous, flawed, ugly, etc. They get way too bothered about their looks most of the time. They spend almost half of their time in front of the mirror and evaluate themselves per the standards they have already set in their mind. Here in RESILIENS we offer the best programs to tackle such problems and breakthrough them in no time. The app we have launched is the cure to all such bothering that gets you on track with the help of the world's best practitioners in our contact.
 
 ## **DIFFERENCE BETWEEN BDD AND GENERAL DISSATISFACTION**
 
-![](/img/radi.jpg)
+![]()
 
 Before jumping to a conclusion, it is rather more important to know what exactly our problem is. Sometimes we may confuse general dissatisfaction with BDD while Body dysmorphia is not just a dissatisfaction but a condition that is most commonly linked with distress, depression, anxiety just to name a few. Those with the disorder remain all disturbed throughout the day with their minds preoccupied with the feeling of shame. Such people may also escape from social gatherings like family functions or just a get-together. Thus, it becomes so important to check on what you are actually going through. Our cognitive health experts help you in your journey with RESILIENS to stand by your side and gain confidence within yourself. 
 
@@ -77,7 +77,7 @@ Fear of future: *"soon I will be bald":* This form usually makes people pretty w
 
 ## **WE CAN BE A GREAT HELP**
 
-![](/img/personal-control.jpg)
+![]()
 
 Apart from the access to talk to our mental health experts personally, we offer multiple sessions and lessons in our program called DEALING WITH BODY DYSMORPHIA. Where you can find numerous exercises, causes, and helps to cure the mental disorder. The app is the only place where you get in touch with our experts as well. We are 24/7 ready to serve you the best of all because your happiness is our concern. You also get various meditation tasks from different professionals to help calm your mind. The exercises we offer keep you engaged and active through your time spent with RESILIENS. Not only that, you are supposed to clear your given session within a week whilst the app sends reminders until you complete the particular session. The sessions include:
 
