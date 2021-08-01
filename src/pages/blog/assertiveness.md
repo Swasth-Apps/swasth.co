@@ -9,8 +9,8 @@ description: Assertiveness is a skill regularly referred to in social and
   being either aggressive or passively accepting 'wrong'. It is the ability to
   take responsibility for your actions without being unnecessarily judgmental,
   and being self-assured.
-image: static/img/asser2.jfif
-squareimage: static/img/asser3.jfif
+image: static/img/assertive.png
+squareimage: static/img/delayed-gratification-pp.png
 categories:
   category:
     - title: mindfulness
@@ -33,7 +33,7 @@ link: https://resiliens.com/resilify/program/the-science-of-resilience-and-copin
 
 ## **UNDERSTANDING ASSERTIVENESS**
 
-![](static/img/asser1.jfif "Be Assertive")
+![](static/img/joyful.png "Be Assertive")
 
 Most people have misunderstood assertiveness and only a handful of them have a good grip over its actual facts. So, the question that arises now is: What assertiveness truly means? We find a number of mentioned quotes in literature and write-ups which explain the true meaning of assertiveness. We may call it an ability to express both, positive and negative thoughts in addition to feelings in an honest way. Also, it is the ability to stand for your actions and compromise in situations where there are chances of occurrence of conflicts and disputes.
 
@@ -56,6 +56,8 @@ We all are riders of our own vehicles and it totally depends on us how we want t
 LET'S GET STARTED WITH RESILIENS TO START YOUR OWN JOURNEY OF ASSERTIVENESS
 
 ## **TYPES OF BEHAVIOR**
+
+![](static/img/review-exercise-pacing.png)
 
 As we discussed earlier, we saw a number of advantages of assertive behavior then why don't we strive to achieve this trait? Let's review the types of behaviors to identify which behavior we engage in the most:
 
