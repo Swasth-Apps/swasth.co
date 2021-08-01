@@ -6,8 +6,8 @@ date: 2021-06-01
 description: Perfectionism is the restless struggle to gain an extremely high
   level of standards. It is basically the existence of a will that generates the
   optimal quality of mental, physical, spiritual, or materialistic behavior.
-image: static/img/perfectionism1.jpg
-squareimage: static/img/perf2.jfif
+image: static/img/perfectionism.png
+squareimage: static/img/acceptance-of-high-low-in-journey.png
 categories:
   category:
     - slug: tech
@@ -28,6 +28,8 @@ link: https://resiliens.com/resilify/program/how-to-overcome-perfectionism
 <!--StartFragment-->
 
 ## **UNDERSTANDING PERFECTIONISM**
+
+![](static/img/mood-check.png)
 
 Perfectionism is a tool required to give a boost to your functions in some way or the other. But overly engrossing yourself into something leads you to the darkest shore of life from where all the roots of mental illnesses start. To overcome your extreme desire to become a perfectionist, we need to know what it actually is. perfectionism includes three aspects as follows:
 
@@ -55,7 +57,7 @@ PERFECT QUANTITY: It refers to being all unsatisfied with a performance when it 
 
 ## **HOW BAD IS IT TO BE A PERFECTIONIST?**
 
-![](static/img/perfneg3.jfif)
+![](static/img/how-does-it-work-motivation.png)
 
 This cannot be denied that people take pride in calling themselves perfectionists, and the same feeling makes you feel super-efficient and valuable at the same time. Striving for something high may seem to help us loads to reach our goals but the actuality is, they act as a blockage on our track of happiness. Therefore, perfectionism is a destructive and irrational trait that can be a slow poison in disguise. It can have people suffer from anxiety and stress but still not being aware of the consequences. Some of its common consequences can be:
 
@@ -97,9 +99,7 @@ Session 6: Practicing Resilience
 
 Session 7: Maintaining gains with compassion
 
-Every session comes up with a duration to complete it. You are supposed to complete your session within a week as the app gives you reminders to complete your current session. Also, you are served with a facility to set your current session using the URL we provide.
-
-You may also contact our professional advisers and be in touch with them for as long as you want through your ongoing journey with us. They not only help you overcome your problems but also suggest ways to tackle them on your own if needed even in the future. 
+Every session comes up with a duration to complete it. You are expected to complete your session within a week as the app gives you reminders to complete your current session. Also, you are served with a facility to set your current session using the URL we provide.
 
 So, ARE YOU STILL WAITING? **GO GET YOUR SUBSCRIPTION BEFORE IT'S TOO LATE!**
 
