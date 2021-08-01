@@ -10,8 +10,8 @@ description: "Chronic pain is a kind of pain that may last weeks to years.
   after treatment of the pain but sometimes the pain carries on for longer due
   to some medical history or injury. "
 featuredpost: true
-image: static/img/chronic1.jfif
-squareimage: static/img/chronic2.jfif
+image: static/img/chronic-pain-1-.png
+squareimage: static/img/intro-chronic-pain.png
 categories:
   category:
     - title: CBT
@@ -33,7 +33,7 @@ link: https://resiliens.com/resilify/program/dealing-with-chronic-pain-with-cbt
 
 ## **UNDERSTANDING CHRONIC PAIN**
 
-![](static/img/chronic3.jfif)
+![](static/img/body-sensation-for-pain.png)
 
 As you already know that pain is any sort of response of the body towards the injury or trauma caused, It is an indication that something is off. Generally, your body loses the sense of the pain as your body starts to combat it. In some cases, the pain remains as long as a year or it may even get cured with a short-term treatment within a week. So, when it goes above a time span of 3 months or so, it is called chronic pain. Consequently, you see negative effects on your emotional and physical wellbeing.
 
@@ -105,6 +105,8 @@ There can be a number of causes of chronic pain but the most common of them are 
 
     ## **OUR PROGRAM**
 
+    ![](static/img/decatastrophizing.png)
+
     Our program will help you deal with CHRONIC PAIN. This program uses a step-by-step approach to treat chronic pain and is based on Cognitive Behavioral Therapy. CBT is the idea of interpreting situations and influencing our feelings. Therefore, we add sessions to cure maladaptive thoughts and move ahead sequentially to help you overcome this problem.
 
     The sessions that make up the program are: 
@@ -125,7 +127,7 @@ SESSION 7: GUIDED IMAGERY 
 
 SESSION 8: SOCIAL SKILLS TO COMBAT CHRONIC PAIN 
 
-These sessions come with a time limit of 7 days and you are suggested to complete each session within a week, although you may complete them later in case of some urgency. After completing one session you will land into another session by default. Also, you get the facility of URL to change the sessions as per your choice but here again, the time limit remains the same. We work as a team to help you out 24/7. 
+These sessions come with a time limit of 7 days and you are suggested to complete each session within a week, although you may complete them later in case you get some urgency. After completing one session you will land into another session by default. Also, you get the facility of URL to change the sessions as per your choice but here again, the time limit remains the same. We work as a team to help you out 24/7. 
 
 SO DO NOT HESITATE AND GRAB THE PROGRAM!
 
