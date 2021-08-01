@@ -9,7 +9,7 @@ description: "Positive Psychology is a relatively new area of psychology that
   positive psychology is based upon the belief that happiness is derived from
   emotional as well as mental factors.  "
 image: static/img/positive-psychology.png
-squareimage: static/img/benifits-of-cognitive-resturing-bd.png
+squareimage: static/img/coping-helpful.png
 categories:
   category:
     - title: happiness
