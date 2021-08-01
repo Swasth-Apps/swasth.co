@@ -8,8 +8,8 @@ description: Experiencing gratitude tends to impart positive feelings, which in
   gratitude produces better mental health by shifting one's attention away from
   toxic emotions. Research shows that being grateful increases our happiness and
   gives us a greater sense of wellbeing.
-image: static/img/pos4.jfif
-squareimage: static/img/pos5.jpg.crdownload
+image: static/img/gratitude-well-being.png
+squareimage: static/img/link-between-gratitude-happiness.png
 categories:
   category:
     - slug: happiness
@@ -37,7 +37,7 @@ Gratitude is the feeling of being grateful or of wanting to give your thanks to 
 
 ## **HOW TO PRACTICE GRATITUDE**
 
-![](static/img/pos6.jfif)
+![](static/img/how-to-incorporate-perma-model.png)
 
 **GRATITUDE JOURNALING**
 
@@ -103,6 +103,8 @@ Gratitude helps us find ways to express how grateful we are to have the support 
 
 ## **HOW TO MEASURE WELL-BEING**
 
+![](static/img/benefits-of-gratitude-pp.png)
+
 **What is well-being?**
 
 Well-being is the experience of health, happiness, and prosperity. It includes having good mental health, high life satisfaction, a sense of meaning or purpose, and the ability to manage stress
@@ -140,8 +142,6 @@ SESSION 5: Gratitude and Meditation 
 SESSION 6: Gratitude Journal 
 
 Every session comes up with a duration to complete it. You are supposed to complete your session within a week as the app continuously gives you reminders to get done with your present session. Also, you are served with a facility to set your current session using the URL we provide.
-
-You may also contact our professional advisers and be in touch with them for as long as you want through your ongoing journey with us. They not only help you overcome your problems but also suggest ways to tackle them on your own if needed even in the future. 
 
 **STAY HAPPY! EXPRESS YOUR GRATITUDE!**
 
