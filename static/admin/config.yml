@@ -92,7 +92,7 @@ collections:
 
   - name: "pressCoverage"
     label: "Press Coverage"
-    folder: "src/pages/press"
+    folder: "src/pages/press/coverage"
     create: true
     slug: "{{slug}}"
     fields:

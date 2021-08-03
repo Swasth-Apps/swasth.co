@@ -84,7 +84,8 @@ exports.createPages = ({actions, graphql}) => {
 
         posts.forEach(edge => {
             const id = edge.node.id;
-            if(edge.node.frontmatter.templateKey !== "coaching-experts") {
+            const templateKey = edge.node.frontmatter.templateKey;
+            if(templateKey !== "coaching-experts" && templateKey !== "press-coverage-post" ) {
                 createPage({
                     path: edge.node.fields.slug,
                     tags: edge.node.frontmatter.tags,

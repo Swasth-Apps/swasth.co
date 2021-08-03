@@ -189,7 +189,7 @@ const Header = (props) => {
                                             </div>
                                         </Link>
                                         <Link
-                                            to="/"
+                                            to="/press"
                                             className='menu-content-item'>
                                             <div className="menu-item">
                                                 <img src={PressIcon}/>

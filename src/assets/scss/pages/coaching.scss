@@ -647,6 +647,11 @@
     color: _palette(blue-color);
   }
 
+  .date-text{
+    font-size: 15px;
+    color: #4273f0;
+  }
+
   &:before {
     background: url("/img/Coaching-bg.png") bottom center no-repeat;
     transform: translateX(20%);

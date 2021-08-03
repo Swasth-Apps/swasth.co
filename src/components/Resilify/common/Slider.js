@@ -31,8 +31,13 @@ const PrevArrow = (props) => {
 };
 
 
-const items = getItemsPerSlider();
+let items = getItemsPerSlider();
+
+
 const SliderComponent = props => {
+    items = props.maxSlideNum && (items > props.maxSlideNum) ? props.maxSlideNum : items;
+    const returnNum = num => props.maxSlideNum && (num > props.maxSlideNum) ? props.maxSlideNum : num
+
     const settings = {
         className: props.className,
         infinite: false,
@@ -43,8 +48,8 @@ const SliderComponent = props => {
             {
                 breakpoint: 1500,
                 settings: {
-                    slidesToShow: props.perSlide || 4,
-                    slidesToScroll: props.perSlide  || 4,
+                    slidesToShow: props.perSlide || returnNum(4),
+                    slidesToScroll: props.perSlide  || returnNum(4),
                     infinite: true,
                     dots: true
                 }
@@ -52,25 +57,25 @@ const SliderComponent = props => {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: props.perSlide || 3,
-                    slidesToScroll: props.perSlide  || 3,
+                    slidesToShow: props.perSlide || returnNum(3),
+                    slidesToScroll: props.perSlide  || returnNum(3),
                     infinite: true,
                     dots: true
                 }
             },
             {
-                breakpoint: 800,
+                breakpoint: 900,
                 settings: {
-                    slidesToShow: props.perSlide || 2,
-                    slidesToScroll: props.perSlide  || 2,
+                    slidesToShow: props.perSlide || returnNum(2),
+                    slidesToScroll: props.perSlide  || returnNum(2),
                     initialSlide: 2
                 }
             },
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: props.perSlide || 1,
-                    slidesToScroll:props.perSlide  ||  1
+                    slidesToShow: props.perSlide || returnNum(1),
+                    slidesToScroll:props.perSlide  || returnNum( 1)
                 }
             }
         ],

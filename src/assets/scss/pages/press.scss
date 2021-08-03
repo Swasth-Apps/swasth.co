@@ -1,0 +1,85 @@
+.press-page{
+  padding: 50px 0px;
+  .press-page-top-section {
+    p{
+      font-size: 18px;
+    }
+    .press-email {
+      color: #4273f0;
+
+      &:hover {
+        color: _palette(primary-blue) !important;
+      }
+    }
+  }
+  .press-release-section{
+    border-top: 1px solid #d3d3d354;
+    margin-top: 50px;
+    padding-top: 70px;
+    .release-text{
+      margin-bottom: 50px;
+    }
+    .press-release-container{
+      .release-card-link{
+        .release-card{
+          margin-bottom: 20px;
+          box-shadow: 1px 1px 3px 0 #d3cece;
+          padding: 30px;
+          border-radius: 10px;
+          background: white;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          transition: transform 100ms ease-in-out ;
+          &:hover{
+            transform: scale(1.03);
+          }
+          h4{
+            margin-bottom: 0px;
+            margin-right: 20px;
+            font-size: 18px;
+          }
+          .read-more-text{
+            display: flex;
+            align-items: center;
+            white-space: pre;
+            color: #4273f0;
+            .anticon{
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .resilify-program-section{
+    padding: 50px 30px 20px;
+    .slick-list{
+      .slick-slide{
+        margin-right: 25px;
+        height: initial;
+        .program-card{
+          max-width: unset !important;
+          .program-img{
+            height: 250px;
+          }
+          .program-detail{
+            justify-content: center;
+            h4{
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+    .slick-next{
+      right: 0px;
+    }
+  }
+}
+
+.press-release-page{
+  .press-release-description{
+    padding: 50px 0px;
+  }
+}
