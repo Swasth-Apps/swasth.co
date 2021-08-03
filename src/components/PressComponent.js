@@ -34,7 +34,7 @@ class PressComponent extends React.Component {
                         <Slider maxSlideNum={3} className="program-wrapper" key={generateRandomID()}>
 
                             {coverages?.map(({node: {frontmatter, fields}}) => (
-                                <Link className="keen-slider__slide program-card" to={`${fields.slug}`}>
+                                <a className="keen-slider__slide program-card" href={frontmatter.link}>
                                     <img
                                         className="program-img"
                                         src={frontmatter.image}
@@ -44,7 +44,7 @@ class PressComponent extends React.Component {
                                             <h4 className="medium-text">{frontmatter.title}</h4>
                                         </div>
                                     </div>
-                                </Link>
+                                </a>
                             ))}
 
                         </Slider>

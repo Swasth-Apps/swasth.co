@@ -27,6 +27,10 @@ class PressReleaseComponent extends React.Component {
                     <div className="html-parser-description">
                         {HtmlParser(this.props.description)}
                     </div>
+                    <div className="footer-release-post">
+                        <p className="roman-text">Contact</p>
+                        <a className="roman-text">press@modernhealth.com</a>
+                    </div>
                 </Row>
             </div>
         )

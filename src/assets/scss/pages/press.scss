@@ -1,9 +1,15 @@
-.press-page{
+.press-page {
   padding: 50px 0px;
+
+  .coverage-text, .release-text {
+    font-size: 36px;
+  }
+
   .press-page-top-section {
-    p{
+    p {
       font-size: 18px;
     }
+
     .press-email {
       color: #4273f0;
 
@@ -12,16 +18,19 @@
       }
     }
   }
-  .press-release-section{
+
+  .press-release-section {
     border-top: 1px solid #d3d3d354;
     margin-top: 50px;
     padding-top: 70px;
-    .release-text{
+
+    .release-text {
       margin-bottom: 50px;
     }
-    .press-release-container{
-      .release-card-link{
-        .release-card{
+
+    .press-release-container {
+      .release-card-link {
+        .release-card {
           margin-bottom: 20px;
           box-shadow: 1px 1px 3px 0 #d3cece;
           padding: 30px;
@@ -30,56 +39,160 @@
           display: flex;
           align-items: center;
           justify-content: space-between;
-          transition: transform 100ms ease-in-out ;
-          &:hover{
+          transition: transform 100ms ease-in-out;
+
+          &:hover {
             transform: scale(1.03);
           }
-          h4{
+
+          h4 {
             margin-bottom: 0px;
             margin-right: 20px;
             font-size: 18px;
           }
-          .read-more-text{
+
+          .read-more-text {
             display: flex;
             align-items: center;
             white-space: pre;
             color: #4273f0;
-            .anticon{
+
+            .anticon {
               margin-left: 10px;
             }
           }
+
+          @media only screen and (max-width: 650px) {
+            flex-direction: column;
+            align-items: flex-start;
+            h4{
+              margin-right: 0px;
+            }
+            .read-more-text{
+              margin-top: 10px;
+            }
+
+          }
+
         }
       }
     }
+
+    @media only screen and (max-width: 769px) {
+      padding-top: 50px;
+      .release-text {
+        margin-bottom: 30px;
+      }
+    }
   }
-  .resilify-program-section{
-    padding: 50px 30px 20px;
-    .slick-list{
-      .slick-slide{
+
+  .resilify-program-section {
+    padding: 50px 30px 0px;
+
+    .slick-list {
+      .slick-slide {
         margin-right: 25px;
         height: initial;
-        .program-card{
+
+        .program-card {
           max-width: unset !important;
-          .program-img{
+
+          .program-img {
             height: 250px;
           }
-          .program-detail{
+
+          .program-detail {
             justify-content: center;
-            h4{
+
+            h4 {
               font-size: 20px;
             }
           }
         }
       }
+
+      @media only screen and (max-width: 769px) {
+        padding-bottom: 20px;
+      }
     }
-    .slick-next{
+
+    .slick-next {
       right: 0px;
     }
+
+    @media only screen and (max-width: 769px) {
+      padding: 50px 0px 0px;
+    }
+
   }
 }
 
-.press-release-page{
-  .press-release-description{
-    padding: 50px 0px;
+.press-release-page {
+
+  .html-parser-description {
+    font-family: _font(light-font) !important;
+    font-size: 16px !important;
+    margin-bottom: 15px;
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: _font(heavy-font);
+      margin-bottom: 12px;
+
+      span, strong {
+        font-family: _font(light-font) !important;
+      }
+
+    }
+
+    a {
+      font-family: _font(light-font);
+    }
+
+    p, li, span, div {
+      font-family: _font(light-font);
+      font-size: 18px;
+      margin-bottom: 15px;
+      letter-spacing: 0.5px;
+    }
+
+    b, strong {
+      font-family: _font(heavy-font);
+      font-weight: normal;
+    }
+
   }
+
+  .tab-view {
+    @media only screen and (max-width: 800.5px) {
+      padding: 20px 0px 0px;
+    }
+  }
+
+  .press-release-description {
+    padding: 70px 0px 50px;
+
+    .footer-release-post {
+      margin-top: 30px;
+
+      p {
+        font-size: 18px;
+      }
+
+      a {
+        color: #4273f0;
+        font-size: 18px;
+
+        &:hover {
+          color: _palette(primary-blue) !important;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .coaching-programs-banner-section {
+      padding: 50px 0px;
+    }
+  }
+
 }

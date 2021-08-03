@@ -99,5 +99,5 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "press-coverage-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date",format: 'YYYY-MM-DD'}
-      - {label: "Image", name: "image", widget: "image"}
-      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Image", name: "image", widget: "image",required: false}
+      - {label: "Link", name: "link", widget: "string",required: false}
