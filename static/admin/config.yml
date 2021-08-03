@@ -77,3 +77,28 @@ collections:
       - {label: "Books", name: "books", widget: list, fields: [{label: Title, name: title, widget: string},{label: Short Description, name: shortDescription, widget: string},{label: Link, name: link, widget: string},{label: Image, name: image, widget: string,required: false}]}
       - {label: "Honors & Awards", name: "awards", widget: list, fields: [{label: Title, name: title, widget: string},{label: Given By, name: givenBy, widget: string},{label: Year, name: year, widget: string},{label: Image, name: image, widget: string,required: false}]}
 
+  - name: "pressReleases"
+    label: "Press Releases"
+    folder: "src/pages/press"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "press-releases-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "date",format: 'YYYY-MM-DD'}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Description", name: "description", widget: "markdown"}
+
+
+  - name: "pressCoverage"
+    label: "Press Coverage"
+    folder: "src/pages/press"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "press-coverage-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "date",format: 'YYYY-MM-DD'}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Link", name: "link", widget: "string"}
