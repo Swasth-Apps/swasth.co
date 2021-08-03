@@ -486,6 +486,9 @@
       display: inline-block;
       margin-right: 10px;
       text-align: center;
+      button{
+        outline: none !important;
+      }
     }
 
     .social__share-count {
