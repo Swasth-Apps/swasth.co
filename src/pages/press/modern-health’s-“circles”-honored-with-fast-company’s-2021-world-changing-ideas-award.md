@@ -38,8 +38,4 @@ description: >-
   <p>About the World Changing Ideas Awards:</p>
 
   <p>World Changing Ideas is one of Fast Company&rsquo;s major annual awards programs and is focused on social good, seeking to elevate finished products and brave concepts that make the world better. A panel of judges from across sectors choose winners, finalists, and honorable mentions based on feasibility and the potential for impact. With the goals of awarding ingenuity and fostering innovation, Fast Company draws attention to ideas with great potential and helps them expand their reach to inspire more people to start working on solving the problems that affect us all.</p>
-
-  <p>Contact:</p>
-
-  <p>press@modernhealth.com</p>
 ---
