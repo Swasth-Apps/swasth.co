@@ -128,7 +128,7 @@ const Banner = (props) => {
             <h2 className='bottom-space'>
               <span className='-highlighted-text base-text'>Sessions{' '}</span>{' '}</h2>
             <div className="para-text black-18-font">
-              Comprehensice sessions by our expert on Motivational Interviewing  and how it can be used for behavior change at your own pace. All the learning materials are organized cleanly into different sessions by topic with lessons and activities.
+              Comprehensive sessions by our expert on Motivational Interviewing  and how it can be used for behavior change at your own pace. All the learning materials are organized cleanly into different sessions by topic with lessons and activities.
             </div>
           </Col>
         </Row>
