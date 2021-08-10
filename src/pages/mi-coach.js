@@ -12,7 +12,7 @@ class HomeIndex extends React.Component {
               <title>MI Coach - A comprehensive app for Motivational Interviewing</title>
               <meta
                   name="keywords"
-                  content="MI Coach, Motivational Interviewing, DBT Diary Card, Mindfulness, Emotion Regulation, Interpersonal Effectiveness, Distress Tolerance, Emotions, BPD, Borderline Personality Disorder, Depression, Anxiety, Self Harm, Eating Disorders, Recovery, Anger, Relationships, PTSD, Chronic illness, OCD, PTSD, ADHD, Substance Abuse, Addiction, Stress"
+                  content="MI Coach, Motivational Interviewing, Behavior Change, Behavior Tracking, Depression, Anxiety, Self Harm, Eating Disorders, Recovery, Anger, Relationships, PTSD, Chronic illness, OCD, PTSD, ADHD, Substance Abuse, Addiction, Stress"
               />
           </Helmet>
         <div
