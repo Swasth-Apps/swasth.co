@@ -86,7 +86,6 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "press-releases-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date",format: 'YYYY-MM-DD'}
-      - {label: "Image", name: "image", widget: "image"}
       - {label: "Description", name: "body", widget: "markdown"}
 
   - name: "pressCoverage"
