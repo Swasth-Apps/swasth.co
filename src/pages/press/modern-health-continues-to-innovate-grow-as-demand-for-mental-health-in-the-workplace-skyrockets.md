@@ -1,36 +1,47 @@
 ---
 templateKey: press-releases-post
-title: Modern Health Continues to Innovate & Grow As Demand For Mental Health in
-  the Workplace Skyrockets
+title: Gana Pemmanda Honored With The “Top 100 Healthcare Leaders” Award At IFAH
+  Las Vegas, 2021
 date: 2021-08-03
-image: /img/10-common-distortions.png
+image: /img/gana-ifah.jpg
 description: >-
-  <p>SAN FRANCISCO, April 08, 2021 (GLOBE NEWSWIRE) -- Modern Health, a leading
-  workplace mental health platform supporting 220+ enterprises globally, reports
-  impressive growth and progress against an innovative product roadmap in the
-  first quarter of 2021. Modern Health announced the close of its $74 million
-  Series D funding round bringing its total investment to $172 million and
-  valuation to $1.17 billion and the acquisition of mental health startup Kip to
-  further expand the company&rsquo;s suite of mental health solutions and
-  analytics.</p>
+  Las Vegas, Nevada — June 28, 2021
+  — [](https://www.linkedin.com/in/melissaemilanakphd/)Gana Pemmanda was honored
+  with the prestigious “Top 100 Healthcare Leaders” award for his significant
+  and tangible contributions towards the healthcare industry at the fifth
+  edition of [IFAH — International Forum on Advancements in
+  Healthcare](https://www.ifah.world/), held at the MGM Grand, Las Vegas, USA on
+  June 23–25, 2021.
 
-  <p>&ldquo;Over the past year, we&rsquo;ve seen a huge increase in demand for mental health support. Our first quarter of 2021 represented many significant milestones for the organization, including raising $74 million in new capital, hitting unicorn status faster than any other entirely female led company in the U.S., more than tripling our employee headcount since March 2020, and releasing several new products and modalities of care to meet that demand head-on,&rdquo; said Alyson Watson, founder &amp; CEO of Modern Health. &ldquo;I&rsquo;m incredibly proud that we continue to exceed financial, customer, and innovation milestones, all while making huge strides in destigmatizing mental health and increasing accessibility of mental health support for employees across the world. Workforces have never needed mental health support more than they have over the last year, and we&rsquo;re laser focused on supporting these people-first companies.&rdquo;</p>
 
-  <p>The global pandemic accelerated the need for better mental health support in the workplace and Modern Health has been quick to respond by launching new modalities of care, like live provider-led group support sessions, and product innovations over the last three months as needs and demand evolve.</p>
+  Gana Pemmanda is the Founder and CEO of Resiliens, an Evidence-Based Behavioral Health Platform. The platform combines Evidence-Bases Therapies with other factors that affect Behavioral Health, including and not limited to Sleep, Physical Activity, Nutrition, BioFeedback(HRV), Mindfulness with AI-based Analytics, delivered by Licensed Clinicians and supported by coaches.
 
-  <p>&ldquo;Our empathetic and responsive team has enabled Modern Health to evolve quickly and efficiently to meet the needs of the past year,&rdquo; adds Watson. &ldquo;Since March 2020 we&rsquo;ve doubled our customer base and rolled out 110+ new in-app digital courses tailored to the unique challenges of 2020 from preventing burnout to social isolation to parenting in a pandemic. We witnessed the surge in demand for mental health support prompted by the challenges of the year and set up an entirely new modality of care to provide live provider-led group support for more people - Circles.&rdquo;</p>
 
-  <p>Circles are live, provider-led group sessions &ndash; available to both Modern Health members and non-members alike &ndash; that provide a judgement-free space for individuals to learn, share, and find community on topics that impact their wellbeing. Modern Health has also launched advanced client on-demand reporting as well as introducing a weekly audio series, The Reset, available exclusively to members to dedicate just a few minutes each week to recharge, declutter their mind, and be present in the moment.</p>
+  Before Resiliens, Gana founded Hygeias, a connected health platform enabling patients to share their health data. His dedication to innovate and make a difference in the healthcare industry led to his nomination, and ultimately to her big win at IFAH Las Vegas, 2021.
 
-  <p>Modern Health has continued to onboard key hires remotely including two industry veterans, Kostja Mirkovic, who joins the team as Vice President, Revenue Operations and Strategy and Lisa Giacinti, taking up the Vice President, Partnerships role. Mirkovic joins with a wealth of strategy and operations experience having held leadership roles at companies including LinkedIn and Credit Suisse, following his time as consultant with Bain &amp; Co. Giacinti brings decades of experience in the healthcare field, most recently leading partnership and channel efforts at Kindbody and Castlight Health.</p>
 
-  <p>&ldquo;I&rsquo;m thrilled to be joining a company that is changing the future of mental health in the workplace,&rdquo; comments Mirkovic. &ldquo;I am passionate about solving problems at scale that will help people live longer, healthier, and happier lives and I have been incredibly impressed at how Modern Health is helping both organizations and individuals. Modern Health is a company that is truly changing the healthcare landscape and I&rsquo;m honoured to be part of its journey.&rdquo;</p>
+  When asked about his mental health initiatives, he commented, “Having seen family members struggle with access to quality mental health care, I decided to start Resiliens with an mission to bring evidence-based behavioral health care to everyone.”
 
-  <p>For more information about Modern Health, visit modernhealth.com.</p>
 
-  <p>About Modern Health</p>
+  [IFAH](https://www.ifah.world/) 2021, a brand owned by [Prism Events](https://www.prismevents.co/), Inc. is a three-day international healthcare conference that celebrates the trailblazing work of leading brands, thought leaders, healthcare experts, and entrepreneurs. After the successful conclusion of its fifth edition, we seek to empower healthcare experts by building and expanding our presence in the Asia-Pacific and MENA regions.
 
-  <p>Modern Health is the comprehensive mental wellness platform that combines the WHO well-being assessment, self-service wellness kits, and a global network of certified coaches and licensed therapists available in 35 languages, all available in a single app. Modern Health empowers employers to lead the charge in acknowledging that mental health is just as important as physical health, destigmatizing the conversation, and increasing accessibility of mental health services for all.</p>
 
-  <p>Founded in 2017, Modern Health incorporates evidence-based psychology principles and seamless technology to serve the needs of companies globally. Headquartered in San Francisco, Modern Health has raised more than $172 million from Founders Fund, Battery Ventures, Felicis Ventures, Kleiner Perkins, Afore Capital, and 01 Advisors.</p>
+  For more details on IFAH — International Forum on Advancements in Healthcare, Visit [www.ifah.world](http://www.ifah.world/).
+
+
+  **Contact Details :**
+
+
+  Meghna Chawla\
+
+  +1 (855) 545–5660\
+
+  marketing@ifah.world
+
+
+
+
+
+
+  ![](/img/ifah-badge-of-honor_gana-pemmanda.jpg)
 ---
