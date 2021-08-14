@@ -2,9 +2,9 @@
 templateKey: press-releases-post
 title: Gana Pemmanda Honored With The “Top 100 Healthcare Leaders” Award At IFAH
   Las Vegas, 2021
-date: 2021-08-14
+date: 2021-07-03
 image: /img/gana-ifah.jpg
----
+description: >-
   Las Vegas, Nevada — June 28, 2021
   — [](https://www.linkedin.com/in/melissaemilanakphd/)Gana Pemmanda was honored
   with the prestigious “Top 100 Healthcare Leaders” award for his significant
@@ -32,11 +32,16 @@ image: /img/gana-ifah.jpg
   **Contact Details :**
 
 
-  Meghna Chawla
+  Meghna Chawla\
 
-  +1 (855) 545–5660
+  +1 (855) 545–5660\
 
   marketing@ifah.world
-  
-  ![IFAH Badge](/img/ifah-badge-of-honor_gana-pemmanda.jpg)
+
+
+
+
+
+
+  ![](/img/ifah-badge-of-honor_gana-pemmanda.jpg)
 ---
