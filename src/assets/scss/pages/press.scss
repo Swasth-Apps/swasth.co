@@ -133,6 +133,11 @@
     img{
       width: 100%;
     }
+    strong{
+        img{
+          width: 200px;
+        }
+      }
     font-family: _font(light-font) !important;
     font-size: 16px !important;
     margin-bottom: 15px;
@@ -162,6 +167,8 @@
       font-family: _font(heavy-font);
       font-weight: normal;
     }
+
+
 
   }
 
