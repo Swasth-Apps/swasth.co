@@ -5,7 +5,7 @@ title: Gana Pemmanda Honored With The “Top 100 Healthcare Leaders” Award At 
 date: 2021-08-14
 image: /img/gana-ifah.jpg
 ---
-  Las Vegas, Nevada — June 28, 2021
+  `Las Vegas, Nevada — June 28, 2021
   — [](https://www.linkedin.com/in/melissaemilanakphd/)Gana Pemmanda was honored
   with the prestigious “Top 100 Healthcare Leaders” award for his significant
   and tangible contributions towards the healthcare industry at the fifth
@@ -39,4 +39,4 @@ image: /img/gana-ifah.jpg
   marketing@ifah.world
   
   ![IFAH Badge](/img/ifah-badge-of-honor_gana-pemmanda.jpg)
----
+`---
