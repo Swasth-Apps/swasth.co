@@ -45,6 +45,8 @@ description: >-
 
   ![](/img/ifah-badge-of-honor_gana-pemmanda.jpg)
 ---
+![](/img/gana-ifah.jpg)
+
 Las Vegas, Nevada — June 28, 2021 — [](https://www.linkedin.com/in/melissaemilanakphd/)Gana Pemmanda was honored with the prestigious “Top 100 Healthcare Leaders” award for his significant and tangible contributions towards the healthcare industry at the fifth edition of [IFAH — International Forum on Advancements in Healthcare](https://www.ifah.world/), held at the MGM Grand, Las Vegas, USA on June 23–25, 2021.
 
 Gana Pemmanda is the Founder and CEO of Resiliens, an Evidence-Based Behavioral Health Platform. The platform combines Evidence-Bases Therapies with other factors that affect Behavioral Health, including and not limited to Sleep, Physical Activity, Nutrition, BioFeedback(HRV), Mindfulness with AI-based Analytics, delivered by Licensed Clinicians and supported by coaches.
@@ -62,7 +64,5 @@ For more details on IFAH — International Forum on Advancements in Healthcare, 
 Meghna Chawla
 +1 (855) 545–5660
 marketing@ifah.world
-
-
 
 ![](/img/ifah-badge-of-honor_gana-pemmanda.jpg)
