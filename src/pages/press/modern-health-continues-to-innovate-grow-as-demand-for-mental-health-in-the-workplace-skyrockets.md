@@ -14,13 +14,13 @@ description: >-
   June 23–25, 2021.
 
 
-  Gana Pemmanda Dr. Milanak is a licensed Clinical Psychologist and Associate Professor at the Medical University of South Carolina (MUSC) specializing in stress, anxiety, and sleep disorders. Founding MIND Impact Consulting and working as a Clinical Assessment Advisor for Psychological Assessment Resources (PAR), she has transformed her research and clinical expertise into effective practical application speaking, training, and consulting for business executives and their companies, healthcare organizations, and well-being entities worldwide, increasing workplace effectiveness, optimizing performance and improving mental health.
+  Gana Pemmanda is the Founder and CEO of Resiliens, an Evidence-Based Behavioral Health Platform. The platform combines Evidence-Bases Therapies with other factors that affect Behavioral Health, including and not limited to Sleep, Physical Activity, Nutrition, BioFeedback(HRV), Mindfulness with AI-based Analytics, delivered by Licensed Clinicians and supported by coaches.
 
 
-  Additionally, through her Senior Advisor position for ADoH Scientific, she has worked to transform and reimagine whole person healthcare. Her dedication to innovate and make a difference in the healthcare industry led to her nomination, and ultimately to her big win at IFAH Las Vegas, 2021.
+  Before Resiliens, Gana founded Hygeias, a connected health platform enabling patients to share their health data. His dedication to innovate and make a difference in the healthcare industry led to his nomination, and ultimately to her big win at IFAH Las Vegas, 2021.
 
 
-  When asked about her mental health initiatives, she commented, “Being a licensed clinical psychologist, specializing in sleep anxiety & workplace wellbeing, I coach and speak around the world upon a whole comprehensive picture of an individual which is much more than just their job. The vision is to understand & spread awareness about sleep anxiety problems & having a better workplace culture.”
+  When asked about his mental health initiatives, he commented, “Having seen family members struggle with access to quality mental health care, I decided to start Resiliens with an mission to bring evidence-based behavioral health care to everyone.”
 
 
   [IFAH](https://www.ifah.world/) 2021, a brand owned by [Prism Events](https://www.prismevents.co/), Inc. is a three-day international healthcare conference that celebrates the trailblazing work of leading brands, thought leaders, healthcare experts, and entrepreneurs. After the successful conclusion of its fifth edition, we seek to empower healthcare experts by building and expanding our presence in the Asia-Pacific and MENA regions.
@@ -37,4 +37,11 @@ description: >-
   +1 (855) 545–5660\
 
   marketing@ifah.world
+
+
+
+
+
+
+  ![](/img/ifah-badge-of-honor_gana-pemmanda.jpg)
 ---
