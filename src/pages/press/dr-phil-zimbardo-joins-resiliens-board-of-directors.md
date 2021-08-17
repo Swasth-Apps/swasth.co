@@ -7,7 +7,7 @@ Palo Alto, California - Resiliens today announced that Dr. Philip Zimbardo, Prof
 
 
 
-![](/img/zimbardo.jpg)
+**![](/img/zimbardo.jpg)**
 
 
 
