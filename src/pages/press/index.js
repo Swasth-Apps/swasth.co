@@ -55,7 +55,7 @@ export const pageQuery = graphql`
       }
     }
     pressReleases: allMarkdownRemark(
-      filter: { frontmatter: { templateKey: { eq: "press-releases-post" } } }
+      filter: { frontmatter: { templateKey: { eq: "press-releases-post" } } }, sort: {order: ASC, fields: frontmatter___date}
     ) {
       edges {
         node {

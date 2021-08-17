@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: resiliens
+  branch: testing
 
 media_folder: static/img
 public_folder: /img
@@ -86,8 +86,7 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "press-releases-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date",format: 'YYYY-MM-DD'}
-      - {label: "Image", name: "image", widget: "image"}
-      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Description", name: "body", widget: "markdown"}
 
   - name: "pressCoverage"
     label: "Press Coverage"

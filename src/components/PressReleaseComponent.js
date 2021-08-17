@@ -20,6 +20,7 @@ class PressReleaseComponent extends React.Component {
     }
 
     render() {
+        console.log(this.props)
         return (
             <div className="press-release-page">
                 <section className='coaching-programs-banner-section'>
@@ -67,10 +68,10 @@ class PressReleaseComponent extends React.Component {
                             </div>
                         </div>
                         <div className="html-parser-description">
-                            {HtmlParser(this.props.description)}
+                            {HtmlParser(this.props.content)}
                             <div className="footer-release-post">
                                 <p className="roman-text">Contact</p>
-                                <a className="roman-text">press@modernhealth.com</a>
+                                <a className="roman-text" href="mailto:media@resiliens.com">media@resiliens.com</a>
                             </div>
                         </div>
                     </div>
