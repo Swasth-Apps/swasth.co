@@ -38,7 +38,7 @@ export default Press;
 export const pageQuery = graphql`
   query Press {
       pressCoverages: allMarkdownRemark(
-      filter: { frontmatter: { templateKey: { eq: "press-coverage-post" } } }
+      filter: { frontmatter: { templateKey: { eq: "press-coverage-post" } } }, sort: {order: DESC, fields: frontmatter___date}
     ) {
       edges {
         node {
@@ -55,7 +55,7 @@ export const pageQuery = graphql`
       }
     }
     pressReleases: allMarkdownRemark(
-      filter: { frontmatter: { templateKey: { eq: "press-releases-post" } } }, sort: {order: ASC, fields: frontmatter___date}
+      filter: { frontmatter: { templateKey: { eq: "press-releases-post" } } }, sort: {order: DESC, fields: frontmatter___date}
     ) {
       edges {
         node {

@@ -130,14 +130,37 @@
 .press-release-page {
 
   .html-parser-description {
+
     img{
       width: 100%;
+      border-radius: 5px;
     }
     strong{
         img{
           width: 200px;
+          border-radius: 5px;
         }
       }
+    p{
+      em{
+        font-style: normal;
+        img{
+          width: 250px;
+          height: 250px;
+          margin-bottom: 10px;
+          float: right;
+          border-radius: 5px;
+          margin-left: 24px;
+
+          @media only screen and (max-width: 675.5px) {
+            float: none;
+            margin-left: 0px;
+            margin-bottom: 0px;
+          }
+
+          }
+      }
+    }
     font-family: _font(light-font) !important;
     font-size: 16px !important;
     margin-bottom: 15px;
