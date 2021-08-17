@@ -41,11 +41,9 @@ const Banner = (props) => {
           <Col md={12} className='card-col -margin-right'>
             <h1 className='-highlighted-secondary-text apps-title base-text'>MI Coach</h1>
             <p className='bottom-space base-text'>A comprehensive app for
-              <span className='-highlighted-text base-text' style={{marginTop:'5px'}}>{' '}Motivational Interviewing</span> (MI).</p>
+              <span className='-highlighted-text base-text' style={{marginTop:'5px'}}>{' '}finding your motivation for change</span>.</p>
             <div className="para-text black-18-font">
-              Learn about Motivational Interviewing and practice behavior change skills
-              with MI Coach App. Engage better with your Therapist using
-              our comprehensive Behavioral Health Platform.
+            Learn about Motivational Interviewing (MI), enhance your motivation and practice behavior change skills with MI Coach App. Engage better with your Therapist using our comprehensive Behavioral Health Platform.
             </div>
           {/*  <Row className='card-row store-icons' style={{ padding: '32px 32px 0px', display: 'flex',flexDirection:'row' }}>
               <Col md={8}>
@@ -229,7 +227,7 @@ const Banner = (props) => {
                     </span>
             </p>
             <div className="para-text black-18-font">
-              We provide a range of options and guided techniques to practice breathing exercise. You can choose what works best for you.
+              We provide a range of options and guided techniques to practice breathing exercises. You can choose what works best for you.
             </div>
           </Col>
           <Col md={12} className='card-col'>
@@ -271,7 +269,7 @@ const Banner = (props) => {
               Join the
               <span className='-highlighted-text'>{' '}Community</span></p>
             <div className="para-text black-18-font">
-              Come join the MI Community. There are discussion forums where you can discuss about MI skill application and anything MI. Further, use existing Peer Groups or create your own to support each other.
+              Come join the MI Coach Community. There are discussion forums where you can discuss MI skills application and anything MI, motivation, commitment and change. Further, use existing Peer Groups or create your own to support each other.
             </div>
           </Col>
         </Row>
@@ -293,7 +291,7 @@ const Banner = (props) => {
         {/*<div style={{textAlign:'center'}} className='all-testimonials divider'>
           <a className='-highlighted-secondary-text'>Check all testimonials</a>
       </div> */}
-        <Row className='card-row -row-flex-center divider -padding-zero'>
+      {/*  <Row className='card-row -row-flex-center divider -padding-zero'>
           <Col md={24}>
             <Row className='card-row -row-flex-center'>
               <p className='bottom-space base-text' style={{ fontWeight: '600' }}>Frequently Asked Questions</p>
@@ -372,14 +370,14 @@ const Banner = (props) => {
             </Row>
 
           </Col>
-        </Row>
+        </Row> */}
 
         <Row className='card-row divider mobile-app-container -row-flex-center'>
           <Col md={24} className='dbt-box-container'>
             <Row className='card-row -row-flex-center dbt-box-border'>
               <div style={{ textAlign: 'center' }}>
                 <h4 className='-font-bold base-text'>Download <span className='-highlighted-secondary-text'>{' '}MI Coach</span> App</h4>
-                <div className='blog-user black-18-font'>The most comprehensive app for Motivational Interviewing. Come on join and be part of the community! </div>
+                <div className='blog-user black-18-font'>The most comprehensive app for finding the motivation for change using Motivational Interviewing. Come and be part of the community! </div>
                 {store}
               </div>
             </Row>
