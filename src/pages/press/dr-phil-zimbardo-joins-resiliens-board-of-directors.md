@@ -3,9 +3,9 @@ templateKey: press-releases-post
 title: Dr. Phil Zimbardo joins Resiliens'  Board of Directors
 date: 2021-01-15
 ---
-***Palo Alto, California - Resiliens today announced that Dr. Philip Zimbardo, Professor Emeritus, Stanford University, has been elected to Resiliens' board of directors. Dr. Zimbardo has been a Stanford University professor since 1968 (now emeritus), having taught previously at Yale, NYU, and Columbia University. He is currently a professor at the Palo Alto University, teaching social psychology to clinical graduate students.\
+*Palo Alto, California - Resiliens today announced that Dr. Philip Zimbardo, Professor Emeritus, Stanford University, has been elected to Resiliens' board of directors. Dr. Zimbardo has been a Stanford University professor since 1968 (now emeritus), having taught previously at Yale, NYU, and Columbia University. He is currently a professor at the Palo Alto University, teaching social psychology to clinical graduate students.\
 \
-Zimbardo has been given numerous awards and honors as an educator, researcher, writer, media contributor, and for service to the profession of psychology. He has been awarded the Vaclav Havel Foundation Prize for his lifetime of research on the human condition.![](/img/zimbardo.jpg)***
+Zimbardo has been given numerous awards and honors as an educator, researcher, writer, media contributor, and for service to the profession of psychology. He has been awarded the Vaclav Havel Foundation Prize for his lifetime of research on the human condition.![](/img/zimbardo.jpg)*
 
 
 
