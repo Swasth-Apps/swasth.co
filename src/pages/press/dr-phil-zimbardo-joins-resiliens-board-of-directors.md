@@ -7,7 +7,9 @@ Palo Alto, California - Resiliens today announced that Dr. Philip Zimbardo, Prof
 
 
 
+
 ![](/img/zimbardo.jpg)
+
 
 Dr. Philip Zimbardo is internationally recognized as the “voice and face of contemporary psychology” through his widely viewed PBS-TV series, Discovering Psychology, his media appearances, best-selling trade books, and his classic research, The Stanford Prison Experiment.\
 \
