@@ -42,8 +42,11 @@ class PressReleaseComponent extends React.Component {
                             <div className='social-icons'>
 
                                 <div className="social-button">
-                                    <FacebookShareButton url={currentPageUrl} quote={this.props.title}
-                                                         className="social__share-button">
+                                    <FacebookShareButton
+                                        url={currentPageUrl}
+                                        quote={this.props.title}
+                                        className="social__share-button"
+                                    >
                                         <FacebookIcon size={32} round/>
                                     </FacebookShareButton>
 

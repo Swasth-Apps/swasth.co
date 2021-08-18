@@ -52,13 +52,13 @@ class PressComponent extends React.Component {
                     </div>
                     <div className="press-release-section">
                         <h2 className="heavy-text center release-text">
-                            Press Release
+                            Press Releases
                         </h2>
                         <div className="press-release-container">
                             {releases?.map(({node: {frontmatter, fields}}) => (
                                 <Link to={`${fields.slug}`} className="release-card-link">
                                 <div className="release-card">
-                                    <h4 className="roman-text">{frontmatter?.title}</h4>
+                                    <h4 className="medium-text">{frontmatter?.title}</h4>
                                     <p className={"read-more-text roman-text"}>Read More <ArrowRightOutlined /></p>
                                 </div>
                                 </Link>
