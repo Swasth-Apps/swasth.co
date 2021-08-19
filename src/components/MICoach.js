@@ -65,12 +65,12 @@ const Banner = (props) => {
                   style={{ padding: '32px 0 0px', display: 'flex',flexDirection:'row',justifyContent:"flex-start" }}
               >
                 <Col md={8}>
-                  <a href="https://apps.apple.com/us/developer/resiliens-inc/id1295868545">
+                  <a href="https://apps.apple.com/us/app/mi-coach/id1572316783">
                     <img src={appStore} alt='MI Coach on App Store' />
                   </a>
                 </Col>
                 <Col md={8}>
-                  <a href="https://play.google.com/store/apps/developer?id=Resiliens,+Inc">
+                  <a href="https://play.google.com/store/apps/details?id=com.resiliens.miapp">
                     <img src={googlePay} alt='MI Coach on Play Store' />
                   </a>
                 </Col>
