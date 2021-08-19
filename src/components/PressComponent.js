@@ -11,45 +11,46 @@ class PressComponent extends React.Component {
     }
 
     render() {
-        const { coverages, releases } = this.props;
+        const {coverages, releases} = this.props;
         console.log(coverages)
-        return(
+        return (
             <div className="press-page">
                 <div
                     id='wrapper'
                     className={'coach-wrapper'}
                     style={{paddingBottom: 0}}
                 >
-
+{/*
                     <div className="press-page-top-section">
                         <h2 className="heavy-text center coverage-text">
                             Press Coverage
                         </h2>
                         <p className="book-text center">
-                            If you want to get in touch with our press team, please email <a className="roman-text press-email">press@modernhealth.com.</a>
+                            If you want to get in touch with our press team, please email <a
+                            className="roman-text press-email">press@modernhealth.com.</a>
                         </p>
                     </div>
                     <div className="resilify-home-page-body">
-                    <div className="press-coverage-carousel resilify-program-section">
-                        <Slider maxSlideNum={3} className="program-wrapper" key={generateRandomID()}>
+                        <div className="press-coverage-carousel resilify-program-section">
+                            <Slider maxSlideNum={3} className="program-wrapper" key={generateRandomID()}>
 
-                            {coverages?.map(({node: {frontmatter, fields}}) => (
-                                <a className="keen-slider__slide program-card" href={frontmatter.link}>
-                                    <img
-                                        className="program-img"
-                                        src={frontmatter.image}
-                                    />
-                                    <div className="program-detail">
-                                        <div className="program-info">
-                                            <h4 className="medium-text">{frontmatter.title}</h4>
+                                {coverages?.map(({node: {frontmatter, fields}}) => (
+                                    <a className="keen-slider__slide program-card" href={frontmatter.link}>
+                                        <img
+                                            className="program-img"
+                                            src={frontmatter.image}
+                                        />
+                                        <div className="program-detail">
+                                            <div className="program-info">
+                                                <h4 className="medium-text">{frontmatter.title}</h4>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            ))}
+                                    </a>
+                                ))}
 
-                        </Slider>
-                    </div>
-                    </div>
+                            </Slider>
+                        </div>
+                    </div>*/}
                     <div className="press-release-section">
                         <h2 className="heavy-text center release-text">
                             Press Releases
@@ -57,10 +58,10 @@ class PressComponent extends React.Component {
                         <div className="press-release-container">
                             {releases?.map(({node: {frontmatter, fields}}) => (
                                 <Link to={`${fields.slug}`} className="release-card-link">
-                                <div className="release-card">
-                                    <h4 className="medium-text">{frontmatter?.title}</h4>
-                                    <p className={"read-more-text roman-text"}>Read More <ArrowRightOutlined /></p>
-                                </div>
+                                    <div className="release-card">
+                                        <h4 className="medium-text">{frontmatter?.title}</h4>
+                                        <p className={"read-more-text roman-text"}>Read More <ArrowRightOutlined/></p>
+                                    </div>
                                 </Link>
                             ))}
                         </div>
