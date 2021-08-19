@@ -20,14 +20,14 @@ import googlePay from '../assets/images/google-play.png'
 const Banner = (props) => {
   const [visible, setVisible] = useState(false)
   const store = (
-    <Row className='card-row -row-flex-center store-icons' style={{ padding: '32px 32px 0px', display: 'flex',flexDirection:'row' }}>
-      <Col md={8}>
+    <Row className='card-row -row-flex-center store-icons' style={{ padding: '32px 0px 15px', display: 'flex',flexDirection:'row' }}>
+      <Col md={4} style={{marginRight: 15}}>
         <a href="https://apps.apple.com/us/app/mi-coach/id1572316783">
           <img src={appStore} alt='MI Coach on App Store' />
         </a>
 
       </Col>
-      <Col md={8}>
+      <Col md={4}>
         <a href="https://play.google.com/store/apps/details?id=com.resiliens.miapp">
           <img src={googlePay} alt='MI Coach on Play Store' />
         </a>
@@ -64,18 +64,24 @@ const Banner = (props) => {
                   className='card-row -row-flex-center store-icons'
                   style={{ padding: '32px 0 0px', display: 'flex',flexDirection:'row',justifyContent:"flex-start" }}
               >
-                <Col md={8}>
+                <Col md={6} style={{marginRight: 15}}>
                   <a href="https://apps.apple.com/us/app/mi-coach/id1572316783">
                     <img src={appStore} alt='MI Coach on App Store' />
                   </a>
                 </Col>
-                <Col md={8}>
+                <Col md={6}>
                   <a href="https://play.google.com/store/apps/details?id=com.resiliens.miapp">
                     <img src={googlePay} alt='MI Coach on Play Store' />
                   </a>
                 </Col>
               </Row>
-              <Button className="request-demo-btn" onClick={()=>setVisible(true)} style={{margin: "20px 0"}}>Watch the Video</Button>
+              <Button
+                  className="request-demo-btn"
+                  onClick={()=>setVisible(true)}
+                  style={{margin: "20px 0"}}
+              >
+                Watch the Video
+              </Button>
               {/*<a style={{fontSize:'24px'}} className="base-text black-18-font" onClick={()=>setVisible(true)}><Icon type="video-camera"/> {' '}Watch the Video</a>*/}
               <Modal
                 visible={visible}
@@ -261,16 +267,17 @@ const Banner = (props) => {
           </Col>
         </Row>
         <Row className='card-row divider'>
-          <Col md={12} className='-margin-right'>
-            <img className='custom-image' src={community} />
-          </Col>
-          <Col md={12}>
+
+          <Col md={12}  className='-margin-right'>
             <p className='bottom-space base-text'>
               Join the
               <span className='-highlighted-text'>{' '}Community</span></p>
             <div className="para-text black-18-font">
               Come join the MI Coach Community. There are discussion forums where you can discuss MI skills application and anything MI, motivation, commitment and change. Further, use existing Peer Groups or create your own to support each other.
             </div>
+          </Col>
+          <Col md={12}  className='card-col'>
+            <img className='custom-image' src={community} />
           </Col>
         </Row>
 
@@ -287,7 +294,6 @@ const Banner = (props) => {
           </Col>
         </Row>
         <Carousel reviews={dbtcoach} />*/}
-          <div className='divider' />
           {/*<div style={{textAlign:'center'}} className='all-testimonials divider'>
           <a className='-highlighted-secondary-text'>Check all testimonials</a>
       </div> */}
@@ -372,7 +378,7 @@ const Banner = (props) => {
           </Col>
         </Row> */}
 
-        <Row className='card-row divider mobile-app-container -row-flex-center'>
+        <Row className='card-row mobile-app-container -row-flex-center'>
           <Col md={24} className='dbt-box-container'>
             <Row className='card-row -row-flex-center dbt-box-border'>
               <div style={{ textAlign: 'center' }}>
