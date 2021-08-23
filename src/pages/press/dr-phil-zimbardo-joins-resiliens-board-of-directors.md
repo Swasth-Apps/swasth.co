@@ -1,6 +1,6 @@
 ---
 templateKey: press-releases-post
-title: Dr. Phil Zimbardo joins Resiliens'  Board of Directors
+title: Dr. Phil Zimbardo joins Resiliens'  Advisory Board
 date: 2021-01-15
 ---
 *![](/img/zimbardo.jpg)*
