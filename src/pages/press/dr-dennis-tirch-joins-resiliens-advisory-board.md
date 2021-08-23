@@ -3,14 +3,32 @@ templateKey: press-releases-post
 title: Dr. Dennis Tirch joins Resiliens'  Advisory Board
 date: 2021-01-31
 ---
-*![](/img/zimbardo.jpg)*
 
-Palo Alto, California - Resiliens today announced that Dr. Philip Zimbardo, Professor Emeritus, Stanford University, has been elected to Resiliens' board of directors. Dr. Zimbardo has been a Stanford University professor since 1968 (now emeritus), having taught previously at Yale, NYU, and Columbia University. He is currently a professor at the Palo Alto University, teaching social psychology to clinical graduate students.Zimbardo has been given numerous awards and honors as an educator, researcher, writer, media contributor, and for service to the profession of psychology. He has been awarded the Vaclav Havel Foundation Prize for his lifetime of research on the human condition.
 
-Dr. Philip Zimbardo is internationally recognized as the “voice and face of contemporary psychology” through his widely viewed PBS-TV series, Discovering Psychology, his media appearances, best-selling trade books, and his classic research, The Stanford Prison Experiment.\
-\
-His current research interests are in the domain of experimental social psychology, with an emphasis on: time perspective, persuasion, violence, political psychology, and terrorism. His current passion is The Heroic Imagination Project, exploring and encouraging the psychology of everyday heroes.\
-\
-Zimbardo has been President of the American Psychological Association (2002), President of the Western Psychological Association (twice), Chair of the Council of Scientific Society Presidents (CSSP), and now Chair of the Western Psychological Foundation.\
-\
-Among his more than 400 professional publications, including 50 trade and textbooks, is Psychology and Life, and Core Concepts in Psychology. His recent trade books include: The Lucifer Effect: Understanding How Good People Turn Evil (2007), The Time Paradox: Reconstructing the Past, Enjoying the Present, Mastering the Future (with John Boyd, 2008), The Time Cure: The Dynamic New Treatment For PTSD (with Richard and Rosemary Sword, 2012), and Man Interrupted: Why Young Men Are Struggling and What We Can Do About It (with Nikita Coulombe, 2016).
+Palo Alto, California - Resiliens today announced that Dr. Dennis Tirch, President of the Association for Contextual Behavioral Science (ACBS), has been elected to Resiliens' board of directors. Dr. Tirch is the Founder of The Center for Compassion Focused Therapy, the first clinical training center for Compassion Focused Therapy (CFT) in the United States. Dr. Tirch has been described as one of the country’s foremost leaders in compassion training and evidence-based therapy. He is an internationally acknowledged expert therapist, supervisor and trainer in CFT, Cognitive Behavioral Therapy (CBT), Acceptance and Commitment Therapy (ACT) and Buddhist Psychology (BP).
+
+Dr. Tirch is an author of 6 books, and numerous chapters and peer reviewed articles on mindfulness, acceptance and compassion in psychotherapy. His books include the new Guilford Publications release, *Experiencing ACT from the Inside Out*, a self-practice/self-reflection workbook for therapists, and *The Compassionate Mind Guide To Overcoming Anxiety*, the first evidence-based self-help book to apply the science of compassion to the treatment of anxiety. With Dr. Laura Silberstein-Tirch and others, Dr. Tirch is currently developing a research protocol involving behavioral science and CFT for treating anxiety, worry and fear-based difficulties through compassionate courage cultivation.
+
+Dr. Tirch serves as:
+
+* President of the Association for Contextual Behavioral Science (ACBS)
+* President of The Compassionate Mind Foundation of North America
+* Associate Clinical Professor at The Icahn College of Medicine at Mt. Sinai Medical Center
+* Fellow of ACBS
+* Founding President Emeritus of The New York City Chapter ACBS
+* Fellow & Certified Consultant & Trainer for The Academy of Cognitive Behavioral Therapy
+* Fellow and Past-President of The New York City CBT Association
+
+Dr. Tirch’s work has been covered by numerous media outlets, including; The Wall Street Journal, The Washington Post, The New York Times, The New York Post, NPR, WIRED, and O Magazine.
+
+Dr. Tirch regularly conducts training workshops and courses globally, live and online, and has served as an invited speaker for many organizations, such as Columbia University, The University of New South Wales, The University of Hong Kong, The NYC-CBT Association, ABCT, ACBS, New York Univeristy, Cornell University, and the Kagyu Samye Ling Buddhist monastery, and The Institute for Meditation and Psychotherapy.
+
+In addition to his work in clinical psychology, Dr. Tirch has based his life upon meditative and contemplative disciplines for over 40 years, beginning at age 10 with his first Zen teacher and uncle, Sergeant Michael A. Hughes of the 555th Battalion of The 82nd Airborne Division. Dr. Tirch has taken Dharma Holder vows in Soto and Rinzai lines, with The Zen Garland Order; Sanjujo Kai vows in Tendai Shu Buddhism; serves as an Ambassador for The Ram Dass Fellowship; and is a long time practitioner in the J.G. Bennett Line of the Gurdjieff Work, with Robert Fripp and The Guitar Circle community. Dr. Tirch’s work in this area can be found in his book *Buddhist Psychology and CBT: A Clinician’s Guide* with Laura Silberstein and Russell Kolts, as well as in private instruction. Dr. Tirch is involved in Bhakti Yoga and Kirtan practice, blending American traditional, guitar based, country-blues music with Kirtan and mantra musical forms of meditation.
+
+Prior to founding The Center, Dr. Tirch collaborated with leading CBT therapist, Dr. Robert Leahy, at The American Institute for Cognitive Therapy for 12 years, serving as Associate Director of The Institute. Dr. Tirch has worked closely with CFT Founder, Dr. Paul Gilbert, in the development of compassion focused approaches for anxiety.
+
+Dr. Tirch has benefited by participating in numerous trainings with many mentors, experts, friends and colleagues such as Paul Gilbert, Robert Leahy, Kelly Wilson, Steven C. Hayes, Robert Fripp, Robyn Walser and Zindel Segal.  Dr. Tirch is a founding participant in the ACT peer consultation group for New York City and Environs (ACTNYCE).
+
+Dr. Tirch is a New York State licensed clinical psychologist who has served as an Assistant Clinical Professor at Weill-Cornell Medical College, and as an Adjunct Associate Professor at Albert Einstein Medical School.
+
+Dr. Tirch received his PhD from Fairleigh Dickinson University.
