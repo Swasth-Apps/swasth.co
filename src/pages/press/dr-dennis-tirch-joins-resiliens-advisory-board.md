@@ -3,7 +3,7 @@ templateKey: press-releases-post
 title: Dr. Dennis Tirch joins Resiliens'  Advisory Board
 date: 2021-01-31
 ---
-![](/img/dennis.jpeg)
+*![](/img/dennis.jpeg)*
 
 Palo Alto, California - Resiliens today announced that Dr. Dennis Tirch, President of the Association for Contextual Behavioral Science (ACBS), has been elected to Resiliens' board of directors. Dr. Tirch is the Founder of The Center for Compassion Focused Therapy, the first clinical training center for Compassion Focused Therapy (CFT) in the United States. Dr. Tirch has been described as one of the country’s foremost leaders in compassion training and evidence-based therapy. He is an internationally acknowledged expert therapist, supervisor and trainer in CFT, Cognitive Behavioral Therapy (CBT), Acceptance and Commitment Therapy (ACT) and Buddhist Psychology (BP).
 
