@@ -16,7 +16,6 @@ class Press extends React.Component {
 
 
     render() {
-        console.log(this.props.data);
         return (
             <Layout extraHeader>
                 <Helmet title="Resiliens">
@@ -27,7 +26,10 @@ class Press extends React.Component {
                         content="Resiliens - Press"
                     />
                 </Helmet>
-                <PressComponent coverages={this.props.data?.pressCoverages?.edges} releases={this.props.data?.pressReleases?.edges}/>
+                <PressComponent
+                    coverages={this.props.data?.pressCoverages?.edges}
+                    releases={this.props.data?.pressReleases?.edges}
+                />
             </Layout>
         )
     }

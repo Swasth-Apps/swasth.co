@@ -10,9 +10,20 @@ class PressComponent extends React.Component {
         super(props);
     }
 
+    renderCoverage = (frontmatter) => (<>
+        <img
+            className="program-img"
+            src={frontmatter.image}
+        />
+        <div className="program-detail">
+            <div className="program-info">
+                <h4 className="medium-text">{frontmatter.title}</h4>
+            </div>
+        </div>
+    </>)
+
     render() {
         const {coverages, releases} = this.props;
-        console.log(coverages)
         return (
             <div className="press-page">
                 <div
@@ -20,7 +31,7 @@ class PressComponent extends React.Component {
                     className={'coach-wrapper'}
                     style={{paddingBottom: 0}}
                 >
-{/*
+
                     <div className="press-page-top-section">
                         <h2 className="heavy-text center coverage-text">
                             Press Coverage
@@ -34,23 +45,15 @@ class PressComponent extends React.Component {
                         <div className="press-coverage-carousel resilify-program-section">
                             <Slider maxSlideNum={3} className="program-wrapper" key={generateRandomID()}>
 
-                                {coverages?.map(({node: {frontmatter, fields}}) => (
+                                {coverages?.map(({node: {frontmatter}}) => (
                                     <a className="keen-slider__slide program-card" href={frontmatter.link}>
-                                        <img
-                                            className="program-img"
-                                            src={frontmatter.image}
-                                        />
-                                        <div className="program-detail">
-                                            <div className="program-info">
-                                                <h4 className="medium-text">{frontmatter.title}</h4>
-                                            </div>
-                                        </div>
+                                        {this.renderCoverage(frontmatter)}
                                     </a>
                                 ))}
 
                             </Slider>
                         </div>
-                    </div>*/}
+                    </div>
                     <div className="press-release-section">
                         <h2 className="heavy-text center release-text">
                             Press Releases
