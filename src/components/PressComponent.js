@@ -37,8 +37,8 @@ class PressComponent extends React.Component {
                             Press Coverage
                         </h2>
                         <p className="book-text center">
-                            If you want to get in touch with our press team, please email <a
-                            className="roman-text press-email">press@modernhealth.com.</a>
+                            If you want to get in touch with our press team, please email
+                            <a className="roman-text press-email" href="mailto:media@resiliens.com"> media@resiliens.com.</a>
                         </p>
                     </div>
                     <div className="resilify-home-page-body">

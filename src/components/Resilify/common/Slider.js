@@ -31,10 +31,10 @@ const PrevArrow = (props) => {
 };
 
 
-let items = getItemsPerSlider();
 
 
 const SliderComponent = props => {
+    let items = getItemsPerSlider();
     items = props.maxSlideNum && (items > props.maxSlideNum) ? props.maxSlideNum : items;
     const returnNum = num => props.maxSlideNum && (num > props.maxSlideNum) ? props.maxSlideNum : num
 
