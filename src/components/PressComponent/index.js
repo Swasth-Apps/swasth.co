@@ -1,26 +1,15 @@
 import React from 'react'
-import Slider from "./Resilify/common/Slider";
-import {generateRandomID} from "./Resilify/common/helper";
+import Slider from "../Resilify/common/Slider";
+import {generateRandomID} from "../Resilify/common/helper";
 import {Link} from "gatsby";
 import {ArrowRightOutlined} from "@ant-design/icons";
+import CoverageBox from "./CoverageBox";
 
 
 class PressComponent extends React.Component {
     constructor(props) {
         super(props);
     }
-
-    renderCoverage = (frontmatter) => (<>
-        <img
-            className="program-img"
-            src={frontmatter.image}
-        />
-        <div className="program-detail">
-            <div className="program-info">
-                <h4 className="medium-text">{frontmatter.title}</h4>
-            </div>
-        </div>
-    </>)
 
     render() {
         const {coverages, releases} = this.props;
@@ -31,27 +20,23 @@ class PressComponent extends React.Component {
                     className={'coach-wrapper'}
                     style={{paddingBottom: 0}}
                 >
-
                     <div className="press-page-top-section">
                         <h2 className="heavy-text center coverage-text">
                             Press Coverage
                         </h2>
                         <p className="book-text center">
                             If you want to get in touch with our press team, please email
-                            <a className="roman-text press-email" href="mailto:media@resiliens.com"> media@resiliens.com.</a>
+                            <a className="roman-text press-email" href="mailto:media@resiliens.com"> media@resiliens.com</a>
                         </p>
                     </div>
                     <div className="resilify-home-page-body">
                         <div className="press-coverage-carousel resilify-program-section">
-                            <Slider maxSlideNum={3} className="program-wrapper" key={generateRandomID()}>
-
+                            {coverages?.length ?
+                            <Slider maxSlideNum={3} className="program-wrapper"  key={generateRandomID()}>
                                 {coverages?.map(({node: {frontmatter}}) => (
-                                    <a className="keen-slider__slide program-card" href={frontmatter.link}>
-                                        {this.renderCoverage(frontmatter)}
-                                    </a>
+                                  <CoverageBox frontmatter={frontmatter} />
                                 ))}
-
-                            </Slider>
+                            </Slider> : null}
                         </div>
                     </div>
                     <div className="press-release-section">

@@ -1,8 +1,8 @@
 import React from 'react'
-import Layout from '../../components/Layout/layout'
-import PressComponent from "../../components/PressComponent";
+import Layout from '../components/Layout/layout'
+import PressComponent from "../components/PressComponent";
 import {Helmet} from "react-helmet";
-import {graphql} from "gatsby";
+import {graphql, StaticQuery} from "gatsby";
 
 
 class Press extends React.Component {
@@ -13,7 +13,6 @@ class Press extends React.Component {
 
         }
     }
-
 
     render() {
         return (
@@ -36,9 +35,12 @@ class Press extends React.Component {
 }
 
 
-export default Press;
-export const pageQuery = graphql`
-  query Press {
+
+
+export default (props) => (
+    <StaticQuery
+        query={graphql`
+     query Press {
       pressCoverages: allMarkdownRemark(
       filter: { frontmatter: { templateKey: { eq: "press-coverage-post" } } }, sort: {order: DESC, fields: frontmatter___date}
     ) {
@@ -72,4 +74,7 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+    `}
+        render={(data, count) => <Press {...props} data={data} count={count}/>}
+    />
+)
