@@ -4,11 +4,6 @@ import Slider from "react-slick";
 import RightIcon from "../../../assets/images/right.png"
 import LeftIcon from "../../../assets/images/left.png"
 
-
-
-
-
-
 const SliderComponent = props => {
     let items = getItemsPerSlider();
     items = props.maxSlideNum && (items > props.maxSlideNum) ? props.maxSlideNum : items;
