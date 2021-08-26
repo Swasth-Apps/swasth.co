@@ -5,7 +5,7 @@ date: 2021-07-25
 ---
 Humans are great at setting goals, but not nearly as good at attaining them. Why? Countless resources have been dedicated to answering that question in academic fields, including consulting psychology, management, and social psychology. And even those efforts must be dwarfed by the cumulative time spent pondering the question by every human being who set a goal and failed to achieve it. 
 
-![](/img/substance-abuse.png)
+***![](/img/substance-abuse.png)***
 
 
 
@@ -19,9 +19,7 @@ Motivational interviewing is a counseling method that helps people resolve ambiv
 
 For all these reasons, the Resiliens clinical and research teams collaborated with an expert in Motivational Interviewing, Dr. Stan Steindl, a Clinical Psychologist an academic and researcher in Motivational Interviewing and Compassion Focused Therapy. Together they built the **MI Coach** app to support people with behavior change concerns such as addiction, diet, exercises, life changes, etc.
 
-![](https://resiliens.com/static/MI_DailyTracking-c55662516b7a287c505e0761e9dafac5.png)
-
-![](https://resiliens-dev.netlify.app/static/MI_Lessons-35f080333d9f11138fe210dab2e2b396.png)
+***![](https://resiliens.com/static/MI_DailyTracking-c55662516b7a287c505e0761e9dafac5.png) ![](https://resiliens-dev.netlify.app/static/MI_Lessons-35f080333d9f11138fe210dab2e2b396.png)***
 
 MI Coach is designed for anyone who is considering making a change in their life and wanting to find their motivation. Whether that be everyday changes, such as finding the motivation to do the chores around the house, more significant life changes, such as moving jobs, or specific health behavior changes, such as smoking, drinking, diet, or exercise, MI Coach offer principles and practices to help. The app offers video lessons, practical skills and strategies, exercises and meditations, and daily goal setting and monitoring, all designed to assist people to build the motivation they need to make the changes that are important to them.
 
