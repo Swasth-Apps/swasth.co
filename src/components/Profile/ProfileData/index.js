@@ -11,6 +11,32 @@ class ProfileData extends React.Component {
 
     }
 
+
+    renderBook = book => <>
+        {book?.image ?
+            <CLImage
+                className="program-img"
+                cloudId={getCloudIDFromImageName(
+                    book?.image,
+                    "coaching",
+                    'png',
+                )}
+            /> : null}
+        <div style={{marginBottom: 30,marginTop: 10}}>
+            <a
+                className="book-text"
+                style={{fontSize: 18}}
+                href={book.resource}
+                target="_blank"
+            >
+                {book.title}
+            </a>
+            <p className="light-text">
+                {book.shortDescription}
+            </p>
+        </div>
+    </>
+
     render() {
         const {provider} = this.props;
         const links = provider?.links;
@@ -56,30 +82,9 @@ class ProfileData extends React.Component {
                                     </p>
                                     <ul style={{paddingLeft: 0, paddingTop: 10,}} className="books">
                                         {books?.map(book =>
-                                            <a href={book.link} className="para-text">
-                                                {book?.image ?
-                                                <CLImage
-                                                    className="program-img"
-                                                    cloudId={getCloudIDFromImageName(
-                                                        book?.image,
-                                                        "coaching",
-                                                        'png',
-                                                    )}
-                                                /> : null}
-                                                <div style={{marginBottom: 30,marginTop: 10}}>
-                                                    <a
-                                                        className="book-text"
-                                                        style={{fontSize: 18}}
-                                                        href={book.resource}
-                                                        target="_blank"
-                                                    >
-                                                        {book.title}
-                                                    </a>
-                                                    <p className="light-text">
-                                                        {book.shortDescription}
-                                                    </p>
-                                                </div>
-                                            </a>
+                                            book.link ? <a href={book.link} className="para-text">
+                                                {this.renderBook(book)}
+                                            </a> : <a rel={"noreferrer"}>{this.renderBook()}</a>
                                         )}
                                     </ul>
                                 </div> : null}
