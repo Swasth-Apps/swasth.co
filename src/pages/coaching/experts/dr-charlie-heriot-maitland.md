@@ -3,7 +3,7 @@ templateKey: coaching-experts
 title: Dr. Charlie Heriot-Maitland
 slug: charlie-heriot-maitland
 profileImage: charlie-heriot-profile.jpg
-coverImage: charlie-heriot-cover
+coverImage: charlie-heriot-cover.jpg
 location: Edinburgh, UK
 titleBio: Director of Balanced Minds Ltd
 sequence: 9
