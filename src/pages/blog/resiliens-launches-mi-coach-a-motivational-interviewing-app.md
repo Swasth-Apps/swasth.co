@@ -38,8 +38,6 @@ MI Coach is rooted in the clinical rigor and evidence-based techniques of Motiva
 
 MI Coach is designed to help people change. There is a behavioral focus on MI Coach outcomes, which are tracked across the period of the program via self-report questionnaires and self-monitoring. It is anticipated that MI Coach will contribute to increasing the user’s confidence, importance, and readiness to change, their commitment to making a change, and the changes themselves.
 
-
-
 ![](https://resiliens.com/static/MI_Assesment-759cf53918349844dca6105444fd3b30.png)
 
 ### Features
@@ -52,13 +50,9 @@ MI Coach includes a user-friendly daily check in for mood, behavior change measu
 
 ![](https://resiliens.com/static/MI_DailyTracking-c55662516b7a287c505e0761e9dafac5.png)
 
-
-
 MI Coach exercises and practice ideas are similar to strategies used in health conversations with a health practitioner skilled in MI. There are over 35 exercises designed to be worked through in a way that motivation builds across the use of the app and culminates in making a commitment to change. You can also see a history of all the exercises that you did in the past to compare. Each of the exercises links directly to lessons and can be alternatively accessed through an Exercises page.
 
 ![](https://resiliens.com/static/MI_Exercise-820b274dfe39f91f4d2dc07547e42a6e.png)
-
-
 
 Users can even access their favorites list where they can save exercises, skills, and meditations that they found particularly helpful or use frequently.
 
@@ -75,5 +69,3 @@ Columbia University: [The Science Behind Behavior Change](https://www.cuimc.col
 Berkman, E.T. (2018). The neuroscience of goals and behavior change: Lessons learned for consulting psychology. Consulting Psychology Journal, 70, 28-44.
 
 Hettema J, Steel, J, Miller WR. [Motivational interviewing](http://www.integration.samhsa.gov/MI_Annual_Review_of_Clinical_Psych.pdf). Annu Rev Clin Psychol. 2005;1:91-111.
-
-<!--EndFragment-->
