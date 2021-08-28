@@ -8,8 +8,34 @@ description: Motivational interviewing is a counseling method that helps people
   they need to change their behavior. It is a practical, empathetic, and
   short-term process that takes into consideration how difficult it is to make
   life changes.
+featuredpost: true
 image: https://resiliens.com/static/MI_Dashboard-b31da1eff7e705f2cfac26d90104d75c.png
 squareimage: https://resiliens.com/static/MI_Lessons-35f080333d9f11138fe210dab2e2b396.png
+categories:
+  category:
+    - title: Anxiety
+      slug: anxiety
+    - title: Depression
+      slug: depression
+    - title: Love and Relationships
+      slug: love-and-relationships
+    - title: Tech
+      slug: tech
+relatedpost:
+  blog:
+    - title: ACT for anxiety
+      slug: act-for-anxiety
+    - title: CBT vs DBT
+      slug: cbt-vs-dbt
+    - title: DBT for Emotional Dysregulation
+      slug: dbt-for-emotional-dysregulation
+    - title: "Does DBT work for Depression? "
+      slug: does-dbt-work-for-depression
+    - title: Top 4 Instantly Calming CBT Techniques for Anxiety
+      slug: top-4-instantly-calming-cbt-techniques-for-anxiety
+tags:
+  - Tech
+  - Motivation
 link: mi-coach-launched
 ---
 Humans are great at setting goals, but not nearly as good at attaining them. Why? Countless resources have been dedicated to answering that question in academic fields, including consulting psychology, [management](https://www.psychologytoday.com/us/basics/leadership "Psychology Today looks at management"), and social psychology. And even those efforts must be dwarfed by the cumulative time spent pondering the question by every human being who set a goal and failed to achieve it.
@@ -34,8 +60,6 @@ MI Coach is rooted in the clinical rigor and evidence-based techniques of Motiva
 
 MI Coach is designed to help people change. There is a behavioral focus on MI Coach outcomes, which are tracked across the period of the program via self-report questionnaires and self-monitoring. It is anticipated that MI Coach will contribute to increasing the user’s confidence, importance, and readiness to change, their commitment to making a change, and the changes themselves.
 
-
-
 ![](https://resiliens.com/static/MI_Assesment-759cf53918349844dca6105444fd3b30.png)
 
 ### Features
@@ -48,13 +72,9 @@ MI Coach includes a user-friendly daily check in for mood, behavior change measu
 
 ![](https://resiliens.com/static/MI_DailyTracking-c55662516b7a287c505e0761e9dafac5.png)
 
-
-
 MI Coach exercises and practice ideas are similar to strategies used in health conversations with a health practitioner skilled in MI. There are over 35 exercises designed to be worked through in a way that motivation builds across the use of the app and culminates in making a commitment to change. You can also see a history of all the exercises that you did in the past to compare. Each of the exercises links directly to lessons and can be alternatively accessed through an Exercises page.
 
 ![](https://resiliens.com/static/MI_Exercise-820b274dfe39f91f4d2dc07547e42a6e.png)
-
-
 
 Users can even access their favorites list where they can save exercises, skills, and meditations that they found particularly helpful or use frequently.
 
@@ -71,5 +91,3 @@ Columbia University: [The Science Behind Behavior Change](https://www.cuimc.col
 Berkman, E.T. (2018). The neuroscience of goals and behavior change: Lessons learned for consulting psychology. Consulting Psychology Journal, 70, 28-44.
 
 Hettema J, Steel, J, Miller WR. [Motivational interviewing](http://www.integration.samhsa.gov/MI_Annual_Review_of_Clinical_Psych.pdf). Annu Rev Clin Psychol. 2005;1:91-111.
-
-<!--EndFragment-->
