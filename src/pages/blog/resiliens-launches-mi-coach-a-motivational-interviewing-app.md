@@ -8,6 +8,7 @@ description: Motivational interviewing is a counseling method that helps people
   they need to change their behavior. It is a practical, empathetic, and
   short-term process that takes into consideration how difficult it is to make
   life changes.
+featuredpost: true
 image: https://resiliens.com/static/MI_Dashboard-b31da1eff7e705f2cfac26d90104d75c.png
 squareimage: https://resiliens.com/static/MI_Lessons-35f080333d9f11138fe210dab2e2b396.png
 link: mi-coach-launched
