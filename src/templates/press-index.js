@@ -1,8 +1,8 @@
 import React from 'react'
-import Layout from '../../components/Layout/layout'
-import PressComponent from "../../components/PressComponent";
+import Layout from '../components/Layout/layout'
+import PressComponent from "../components/PressComponent";
 import {Helmet} from "react-helmet";
-import {graphql} from "gatsby";
+import {graphql, StaticQuery} from "gatsby";
 
 
 class Press extends React.Component {
@@ -14,9 +14,7 @@ class Press extends React.Component {
         }
     }
 
-
     render() {
-        console.log(this.props.data);
         return (
             <Layout extraHeader>
                 <Helmet title="Resiliens">
@@ -27,16 +25,22 @@ class Press extends React.Component {
                         content="Resiliens - Press"
                     />
                 </Helmet>
-                <PressComponent coverages={this.props.data?.pressCoverages?.edges} releases={this.props.data?.pressReleases?.edges}/>
+                <PressComponent
+                    coverages={this.props.data?.pressCoverages?.edges}
+                    releases={this.props.data?.pressReleases?.edges}
+                />
             </Layout>
         )
     }
 }
 
 
-export default Press;
-export const pageQuery = graphql`
-  query Press {
+
+
+export default (props) => (
+    <StaticQuery
+        query={graphql`
+     query Press {
       pressCoverages: allMarkdownRemark(
       filter: { frontmatter: { templateKey: { eq: "press-coverage-post" } } }, sort: {order: DESC, fields: frontmatter___date}
     ) {
@@ -70,4 +74,7 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+    `}
+        render={(data, count) => <Press {...props} data={data} count={count}/>}
+    />
+)

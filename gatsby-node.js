@@ -81,6 +81,12 @@ exports.createPages = ({actions, graphql}) => {
             component: path.resolve('src/templates/resilify-index.js'),
         });
         /******** for Infinite scroll in blog index page ends *********/
+        /******** for Resilify Programs index page starts *********/
+        createPage({
+            path: "/press",
+            component: path.resolve('src/templates/press-index.js'),
+        });
+        /******** for Infinite scroll in blog index page ends *********/
 
         posts.forEach(edge => {
             const id = edge.node.id;
