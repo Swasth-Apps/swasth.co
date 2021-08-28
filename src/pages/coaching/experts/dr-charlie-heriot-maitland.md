@@ -45,5 +45,10 @@ qualifications:
 links:
   - text: Balanced Minds
     link: https://balancedminds.com/
-books: []
+books:
+  - image: coming-soon.jpg
+    title: "Relating to voices using Compassion Focused Therapy "
+    shortDescription: "A self-help book for people who hear voices, as well as for
+      their supporters and allies (e.g., families, friends, mental health and
+      social service professionals). "
 ---
