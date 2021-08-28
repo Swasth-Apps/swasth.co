@@ -11,6 +11,9 @@ description: Motivational interviewing is a counseling method that helps people
 featuredpost: true
 image: https://resiliens.com/static/MI_Dashboard-b31da1eff7e705f2cfac26d90104d75c.png
 squareimage: https://resiliens.com/static/MI_Lessons-35f080333d9f11138fe210dab2e2b396.png
+tags:
+  - Tech
+  - Motivation
 link: mi-coach-launched
 ---
 Humans are great at setting goals, but not nearly as good at attaining them. Why? Countless resources have been dedicated to answering that question in academic fields, including consulting psychology, [management](https://www.psychologytoday.com/us/basics/leadership "Psychology Today looks at management"), and social psychology. And even those efforts must be dwarfed by the cumulative time spent pondering the question by every human being who set a goal and failed to achieve it.
