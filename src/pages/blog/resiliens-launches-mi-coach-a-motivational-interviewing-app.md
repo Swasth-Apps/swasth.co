@@ -11,6 +11,28 @@ description: Motivational interviewing is a counseling method that helps people
 featuredpost: true
 image: https://resiliens.com/static/MI_Dashboard-b31da1eff7e705f2cfac26d90104d75c.png
 squareimage: https://resiliens.com/static/MI_Lessons-35f080333d9f11138fe210dab2e2b396.png
+categories:
+  category:
+    - title: Anxiety
+      slug: anxiety
+    - title: Depression
+      slug: depression
+    - title: Love and Relationships
+      slug: love-and-relationships
+    - title: Tech
+      slug: tech
+relatedpost:
+  blog:
+    - title: ACT for anxiety
+      slug: act-for-anxiety
+    - title: CBT vs DBT
+      slug: cbt-vs-dbt
+    - title: DBT for Emotional Dysregulation
+      slug: dbt-for-emotional-dysregulation
+    - title: "Does DBT work for Depression? "
+      slug: does-dbt-work-for-depression
+    - title: Top 4 Instantly Calming CBT Techniques for Anxiety
+      slug: top-4-instantly-calming-cbt-techniques-for-anxiety
 tags:
   - Tech
   - Motivation
