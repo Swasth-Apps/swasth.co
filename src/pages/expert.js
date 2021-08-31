@@ -7,7 +7,6 @@ const ExpertComponent = props => {
 
     const { experts } = props.data;
     const path = typeof window !== "undefined" ? window?.location?.pathname?.substring('/expert/'.length) : "";
-    console.log(experts)
     const expert = experts?.edges?.find(({node}) => node?.frontmatter?.slug?.includes(path));
     return (
         <Layout>

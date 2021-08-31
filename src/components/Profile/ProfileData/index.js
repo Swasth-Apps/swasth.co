@@ -84,7 +84,7 @@ class ProfileData extends React.Component {
                                         {books?.map(book =>
                                             book.link ? <a href={book.link} className="para-text">
                                                 {this.renderBook(book)}
-                                            </a> : <a rel={"noreferrer"}>{this.renderBook()}</a>
+                                            </a> : <a rel={"noreferrer"}>{this.renderBook(book)}</a>
                                         )}
                                     </ul>
                                 </div> : null}
