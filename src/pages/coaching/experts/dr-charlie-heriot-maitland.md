@@ -1,7 +1,7 @@
 ---
 templateKey: coaching-experts
 title: Dr. Charlie Heriot-Maitland
-slug: charlie-heriot-maitland
+slug: dr-charlie-heriot-maitland
 profileImage: charlie-heriot-profile.jpg
 coverImage: charlie-heriot-cover.jpg
 location: Edinburgh, UK
