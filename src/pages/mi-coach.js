@@ -16,7 +16,7 @@ class MICoachIndex extends React.Component {
                     />
                     <meta property="og:type" content="article"/>
                     <meta property="og:url" content="https://resiliens.com/mi-coach/"/>
-                    <meta property="og:image" content="https://res.cloudinary.com/dbt/image/upload/v1630677105/resiliens/mi_og.png"/>
+                    <meta property="og:image" content="https://res.cloudinary.com/dbt/image/upload/v1630677105/resiliens/mi_og_img.png"/>
                 </Helmet>
                 <div
                     id='wrapper'
