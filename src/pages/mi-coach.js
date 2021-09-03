@@ -17,8 +17,8 @@ class MICoachIndex extends React.Component {
                     <meta property="og:type" content="article"/>
                     <meta property="og:url" content="https://resiliens.com/mi-coach/"/>
                     <meta property="og:image" content="https://resiliens.com/static/MI_Dashboard-b31da1eff7e705f2cfac26d90104d75c.png"/>
-                    <meta property="og:image:width" content="200"/>
-                    <meta property="og:image:height" content="200"/>
+                    <meta property="og:image:width" content="500"/>
+                    <meta property="og:image:height" content="500"/>
                     <meta property="og:site_name" content="Resiliens"/>
 
                     <meta property="og:description"
