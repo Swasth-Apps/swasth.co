@@ -1,4 +1,5 @@
 import React from "react"
+import {Helmet} from "react-helmet";
 
 export default class HTML extends React.Component {
     render() {
@@ -34,8 +35,7 @@ export default class HTML extends React.Component {
                 <meta property="twitter:description"
                       content="A platform built on evidence-based principles, delivered by licensed clinicians, coaches making care accessible, effective and scalable."/>
                 <meta property="twitter:image" content=""/>
-
-
+                <meta property="og:site_name" content="Resiliens"/>
                 <meta
                     name="google-site-verification"
                     content=""/>
