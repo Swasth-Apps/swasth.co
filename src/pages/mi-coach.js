@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout/layout';
 import {Helmet} from "react-helmet";
 import MICoach from "../components/MICoach";
+import {MetaTags} from "../components/Resilify/common/MetaTags";
 
 class MICoachIndex extends React.Component {
     render() {
@@ -14,12 +15,7 @@ class MICoachIndex extends React.Component {
                         name="keywords"
                         content="MI Coach, Motivational Interviewing, Behavior Change, Behavior Tracking, Depression, Anxiety, Self Harm, Eating Disorders, Recovery, Anger, Relationships, PTSD, Chronic illness, OCD, PTSD, ADHD, Substance Abuse, Addiction, Stress"
                     />
-                    <meta property="og:type" content="article"/>
-                    <meta property="og:url" content="https://resiliens.com/mi-coach/"/>
-                    <meta property="og:image" content="https://resiliens.com/static/MI_Dashboard-b31da1eff7e705f2cfac26d90104d75c.png"/>
-
-                    <meta property="og:description"
-                          content="A platform built on evidence-based principles, delivered by licensed clinicians, coaches making care accessible, effective and scalable."/>
+                    {MetaTags("https://resiliens.com/mi-coach/", "https://res.cloudinary.com/dbt/image/upload/v1630677105/resiliens/mi_og.png")}
                 </Helmet>
                 <div
                     id='wrapper'

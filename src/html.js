@@ -39,7 +39,8 @@ export default class HTML extends React.Component {
                 <meta
                     name="google-site-verification"
                     content=""/>
-
+                <meta property="og:description"
+                      content="A platform built on evidence-based principles, delivered by licensed clinicians, coaches making care accessible, effective and scalable."/>
 
                 <meta itemProp="image" content="/assets/images/resilience-logo.png"/>
                 <link rel="manifest" href="/manifest.json"/>
