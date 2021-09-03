@@ -46,7 +46,7 @@ export default class HTML extends React.Component {
                 <link rel="manifest" href="/manifest.json"/>
                 <link rel="icon" href="/assets/images/resilience-logo.png"/>
 
-
+                <meta name="facebook-domain-verification" content="74eylemvkal03g10s7haulm4uc8jih" />
                 <meta name="theme-color" content="#ffffff"/>
             </head>
             <body className="h-full" style={{height: "100%"}}>
