@@ -35,14 +35,6 @@ export default class HTML extends React.Component {
                       content="A platform built on evidence-based principles, delivered by licensed clinicians, coaches making care accessible, effective and scalable."/>
                 <meta property="twitter:image" content=""/>
 
-                <meta property="og:type" content="website"/>
-                <meta property="og:url" content="/"/>
-                <meta property="og:image" content="/assets/images/resilience-logo.png"/>
-                <meta property="og:description"
-                      content="A platform built on evidence-based principles, delivered by licensed clinicians, coaches making care accessible, effective and scalable."/>
-                <meta property="og:image:width" content="200"/>
-                <meta property="og:image:height" content="200"/>
-                <meta property="og:site_name" content="Resiliens"/>
 
                 <meta
                     name="google-site-verification"

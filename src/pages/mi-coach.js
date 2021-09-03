@@ -14,9 +14,15 @@ class MICoachIndex extends React.Component {
                         name="keywords"
                         content="MI Coach, Motivational Interviewing, Behavior Change, Behavior Tracking, Depression, Anxiety, Self Harm, Eating Disorders, Recovery, Anger, Relationships, PTSD, Chronic illness, OCD, PTSD, ADHD, Substance Abuse, Addiction, Stress"
                     />
-                    <meta property="og:type" content="website"/>
-                    <meta property="og:url" content="/mi-coach"/>
+                    <meta property="og:type" content="article"/>
+                    <meta property="og:url" content="https://resiliens.com/mi-coach/"/>
                     <meta property="og:image" content="https://resiliens.com/static/MI_Dashboard-b31da1eff7e705f2cfac26d90104d75c.png"/>
+                    <meta property="og:image:width" content="200"/>
+                    <meta property="og:image:height" content="200"/>
+                    <meta property="og:site_name" content="Resiliens"/>
+
+                    <meta property="og:description"
+                          content="A platform built on evidence-based principles, delivered by licensed clinicians, coaches making care accessible, effective and scalable."/>
                 </Helmet>
                 <div
                     id='wrapper'
