@@ -49,6 +49,7 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "resilify-program"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "string"}
+      - {label: "ProgramId", name: "programId", widget: "string"}
       - {label: "Sequence", name: "sequence", widget: "number"}
       - {label: "Program Overview", name: "overview", widget: "markdown"}
       - {label: "Categories", name: "categories", widget: object, fields: [{label: "category", name: "category", widget: list, fields: [{label: Title, name: title, widget: string}]}]}

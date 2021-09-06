@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactHtmlParser from "react-html-parser";
 import CLImage from "../../../helper/CLImage";
-import {Collapse, Tabs} from "antd";
+import {Collapse, Divider, Tabs} from "antd";
 import {getCloudIDFromImageName} from "../../../helper/helper";
 import Program from "../../../components/Program";
+import {Link} from "gatsby";
 
 const {Panel} = Collapse;
 const {TabPane} = Tabs;
@@ -15,11 +16,15 @@ const ResilifyProgram = (props) => {
     const relatedPrograms = props.program?.relatedpost?.program;
 
     const sessions = program?.sessions?.session;
+    console.log(program)
     return (
             <div className="resilify-program-page" style={{marginTop: 2}}>
                 <h3 className="program-section-title base-text">{program.title}</h3>
-
                 <div className="program-detail-section">
+                    {sessions?.length ?
+                        <div className="sessions-length roman-text">
+                            {`${sessions?.length} Sessions`}
+                        </div> : null}
                     <div className="program-overview-container">
                         <div className="program-overview-section scrollbar">
                             <div style={{textAlign: "center"}}>
@@ -45,6 +50,30 @@ const ResilifyProgram = (props) => {
                                 <div className="html-parser-description" style={{textAlign: "left"}}>
                                     {ReactHtmlParser(program.overview)}
                                 </div>
+                                    <div className="hours-text-row">
+                                        <img src={require("../../../assets/images/clock-time.png")}/>
+                                            <p className="medium-text hours-text">
+                                                {sessions?.length}{' Hours'}
+                                            </p>
+                                    </div>
+                                <div>
+                                    <Divider orientation={"center"} style={{fontSize: 18}} className="medium-text">Join from</Divider>
+                                </div>
+                                <div className="join-program-btns">
+                                    <div className="btn">
+                                        <img src={'https://itwire.com/media/k2/items/cache/401b2aa9924b13d9231c78fc00d6473e_XL.jpg'}/>
+                                        <p className="medium-text">Google Play</p>
+                                    </div>
+                                    <div className="btn">
+                                        <img src={'https://cdn.iconscout.com/icon/free/png-256/ios-apple-572947.png'}/>
+                                        <p className="medium-text">Apple Store</p>
+                                    </div>
+                                    <div className="btn" onClick={()=> window.open(`http://localhost:3000?programId=`)}>
+                                        <img src={require("../../../assets/images/website.png")}/>
+                                        <p className="medium-text">Web</p>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
