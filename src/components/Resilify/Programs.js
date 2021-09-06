@@ -64,7 +64,7 @@ const ResilifyProgramsScreen = (props) => {
             {programs?.length > 8 ? showMore ?
                 <div style={{textAlign: "center", margin: "20px 0 40px"}}>
                     <a rel="noreferrer" onClick={toggleMore}>
-                        <Button className="request-demo-btn base-text" onClick={() => scrollToDiv("#topic-tabs")}>Show
+                        <Button className="request-demo-btn base-text">Show
                             More</Button>
                     </a>
                 </div> : <div style={{textAlign: "center", margin: "20px 0 40px"}} onClick={toggleMore}>
