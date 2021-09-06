@@ -11,10 +11,10 @@ const edges = ["Overview", "Activities"];
 
 const ResilifyProgram = (props) => {
 
-    const openApp = () => {
-        window.location.replace(`resilify://programDetail?programId=${program.programId}`);
+    const openApp = (isIOS = false) => {
+        window.location.replace(`resilify://programDetail/${program.programId}`);
         setTimeout(()=>{
-            window.location.replace('market://details?id=co.swasth.dbtcoach');
+            window.location.replace(isIOS ? 'itms-apps://itunes.apple.com/app/dbt-coach/id1452264969' : 'market://details?id=co.swasth.dbtcoach');
         }, 250);
 
     }
@@ -70,7 +70,7 @@ const ResilifyProgram = (props) => {
                                         <img src={'https://itwire.com/media/k2/items/cache/401b2aa9924b13d9231c78fc00d6473e_XL.jpg'}/>
                                         <p className="medium-text">Google Play</p>
                                     </div>
-                                    <div className="btn" onClick={() => openApp()}>
+                                    <div className="btn" onClick={() => openApp(true)}>
                                         <img src={'https://cdn.iconscout.com/icon/free/png-256/ios-apple-572947.png'}/>
                                         <p className="medium-text">Apple Store</p>
                                     </div>
