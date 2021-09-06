@@ -88,7 +88,6 @@ export const pageQuery = graphql`
         title
         image
         overview
-        programId
         categories {
           category {
             title
