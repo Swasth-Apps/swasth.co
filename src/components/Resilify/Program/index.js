@@ -13,120 +13,117 @@ const ResilifyProgram = (props) => {
 
     const openApp = (isIOS = false) => {
         window.location.replace(`resilify://programDetail/${program.programId}`);
-        setTimeout(()=>{
+        setTimeout(() => {
             window.location.replace(isIOS ? 'itms-apps://itunes.apple.com/app/dbt-coach/id1452264969' : 'market://details?id=co.swasth.dbtcoach');
         }, 250);
 
     }
 
-    const  program = props?.program || [];
+    const program = props?.program || [];
     const relatedPrograms = props.program?.relatedpost?.program;
     const sessions = program?.sessions?.session;
 
     return (
-            <div className="resilify-program-page" style={{marginTop: 2}}>
-                <h3 className="program-section-title base-text">{program.title}</h3>
-                <div className="program-detail-section">
-                    {sessions?.length ?
-                        <div className="sessions-length roman-text">
-                            {`${sessions?.length} Sessions`}
-                        </div> : null}
-                    <div className="program-overview-container">
-                        <div className="program-overview-section scrollbar">
-                            <div style={{textAlign: "center"}}>
-                                <CLImage
-                                    cloudId={getCloudIDFromImageName(
-                                        program.image,
-                                        "bodhi",
-                                        'characters',
-                                    )}
-                                    imageHeight={800}
-                                    imageWidth={1200}
-                                    className="track-detail-img"
-                                />
+        <div className="resilify-program-page" style={{marginTop: 2}}>
+            <h3 className="program-section-title base-text">{program.title}</h3>
+            <div className="program-detail-section">
+                {sessions?.length ?
+                    <div className="sessions-length roman-text">
+                        {`${sessions?.length} Sessions`}
+                    </div> : null}
+                <div className="program-overview-container">
+                    <div className="program-overview-section scrollbar">
+                        <div style={{textAlign: "center"}}>
+                            <CLImage
+                                cloudId={getCloudIDFromImageName(
+                                    program.image,
+                                    "bodhi",
+                                    'characters',
+                                )}
+                                imageHeight={800}
+                                imageWidth={1200}
+                                className="track-detail-img"
+                            />
+                        </div>
+                        <div>
+                            <div className="program-overview-container">
+                                <div className="row">
+                                    <h4 className="medium-text">
+                                        About this program
+                                    </h4>
+                                </div>
+                            </div>
+                            <div className="html-parser-description" style={{textAlign: "left"}}>
+                                {ReactHtmlParser(program.overview)}
+                            </div>
+                            <div className="hours-text-row">
+                                <img src={require("../../../assets/images/clock-time.png")}/>
+                                <p className="medium-text hours-text">
+                                    {sessions?.length}{' Hours'}
+                                </p>
                             </div>
                             <div>
-                                <div className="program-overview-container">
-                                    <div className="row">
-                                        <h4 className="medium-text">
-                                            About this program
-                                        </h4>
-                                    </div>
-                                </div>
-                                <div className="html-parser-description" style={{textAlign: "left"}}>
-                                    {ReactHtmlParser(program.overview)}
-                                </div>
-                                    <div className="hours-text-row">
-                                        <img src={require("../../../assets/images/clock-time.png")}/>
-                                            <p className="medium-text hours-text">
-                                                {sessions?.length}{' Hours'}
-                                            </p>
-                                    </div>
-                                <div>
-                                    <Divider orientation={"center"} style={{fontSize: 18}} className="medium-text">Join from</Divider>
-                                </div>
-                                <div className="join-program-btns" onClick={() => openApp()}>
-                                    <div className="btn">
-                                        <img src={'https://itwire.com/media/k2/items/cache/401b2aa9924b13d9231c78fc00d6473e_XL.jpg'}/>
-                                        <p className="medium-text">Google Play</p>
-                                    </div>
-                                    <div className="btn" onClick={() => openApp(true)}>
-                                        <img src={'https://cdn.iconscout.com/icon/free/png-256/ios-apple-572947.png'}/>
-                                        <p className="medium-text">Apple Store</p>
-                                    </div>
-                                    <div className="btn" onClick={()=> window.open(`https://resilify-dev.resiliens.com/app/explore?programId=${program.programId}`)}>
-                                        <img src={require("../../../assets/images/website.png")}/>
-                                        <p className="medium-text">Web</p>
-                                    </div>
-                                </div>
-
+                                <Divider orientation={"center"} style={{fontSize: 18}} className="medium-text">Join
+                                    from</Divider>
                             </div>
-                        </div>
-                    </div>
-                    <div className="program-overview-container">
-                        <div className="program-overview-section scrollbar">
-                            <h4 className="base-text" style={{fontSize: 24}}>Sessions</h4>
-                            <div className="faqs">
-                                <Collapse
-                                    accordion
-                                    bordered={false}
-                                    expandIconPosition="right"
-                                >
-                                    {sessions?.map((session, i) => (
-                                        <Collapse.Panel
-                                            header={
-                                                <>
-                                                    <h4 className="medium-text">{session.title}</h4>
-                                                    <p className="roman-text">Session {i + 1}</p>
-                                                </>
-                                            }
-
-                                            key={i + 1}>
-                                            <Tabs className={`topic-tabs`}>
-                                                {edges?.map(item =>
-                                                    <TabPane tab={item} key={item}>
-                                                        {item === "Overview" ?
-                                                            <p className="para-text" style={{fontSize: 16}}>
-                                                                {session.overview}
-                                                            </p>:
-                                                            <p className="para-text" style={{fontSize: 16}}>
-                                                                {session.activityOverview}
-                                                            </p>
-                                                        }
-                                                    </TabPane>
-                                                )}
-                                            </Tabs>
-                                        </Collapse.Panel>))}
-                                </Collapse>
+                            <div className="join-program-btns" onClick={() => openApp()}>
+                                <div className="btn">
+                                    <img
+                                        src={'https://itwire.com/media/k2/items/cache/401b2aa9924b13d9231c78fc00d6473e_XL.jpg'}/>
+                                    <p className="medium-text">Google Play</p>
+                                </div>
+                                <div className="btn" onClick={() => openApp(true)}>
+                                    <img src={'https://cdn.iconscout.com/icon/free/png-256/ios-apple-572947.png'}/>
+                                    <p className="medium-text">Apple Store</p>
+                                </div>
+                                <div className="btn"
+                                     onClick={() => window.open(`https://resilify-dev.resiliens.com/app/explore?programId=${program.programId}`)}>
+                                    <img src={require("../../../assets/images/website.png")}/>
+                                    <p className="medium-text">Web</p>
+                                </div>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
+                <div className="program-overview-container">
+                    <div className="program-overview-section scrollbar">
+                        <h4 className="base-text" style={{fontSize: 24}}>Sessions</h4>
+                        <div className="faqs">
+                            <Collapse
+                                accordion
+                                bordered={false}
+                                expandIconPosition="right"
+                            >
+                                {sessions?.map((session, i) => (
+                                    <Collapse.Panel
+                                        header={
+                                            <>
+                                                <h4 className="medium-text">{session.title}</h4>
+                                                <p className="roman-text">Session {i + 1}</p>
+                                            </>
+                                        }
+
+                                        key={i + 1}>
+                                        <p className="overview-title medium-text">Overview</p>
+                                        <p className="para-text" style={{fontSize: 16}}>
+                                            {session.overview}
+                                        </p>
+                                        <p className="overview-title medium-text">Activities</p>
+                                        <p className="para-text" style={{fontSize: 16}}>
+                                            {session.activityOverview}
+                                        </p>
+                                    </Collapse.Panel>))}
+                            </Collapse>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
 
 
-                {/*<div className="banner-img">*/}
-                       {/* <div className="program-top-banner"
+            {/*<div className="banner-img">*/}
+            {/* <div className="program-top-banner"
                              style={{
                                  background: `url(${CoachBg}) no-repeat center center fixed`
                              }}
@@ -188,19 +185,20 @@ const ResilifyProgram = (props) => {
                         </div>
                     </div>*/}
 
-                <div className="category-page-body resilify-home-page-body">
-                    <div className="program-section" id={`topic-tabs`}>
-                        <h3 className="program-section-title base-text">Related Programs</h3>
-                    </div>
-                    <div className="program-wrapper">
-                        {relatedPrograms?.map((p) => {
+            <div className="category-page-body resilify-home-page-body">
+                <div className="program-section" id={`topic-tabs`}>
+                    <h3 className="program-section-title base-text">Related Programs</h3>
+                </div>
+                <div className="program-wrapper">
+                    {relatedPrograms?.map((p) => {
                             const program = props.allPrograms?.find(a => a?.node?.fields?.slug?.includes(p.slug));
-                             return(   program ? <Program program={program?.node?.frontmatter} slug={program?.node?.fields?.slug}/> : null )
-                            }
-                        )}
-                    </div>
+                            return (program ?
+                                <Program program={program?.node?.frontmatter} slug={program?.node?.fields?.slug}/> : null)
+                        }
+                    )}
                 </div>
             </div>
+        </div>
     )
 };
 

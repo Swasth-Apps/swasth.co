@@ -526,6 +526,7 @@
 
         .hours-text-row{
           display: flex;
+          justify-content: flex-end;
           align-items: center;
           margin: 20px 0;
           img{
@@ -558,9 +559,7 @@
 
           .ant-collapse-item {
             margin-top: 20px;
-            box-shadow: none;
-            border: 1px solid rgba(0, 0, 0, 0.34);
-
+            box-shadow: lighten(_palette(blue-color), 30%) 0px 1px 4px;
             .ant-collapse-content-box {
               padding: 0 20px 20px;
             }
@@ -571,6 +570,14 @@
               img {
                 transform: rotate(90deg);
               }
+            }
+          }
+
+          .ant-collapse-content-box {
+            margin-top: 5px;
+            .overview-title {
+              font-size: 18px;
+              margin-bottom: 10px;
             }
           }
         }
