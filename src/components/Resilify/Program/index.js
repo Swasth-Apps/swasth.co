@@ -12,7 +12,7 @@ const edges = ["Overview", "Activities"];
 const ResilifyProgram = (props) => {
 
     const openApp = () => {
-        window.location.replace(`resilify://programId=${program.programId}`);
+        window.location.replace(`resilify://programDetail?programId=${program.programId}`);
         setTimeout(()=>{
             window.location.replace('market://details?id=co.swasth.dbtcoach');
         }, 250);
