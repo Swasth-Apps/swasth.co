@@ -4,19 +4,25 @@ import CLImage from "../../../helper/CLImage";
 import {Collapse, Divider, Tabs} from "antd";
 import {getCloudIDFromImageName} from "../../../helper/helper";
 import Program from "../../../components/Program";
-import {Link} from "gatsby";
 
-const {Panel} = Collapse;
 const {TabPane} = Tabs;
 
 const edges = ["Overview", "Activities"];
 
 const ResilifyProgram = (props) => {
+
+    const openApp = () => {
+        window.location.replace(`resilify://programId=${program.programId}`);
+        setTimeout(()=>{
+            window.location.replace('market://details?id=co.swasth.dbtcoach');
+        }, 250);
+
+    }
+
     const  program = props?.program || [];
     const relatedPrograms = props.program?.relatedpost?.program;
-
     const sessions = program?.sessions?.session;
-    console.log(program)
+
     return (
             <div className="resilify-program-page" style={{marginTop: 2}}>
                 <h3 className="program-section-title base-text">{program.title}</h3>
@@ -59,16 +65,16 @@ const ResilifyProgram = (props) => {
                                 <div>
                                     <Divider orientation={"center"} style={{fontSize: 18}} className="medium-text">Join from</Divider>
                                 </div>
-                                <div className="join-program-btns">
+                                <div className="join-program-btns" onClick={() => openApp()}>
                                     <div className="btn">
                                         <img src={'https://itwire.com/media/k2/items/cache/401b2aa9924b13d9231c78fc00d6473e_XL.jpg'}/>
                                         <p className="medium-text">Google Play</p>
                                     </div>
-                                    <div className="btn">
+                                    <div className="btn" onClick={() => openApp()}>
                                         <img src={'https://cdn.iconscout.com/icon/free/png-256/ios-apple-572947.png'}/>
                                         <p className="medium-text">Apple Store</p>
                                     </div>
-                                    <div className="btn" onClick={()=> window.open(`http://localhost:3000?programId=`)}>
+                                    <div className="btn" onClick={()=> window.open(`https://resilify-dev.resiliens.com/app/explore?programId=${program.programId}`)}>
                                         <img src={require("../../../assets/images/website.png")}/>
                                         <p className="medium-text">Web</p>
                                     </div>
