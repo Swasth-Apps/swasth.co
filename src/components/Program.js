@@ -25,12 +25,16 @@ const Program = props => {
             <div className="program-detail">
                 <div className="program-info">
                     <h4 className="base-text">{program.title}</h4>
-                    {/*<div className="program-tags">
-                        {program?.tags?.map(tag => <p className="tag">{tag}</p>)}
-                    </div>*/}
+
                     <p className="html-parser-description" >
                         {HtmlParser(program.overview)}
                     </p>
+                    <div className="hours-text-row">
+                        <img src={require("../assets/images/clock-time.png")}/>
+                        <p className="medium-text hours-text">
+                            {program?.sessions?.session?.length}{' Hours'}
+                        </p>
+                    </div>
                 </div>
             </div>
         </Link>
