@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: Enhancing Self-Esteem
 image: self-esteem.png
+programId: b505dff0-6257-11eb-b3f9-d53e11669ace
 sequence: 106
 overview: >-
   <p><span style="font-weight: 400;">Self-esteem, or how we evaluate our
