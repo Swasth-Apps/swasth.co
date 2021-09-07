@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: Dealing with Social Anxiety
 image: social-anxiety.png
+programId: 62942c00-96ef-11eb-8daf-710506fdcf69
 sequence: 117
 overview: >-
   <p><span style="font-weight: 400;">Whenever we want to change an aspect of our
