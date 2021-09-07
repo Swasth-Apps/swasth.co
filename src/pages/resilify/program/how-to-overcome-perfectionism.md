@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: How to overcome Perfectionism
 image: perfectionism.png
+programId: c2ef0370-8323-11eb-9069-1fdfe9fe5c67
 sequence: 116
 overview: >-
   <p><span>Each one of us sets certain goals for ourselves and try our best to
