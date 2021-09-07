@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: CBT for Addiction and Substance Use
 image: substance-abuse.jpg
+programId: c1cdb540-583f-11eb-89f2-81e57c3412ac
 sequence: 110
 overview: <p>This is a program designed for people suffering from addiction and
   substance use disorders. It uses Cognitive Behavioral Therapy(CBT) to
