@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: The Science of Resilience and Coping
 image: resilience-image-1.jpg
+programId: 5f5607c0-5653-11eb-9b75-d3467c518819
 sequence: 113
 overview: >-
   <p>Do you find some days harder than others? Life can be unpredictable. Life
