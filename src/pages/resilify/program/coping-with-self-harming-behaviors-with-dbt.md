@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: Coping with Self-harming Behaviors with DBT
 image: self-harm.png
+programId: 40401fe0-32f6-11eb-b1e7-53bd2da2f745
 sequence: 108
 overview: >-
   <p><span style="font-weight: 400;">Self-harm is a common challenge that many
