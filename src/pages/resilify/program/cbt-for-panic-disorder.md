@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: CBT for Panic Disorder
 image: panic-disorder.jpg
+programId: f58bb000-626a-11eb-85d3-49b99fa00026
 sequence: 107
 overview: >-
   <p>Having panic attacks can be a distressing, scary experience, often causing
