@@ -66,8 +66,8 @@ const ResilifyProgram = (props) => {
                                 <Divider orientation={"center"} style={{fontSize: 18}} className="medium-text">Join
                                     from</Divider>
                             </div>
-                            <div className="join-program-btns" onClick={() => openApp()}>
-                                <div className="btn">
+                            <div className="join-program-btns" >
+                                <div className="btn" onClick={() => openApp()}>
                                     <img
                                         src={'https://itwire.com/media/k2/items/cache/401b2aa9924b13d9231c78fc00d6473e_XL.jpg'}/>
                                     <p className="medium-text">Google Play</p>
@@ -77,7 +77,7 @@ const ResilifyProgram = (props) => {
                                     <p className="medium-text">Apple Store</p>
                                 </div>
                                 <div className="btn"
-                                     onClick={() => window.open(`https://resilify-dev.resiliens.com/app/explore?programId=${program.programId}`)}>
+                                     onClick={() => window.open(`http://localhost:3000/app/explore?programId=${program.programId}`)}>
                                     <img src={require("../../../assets/images/website.png")}/>
                                     <p className="medium-text">Web</p>
                                 </div>
