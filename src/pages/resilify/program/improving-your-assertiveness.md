@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: Improving your Assertiveness
 image: Assertive.png
+programId: 5ceaef90-9b7d-11eb-ac20-33fb37cdbab4
 sequence: 118
 overview: <p>Assertive behavior is a communication style where we communicate
   our feelings, thoughts, and beliefs in an open, honest manner without
