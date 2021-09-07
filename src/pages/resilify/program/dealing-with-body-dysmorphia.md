@@ -2,6 +2,7 @@
 templateKey: resilify-program
 title: Dealing with Body Dysmorphia
 image: body-dysmorphia.png
+programId: bdff86a0-7685-11eb-b087-6905a2eac6a8
 sequence: 112
 overview: '<p><span style="font-weight: 400;">This program introduces the
   concept of body dysmorphic disorder with the help of body image. Further, as
