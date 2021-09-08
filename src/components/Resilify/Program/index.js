@@ -77,7 +77,7 @@ const ResilifyProgram = (props) => {
                                     <p className="medium-text">Apple Store</p>
                                 </div>
                                 <div className="btn"
-                                     onClick={() => window.open(`http://localhost:3000/app/explore?programId=${program.programId}`)}>
+                                     onClick={() => window.open(`https://resilify-dev.resiliens.com/app/explore?programId=${program.programId}`)}>
                                     <img src={require("../../../assets/images/website.png")}/>
                                     <p className="medium-text">Web</p>
                                 </div>
