@@ -1,0 +1,39 @@
+.fb-data-deletion-page {
+  padding: 50px 0px;
+
+  .fb-data-deletion-section {
+    h5 {
+      line-height: 26px;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+
+    .steps {
+      padding-top: 10px;
+
+      .step {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 20px;
+
+        p {
+          font-size: 18px;
+
+          &:first-child {
+            margin-right: 10px;
+          }
+        }
+
+        img {
+          width: 75%;
+          border-radius: 5px;
+          margin: 30px 0px 10px;
+          border: 1px solid lightgray;
+          @media (max-width: 1200px) {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
