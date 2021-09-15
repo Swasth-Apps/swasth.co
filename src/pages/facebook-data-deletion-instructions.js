@@ -31,15 +31,15 @@ class FBDataDeletionInstructions extends React.Component {
                         <h2 className="heavy-text">Data Deletion Instructions URL</h2>
                         <h5 className="book-text">According to the Facebook Apps and Websites Platform rules, we have to provide User Data Deletion Callback URL or Data Deletion Instructions URL. If you want to delete your activities for the Resiliens App, you can remove them by following the instructions below.</h5>
                         <div className="steps">
-                            <p className="step">
+                            <div className="step">
                                 <p className="roman-text">
                                     1.
                                 </p>
                                 <p className="roman-text">
                                     Go to Your Facebook Account’s “Settings & Privacy”, then click on ”Settings“.
                                 </p>
-                            </p>
-                            <p className="step">
+                            </div>
+                            <div className="step">
                                 <p className="roman-text">
                                     2.
                                 </p>
@@ -51,8 +51,8 @@ class FBDataDeletionInstructions extends React.Component {
                                     />
                                     </div>
                                 </p>
-                            </p>
-                            <p className="step">
+                            </div>
+                            <div className="step">
                                 <p className="roman-text">
                                     3.
                                 </p>
@@ -64,8 +64,8 @@ class FBDataDeletionInstructions extends React.Component {
                                         />
                                     </div>
                                 </p>
-                            </p>
-                            <p className="step">
+                            </div>
+                            <div className="step">
                                 <p className="roman-text">
                                     4.
                                 </p>
@@ -77,15 +77,15 @@ class FBDataDeletionInstructions extends React.Component {
                                         />
                                     </div>
                                 </p>
-                            </p>
-                            <p className="step">
+                            </div>
+                            <div className="step">
                                 <p className="roman-text">
                                     5.
                                 </p>
                                 <p className="roman-text">
                                     You’re done! You removed Resiliens from your activities successfully.
                                 </p>
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>
