@@ -6,7 +6,7 @@ import FBImg3 from "../assets/images/fb_deletion_img_3.png";
 import {Helmet} from "react-helmet";
 
 
-class HomeIndex extends React.Component {
+class FBDataDeletionInstructions extends React.Component {
 
     render() {
         return (
@@ -95,4 +95,4 @@ class HomeIndex extends React.Component {
     }
 }
 
-export default HomeIndex
+export default FBDataDeletionInstructions
