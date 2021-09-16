@@ -244,7 +244,7 @@ const Home = (props) => {
                         <div className="user">
                             <img src={Yotam}/>
                             <p className="name heavy-text">Dr. Yotam Heineberg </p>
-                            <p className="title medium-text">Co-founder / Chief Clinical Officer</p>
+                            <p className="title medium-text">Program Director - Coaching</p>
                             <p className="book-text">Yotam leads research, clinician operations and implementation
                                 of
                                 evidence-based therapy
@@ -339,7 +339,7 @@ const Home = (props) => {
                                         </a>
                                     </p>
                                 </div>
-                                <div className="user">
+                               {/* <div className="user">
                                     <img src={Daniel}/>
                                     <p className="name heavy-text">Daniel Blanaru</p>
                                     <p className="title medium-text">Executive @ Hippo Insurance</p>
@@ -348,7 +348,8 @@ const Home = (props) => {
                                             <img src={Linkedin}/>
                                         </a>
                                     </p>
-                                </div>
+                                </div>*/}
+
                                 {/*                     <div className="user">
                         <img src={require("../assets/images/image-placeholder.png")}/>
                         <p className="name heavy-text">TBA</p>
@@ -369,7 +370,7 @@ const Home = (props) => {
                                         </a>
                                     </p>
                                 </div>
-                                <div className="user">
+                               {/* <div className="user">
                                     <img src={Yotam}/>
                                     <p className="name heavy-text">Dr. Yotam Heineberg </p>
                                     <p className="title medium-text">Chief Clinical Officer</p>
@@ -378,7 +379,7 @@ const Home = (props) => {
                                             <img src={Linkedin}/>
                                         </a>
                                     </p>
-                                </div>
+                                </div>*/}
 
                                 {/*                   <div className="user">
                         <img src={require("../assets/images/image-placeholder.png")}/>
