@@ -55,4 +55,6 @@ relatedpost:
       slug: cbt-for-depression
     - title: Coping with Self-harming Behaviors with DBT
       slug: coping-with-self-harming-behaviors-with-dbt
+    - title: Overcoming Obsessive Compulsive Disorder
+      slug: overcoming-obsessive-compulsive-disorder
 ---
