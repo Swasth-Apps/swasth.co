@@ -40,7 +40,7 @@ sessions:
         outlook on life can be instrumental in our happiness, even and
         especially when faced with adversity.
       activityOverview: Practice looking forward toward the future with realistic positivity.
-    - title: Happiness and Character Strengths
+    - title: The Mind-Body Relationship
       overview: Explore the science behind how our physical and emotional health
         interact and learn how to better support ourselves in all domains.
       activityOverview: Practice engaging your senses to bring about soothing.
