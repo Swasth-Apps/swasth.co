@@ -5,9 +5,7 @@ import {getCloudIDFromImageName, scrollToDiv} from "../common/helper";
 import CategoryTabs from "../common/CategoryTabs";
 import {cloudinary} from "../../../helper/CLImage";
 import Program from "../../Program";
-import {useSelector} from "react-redux";
 import CategoryMobileTabs from "../CategoryMobileTabs";
-import Loader from "../../Loader";
 import Logo from "../../../assets/images/resilify/logo.png"
 import _ from "lodash";
 

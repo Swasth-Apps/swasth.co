@@ -2,8 +2,6 @@ import React, {Fragment, useEffect, useState} from 'react'
 import {Button, Col, Row} from 'antd'
 import AboutUsMission from "../assets/images/aboutus-mission.jpg"
 import AboutUsApproach from "../assets/images/about-us-approach.jpg"
-import bannerGraphic from "../assets/images/home-woman.jpeg";
-
 import Gana2 from "../assets/images/gana-2.jpg"
 import Yotam from "../assets/images/yotam.png"
 import Brian from "../assets/images/brian.jpg"
@@ -11,9 +9,8 @@ import Zimbardo from "../assets/images/zimbardo.jpg"
 import Linkedin from "../assets/images/linkedin.png"
 import Website from "../assets/images/website.png"
 import Dennis from "../assets/images/dennis.png"
-import Daniel from "../assets/images/daniel.jpeg"
-import {Link} from "gatsby";
 //import therapyGraphic from '../assets/images/Therapy-section@3x.png'
+
 const Home = (props) => {
     const [isMobile, setIsMobile] = useState(false);
     useEffect(() => {
