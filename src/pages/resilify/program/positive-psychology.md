@@ -79,6 +79,6 @@ references:
   - reference: '<p>Kuhn, E.&nbsp;&amp; Owen, J. E. (2020). Advances in PTSD
       treatment delivery: The role of digital technology in PTSD
       treatment.<em>Current Treatment Options in Psychiatry</em>.&nbsp;<a
-      href=\"http://doi.org/10.1007/s40501-020-00207-x\" target=\"_blank\"
-      rel=\"noopener\">doi.org/10.1007/s40501-020-00207-x</a></p>'
+      href="http://doi.org/10.1007/s40501-020-00207-x" target="_blank"
+      rel="noopener">doi.org/10.1007/s40501-020-00207-x</a></p>'
 ---
