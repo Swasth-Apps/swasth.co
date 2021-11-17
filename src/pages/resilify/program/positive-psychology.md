@@ -67,4 +67,18 @@ relatedpost:
       slug: the-science-of-resilience-and-coping
     - title: The Science of Gratitude and Well-Being
       slug: the-science-of-gratitude-and-well-being
+references:
+  - reference: "Owen, J. E., Jaworski, B. K., Kuhn, E., Makin-Byrd, K. N., Ramsey,
+      K. M., & Hoffman, J. E. (in press). mHealth in the wild: Using novel data
+      to examine the reach, use, and impact of PTSD Coach."
+  - reference: "Gould, C., Loup, J., Kuhn, E., Beaudreau, S., Ma, F., Goldstein, M.,
+      Wetherell, J., Zapata, A. M., Choe, P., & Ohara, R. (2020). Technology use
+      and preferences for mental health self-management interventions among
+      older veterans. International Journal of Geriatric Psychiatry, 35,
+      321–330. DOI: 10.1002/gps.5252 "
+  - reference: '<p>Kuhn, E.&nbsp;&amp; Owen, J. E. (2020). Advances in PTSD
+      treatment delivery: The role of digital technology in PTSD
+      treatment.<em>Current Treatment Options in Psychiatry</em>.&nbsp;<a
+      href=\"http://doi.org/10.1007/s40501-020-00207-x\" target=\"_blank\"
+      rel=\"noopener\">doi.org/10.1007/s40501-020-00207-x</a></p>'
 ---
