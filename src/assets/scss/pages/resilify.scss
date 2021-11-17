@@ -554,6 +554,21 @@
 
   }
 
+  .references-container{
+    margin-bottom: 0px;
+    li{
+      font-family: "Avenir Light" !important;
+      font-size: 16px !important;
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+      a{
+        color: _palette(primary-purple);
+        font-family: "Avenir Roman" !important;
+      }
+    }
+  }
+
 }
 
 

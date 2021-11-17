@@ -18,6 +18,7 @@ class ResilifyPrograms extends React.Component {
 
     render() {
         const { resilifyPrograms } = this.props.data;
+        console.log("_++++++++++++++++++++",resilifyPrograms)
         return (
             <Layout extraHeader>
                 <Helmet title="Resiliens">

@@ -22,7 +22,6 @@ const ResilifyProgram = (props) => {
     const program = props?.program || [];
     const relatedPrograms = props.program?.relatedpost?.program;
     const sessions = program?.sessions?.session;
-
     return (
         <div className="resilify-program-page" style={{marginTop: 2}}>
             <h3 className="program-section-title base-text">{program.title}</h3>
@@ -184,7 +183,14 @@ const ResilifyProgram = (props) => {
                             </div>
                         </div>
                     </div>*/}
-
+            <div className="category-page-body resilify-home-page-body">
+                <div className="program-section" id={`topic-tabs`}>
+                    <h3 className="program-section-title base-text">Selected Scientific Literature</h3>
+                </div>
+                <ul className="references-container">
+                    {program?.references?.map(({reference}) =><li>{ReactHtmlParser(reference)}</li>)}
+                </ul>
+            </div>
             <div className="category-page-body resilify-home-page-body">
                 <div className="program-section" id={`topic-tabs`}>
                     <h3 className="program-section-title base-text">Related Programs</h3>
