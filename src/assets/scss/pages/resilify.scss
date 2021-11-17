@@ -269,15 +269,16 @@
         .hours-text-row{
           display: flex;
           align-items: center;
+          justify-content: flex-end;
           margin: 10px 0;
           img{
-            width: 20px;
-            height: 20px;
+            width: 16px;
+            height: 16px;
             margin-right: 10px;
           }
           p{
-            font-size: 18px;
-            color: black;
+            font-size: 16px;
+            color: _palette(primary-purple);
           }
         }
 
