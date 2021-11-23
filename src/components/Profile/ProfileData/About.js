@@ -3,7 +3,6 @@ import HtmlParser from "react-html-parser";
 
 const About = ({provider}) => {
 
-    console.log("++++++++++",provider)
     return (
         <div className="profile-data-content">
             <div className="profile-content-box">

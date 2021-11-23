@@ -19,7 +19,6 @@ export default class CLImage extends Component {
   }
 
   renderImage() {
-    console.log(this.props)
     return (
         <img
             className={this.props.className}

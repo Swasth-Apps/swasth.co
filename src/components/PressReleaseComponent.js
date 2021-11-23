@@ -20,7 +20,6 @@ class PressReleaseComponent extends React.Component {
     }
 
     render() {
-        console.log(this.props)
         return (
             <div className="press-release-page">
                 <section className='coaching-programs-banner-section'>
