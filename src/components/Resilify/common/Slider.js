@@ -81,7 +81,6 @@ const SliderComponent = props => {
         prevArrow: <PrevArrow  />
     };
 
-    console.log("==== Settingd ====",settings)
 
     return(
         <>

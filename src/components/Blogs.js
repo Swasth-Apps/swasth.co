@@ -7,7 +7,6 @@ class Blogs extends React.Component {
   }
 
   render() {
-    console.log("-[---")
     const { allMarkdownRemark = {} } = this.props.data
     return (
       <section className='feature-section-group'>

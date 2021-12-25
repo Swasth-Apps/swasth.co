@@ -7,7 +7,6 @@ import LeftIcon from "../../../../assets/images/left.png"
 
 const CategoryTabs = (props) => {
     const topics = props?.topics || [];
-    console.log(topics, props)
     return (
 
             <SliderComponent className="categories-wrapper" key={generateRandomID()}>

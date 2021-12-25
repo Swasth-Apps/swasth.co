@@ -100,6 +100,9 @@ export const pageQuery = graphql`
             slug
           }
         }
+        references{
+                    reference
+        }
         sessions{
           session{
             title

@@ -32,7 +32,7 @@ const Program = props => {
                     <div className="hours-text-row">
                         <img src={require("../assets/images/clock-time.png")}/>
                         <p className="medium-text hours-text">
-                            {program?.sessions?.session?.length}{' Hours'}
+                            {program?.sessions?.session?.length}{' Weeks'}
                         </p>
                     </div>
                 </div>

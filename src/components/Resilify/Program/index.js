@@ -22,11 +22,11 @@ const ResilifyProgram = (props) => {
     const program = props?.program || [];
     const relatedPrograms = props.program?.relatedpost?.program;
     const sessions = program?.sessions?.session;
-
     return (
         <div className="resilify-program-page" style={{marginTop: 2}}>
             <h3 className="program-section-title base-text">{program.title}</h3>
             <div className="program-detail-section">
+                <div className="box-content">
                 {sessions?.length ?
                     <div className="sessions-length roman-text">
                         {`${sessions?.length} Sessions`}
@@ -51,38 +51,17 @@ const ResilifyProgram = (props) => {
                                     <h4 className="medium-text">
                                         About this program
                                     </h4>
+                                    <div className="hours-text-row">
+                                        <img src={require("../../../assets/images/clock-time.png")}/>
+                                        <p className="medium-text hours-text">
+                                            {sessions?.length}{' Weeks'}
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                             <div className="html-parser-description" style={{textAlign: "left"}}>
                                 {ReactHtmlParser(program.overview)}
                             </div>
-                            <div className="hours-text-row">
-                                <img src={require("../../../assets/images/clock-time.png")}/>
-                                <p className="medium-text hours-text">
-                                    {sessions?.length}{' Hours'}
-                                </p>
-                            </div>
-                            <div>
-                                <Divider orientation={"center"} style={{fontSize: 18}} className="medium-text">Join
-                                    from</Divider>
-                            </div>
-                            <div className="join-program-btns" >
-                                <div className="btn" onClick={() => openApp()}>
-                                    <img
-                                        src={'https://itwire.com/media/k2/items/cache/401b2aa9924b13d9231c78fc00d6473e_XL.jpg'}/>
-                                    <p className="medium-text">Google Play</p>
-                                </div>
-                                <div className="btn" onClick={() => openApp(true)}>
-                                    <img src={'https://cdn.iconscout.com/icon/free/png-256/ios-apple-572947.png'}/>
-                                    <p className="medium-text">Apple Store</p>
-                                </div>
-                                <div className="btn"
-                                     onClick={() => window.open(`https://resilify-dev.resiliens.com/app/explore?programId=${program.programId}`)}>
-                                    <img src={require("../../../assets/images/website.png")}/>
-                                    <p className="medium-text">Web</p>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
                 </div>
@@ -118,6 +97,29 @@ const ResilifyProgram = (props) => {
                         </div>
                     </div>
 
+                </div>
+                </div>
+                <div className="bottom-section">
+                    <div className="divider-container">
+                        <Divider orientation={"center"} style={{fontSize: 18}} className="medium-text">Join
+                            from</Divider>
+                    </div>
+                    <div className="join-program-btns" >
+                        <div className="btn" onClick={() => openApp()}>
+                            <img
+                                src={'https://itwire.com/media/k2/items/cache/401b2aa9924b13d9231c78fc00d6473e_XL.jpg'}/>
+                            <p className="medium-text">Google Play</p>
+                        </div>
+                        <div className="btn" onClick={() => openApp(true)}>
+                            <img src={'https://cdn.iconscout.com/icon/free/png-256/ios-apple-572947.png'}/>
+                            <p className="medium-text">Apple Store</p>
+                        </div>
+                        <div className="btn"
+                             onClick={() => window.open(`https://resilify-dev.resiliens.com/app/explore?programId=${program.programId}`)}>
+                            <img src={require("../../../assets/images/website.png")}/>
+                            <p className="medium-text">Web</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -184,7 +186,15 @@ const ResilifyProgram = (props) => {
                             </div>
                         </div>
                     </div>*/}
-
+            {program?.references?.length ?
+            <div className="category-page-body resilify-home-page-body">
+                <div className="program-section" id={`topic-tabs`}>
+                    <h3 className="program-section-title base-text">Selected Scientific Literature</h3>
+                </div>
+                <ul className="references-container">
+                    {program?.references?.map(({reference}) =><li>{ReactHtmlParser(reference)}</li>)}
+                </ul>
+            </div> : null}
             <div className="category-page-body resilify-home-page-body">
                 <div className="program-section" id={`topic-tabs`}>
                     <h3 className="program-section-title base-text">Related Programs</h3>

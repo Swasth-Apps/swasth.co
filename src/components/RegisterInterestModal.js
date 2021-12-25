@@ -27,7 +27,6 @@ const RegisterInterestModal = props => {
     const send = (e) => {
         e.preventDefault();
         setLoading(true);
-        console.log(props)
         props.form.validateFields((err, values) => {
             if (!err) {
                 Amplify.configure({
