@@ -54,7 +54,7 @@ const ResilifyProgram = (props) => {
                                     <div className="hours-text-row">
                                         <img src={require("../../../assets/images/clock-time.png")}/>
                                         <p className="medium-text hours-text">
-                                            {sessions?.length}{' Hours'}
+                                            {sessions?.length}{' Weeks'}
                                         </p>
                                     </div>
                                 </div>
