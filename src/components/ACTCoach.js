@@ -14,18 +14,19 @@ import appStore from '../assets/images/app-store.png'
 import googlePay from '../assets/images/google-play.png'
 import Carousel from '../shared/carousel'
 import { dbtcoach } from '../helper/helper'
+import BottomScroller from "./BottomScroller";
 
 const ACTCoach = (props) => {
   const [visible, setVisible] = useState(false)
   const store = (
     <Row className='card-row -row-flex-center store-icons' style={{ padding: '32px 32px 0px', display: 'flex',flexDirection:'row' }}>
-      <Col md={8}>
+      <Col md={6}>
         <a href="https://apps.apple.com/us/app/act-icoach/id1449444733" >
           <img src={appStore} alt='ACT Coach on App Store' />
         </a>
 
       </Col>
-      <Col md={8}>
+      <Col md={6}>
         <a href="https://play.google.com/store/apps/details?id=co.swasth.actcoach">
           <img src={googlePay} alt='ACT Coach on Play Store' />
         </a>
@@ -38,7 +39,7 @@ const ACTCoach = (props) => {
         <Row className='card-row divider'>
           <Col md={12} className='card-col -margin-right'>
             <h1 className='-highlighted-act-text apps-title base-text'>ACT Coach</h1>
-            <h2 className='bottom-space base-text'><span className='-highlighted-act-secondary-text'>{' '}Optimize</span> your <span className='-highlighted-act-text'>{' '}Inner Potential</span> by <span className='-highlighted-act-secondary-text'>{' '}Acceptance</span> and
+            <h2 className='bottom-space base-text app-subtitle'><span className='-highlighted-act-secondary-text'>{' '}Optimize</span> your <span className='-highlighted-act-text'>{' '}Inner Potential</span> by <span className='-highlighted-act-secondary-text'>{' '}Acceptance</span> and
           <span className='-highlighted-act-secondary-text'>{' '}Commitment</span>.</h2>
             <div className="black-18-font">
               Learn about Acceptance & Commitment Therapy (ACT) and develop your psychological flexibility. Track your Moods, Emotions, Activities and ACT Measures. Engage better with your Therapist using
@@ -63,13 +64,13 @@ const ACTCoach = (props) => {
                   className='card-row -row-flex-center store-icons'
                   style={{ padding: '32px 0 0px', display: 'flex',flexDirection:'row',justifyContent:"flex-start" }}
               >
-                <Col md={6} style={{marginLeft: 0}}>
+                <Col style={{marginLeft: 0,paddingRight: 10}}>
                   <a href="https://apps.apple.com/us/app/act-icoach/id1449444733" >
                     <img src={appStore} alt='ACT Coach on App Store' />
                   </a>
 
                 </Col>
-                <Col md={6}>
+                <Col style={{paddingLeft: 10}}>
                   <a href="https://play.google.com/store/apps/details?id=co.swasth.actcoach">
                     <img src={googlePay} alt='ACT Coach on Play Store' />
                   </a>
@@ -280,24 +281,8 @@ const ACTCoach = (props) => {
           <img className='custom-image' src={community} />
         </Col>
       </Row>
-      <Row className='card-row' />
-    {/*  <Row className='card-row -row-flex-center'>
-        <Col md={24}>
-          <Row className='card-row -row-flex-center'>
-            <div style={{ textAlign: 'center' }}>
-              <h2 className='bottom-space base-text'>
-                <span className='-highlighted-act-secondary-text'>{' '}Testimonials</span>{' '}about<span className='-highlighted-act-text'>{' '}ACT Coach</span> </h2>
 
-            </div>
-          </Row>
-        </Col>
-      </Row>
-      <Carousel reviews={dbtcoach} />*/}
-      {/*<div style={{textAlign:'center'}} className='all-testimonials divider'>
-        <a className='-highlighted-ACT-secondary-text'>Check all testimonials</a>
-    </div> */}
-    <div className='divider' />
-      <Row className='card-row -row-flex-center divider -padding-zero'>
+      <Row className='card-row -row-flex-center -padding-zero'>
         <Col md={24}>
           <Row className='card-row -row-flex-center'>
             <h3 className='bottom-space base-text' style={{ fontWeight: '600' }}>Frequently Asked Questions</h3>
@@ -382,13 +367,14 @@ const ACTCoach = (props) => {
         <Col md={24} className='dbt-box-container'>
           <Row className='card-row -row-flex-center dbt-box-border'>
             <div style={{ textAlign: 'center' }}>
-              <h4 className='-font-bold black-18-font base-text'>Download  <span className='-highlighted-act-text'>{' '}ACT Coach </span> App</h4>
+              <h3 className='-font-bold black-18-font base-text'>Download  <span className='-highlighted-act-text'>{' '}ACT Coach </span> App</h3>
               <div className='blog-user black-18-font para-text'>The only app that has everything about Cognitive Behavioral Therapy. Join and be part of the community! </div>
               {store}
             </div>
           </Row>
         </Col>
       </Row>
+        <BottomScroller />
       </section>
     </Fragment>
   )

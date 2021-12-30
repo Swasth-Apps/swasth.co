@@ -14,18 +14,19 @@ import appStore from '../assets/images/app-store.png'
 import googlePay from '../assets/images/google-play.png'
 import Carousel from '../shared/carousel'
 import { dbtcoach } from '../helper/helper'
+import BottomScroller from "./BottomScroller";
 
 const Banner = (props) => {
   const [visible, setVisible] = useState(false)
   const store = (
     <Row className='card-row -row-flex-center store-icons' style={{ padding: '32px 32px 0px', display: 'flex',flexDirection:'row' }}>
-      <Col md={8}>
+      <Col md={6}>
         <a href="https://apps.apple.com/us/app/dbt-coach/id1452264969">
           <img src={appStore} alt='DBT Coach on App Store' />
         </a>
 
       </Col>
-      <Col md={8}>
+      <Col md={6}>
         <a href="https://play.google.com/store/apps/details?id=co.swasth.dbtcoach">
           <img src={googlePay} alt='DBT Coach on Play Store' />
         </a>
@@ -37,9 +38,9 @@ const Banner = (props) => {
       <section className='app-section-group'>
         <Row className='card-row divider'>
           <Col md={12} className='card-col -margin-right'>
-            <h1 className='-highlighted-secondary-text apps-title base-text'>DBT Coach</h1>
-            <p className='bottom-space base-text'>A comprehensive app for
-              <span className='-highlighted-text base-text' style={{marginTop:'5px'}}>{' '}Dialectical Behavior Therapy</span> (DBT).</p>
+            <h1 className='-highlighted-dbt-text apps-title base-text'>DBT Coach</h1>
+            <p className='bottom-space base-text app-subtitle'>A comprehensive app for
+              <span className='-highlighted-secondary-text base-text' style={{marginTop:'5px'}}>{' '}Dialectical Behavior Therapy</span> (DBT).</p>
             <div className="para-text black-18-font">
               Learn, practice and track your DBT skills
               with DBT Coach App. Engage better with your Therapist using
@@ -64,13 +65,13 @@ const Banner = (props) => {
                   className='card-row -row-flex-center store-icons'
                   style={{ padding: '32px 0 0px', display: 'flex',flexDirection:'row',justifyContent:"flex-start" }}
               >
-                <Col md={6} style={{marginLeft: 0}}>
+                <Col style={{marginLeft: 0, paddingRight: 10}}>
                   <a href="https://apps.apple.com/us/app/dbt-coach/id1452264969">
                     <img src={appStore} alt='DBT Coach on App Store' />
                   </a>
 
                 </Col>
-                <Col md={6}>
+                <Col style={{paddingLeft: 10}}>
                   <a href="https://play.google.com/store/apps/details?id=co.swasth.dbtcoach">
                     <img src={googlePay} alt='DBT Coach on Play Store' />
                   </a>
@@ -124,8 +125,8 @@ const Banner = (props) => {
             <img className='custom-image' src={lessons} alt='Therapy' />
           </Col>
           <Col md={12}>
-            <p className='bottom-space'>
-              <span className='-highlighted-text base-text'>
+            <p className='bottom-space base-text'>
+              <span className='-highlighted-secondary-text base-text'>
                 Easy to follow DBT
                     </span>{' '}
               Lessons
@@ -137,8 +138,8 @@ const Banner = (props) => {
         </Row>
         <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
-            <h2 className='bottom-space'>
-              <span className='-highlighted-text base-text'>Use it to{' '}Record Diary</span>{' '}Entries</h2>
+            <h2 className='bottom-space base-text'>
+              <span className='-highlighted-secondary-text base-text'>Use it to{' '}Record Diary</span>{' '}Entries</h2>
             <div >
               Record your mood, skills, emotions, urges, behaviors, activities and journal multiple times a day.
             </div>
@@ -152,8 +153,8 @@ const Banner = (props) => {
             <img className='custom-image' src={practiceExercises} alt='Therapy' />
           </Col>
           <Col md={12}>
-            <p className='bottom-space'>
-              <span className='-highlighted-text base-text'>
+            <p className='bottom-space base-text'>
+              <span className='-highlighted-secondary-text base-text'>
                Easy to Follow Practice
                     </span>{' '}
               Exercises
@@ -166,8 +167,8 @@ const Banner = (props) => {
 
         <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
-            <p className='bottom-space'>
-              <span className='-highlighted-text base-text'>Track & Manage with Entries</span>{' '}Timeline</p>
+            <p className='bottom-space base-text'>
+              <span className='-highlighted-secondary-text base-text'>Track & Manage with Entries</span>{' '}Timeline</p>
             <div className="para-text black-18-font">
               User-friendly timeline for entries, exercises, meditations etc. Manage your crisis survival skills and track how you use them.
             </div>
@@ -183,7 +184,7 @@ const Banner = (props) => {
           <Col md={12}>
             <p className='bottom-space base-text'>
               Stay on top of everything with{' '}
-              <span className='-highlighted-text'>
+              <span className='-highlighted-secondary-text'>
                 Reminders & Affirmation
                     </span>
             </p>
@@ -196,7 +197,7 @@ const Banner = (props) => {
           <Col md={12} className='-margin-right'>
             <p className='bottom-space base-text'>
               Easy to Share Your
-              <span className='-highlighted-text'>{' '}Data</span></p>
+              <span className='-highlighted-secondary-text'>{' '}Data</span></p>
             <div className="para-text black-18-font">
               Share what you want to share with your provider and care team. Providers in our clinician app can see it in real-time. You can also share via email with who you choose.
             </div>
@@ -212,12 +213,12 @@ const Banner = (props) => {
           <Col md={12}>
             <p className='bottom-space base-text'>
               Even more features
-              <span className='-highlighted-text'>
+              <span className='-highlighted-secondary-text'>
                 {' '}
                 Engage
                     </span>
               {' and '}
-              <span className='-highlighted-text'>
+              <span className='-highlighted-secondary-text'>
                 Stay-Upto-Date
                     </span>
             </p>
@@ -230,7 +231,7 @@ const Banner = (props) => {
           <Col md={12} className='-margin-right'>
             <p className='bottom-space base-text'>
               Join the
-              <span className='-highlighted-text'>{' '}Community</span></p>
+              <span className='-highlighted-secondary-text'>{' '}Community</span></p>
             <div className="para-text black-18-font">
               Come join the DBT Community. There are discussion forums where you can discuss about DBT skill application and anything DBT. Further, use existing Peer Groups or create your own to support each other.
             </div>
@@ -239,24 +240,22 @@ const Banner = (props) => {
             <img className='custom-image' src={community} />
           </Col>
         </Row>
-        <Row className='card-row' />
        {/* <Row className='card-row -row-flex-center divider'>
           <Col md={24}>
             <Row className='card-row -row-flex-center'>
               <div style={{ textAlign: 'center' }} className="para-text black-18-font">
                 <p className='bottom-space base-text'>
-                  <span className='-highlighted-secondary-text '>{' '}Testimonials</span>{' '}about<span className='-highlighted-text'>{' '}DBT Coach</span> </p>
+                  <span className='-highlighted-secondary-text '>{' '}Testimonials</span>{' '}about<span className='-highlighted-secondary-text'>{' '}DBT Coach</span> </p>
                 Over 200,000 users have already benefited from DBT Coach.
               </div>
             </Row>
           </Col>
         </Row>
         <Carousel reviews={dbtcoach} />*/}
-        <div className='divider' />
         {/*<div style={{textAlign:'center'}} className='all-testimonials divider'>
           <a className='-highlighted-secondary-text'>Check all testimonials</a>
       </div> */}
-        <Row className='card-row -row-flex-center divider -padding-zero'>
+        <Row className='card-row -row-flex-center -padding-zero'>
           <Col md={24}>
             <Row className='card-row -row-flex-center'>
               <p className='bottom-space base-text' style={{ fontWeight: '600' }}>Frequently Asked Questions</p>
@@ -337,17 +336,18 @@ const Banner = (props) => {
           </Col>
         </Row>
 
-        <Row className='card-row divider mobile-app-container -row-flex-center'>
+        <Row className='card-row mobile-app-container -row-flex-center'>
           <Col md={24} className='dbt-box-container'>
             <Row className='card-row -row-flex-center dbt-box-border'>
               <div style={{ textAlign: 'center' }}>
-                <h4 className='-font-bold base-text'>Download <span className='-highlighted-secondary-text'>{' '}DBT Coach</span> App</h4>
+                <h3 className='-font-bold base-text'>Download <span className='-highlighted-dbt-text'>{' '}DBT Coach</span> App</h3>
                 <div className='blog-user black-18-font'>The most comprehensive app for Dialectical Behavior Therapy. Come on join and be part of the community! </div>
                 {store}
               </div>
             </Row>
           </Col>
         </Row>
+        <BottomScroller />
       </section>
     </Fragment>
   )

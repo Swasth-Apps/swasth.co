@@ -61,7 +61,6 @@ class Layout extends React.Component {
                 {!this.props.rearrangeChildren ? children : null}
 
                 {this.props.rearrangeChildren ? children : null}
-
                 <Footer
                     minFooterHeight={this.props.minFooterHeight}
                     show={this.props.show}

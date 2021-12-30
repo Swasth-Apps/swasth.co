@@ -16,18 +16,19 @@ import community from '../assets/images/MI_Community.png'
 
 import appStore from '../assets/images/app-store.png'
 import googlePay from '../assets/images/google-play.png'
+import BottomScroller from "./BottomScroller";
 
 const Banner = (props) => {
   const [visible, setVisible] = useState(false)
   const store = (
     <Row className='card-row -row-flex-center store-icons' style={{ padding: '32px 0px 15px', display: 'flex',flexDirection:'row' }}>
-      <Col md={4} style={{marginRight: 15}}>
+      <Col md={6} style={{marginRight: 15, paddingRight: 10}}>
         <a href="https://apps.apple.com/us/app/mi-coach/id1572316783">
           <img src={appStore} alt='MI Coach on App Store' />
         </a>
 
       </Col>
-      <Col md={4}>
+      <Col style={{paddingLeft: 10}}>
         <a href="https://play.google.com/store/apps/details?id=com.resiliens.miapp">
           <img src={googlePay} alt='MI Coach on Play Store' />
         </a>
@@ -36,11 +37,11 @@ const Banner = (props) => {
   )
   return (
     <Fragment>
-      <section className='app-section-group'>
+      <section className='app-section-group mi-app-section-group'>
         <Row className='card-row divider'>
           <Col md={12} className='card-col -margin-right'>
             <h1 className='-highlighted-secondary-text apps-title base-text'>MI Coach</h1>
-            <p className='bottom-space base-text'>A comprehensive app for
+            <p className='bottom-space base-text app-subtitle'>A comprehensive app for
               <span className='-highlighted-text base-text' style={{marginTop:'5px'}}>{' '}finding your motivation for change</span>.</p>
             <div className="para-text black-18-font">
             Learn about Motivational Interviewing (MI), enhance your motivation and practice behavior change skills with MI Coach App. Engage better with your Therapist using our comprehensive Behavioral Health Platform.
@@ -129,7 +130,7 @@ const Banner = (props) => {
             <img className='custom-image' src={sessions} />
           </Col>
           <Col md={12}>
-            <h2 className='bottom-space'>
+            <h2 className='bottom-space base-text'>
               <span className='-highlighted-text base-text'>Sessions{' '}</span>{' '}</h2>
             <div className="para-text black-18-font">
               Comprehensive sessions by our expert on Motivational Interviewing  and how it can be used for behavior change at your own pace. All the learning materials are organized cleanly into different sessions by topic with lessons and activities.
@@ -139,7 +140,7 @@ const Banner = (props) => {
 
         <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
-            <h2 className='bottom-space'>
+            <h2 className='bottom-space base-text'>
               <span className='-highlighted-text base-text'>Daily Checkin {' '}</span>{' '}& Tracking</h2>
             <div className="para-text black-18-font">
               Record your mood, behavior change measures, track your behaviors and journal multiple times a day.
@@ -154,7 +155,7 @@ const Banner = (props) => {
             <img className='custom-image' src={lessons} alt='Therapy' />
           </Col>
          <Col md={12}>
-            <h2 className='bottom-space'>
+            <h2 className='bottom-space base-text'>
               <span className='-highlighted-text base-text'>Video{' '}</span>{' '}guided lessons</h2>
             <div className="para-text black-18-font">
               Learn about Motivational Interviewing with our MI Expert by following sessions organized by different topics to help with behavior change.
@@ -163,7 +164,7 @@ const Banner = (props) => {
         </Row>
         <Row className='card-row divider'>
           <Col md={12} className='-margin-right'>
-            <p className='bottom-space'>
+            <p className='bottom-space base-text'>
               <span className='-highlighted-text base-text'>
                Easy to Follow
                     </span>{' '}
@@ -183,7 +184,7 @@ const Banner = (props) => {
               <img className='custom-image' src={journal} />
             </Col>
             <Col md={12}>
-              <p className='bottom-space'>
+              <p className='bottom-space base-text'>
               <span className='-highlighted-text base-text'>
                                Journal
               </span>{' '}your thoughts </p>
@@ -196,7 +197,7 @@ const Banner = (props) => {
 
           <Row className='card-row divider'>
             <Col md={12} className='-margin-right'>
-              <p className='bottom-space'>
+              <p className='bottom-space base-text'>
               <span className='-highlighted-text base-text'>
                Easy to Follow
                     </span>{' '}
@@ -216,7 +217,7 @@ const Banner = (props) => {
             <img className='custom-image' src={entriesTimeline} />
           </Col>
           <Col md={12}>
-            <p className='bottom-space'>
+            <p className='bottom-space base-text'>
               <span className='-highlighted-text base-text'>Track & Manage with Entries</span>{' '}Timeline</p>
             <div className="para-text black-18-font">
               User-friendly timeline for entries, change measures, behavior tracking, exercises, meditations etc.
@@ -281,7 +282,6 @@ const Banner = (props) => {
           </Col>
         </Row>
 
-          <Row className='card-row' />
           {/* <Row className='card-row -row-flex-center divider'>
           <Col md={24}>
             <Row className='card-row -row-flex-center'>
@@ -382,13 +382,15 @@ const Banner = (props) => {
           <Col md={24} className='dbt-box-container'>
             <Row className='card-row -row-flex-center dbt-box-border'>
               <div style={{ textAlign: 'center' }}>
-                <h4 className='-font-bold base-text'>Download <span className='-highlighted-secondary-text'>{' '}MI Coach</span> App</h4>
+                <h3 className='-font-bold base-text'>Download <span className='-highlighted-secondary-text'>{' '}MI Coach</span> App</h3>
                 <div className='blog-user black-18-font'>The most comprehensive app for finding the motivation for change using Motivational Interviewing. Come and be part of the community! </div>
                 {store}
               </div>
             </Row>
           </Col>
         </Row>
+        <BottomScroller />
+
       </section>
     </Fragment>
   )
