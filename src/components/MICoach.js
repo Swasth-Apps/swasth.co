@@ -16,7 +16,6 @@ import community from '../assets/images/MI_Community.png'
 
 import appStore from '../assets/images/app-store.png'
 import googlePay from '../assets/images/google-play.png'
-import BottomScroller from "./BottomScroller";
 
 const Banner = (props) => {
   const [visible, setVisible] = useState(false)
@@ -389,8 +388,6 @@ const Banner = (props) => {
             </Row>
           </Col>
         </Row>
-        <BottomScroller />
-
       </section>
     </Fragment>
   )

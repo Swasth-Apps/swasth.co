@@ -1,5 +1,5 @@
-import React, { Fragment, useState } from 'react'
-import {Button, Col, Icon, Modal, Row} from 'antd'
+import React, {Fragment, useState} from 'react'
+import {Button, Col, Modal, Row} from 'antd'
 import bannerGraphic from '../assets/images/ACT-splash.png'
 import lessons from '../assets/images/ACT-lessons.png'
 import recordEntries from '../assets/images/ACT-Record-diary.png'
@@ -12,9 +12,6 @@ import engage from '../assets/images/CBT-engage-and-stayuptodate.png'
 import community from '../assets/images/ACT-community.png'
 import appStore from '../assets/images/app-store.png'
 import googlePay from '../assets/images/google-play.png'
-import Carousel from '../shared/carousel'
-import { dbtcoach } from '../helper/helper'
-import BottomScroller from "./BottomScroller";
 
 const ACTCoach = (props) => {
   const [visible, setVisible] = useState(false)
@@ -374,7 +371,6 @@ const ACTCoach = (props) => {
           </Row>
         </Col>
       </Row>
-        <BottomScroller />
       </section>
     </Fragment>
   )

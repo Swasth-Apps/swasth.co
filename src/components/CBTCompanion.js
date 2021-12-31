@@ -1,5 +1,5 @@
-import React, { Fragment, useState } from 'react'
-import {Col, Row, Modal, Icon, Button} from 'antd'
+import React, {Fragment, useState} from 'react'
+import {Button, Col, Modal, Row} from 'antd'
 import bannerGraphic from '../assets/images/CBT-splash.png'
 import lessons from '../assets/images/CBT-lessons.png'
 import recordEntries from '../assets/images/CBT-Record-diary.png'
@@ -11,9 +11,6 @@ import engage from '../assets/images/CBT-engage-and-stayuptodate.png'
 import community from '../assets/images/CBT-community.png'
 import appStore from '../assets/images/app-store.png'
 import googlePay from '../assets/images/google-play.png'
-import Carousel from '../shared/carousel'
-import { dbtdaily } from '../helper/helper'
-import BottomScroller from "./BottomScroller";
 
 const CBTCompanion = (props) => {
   const [visible, setVisible] = useState(false)
@@ -375,8 +372,6 @@ const CBTCompanion = (props) => {
             </Row>
           </Col>
         </Row>
-        <BottomScroller />
-
       </section>
     </Fragment>
   )

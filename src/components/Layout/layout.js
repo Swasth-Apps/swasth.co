@@ -6,6 +6,7 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import 'react-multi-carousel/lib/styles.css'
 import CategoryTabs from '../BreadCrum'
+import BottomScroller from "../BottomScroller";
 
 class Layout extends React.Component {
     constructor(props) {
@@ -60,6 +61,7 @@ class Layout extends React.Component {
 
                 {!this.props.rearrangeChildren ? children : null}
 
+                <BottomScroller />
                 {this.props.rearrangeChildren ? children : null}
                 <Footer
                     minFooterHeight={this.props.minFooterHeight}

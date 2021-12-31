@@ -1,5 +1,5 @@
-import React, { Fragment, useState } from 'react'
-import {Button, Col, Icon, Modal, Row} from 'antd'
+import React, {Fragment, useState} from 'react'
+import {Button, Col, Modal, Row} from 'antd'
 import bannerGraphic from '../assets/images/DBT-splash_iphone.png'
 import lessons from '../assets/images/DBT-lessons.png'
 import recordEntries from '../assets/images/DBT-record-diary.png'
@@ -12,9 +12,6 @@ import community from '../assets/images/DBT-community.png'
 
 import appStore from '../assets/images/app-store.png'
 import googlePay from '../assets/images/google-play.png'
-import Carousel from '../shared/carousel'
-import { dbtcoach } from '../helper/helper'
-import BottomScroller from "./BottomScroller";
 
 const Banner = (props) => {
   const [visible, setVisible] = useState(false)
@@ -347,7 +344,6 @@ const Banner = (props) => {
             </Row>
           </Col>
         </Row>
-        <BottomScroller />
       </section>
     </Fragment>
   )
