@@ -35,7 +35,7 @@ const Banner = (props) => {
       <section className='app-section-group'>
         <Row className='card-row divider'>
           <Col md={12} className='card-col -margin-right'>
-            <h1 className='-highlighted-dbt-text apps-title base-text'>DBT Coach</h1>
+            <h1 className='-highlighted-dbt-text apps-title base-text'><img src={require("../assets/images/DBT-Logo.png")}/>DBT Coach</h1>
             <p className='bottom-space base-text app-subtitle'>A comprehensive app for
               <span className='-highlighted-secondary-text base-text' style={{marginTop:'5px'}}>{' '}Dialectical Behavior Therapy</span> (DBT).</p>
             <div className="para-text black-18-font">

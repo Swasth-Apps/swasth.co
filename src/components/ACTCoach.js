@@ -35,7 +35,7 @@ const ACTCoach = (props) => {
       <section className='app-section-group'>
         <Row className='card-row divider'>
           <Col md={12} className='card-col -margin-right'>
-            <h1 className='-highlighted-act-text apps-title base-text'>ACT Coach</h1>
+            <h1 className='-highlighted-act-text apps-title base-text'><img src={require("../assets/images/ACT-Logo.png")}/>ACT Coach</h1>
             <h2 className='bottom-space base-text app-subtitle'><span className='-highlighted-act-secondary-text'>{' '}Optimize</span> your <span className='-highlighted-act-text'>{' '}Inner Potential</span> by <span className='-highlighted-act-secondary-text'>{' '}Acceptance</span> and
           <span className='-highlighted-act-secondary-text'>{' '}Commitment</span>.</h2>
             <div className="black-18-font">

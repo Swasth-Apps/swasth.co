@@ -39,7 +39,7 @@ const Banner = (props) => {
       <section className='app-section-group mi-app-section-group'>
         <Row className='card-row divider'>
           <Col md={12} className='card-col -margin-right'>
-            <h1 className='-highlighted-secondary-text apps-title base-text'>MI Coach</h1>
+            <h1 className='-highlighted-secondary-text apps-title base-text'><img src={require("../assets/images/MI-Logo.png")}/>MI Coach</h1>
             <p className='bottom-space base-text app-subtitle'>A comprehensive app for
               <span className='-highlighted-text base-text' style={{marginTop:'5px'}}>{' '}finding your motivation for change</span>.</p>
             <div className="para-text black-18-font">

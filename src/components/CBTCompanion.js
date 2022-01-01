@@ -35,7 +35,7 @@ const CBTCompanion = (props) => {
       <section className='app-section-group'>
         <Row className='card-row divider'>
           <Col md={12} className='card-col -margin-right'>
-            <h1 className='-highlighted-cbt-text apps-title base-text'>CBT Companion</h1>
+            <h1 className='-highlighted-cbt-text apps-title base-text'><img src={require("../assets/images/CBT-Logo.png")}/>CBT Companion</h1>
             <h2 className='bottom-space base-text app-subtitle'><span className='-highlighted-cbt-secondary-text'>{' '}Change</span> your <span
               className='-highlighted-cbt-text'>{' '}Feelings</span> and <span
               className='-highlighted-cbt-text'>{' '}Behavior</span> by <span
