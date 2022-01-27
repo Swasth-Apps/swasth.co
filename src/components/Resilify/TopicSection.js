@@ -23,8 +23,14 @@ const TopicSection = props => {
             >
                 <div className="resilify-program-section">
 
-                    <div className="program-section" id={`topic-tabs`}>
+                    <div className="program-section same-line" id={`topic-tabs`}>
                         <h3 className="program-section-title base-text">Programs</h3>
+                        {props.viewAll ?
+                            <div style={{textAlign: "center"}}>
+                                <Link to={`/resilify/programs`}>
+                                    <a className="medium-text">View All</a>
+                                </Link>
+                            </div> : null}
                     </div>
 
                     {programs?.length ?
@@ -39,77 +45,14 @@ const TopicSection = props => {
                         </Slider> :
                         <Empty description="No programs available for this categories"/>}
 
+                    {!props.viewAll ?
                     <div style={{textAlign: "center", marginTop: 20}}>
                         <Link to={`/resilify/programs`}>
                             <Button className="request-demo-btn base-text">More
                                 Programs</Button>
                         </Link>
-                    </div>
+                    </div> : null}
                 </div>
-            </div>
-            <div
-                id='wrapper'
-                className={'coach-wrapper'}
-                style={{paddingBottom: 0}}
-            >
-                <div className="home-discover-section home-discover-right">
-                    <div className="home-discover-inner-section">
-                        <div className="content">
-                            <div className="outer-div">
-                                <h3 className="base-text">
-                                    Access these programs anytime / anywhere
-                                    <div className="divider"/>
-                                </h3>
-                                <ul className="para-text">
-                                    <li className="para-text">Video-guided lessons</li>
-                                    <li className="para-text">Intuitive Activities</li>
-                                    <li className="para-text">Available on desktop, iPhone or Android</li>
-                                    <li className="para-text">New programs added every month</li>
-                                </ul>
-                                <div className="apps">
-                                    <img src={AppStoreIcon}/>
-                                    <img src={PlayStoreIcon}/>
-                                </div>
-                                {/*<Button className="join-program-btn para-text" onClick={() => scrollToDiv("#topic-tabs")}>Browse Programs</Button>*/}
-                            </div>
-                        </div>
-                        <div className="image">
-                            <img src={ResiliensWithDevices}/>
-                        </div>
-                    </div>
-                </div>
-
-                {/*
-
-                <div className="member-section" style={{
-                    background: `url(${require("../../assets/images/resilify/coach-bg.png")}) no-repeat center center fixed`
-
-                }}>
-                    <div className="member-text">
-                        <h1 className="base-text">
-                            What members are saying
-                            <div className="divider"/>
-                        </h1>
-                    </div>
-                    <Slider perSlide={1} className="member-wrapper program-wrapper" key={generateRandomID()}>
-                        {[1, 2, 31, 4, 5]?.map(() => <div className="keen-slider__slide member-card">
-                            <div className="member-detail">
-                                <div className="coach-info">
-                                    <p className="para-text">
-                                        “I've learned a positively immeasurable amount of things from Timbaland and
-                                        Natalie
-                                        Portman. It gave me this sense of possibility. Like I can actually do it. I can
-                                        get
-                                        a Billboard hit single, and it's not that far away.”
-                                    </p>
-                                    <h3 className="para-text">Micheal Clark </h3>
-                                </div>
-                            </div>
-                        </div>)}
-                    </Slider>
-
-                </div>
- */}
             </div>
         </div>
     )

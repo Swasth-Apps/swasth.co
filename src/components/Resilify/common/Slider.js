@@ -3,6 +3,8 @@ import {getItemsPerSlider} from "./helper";
 import Slider from "react-slick";
 import RightIcon from "../../../assets/images/right.png"
 import LeftIcon from "../../../assets/images/left.png"
+import BlueLeftIcon from "../../../assets/images/blue-left.png"
+import BlueRightIcon from "../../../assets/images/blue-right.png"
 
 const SliderComponent = props => {
     let items = getItemsPerSlider();
@@ -35,11 +37,37 @@ const SliderComponent = props => {
             </div>
         );
     };
+    const ColoredNextArrow = (props) => {
+        const { className, style, onClick } = props;
+        return (
+            <div
+                className={className}
+                style={{ ...style}}
+                onClick={onClick}
+            >
+                <img src={BlueRightIcon} />
+            </div>
+        );
+    };
+
+    const ColoredPrevArrow = (props) => {
+        const { className, style, onClick } = props;
+        return (
+            <div
+                className={className}
+                style={{ ...style}}
+                onClick={onClick}
+            >
+                <img src={BlueLeftIcon} />
+            </div>
+        );
+    };
 
     const settings = {
         className: props.className,
-        infinite: false,
+        infinite: props.infinite || false,
         speed: 500,
+        dots: true,
         slidesToShow: props.perSlide || items,
         slidesToScroll: props.perSlide  || items,
         responsive: [
@@ -77,8 +105,8 @@ const SliderComponent = props => {
                 }
             }
         ],
-        nextArrow: <NextArrow  />,
-        prevArrow: <PrevArrow  />
+        nextArrow: props.coloredArrow ? <ColoredNextArrow /> : <NextArrow  />,
+        prevArrow: props.coloredArrow ? <ColoredPrevArrow /> :  <PrevArrow  />
     };
 
 

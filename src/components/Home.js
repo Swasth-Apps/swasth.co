@@ -70,7 +70,7 @@ const Home = () => {
                 <div className="home-page-content-section">
                     <h3 className="heavy-text center margin-bottom-25 comprehensive-text">A Comprehensive Behavioral
                         Health Platform</h3>
-                    <p className="book-text center" style={{fontSize: 18}}> Resiliens's Digital Health Platform
+                    <p className="book-text center descr-text"> Resiliens's Digital Health Platform
                         offers treatment programs for Anxiety,
                         Depression, Eating Disorders, Borderline Personality Disorder, PTSD, SUDs, etc.
                         The Platform
