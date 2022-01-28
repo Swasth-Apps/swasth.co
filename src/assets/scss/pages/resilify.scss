@@ -872,9 +872,9 @@
   }
   .references-container{
     margin-bottom: 30px;
-    //display: flex;
-    //flex-wrap: wrap;
-    //flex: 0 0 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
     .reference{
       flex:  0 0 33%;
       padding: 15px;
@@ -898,18 +898,15 @@
         p{
           font-size: 18px;
           margin-bottom: 20px;
+          font-family: "Avenir Light" !important;
+          &:not(:last-child) {
+            margin-bottom: 20px;
+          }
+          a{
+            color: _palette(primary-purple);
+            font-family: "Avenir Roman" !important;
+          }
         }
-      }
-    }
-    li{
-      font-family: "Avenir Light" !important;
-      font-size: 16px !important;
-      &:not(:last-child) {
-        margin-bottom: 20px;
-      }
-      a{
-        color: _palette(primary-purple);
-        font-family: "Avenir Roman" !important;
       }
     }
   }

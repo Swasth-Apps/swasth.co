@@ -102,6 +102,8 @@ export const pageQuery = graphql`
         }
         references{
                     reference
+                    title
+                    image
         }
         sessions{
           session{
