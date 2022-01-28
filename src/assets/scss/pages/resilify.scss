@@ -319,7 +319,7 @@
     }
     }
 
-  .program-wrapper, .features-wrapper {
+  .features-wrapper {
     .slick-arrow {
       display: block !important;
       background: #272c33;
@@ -937,6 +937,45 @@
 
   }
 
+  .program-wrapper {
+    .slick-arrow {
+      display: block !important;
+      background: #272c33;
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+
+      img {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      &:hover {
+        background: #476ff19e;
+      }
+
+      &:before {
+        display: none;
+      }
+    }
+
+    .slick-prev {
+      left: -15px;
+      display: block !important;
+      z-index: 1111;
+    }
+
+    .slick-next {
+      right: -15px;
+      display: block !important;
+    }
+  }
+
+
   .join-program-btn {
     border-radius: 3px;
     border: 1px solid #2a42e8;
@@ -1093,58 +1132,47 @@
   }
 
   .references-container {
-    margin-bottom: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 0 0 100%;
-
-    .reference {
-      flex: 0 0 33%;
-      padding: 15px;
-
-      .box {
-        box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
-        border-radius: 10px;
-        overflow: hidden;
-        padding: 0px 0px 20px;
-        cursor: pointer;
-        margin-bottom: 0px;
+    .slick-slide{
+      margin-right: 20px;
+      &>div{
         height: 100%;
-        position: relative;
+      }
+    }
+    .slick-track,.slick-slide{
+      height: inherit;
+    }
+    .feature-div {
+      position: relative;
+      padding-bottom: 30px;
+      height: 100%;
+      img {
+        width: 100%;
+      }
 
-        img {
-          width: 100%;
+      h4, p {
+        padding: 0px 20px;
+      }
+
+      h4 {
+        margin: 20px 0px;
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 17px;
+        font-family: "Avenir Light" !important;
+
+        &:not(:last-child) {
+          margin-bottom: 20px;
         }
 
-        h4, p {
-          padding: 0px 20px;
-        }
-
-        h4 {
-          margin: 20px 0px;
-          font-size: 22px;
-        }
-
-        p {
-          font-size: 17px;
-          font-family: "Avenir Light" !important;
-
-          &:not(:last-child) {
-            margin-bottom: 20px;
-          }
-
-          a {
-            color: _palette(primary-purple);
-            font-family: "Avenir Roman" !important;
-          }
+        a {
+          color: _palette(primary-purple);
+          font-family: "Avenir Roman" !important;
         }
       }
 
       .arrow-icon {
-        background: _palette(blue-color);
-        width: 40px;
-        height: 40px;
-        border-radius: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1153,34 +1181,16 @@
         bottom: 20px;
 
         img {
-          width: 20px;
-          height: 20px;
+          width: 24px;
+          height: 24px;
         }
       }
 
       }
-
-
-    @media only screen and (max-width: 1150.5px) {
-      .reference {
-        flex: 0 0 50%;
-      }
-    }
-    @media only screen and (max-width: 730.5px) {
-      flex-wrap: nowrap;
-      overflow: auto;
-      .reference {
-        flex: 0 0 65%;
-      }
-    }
-    @media only screen and (max-width: 650.5px) {
-      .reference {
-        flex: 0 0 80%;
-      }
-    }
-    @media only screen and (max-width: 450.5px) {
-      .reference {
-        flex: 0 0 90%;
+    .feature-div-link{
+      cursor: pointer;
+      &:hover{
+        transform: scale(1.01);
       }
     }
   }

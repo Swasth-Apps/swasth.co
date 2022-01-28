@@ -6,7 +6,6 @@ import bannerGraphic from "../../assets/images/resilify-woman.jpeg";
 import OrganizationIssue from "../../assets/images/resilify/organization.webp";
 import SavingsCalculator from "../../assets/images/resilify/Savings calculator-group.webp";
 import featureImage1 from "../../assets/images/resilify/3d - Checkup - after 6 weeks.webp";
-import testimonialMale from "../../assets/images/resilify/male 02.webp";
 import {Link} from "gatsby";
 import ProgramAdapts from "../../assets/images/pexels-kaboompics-com-6335.jpg";
 import Slider from "./common/Slider";
