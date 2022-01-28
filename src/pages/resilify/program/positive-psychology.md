@@ -78,10 +78,10 @@ references:
     title: Technology use and preferences for mental health self-management
       interventions among older veterans
     image: /img/cards-1.webp
-  - reference: <p>Kuhn, E.&nbsp;&amp; Owen, J. E. (2020).&nbsp;<a
-      href="http://doi.org/10.1007/s40501-020-00207-x" target="_blank"
-      rel="noopener">doi.org/10.1007/s40501-020-00207-x</a></p>
-    title: "Advances in PTSD treatment delivery: The role of digital technology in
-      PTSD treatment."
+  - reference: "Kuhn, E. & Owen, J. E. (2020). Advances in PTSD treatment delivery:
+      Current Treatment Options in Psychiatry.
+      doi.org/10.1007/s40501-020-00207-x"
+    title: The role of digital technology in PTSD treatment
     image: /img/cards-2.webp
+    link: http://doi.org/10.1007/s40501-020-00207-x
 ---
