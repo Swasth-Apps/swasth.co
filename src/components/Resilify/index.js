@@ -59,7 +59,7 @@ const ResilifyScreen = (props) => {
                                                 Self-guided Programs<br/>
                                             </h3>
                                             <div className='para-text black-18-font margin-bottom-25'>
-                                                <p className="width-90 light-text">
+                                                <p className="width-90 description-text">
                                                     Our Resilify Platform offers self-guided programs based on
                                                     evidence-based treatment modalities that last anywhere from 6-12
                                                     weeks.
@@ -112,7 +112,7 @@ const ResilifyScreen = (props) => {
                         to better gut health
                     </p>
                     <div className='book-text black-18-font'>
-                        <p className="book-text">
+                        <p className="description-text">
                             Cognitive behavioral therapy (CBT) generates on average the highest clinical outcomes for
                             IBS, improving both physical symptoms and overall wellbeing. Zemedy provides a comprehensive
                             digital CBT-based program for individuals with IBS when and where they need it.
@@ -143,7 +143,7 @@ const ResilifyScreen = (props) => {
                                     {f.title}
                                 </p>
                                 <div className='black-18-font'>
-                                    <p className="book-text">
+                                    <p className="description-text">
                                         {f.description}
                                     </p>
                                 </div>
@@ -165,7 +165,7 @@ const ResilifyScreen = (props) => {
 
             <div className="resilify-result-content-section">
                 <h3 className="heavy-text center margin-bottom-25 comprehensive-text">Results that last</h3>
-                <p className="book-text center" style={{fontSize: 18}}> Combining data science and CBT techniques
+                <p className="description-text center"> Combining data science and CBT techniques
                     developed at
                     <br/>
                     the University of Pennsylvania, Resilify is a carepath to
@@ -225,7 +225,7 @@ const ResilifyScreen = (props) => {
                         in your organization
                     </p>
                     <div className='book-text black-18-font'>
-                        <p className="book-text">
+                        <p className="description-text">
                             Reduce your staff healthcare costs and minimize the impact of IBS on your business by
                             introducing Zemedy to your team.
                         </p>
@@ -286,7 +286,7 @@ const ResilifyScreen = (props) => {
                         How much can you save?
                     </p>
                     <div className='book-text black-18-font'>
-                        <p className="book-text">
+                        <p className="description-text">
                             Generating long-lasting outcomes, Zemedy can save over 20% of spend for employers and payers in the first year
                         </p>
                     </div>

@@ -189,10 +189,57 @@ const ResilifyProgram = (props) => {
             {program?.references?.length ?
             <div className="category-page-body resilify-home-page-body">
                 <div className="program-section" id={`topic-tabs`}>
-                    <h3 className="program-section-title base-text">Selected Scientific Literature</h3>
+                    <h3 className="reference-title base-text">Selected Scientific Literature</h3>
+                    <p className="reference-descr light-text">
+                        Built with leading experts, our approach is proven and recognised <br /> through decades of clinical and academic research.
+                    </p>
                 </div>
                 <ul className="references-container">
                     {program?.references?.map(({reference}) =><li>{ReactHtmlParser(reference)}</li>)}
+                {/*    <div className="reference">
+                        <div className="box">
+                            <img src='https://static.wixstatic.com/media/52f234_819421fd237b440f9a4684ae7b875f6f~mv2.png/v1/crop/x_0,y_6,w_1050,h_775/fill/w_306,h_226,al_c,q_85,usm_0.66_1.00_0.01/Cards.webp' />
+                            <h4 className="medium-text">
+                                Randomized Clinical Trial of a Digital CBT App for IBS
+                            </h4>
+                            <p className="book-text">
+                                Zemedy is an effective modality to deliver CBT for individuals with IBS, and could increase the accessibility of this evidence-based treatment.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="reference">
+                        <div className="box">
+                            <img src='https://static.wixstatic.com/media/52f234_ab4a92b14b784bc79e437246962c9d0b~mv2.png/v1/fill/w_306,h_226,al_c,q_85,usm_0.66_1.00_0.01/Cards-2.webp' />
+                            <h4 className="medium-text">
+                                Brief Cognitive-Behavioral Internet Therapy for IBS
+                            </h4>
+                            <p className="book-text">
+                                Treatment completers have shown statistically and clinically significant declines in IBS symptoms and improvements in quality of life.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="reference">
+                        <div className="box">
+                            <img src='https://static.wixstatic.com/media/52f234_73b3a384d4ab46cca8b75766875be2c3~mv2.png/v1/fill/w_306,h_226,al_c,q_85,usm_0.66_1.00_0.01/Cards-1.webp' />
+                            <h4 className="medium-text">
+                                Empirical Support for a Self-help Treatment for IBS
+                            </h4>
+                            <p className="book-text">
+                                This study represents a move towards wider dissemination of and access to empirically supported self-help treatments for IBS.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="reference">
+                        <div className="box">
+                            <img src='https://static.wixstatic.com/media/52f234_73b3a384d4ab46cca8b75766875be2c3~mv2.png/v1/fill/w_306,h_226,al_c,q_85,usm_0.66_1.00_0.01/Cards-1.webp' />
+                            <h4 className="medium-text">
+                                Empirical Support for a Self-help Treatment for IBS
+                            </h4>
+                            <p className="book-text">
+                                This study represents a move towards wider dissemination of and access to empirically supported self-help treatments for IBS.
+                            </p>
+                        </div>
+                    </div>*/}
                 </ul>
             </div> : null}
             <div className="category-page-body resilify-home-page-body">
