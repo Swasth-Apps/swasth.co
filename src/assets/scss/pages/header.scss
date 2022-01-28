@@ -1068,6 +1068,9 @@
 .slick-dots {
   bottom: unset !important;
   top: 95%;
+  @media only screen and (max-width: 769.5px) {
+    display: none !important;
+  }
 }
 
 .slick-dots li button {

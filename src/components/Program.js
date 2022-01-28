@@ -24,7 +24,7 @@ const Program = props => {
             </div> : null}
             <div className="program-detail">
                 <div className="program-info">
-                    <h4 className="base-text">{program.title}</h4>
+                    <h4 className="medium-text">{program.title}</h4>
 
                     <p className="html-parser-description" >
                         {HtmlParser(program.overview)}

@@ -470,7 +470,6 @@
   }
 
   .program-detail-section {
-    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin-top: 20px;
     position: relative;
@@ -480,7 +479,7 @@
       flex-wrap: wrap;
     }
     .program-overview-container {
-      padding: 0px 20px;
+      //padding: 0px 20px;
       flex: 0 0 50%;
       height: auto;
 
@@ -503,6 +502,7 @@
             h4{
               margin-bottom: 0;
               padding: 0px;
+              font-size: 24px;
             }
             img {
               width: 24px;
@@ -572,11 +572,14 @@
 
           .ant-collapse-header {
             //background: rgba(108, 99, 255, 0.07);
+            background: #f8faff;
           }
 
           .ant-collapse-item {
             margin-top: 20px;
-            box-shadow: lighten(_palette(blue-color), 30%) 0px 1px 4px;
+            //box-shadow: lighten(_palette(blue-color), 30%) 0px 1px 4px;
+            //border: 1px solid #eceef8;
+            box-shadow: none;
             .ant-collapse-content-box {
               padding: 0 20px 20px;
             }
@@ -651,11 +654,8 @@
         padding: 20px 0px;
         .program-overview-section{
           max-height: 100%;
-          h4{
-            padding: 0 20px;
-          }
           .faqs{
-            margin: 0px 20px 0px;
+            margin: 0px 0px 0px;
             max-width: 100%;
           }
         }
@@ -666,7 +666,7 @@
         }
         &:first-child{
           .program-overview-section {
-            padding: 20px;
+            padding: 0px;
           }
         }
       }
@@ -674,6 +674,7 @@
     .bottom-section{
       padding: 20px;
       background: #9CAAFD11;
+      box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
       margin-top: 0px;
       .divider-container{
         margin: auto;

@@ -4,6 +4,9 @@ import CLImage from "../../../helper/CLImage";
 import {Collapse, Divider, Tabs} from "antd";
 import {getCloudIDFromImageName} from "../../../helper/helper";
 import Program from "../../../components/Program";
+import {Link} from "gatsby";
+import RightIcon from "../../../assets/images/right.png";
+import ResilifyBottomSection from "../../ResilifyBottomSection";
 
 const {TabPane} = Tabs;
 
@@ -19,6 +22,29 @@ const ResilifyProgram = (props) => {
 
     }
 
+    const renderReference = ({reference, title, image, link}) =><div
+        className="reference"
+    >
+        <div
+            className="box"
+            onClick={() => link ? window.open(link,"_blank") : null}
+            style={{cursor: link ? "pointer":  "default"}}
+        >
+            <img src={image} />
+            <h4 className="medium-text">
+                {title}
+            </h4>
+            <p className="book-text">
+                {ReactHtmlParser(reference)}
+            </p>
+            {link ? <div
+                className="arrow-icon"
+            >
+                <img src={RightIcon} />
+            </div> : null}
+        </div>
+    </div>
+
     const program = props?.program || [];
     const relatedPrograms = props.program?.relatedpost?.program;
     const sessions = program?.sessions?.session;
@@ -27,10 +53,10 @@ const ResilifyProgram = (props) => {
             <h3 className="program-section-title base-text">{program.title}</h3>
             <div className="program-detail-section">
                 <div className="box-content">
-                {sessions?.length ?
-                    <div className="sessions-length roman-text">
-                        {`${sessions?.length} Sessions`}
-                    </div> : null}
+                {/*{sessions?.length ?*/}
+                {/*    <div className="sessions-length roman-text">*/}
+                {/*        {`${sessions?.length} Sessions`}*/}
+                {/*    </div> : null}*/}
                 <div className="program-overview-container">
                     <div className="program-overview-section scrollbar">
                         <div style={{textAlign: "center"}}>
@@ -79,7 +105,7 @@ const ResilifyProgram = (props) => {
                                         header={
                                             <>
                                                 <h4 className="medium-text">{session.title}</h4>
-                                                <p className="roman-text">Session {i + 1}</p>
+                                                <p className="book-text">Session {i + 1}</p>
                                             </>
                                         }
 
@@ -195,18 +221,7 @@ const ResilifyProgram = (props) => {
                     </p>
                 </div>
                 <div className="references-container">
-                    {program?.references?.map(({reference, title, image}) =>
-                        <div className="reference">
-                            <div className="box">
-                                <img src={image} />
-                                <h4 className="medium-text">
-                                    {title}
-                                </h4>
-                                <p className="book-text">
-                                    {ReactHtmlParser(reference)}
-                                </p>
-                            </div>
-                        </div>)}
+                    {program?.references?.map((r) => renderReference(r))}
                 </div>
             </div> : null}
             <div className="category-page-body resilify-home-page-body">
@@ -222,6 +237,7 @@ const ResilifyProgram = (props) => {
                     )}
                 </div>
             </div>
+            <ResilifyBottomSection />
         </div>
     )
 };

@@ -14,6 +14,7 @@ import {generateRandomID} from "./common/helper";
 import Telecommuting from "../../assets/images/Telecommuting.png";
 import ClickHere from "../../assets/images/Click_here.png";
 import GroupTherapy from "../../assets/images/Group_therapy.png";
+import ResilifyBottomSection from "../ResilifyBottomSection";
 
 const features = [
     {
@@ -98,7 +99,7 @@ const ResilifyScreen = (props) => {
                 <img src={partner4}/>
             </div>
         </div>*/}
-        <div id='wrapper' className={'coach-wrapper'}>
+        <div id='wrapper' className={'coach-wrapper divider'}>
             <Row className='program-row-adapts'>
 
                 <Col md={12} className='-margin-right align-center'>
@@ -121,7 +122,7 @@ const ResilifyScreen = (props) => {
                 </Col>
             </Row>
         </div>
-        <div className="resilify-home-programsList">
+        <div className="resilify-home-programsList ">
             <TopicSection
                 programs={programs}
                 viewAll
@@ -163,7 +164,7 @@ const ResilifyScreen = (props) => {
             style={{paddingBottom: 0}}
         >
 
-            <div className="resilify-result-content-section">
+            <div className="resilify-result-content-section divider">
                 <h3 className="heavy-text center margin-bottom-25 comprehensive-text">Results that last</h3>
                 <p className="description-text center"> Combining data science and CBT techniques
                     developed at
@@ -215,7 +216,7 @@ const ResilifyScreen = (props) => {
 
             </div>
 
-            <Row className='addressing-issue-container'>
+            <Row className='addressing-issue-container divider'>
 
                 <Col md={12}>
                     <p className='bottom-space heavy-text'>
@@ -326,14 +327,12 @@ const ResilifyScreen = (props) => {
                 </div>
             </div>
         </div>
-        <div className="resilify-testimonials">
+        {/*<div className="resilify-testimonials">
             <div id='wrapper' className={'coach-wrapper'}>
                 <h3 className="heavy-text center title">Trusted by people who know what <br /> you’re going through</h3>
 
                 <Slider
                     coloredArrow
-                    perSlide={3}
-                    infinite={true}
                     className="features-wrapper program-wrapper"
                     key={generateRandomID()}
                 >
@@ -405,7 +404,8 @@ const ResilifyScreen = (props) => {
 
                 </Slider>
             </div>
-        </div>
+        </div>*/}
+        <ResilifyBottomSection />
     </div>
 
 }
