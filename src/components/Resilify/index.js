@@ -4,36 +4,92 @@ import TopicSection from "./TopicSection";
 import {useSelector} from "react-redux";
 import bannerGraphic from "../../assets/images/resilify-woman.jpeg";
 import OrganizationIssue from "../../assets/images/resilify/organization.webp";
-import SavingsCalculator from "../../assets/images/resilify/Savings calculator-group.webp";
-import featureImage1 from "../../assets/images/resilify/resilify-daily-gratitude.png";
-import featureImage2 from "../../assets/images/resilify/resilify-dashboard.png";
-import featureImage3 from "../../assets/images/resilify/resilify-tools.png";
+import SavingsCalculator from "../../assets/images/resilify/Saving-Calculator.png";
+import gratitudeImg from "../../assets/images/resilify/resilify-daily-gratitude.png";
+import dashboardImg from "../../assets/images/resilify/resilify-dashboard.png";
+import toolsImg from "../../assets/images/resilify/resilify-tools.png";
+import communityImg from "../../assets/images/resilify/resilify-community.png";
+import exerciseImg from "../../assets/images/resilify/resilify-exercise.png";
+import insightsImg from "../../assets/images/resilify/resilify-insights.png";
+import lessonImg from "../../assets/images/resilify/resilify-lesson.png";
+import meditationImg from "../../assets/images/resilify/resilify-meditation.png";
+import moreImg from "../../assets/images/resilify/resilify-more.png";
+import programImg from "../../assets/images/resilify/resilify-program.png";
+import dailyCheckinImg from "../../assets/images/resilify/resilify-daily-checkin.png";
 import {Link} from "gatsby";
 import ProgramAdapts from "../../assets/images/pexels-kaboompics-com-6335.jpg";
 import Slider from "./common/Slider";
 import {generateRandomID} from "./common/helper";
-import Telecommuting from "../../assets/images/Telecommuting.png";
-import ClickHere from "../../assets/images/Click_here.png";
-import GroupTherapy from "../../assets/images/Group_therapy.png";
+import ResultStat1 from "../../assets/images/resilify/result-stat1.png";
+import ResultStat2 from "../../assets/images/resilify/result-stat2.png";
+import ResultStat3 from "../../assets/images/resilify/result-stat3.png";
 import ResilifyBottomSection from "../ResilifyBottomSection";
 
 const features = [
     {
         title: "Guided IBS care toolkit",
         description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
-        "image": featureImage1
+        "image": gratitudeImg
     },
 
     {
         title: "Progress monitoring",
         description: "Follow your journey to better gut health with personalized symptom and lifestyle habit tracking.",
-        "image": featureImage2
+        "image": dashboardImg
     },
 
     {
         title: "Tailored CBT program",
         description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
-        "image": featureImage3
+        "image": toolsImg
+    },
+
+    {
+        title: "Tailored CBT program",
+        description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
+        "image": communityImg
+    },
+
+    {
+        title: "Tailored CBT program",
+        description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
+        "image": exerciseImg
+    },
+
+    {
+        title: "Tailored CBT program",
+        description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
+        "image": insightsImg
+    },
+
+    {
+        title: "Tailored CBT program",
+        description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
+        "image": lessonImg
+    },
+
+    {
+        title: "Tailored CBT program",
+        description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
+        "image": meditationImg
+    },
+
+    {
+        title: "Tailored CBT program",
+        description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
+        "image": moreImg
+    },
+
+    {
+        title: "Tailored CBT program",
+        description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
+        "image": programImg
+    },
+
+    {
+        title: "Tailored CBT program",
+        description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
+        "image": dailyCheckinImg
     }
 ]
 
@@ -140,7 +196,7 @@ const ResilifyScreen = (props) => {
                 >
                     {features?.map(f => <div className="feature-div">
                         <Row className='feature-row'>
-                            <Col md={12} className="content-col -margin-right">
+                            <Col md={12} className="content-col">
                                 <p className='heavy-text title'>
                                     {f.title}
                                 </p>
@@ -178,7 +234,7 @@ const ResilifyScreen = (props) => {
                         <div className="flex-section">
                             <div className="section">
                                 <img
-                                    src={Telecommuting}
+                                    src={ResultStat1}
                                 />
 
                                 <p className="medium-text title">
@@ -191,7 +247,7 @@ const ResilifyScreen = (props) => {
                         <div className="flex-section">
                             <div className="section">
                                 <img
-                                    src={ClickHere}
+                                    src={ResultStat2}
                                 />
 
                                 <p className="medium-text title">Improved mental wellbeing</p>
@@ -203,7 +259,7 @@ const ResilifyScreen = (props) => {
                         <div className="flex-section">
                             <div className="section">
                                 <img
-                                    src={GroupTherapy}
+                                    src={ResultStat3}
                                 />
 
                                 <p className="medium-text title">Boosted productivity</p>

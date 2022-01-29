@@ -1,11 +1,11 @@
 import React from "react";
-
+import ResilifyBottomBg from "../assets/images/resilify/resilify-bottom-bg.png"
 const ResilifyBottomSection = props =>{
 
     return(
         <div className="resilify-bottom-section">
             <div>
-                <img src="https://static.wixstatic.com/media/52f234_7e1dae731fbe442cb19b9d851e8af561~mv2.png/v1/fill/w_959,h_338,al_c,q_85,usm_0.66_1.00_0.01/science-cta.webp"/>
+                <img src={ResilifyBottomBg}/>
                 <div className="content">
                     <h3 className="heavy-text">
                         Driven by patients, developed by clinicians
