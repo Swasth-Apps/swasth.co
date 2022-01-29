@@ -111,4 +111,31 @@ relatedpost:
       title: Enhancing Self Esteem
     - title: CBT for Depression
       slug: cbt-for-depression
+references:
+  - title: " Examination of insomnia and insomnia treatment in psychiatric
+      inpatients. "
+    reference: Patricia L. Haynes,Sairam Parthasarathy,Brian Kersh,Richard R. Bootzin.
+    link: https://doi.org/10.1111/j.1447-0349.2010.00711.x
+    image: /img/card-5.png
+  - title: Sleep-related monitoring on awakening mediates the relationship between
+      insomnia-related interpretive bias and insomnia symptoms using the
+      insomnia ambiguity paradigm.
+    reference: Umair Akram,Eleanor Bickle,Carley Howell,Vildan Ozhan,Jessica
+      Williamson,Andrew Du Rocher.
+    link: https://doi.org/10.1111/jsr.13343
+    image: /img/cards-2.webp
+  - title: Normal sleep, disturbed sleep, transient and persistent insomnia.
+    reference: W. C. Dement.
+    link: https://doi.org/10.1111/j.1600-0447.1986.tb08979.x
+    image: /img/card-3.png
+  - title: Reduced structural connectivity in Insomnia Disorder.
+    reference: Kira V. Jespersen,Angus Stevner,Henrique Fernandes,Stine D.
+      Sørensen,Eus Van Someren,Morten Kringelbach,Peter Vuust.
+    link: https://doi.org/10.1111/jsr.12901
+    image: /img/card-4.png
+  - title: Daytime activity and risk factors for late-life insomnia
+    reference: Kevin Morgan, Department of Human Sciences, Loughborough University,
+      Leicestershire LE11 3TU.
+    link: https://doi.org/10.1046/j.1365-2869.2003.00355.x
+    image: /img/card-5.png
 ---
