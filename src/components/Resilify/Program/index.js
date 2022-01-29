@@ -236,7 +236,10 @@ const ResilifyProgram = (props) => {
                     {relatedPrograms?.map((p) => {
                             const program = props.allPrograms?.find(a => a?.node?.fields?.slug?.includes(p.slug));
                             return (program ?
-                                <Program program={program?.node?.frontmatter} slug={program?.node?.fields?.slug}/> : null)
+                                <Program
+                                    program={program?.node?.frontmatter}
+                                    slug={program?.node?.fields?.slug}
+                                /> : null)
                         }
                     )}
                 </div>

@@ -5,7 +5,9 @@ import {useSelector} from "react-redux";
 import bannerGraphic from "../../assets/images/resilify-woman.jpeg";
 import OrganizationIssue from "../../assets/images/resilify/organization.webp";
 import SavingsCalculator from "../../assets/images/resilify/Savings calculator-group.webp";
-import featureImage1 from "../../assets/images/resilify/3d - Checkup - after 6 weeks.webp";
+import featureImage1 from "../../assets/images/resilify/resilify-daily-gratitude.png";
+import featureImage2 from "../../assets/images/resilify/resilify-dashboard.png";
+import featureImage3 from "../../assets/images/resilify/resilify-tools.png";
 import {Link} from "gatsby";
 import ProgramAdapts from "../../assets/images/pexels-kaboompics-com-6335.jpg";
 import Slider from "./common/Slider";
@@ -25,13 +27,13 @@ const features = [
     {
         title: "Progress monitoring",
         description: "Follow your journey to better gut health with personalized symptom and lifestyle habit tracking.",
-        "image": featureImage1
+        "image": featureImage2
     },
 
     {
         title: "Tailored CBT program",
         description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
-        "image": featureImage1
+        "image": featureImage3
     }
 ]
 
