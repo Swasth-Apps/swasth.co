@@ -9,8 +9,11 @@ import BlueRightIcon from "../../../assets/images/blue-right.png"
 const SliderComponent = props => {
     let items = getItemsPerSlider();
     items = props.maxSlideNum && (items > props.maxSlideNum) ? props.maxSlideNum : items;
-    const returnNum = num => props.maxSlideNum && (num > props.maxSlideNum) ? props.maxSlideNum : num
-
+    const returnNum = num => props.itemsLength && props.itemsLength <= num ?
+        props.itemsLength :
+        props.maxSlideNum && (num > props.maxSlideNum) ?
+            props.maxSlideNum :
+            num
 
     const NextArrow = (props) => {
         const { className, style, onClick } = props;

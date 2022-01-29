@@ -204,6 +204,7 @@ const ResilifyProgram = (props) => {
                         <Slider
                             className="program-wrapper"
                             key={generateRandomID()}
+                            itemsLength={program?.references?.length}
                         >
                             {program?.references?.map((r) => <div
                                 className={`feature-div ${r.link ? "feature-div-link" : ""}`}
