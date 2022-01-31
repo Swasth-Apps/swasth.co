@@ -52,4 +52,26 @@ relatedpost:
       slug: cbt-for-depression
     - title: Coping with Self-harming Behaviors with DBT
       slug: coping-with-self-harming-behaviors-with-dbt
+references:
+  - title: "Body dysmorphic disorder. In: Diagnostic and Statistical Manual of
+      Mental Disorders DSM-5. 5th ed"
+    reference: American Psychiatric Association; 2013. Accessed April 11, 2019.
+    link: https://dsm.psychiatryonline.org
+    image: /img/card-1.webp
+  - title: Long-term outcomes of cognitive-behavioral therapy for adolescent body
+      dysmorphic disorder
+    reference: Krebs G, Behavior Therapy. 2017; doi:10.1016/j.beth.2017.01.001.
+    image: /img/card-2.webp
+  - title: Body dysmorphic disorder
+    reference: Merck Manual Professional Version. Accessed April 11, 2019.
+    link: https://www.merckmanuals.com/professional/psychiatric-disorders/obsessive-compulsive-and-related-disorders/body-dysmorphic-disorder#
+    image: /img/card-3.png
+  - title: Recent advances in understanding and managing body dysmorphic disorder
+    reference: Krebs G, Evidence Based Mental Health. 2017; doi:10.1136/eb-2017-102702.
+    image: /img/card-4.png
+  - title: "Pharmacotherapy relapse prevention in body dysmorphic disorder: A
+      double-blind, placebo-controlled trial"
+    reference: Phillips KA, American Journal of Psychiatry. 2016;
+      doi:10.1176/appi.ajp.2016.15091243.
+    image: /img/card-5.png
 ---
