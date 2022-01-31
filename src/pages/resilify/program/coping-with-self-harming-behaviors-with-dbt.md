@@ -118,6 +118,31 @@ relatedpost:
       title: Enhancing Self Esteem
     - title: CBT for Depression
       slug: cbt-for-depression
+references:
+  - title: Long term effectiveness of dialectical behavior therapy versus enhanced
+      usual care for adolescents with self-harming and suicidal behavior
+    reference: Lars Mehlum,Ruth-Kari Ramleth,Anita J. Tørmoen,Egil Haga,Lien M.
+      Diep,Barbara H. Stanley,Alec L. Miller,Bo Larsson,Anne M. Sund,Berit
+      Grøholt.
+    link: https://doi.org/10.1111/jcpp.13077
+    image: /img/card-1.webp
+  - title: Deliberate Self-harm
+    reference: Edilma L. Yearwood,Eve Bosnick.
+    link: https://doi.org/10.1002/9781119487593.ch13
+    image: /img/card-2.webp
+  - title: "Practitioner Review: Treatment for suicidal and self-harming adolescents
+      – advances in suicide prevention care"
+    reference: Joan Rosenbaum Asarnow,Lars Mehlum.
+    link: https://doi.org/10.1111/jcpp.13130
+    image: /img/card-3.png
+  - title: Understanding and treating self-harm behaviors in BPD
+    reference: Beth S. Brodsky PhD,Barbara Stanley PhD.
+    link: https://doi.org/10.1002/9781118556603.ch5
+    image: /img/card-4.png
+  - title: Self-harm
+    reference: National Alliance on Mental Illness. Accessed Oct. 24, 2018.
+    link: https://www.nami.org/Learn-More/Mental-Health-Conditions/Related-Conditions/Self-harm
+    image: /img/card-5.png
 tags:
   - DBT
   - Self-Harm
