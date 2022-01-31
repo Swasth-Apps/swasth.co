@@ -100,4 +100,30 @@ relatedpost:
       slug: enhancing-self-esteem
     - title: CBT for Depression
       slug: cbt-for-depression
+references:
+  - title: "Psychotherapists' ideals in the treatment of panic disorder: An
+      exploratory study"
+    reference: David Kealy,Geoff Goodman,John S. Ogrodniczuk.
+    image: /img/card-1.webp
+    link: https://doi.org/10.1002/capr.12125
+  - title: How effective are cognitive behavior therapies for major depression and
+      anxiety disorders? A meta-analytic update of the evidence
+    reference: Pim Cuijpers,Ioana A. Cristea,Eirini Karyotaki,Mirjam
+      Reijnders,Marcus J.H. Huibers.
+    link: https://doi.org/10.1002/wps.20346
+    image: /img/card-2.webp
+  - title: "Internet cognitive behavioural therapy for panic disorder: Does the
+      inclusion of stress management information improve end-state functioning?"
+    reference: Jeffrey C. Richards,Dr Britt Klein,David W. Austin.
+    link: https://doi.org/10.1080/13284200500378795
+    image: /img/card-3.png
+  - title: Prediction and moderation of improvement in cognitive-behavioral and
+      psychodynamic psychotherapy for panic disorder. J Consult Clin Psychol
+    reference: Chambless DL, Milrod B, Porter E, et al. 2017;85(8):803–813.
+      doi:10.1037/ccp0000224
+    image: /img/card-4.png
+  - title: "Psychotherapies for panic disorder: a tale of two sites"
+    reference: Milrod B, Chambless DL, Gallop R, et al. J Clin Psychiatry.
+      2016;77(7):927-935. doi:10.4088/JCP.14m09507
+    image: /img/card-5.png
 ---
