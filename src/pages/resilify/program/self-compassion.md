@@ -58,4 +58,27 @@ relatedpost:
       slug: cbt-for-depression
     - title: Coping with Self-harming Behaviors with DBT
       slug: coping-with-self-harming-behaviors-with-dbt
+references:
+  - title: Mindful self-compassion
+    reference: Germer, C. (n.d.).
+    link: http://www.mindfulselfcompassion.org
+    image: /img/card-1.webp
+  - title: Self Compassion
+    reference: Neff, K. (n.d.).
+    link: http://self-compassion.org/the-three-elements-of-self-compassion-2
+    image: /img/card-2.webp
+  - title: Self-Compassion and Well-Being in Parents of Children with Autism.
+      Mindfulness
+    reference: Neff, K., & Faso, D. (2014).
+    image: /img/card-3.png
+  - title: Abuse, invalidation, and lack of early warmth show distinct relationships
+      with self-criticism, self-compassion, and fear of self-compassion in
+      personality disorder
+    reference: Iona Naismith,Santiago Zarate Guerrero,Janet Feigenbaum.
+    link: https://doi.org/10.1002/cpp.2357
+    image: /img/card-4.png
+  - title: Meta-Analysis of Gender Differences in Self-Compassion, Self and Identity.
+    reference: Yarnell, L., Stafford, R., Neff, K., Reilly, E., Knox, M., &
+      Mullarkey, M. (2015).
+    image: /img/card-5.png
 ---
