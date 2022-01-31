@@ -60,4 +60,32 @@ relatedpost:
       slug: cbt-for-depression
     - slug: coping-with-self-harming-behaviors-with-dbt
       title: Coping with Self-harming Behaviors with DBT
+references:
+  - title: Social anxiety and related social impairment are linked to self-efficacy
+      and dysfunctional coping
+    reference: Dr E. Psouni, Centre for Psychology, University of Kristianstad, 291
+      88 Kristianstad, Sweden.
+    image: /img/card-1.webp
+    link: https://doi.org/10.1111/j.1467-9450.2009.00731.x
+  - title: Exploring the relevance of expressed emotion to the treatment of social
+      anxiety disorder in adolescence.
+    reference: Luis-Joaquin Garcia-Lopez,Jose M. Muela,Lourdes
+      Espinosa-Fernandez,Mar Diaz-Castela.
+    link: https://doi.org/10.1016/j.adolescence.2009.08.001
+    image: /img/card-2.webp
+  - title: Social Anxiety Disorder (Social Phobia)
+    reference: Assen Alladin.
+    link: https://doi.org/10.1002/9781118509869.ch3
+    image: /img/card-3.png
+  - title: "Psychotherapy for Social Anxiety Disorder: Long-Term Effectiveness of
+      Resource-Oriented Cognitive-Behavioral Therapy and Cognitive Therapy in
+      Social Anxiety Disorder"
+    reference: Ulrike Willutzki,Tobias Teismann,Dietmar Schulte.
+    link: https://doi.org/10.1002/jclp.21842
+    image: /img/card-4.png
+  - title: "Social Anxiety and Emotion Regulation: A Model for Developmental
+      Psychopathology Perspectives on Anxiety Disorders"
+    reference: Erin B. Mcclure,Daniel S. Pine.
+    link: https://doi.org/10.1002/9780470939406.ch12
+    image: /img/card-5.png
 ---
