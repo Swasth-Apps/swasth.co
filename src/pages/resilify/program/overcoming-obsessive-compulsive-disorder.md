@@ -56,4 +56,26 @@ relatedpost:
       slug: coping-with-self-harming-behaviors-with-dbt
     - title: Managing workplace burnout and stress
       slug: managing-workplace-burnout-and-stress
+references:
+  - title: Understanding and treating incompleteness in obsessive-compulsive disorder
+    reference: Laura J. Summerfeldt.
+    link: https://doi.org/10.1002/jclp.20080
+    image: /img/card-1.webp
+  - title: "Compulsive behaviours and levels of belief in obsessive–compulsive
+      disorder: a case-series analysis of their interrelationships"
+    reference: Lisa F. Storchheim,John F. O'Mahony.
+    link: https://doi.org/10.1002/cpp.475
+    image: /img/card-2.webp
+  - title: Challenges in Child and Adolescent Obsessive Compulsive Disorder
+    reference: Elaine Chung,Anup Kharod,Isobel Heyman.
+    link: https://doi.org/10.1002/9781119170235.ch31
+    image: /img/card-3.png
+  - title: Treatment of obsessive-compulsive disorder in patients who have comorbid
+      major depression
+    reference: Jonathan S. Abramowitz.
+    link: https://doi.org/10.1002/jclp.20078
+    image: /img/card-4.png
+  - title: New insights and perspectives on genetics of obsessive-compulsive disorder
+    reference: Zai G,  Psychiatric Genetics. 2019; doi:10.1097/YPG.0000000000000230.
+    image: /img/card-5.png
 ---
