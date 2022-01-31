@@ -32,4 +32,29 @@ relatedpost:
       slug: dealing-with-social-anxiety
     - title: How to overcome Perfectionism
       slug: how-to-overcome-perfectionism
+references:
+  - title: Evaluation of assertiveness training for psychiatric patients
+    reference: "Kuei-Ru Chou, Professor, Director of Graduate Institute of Nursing,
+      Taipei Medical University, No. 250, Wu-Hsing Street, Taipei 110, Taiwan.
+      Telephone: +886 2 27361661 (ext. 6302)."
+    link: https://doi.org/10.1111/j.1365-2702.2008.02343.x
+    image: /img/card-1.webp
+  - title: "Simple assertiveness and healthy boundaries. In: Essentials of Managing
+      Stress"
+    reference: "Seaward BL. Burlington, Mass.: Jones & Bartlett Learning; 2017."
+    image: /img/card-2.webp
+  - title: "Responsible, assertive, caring communication in nursing. In:
+      Communication in Nursing. 8th ed"
+    reference: Riley JB. Mosby Elsevier; 2017.
+    image: /img/card-3.png
+  - title: The effect of assertiveness training in schizophrenic patients on
+      functional remission and assertiveness level
+    reference: Gonca Ustun PhD,Leyla Kucuk.
+    link: https://doi.org/10.1111/ppc.12427
+    image: /img/card-4.png
+  - title: Relationship between assertiveness and burnout among nurse managers
+    reference: Eiko SUZUKI,Miyuki SAITO,Akira TAGAYA,Rieko MIHARA,Akiko
+      MARUYAMA,Tomomi AZUMA,Chifumi SATO.
+    link: https://doi.org/10.1111/j.1742-7924.2009.00124.x
+    image: /img/card-5.png
 ---
