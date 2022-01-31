@@ -57,4 +57,25 @@ relatedpost:
       slug: coping-with-self-harming-behaviors-with-dbt
     - title: Overcoming Obsessive Compulsive Disorder
       slug: overcoming-obsessive-compulsive-disorder
+references:
+  - title: "Interventions to prevent and reduce physician burnout: A systematic
+      review and meta-analysis"
+    reference: West CP, The Lancet. 2016; doi:10.1016/S0140-6736(16)31279-X.
+    image: /img/card-1.webp
+  - title: Is it time to consider the "burnout syndrome" a distinct illness?
+    reference: Bianchi R, Frontiers in Public Health. 2015; doi:10.3389/fpubh.2015.00158.
+    image: /img/card-2.webp
+  - title: "The relationship between burnout, depression, and anxiety: A systematic
+      review and meta-analysis"
+    reference: "Koutsimani P, et al. (2019). DOI: 10.3389/fpsyg.2019.00284"
+    image: /img/card-3.png
+  - title: "Burnout and depression: Causal attributions and construct overlap"
+    reference: Bianchi R, Journal of Health Psychology. 2018;
+      doi:10.1177/1359105317740415.
+    image: /img/card-4.png
+  - title: "Sleep, occupational stress, and burnout. In: Principles and Practice of
+      Sleep Medicine. 6th ed"
+    reference: Kryger MH, Elsevier Saunders; 2017.
+    link: https://www.clincalkey.com. Accessed May 13, 2021.
+    image: /img/card-5.png
 ---
