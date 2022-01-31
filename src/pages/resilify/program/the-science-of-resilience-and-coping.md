@@ -76,4 +76,32 @@ relatedpost:
       slug: positive-psychology
     - title: The Science of Gratitude and Well-Being
       slug: the-science-of-gratitude-and-well-being
+references:
+  - title: Coping and resilience levels of bariatric surgery candidates and
+      affecting factors
+    reference: Saliha Bozodogan Yesilot PhD,Remziye Yeşilkuş MSc.
+    link: https://doi.org/10.1111/ppc.13032
+    image: /img/card-1.webp
+  - title: The relationship between coping strategies and resilience among
+      adolescents with beta-thalassemia major
+    reference: Ali Mohammad Parviniannasab,Mahnaz Rakhshan,Marzieh Momennasab,Mitra
+      Soltanian,Mostafa Bijani.
+    link: https://doi.org/10.1111/jcap.12339
+    image: /img/card-2.webp
+  - title: Family support, social capital, resilience and adolescent coping
+    reference: John Pinkerton,Pat Dolan.
+    link: https://doi.org/10.1111/j.1365-2206.2007.00497.x
+    image: /img/card-3.png
+  - title: Inter-relationships between trait resilience, coping strategies, and
+      mental health outcomes in autistic adults
+    reference: Melanie Muniandy,Amanda L. Richdale,Samuel R. C. Arnold,Julian N.
+      Trollor,Lauren P. Lawson.
+    link: https://doi.org/10.1002/aur.2564
+    image: /img/card-4.png
+  - title: " Explorations of Coping Strategies, Learned Persistence, and Resilience
+      in Long-Evans Rats"
+    reference: "Kelly G. Lambert, Ph.D., Department of Psychology, Randolph-Macon
+      College, Ashland, VA 23005. Voice: 804-752-4717; fax: 804-752-4724."
+    link: https://doi.org/10.1196/annals.1376.042
+    image: /img/card-5.png
 ---
