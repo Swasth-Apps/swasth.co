@@ -57,4 +57,27 @@ relatedpost:
       slug: cbt-for-depression
     - title: Coping with Self-harming Behaviors with DBT
       slug: coping-with-self-harming-behaviors-with-dbt
+references:
+  - title: Don't let imposter syndrome hold you back
+    reference: Dawn Z. Hodges Ph.D.
+    image: /img/card-1.webp
+    link: https://doi.org/10.1002/dap.30948
+  - title: "The Impostor Phenomenon in High Achieving Women: Dynamics and
+      Therapeutic Intervention"
+    reference: Clance, P.R. and Imes, S. (1978). Psychotherapy Theory, Research and
+      Practice, Volume 15, Number 3, Fall 1978.
+    image: /img/card-2.webp
+  - title: "Prevalence, Predictors and Treatment of Impostor Syndrome: A Systematic
+      Review"
+    reference: Bravata, D.M. et al. (2019). Journal of General Internal Medicine,
+      35(4), 1252-1275.
+    image: /img/card-3.png
+  - title: The Imposter Syndrome, or the Mis-Representation of Self in Academic Life
+    reference: Joel Bothello,Thomas J. Roulet.
+    link: https://doi.org/10.1111/joms.12344
+    image: /img/card-4.png
+  - title: "The impostor syndrome: The shadow side of success"
+    reference: Manfred F.R. Kets de Vries.
+    image: /img/card-5.png
+    link: https://doi.org/10.1002/9781119209034.ch7
 ---
