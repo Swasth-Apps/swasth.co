@@ -93,4 +93,30 @@ relatedpost:
       slug: self-compassion
     - title: Overcoming Disordered Eating
       slug: overcoming-disordered-eating
+references:
+  - title: "Effects of gratitude intervention on mental health and well-being among
+      workers: A systematic review"
+    reference: Yu Komase,Kazuhiro Watanabe,Daisuke Hori,Kyosuke Nozawa,Yui
+      Hidaka,Mako Iida,Kotaro Imamura,Norito Kawakami.
+    link: https://doi.org/10.1002/1348-9585.12290
+    image: /img/cards-1.webp
+  - title: Gratitude
+    reference: Alexis T. Franzese,Carolina P. Seigler.
+    link: https://doi.org/10.1002/9781118970843.ch338
+    image: /img/cards-2.webp
+  - title: Does gratitude always work? Ambivalence over emotional expression
+      inhibits the beneficial effect of gratitude on well-being
+    reference: Lung Hung Chen,Mei-Yen Chen,Ying-Mei Tsai.
+    link: https://doi.org/10.1080/00207594.2011.632009
+    image: /img/card-3.png
+  - title: A structural model relating gratitude, resilience, psychological
+      well-being and creativity among psychological counsellors
+    reference: Boshra A. Arnout,Ayed A. Almoied.
+    link: https://doi.org/10.1002/capr.12316
+    image: /img/card-4.png
+  - title: "Feeling Thanks and Saying Thanks: A Randomized Controlled Trial
+      Examining If and How Socially Oriented Gratitude Journals Work"
+    reference: Brenda H. O'Connell,Deirdre O'Shea,Stephen Gallagher.
+    link: https://doi.org/10.1002/jclp.22469
+    image: /img/card-5.png
 ---
