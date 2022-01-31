@@ -97,4 +97,30 @@ relatedpost:
       slug: coping-with-self-harming-behaviors-with-dbt
     - title: CBT for Depression
       slug: cbt-for-depression
+references:
+  - title: Enhancing Self-esteem in a community Mental health setting
+    reference: Julie Hakim-Larson Ph.D.,Chris Mruk Ph.D.
+    link: https://doi.org/10.1037/h0080264
+    image: /img/card-1.webp
+  - title: Enhancing Self-esteem Through Mutual Self-disclosure
+    reference: Robert S. Olds, MS, Assistant Professor, Health Education, School of
+      Health, Physical Education, and Recreation, 19 Hill Center, Ithaca
+      College, Ithaca, NY 14850.
+    link: https://doi.org/10.1111/j.1746-1561.1987.tb04165.x
+    image: /img/card-2.webp
+  - title: An experimental study of the effectiveness of attitude change techniques
+      for enhancing self-esteem.
+    reference: William P. Friedenberg,John S. Gillis.
+    link: https://doi.org/10.1002/1097-4679(197710)33:4<1120::AID-JCLP2270330445>3.0.CO;2-U
+    image: /img/card-3.png
+  - title: Does self-esteem inflation mitigate mortality salience effects on suicide
+      attitudes?
+    reference: Athena Kheibari PhD,Julie Cerel PhD.
+    link: https://doi.org/10.1111/sltb.12759
+    image: /img/card-4.png
+  - title: Social Support and Self-Esteem as Mediators Between Stress and Antepartum
+      Depressive Symptoms in Rural Pregnant Women
+    reference: D. Elizabeth Jesse,Heejung Kim,Cynthia Herndon.
+    link: https://doi.org/10.1002/nur.21600
+    image: /img/card-5.png
 ---
