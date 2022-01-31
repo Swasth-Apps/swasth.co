@@ -112,4 +112,30 @@ relatedpost:
       slug: coping-with-self-harming-behaviors-with-dbt
     - slug: enhancing-self-esteem
       title: Enhancing Self Esteem
+references:
+  - title: Cognitive Behavioral Therapy for Depression
+    reference: Mick Power.
+    link: https://doi.org/10.1002/9780470696385.ch8
+    image: /img/card-1.webp
+  - title: The Role of Nonspecific Factors in Cognitive-Behavior Therapy for
+      Depression
+    reference: Stephen S. Ilardi,W. Edward Craighead.
+    link: https://doi.org/10.1111/j.1468-2850.1994.tb00016.x
+    image: /img/card-2.webp
+  - title: Practice Guideline for the Treatment of Patients with Major Depressive
+      Disorder
+    reference: American Psychiatric Association. 2010.
+    link: http://psychiatryonline.org/content.aspx?bookid=28&sectionid=1667485
+    image: /img/card-3.png
+  - title: "Combined pharmacotherapy and psychological treatment for depression: A
+      systematic review"
+    reference: Pampallona S, Bollini P, Tibaldi G, Kupelnick B, Munizza C. Arch Gen
+      Psychiatry. 2004;61:714–9.
+    image: /img/card-4.png
+  - title: Effects of treatment duration and severity of depression on the
+      effectiveness of cognitive-behavioral and psychodynamic-interpersonal
+      psychotherapy
+    reference: Shapiro DA, Barkham M, Rees A, Hardy GE, Reynolds S, Startup M. J
+      Consult Clin Psychol. 1994;62:522–34.
+    image: /img/card-5.png
 ---
