@@ -60,4 +60,27 @@ relatedpost:
       slug: cbt-for-depression
     - title: Coping with Self-harming Behaviors with DBT
       slug: coping-with-self-harming-behaviors-with-dbt
+references:
+  - title: Cognitive–behavioral treatment of first diagnosis bipolar disorder
+    reference: Steven H. Jones,Gerrard Burrell-Hodgson.
+    link: https://doi.org/10.1002/cpp.584
+    image: /img/card-1.webp
+  - title: Evidence-Based Psychological Interventions for Bipolar Disorder
+    reference: Daniel David,Steven Jay Lynn,Guy H. Montgomery.
+    link: https://doi.org/10.1002/9781119462996.ch3
+    image: /img/card-2.webp
+  - title: "Efficacy of cognitive-behavioral therapy in patients with bipolar
+      disorder: A meta-analysis of randomized controlled trials"
+    reference: "Chiang K-J, et al. (2017). "
+    link: ncbi.nlm.nih.gov/pmc/articles/PMC5417606/
+    image: /img/card-3.png
+  - title: Cognitive Behavioral Therapy for Bipolar Affective Disorder.
+    reference: Matthias Schwannauer.
+    image: /img/card-4.png
+    link: https://doi.org/10.1002/9780470696385.ch14
+  - title: Cognitive behavioral therapy for three patients with bipolar II disorder
+      during depressive episodes
+    reference: Kimura Y, et al. (2020).
+    link: ncbi.nlm.nih.gov/pmc/articles/PMC7376417/
+    image: /img/card-5.png
 ---
