@@ -62,4 +62,31 @@ relatedpost:
       slug: cbt-for-depression
     - title: Coping with Self-harming Behaviors with DBT
       slug: coping-with-self-harming-behaviors-with-dbt
+references:
+  - title: "Eating disorders and disordered eating in Israel: An updated review"
+    reference: Yael Latzer,Eliezer Witztum,Daniel Stein.
+    link: https://doi.org/10.1002/erv.875
+    image: /img/card-1.webp
+  - title: Longitudinal Bi-directional Effects of Disordered Eating, Depression and
+      Anxiety
+    reference: "Francis Puccio,Matthew Fuller-Tyszkiewicz,George Youssef,Sarah
+      Mitchell,Michelle Byrne,Nick Allen,Isabel Krug. "
+    link: https://doi.org/10.1002/erv.2525
+    image: /img/card-2.webp
+  - title: "Assessing eating disorder symptoms in adolescence: Is there a role for
+      multiple informants?"
+    reference: Sonja A. Swanson ScM,Kate M. Aloisio BA,Nicholas J. Horton
+      ScD,Kendrin R. Sonneville RD, ScD,Ross D. Crosby PhD,Kamryn T. Eddy
+      PhD,Alison E. Field ScD,Nadia Micali MD, PhD.
+    link: https://doi.org/10.1002/eat.22250
+    image: /img/card-3.png
+  - title: "Prenatal and perinatal factors in eating disorders: A descriptive review"
+    reference: Anu Raevuori MD, PhD,Milla S. Linna MD,Anna Keski-Rahkonen MD, PhD, MPH.
+    link: https://doi.org/10.1002/eat.22323
+    image: /img/card-4.png
+  - title: Refining the definition of binge eating disorder and nonpurging bulimia
+      nervosa
+    reference: Zafra Cooper,Christopher G. Fairburn.
+    link: https://doi.org/10.1002/eat.10208
+    image: /img/card-5.png
 ---
