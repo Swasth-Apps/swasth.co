@@ -116,7 +116,7 @@ references:
       inpatients. "
     reference: Patricia L. Haynes,Sairam Parthasarathy,Brian Kersh,Richard R. Bootzin.
     link: https://doi.org/10.1111/j.1447-0349.2010.00711.x
-    image: /img/card-5.png
+    image: /img/cards-1.webp
   - title: Sleep-related monitoring on awakening mediates the relationship between
       insomnia-related interpretive bias and insomnia symptoms using the
       insomnia ambiguity paradigm.
