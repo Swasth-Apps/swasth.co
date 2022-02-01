@@ -4,7 +4,7 @@ import unitedStates from '../../assets/images/united-states.png'
 import FBIcon from "../../assets/images/fb-icon.png";
 import {Link} from 'gatsby'
 import {Col, Row} from 'antd'
-import TopBg from "../../assets/images/top-bg.png"
+import TopBg from "../../assets/images/top-bg.png";
 import TwitterIcon from "../../assets/images/twitter-icon.png"
 import InstagramIcon from "../../assets/images/instagram-icon.png"
 import YoutubeIcon from "../../assets/images/youtube-icon.png"

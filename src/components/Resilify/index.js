@@ -2,7 +2,7 @@ import React from "react";
 import {Col, Row} from "antd";
 import TopicSection from "./TopicSection";
 import {useSelector} from "react-redux";
-import bannerGraphic from "../../assets/images/resilify-woman.jpeg";
+import bannerGraphic from "../../assets/images/resilify-woman.png";
 import OrganizationIssue from "../../assets/images/resilify/organization.webp";
 import SavingsCalculator from "../../assets/images/resilify/Saving-Calculator.png";
 import gratitudeImg from "../../assets/images/resilify/resilify-daily-gratitude.png";
