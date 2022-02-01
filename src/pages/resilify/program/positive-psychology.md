@@ -103,4 +103,14 @@ references:
     reference: Sophie Walsh, Justina Kaselionyte, Stephanie J. C. Taylor, Stefan
       Priebe, 10.1186/s12888-018-1812-x, 18, 1, (2018).
     image: /img/card-5.png
+  - title: " Advances in PTSD treatment delivery: The role of digital technology in
+      PTSD treatment. Current Treatment Options in Psychiatry."
+    reference: Kuhn, E. & Owen, J. E. (2020).
+    image: /img/card-1.webp
+    link: doi.org/10.1007/s40501-020-00207-x
+  - title: "Veterans Affairs and Department of Defense mental health apps: A
+      systematic review of the available evidence"
+    reference: Gould, C. E., Kok, B. C., Ma, V. K., Zapata, A. M. L., Owen, J. E., &
+      Kuhn, E. (2019). Psychological Services, 16 (2), 196-207.
+    image: /img/card-2.webp
 ---
