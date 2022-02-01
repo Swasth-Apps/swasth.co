@@ -24,6 +24,7 @@ import ResultStat1 from "../../assets/images/resilify/result-stat1.png";
 import ResultStat2 from "../../assets/images/resilify/result-stat2.png";
 import ResultStat3 from "../../assets/images/resilify/result-stat3.png";
 import ResilifyBottomSection from "../ResilifyBottomSection";
+import TopBg from "../../assets/images/top-bg.png";
 
 const features = [
     {
@@ -100,7 +101,12 @@ const ResilifyScreen = (props) => {
 
 
     return <div className="resilify-home-page">
-        <div className="banner-img">
+        <div className="banner-img"
+             style={{
+                 backgroundImage: `url(${TopBg})`,
+                 backgroundSize: "cover"
+             }}
+        >
             <div className="home-top-banner">
                 <div className="coaching-overview-container">
                     <div className="coaching-overview">
@@ -109,11 +115,12 @@ const ResilifyScreen = (props) => {
                             className={'coach-wrapper'}
                             style={{paddingBottom: 0}}
                         >
-                            <Row className='-row-flex-center card-row bg-img'>
+                            <Row className='-row-flex-center card-row bg-img'
+                            >
                                 <Col md={24}>
                                     <Row className='card-row'>
                                         <Col md={12} className="content">
-                                            <h3 className='bottom-space heavy-text program-grounded'>
+                                            <h3 className='bottom-space heavy-text program-grounded' style={{color: "#fff"}}>
                                                 Self-guided Programs<br/>
                                             </h3>
                                             <div className='para-text black-18-font margin-bottom-25'>
