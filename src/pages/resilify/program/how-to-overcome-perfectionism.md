@@ -59,7 +59,7 @@ relatedpost:
 references:
   - title: "Perfectionism and psychological distress: evidence of the mediating
       effects of rumination"
-    reference: Daryl B. O'Connor,Rory C. O'Connor,Rachel Marshall.
+    reference: Daryl B. O'Connor, Rory C. O'Connor, Rachel Marshall.
     link: https://doi.org/10.1002/per.616
     image: /img/card-1.webp
   - title: "Images of the self and self-esteem: do positive self-images improve
@@ -70,13 +70,13 @@ references:
   - title: Are Perfectionism Dimensions Vulnerability Factors for Depressive
       Symptoms After Controlling for Neuroticism? A Meta-analysis of 10
       Longitudinal Studies
-    reference: Martin M. Smith,Simon B. Sherry,Katerina Rnic,Donald H.
-      Saklofske,Murray Enns,Tara Gralnick.
+    reference: Martin M. Smith, Simon B. Sherry, Katerina Rnic, Donald H. Saklofske,
+      Murray Enns, Tara Gralnick.
     image: /img/card-3.png
     link: https://doi.org/10.1002/per.2053
   - title: "Maladaptive perfectionism's link to aggression and self-harm: Emotion
       regulation as a mechanism."
-    reference: David S. Chester,Lauren M. Merwin,C. Nathan DeWall.
+    reference: David S. Chester, Lauren M. Merwin, C. Nathan DeWall.
     image: /img/card-4.png
     link: https://doi.org/10.1002/ab.21578
   - title: Managing perfectionism in the workplace
