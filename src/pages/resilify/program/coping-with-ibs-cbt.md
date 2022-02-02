@@ -60,14 +60,14 @@ references:
     image: /img/card-5.png
   - title: Mindfulness-based stress reduction improves irritable bowel syndrome
       (IBS) symptoms via specific aspects of mindfulness
-    reference: Bruce D. Naliboff,Suzanne R. Smith,John G. Serpa,Kelsey T. Laird,Jean
-      Stains,Lynn S. Connolly,Jennifer S. Labus,Kirsten Tillisch
+    reference: Bruce D. Naliboff, Suzanne R. Smith, John G. Serpa, Kelsey T. Laird,
+      Jean Stains, Lynn S. Connolly, Jennifer S. Labus, Kirsten Tillisch
     link: https://doi.org/10.1111/nmo.13828
     image: /img/cards-1.webp
   - title: A pilot feasibility study of an unguided, internet-delivered cognitive
       behavioral therapy program for irritable bowel syndrome
-    reference: Jocelynn T. Owusu,Alice Sibelli,Rona Moss-Morris,Miranda A.L. van
-      Tilburg,Rona L. Levy,Megan Ose
+    reference: Jocelynn T. Owusu, Alice Sibelli, Rona Moss-Morris, Miranda A.L. van
+      Tilburg, Rona L. Levy, Megan Ose
     link: https://doi.org/10.1111/nmo.14108
     image: /img/card-3.png
   - title: The menstrual cycle affects rectal sensitivity in patients with irritable
@@ -76,7 +76,7 @@ references:
     image: /img/card-4.png
   - title: Characterization of IBS-like symptoms in patients with ulcerative colitis
       in clinical remission.
-    reference: H. Strid,L. Öhman,J. Svedlund,A. Bergstedt,M. Simren.
+    reference: H. Strid, L. Öhman, J. Svedlund, A. Bergstedt, M. Simren.
     link: https://doi.org/10.1111/nmo.12163
     image: /img/card-5.png
 ---
