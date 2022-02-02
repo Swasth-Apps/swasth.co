@@ -62,11 +62,11 @@ relatedpost:
       slug: coping-with-self-harming-behaviors-with-dbt
 references:
   - title: Cognitive–behavioral treatment of first diagnosis bipolar disorder
-    reference: Steven H. Jones,Gerrard Burrell-Hodgson.
+    reference: Steven H. Jones, Gerrard Burrell-Hodgson.
     link: https://doi.org/10.1002/cpp.584
     image: /img/card-1.webp
   - title: Evidence-Based Psychological Interventions for Bipolar Disorder
-    reference: Daniel David,Steven Jay Lynn,Guy H. Montgomery.
+    reference: Daniel David, Steven Jay Lynn, Guy H. Montgomery.
     link: https://doi.org/10.1002/9781119462996.ch3
     image: /img/card-2.webp
   - title: "Efficacy of cognitive-behavioral therapy in patients with bipolar
