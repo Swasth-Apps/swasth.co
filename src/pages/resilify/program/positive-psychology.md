@@ -107,7 +107,7 @@ references:
       PTSD treatment. Current Treatment Options in Psychiatry."
     reference: Kuhn, E. & Owen, J. E. (2020).
     image: /img/card-1.webp
-    link: doi.org/10.1007/s40501-020-00207-x
+    link: https://doi.org/10.1007/s40501-020-00207-x
   - title: "Veterans Affairs and Department of Defense mental health apps: A
       systematic review of the available evidence"
     reference: Gould, C. E., Kok, B. C., Ma, V. K., Zapata, A. M. L., Owen, J. E., &
