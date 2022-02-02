@@ -84,8 +84,8 @@ references:
     image: /img/card-1.webp
   - title: The relationship between coping strategies and resilience among
       adolescents with beta-thalassemia major
-    reference: Ali Mohammad Parviniannasab,Mahnaz Rakhshan,Marzieh Momennasab,Mitra
-      Soltanian,Mostafa Bijani.
+    reference: Ali Mohammad Parviniannasab, Mahnaz Rakhshan, Marzieh Momennasab,
+      Mitra Soltanian,Mostafa Bijani.
     link: https://doi.org/10.1111/jcap.12339
     image: /img/card-2.webp
   - title: Family support, social capital, resilience and adolescent coping
@@ -94,8 +94,8 @@ references:
     image: /img/card-3.png
   - title: Inter-relationships between trait resilience, coping strategies, and
       mental health outcomes in autistic adults
-    reference: Melanie Muniandy,Amanda L. Richdale,Samuel R. C. Arnold,Julian N.
-      Trollor,Lauren P. Lawson.
+    reference: Melanie Muniandy, Amanda L. Richdale, Samuel R. C. Arnold, Julian N.
+      Trollor, Lauren P. Lawson.
     link: https://doi.org/10.1002/aur.2564
     image: /img/card-4.png
   - title: " Explorations of Coping Strategies, Learned Persistence, and Resilience

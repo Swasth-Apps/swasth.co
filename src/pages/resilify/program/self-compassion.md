@@ -74,7 +74,7 @@ references:
   - title: Abuse, invalidation, and lack of early warmth show distinct relationships
       with self-criticism, self-compassion, and fear of self-compassion in
       personality disorder
-    reference: Iona Naismith,Santiago Zarate Guerrero,Janet Feigenbaum.
+    reference: Iona Naismith, Santiago Zarate Guerrero, Janet Feigenbaum.
     link: https://doi.org/10.1002/cpp.2357
     image: /img/card-4.png
   - title: Meta-Analysis of Gender Differences in Self-Compassion, Self and Identity.

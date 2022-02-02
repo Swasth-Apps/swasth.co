@@ -49,12 +49,12 @@ references:
     image: /img/card-3.png
   - title: The effect of assertiveness training in schizophrenic patients on
       functional remission and assertiveness level
-    reference: Gonca Ustun PhD,Leyla Kucuk.
+    reference: Gonca Ustun PhD, Leyla Kucuk.
     link: https://doi.org/10.1111/ppc.12427
     image: /img/card-4.png
   - title: Relationship between assertiveness and burnout among nurse managers
-    reference: Eiko SUZUKI,Miyuki SAITO,Akira TAGAYA,Rieko MIHARA,Akiko
-      MARUYAMA,Tomomi AZUMA,Chifumi SATO.
+    reference: Eiko SUZUKI, Miyuki SAITO, Akira TAGAYA, Rieko MIHARA, Akiko
+      MARUYAMA, Tomomi AZUMA, Chifumi SATO.
     link: https://doi.org/10.1111/j.1742-7924.2009.00124.x
     image: /img/card-5.png
 ---
