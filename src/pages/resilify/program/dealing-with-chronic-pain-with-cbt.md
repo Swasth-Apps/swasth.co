@@ -53,30 +53,30 @@ relatedpost:
       slug: cbt-for-depression
 references:
   - title: "Psychological approaches to chronic pain management: part 1"
-    reference: Nicola Adams BSc, MCSP, PhD,Helen Poole BSc, PhD,Clifford Richardson
-      MSc, PhD, RGN.
+    reference: Nicola Adams BSc, MCSP, PhD, Helen Poole BSc, PhD, Clifford
+      Richardson MSc, PhD, RGN.
     link: https://doi.org/10.1111/j.1365-2702.2006.01304.x
     image: /img/card-1.webp
   - title: "Pr. Chronic Pain and PTSD: Evolving Views on Their Comorbidity"
-    reference: Marie-Jo Brennstuhl PhD,Cyril Tarquinio Phd, Pr.,Sebastien Montel PhD
+    reference: Marie-Jo Brennstuhl PhD, Cyril Tarquinio Phd, Pr., Sebastien Montel PhD
     link: https://doi.org/10.1111/ppc.12093
     image: /img/card-2.webp
   - title: "Breaking the vicious circle: Experiences of people in chronic pain on
       the pain rehabilitation journey"
-    reference: Hafdís Skúladóttir,Thora J. Gunnarsdóttir,Sigríður
-      Halldórsdóttir,Herdís Sveinsdóttir,Janean E. Holden,Amalía Björnsdóttir.
+    reference: Hafdís Skúladóttir,Thora J. Gunnarsdóttir,Sigríður Halldórsdóttir,
+      Herdís Sveinsdóttir,Janean E. Holden,Amalía Björnsdóttir.
     link: https://doi.org/10.1002/nop2.512
     image: /img/card-3.png
   - title: "Therapeutic writing and chronic pain: experiences of therapeutic writing
-      in a cognitive behavioural programme for people with chronic pain"
+      in a cognitive behavioral programm for people with chronic pain"
     reference: Bodil Furnes, Associate Professor, Department of Health Studies,
       Faculty of Social Sciences, University of Stavanger, N-4036 Stavanger,
       Norway.
     link: https://doi.org/10.1111/j.1365-2702.2012.04268.x
     image: /img/card-4.png
   - title: Psychology of Chronic Pain and Evidence-Based Psychological Interventions
-    reference: Catherine F. Stannard MB ChB, FRCA, FFPMRCA,Eija Kalso MD,
-      DMedSci,Jane Ballantyne MD.
+    reference: Catherine F. Stannard MB ChB, FRCA, FFPMRCA, Eija Kalso MD, DMedSci,
+      Jane Ballantyne MD.
     link: https://doi.org/10.1002/9781444314380.ch6
     image: /img/card-5.png
 ---
