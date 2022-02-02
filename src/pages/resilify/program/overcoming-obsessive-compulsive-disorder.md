@@ -63,11 +63,11 @@ references:
     image: /img/card-1.webp
   - title: "Compulsive behaviours and levels of belief in obsessive–compulsive
       disorder: a case-series analysis of their interrelationships"
-    reference: Lisa F. Storchheim,John F. O'Mahony.
+    reference: Lisa F. Storchheim, John F. O'Mahony.
     link: https://doi.org/10.1002/cpp.475
     image: /img/card-2.webp
   - title: Challenges in Child and Adolescent Obsessive Compulsive Disorder
-    reference: Elaine Chung,Anup Kharod,Isobel Heyman.
+    reference: Elaine Chung, Anup Kharod, Isobel Heyman.
     link: https://doi.org/10.1002/9781119170235.ch31
     image: /img/card-3.png
   - title: Treatment of obsessive-compulsive disorder in patients who have comorbid
