@@ -99,7 +99,7 @@ relatedpost:
       slug: cbt-for-depression
 references:
   - title: Enhancing Self-esteem in a community Mental health setting
-    reference: Julie Hakim-Larson Ph.D.,Chris Mruk Ph.D.
+    reference: Julie Hakim-Larson Ph.D., Chris Mruk Ph.D.
     link: https://doi.org/10.1037/h0080264
     image: /img/card-1.webp
   - title: Enhancing Self-esteem Through Mutual Self-disclosure
@@ -110,12 +110,12 @@ references:
     image: /img/card-2.webp
   - title: An experimental study of the effectiveness of attitude change techniques
       for enhancing self-esteem.
-    reference: William P. Friedenberg,John S. Gillis.
+    reference: William P. Friedenberg, John S. Gillis.
     link: https://doi.org/10.1002/1097-4679(197710)33:4<1120::AID-JCLP2270330445>3.0.CO;2-U
     image: /img/card-3.png
   - title: Does self-esteem inflation mitigate mortality salience effects on suicide
       attitudes?
-    reference: Athena Kheibari PhD,Julie Cerel PhD.
+    reference: Athena Kheibari PhD, Julie Cerel PhD.
     link: https://doi.org/10.1111/sltb.12759
     image: /img/card-4.png
   - title: Social Support and Self-Esteem as Mediators Between Stress and Antepartum
