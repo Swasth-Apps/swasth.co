@@ -73,7 +73,7 @@ references:
       35(4), 1252-1275.
     image: /img/card-3.png
   - title: The Imposter Syndrome, or the Mis-Representation of Self in Academic Life
-    reference: Joel Bothello,Thomas J. Roulet.
+    reference: Joel Bothello, Thomas J. Roulet.
     link: https://doi.org/10.1111/joms.12344
     image: /img/card-4.png
   - title: "The impostor syndrome: The shadow side of success"
