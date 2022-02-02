@@ -119,7 +119,7 @@ references:
     image: /img/card-1.webp
   - title: The Role of Nonspecific Factors in Cognitive-Behavior Therapy for
       Depression
-    reference: Stephen S. Ilardi,W. Edward Craighead.
+    reference: Stephen S. Ilardi, W. Edward Craighead.
     link: https://doi.org/10.1111/j.1468-2850.1994.tb00016.x
     image: /img/card-2.webp
   - title: Practice Guideline for the Treatment of Patients with Major Depressive
