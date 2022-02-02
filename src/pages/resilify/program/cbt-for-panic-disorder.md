@@ -103,18 +103,18 @@ relatedpost:
 references:
   - title: "Psychotherapists' ideals in the treatment of panic disorder: An
       exploratory study"
-    reference: David Kealy,Geoff Goodman,John S. Ogrodniczuk.
+    reference: David Kealy, Geoff Goodman, John S. Ogrodniczuk.
     image: /img/card-1.webp
     link: https://doi.org/10.1002/capr.12125
   - title: How effective are cognitive behavior therapies for major depression and
       anxiety disorders? A meta-analytic update of the evidence
-    reference: Pim Cuijpers,Ioana A. Cristea,Eirini Karyotaki,Mirjam
-      Reijnders,Marcus J.H. Huibers.
+    reference: Pim Cuijpers, Ioana A. Cristea, Eirini Karyotaki, Mirjam Reijnders,
+      Marcus J.H. Huibers.
     link: https://doi.org/10.1002/wps.20346
     image: /img/card-2.webp
   - title: "Internet cognitive behavioural therapy for panic disorder: Does the
       inclusion of stress management information improve end-state functioning?"
-    reference: Jeffrey C. Richards,Dr Britt Klein,David W. Austin.
+    reference: Jeffrey C. Richards, Dr Britt Klein, David W. Austin.
     link: https://doi.org/10.1080/13284200500378795
     image: /img/card-3.png
   - title: Prediction and moderation of improvement in cognitive-behavioral and
