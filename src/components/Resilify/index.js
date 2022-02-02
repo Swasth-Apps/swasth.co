@@ -1,5 +1,5 @@
-import React from "react";
-import {Col, Row} from "antd";
+import React, {useState} from "react";
+import {Col, Row, Slider as AntdSlider} from "antd";
 import TopicSection from "./TopicSection";
 import {useSelector} from "react-redux";
 import bannerGraphic from "../../assets/images/resilify-woman.png";
@@ -23,6 +23,10 @@ import {generateRandomID} from "./common/helper";
 import ResultStat1 from "../../assets/images/resilify/result-stat1.png";
 import ResultStat2 from "../../assets/images/resilify/result-stat2.png";
 import ResultStat3 from "../../assets/images/resilify/result-stat3.png";
+import IssueImg1 from "../../assets/images/resilify/business-issue-img-1.png";
+import IssueImg2 from "../../assets/images/resilify/business-issue-img-2.png";
+import IssueImg3 from "../../assets/images/resilify/business-issue-img-3.png";
+import IssueImg4 from "../../assets/images/resilify/business-issue-img-4.png";
 import ResilifyBottomSection from "../ResilifyBottomSection";
 import TopBg from "../../assets/images/top-bg.png";
 
@@ -94,7 +98,10 @@ const features = [
     }
 ]
 
+const numberFormat = num => num?.toString()?.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
 const ResilifyScreen = (props) => {
+    const [noOfEmployees, setNoOfEmployees] = useState(1000);
     const p = useSelector(state => state.commonData);
     const topics = p?.topics;
     const programs = props?.programs;
@@ -298,8 +305,9 @@ const ResilifyScreen = (props) => {
                     <div className="statistic-container">
                         <div className="statistic-section">
                             <div className="statistic-box">
+                                <img src={IssueImg1}/>
                                 <h2 className="medium-text">
-                                    15%
+                                    30%
                                 </h2>
                                 <p className="book-text">
                                     American adults affected by IBS
@@ -308,8 +316,9 @@ const ResilifyScreen = (props) => {
                         </div>
                         <div className="statistic-section">
                             <div className="statistic-box">
+                                <img src={IssueImg2}/>
                                 <h2 className="medium-text">
-                                    $14bn
+                                    $100bn+
                                 </h2>
                                 <p className="book-text">
                                     Annual medical claims in the US
@@ -318,8 +327,9 @@ const ResilifyScreen = (props) => {
                         </div>
                         <div className="statistic-section">
                             <div className="statistic-box">
+                                <img src={IssueImg3}/>
                                 <h2 className="medium-text">
-                                    50%+
+                                    27%+
                                 </h2>
                                 <p className="book-text">
                                     Experience anxiety and depression
@@ -328,8 +338,9 @@ const ResilifyScreen = (props) => {
                         </div>
                         <div className="statistic-section">
                             <div className="statistic-box">
+                                <img src={IssueImg4}/>
                                 <h2 className="medium-text">
-                                    2nd
+                                    1st
                                 </h2>
                                 <p className="book-text">
                                     Most common cause of work absenteeism
@@ -365,27 +376,40 @@ const ResilifyScreen = (props) => {
                 <div className='right-content'>
                     <div className="info">
                         <p className="medium-text">
+                            Number of employees
+                        </p>
+                       <AntdSlider
+                           tooltipPlacement={"bottom"}
+                           min={0}
+                           max={20000}
+                           defaultValue={noOfEmployees}
+                           onAfterChange={v => setNoOfEmployees(v)}
+                           className="business-calculator-slider"
+                       />
+                    </div>
+                    <div className="info">
+                        <p className="medium-text">
                             Cost savings on medical claims and productivity loss
                         </p>
-                        <h2 className="heavy-text">
-                            $60,000
-                        </h2>
+                        <h1 className="heavy-text">
+                            ${numberFormat(noOfEmployees*73)}
+                        </h1>
                     </div>
                     <div className="info">
                         <p className="medium-text">
                             Days of work missed
                         </p>
-                        <h2 className="heavy-text">
-                            24,000
-                        </h2>
+                        <h1 className="heavy-text">
+                            {numberFormat(noOfEmployees*28)}
+                        </h1>
                     </div>
                     <div className="info">
                         <p className="medium-text">
                             Members suffering
                         </p>
-                        <h2 className="heavy-text">
-                            $150
-                        </h2>
+                        <h1 className="heavy-text">
+                            {numberFormat(parseInt(noOfEmployees*0.191, 10))}
+                        </h1>
                     </div>
                 </div>
                 </div>

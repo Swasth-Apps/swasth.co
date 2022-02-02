@@ -545,6 +545,10 @@
           padding: 30px;
           text-align: center;
 
+          img{
+            margin-bottom: 20px;
+            width: 50px;
+          }
           p {
             font-size: 20px;
           }
@@ -652,6 +656,23 @@
       }
     }
 
+    .business-calculator-slider{
+      margin-bottom: 30px;
+      .ant-slider-rail{
+        height: 10px;
+        background: #e1e1e1;
+      }
+      .ant-slider-track{
+       height: 10px;
+        background-color: _palette(blue-color);
+      }
+      .ant-slider-handle{
+        width: 24px;
+        height: 24px;
+        margin-top: -8px;
+      }
+    }
+
     @media only screen and (max-width: 769.5px) {
       flex-direction: column;
       margin-top: 50px;
@@ -663,6 +684,21 @@
 
         .right-content {
           border-top-right-radius: 0px;
+        }
+      }
+    }
+    @media only screen and (max-width: 500.5px) {
+      .right-section {
+        width: 100%;
+
+        .right-content {
+          padding: 50px 20px;
+          .info{
+            margin-bottom: 20px;
+          }
+          .business-calculator-slider{
+            margin-bottom: 20px;
+          }
         }
       }
     }
@@ -1286,10 +1322,7 @@
       width: fit-content;
       background: white;
       color: _palette(blue-color);
-
-      &:first-child {
-        margin-right: 15px;
-      }
+      outline: none !important;
     }
   }
 
