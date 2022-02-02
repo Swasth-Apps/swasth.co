@@ -49,20 +49,20 @@ references:
     image: /img/cards-1.webp
   - title: When do you procrastinate? Sleep quality and social sleep lag jointly
       predict self-regulatory failure at work
-    reference: Jana Kühnel,Ronald Bledow,Nicolas Feuerhahn.
+    reference: Jana Kühnel, Ronald Bledow, Nicolas Feuerhahn.
     link: https://doi.org/10.1002/job.2084
     image: /img/cards-2.webp
   - title: The relationship between procrastination, delay of gratification
-    reference: Falak Zehra Mohsin,Nadia Ayub.
+    reference: Falak Zehra Mohsin, Nadia Ayub.
     link: https://doi.org/10.1111/jpr.12046
     image: /img/card-3.png
   - title: The anxiety-specific hippocampus–prefrontal cortex pathways links to
       procrastination through self-control
-    reference: Rong Zhang,Zhiyi Chen,Bowen Hu,Feng Zhou,Tingyong Feng.
+    reference: Rong Zhang, Zhiyi Chen, Bowen Hu, Feng Zhou, Tingyong Feng.
     link: https://doi.org/10.1002/hbm.25754
     image: /img/card-4.png
   - title: "Academic Procrastination: Psychological Antecedents Revisited"
-    reference: Piers Steel,Katrin B Klingsieck.
+    reference: Piers Steel, Katrin B Klingsieck.
     link: https://doi.org/10.1111/ap.12173
     image: /img/card-5.png
 ---
