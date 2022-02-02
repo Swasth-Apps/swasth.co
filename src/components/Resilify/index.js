@@ -16,6 +16,7 @@ import meditationImg from "../../assets/images/resilify/resilify-meditation.png"
 import moreImg from "../../assets/images/resilify/resilify-more.png";
 import programImg from "../../assets/images/resilify/resilify-program.png";
 import dailyCheckinImg from "../../assets/images/resilify/resilify-daily-checkin.png";
+import breathingExercise from "../../assets/images/resilify/resilify-breathing-exercise.png";
 import {Link} from "gatsby";
 import ProgramAdapts from "../../assets/images/pexels-kaboompics-com-6335.jpg";
 import Slider from "./common/Slider";
@@ -90,11 +91,15 @@ const features = [
         description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
         "image": programImg
     },
-
     {
         title: "Tailored CBT program",
         description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
         "image": dailyCheckinImg
+    },
+    {
+        title: "Tailored CBT program",
+        description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
+        "image": breathingExercise
     }
 ]
 
