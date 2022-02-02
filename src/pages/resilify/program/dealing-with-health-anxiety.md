@@ -60,7 +60,7 @@ relatedpost:
       slug: coping-with-self-harming-behaviors-with-dbt
 references:
   - title: Severe Health Anxiety in the Somatic Symptom and Related Disorders
-    reference: Erik Hedman,Erland Axelsson.
+    reference: Erik Hedman, Erland Axelsson.
     link: https://doi.org/10.1002/9781118877142.ch23
     image: /img/card-1.webp
   - title: Illness anxiety disorder
@@ -68,17 +68,17 @@ references:
     link: mayoclinic.org/diseases-conditions/illness-anxiety-disorder/basics/definition/con-20124064
     image: /img/card-2.webp
   - title: Phenomenology of Health Anxiety
-    reference: John R. Walker,Patricia Furer.
+    reference: John R. Walker, Patricia Furer.
     link: https://doi.org/10.1002/9781118890233.ch44
     image: /img/card-3.png
   - title: Treatment of Health Anxiety.
-    reference: Steven Taylor,Gordon J. G. Asmundson.
+    reference: Steven Taylor, Gordon J. G. Asmundson.
     link: https://doi.org/10.1002/9781118890233.ch55
     image: /img/card-4.png
   - title: "Mindfulness-based cognitive therapy for severe health anxiety
       (hypochondriasis): An interpretative phenomenological analysis of
       patients’ experiences."
-    reference: Matthew J. Williams,Freda McManus,Kate Muse,J. Mark G. Williams.
+    reference: Matthew J. Williams, Freda McManus, Kate Muse, J. Mark G. Williams.
     link: https://doi.org/10.1111/j.2044-8260.2010.02000.x
     image: /img/card-5.png
 ---
