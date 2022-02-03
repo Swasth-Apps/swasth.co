@@ -78,4 +78,5 @@ references:
   - title: New insights and perspectives on genetics of obsessive-compulsive disorder
     reference: Zai G,  Psychiatric Genetics. 2019; doi:10.1097/YPG.0000000000000230.
     image: /img/card-5.png
+    link: https://doi.org/10.1097/YPG.0000000000000230
 ---
