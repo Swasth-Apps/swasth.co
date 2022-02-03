@@ -67,8 +67,9 @@ references:
     link: https://www.merckmanuals.com/professional/psychiatric-disorders/obsessive-compulsive-and-related-disorders/body-dysmorphic-disorder#
     image: /img/card-3.png
   - title: Recent advances in understanding and managing body dysmorphic disorder
-    reference: Krebs G, Evidence Based Mental Health. 2017; doi:10.1136/eb-2017-102702.
+    reference: Krebs G, Evidence Based Mental Health. 2017.
     image: /img/card-4.png
+    link: https://ebmh.bmj.com/content/20/3/71.abstract
   - title: "Pharmacotherapy relapse prevention in body dysmorphic disorder: A
       double-blind, placebo-controlled trial"
     reference: Phillips KA, American Journal of Psychiatry. 2016;
