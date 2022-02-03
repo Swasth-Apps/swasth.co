@@ -60,11 +60,13 @@ relatedpost:
 references:
   - title: "Interventions to prevent and reduce physician burnout: A systematic
       review and meta-analysis"
-    reference: West CP, The Lancet. 2016; doi:10.1016/S0140-6736(16)31279-X.
+    reference: West CP, The Lancet. 2016.
     image: /img/card-1.webp
+    link: https://doi.org/10.1016/S0140-6736(16)31279-X
   - title: Is it time to consider the "burnout syndrome" a distinct illness?
-    reference: Bianchi R, Frontiers in Public Health. 2015; doi:10.3389/fpubh.2015.00158.
+    reference: Bianchi R, Frontiers in Public Health. 2015.
     image: /img/card-2.webp
+    link: https://doi.org/10.3389/fpubh.2015.00158
   - title: "The relationship between burnout, depression, and anxiety: A systematic
       review and meta-analysis"
     reference: "Koutsimani P, et al. (2019). DOI: 10.3389/fpsyg.2019.00284"
