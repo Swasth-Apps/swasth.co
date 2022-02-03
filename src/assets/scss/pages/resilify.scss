@@ -524,6 +524,7 @@
     padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 
     .custom-image {
       border-radius: 50px;
@@ -548,6 +549,7 @@
           img{
             margin-bottom: 20px;
             width: 50px;
+            height: 40px;
           }
           p {
             font-size: 20px;

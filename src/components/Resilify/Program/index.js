@@ -244,7 +244,7 @@ const ResilifyProgram = (props) => {
                     )}
                 </div>
             </div>
-            <ResilifyBottomSection/>
+            <ResilifyBottomSection isProgram/>
         </div>
     )
 };

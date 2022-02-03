@@ -3,7 +3,7 @@ import {Col, Row, Slider as AntdSlider} from "antd";
 import TopicSection from "./TopicSection";
 import {useSelector} from "react-redux";
 import bannerGraphic from "../../assets/images/resilify-woman.png";
-import OrganizationIssue from "../../assets/images/resilify/organization.webp";
+import OrganizationIssue from "../../assets/images/resilify/organization.png";
 import SavingsCalculator from "../../assets/images/resilify/Saving-Calculator.png";
 import gratitudeImg from "../../assets/images/resilify/resilify-daily-gratitude.png";
 import dashboardImg from "../../assets/images/resilify/resilify-dashboard.png";

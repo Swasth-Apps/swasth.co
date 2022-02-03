@@ -1,11 +1,12 @@
 import React from "react";
-import ResilifyBottomBg from "../assets/images/resilify/resilify-bottom-bg.png"
+import ResilifyBottomBg from "../assets/images/resilify/resilify-bottom-bg.png";
+import ResilifyProgramBottomBg from "../assets/images/resilify/res-program-bottom-bg.png";
 const ResilifyBottomSection = props =>{
 
     return(
         <div className="resilify-bottom-section">
             <div>
-                <img src={ResilifyBottomBg}/>
+                <img src={props.isProgram ? ResilifyProgramBottomBg : ResilifyBottomBg}/>
                 <div className="content">
                     <h3 className="heavy-text">
                        Ready to learn more about Resilify
