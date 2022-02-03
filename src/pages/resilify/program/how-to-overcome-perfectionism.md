@@ -65,8 +65,8 @@ references:
   - title: "Images of the self and self-esteem: do positive self-images improve
       self-esteem in social anxiety?"
     reference: Hulme N, Hirsch C, Stopa L. Cogn Behav Ther. 2012;41(2):163–173.
-      doi:10.1080/16506073.2012.664557
     image: /img/card-2.webp
+    link: https://www.tandfonline.com/doi/full/10.1080/16506073.2012.664557
   - title: Are Perfectionism Dimensions Vulnerability Factors for Depressive
       Symptoms After Controlling for Neuroticism? A Meta-analysis of 10
       Longitudinal Studies
