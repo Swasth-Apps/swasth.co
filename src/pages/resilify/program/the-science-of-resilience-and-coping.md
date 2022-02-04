@@ -72,10 +72,24 @@ sessions:
         this session.
 relatedpost:
   program:
+    - title: Dealing with Procrastination
+      slug: dealing-with-procrastination
+    - title: Enhancing Self-Esteem
+      slug: enhancing-self-esteem
+    - title: Overcoming Imposter Syndrome
+      slug: overcoming-imposter-syndrome
+    - title: Self Compassion
+      slug: self-compassion
+    - title: Managing workplace burnout and stress
+      slug: managing-workplace-burnout-and-stress
+    - title: How to overcome Perfectionism
+      slug: v
+    - title: Dealing with Social Anxiety
+      slug: dealing-with-social-anxiety
+    - title: Improving your Assertiveness
+      slug: improving-your-assertiveness
     - title: Positive Psychology
       slug: positive-psychology
-    - title: The Science of Gratitude and Well-Being
-      slug: the-science-of-gratitude-and-well-being
 references:
   - title: Coping and resilience levels of bariatric surgery candidates and
       affecting factors
