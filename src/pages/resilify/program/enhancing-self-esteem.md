@@ -67,36 +67,26 @@ sessions:
         these skills and practices in the future.
 relatedpost:
   program:
-    - title: CBT for Bipolar Disorder
-      slug: cbt-for-bipolar-disorder
-    - title: Coping with IBS (CBT)
-      slug: coping-with-ibs-(cbt)
-    - title: Dealing with Body Dysmorphia
-      slug: dealing-with-body-dysmorphia
-    - title: Dealing with Chronic Pain with CBT
-      slug: dealing-with-chronic-pain-with-cbt
+    - title: The Science of Gratitude and Wellbeing
+      slug: the-science-of-gratitude-and-well-being
+    - title: Dealing with Procrastination
+      slug: dealing-with-procrastination
+    - title: Positive Psychology
+      slug: positive-psychology
     - title: Overcoming Imposter Syndrome
       slug: overcoming-imposter-syndrome
-    - title: How to overcome Perfectionism
-      slug: how-to-overcome-perfectionism
-    - title: CBT for Addiction and Substance Use
-      slug: cbt-for-addiction-and-substance-use
-    - title: CBT for Panic Disorder
-      slug: cbt-for-panic-disorder
-    - slug: cbt-for-insomnia
-      title: CBT for Insomnia
-    - title: Dealing with Health Anxiety
-      slug: dealing-with-health-anxiety
-    - title: Dealing with Social Anxiety
-      slug: dealing-with-social-anxiety
     - title: Self Compassion
       slug: self-compassion
-    - title: Overcoming Disordered Eating
-      slug: overcoming-disordered-eating
-    - title: Coping with Self-harming Behaviors with DBT
-      slug: coping-with-self-harming-behaviors-with-dbt
-    - title: CBT for Depression
-      slug: cbt-for-depression
+    - title: Managing workplace burnout and stress
+      slug: managing-workplace-burnout-and-stress
+    - title: How to overcome Perfectionism
+      slug: how-to-overcome-perfectionism
+    - title: Dealing with Social Anxiety
+      slug: dealing-with-social-anxiety
+    - title: Improving your Assertiveness
+      slug: improving-your-assertiveness
+    - title: The Science of Resilience and Coping
+      slug: the-science-of-resilience-and-coping
 references:
   - title: Enhancing Self-esteem in a community Mental health setting
     reference: Julie Hakim-Larson Ph.D., Chris Mruk Ph.D.
