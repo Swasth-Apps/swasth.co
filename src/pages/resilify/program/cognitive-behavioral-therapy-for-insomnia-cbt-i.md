@@ -81,36 +81,24 @@ sessions:
         overall.
 relatedpost:
   program:
-    - slug: cbt-for-bipolar-disorder
-      title: CBT for Bipolar Disorder
-    - slug: coping-with-ibs-(cbt)
-      title: Coping with IBS (CBT)
-    - slug: dealing-with-body-dysmorphia
-      title: Dealing with Body Dysmorphia
-    - slug: dealing-with-chronic-pain-with-cbt
-      title: Dealing with Chronic Pain with CBT
-    - slug: overcoming-imposter-syndrome
-      title: Overcoming Imposter Syndrome
-    - title: How to overcome Perfectionism
-      slug: how-to-overcome-perfectionism
-    - slug: cbt-for-addiction-and-substance-use
-      title: CBT for Addiction and Substance Use
-    - slug: cbt-for-panic-disorder
-      title: CBT for Panic Disorder
-    - slug: dealing-with-health-anxiety
-      title: Dealing with Health Anxiety
-    - slug: dealing-with-social-anxiety
-      title: Dealing with Social Anxiety
-    - title: Self Compassion
-      slug: self-compassion
-    - slug: overcoming-disordered-eating
-      title: Overcoming Disordered Eating
-    - slug: coping-with-self-harming-behaviors-with-dbt
-      title: Coping with Self-harming Behaviors with DBT
-    - slug: enhancing-self-esteem
-      title: Enhancing Self Esteem
+    - title: Dealing with Chronic Pain with CBT
+      slug: dealing-with-chronic-pain-with-cbt
+    - title: CBT for Panic Disorder
+      slug: cbt-for-panic-disorder
+    - title: Coping with IBS (CBT)
+      slug: coping-with-ibs-cbt
+    - title: Dealing with Body Dysmorphia
+      slug: dealing-with-body-dysmorphia
     - title: CBT for Depression
       slug: cbt-for-depression
+    - title: CBT for Bipolar Disorder
+      slug: cbt-for-bipolar-disorder
+    - title: Coping with Self-harming Behaviors with DBT
+      slug: coping-with-self-harming-behaviors-with-dbt
+    - title: Overcoming Disordered Eating
+      slug: overcoming-disordered-eating
+    - title: Overcoming Obsessive Compulsive Disorder
+      slug: overcoming-obsessive-compulsive-disorder
 references:
   - title: " Examination of insomnia and insomnia treatment in psychiatric
       inpatients. "
