@@ -63,10 +63,24 @@ sessions:
         practicing mindfulness.
 relatedpost:
   program:
+    - title: Dealing with Procrastination
+      slug: dealing-with-procrastination
+    - title: Enhancing Self-Esteem
+      slug: enhancing-self-esteem
+    - title: Overcoming Imposter Syndrome
+      slug: overcoming-imposter-syndrome
+    - title: Self Compassion
+      slug: self-compassion
+    - title: Managing workplace burnout and stress
+      slug: managing-workplace-burnout-and-stress
+    - title: How to overcome Perfectionism
+      slug: how-to-overcome-perfectionism
+    - title: Dealing with Social Anxiety
+      slug: dealing-with-social-anxiety
+    - title: Improving your Assertiveness
+      slug: improving-your-assertiveness
     - title: The Science of Resilience and Coping
       slug: the-science-of-resilience-and-coping
-    - title: The Science of Gratitude and Well-Being
-      slug: the-science-of-gratitude-and-well-being
 references:
   - reference: Rosalind J. Woodworth, Angela O'Brien‐Malone, Mark R. Diamond,
       Benjamin Schüz, 10.1002/jclp.22328, 73, 3, (218-232), (2016).
