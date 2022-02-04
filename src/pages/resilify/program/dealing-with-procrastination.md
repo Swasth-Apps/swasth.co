@@ -29,18 +29,26 @@ sessions:
     - title: Keeping up with Progress
 relatedpost:
   program:
-    - title: Dealing with Health Anxiety
-      slug: dealing-with-health-anxiety
-    - slug: how-to-overcome-perfectionism
-      title: How to overcome Perfectionism
-    - title: Improving your Assertiveness
-      slug: improving-your-assertiveness
+    - title: Positive Psychology
+      slug: positive-psychology
     - title: The Science of Gratitude and Well-Being
       slug: the-science-of-gratitude-and-well-being
+    - title: Enhancing Self-Esteem
+      slug: enhancing-self-esteem
+    - title: Overcoming Imposter Syndrome
+      slug: overcoming-imposter-syndrome
     - slug: self-compassion
       title: Self Compassion
-    - slug: overcoming-disordered-eating
-      title: Overcoming Disordered Eating
+    - title: Managing workplace burnout and stress
+      slug: managing-workplace-burnout-and-stress
+    - slug: how-to-overcome-perfectionism
+      title: How to overcome Perfectionism
+    - title: Dealing with Social Anxiety
+      slug: dealing-with-social-anxiety
+    - title: Improving your Assertiveness
+      slug: improving-your-assertiveness
+    - slug: the-science-of-gratitude-and-well-being
+      title: The Science of Resilience and Coping
 references:
   - title: Understanding Procrastination
     reference: Chrisoula Andreou, 260 S. Central Campus Dr. Philosophy Department,
