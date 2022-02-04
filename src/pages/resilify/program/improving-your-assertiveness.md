@@ -26,12 +26,26 @@ sessions:
     - title: Adopting new ways of living
 relatedpost:
   program:
+    - title: The Science of Gratitude and Wellbeing
+      slug: the-science-of-gratitude-and-well-being
     - title: Dealing with Procrastination
       slug: dealing-with-procrastination
-    - title: Dealing with Social Anxiety
-      slug: dealing-with-social-anxiety
+    - title: Enhancing Self-Esteem
+      slug: enhancing-self-esteem
+    - title: Overcoming Imposter Syndrome
+      slug: overcoming-imposter-syndrome
+    - title: Self Compassion
+      slug: self-compassion
+    - title: Managing workplace burnout and stress
+      slug: managing-workplace-burnout-and-stress
     - title: How to overcome Perfectionism
       slug: how-to-overcome-perfectionism
+    - title: Dealing with Social Anxiety
+      slug: dealing-with-social-anxiety
+    - title: Improving your Assertiveness
+      slug: improving-your-assertiveness
+    - title: The Science of Resilience and Coping
+      slug: the-science-of-resilience-and-coping
 references:
   - title: Evaluation of assertiveness training for psychiatric patients
     reference: "Kuei-Ru Chou, Professor, Director of Graduate Institute of Nursing,
