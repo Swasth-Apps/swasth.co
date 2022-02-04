@@ -70,36 +70,22 @@ sessions:
         triggers in the future.
 relatedpost:
   program:
+    - title: Dealing with Chronic Pain with CBT
+      slug: dealing-with-chronic-pain-with-cbt
     - title: CBT for Bipolar Disorder
       slug: cbt-for-bipolar-disorder
     - title: Coping with IBS (CBT)
       slug: coping-with-ibs-(cbt)
     - title: Dealing with Body Dysmorphia
       slug: dealing-with-body-dysmorphia
-    - title: Dealing with Chronic Pain with CBT
-      slug: dealing-with-chronic-pain-with-cbt
-    - title: Overcoming Imposter Syndrome
-      slug: overcoming-imposter-syndrome
-    - title: How to overcome Perfectionism
-      slug: how-to-overcome-perfectionism
-    - title: CBT for Addiction and Substance Use
-      slug: cbt-for-addiction-and-substance-use
-    - title: CBT for Insomnia
-      slug: cbt-for-insomnia
-    - title: Dealing with Health Anxiety
-      slug: dealing-with-health-anxiety
-    - title: Dealing with Social Anxiety
-      slug: dealing-with-social-anxiety
-    - title: Self Compassion
-      slug: self-compassion
-    - title: Overcoming Disordered Eating
-      slug: overcoming-disordered-eating
-    - title: Coping with Self-harming Behaviors with DBT
-      slug: coping-with-self-harming-behaviors-with-dbt
-    - title: Enhancing Self Esteem
-      slug: enhancing-self-esteem
     - title: CBT for Depression
       slug: cbt-for-depression
+    - title: Coping with Self-harming Behaviors with DBT
+      slug: coping-with-self-harming-behaviors-with-dbt
+    - title: Overcoming Disordered Eating
+      slug: overcoming-disordered-eating
+    - title: Overcoming Obsessive Compulsive Disorder
+      slug: overcoming-obsessive-compulsive-disorder
 references:
   - title: "Psychotherapists' ideals in the treatment of panic disorder: An
       exploratory study"
