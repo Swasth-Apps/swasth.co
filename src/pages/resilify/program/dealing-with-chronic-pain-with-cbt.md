@@ -21,6 +21,8 @@ sessions:
     - title: Communication & Social Support
 relatedpost:
   program:
+    - title: Positive Psychology
+      slug: positive-psychology
     - title: CBT for Panic Disorder
       slug: cbt-for-panic-disorder
     - title: Coping with IBS (CBT)
