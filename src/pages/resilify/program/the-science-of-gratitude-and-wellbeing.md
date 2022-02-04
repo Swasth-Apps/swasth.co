@@ -77,22 +77,26 @@ sessions:
         think positively and appreciate the little things in life.
 relatedpost:
   program:
-    - slug: the-science-of-resilience-and-coping
-      title: The Science of Resilience and Coping
-    - title: Dealing with Procrastination
-      slug: dealing-with-procrastination
-    - slug: improving-your-assertiveness
-      title: Improving your Assertiveness
-    - title: Dealing with Health Anxiety
-      slug: dealing-with-health-anxiety
-    - title: Dealing with Social Anxiety
-      slug: dealing-with-social-anxiety
     - title: Positive Psychology
       slug: positive-psychology
+    - title: Dealing with Procrastination
+      slug: dealing-with-procrastination
+    - title: Enhancing Self-Esteem
+      slug: enhancing-self-esteem
+    - title: Overcoming Imposter Syndrome
+      slug: overcoming-imposter-syndrome
     - title: Self Compassion
       slug: self-compassion
-    - title: Overcoming Disordered Eating
-      slug: overcoming-disordered-eating
+    - slug: managing-workplace-burnout-and-stress
+      title: Managing workplace burnout and stress
+    - slug: how-to-overcome-perfectionism
+      title: How to overcome Perfectionism
+    - title: Dealing with Social Anxiety
+      slug: dealing-with-social-anxiety
+    - title: Improving your Assertiveness
+      slug: improving-your-assertiveness
+    - title: The Science of Resilience and Coping
+      slug: the-science-of-resilience-and-coping
 references:
   - title: "Effects of gratitude intervention on mental health and well-being among
       workers: A systematic review"
