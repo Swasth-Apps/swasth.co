@@ -33,6 +33,52 @@ import TopBg from "../../assets/images/top-bg.png";
 
 const features = [
     {
+        title: "Tailored Programs",
+        description: "Our Resilify Platform offers programs based on evidence-based treatment modalities that last anywhere from 6-12 weeks.",
+        "image": programImg
+    },
+     {
+        title: "Self-guided",
+        description: "All our programs are self-guided with intuitive digital tools that enable you to work on the programs at your convenience anytime, anywhere.",
+        "image": exerciseImg
+    },
+    {
+        title: "Progress Monitoring",
+        description: "Follow your journey to better behavioral health with personalized symptom and lifestyle habit tracking.",
+        "image": insightsImg
+    },
+    {
+        title: "Video-guided Lessons",
+        description: "All our programs contain video-guided lessons along with comprehensive text-based microlessons to enable you to grasp the concepts quickly and retain them longer.",
+        "image": lessonImg
+    },
+    {
+        title: "Daily Checkin",
+        description: "Reduce stress and manage your symptoms with specifically designed check-in tools such as mood, emotion, activity, sleep, etc., along with exercise practices.",
+        "image": dailyCheckinImg
+    },
+    {
+        title: "Digital Tools",
+        description: "Quickly access mindfulness and program-specific tools that you can do daily to uplift your mental health.",
+        "image": toolsImg
+    },
+    {
+        title: "Meditations",
+        description: "Access meditations by leading meditation teachers from around the world that are relevant to the programs you are working on.",
+        "image": meditationImg
+    },
+    {
+        title: "Breathing",
+        description: "Use our state-of-the-art breathing tool that you can customize for your use. It contains specific evidence-based practices for different situations.",
+        "image": breathingExercise
+    },
+    {
+        title: "Community",
+        description: "Be part of the Resilify community where you can learn from others as well as get support from peers for whatever situation you are in.",
+        "image": communityImg
+    },
+    /*
+    {
         title: "Guided IBS care toolkit",
         description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
         "image": gratitudeImg
@@ -43,37 +89,6 @@ const features = [
         description: "Follow your journey to better gut health with personalized symptom and lifestyle habit tracking.",
         "image": dashboardImg
     },
-
-    {
-        title: "Tailored CBT program",
-        description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
-        "image": toolsImg
-    },
-
-    {
-        title: "Tailored CBT program",
-        description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
-        "image": communityImg
-    },
-
-    {
-        title: "Tailored CBT program",
-        description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
-        "image": exerciseImg
-    },
-
-    {
-        title: "Tailored CBT program",
-        description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
-        "image": insightsImg
-    },
-
-    {
-        title: "Tailored CBT program",
-        description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
-        "image": lessonImg
-    },
-
     {
         title: "Tailored CBT program",
         description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
@@ -85,22 +100,13 @@ const features = [
         description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
         "image": moreImg
     },
-
-    {
-        title: "Tailored CBT program",
-        description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
-        "image": programImg
-    },
-    {
-        title: "Tailored CBT program",
-        description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
-        "image": dailyCheckinImg
-    },
+    
     {
         title: "Tailored CBT program",
         description: "Reduce stress and manage your IBS symptoms with specifically designed exercise practices.",
         "image": breathingExercise
     }
+    */
 ]
 
 const numberFormat = num => num?.toString()?.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -133,13 +139,11 @@ const ResilifyScreen = (props) => {
                                     <Row className='card-row'>
                                         <Col md={12} className="content">
                                             <h3 className='bottom-space heavy-text program-grounded' style={{color: "#fff"}}>
-                                                Self-guided Programs<br/>
+                                                Effective Digital Programs<br/>
                                             </h3>
                                             <div className='para-text black-18-font margin-bottom-25'>
                                                 <p className="width-90 description-text">
-                                                    Our Resilify Platform offers self-guided programs based on
-                                                    evidence-based treatment modalities that last anywhere from 6-12
-                                                    weeks.
+                                                    Resilify provides accessible, personalized programs that transform behavioral health and restore mental wellbeing.
                                                 </p>
                                             </div>
 
@@ -186,13 +190,11 @@ const ResilifyScreen = (props) => {
                         <span className='-highlighted-text'>
                             Empowering individuals</span>
                         <br/>
-                        to better gut health
+                        to better behavioral health
                     </p>
                     <div className='book-text black-18-font'>
                         <p className="description-text">
-                            Cognitive behavioral therapy (CBT) generates on average the highest clinical outcomes for
-                            IBS, improving both physical symptoms and overall wellbeing. Zemedy provides a comprehensive
-                            digital CBT-based program for individuals with IBS when and where they need it.
+                            Resilify’s programs are built on evidence-based treatment modalities such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), Acceptance and Commitment Therapy (ACT), Motivational Interviewing (MI), etc. Resilify provides a comprehensive digital platform for individual when and where they need it.
                         </p>
                     </div>
                 </Col>
@@ -242,10 +244,9 @@ const ResilifyScreen = (props) => {
 
             <div className="resilify-result-content-section divider">
                 <h3 className="heavy-text center margin-bottom-25 comprehensive-text">Results that last</h3>
-                <p className="description-text center"> Combining data science and CBT techniques
-                    developed at
+                <p className="description-text center"> Combining technology and data science developed in collaboration with leading experts in 
                     <br/>
-                    the University of Pennsylvania, Resilify is a carepath to
+                    evidence-based techniques (CBT, DBT, ACT, CFT, MI, etc.), Resilify is a care path to
                     <br/>
                     long-lasting symptom relief within weeks.</p>
                 <div className="overview-bhp-flex-section">
@@ -253,23 +254,11 @@ const ResilifyScreen = (props) => {
                         <div className="flex-section">
                             <div className="section">
                                 <img
-                                    src={ResultStat1}
-                                />
-
-                                <p className="medium-text title">
-                                    Better overall health </p>
-                                <p className="book-text text">
-                                    Through a personalized journey with individual health assessments
-                                </p>
-                            </div>
-                        </div>
-                        <div className="flex-section">
-                            <div className="section">
-                                <img
                                     src={ResultStat2}
                                 />
 
-                                <p className="medium-text title">Improved mental wellbeing</p>
+                                <p className="medium-text title">
+                                    Boost Resilience </p>
                                 <p className="book-text text">
                                     Restoring the balance between mind and body through mindfulness exercises
                                 </p>
@@ -281,9 +270,21 @@ const ResilifyScreen = (props) => {
                                     src={ResultStat3}
                                 />
 
-                                <p className="medium-text title">Boosted productivity</p>
+                                <p className="medium-text title">Boost Resilience</p>
                                 <p className="book-text text">
-                                    Providing the strength to live a limitless life unaffected by a chronic condition
+                                    Providing the strength and the tools to deal with life’s ups and downs.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="flex-section">
+                            <div className="section">
+                                <img
+                                    src={ResultStat1}
+                                />
+
+                                <p className="medium-text title">Better overall health</p>
+                                <p className="book-text text">
+                                    Through a personalized journey with individual health assessments
                                 </p>
                             </div>
                         </div>
@@ -303,8 +304,7 @@ const ResilifyScreen = (props) => {
                     </p>
                     <div className='book-text black-18-font'>
                         <p className="description-text">
-                            Reduce your staff healthcare costs and minimize the impact of IBS on your business by
-                            introducing Zemedy to your team.
+                            Reduce your staff healthcare costs and improve employee mental wellness by introducing Resilify to your team.
                         </p>
                     </div>
                     <div className="statistic-container">
@@ -368,7 +368,7 @@ const ResilifyScreen = (props) => {
                     </p>
                     <div className='book-text black-18-font'>
                         <p className="description-text">
-                            Generating long-lasting outcomes, Zemedy can save over 20% of spend for employers and payers in the first year
+                            Generating long-lasting outcomes, Resilify can save over 20% of spend for employers and payers in the first year
                         </p>
                     </div>
                     <button className='request-demo-btn'
