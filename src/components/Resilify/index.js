@@ -258,7 +258,7 @@ const ResilifyScreen = (props) => {
                                 />
 
                                 <p className="medium-text title">
-                                    Boost Resilience </p>
+                                    Improved wellness </p>
                                 <p className="book-text text">
                                     Restoring the balance between mind and body through mindfulness exercises
                                 </p>
@@ -315,7 +315,7 @@ const ResilifyScreen = (props) => {
                                     30%
                                 </h2>
                                 <p className="book-text">
-                                    American adults affected by IBS
+                                    American adults affected by Mental Health Issues
                                 </p>
                             </div>
                         </div>
