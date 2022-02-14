@@ -1,6 +1,6 @@
 ---
 templateKey: resilify-program
-title: CBT for Bipolar Disorder
+title: Dealing with Bipolar Disorder  - A CBT Approach
 image: bipolar-disorder.png
 programId: 7fe58f40-6262-11eb-8435-7358703ce52a
 sequence: 115
