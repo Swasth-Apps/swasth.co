@@ -78,7 +78,7 @@ relatedpost:
       slug: coping-with-ibs-(cbt)
     - title: Dealing with Body Dysmorphia
       slug: dealing-with-body-dysmorphia
-    - title: CBT for Depression
+    - title: Overcoming Depression - A CBT Approach
       slug: cbt-for-depression
     - title: Coping with Self-harming Behaviors with DBT
       slug: coping-with-self-harming-behaviors-with-dbt
