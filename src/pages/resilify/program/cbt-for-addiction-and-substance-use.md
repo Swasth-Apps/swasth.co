@@ -26,7 +26,7 @@ relatedpost:
   program:
     - title: Coping with IBS (CBT)
       slug: coping-with-ibs-(cbt)
-    - title: CBT for Bipolar Disorder
+    - title: Dealing with Bipolar Disorder  - A CBT Approach
       slug: cbt-for-bipolar-disorder
     - title: Dealing with Body Dysmorphia
       slug: dealing-with-body-dysmorphia
@@ -38,11 +38,11 @@ relatedpost:
       slug: how-to-overcome-perfectionism
     - title: CBT for Insomnia
       slug: cbt-for-insomnia
-    - title: CBT for Panic Disorder
+    - title: Coping with Panic Disorder
       slug: cbt-for-panic-disorder
     - title: Dealing with Health Anxiety
       slug: dealing-with-health-anxiety
-    - title: Self Compassion
+    - title: Cultivating Self Compassion
       slug: self-compassion
     - title: Overcoming Disordered Eating
       slug: overcoming-disordered-eating
