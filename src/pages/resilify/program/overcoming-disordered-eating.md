@@ -32,15 +32,15 @@ relatedpost:
       slug: coping-with-ibs-(cbt)
     - title: Dealing with Body Dysmorphia
       slug: dealing-with-body-dysmorphia
-    - title: CBT for Depression
+    - title: Overcoming Depression - A CBT Approach
       slug: cbt-for-depression
-    - title: CBT for Bipolar Disorder
+    - title: Dealing with Bipolar Disorder  - A CBT Approach
       slug: cbt-for-bipolar-disorder
     - title: Coping with Self-harming Behaviors with DBT
       slug: coping-with-self-harming-behaviors-with-dbt
     - title: Cognitive Behavioral Therapy for Insomnia (CBT-I)
       slug: cognitive-behavioral-therapy-for-insomnia-cbt-i
-    - title: Overcoming Obsessive Compulsive Disorder
+    - title: Overcoming Obsessive Compulsive Disorder (OCD)
       slug: overcoming-obsessive-compulsive-disorder
 references:
   - title: "Eating disorders and disordered eating in Israel: An updated review"
