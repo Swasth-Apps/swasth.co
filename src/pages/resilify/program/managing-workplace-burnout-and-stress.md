@@ -29,7 +29,7 @@ relatedpost:
       slug: dealing-with-procrastination
     - title: Overcoming Imposter Syndrome
       slug: overcoming-imposter-syndrome
-    - title: Self Compassion
+    - title: Cultivating Self Compassion
       slug: self-compassion
     - title: Positive Psychology
       slug: positive-psychology
