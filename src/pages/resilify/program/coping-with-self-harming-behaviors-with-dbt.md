@@ -102,7 +102,7 @@ relatedpost:
       slug: cbt-for-bipolar-disorder
     - title: Overcoming Disordered Eating
       slug: overcoming-disordered-eating
-    - title: Overcoming Obsessive Compulsive Disorder
+    - title: Overcoming Obsessive Compulsive Disorder (OCD)
       slug: overcoming-obsessive-compulsive-disorder
 references:
   - title: Long term effectiveness of dialectical behavior therapy versus enhanced
