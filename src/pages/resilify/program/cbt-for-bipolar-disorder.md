@@ -32,7 +32,7 @@ relatedpost:
   program:
     - title: Dealing with Chronic Pain with CBT
       slug: dealing-with-chronic-pain-with-cbt
-    - title: CBT for Panic Disorder
+    - title: Coping with Panic Disorder
       slug: cbt-for-panic-disorder
     - title: Coping with IBS (CBT)
       slug: coping-with-ibs-cbt
