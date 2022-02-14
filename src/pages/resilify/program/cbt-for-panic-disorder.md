@@ -1,6 +1,6 @@
 ---
 templateKey: resilify-program
-title: CBT for Panic Disorder
+title: Coping with Panic Disorder
 image: panic-disorder.jpg
 programId: f58bb000-626a-11eb-85d3-49b99fa00026
 sequence: 107
