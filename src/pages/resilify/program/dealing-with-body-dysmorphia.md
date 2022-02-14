@@ -40,7 +40,7 @@ relatedpost:
       slug: dealing-with-body-dysmorphia
     - title: Overcoming Disordered Eating
       slug: overcoming-disordered-eating
-    - title: Overcoming Obsessive Compulsive Disorder
+    - title: Overcoming Obsessive Compulsive Disorder (OCD)
       slug: overcoming-obsessive-compulsive-disorder
 references:
   - title: "Body dysmorphic disorder. In: Diagnostic and Statistical Manual of
