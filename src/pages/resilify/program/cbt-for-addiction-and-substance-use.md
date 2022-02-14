@@ -51,7 +51,7 @@ relatedpost:
     - title: Enhancing Self Esteem
       slug: enhancing-self-esteem
     - slug: cbt-for-depression
-      title: CBT for Depression
+      title: Overcoming Depression - A CBT Approach
     - title: Coping with Self-harming Behaviors with DBT
       slug: coping-with-self-harming-behaviors-with-dbt
 ---
