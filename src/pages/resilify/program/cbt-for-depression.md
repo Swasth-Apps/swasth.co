@@ -1,6 +1,6 @@
 ---
 templateKey: resilify-program
-title: CBT for Depression
+title: Overcoming Depression - A CBT Approach
 image: Depression.png
 programId: bdcb3f60-5648-11eb-9e12-718c32fef95b
 sequence: 114
