@@ -34,7 +34,7 @@ relatedpost:
       slug: enhancing-self-esteem
     - title: Overcoming Imposter Syndrome
       slug: overcoming-imposter-syndrome
-    - title: Self Compassion
+    - title: Cultivating Self Compassion
       slug: self-compassion
     - title: Managing workplace burnout and stress
       slug: managing-workplace-burnout-and-stress
@@ -50,7 +50,7 @@ relatedpost:
       slug: overcoming-disordered-eating
     - title: Enhancing Self Esteem
       slug: enhancing-self-esteem
-    - title: CBT for Depression
+    - title: Overcoming Depression - A CBT Approach
       slug: cbt-for-depression
     - title: Coping with Self-harming Behaviors with DBT
       slug: coping-with-self-harming-behaviors-with-dbt
