@@ -83,15 +83,15 @@ relatedpost:
   program:
     - title: Dealing with Chronic Pain with CBT
       slug: dealing-with-chronic-pain-with-cbt
-    - title: CBT for Panic Disorder
+    - title: Coping with Panic Disorder
       slug: cbt-for-panic-disorder
     - title: Coping with IBS (CBT)
       slug: coping-with-ibs-cbt
     - title: Dealing with Body Dysmorphia
       slug: dealing-with-body-dysmorphia
-    - title: CBT for Depression
+    - title: Overcoming Depression - A CBT Approach
       slug: cbt-for-depression
-    - title: CBT for Bipolar Disorder
+    - title: Dealing with Bipolar Disorder  - A CBT Approach
       slug: cbt-for-bipolar-disorder
     - title: Coping with Self-harming Behaviors with DBT
       slug: coping-with-self-harming-behaviors-with-dbt
