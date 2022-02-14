@@ -35,7 +35,7 @@ relatedpost:
       slug: coping-with-self-harming-behaviors-with-dbt
     - title: Overcoming Disordered Eating
       slug: overcoming-disordered-eating
-    - title: Overcoming Obsessive Compulsive Disorder
+    - title: Overcoming Obsessive Compulsive Disorder (OCD)
       slug: overcoming-obsessive-compulsive-disorder
 references:
   - title: Empirical support for a self-help treatment for IBS. Cognitive Therapy
