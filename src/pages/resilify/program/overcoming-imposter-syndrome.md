@@ -35,7 +35,7 @@ relatedpost:
       title: Enhancing Self Esteem
     - title: Positive Psychology
       slug: positive-psychology
-    - title: Self Compassion
+    - title: Cultivating Self Compassion
       slug: self-compassion
     - title: Managing workplace burnout and stress
       slug: managing-workplace-burnout-and-stress
