@@ -1,6 +1,6 @@
 ---
 templateKey: resilify-program
-title: Overcoming Obsessive Compulsive Disorder
+title: Overcoming Obsessive Compulsive Disorder (OCD)
 image: oocd.png
 programId: 69358790-da40-11eb-b9ea-550d51a1089b
 sequence: 123
@@ -26,9 +26,9 @@ relatedpost:
       slug: coping-with-ibs-(cbt)
     - title: Dealing with Body Dysmorphia
       slug: dealing-with-body-dysmorphia
-    - title: CBT for Depression
+    - title: Overcoming Depression - A CBT Approach
       slug: cbt-for-depression
-    - title: CBT for Bipolar Disorder
+    - title: Dealing with Bipolar Disorder  - A CBT Approach
       slug: cbt-for-bipolar-disorder
     - title: Coping with Self-harming Behaviors with DBT
       slug: coping-with-self-harming-behaviors-with-dbt
