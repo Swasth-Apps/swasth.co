@@ -72,7 +72,7 @@ relatedpost:
   program:
     - title: Dealing with Chronic Pain with CBT
       slug: dealing-with-chronic-pain-with-cbt
-    - title: CBT for Bipolar Disorder
+    - title: Dealing with Bipolar Disorder  - A CBT Approach
       slug: cbt-for-bipolar-disorder
     - title: Coping with IBS (CBT)
       slug: coping-with-ibs-(cbt)
