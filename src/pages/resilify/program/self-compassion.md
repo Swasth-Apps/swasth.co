@@ -1,6 +1,6 @@
 ---
 templateKey: resilify-program
-title: Self Compassion
+title: Cultivating Self Compassion
 image: self-compasssion.png
 programId: 1d7df8d0-ac9d-11eb-a609-9bd2845cb169
 sequence: 120
