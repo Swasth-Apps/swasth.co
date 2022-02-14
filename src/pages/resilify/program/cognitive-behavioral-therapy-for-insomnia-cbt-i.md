@@ -1,6 +1,6 @@
 ---
 templateKey: resilify-program
-title: Cognitive Behavioral Therapy for Insomnia (CBT-I)
+title: Dealing with insomnia (sleep issues) - A CBT Approach (CBT-I)
 image: Insomnia.png
 programId: 78283460-32f1-11eb-b348-0f33fb0d0846
 sequence: 102
