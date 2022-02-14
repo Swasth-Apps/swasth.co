@@ -38,7 +38,7 @@ relatedpost:
     - title: Overcoming Imposter Syndrome
       slug: overcoming-imposter-syndrome
     - slug: self-compassion
-      title: Self Compassion
+      title: Cultivating Self Compassion
     - title: Managing workplace burnout and stress
       slug: managing-workplace-burnout-and-stress
     - slug: how-to-overcome-perfectionism
