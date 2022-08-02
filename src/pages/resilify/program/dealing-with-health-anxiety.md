@@ -16,7 +16,7 @@ sessions:
   session:
     - title: Understanding Health anxiety
     - title: How health anxiety is developed and maintained?
-    - title: Re- training your focus on health symptoms
+    - title: Breaking the Health Anxiety Cycle
     - title: Dealing with anxiety provoking thoughts
     - title: Adjusting health related rules and assumptions
     - title: Reducing checking and reassurance seeking behaviors
