@@ -15,7 +15,7 @@ class HomeIndex extends React.Component {
               />
               <meta property="og:type" content="article"/>
               <meta property="og:url" content="https://resiliens.com/act-coach/"/>
-              <meta property="og:image" content="https://resiliens-dev.netlify.app/static/ACT-splash-4e20838d8f7d3be55e7fc7d8cf9d1af7.png"/>
+              <meta property="og:image" content="https://resiliens.netlify.app/static/ACT-splash-4e20838d8f7d3be55e7fc7d8cf9d1af7.png"/>
               <meta property="og:image:width" content="200" />
               <meta property="og:image:height" content="200" />
           </Helmet>
