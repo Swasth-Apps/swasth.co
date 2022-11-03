@@ -21,6 +21,9 @@ const ResilifyProgram = (props) => {
         setTimeout(() => {
             window.location.replace(isIOS ? 'itms-apps://itunes.apple.com/app/dbt-coach/id1452264969' : 'market://details?id=co.swasth.dbtcoach');
         }, 250);
+        setTimeout(() => {
+            window.location.replace(isIOS ? 'https://apps.apple.com/us/app/resilify-for-resilience/id1542737490' : 'https://play.google.com/store/apps/details?id=co.swasth.resilify');
+        }, 250);
 
     }
 
