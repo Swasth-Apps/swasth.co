@@ -3,7 +3,7 @@ templateKey: resilify-program
 title: Positive Psychology
 image: Positive-Psychology.png
 programId: 41ce1fb0-45ca-11eb-ae86-ad45e76090e1
-sequence: 98
+sequence: 99
 overview: >-
   <p><span style="font-weight: 400;">Positive psychology is an evidence-based
   field of psychology that focuses on what factors are necessary for individuals
