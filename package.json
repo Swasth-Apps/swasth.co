@@ -14,7 +14,7 @@
     "cloudinary-core": "^2.11.3",
     "dotenv": "^8.2.0",
     "gatsby": "^2.0.0",
-    "gatsby-plugin-create-client-paths": "^3.4.0",
+    "gatsby-plugin-create-client-paths": "3.4.0",
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-netlify": "^2.1.32",
     "gatsby-plugin-netlify-cms": "^4.1.40",
